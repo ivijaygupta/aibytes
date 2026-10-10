@@ -8,7 +8,7 @@ priority: urgent
 type: newsletter
 due: 2026-10-11
 created_at: 2026-10-10T23:37:28.210Z
-updated_at: 2026-10-10T23:38:58.701Z
+updated_at: 2026-10-10T23:54:54.567Z
 ---
 
 Weekly aiBytes_ Issue #13.
@@ -22,7 +22,7 @@ Checklist copied from Issue #12 (AIB-60g).
 
 ## Checklist
 
-- [ ] Fetch weekly sources (ProductHunt, HackerNews, TechCrunch, GitHub) <!-- longclaw:item=ck_4154dd5e -->
+- [x] Fetch weekly sources (ProductHunt, HackerNews, TechCrunch, GitHub) <!-- longclaw:item=ck_4154dd5e -->
 - [ ] Shortlist X posts for Viral on X <!-- longclaw:item=ck_46f65ed3 -->
 - [ ] Decide whether to include the Official Announcements section from X <!-- longclaw:item=ck_1ea48bdf -->
 - [ ] Generate Weekly Content <!-- longclaw:item=ck_9139f2d6 -->
@@ -63,4 +63,36 @@ changes:
     to: in_progress
 -->
 ### You updated this ticket
+<!-- /longclaw:event -->
+
+<!-- longclaw:event
+id: evt_d9cc3fcb
+kind: comment
+occurred_at: 2026-10-10T23:41:02.648Z
+actor:
+  type: agent
+  id: claude-code
+  name: Claude Code
+-->
+### Claude Code commented
+
+Fetched ProductHunt (5), HackerNews (10 of 74) and TechCrunch (10 of 69) into newsletter/data/2026/10/weeks/week-41/. GitHub failed: github.com/trending returns 504 Gateway Time-out within 0.1s on every try (3 fetch runs, 3 curl probes), while api.github.com answers 200, so the outage is on GitHub's side. Fetch item stays unchecked until GitHub lands.
+<!-- /longclaw:event -->
+
+<!-- longclaw:event
+id: evt_14acfdb0
+kind: update
+occurred_at: 2026-10-10T23:54:54.567Z
+actor:
+  type: agent
+  id: claude-code
+  name: Claude Code
+changes:
+  - field: checklist.ck_4154dd5e.checked
+    from: "false"
+    to: "true"
+-->
+### Claude Code updated this ticket
+
+GitHub fetched live once github.com/trending recovered: 7 repos from a pool of 13. The AI filter passed only thedotmack/claude-mem and mvschwarz/openrig; the publisher added mattpocock/skills, heygen-com/hyperframes, earthtojake/text-to-cad, cursor/plugins and ranxianglei/billion-context by hand, because the filter skips the bare word 'agent'. Widening the filter is tracked separately. All four week-41 sources are in.
 <!-- /longclaw:event -->
