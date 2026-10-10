@@ -143,6 +143,9 @@ match), and that `npm test -w @aibytes/web` and `npm run build:web` pass.
 ## Success criteria
 
 1. At ≥900px, `.app-cols .app-grid` computes to `repeat(auto-fill, minmax(360px, 1fr))`.
+   *Amended 2026-10-11 by AIB-83x: the 360px now comes from `--app-card-min` on
+   `.app-cols .app-main`, read by the one `.app-grid` rule. The computed columns
+   are unchanged. See `docs/specs/AIB-83x-single-column-view.md`.*
 2. At 1440×900 the app shows three columns of ~370px cards, the same as the
    prototype at the same size.
 3. Columns at 900, 1032, 1033, 1280 and 1920 match the table above.

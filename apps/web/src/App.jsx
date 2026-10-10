@@ -13,7 +13,8 @@ import { loadEdition, loadIndex, loadTags } from "./content.js";
 import { CATEGORIES, countMatches, describeFilters, filtersToSearch, matches, NO_FILTERS, parseFilters, SOURCES, toggle } from "./filters.js";
 import { FOOTER_LINKS, SUBSCRIBE_URL } from "./footer.js";
 import { ago, longDate, midDate, shortDate } from "./format.js";
-import { useChoice, useDismiss, useMedia, useReturnFocus, useTheme } from "./hooks.js";
+import { useChoice, useDismiss, useGridColumns, useMedia, useReturnFocus, useTheme } from "./hooks.js";
+import { shownView } from "./layout.js";
 import { groupedItems, rankedItems } from "./order.js";
 import { ORDER, VIEW } from "./prefs.js";
 import { localDate, railDate, railEditions } from "./rail.js";
@@ -66,6 +67,11 @@ export function App() {
   const closePanel = React.useCallback(() => setPanel(null), []);
   const sticky = React.useRef(null);
   const shell = React.useRef(null);
+  // At one column grid and list look alike, so Cards show and the toggle hides;
+  // the stored view is kept for when there is room again (spec AIB-83x).
+  const [mainEl, setMainEl] = React.useState(null);
+  const columns = useGridColumns(mainEl);
+  const shown = shownView(view, columns);
   useDismiss(sticky, panel !== null, closePanel);
   useStickyHeights(shell, wide);
   useReturnFocus(panel !== null);
@@ -128,10 +134,10 @@ export function App() {
   const setCategory = (key) => setFilters({ ...filters, category: key });
 
   const main = (
-    <main className="app-main" id="main" tabIndex={-1}>
+    <main className="app-main" id="main" tabIndex={-1} ref={setMainEl}>
       {/* With no edition bar, its h1 moves here, unseen, so the outline stays h1 > h2 > h3. */}
       {wide && ref && <h1 className="app-sr">{longDate(ref.date)}</h1>}
-      {body({ route, index, ref, edition, view, mode, items, filters, older, prev, goTo, clearFilters: () => setFilters(NO_FILTERS) })}
+      {body({ route, index, ref, edition, view: shown, mode, items, filters, older, prev, goTo, clearFilters: () => setFilters(NO_FILTERS) })}
     </main>
   );
 
@@ -144,7 +150,7 @@ export function App() {
           onCategory={setCategory}
           tagCount={filters.tags.length} tagsOpen={panel === "tags"} sourcesOpen={panel === "sources"} onOpenTags={filterable && tagGroups.length ? () => onPanel("tags") : undefined}
           sourceCount={filters.sources.length} onOpenSources={filterable ? () => onPanel("sources") : undefined}
-          view={view} onView={setView} theme={theme} onToggleTheme={toggleTheme}
+          view={view} onView={columns > 1 ? setView : undefined} theme={theme} onToggleTheme={toggleTheme}
           mode={mode} onMode={compact ? undefined : setMode} />
         {ref && !wide && <Bar refAt={ref} editions={editions} compact={compact} search={location.search} navigate={navigate} />}
         {panel === "tags" && (
