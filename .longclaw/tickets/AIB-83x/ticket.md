@@ -3,13 +3,13 @@ format: longclaw.ticket/v1
 id: 2fb5c26e-50a5-485d-8a30-33ec7bbc40b7
 key: AIB-83x
 title: Hide the grid/list toggle whenever the grid is one column
-status: in_progress
+status: done
 priority: p2
 labels:
   - app
 type: feature
 created_at: 2026-10-10T23:06:43.477Z
-updated_at: 2026-10-10T23:14:45.978Z
+updated_at: 2026-10-10T23:35:12.164Z
 ---
 
 Whenever the edition grid is one column, hide the grid/list view toggle in the Header and show Cards, even if list view is selected. A single card in a row looks the same in either mode, and a ListRow doesn't have the width for its row layout there.
@@ -43,7 +43,7 @@ Both cases count. Because the grid is `auto-fill`, the implementation should wor
 
 ## Checklist
 
-- [ ] T1: one column means Cards and no toggle (docs/plans/AIB-83x-todo.md) <!-- longclaw:item=ck_ba3d9c06 -->
+- [x] T1: one column means Cards and no toggle (docs/plans/AIB-83x-todo.md) <!-- longclaw:item=ck_ba3d9c06 -->
 ## Activity
 
 <!-- longclaw:event
@@ -115,4 +115,24 @@ changes:
     to: "T1: one column means Cards and no toggle (docs/plans/AIB-83x-todo.md)"
 -->
 ### claude-code updated this ticket
+<!-- /longclaw:event -->
+
+<!-- longclaw:event
+id: evt_2d743705
+kind: update
+occurred_at: 2026-10-10T23:35:12.164Z
+actor:
+  type: agent
+  id: claude-code
+changes:
+  - field: status
+    from: in_progress
+    to: done
+  - field: checklist.ck_ba3d9c06.checked
+    from: "false"
+    to: "true"
+-->
+### claude-code updated this ticket
+
+T1 shipped in PR #36: one column means Cards and no grid/list toggle.
 <!-- /longclaw:event -->

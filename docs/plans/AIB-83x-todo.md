@@ -67,5 +67,5 @@ tests and two dated doc notes.
 - [x] `npm test -w @aibytes/web` and `npm run build:web` pass.
 - [x] `git grep -n 'minmax(360px' apps/web/src` finds nothing: the minimum
       lives only in `--app-card-min`.
-- [ ] Reviewed by you, then merged to `main`. The AIB-83x checklist is ticked
+- [x] Reviewed by you, then merged to `main`. The AIB-83x checklist is ticked
       and the ticket closed.
