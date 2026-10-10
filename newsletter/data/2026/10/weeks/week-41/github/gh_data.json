@@ -1,0 +1,81 @@
+{
+  "source": "github-trending",
+  "section": "trending-repos",
+  "fetched_at": "2026-10-11",
+  "query_params": {
+    "since": "weekly",
+    "languages": [
+      "all"
+    ],
+    "count": 10,
+    "topic": "ai",
+    "ranking": "period_stars,total_stars"
+  },
+  "totalCount": 7,
+  "poolCount": 13,
+  "repos": [
+    {
+      "name": "mattpocock/skills",
+      "url": "https://github.com/mattpocock/skills",
+      "description": "Skills for Real Engineers. Straight from my .agents directory.",
+      "language": "Shell",
+      "stars": 284451,
+      "forks": 23808,
+      "period_stars": 8156
+    },
+    {
+      "name": "heygen-com/hyperframes",
+      "url": "https://github.com/heygen-com/hyperframes",
+      "description": "Write HTML. Render video. Built for agents.",
+      "language": "TypeScript",
+      "stars": 60348,
+      "forks": 5389,
+      "period_stars": 4003
+    },
+    {
+      "name": "thedotmack/claude-mem",
+      "url": "https://github.com/thedotmack/claude-mem",
+      "description": "Persistent Context Across Sessions for Every Agent \u2013 Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
+      "language": "TypeScript",
+      "stars": 99231,
+      "forks": 8692,
+      "period_stars": 3850
+    },
+    {
+      "name": "mvschwarz/openrig",
+      "url": "https://github.com/mvschwarz/openrig",
+      "description": "Build your own network of agents from Claude Code, Codex and Pi: persistent teams with roles, shared context and owned work.",
+      "language": "TypeScript",
+      "stars": 6731,
+      "forks": 498,
+      "period_stars": 2338
+    },
+    {
+      "name": "earthtojake/text-to-cad",
+      "url": "https://github.com/earthtojake/text-to-cad",
+      "description": "Give your agent CAD superpowers.",
+      "language": "Python",
+      "stars": 18989,
+      "forks": 1872,
+      "period_stars": 2125
+    },
+    {
+      "name": "cursor/plugins",
+      "url": "https://github.com/cursor/plugins",
+      "description": "Cursor plugin specification and official plugins",
+      "language": "TypeScript",
+      "stars": 10753,
+      "forks": 1026,
+      "period_stars": 1125
+    },
+    {
+      "name": "ranxianglei/billion-context",
+      "url": "https://github.com/ranxianglei/billion-context",
+      "description": "A context-compression plugin for small context windows (a 100K context is enough), token savings (5x fewer tokens), and month-long single sessions (billions of tokens).\u4e0a\u4e0b\u6587\u538b\u7f29\u63d2\u4ef6\uff0c\u517c\u987e\u5c0f\u7a97\u53e3(100k\u4e0a\u4e0b\u6587\u8db3\u77e3)\u7701token(\u77015\u500dtoken)\u548c\u8d85\u957f\u4f1a\u8bdd(\u6570\u6708\u7ea7\u522b\u51e0\u5341\u4ebftoken\u5355\u4f1a\u8bdd)\u3002billion-context is all you need",
+      "language": "TypeScript",
+      "stars": 776,
+      "forks": 74,
+      "period_stars": 246
+    }
+  ]
+}
