@@ -153,7 +153,7 @@ Operational notes for the iMac runner:
   - Clicking the date opens a small calendar listing available editions (from `index.json`).
   - On mobile: date centered, arrows on the edges, one line.
 - **No infinite scroll, no Load more.** The end of an edition shows a footer card: "That's Aug 27. ← Read Aug 26" so the path back is obvious.
-- **Grid view** (default on desktop): 3 columns at 1200px+, 2 on tablet, 1 on mobile. **List view:** dense rows, one per item. Preference stored in local storage.
+- **Grid view** (default on desktop): 3 columns at 1200px+, 2 on tablet, 1 on mobile. **List view:** dense rows, one per item. Preference stored in local storage. Whenever the grid would be one column (phones, and 900–1032px beside the rail), the view toggle is hidden and Cards show, whatever is stored; the stored preference is kept for when there is room again. *Amended 2026-10-11 by AIB-83x; see `docs/specs/AIB-83x-single-column-view.md`.*
 - Items grouped by category in edition order (Launches, Repos, News, HN Threads), each with a section heading and count; category chips scroll to the section, or filter to it when a single one is selected.
 
 *Amended 2026-10-09 (AIB-77u):* the layout splits at **900px**. Below it, the header chips and the edition bar above stay as described. At 900px and wider, a **side nav rail** on the left replaces both, and the page goes full-bleed:

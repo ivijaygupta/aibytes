@@ -1,4 +1,5 @@
 import React from "react";
+import { gridColumns } from "./layout.js";
 import { readChoice, THEME, writeChoice } from "./prefs.js";
 
 const DARK = "(prefers-color-scheme: dark)";
@@ -48,6 +49,30 @@ export function useMedia(query) {
     return () => list.removeEventListener("change", onChange);
   }, [query]);
   return matches;
+}
+
+/** The Card grid's column count at `main`'s width, live, from its content box and
+ * the --app-card-min and --grid-gap it carries (app.css). `main` is the element,
+ * not a ref: it remounts when the rail comes and goes, and the observer has to
+ * follow it. One column until it is measured, then measured before paint, so a
+ * stored list view never flashes as rows on a phone. */
+export function useGridColumns(main) {
+  const [columns, setColumns] = React.useState(1);
+  React.useLayoutEffect(() => {
+    if (!main) return undefined;
+    const measure = () => {
+      const style = getComputedStyle(main);
+      const width = main.clientWidth - parseFloat(style.paddingLeft) - parseFloat(style.paddingRight);
+      const min = parseFloat(style.getPropertyValue("--app-card-min"));
+      const gap = parseFloat(style.getPropertyValue("--grid-gap")) || 0;
+      if (min > 0) setColumns(gridColumns(width, min, gap));
+    };
+    measure();
+    const observer = new ResizeObserver(measure);
+    observer.observe(main);
+    return () => observer.disconnect();
+  }, [main]);
+  return columns;
 }
 
 /** Calls onClose on Escape or on a pointer press outside `ref`, while `open`. */
