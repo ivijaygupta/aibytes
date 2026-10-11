@@ -8,7 +8,7 @@ priority: urgent
 type: newsletter
 due: 2026-10-11
 created_at: 2026-10-10T23:37:28.210Z
-updated_at: 2026-10-11T09:31:32.828Z
+updated_at: 2026-10-11T09:32:46.948Z
 ---
 
 Weekly aiBytes_ Issue #13.
@@ -30,7 +30,7 @@ Checklist copied from Issue #12 (AIB-60g).
 - [x] Update the Content <!-- longclaw:item=ck_17c18de9 -->
 - [x] Finalize Title & Description <!-- longclaw:item=ck_0f8ba706 -->
 - [x] Update Intro Content <!-- longclaw:item=ck_5bff92a7 -->
-- [ ] Generate Thumbnail <!-- longclaw:item=ck_b63c04ea -->
+- [x] Generate Thumbnail <!-- longclaw:item=ck_b63c04ea -->
 - [ ] Send the newsletter <!-- longclaw:item=ck_06e73d1e -->
 - [ ] Generate Social Media Posts <!-- longclaw:item=ck_42226844 -->
 - [x] Create the LC Tickets for AI Learning Backlog <!-- longclaw:item=ck_7b70e42d -->
@@ -197,4 +197,22 @@ changes:
 ### Claude Code updated this ticket
 
 Title: 🚔 Anthropic's AI misleads police and OpenAI's Decisions API. Description: Plus Claude agents that run on a schedule, Rill, a browser built for coding agents, and a trust ladder for agentic coding. Tightened from the publisher's own draft.
+<!-- /longclaw:event -->
+
+<!-- longclaw:event
+id: evt_d06808f4
+kind: update
+occurred_at: 2026-10-11T09:32:46.948Z
+actor:
+  type: agent
+  id: claude-code
+  name: Claude Code
+changes:
+  - field: checklist.ck_b63c04ea.checked
+    from: "false"
+    to: "true"
+-->
+### Claude Code updated this ticket
+
+Thumbnails: three 1200x630 PNGs in newsletter/issues/2026/week-42-Issue-13/thumbnails/ (dot grid, cobalt wash, graph grid), highlight 'misleads police'. Publisher picks one at upload.
 <!-- /longclaw:event -->
