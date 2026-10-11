@@ -8,7 +8,7 @@ priority: urgent
 type: newsletter
 due: 2026-10-11
 created_at: 2026-10-10T23:37:28.210Z
-updated_at: 2026-10-11T07:07:08.252Z
+updated_at: 2026-10-11T09:02:56.390Z
 ---
 
 Weekly aiBytes_ Issue #13.
@@ -29,7 +29,7 @@ Checklist copied from Issue #12 (AIB-60g).
 - [x] Identify Favourite Picks <!-- longclaw:item=ck_d0c7f552 -->
 - [ ] Update the Content <!-- longclaw:item=ck_17c18de9 -->
 - [ ] Finalize Title & Description <!-- longclaw:item=ck_0f8ba706 -->
-- [ ] Update Intro Content <!-- longclaw:item=ck_5bff92a7 -->
+- [x] Update Intro Content <!-- longclaw:item=ck_5bff92a7 -->
 - [ ] Generate Thumbnail <!-- longclaw:item=ck_b63c04ea -->
 - [ ] Send the newsletter <!-- longclaw:item=ck_06e73d1e -->
 - [ ] Generate Social Media Posts <!-- longclaw:item=ck_42226844 -->
@@ -158,4 +158,22 @@ changes:
 ### Claude Code updated this ticket
 
 Favourite Picks from the publisher's list, in their order: 01 OpenAI Decisions API (News), 02 @housecor's agentic coding interview (X), 03 Rill Browser (Products), 04 ranxianglei/billion-context (GitHub), 05 thedotmack/claude-mem (GitHub). Added above AI News in both files. Learning backlog: AIB-92i to AIB-103u from News, Products, GitHub and HN, on top of AIB-87j to AIB-91q from Viral on X.
+<!-- /longclaw:event -->
+
+<!-- longclaw:event
+id: evt_c3518bcc
+kind: update
+occurred_at: 2026-10-11T09:02:56.390Z
+actor:
+  type: agent
+  id: claude-code
+  name: Claude Code
+changes:
+  - field: checklist.ck_5bff92a7.checked
+    from: "false"
+    to: "true"
+-->
+### Claude Code updated this ticket
+
+Intro: the publisher's own draft, option 02 'Yours, tightened' of four. Facts checked against the archive: the Hugging Face incident was in #2 and #3, not 6 Sep; 'May-July' dropped as unconfirmed. Decision record: newsletter/artifacts/2026-Oct-11-Intro-publisher-draft-taste.html.
 <!-- /longclaw:event -->
