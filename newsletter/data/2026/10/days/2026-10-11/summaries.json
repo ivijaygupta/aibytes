@@ -1,0 +1,101 @@
+{
+  "date": "2026-10-11",
+  "items": {
+    "ph-reso-ai-2-2026-10-11": {
+      "summary": "Generative engine optimization tool that tracks brand visibility in ChatGPT, Perplexity and Google AIO, then turns competitor and content-gap analysis into prioritized fixes.",
+      "tags": ["LLM", "Launch"]
+    },
+    "ph-onepin-2026-10-11": {
+      "summary": "Pronunciation layer over ElevenLabs, OpenAI, Google and 30+ voice providers that checks names against a 4M-word dictionary, scores each line and patches wrong words without re-rendering.",
+      "tags": ["Voice / Speech", "Dev Tool", "Launch"]
+    },
+    "ph-claude-dashboards-motion-2026-10-11": {
+      "summary": "Beta Claude artifacts: Dashboards turns questions into live, query-backed dashboards over Snowflake, BigQuery and others; Motion renders reports as code-written animations exported to MP4.",
+      "tags": ["Anthropic", "Launch"]
+    },
+    "ph-microsoft-decision-1-2026-10-11": {
+      "summary": "Qwen3.5-9B post-train that returns a calibrated probability per fixed option in one pass for routing and verification, on Foundry at $0.042 per million input tokens with free output.",
+      "tags": ["Model Release", "Agents", "Microsoft", "Launch"]
+    },
+    "ph-cue-bc574ba1-9434-4e64-b529-cf8432b4f016-2026-10-11": {
+      "summary": "macOS menu-bar app that turns on Focus mode, blocks distracting sites and starts a notch timer when AirPods go in, and ends the session when they come out.",
+      "tags": ["Launch"]
+    },
+    "gh-diagram-design-2026-10-11": {
+      "summary": "Agent skill for Claude Code, Codex, Copilot, Cursor and others that renders 44 editorial diagram types as self-contained HTML and SVG instead of Mermaid.",
+      "tags": ["Open Source", "Dev Tool", "Agents"]
+    },
+    "gh-knowledge-work-plugins-2026-10-11": {
+      "summary": "Anthropic's open plugin collection for Claude Cowork, aimed at knowledge workers rather than developers, written in Python.",
+      "tags": ["Open Source", "Agents", "Anthropic"]
+    },
+    "gh-ppt-master-2026-10-11": {
+      "summary": "Python tool that builds native PowerPoint decks from documents or topics, with real shapes, animations, data-backed charts, speaker-note narration and custom .pptx templates.",
+      "tags": ["Open Source", "LLM"]
+    },
+    "gh-andrej-karpathy-skills-2026-10-11": {
+      "summary": "One CLAUDE.md file that encodes Andrej Karpathy's notes on LLM coding pitfalls as standing instructions for Claude Code.",
+      "tags": ["Open Source", "Code Gen", "Claude Code"]
+    },
+    "gh-context-mode-2026-10-11": {
+      "summary": "MCP server plus hooks that sandboxes tool output for coding agents, cutting it by a claimed 98%, while persisting session memory and enforcing routing across 17 platforms.",
+      "tags": ["Open Source", "Code Gen", "MCP"]
+    },
+    "gh-transformers-2026-10-11": {
+      "summary": "Hugging Face's Python library of model definitions for text, vision, audio and multimodal models, used for both training and inference.",
+      "tags": ["Framework", "Open Source", "Hugging Face"]
+    },
+    "gh-pytorch-2026-10-11": {
+      "summary": "Tensor library and dynamic neural network framework for Python, with GPU acceleration.",
+      "tags": ["Framework", "Open Source"]
+    },
+    "gh-tensorflow-2026-10-11": {
+      "summary": "End-to-end open source machine learning framework, its core written in C++.",
+      "tags": ["Framework", "Open Source"]
+    },
+    "tc-microsofts-satya-nadella-says-ai-models-need-an-2026-10-11": {
+      "summary": "In a Saturday post, Microsoft's CEO called for the industry to step back and assess the trust architecture of AI.",
+      "tags": ["Safety", "Microsoft"]
+    },
+    "tc-apple-discloses-deal-to-hire-team-and-license-2026-10-11": {
+      "summary": "An acqui-hire style deal for Huxe's personalized AI podcast tech, raising the question of whether Apple plans its own AI-generated podcasts.",
+      "tags": ["Apple", "Acquisition", "Voice / Speech"]
+    },
+    "tc-3-days-to-techcrunch-disrupt-2026-meet-the-2026-10-11": {
+      "summary": "TechCrunch Disrupt runs October 13-15 in San Francisco, with 300+ startups presenting to about 10,000 attendees.",
+      "tags": ["Launch"]
+    },
+    "tc-here-are-the-top-ai-agents-that-can-live-in-2026-10-11": {
+      "summary": "TechCrunch roundup of AI agents that work over text messaging, from general assistants to ones built for families, travel and work.",
+      "tags": ["Agents"]
+    },
+    "hn-talorys-a-self-hosted-personal-ai-agent-on-2026-10-11": {
+      "summary": "Open source GitHub project for running your own personal AI agent entirely on Cloudflare's free tier.",
+      "tags": ["Open Source", "Agents"]
+    },
+    "hn-nvidia-in-talks-to-acquire-us-open-model-2026-10-11": {
+      "summary": "Financial Times report on Nvidia's talks to buy Reflection AI, a US startup building open models.",
+      "tags": ["Nvidia", "Acquisition"]
+    },
+    "hn-vibe-coded-browser-ports-of-halo-the-simpsons-2026-10-11": {
+      "summary": "Kotaku piece on AI-assisted ports of Halo, The Simpsons: Hit and Run and GTA Vice City that run in a web browser.",
+      "tags": ["Code Gen"]
+    },
+    "hn-500b-tokens-later-letting-ai-agents-decompile-a-2026-10-11": {
+      "summary": "Developer blog writeup by momo5502 on driving AI agents through the decompilation of a first-person shooter game.",
+      "tags": ["Agents", "Code Gen", "Deep Dive"]
+    },
+    "hn-anthropic-bans-cruelty-to-claude-still-won-t-2026-10-11": {
+      "summary": "Commentary on Anthropic's rule against cruelty toward Claude, arguing the company has not said what the policy is meant to protect.",
+      "tags": ["Anthropic", "Safety", "Policy"]
+    },
+    "hn-my-personal-ai-agent-posted-my-bank-details-on-2026-10-11": {
+      "summary": "Business Insider first-person account of a Grok-based personal agent that leaked its owner's bank details into a company Slack.",
+      "tags": ["Agents", "Privacy"]
+    },
+    "hn-ai-data-centers-not-paying-their-costs-will-2026-10-11": {
+      "summary": "Press release from Senators Warren, Blumenthal and Van Hollen on data center operators' replies admitting they do not cover full costs and will keep NDAs and tax breaks.",
+      "tags": ["Policy"]
+    }
+  }
+}

@@ -1,0 +1,608 @@
+{
+  "date": "2026-10-11",
+  "generated_at": "2026-10-11T08:00:21Z",
+  "instructions": "Write one line per item in the aiBytes_ voice - dense, calm, honest, technical. Say what the thing does, not why it matters. At most 200 characters, one sentence, no em dashes. Then pick 1 to 4 tags per item from `tags` below, by their exact display name. Answer with the summaries file described in the curate-edition skill.",
+  "tags": [
+    {
+      "name": "What it is",
+      "tags": [
+        {
+          "name": "Model Release",
+          "slug": "model-release"
+        },
+        {
+          "name": "Open Source",
+          "slug": "open-source"
+        },
+        {
+          "name": "Paper",
+          "slug": "paper"
+        },
+        {
+          "name": "Benchmark",
+          "slug": "benchmark"
+        },
+        {
+          "name": "Dataset",
+          "slug": "dataset"
+        },
+        {
+          "name": "Framework",
+          "slug": "framework"
+        },
+        {
+          "name": "Dev Tool",
+          "slug": "dev-tool"
+        },
+        {
+          "name": "API",
+          "slug": "api"
+        }
+      ]
+    },
+    {
+      "name": "Domain",
+      "tags": [
+        {
+          "name": "LLM",
+          "slug": "llm"
+        },
+        {
+          "name": "Agents",
+          "slug": "agents"
+        },
+        {
+          "name": "RAG",
+          "slug": "rag"
+        },
+        {
+          "name": "Fine-tuning",
+          "slug": "fine-tuning"
+        },
+        {
+          "name": "Inference",
+          "slug": "inference"
+        },
+        {
+          "name": "Local LLM",
+          "slug": "local-llm"
+        },
+        {
+          "name": "Vision",
+          "slug": "vision"
+        },
+        {
+          "name": "Voice / Speech",
+          "slug": "voice-speech"
+        },
+        {
+          "name": "Video",
+          "slug": "video"
+        },
+        {
+          "name": "Image Gen",
+          "slug": "image-gen"
+        },
+        {
+          "name": "Code Gen",
+          "slug": "code-gen"
+        },
+        {
+          "name": "Embeddings",
+          "slug": "embeddings"
+        },
+        {
+          "name": "Eval",
+          "slug": "eval"
+        },
+        {
+          "name": "Reasoning",
+          "slug": "reasoning"
+        },
+        {
+          "name": "Multimodal",
+          "slug": "multimodal"
+        },
+        {
+          "name": "Robotics",
+          "slug": "robotics"
+        }
+      ]
+    },
+    {
+      "name": "Ecosystem",
+      "tags": [
+        {
+          "name": "OpenAI",
+          "slug": "openai"
+        },
+        {
+          "name": "Anthropic",
+          "slug": "anthropic"
+        },
+        {
+          "name": "Google",
+          "slug": "google"
+        },
+        {
+          "name": "Meta",
+          "slug": "meta"
+        },
+        {
+          "name": "Nvidia",
+          "slug": "nvidia"
+        },
+        {
+          "name": "Hugging Face",
+          "slug": "hugging-face"
+        },
+        {
+          "name": "Mistral",
+          "slug": "mistral"
+        },
+        {
+          "name": "xAI",
+          "slug": "xai"
+        },
+        {
+          "name": "Apple",
+          "slug": "apple"
+        },
+        {
+          "name": "Microsoft",
+          "slug": "microsoft"
+        },
+        {
+          "name": "Claude Code",
+          "slug": "claude-code"
+        },
+        {
+          "name": "Cursor",
+          "slug": "cursor"
+        },
+        {
+          "name": "MCP",
+          "slug": "mcp"
+        }
+      ]
+    },
+    {
+      "name": "Business",
+      "tags": [
+        {
+          "name": "Funding",
+          "slug": "funding"
+        },
+        {
+          "name": "Acquisition",
+          "slug": "acquisition"
+        },
+        {
+          "name": "Launch",
+          "slug": "launch"
+        },
+        {
+          "name": "Pricing",
+          "slug": "pricing"
+        },
+        {
+          "name": "Policy",
+          "slug": "policy"
+        },
+        {
+          "name": "Legal",
+          "slug": "legal"
+        },
+        {
+          "name": "Security",
+          "slug": "security"
+        },
+        {
+          "name": "Privacy",
+          "slug": "privacy"
+        },
+        {
+          "name": "Safety",
+          "slug": "safety"
+        }
+      ]
+    },
+    {
+      "name": "Format",
+      "tags": [
+        {
+          "name": "Show HN",
+          "slug": "show-hn"
+        },
+        {
+          "name": "Tutorial",
+          "slug": "tutorial"
+        },
+        {
+          "name": "Deep Dive",
+          "slug": "deep-dive"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "ph-reso-ai-2-2026-10-11",
+      "title": "ReSO AI",
+      "category": "launches",
+      "source": "producthunt",
+      "url": "https://www.resollm.ai",
+      "source_url": "https://www.producthunt.com/products/reso",
+      "source_text": "ReSO AI Get discovered & recommended when customers ask AI ReSO is a generative engine optimization platform that helps brands show up in AI search results. It’s built for founders, CMOs, and growth teams who want to turn buyer intent in ChatGPT, Perplexity, and Google AIO into visibility, citations, and traffic. What makes it different is that it doesn’t just track rankings, it analyzes intent, competitors, content gaps, and technical issues, then turns them into priority actions to improve AI recommendations. SEO Artificial Intelligence Marketing automation",
+      "signals": {
+        "upvotes": 436,
+        "comments": 34
+      },
+      "published_at": "2026-10-10T07:01:00Z"
+    },
+    {
+      "id": "ph-onepin-2026-10-11",
+      "title": "Onepin",
+      "category": "launches",
+      "source": "producthunt",
+      "url": "https://onepin.ai",
+      "source_url": "https://www.producthunt.com/products/onepin",
+      "source_text": "Onepin AI voiceover with every name, price and date said right AI voices sound human now. But they still guess names from the spelling, and nobody has time to listen to every line. Onepin runs on the voices you already use (ElevenLabs, OpenAI, Google, 30+ more), spells out prices and dates, checks names against a 4M-word pronunciation dictionary, scores every line, and fixes the wrong word without re-rendering the take. Built for teams shipping AI voiceover in several languages: product videos, dubbing, courses. Free to start, no credit card required. Developer Tools Artificial Intelligence Audio",
+      "signals": {
+        "upvotes": 435,
+        "comments": 75
+      },
+      "published_at": "2026-10-10T07:01:00Z"
+    },
+    {
+      "id": "ph-claude-dashboards-motion-2026-10-11",
+      "title": "Claude Dashboards & Motion",
+      "category": "launches",
+      "source": "producthunt",
+      "url": "https://claude.com/resources/articles/dashboards-and-motion",
+      "source_url": "https://www.producthunt.com/products/claude-dashboards-motion",
+      "source_text": "Claude Dashboards & Motion Ask Claude for live dashboards and animated explainers Claude Dashboards and Claude Motion are beta artifacts in Claude. Dashboards connects to BigQuery, Databricks, Snowflake, Redshift, ClickHouse or Salesforce and turns a plain language question into a live dashboard that refreshes as your data changes, with the query behind every number. Motion turns reports, charts and walkthroughs into short animations written as code, so you can edit any word, number or timing, then export an MP4. Dashboards is on paid plans, Motion on Team and Enterprise. Analytics Artificial Intelligence Animation",
+      "signals": {
+        "upvotes": 237,
+        "comments": 5
+      },
+      "published_at": "2026-10-10T07:01:00Z"
+    },
+    {
+      "id": "ph-microsoft-decision-1-2026-10-11",
+      "title": "Microsoft-Decision-1",
+      "category": "launches",
+      "source": "producthunt",
+      "url": "https://commandline.microsoft.com/microsoft-decision-1-model-foundry/",
+      "source_url": "https://www.producthunt.com/products/microsoft-decision-1",
+      "source_text": "Microsoft-Decision-1 Microsoft’s decision model for agents and workflows Microsoft-Decision-1 is a decision-scoring model for routing, classification, verification and agent control. Give it fixed options and it returns a calibrated probability for each in a single pass, as structured output software can act on directly. Post-trained from Qwen3.5-9B, it is about 35x faster than GPT-6 Sol at median latency, per Microsoft. Available now in Microsoft Foundry at $0.042 per million input tokens, with free output. Artificial Intelligence",
+      "signals": {
+        "upvotes": 168,
+        "comments": 3
+      },
+      "published_at": "2026-10-10T07:01:00Z"
+    },
+    {
+      "id": "ph-cue-bc574ba1-9434-4e64-b529-cf8432b4f016-2026-10-11",
+      "title": "Cue",
+      "category": "launches",
+      "source": "producthunt",
+      "url": "https://wearcue.top",
+      "source_url": "https://www.producthunt.com/products/cue-26",
+      "source_text": "Cue Put your AirPods in, your Mac starts focusing Your headphones become a focus switch. Put your AirPods in and your Mac turns on your Focus mode, blocks distracting sites and starts a timer in the notch. Take them out: break time, sites come back. Also in the notch: now playing, volume and brightness, your own colors, session history and two tiny buddies that react to everything. Free, private, macOS 14+ on Apple Silicon. Vibe-coded by one person and Claude. Mac Productivity Menu Bar Apps",
+      "signals": {
+        "upvotes": 152,
+        "comments": 7
+      },
+      "published_at": "2026-10-10T07:01:00Z"
+    },
+    {
+      "id": "gh-diagram-design-2026-10-11",
+      "title": "cathrynlavery/diagram-design",
+      "category": "repos",
+      "source": "github",
+      "url": "https://github.com/cathrynlavery/diagram-design",
+      "source_url": "https://github.com/cathrynlavery/diagram-design",
+      "source_text": "cathrynlavery/diagram-design Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop. HTML",
+      "signals": {
+        "stars": 49310,
+        "stars_gained": 1190,
+        "forks": 3122
+      },
+      "meta": {
+        "language": "HTML"
+      }
+    },
+    {
+      "id": "gh-knowledge-work-plugins-2026-10-11",
+      "title": "anthropics/knowledge-work-plugins",
+      "category": "repos",
+      "source": "github",
+      "url": "https://github.com/anthropics/knowledge-work-plugins",
+      "source_url": "https://github.com/anthropics/knowledge-work-plugins",
+      "source_text": "anthropics/knowledge-work-plugins Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork Python",
+      "signals": {
+        "stars": 28945,
+        "stars_gained": 625,
+        "forks": 3287
+      },
+      "meta": {
+        "language": "Python"
+      }
+    },
+    {
+      "id": "gh-ppt-master-2026-10-11",
+      "title": "hugohe3/ppt-master",
+      "category": "repos",
+      "source": "github",
+      "url": "https://github.com/hugohe3/ppt-master",
+      "source_url": "https://github.com/hugohe3/ppt-master",
+      "source_text": "hugohe3/ppt-master AI turns documents or topics into real, native PowerPoint decks—with native shapes, transitions and animations, data-backed charts and tables on demand, audio narration from speaker notes, and support for your own .pptx templates. · by Hugo He Python",
+      "signals": {
+        "stars": 59832,
+        "stars_gained": 461,
+        "forks": 4715
+      },
+      "meta": {
+        "language": "Python"
+      }
+    },
+    {
+      "id": "gh-andrej-karpathy-skills-2026-10-11",
+      "title": "multica-ai/andrej-karpathy-skills",
+      "category": "repos",
+      "source": "github",
+      "url": "https://github.com/multica-ai/andrej-karpathy-skills",
+      "source_url": "https://github.com/multica-ai/andrej-karpathy-skills",
+      "source_text": "multica-ai/andrej-karpathy-skills A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+      "signals": {
+        "stars": 218508,
+        "stars_gained": 278,
+        "forks": 22004
+      }
+    },
+    {
+      "id": "gh-context-mode-2026-10-11",
+      "title": "mksglu/context-mode",
+      "category": "repos",
+      "source": "github",
+      "url": "https://github.com/mksglu/context-mode",
+      "source_url": "https://github.com/mksglu/context-mode",
+      "source_text": "mksglu/context-mode Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks. TypeScript",
+      "signals": {
+        "stars": 26477,
+        "stars_gained": 178,
+        "forks": 1904
+      },
+      "meta": {
+        "language": "TypeScript"
+      }
+    },
+    {
+      "id": "gh-transformers-2026-10-11",
+      "title": "huggingface/transformers",
+      "category": "repos",
+      "source": "github",
+      "url": "https://github.com/huggingface/transformers",
+      "source_url": "https://github.com/huggingface/transformers",
+      "source_text": "huggingface/transformers 🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. Python",
+      "signals": {
+        "stars": 167415,
+        "stars_gained": 96,
+        "forks": 34812
+      },
+      "meta": {
+        "language": "Python"
+      }
+    },
+    {
+      "id": "gh-pytorch-2026-10-11",
+      "title": "pytorch/pytorch",
+      "category": "repos",
+      "source": "github",
+      "url": "https://github.com/pytorch/pytorch",
+      "source_url": "https://github.com/pytorch/pytorch",
+      "source_text": "pytorch/pytorch Tensors and Dynamic neural networks in Python with strong GPU acceleration Python",
+      "signals": {
+        "stars": 104214,
+        "stars_gained": 84,
+        "forks": 31982
+      },
+      "meta": {
+        "language": "Python"
+      }
+    },
+    {
+      "id": "gh-tensorflow-2026-10-11",
+      "title": "tensorflow/tensorflow",
+      "category": "repos",
+      "source": "github",
+      "url": "https://github.com/tensorflow/tensorflow",
+      "source_url": "https://github.com/tensorflow/tensorflow",
+      "source_text": "tensorflow/tensorflow An Open Source Machine Learning Framework for Everyone C++",
+      "signals": {
+        "stars": 200801,
+        "stars_gained": 26,
+        "forks": 79010
+      },
+      "meta": {
+        "language": "C++"
+      }
+    },
+    {
+      "id": "tc-microsofts-satya-nadella-says-ai-models-need-an-2026-10-11",
+      "title": "Microsoft’s Satya Nadella says AI models need an ‘emergency brake’",
+      "category": "news",
+      "source": "techcrunch",
+      "url": "https://techcrunch.com/2026/10/10/microsofts-satya-nadella-says-ai-models-need-an-emergency-brake/",
+      "source_url": "https://techcrunch.com/2026/10/10/microsofts-satya-nadella-says-ai-models-need-an-emergency-brake/",
+      "source_text": "Microsoft’s Satya Nadella says AI models need an ‘emergency brake’ In a Saturday morning post, Microsoft's CEO wrote that it’s time “to step back and assess the trust architecture” of AI.",
+      "meta": {
+        "author": "Anthony Ha",
+        "reading_time": "2 minutes"
+      },
+      "published_at": "2026-10-10T21:47:51Z"
+    },
+    {
+      "id": "tc-apple-discloses-deal-to-hire-team-and-license-2026-10-11",
+      "title": "Apple discloses deal to hire team and license tech from personalized podcast startup Huxe",
+      "category": "news",
+      "source": "techcrunch",
+      "url": "https://techcrunch.com/2026/10/10/apple-discloses-deal-to-hire-team-and-license-tech-from-personalized-podcast-startup-huxe/",
+      "source_url": "https://techcrunch.com/2026/10/10/apple-discloses-deal-to-hire-team-and-license-tech-from-personalized-podcast-startup-huxe/",
+      "source_text": "Apple discloses deal to hire team and license tech from personalized podcast startup Huxe Is Apple hoping to get into the AI-generated podcast business?",
+      "meta": {
+        "author": "Anthony Ha",
+        "reading_time": "2 minutes"
+      },
+      "published_at": "2026-10-10T19:50:00Z"
+    },
+    {
+      "id": "tc-3-days-to-techcrunch-disrupt-2026-meet-the-2026-10-11",
+      "title": "3 days to TechCrunch Disrupt 2026: Meet the startups before they hit mainstream",
+      "category": "news",
+      "source": "techcrunch",
+      "url": "https://techcrunch.com/2026/10/10/3-days-to-disrupt-2026-meet-the-startups-before-they-hit-mainstream/",
+      "source_url": "https://techcrunch.com/2026/10/10/3-days-to-disrupt-2026-meet-the-startups-before-they-hit-mainstream/",
+      "source_text": "3 days to TechCrunch Disrupt 2026: Meet the startups before they hit mainstream TechCrunch Disrupt 2026 is October 13-15 in San Francisco. 300+ startups will show what they’ve built to 10,000 tech leaders. Register to save up to $100.",
+      "meta": {
+        "author": "TechCrunch Events",
+        "reading_time": "3 minutes"
+      },
+      "published_at": "2026-10-10T15:00:00Z"
+    },
+    {
+      "id": "tc-here-are-the-top-ai-agents-that-can-live-in-2026-10-11",
+      "title": "Here are the top AI agents that can live in your text messages",
+      "category": "news",
+      "source": "techcrunch",
+      "url": "https://techcrunch.com/2026/10/10/all-the-ai-agents-that-can-live-in-your-text-messages/",
+      "source_url": "https://techcrunch.com/2026/10/10/all-the-ai-agents-that-can-live-in-your-text-messages/",
+      "source_text": "Here are the top AI agents that can live in your text messages We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work.",
+      "meta": {
+        "author": "Lauren Forristal",
+        "reading_time": "14 minutes"
+      },
+      "published_at": "2026-10-10T14:00:00Z"
+    },
+    {
+      "id": "hn-talorys-a-self-hosted-personal-ai-agent-on-2026-10-11",
+      "title": "Talorys – A self-hosted personal AI agent on Cloudflare's free tier",
+      "category": "hn",
+      "source": "hackernews",
+      "url": "https://github.com/rociiu/talorys",
+      "source_url": "https://news.ycombinator.com/item?id=50031614",
+      "source_text": "Talorys – A self-hosted personal AI agent on Cloudflare's free tier",
+      "signals": {
+        "points": 283,
+        "comments": 130
+      },
+      "meta": {
+        "author": "rociiu"
+      },
+      "published_at": "2026-10-10T10:52:09Z"
+    },
+    {
+      "id": "hn-nvidia-in-talks-to-acquire-us-open-model-2026-10-11",
+      "title": "Nvidia in talks to acquire US 'open' model startup Reflection AI",
+      "category": "hn",
+      "source": "hackernews",
+      "url": "https://www.ft.com/content/052610c5-22b4-4dd4-932e-b7f9f0628b6a",
+      "source_url": "https://news.ycombinator.com/item?id=50035886",
+      "source_text": "Nvidia in talks to acquire US 'open' model startup Reflection AI",
+      "signals": {
+        "points": 162,
+        "comments": 101
+      },
+      "meta": {
+        "author": "arkj"
+      },
+      "published_at": "2026-10-10T18:48:35Z"
+    },
+    {
+      "id": "hn-vibe-coded-browser-ports-of-halo-the-simpsons-2026-10-11",
+      "title": "Vibe coded browser ports of Halo, The Simpsons: Hit And Run, GTA work well",
+      "category": "hn",
+      "source": "hackernews",
+      "url": "https://kotaku.com/we-might-be-cooked-as-these-vibe-coded-web-browser-ports-of-halo-the-simpsons-hit-and-run-and-gta-vice-city-seem-to-work-perfectly-2000743300",
+      "source_url": "https://news.ycombinator.com/item?id=50035561",
+      "source_text": "Vibe coded browser ports of Halo, The Simpsons: Hit And Run, GTA work well",
+      "signals": {
+        "points": 96,
+        "comments": 76
+      },
+      "meta": {
+        "author": "astlouis44"
+      },
+      "published_at": "2026-10-10T18:11:58Z"
+    },
+    {
+      "id": "hn-500b-tokens-later-letting-ai-agents-decompile-a-2026-10-11",
+      "title": "500B Tokens Later: Letting AI Agents Decompile a First-Person Shooter",
+      "category": "hn",
+      "source": "hackernews",
+      "url": "https://momo5502.com/posts/2026-10-09-game-decompilation/",
+      "source_url": "https://news.ycombinator.com/item?id=50039092",
+      "source_text": "500B Tokens Later: Letting AI Agents Decompile a First-Person Shooter",
+      "signals": {
+        "points": 82,
+        "comments": 60
+      },
+      "meta": {
+        "author": "davikr"
+      },
+      "published_at": "2026-10-11T02:02:38Z"
+    },
+    {
+      "id": "hn-anthropic-bans-cruelty-to-claude-still-won-t-2026-10-11",
+      "title": "Anthropic Bans Cruelty to Claude, Still Won't Say What It Protects",
+      "category": "hn",
+      "source": "hackernews",
+      "url": "https://rews.cc/a/anthropic-bans-cruelty-to-claude-still-won-t-say-what-it-pro-bd99f6",
+      "source_url": "https://news.ycombinator.com/item?id=50038383",
+      "source_text": "Anthropic Bans Cruelty to Claude, Still Won't Say What It Protects",
+      "signals": {
+        "points": 61,
+        "comments": 120
+      },
+      "meta": {
+        "author": "ojosilva"
+      },
+      "published_at": "2026-10-11T00:08:31Z"
+    },
+    {
+      "id": "hn-my-personal-ai-agent-posted-my-bank-details-on-2026-10-11",
+      "title": "My personal AI agent posted my bank details on company Slack",
+      "category": "hn",
+      "source": "hackernews",
+      "url": "https://www.businessinsider.com/personal-ai-agent-grok-bot-posted-bank-details-company-slack-2026-10",
+      "source_url": "https://news.ycombinator.com/item?id=50033517",
+      "source_text": "My personal AI agent posted my bank details on company Slack",
+      "signals": {
+        "points": 61,
+        "comments": 66
+      },
+      "meta": {
+        "author": "bhrlady"
+      },
+      "published_at": "2026-10-10T14:46:16Z"
+    },
+    {
+      "id": "hn-ai-data-centers-not-paying-their-costs-will-2026-10-11",
+      "title": "AI Data Centers Not Paying Their Costs, Will Keep Using NDAs and Seek Tax Breaks",
+      "category": "hn",
+      "source": "hackernews",
+      "url": "https://www.warren.senate.gov/newsroom/press-releases/ai-data-center-companies-reveal-to-warren-blumenthal-van-hollen-they-are-not-paying-their-full-costs-will-continue-using-ndas-and-seeking-tax-breaks/",
+      "source_url": "https://news.ycombinator.com/item?id=50031156",
+      "source_text": "AI Data Centers Not Paying Their Costs, Will Keep Using NDAs and Seek Tax Breaks",
+      "signals": {
+        "points": 56,
+        "comments": 8
+      },
+      "meta": {
+        "author": "DeepLogin"
+      },
+      "published_at": "2026-10-10T09:30:03Z"
+    }
+  ]
+}

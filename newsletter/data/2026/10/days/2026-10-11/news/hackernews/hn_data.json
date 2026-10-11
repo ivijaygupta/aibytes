@@ -1,0 +1,90 @@
+{
+  "source": "hackernews",
+  "section": "ai-news",
+  "fetched_at": "2026-10-11",
+  "window": {
+    "after": "2026-10-10",
+    "before": "2026-10-12"
+  },
+  "query_params": {
+    "tags": "story",
+    "count": 10,
+    "min_points": 50,
+    "topic": "ai",
+    "ranking": "points,recency"
+  },
+  "totalCount": 7,
+  "poolCount": 34,
+  "stories": [
+    {
+      "title": "Talorys \u2013 A self-hosted personal AI agent on Cloudflare's free tier",
+      "url": "https://github.com/rociiu/talorys",
+      "type": "story",
+      "points": 283,
+      "num_comments": 130,
+      "author": "rociiu",
+      "created_at": "2026-10-10T10:52:09Z",
+      "hn_url": "https://news.ycombinator.com/item?id=50031614"
+    },
+    {
+      "title": "Nvidia in talks to acquire US 'open' model startup Reflection AI",
+      "url": "https://www.ft.com/content/052610c5-22b4-4dd4-932e-b7f9f0628b6a",
+      "type": "story",
+      "points": 162,
+      "num_comments": 101,
+      "author": "arkj",
+      "created_at": "2026-10-10T18:48:35Z",
+      "hn_url": "https://news.ycombinator.com/item?id=50035886"
+    },
+    {
+      "title": "Vibe coded browser ports of Halo, The Simpsons: Hit And Run, GTA work well",
+      "url": "https://kotaku.com/we-might-be-cooked-as-these-vibe-coded-web-browser-ports-of-halo-the-simpsons-hit-and-run-and-gta-vice-city-seem-to-work-perfectly-2000743300",
+      "type": "story",
+      "points": 96,
+      "num_comments": 76,
+      "author": "astlouis44",
+      "created_at": "2026-10-10T18:11:58Z",
+      "hn_url": "https://news.ycombinator.com/item?id=50035561"
+    },
+    {
+      "title": "500B Tokens Later: Letting AI Agents Decompile a First-Person Shooter",
+      "url": "https://momo5502.com/posts/2026-10-09-game-decompilation/",
+      "type": "story",
+      "points": 82,
+      "num_comments": 60,
+      "author": "davikr",
+      "created_at": "2026-10-11T02:02:38Z",
+      "hn_url": "https://news.ycombinator.com/item?id=50039092"
+    },
+    {
+      "title": "Anthropic Bans Cruelty to Claude, Still Won't Say What It Protects",
+      "url": "https://rews.cc/a/anthropic-bans-cruelty-to-claude-still-won-t-say-what-it-pro-bd99f6",
+      "type": "story",
+      "points": 61,
+      "num_comments": 120,
+      "author": "ojosilva",
+      "created_at": "2026-10-11T00:08:31Z",
+      "hn_url": "https://news.ycombinator.com/item?id=50038383"
+    },
+    {
+      "title": "My personal AI agent posted my bank details on company Slack",
+      "url": "https://www.businessinsider.com/personal-ai-agent-grok-bot-posted-bank-details-company-slack-2026-10",
+      "type": "story",
+      "points": 61,
+      "num_comments": 66,
+      "author": "bhrlady",
+      "created_at": "2026-10-10T14:46:16Z",
+      "hn_url": "https://news.ycombinator.com/item?id=50033517"
+    },
+    {
+      "title": "AI Data Centers Not Paying Their Costs, Will Keep Using NDAs and Seek Tax Breaks",
+      "url": "https://www.warren.senate.gov/newsroom/press-releases/ai-data-center-companies-reveal-to-warren-blumenthal-van-hollen-they-are-not-paying-their-full-costs-will-continue-using-ndas-and-seeking-tax-breaks/",
+      "type": "story",
+      "points": 56,
+      "num_comments": 8,
+      "author": "DeepLogin",
+      "created_at": "2026-10-10T09:30:03Z",
+      "hn_url": "https://news.ycombinator.com/item?id=50031156"
+    }
+  ]
+}
