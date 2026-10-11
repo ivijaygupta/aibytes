@@ -8,7 +8,7 @@ priority: urgent
 type: newsletter
 due: 2026-10-11
 created_at: 2026-10-10T23:37:28.210Z
-updated_at: 2026-10-11T09:02:56.390Z
+updated_at: 2026-10-11T09:31:32.828Z
 ---
 
 Weekly aiBytes_ Issue #13.
@@ -27,8 +27,8 @@ Checklist copied from Issue #12 (AIB-60g).
 - [x] Decide whether to include the Official Announcements section from X (no, for Issue #13) <!-- longclaw:item=ck_1ea48bdf -->
 - [x] Generate Weekly Content <!-- longclaw:item=ck_9139f2d6 -->
 - [x] Identify Favourite Picks <!-- longclaw:item=ck_d0c7f552 -->
-- [ ] Update the Content <!-- longclaw:item=ck_17c18de9 -->
-- [ ] Finalize Title & Description <!-- longclaw:item=ck_0f8ba706 -->
+- [x] Update the Content <!-- longclaw:item=ck_17c18de9 -->
+- [x] Finalize Title & Description <!-- longclaw:item=ck_0f8ba706 -->
 - [x] Update Intro Content <!-- longclaw:item=ck_5bff92a7 -->
 - [ ] Generate Thumbnail <!-- longclaw:item=ck_b63c04ea -->
 - [ ] Send the newsletter <!-- longclaw:item=ck_06e73d1e -->
@@ -176,4 +176,25 @@ changes:
 ### Claude Code updated this ticket
 
 Intro: the publisher's own draft, option 02 'Yours, tightened' of four. Facts checked against the archive: the Hugging Face incident was in #2 and #3, not 6 Sep; 'May-July' dropped as unconfirmed. Decision record: newsletter/artifacts/2026-Oct-11-Intro-publisher-draft-taste.html.
+<!-- /longclaw:event -->
+
+<!-- longclaw:event
+id: evt_2d685183
+kind: update
+occurred_at: 2026-10-11T09:31:32.828Z
+actor:
+  type: agent
+  id: claude-code
+  name: Claude Code
+changes:
+  - field: checklist.ck_0f8ba706.checked
+    from: "false"
+    to: "true"
+  - field: checklist.ck_17c18de9.checked
+    from: "false"
+    to: "true"
+-->
+### Claude Code updated this ticket
+
+Title: 🚔 Anthropic's AI misleads police and OpenAI's Decisions API. Description: Plus Claude agents that run on a schedule, Rill, a browser built for coding agents, and a trust ladder for agentic coding. Tightened from the publisher's own draft.
 <!-- /longclaw:event -->
