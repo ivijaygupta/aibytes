@@ -8,7 +8,7 @@ priority: urgent
 type: newsletter
 due: 2026-10-11
 created_at: 2026-10-10T23:37:28.210Z
-updated_at: 2026-10-11T09:32:46.948Z
+updated_at: 2026-10-11T09:55:11.425Z
 ---
 
 Weekly aiBytes_ Issue #13.
@@ -31,8 +31,8 @@ Checklist copied from Issue #12 (AIB-60g).
 - [x] Finalize Title & Description <!-- longclaw:item=ck_0f8ba706 -->
 - [x] Update Intro Content <!-- longclaw:item=ck_5bff92a7 -->
 - [x] Generate Thumbnail <!-- longclaw:item=ck_b63c04ea -->
-- [ ] Send the newsletter <!-- longclaw:item=ck_06e73d1e -->
-- [ ] Generate Social Media Posts <!-- longclaw:item=ck_42226844 -->
+- [x] Send the newsletter <!-- longclaw:item=ck_06e73d1e -->
+- [x] Generate Social Media Posts <!-- longclaw:item=ck_42226844 -->
 - [x] Create the LC Tickets for AI Learning Backlog <!-- longclaw:item=ck_7b70e42d -->
 - [ ] Commit the issue output and open a PR against main <!-- longclaw:item=ck_fa35c15a -->
 
@@ -215,4 +215,40 @@ changes:
 ### Claude Code updated this ticket
 
 Thumbnails: three 1200x630 PNGs in newsletter/issues/2026/week-42-Issue-13/thumbnails/ (dot grid, cobalt wash, graph grid), highlight 'misleads police'. Publisher picks one at upload.
+<!-- /longclaw:event -->
+
+<!-- longclaw:event
+id: evt_6037a815
+kind: update
+occurred_at: 2026-10-11T09:51:34.057Z
+actor:
+  type: agent
+  id: claude-code
+  name: Claude Code
+changes:
+  - field: checklist.ck_06e73d1e.checked
+    from: "false"
+    to: "true"
+-->
+### Claude Code updated this ticket
+
+Publisher published Issue #13 on Beehiiv; live around 4.30pm IST, 2026-10-11.
+<!-- /longclaw:event -->
+
+<!-- longclaw:event
+id: evt_def7047a
+kind: update
+occurred_at: 2026-10-11T09:55:11.425Z
+actor:
+  type: agent
+  id: claude-code
+  name: Claude Code
+changes:
+  - field: checklist.ck_42226844.checked
+    from: "false"
+    to: "true"
+-->
+### Claude Code updated this ticket
+
+Social: announcement posts on the Favourite Picks, per the publisher. newsletter/issues/2026/week-42-Issue-13/social/c_linkedIn.md (2 variations) and c_x.md (3 variations). {ISSUE_URL} placeholder until the Beehiiv link is live.
 <!-- /longclaw:event -->
