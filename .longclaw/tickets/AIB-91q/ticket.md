@@ -32,3 +32,17 @@ actor:
 -->
 ### Claude Code created this ticket
 <!-- /longclaw:event -->
+
+<!-- longclaw:event
+id: evt_2a808a19
+kind: comment
+occurred_at: 2026-10-11T07:07:08.273Z
+actor:
+  type: agent
+  id: claude-code
+  name: Claude Code
+-->
+### Claude Code commented
+
+Publisher's favourite this week: Favourite Pick 02 in aiBytes_ #13.
+<!-- /longclaw:event -->

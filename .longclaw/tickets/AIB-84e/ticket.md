@@ -8,7 +8,7 @@ priority: urgent
 type: newsletter
 due: 2026-10-11
 created_at: 2026-10-10T23:37:28.210Z
-updated_at: 2026-10-11T00:02:52.294Z
+updated_at: 2026-10-11T07:07:08.252Z
 ---
 
 Weekly aiBytes_ Issue #13.
@@ -25,15 +25,15 @@ Checklist copied from Issue #12 (AIB-60g).
 - [x] Fetch weekly sources (ProductHunt, HackerNews, TechCrunch, GitHub) <!-- longclaw:item=ck_4154dd5e -->
 - [x] Shortlist X posts for Viral on X <!-- longclaw:item=ck_46f65ed3 -->
 - [x] Decide whether to include the Official Announcements section from X (no, for Issue #13) <!-- longclaw:item=ck_1ea48bdf -->
-- [ ] Generate Weekly Content <!-- longclaw:item=ck_9139f2d6 -->
-- [ ] Identify Favourite Picks <!-- longclaw:item=ck_d0c7f552 -->
+- [x] Generate Weekly Content <!-- longclaw:item=ck_9139f2d6 -->
+- [x] Identify Favourite Picks <!-- longclaw:item=ck_d0c7f552 -->
 - [ ] Update the Content <!-- longclaw:item=ck_17c18de9 -->
 - [ ] Finalize Title & Description <!-- longclaw:item=ck_0f8ba706 -->
 - [ ] Update Intro Content <!-- longclaw:item=ck_5bff92a7 -->
 - [ ] Generate Thumbnail <!-- longclaw:item=ck_b63c04ea -->
 - [ ] Send the newsletter <!-- longclaw:item=ck_06e73d1e -->
 - [ ] Generate Social Media Posts <!-- longclaw:item=ck_42226844 -->
-- [ ] Create the LC Tickets for AI Learning Backlog <!-- longclaw:item=ck_7b70e42d -->
+- [x] Create the LC Tickets for AI Learning Backlog <!-- longclaw:item=ck_7b70e42d -->
 - [ ] Commit the issue output and open a PR against main <!-- longclaw:item=ck_fa35c15a -->
 
 ## Activity
@@ -119,4 +119,43 @@ changes:
 ### Claude Code updated this ticket
 
 Saved the week-41 X snapshot from Grok: 10 announcements, 5 insights, no contract errors. Viral on X carries all 5 insights at the publisher's call, with emoji: @ClaudeDevs ⏰, @AndrewWarner 🔌, @trq212 🏠, @polydao 🔧, @housecor 🪜. Checked on X: ClaudeDevs, AndrewWarner and polydao match Grok's text and date. trq212 and housecor showed X's 'Something went wrong' page on every load, so they still need checking before the issue is built. No Official Announcements, so every story stays in AI News. Learning backlog: AIB-87j to AIB-91q, one per insight.
+<!-- /longclaw:event -->
+
+<!-- longclaw:event
+id: evt_fd35bf69
+kind: update
+occurred_at: 2026-10-11T00:12:55.240Z
+actor:
+  type: agent
+  id: claude-code
+  name: Claude Code
+changes:
+  - field: checklist.ck_9139f2d6.checked
+    from: "false"
+    to: "true"
+-->
+### Claude Code updated this ticket
+
+Generated newsletter/issues/2026/week-42-Issue-13/: aiBytes-issue-13.html and the Beehiiv export, published at https://claude.ai/artifact/BdNYHPQoc76vaXf9BiS5J7 (v1). 9 AI News items (story of the week: an Anthropic model's false homicide tip to police), Viral on X 0x02 (5 posts), New AI Products 0x03 (5), Trending GitHub 0x04 (7), HN Deep Stories 0x05 (5). No Official Announcements, so Haiku 5.5, Mistral Large 4, GPT-6 and the Decisions API sit in AI News. No This week line, following the shipped #12. My Favourite Picks left out until the publisher picks. x_items verify --section viral passes on both files. Draft title: 🚔 Anthropic's AI misleads police and Mistral Large 4 lands.
+<!-- /longclaw:event -->
+
+<!-- longclaw:event
+id: evt_d3145694
+kind: update
+occurred_at: 2026-10-11T07:07:08.252Z
+actor:
+  type: agent
+  id: claude-code
+  name: Claude Code
+changes:
+  - field: checklist.ck_d0c7f552.checked
+    from: "false"
+    to: "true"
+  - field: checklist.ck_7b70e42d.checked
+    from: "false"
+    to: "true"
+-->
+### Claude Code updated this ticket
+
+Favourite Picks from the publisher's list, in their order: 01 OpenAI Decisions API (News), 02 @housecor's agentic coding interview (X), 03 Rill Browser (Products), 04 ranxianglei/billion-context (GitHub), 05 thedotmack/claude-mem (GitHub). Added above AI News in both files. Learning backlog: AIB-92i to AIB-103u from News, Products, GitHub and HN, on top of AIB-87j to AIB-91q from Viral on X.
 <!-- /longclaw:event -->
