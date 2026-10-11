@@ -8,7 +8,7 @@ priority: urgent
 type: newsletter
 due: 2026-10-11
 created_at: 2026-10-10T23:37:28.210Z
-updated_at: 2026-10-10T23:54:54.567Z
+updated_at: 2026-10-11T00:02:52.294Z
 ---
 
 Weekly aiBytes_ Issue #13.
@@ -23,8 +23,8 @@ Checklist copied from Issue #12 (AIB-60g).
 ## Checklist
 
 - [x] Fetch weekly sources (ProductHunt, HackerNews, TechCrunch, GitHub) <!-- longclaw:item=ck_4154dd5e -->
-- [ ] Shortlist X posts for Viral on X <!-- longclaw:item=ck_46f65ed3 -->
-- [ ] Decide whether to include the Official Announcements section from X <!-- longclaw:item=ck_1ea48bdf -->
+- [x] Shortlist X posts for Viral on X <!-- longclaw:item=ck_46f65ed3 -->
+- [x] Decide whether to include the Official Announcements section from X (no, for Issue #13) <!-- longclaw:item=ck_1ea48bdf -->
 - [ ] Generate Weekly Content <!-- longclaw:item=ck_9139f2d6 -->
 - [ ] Identify Favourite Picks <!-- longclaw:item=ck_d0c7f552 -->
 - [ ] Update the Content <!-- longclaw:item=ck_17c18de9 -->
@@ -95,4 +95,28 @@ changes:
 ### Claude Code updated this ticket
 
 GitHub fetched live once github.com/trending recovered: 7 repos from a pool of 13. The AI filter passed only thedotmack/claude-mem and mvschwarz/openrig; the publisher added mattpocock/skills, heygen-com/hyperframes, earthtojake/text-to-cad, cursor/plugins and ranxianglei/billion-context by hand, because the filter skips the bare word 'agent'. Widening the filter is tracked separately. All four week-41 sources are in.
+<!-- /longclaw:event -->
+
+<!-- longclaw:event
+id: evt_574266d2
+kind: update
+occurred_at: 2026-10-11T00:02:52.294Z
+actor:
+  type: agent
+  id: claude-code
+  name: Claude Code
+changes:
+  - field: checklist.ck_46f65ed3.checked
+    from: "false"
+    to: "true"
+  - field: checklist.ck_1ea48bdf.checked
+    from: "false"
+    to: "true"
+  - field: checklist.ck_1ea48bdf.text
+    from: Decide whether to include the Official Announcements section from X
+    to: "Decide whether to include the Official Announcements section from X (no, for Issue #13)"
+-->
+### Claude Code updated this ticket
+
+Saved the week-41 X snapshot from Grok: 10 announcements, 5 insights, no contract errors. Viral on X carries all 5 insights at the publisher's call, with emoji: @ClaudeDevs ⏰, @AndrewWarner 🔌, @trq212 🏠, @polydao 🔧, @housecor 🪜. Checked on X: ClaudeDevs, AndrewWarner and polydao match Grok's text and date. trq212 and housecor showed X's 'Something went wrong' page on every load, so they still need checking before the issue is built. No Official Announcements, so every story stays in AI News. Learning backlog: AIB-87j to AIB-91q, one per insight.
 <!-- /longclaw:event -->
