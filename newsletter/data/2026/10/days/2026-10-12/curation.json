@@ -1,0 +1,543 @@
+{
+  "date": "2026-10-12",
+  "generated_at": "2026-10-12T08:00:27Z",
+  "instructions": "Write one line per item in the aiBytes_ voice - dense, calm, honest, technical. Say what the thing does, not why it matters. At most 200 characters, one sentence, no em dashes. Then pick 1 to 4 tags per item from `tags` below, by their exact display name. Answer with the summaries file described in the curate-edition skill.",
+  "tags": [
+    {
+      "name": "What it is",
+      "tags": [
+        {
+          "name": "Model Release",
+          "slug": "model-release"
+        },
+        {
+          "name": "Open Source",
+          "slug": "open-source"
+        },
+        {
+          "name": "Paper",
+          "slug": "paper"
+        },
+        {
+          "name": "Benchmark",
+          "slug": "benchmark"
+        },
+        {
+          "name": "Dataset",
+          "slug": "dataset"
+        },
+        {
+          "name": "Framework",
+          "slug": "framework"
+        },
+        {
+          "name": "Dev Tool",
+          "slug": "dev-tool"
+        },
+        {
+          "name": "API",
+          "slug": "api"
+        }
+      ]
+    },
+    {
+      "name": "Domain",
+      "tags": [
+        {
+          "name": "LLM",
+          "slug": "llm"
+        },
+        {
+          "name": "Agents",
+          "slug": "agents"
+        },
+        {
+          "name": "RAG",
+          "slug": "rag"
+        },
+        {
+          "name": "Fine-tuning",
+          "slug": "fine-tuning"
+        },
+        {
+          "name": "Inference",
+          "slug": "inference"
+        },
+        {
+          "name": "Local LLM",
+          "slug": "local-llm"
+        },
+        {
+          "name": "Vision",
+          "slug": "vision"
+        },
+        {
+          "name": "Voice / Speech",
+          "slug": "voice-speech"
+        },
+        {
+          "name": "Video",
+          "slug": "video"
+        },
+        {
+          "name": "Image Gen",
+          "slug": "image-gen"
+        },
+        {
+          "name": "Code Gen",
+          "slug": "code-gen"
+        },
+        {
+          "name": "Embeddings",
+          "slug": "embeddings"
+        },
+        {
+          "name": "Eval",
+          "slug": "eval"
+        },
+        {
+          "name": "Reasoning",
+          "slug": "reasoning"
+        },
+        {
+          "name": "Multimodal",
+          "slug": "multimodal"
+        },
+        {
+          "name": "Robotics",
+          "slug": "robotics"
+        }
+      ]
+    },
+    {
+      "name": "Ecosystem",
+      "tags": [
+        {
+          "name": "OpenAI",
+          "slug": "openai"
+        },
+        {
+          "name": "Anthropic",
+          "slug": "anthropic"
+        },
+        {
+          "name": "Google",
+          "slug": "google"
+        },
+        {
+          "name": "Meta",
+          "slug": "meta"
+        },
+        {
+          "name": "Nvidia",
+          "slug": "nvidia"
+        },
+        {
+          "name": "Hugging Face",
+          "slug": "hugging-face"
+        },
+        {
+          "name": "Mistral",
+          "slug": "mistral"
+        },
+        {
+          "name": "xAI",
+          "slug": "xai"
+        },
+        {
+          "name": "Apple",
+          "slug": "apple"
+        },
+        {
+          "name": "Microsoft",
+          "slug": "microsoft"
+        },
+        {
+          "name": "Claude Code",
+          "slug": "claude-code"
+        },
+        {
+          "name": "Cursor",
+          "slug": "cursor"
+        },
+        {
+          "name": "MCP",
+          "slug": "mcp"
+        }
+      ]
+    },
+    {
+      "name": "Business",
+      "tags": [
+        {
+          "name": "Funding",
+          "slug": "funding"
+        },
+        {
+          "name": "Acquisition",
+          "slug": "acquisition"
+        },
+        {
+          "name": "Launch",
+          "slug": "launch"
+        },
+        {
+          "name": "Pricing",
+          "slug": "pricing"
+        },
+        {
+          "name": "Policy",
+          "slug": "policy"
+        },
+        {
+          "name": "Legal",
+          "slug": "legal"
+        },
+        {
+          "name": "Security",
+          "slug": "security"
+        },
+        {
+          "name": "Privacy",
+          "slug": "privacy"
+        },
+        {
+          "name": "Safety",
+          "slug": "safety"
+        }
+      ]
+    },
+    {
+      "name": "Format",
+      "tags": [
+        {
+          "name": "Show HN",
+          "slug": "show-hn"
+        },
+        {
+          "name": "Tutorial",
+          "slug": "tutorial"
+        },
+        {
+          "name": "Deep Dive",
+          "slug": "deep-dive"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "ph-hirekey-2-2026-10-12",
+      "title": "HireKey",
+      "category": "launches",
+      "source": "producthunt",
+      "url": "https://hirekey.io",
+      "source_url": "https://www.producthunt.com/products/hirekey",
+      "source_text": "HireKey Your recruiter-informed AI copilot for tech job search HireKey is a recruiter-informed AI job-search co-pilot for tech job seekers who want to apply strategically & interview with confidence. It helps you assess your role fit, tailor resumes, communicate experience & track applications. Unlike basic ATS tools, HireKey combines AI with 10 years of recruiting experience at Microsoft, Amazon & Stripe, plus practice out loud with an interactive AI voice coach that responds to your answers & provides real-time interview feedback. Artificial Intelligence Tech Career",
+      "signals": {
+        "upvotes": 276,
+        "comments": 37
+      },
+      "published_at": "2026-10-11T07:01:00Z"
+    },
+    {
+      "id": "ph-kodlo-2-2026-10-12",
+      "title": "kōdlo",
+      "category": "launches",
+      "source": "producthunt",
+      "url": "https://kodlo.ai",
+      "source_url": "https://www.producthunt.com/products/kodlo",
+      "source_text": "kōdlo End-to-end sales workspace with unified context kōdlo finds prospects that fit your ICP and tells you how to warm each one up. Upload product catalogues and other docs to the Knowledge Hub, and its agent turns them into personalized messages, offers, deep searches and decks. Track client data, collaborate with your team, and manage tasks, all in one place. Connect Claude Desktop/ChatGPT Work or your code agent with kōdlo MCP to scale and orchestrate contexts. Sales SaaS Artificial Intelligence",
+      "signals": {
+        "upvotes": 256,
+        "comments": 44
+      },
+      "published_at": "2026-10-11T07:01:00Z"
+    },
+    {
+      "id": "ph-automations-in-perplexity-computer-2026-10-12",
+      "title": "Automations in Perplexity Computer",
+      "category": "launches",
+      "source": "producthunt",
+      "url": "https://www.perplexity.ai/hub/blog/computer-adds-automations-for-ongoing-work",
+      "source_url": "https://www.producthunt.com/products/perplexity-ai",
+      "source_text": "Automations in Perplexity Computer Automations that remember, act, and keep work moving Computer Automations turns recurring work into reliable, ongoing workflows. Define a task once... such as monitoring sources, compiling reports, updating trackers, or drafting follow-ups... and an agent executes it on a schedule or in response to triggers. Built for professionals, teams, and operations leaders who need continuity without constant supervision, it remembers prior runs, builds on accumulated context, and acts proactively rather than waiting for a prompt. Productivity Task Management Artificial Intelligence",
+      "signals": {
+        "upvotes": 184,
+        "comments": 2
+      },
+      "published_at": "2026-10-11T07:01:00Z"
+    },
+    {
+      "id": "ph-ghost-core-2026-10-12",
+      "title": "Ghost Core",
+      "category": "launches",
+      "source": "producthunt",
+      "url": "https://ghost.ai/",
+      "source_url": "https://www.producthunt.com/products/ghost-core",
+      "source_text": "Ghost Core A personal AI computer that runs entirely on-device Ghost Core is a personal AI computer that runs AI models on-device, connects to your apps, files, and devices, and builds continuous context to proactively help you. Hardware Privacy Artificial Intelligence",
+      "signals": {
+        "upvotes": 168,
+        "comments": 7
+      },
+      "published_at": "2026-10-11T07:01:00Z"
+    },
+    {
+      "id": "ph-openscreen-2-3-2026-10-12",
+      "title": "OpenScreen 2",
+      "category": "launches",
+      "source": "producthunt",
+      "url": "https://getopenscreen.com",
+      "source_url": "https://www.producthunt.com/products/openscreen-2",
+      "source_text": "OpenScreen 2 Record your demo and let your AI agent do the edits Record your screen and the demo looks great on the first take: zooms planned from your clicks, smooth cursor, 3D camera moves, cursor themes, backgrounds and webcam layouts. Then let your AI agent do the edit over MCP, or cut the video yourself by deleting words in the transcript. Windows, macOS and Linux. Free, MIT, no account, no watermark. Open Source Developer Tools Video",
+      "signals": {
+        "upvotes": 161,
+        "comments": 15
+      },
+      "published_at": "2026-10-11T07:01:00Z"
+    },
+    {
+      "id": "gh-diagram-design-2026-10-12",
+      "title": "cathrynlavery/diagram-design",
+      "category": "repos",
+      "source": "github",
+      "url": "https://github.com/cathrynlavery/diagram-design",
+      "source_url": "https://github.com/cathrynlavery/diagram-design",
+      "source_text": "cathrynlavery/diagram-design Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop. HTML",
+      "signals": {
+        "stars": 51169,
+        "stars_gained": 1083,
+        "forks": 3243
+      },
+      "meta": {
+        "language": "HTML"
+      }
+    },
+    {
+      "id": "gh-airllm-2026-10-12",
+      "title": "lyogavin/airllm",
+      "category": "repos",
+      "source": "github",
+      "url": "https://github.com/lyogavin/airllm",
+      "source_url": "https://github.com/lyogavin/airllm",
+      "source_text": "lyogavin/airllm AirLLM 70B inference with single 4GB GPU Jupyter Notebook",
+      "signals": {
+        "stars": 36818,
+        "stars_gained": 548,
+        "forks": 3833
+      },
+      "meta": {
+        "language": "Jupyter Notebook"
+      }
+    },
+    {
+      "id": "gh-pytorch-2026-10-12",
+      "title": "pytorch/pytorch",
+      "category": "repos",
+      "source": "github",
+      "url": "https://github.com/pytorch/pytorch",
+      "source_url": "https://github.com/pytorch/pytorch",
+      "source_text": "pytorch/pytorch Tensors and Dynamic neural networks in Python with strong GPU acceleration Python",
+      "signals": {
+        "stars": 104659,
+        "stars_gained": 315,
+        "forks": 32185
+      },
+      "meta": {
+        "language": "Python"
+      }
+    },
+    {
+      "id": "tc-will-the-homeview-be-apples-first-smart-home-2026-10-12",
+      "title": "Will the HomeView be Apple’s first smart home success?",
+      "category": "news",
+      "source": "techcrunch",
+      "url": "https://techcrunch.com/2026/10/11/will-the-homeview-be-apples-first-smart-home-success/",
+      "source_url": "https://techcrunch.com/2026/10/11/will-the-homeview-be-apples-first-smart-home-success/",
+      "source_text": "Will the HomeView be Apple’s first smart home success? Over the past couple of years, we’ve seen multiple reports that Apple was working on a new smart home product, but now it seems the product has a name and a launch date.",
+      "meta": {
+        "author": "Anthony Ha",
+        "reading_time": "1 minute"
+      },
+      "published_at": "2026-10-11T21:14:40Z"
+    },
+    {
+      "id": "tc-48-hours-to-techcrunch-disrupt-2026-hear-2026-10-12",
+      "title": "48 hours to TechCrunch Disrupt 2026 — hear directly from the people building what’s next",
+      "category": "news",
+      "source": "techcrunch",
+      "url": "https://techcrunch.com/2026/10/11/48-hours-to-techcrunch-disrupt-2026-hear-directly-from-the-people-building-whats-next/",
+      "source_url": "https://techcrunch.com/2026/10/11/48-hours-to-techcrunch-disrupt-2026-hear-directly-from-the-people-building-whats-next/",
+      "source_text": "48 hours to TechCrunch Disrupt 2026 — hear directly from the people building what’s next Less than 48 hours until TechCrunch Disrupt 2026 starts in San Francisco’s Moscone West. Save up to $100 on your pass before prices increase at the door.",
+      "meta": {
+        "author": "TechCrunch Events",
+        "reading_time": "3 minutes"
+      },
+      "published_at": "2026-10-11T19:00:00Z"
+    },
+    {
+      "id": "tc-can-the-ai-industry-persuade-data-center-2026-10-12",
+      "title": "Can the AI industry persuade data center opponents by getting rid of NDAs?",
+      "category": "news",
+      "source": "techcrunch",
+      "url": "https://techcrunch.com/2026/10/11/can-the-ai-industry-persuade-data-center-opponents-by-getting-rid-of-ndas/",
+      "source_url": "https://techcrunch.com/2026/10/11/can-the-ai-industry-persuade-data-center-opponents-by-getting-rid-of-ndas/",
+      "source_text": "Can the AI industry persuade data center opponents by getting rid of NDAs? On Equity, we debate the impact of data center moratoriums and whether the AI industry has a communication problem.",
+      "meta": {
+        "author": "Anthony Ha",
+        "reading_time": "7 minutes"
+      },
+      "published_at": "2026-10-11T16:52:33Z"
+    },
+    {
+      "id": "tc-these-execs-think-voice-ai-hasnt-reached-its-2026-10-12",
+      "title": "These execs think voice AI hasn’t reached its ChatGPT moment yet",
+      "category": "news",
+      "source": "techcrunch",
+      "url": "https://techcrunch.com/2026/10/11/these-execs-think-voice-ai-hasnt-reached-its-chatgpt-moment-yet/",
+      "source_url": "https://techcrunch.com/2026/10/11/these-execs-think-voice-ai-hasnt-reached-its-chatgpt-moment-yet/",
+      "source_text": "These execs think voice AI hasn’t reached its ChatGPT moment yet Voice AI's often misses important points for its context layer, and causes the whole pipeline to break",
+      "meta": {
+        "author": "Ivan Mehta",
+        "reading_time": "3 minutes"
+      },
+      "published_at": "2026-10-11T14:00:00Z"
+    },
+    {
+      "id": "hn-the-gap-in-shared-understanding-of-llm-2026-10-12",
+      "title": "The gap in shared understanding of LLM capability is widening",
+      "category": "hn",
+      "source": "hackernews",
+      "url": "https://twitter.com/karpathy/status/2109361546505966046",
+      "source_url": "https://news.ycombinator.com/item?id=50047422",
+      "source_text": "The gap in shared understanding of LLM capability is widening",
+      "signals": {
+        "points": 431,
+        "comments": 600
+      },
+      "meta": {
+        "author": "albertzeyer"
+      },
+      "published_at": "2026-10-11T20:20:52Z"
+    },
+    {
+      "id": "hn-500b-tokens-later-letting-ai-agents-decompile-a-2026-10-12",
+      "title": "500B tokens later: Letting AI agents decompile a first-person shooter",
+      "category": "hn",
+      "source": "hackernews",
+      "url": "https://momo5502.com/posts/2026-10-09-game-decompilation/",
+      "source_url": "https://news.ycombinator.com/item?id=50039092",
+      "source_text": "500B tokens later: Letting AI agents decompile a first-person shooter",
+      "signals": {
+        "points": 194,
+        "comments": 138
+      },
+      "meta": {
+        "author": "davikr"
+      },
+      "published_at": "2026-10-11T02:02:38Z"
+    },
+    {
+      "id": "hn-attack-of-the-vibe-coded-photoshop-clones-2026-10-12",
+      "title": "Attack of the Vibe Coded Photoshop Clones",
+      "category": "hn",
+      "source": "hackernews",
+      "url": "https://www.shokunin.studio/blog/2026/10/9/attack-of-the-vibe-coded-photoshop-clones",
+      "source_url": "https://news.ycombinator.com/item?id=50052156",
+      "source_text": "Attack of the Vibe Coded Photoshop Clones",
+      "signals": {
+        "points": 105,
+        "comments": 121
+      },
+      "meta": {
+        "author": "riffraff"
+      },
+      "published_at": "2026-10-12T06:35:05Z"
+    },
+    {
+      "id": "hn-using-ai-for-just-10-minutes-erodes-your-2026-10-12",
+      "title": "Using AI for just 10 minutes erodes your ability to persist at hard things",
+      "category": "hn",
+      "source": "hackernews",
+      "url": "https://vcresearch.berkeley.edu/news/using-ai-just-10-minutes-erodes-your-ability-persist-hard-things",
+      "source_url": "https://news.ycombinator.com/item?id=50041765",
+      "source_text": "Using AI for just 10 minutes erodes your ability to persist at hard things",
+      "signals": {
+        "points": 103,
+        "comments": 100
+      },
+      "meta": {
+        "author": "giuliomagnifico"
+      },
+      "published_at": "2026-10-11T10:47:21Z"
+    },
+    {
+      "id": "hn-nicolas-cage-says-he-won-t-work-with-amazon-2026-10-12",
+      "title": "Nicolas Cage says he won't work with Amazon again over AI dispute",
+      "category": "hn",
+      "source": "hackernews",
+      "url": "https://www.latimes.com/entertainment-arts/business/story/2026-10-10/nicolas-cage-says-he-wont-work-with-amazon-again-over-ai-dispute",
+      "source_url": "https://news.ycombinator.com/item?id=50041873",
+      "source_text": "Nicolas Cage says he won't work with Amazon again over AI dispute",
+      "signals": {
+        "points": 89,
+        "comments": 31
+      },
+      "meta": {
+        "author": "Bluestein"
+      },
+      "published_at": "2026-10-11T11:03:21Z"
+    },
+    {
+      "id": "hn-ai-is-creating-a-human-premium-for-art-created-2026-10-12",
+      "title": "AI is creating a 'human premium' for art created by people",
+      "category": "hn",
+      "source": "hackernews",
+      "url": "https://www.bbc.com/news/articles/c5vgjm3gk7rzo",
+      "source_url": "https://news.ycombinator.com/item?id=50042107",
+      "source_text": "AI is creating a 'human premium' for art created by people",
+      "signals": {
+        "points": 71,
+        "comments": 115
+      },
+      "meta": {
+        "author": "colinprince"
+      },
+      "published_at": "2026-10-11T11:34:28Z"
+    },
+    {
+      "id": "hn-anthropic-bans-cruelty-to-claude-still-won-t-2026-10-12",
+      "title": "Anthropic Bans Cruelty to Claude, Still Won't Say What It Protects",
+      "category": "hn",
+      "source": "hackernews",
+      "url": "https://rews.cc/a/anthropic-bans-cruelty-to-claude-still-won-t-say-what-it-pro-bd99f6",
+      "source_url": "https://news.ycombinator.com/item?id=50038383",
+      "source_text": "Anthropic Bans Cruelty to Claude, Still Won't Say What It Protects",
+      "signals": {
+        "points": 67,
+        "comments": 146
+      },
+      "meta": {
+        "author": "ojosilva"
+      },
+      "published_at": "2026-10-11T00:08:31Z"
+    },
+    {
+      "id": "hn-anthropic-asks-users-to-stop-being-mean-to-2026-10-12",
+      "title": "Anthropic asks users to stop being mean to Claude",
+      "category": "hn",
+      "source": "hackernews",
+      "url": "https://www.theregister.com/ai-and-ml/2026/10/09/anthropic-asks-users-to-stop-being-mean-to-claude/5302218",
+      "source_url": "https://news.ycombinator.com/item?id=50038865",
+      "source_text": "Anthropic asks users to stop being mean to Claude",
+      "signals": {
+        "points": 53,
+        "comments": 52
+      },
+      "meta": {
+        "author": "alex_young"
+      },
+      "published_at": "2026-10-11T01:17:22Z"
+    }
+  ]
+}

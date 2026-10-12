@@ -1,0 +1,45 @@
+{
+  "source": "github-trending",
+  "section": "trending-repos",
+  "fetched_at": "2026-10-12",
+  "query_params": {
+    "since": "daily",
+    "languages": [
+      "all"
+    ],
+    "count": 10,
+    "topic": "ai",
+    "ranking": "period_stars,total_stars"
+  },
+  "totalCount": 3,
+  "poolCount": 8,
+  "repos": [
+    {
+      "name": "cathrynlavery/diagram-design",
+      "url": "https://github.com/cathrynlavery/diagram-design",
+      "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+      "language": "HTML",
+      "stars": 51169,
+      "forks": 3243,
+      "period_stars": 1083
+    },
+    {
+      "name": "lyogavin/airllm",
+      "url": "https://github.com/lyogavin/airllm",
+      "description": "AirLLM 70B inference with single 4GB GPU",
+      "language": "Jupyter Notebook",
+      "stars": 36818,
+      "forks": 3833,
+      "period_stars": 548
+    },
+    {
+      "name": "pytorch/pytorch",
+      "url": "https://github.com/pytorch/pytorch",
+      "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
+      "language": "Python",
+      "stars": 104659,
+      "forks": 32185,
+      "period_stars": 315
+    }
+  ]
+}

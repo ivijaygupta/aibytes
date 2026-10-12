@@ -1,0 +1,57 @@
+{
+  "source": "techcrunch",
+  "section": "ai-news",
+  "fetched_at": "2026-10-12",
+  "window": {
+    "after": "2026-10-11",
+    "before": "2026-10-13"
+  },
+  "query_params": {
+    "category": "artificial-intelligence",
+    "count": 10,
+    "ranking": "hackernews_points,recency"
+  },
+  "totalCount": 4,
+  "articles": [
+    {
+      "title": "Will the HomeView be Apple\u2019s first smart home success?",
+      "description": "Over the past couple of years, we\u2019ve seen multiple reports that Apple was working on a new smart home product, but now it seems the product has a name and a launch date.",
+      "url": "https://techcrunch.com/2026/10/11/will-the-homeview-be-apples-first-smart-home-success/",
+      "published_at": "2026-10-11T21:14:40Z",
+      "author": "Anthony Ha",
+      "image": "https://techcrunch.com/wp-content/uploads/2021/11/homepod.jpg?resize=1200,854",
+      "reading_time": "1 minute",
+      "hackernews": null
+    },
+    {
+      "title": "48 hours to TechCrunch Disrupt 2026 \u2014 hear directly from the people building what\u2019s next",
+      "description": "Less than 48 hours until TechCrunch Disrupt 2026 starts in San Francisco\u2019s Moscone West. Save up to $100 on your pass before prices increase at the door.",
+      "url": "https://techcrunch.com/2026/10/11/48-hours-to-techcrunch-disrupt-2026-hear-directly-from-the-people-building-whats-next/",
+      "published_at": "2026-10-11T19:00:00Z",
+      "author": "TechCrunch Events",
+      "image": "https://techcrunch.com/wp-content/uploads/2025/09/Perplexity-Disrupt-Stage-2024.jpg?resize=1200,800",
+      "reading_time": "3 minutes",
+      "hackernews": null
+    },
+    {
+      "title": "Can the AI industry persuade data center opponents by getting rid of NDAs?",
+      "description": "On Equity, we debate the impact of data center moratoriums and whether the AI industry has a communication problem.",
+      "url": "https://techcrunch.com/2026/10/11/can-the-ai-industry-persuade-data-center-opponents-by-getting-rid-of-ndas/",
+      "published_at": "2026-10-11T16:52:33Z",
+      "author": "Anthony Ha",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/09/9-DSCF1649.jpg?resize=800,1200",
+      "reading_time": "7 minutes",
+      "hackernews": null
+    },
+    {
+      "title": "These execs think voice AI hasn\u2019t reached its ChatGPT moment yet",
+      "description": "Voice AI's often misses important points for its context layer, and causes the whole pipeline to break",
+      "url": "https://techcrunch.com/2026/10/11/these-execs-think-voice-ai-hasnt-reached-its-chatgpt-moment-yet/",
+      "published_at": "2026-10-11T14:00:00Z",
+      "author": "Ivan Mehta",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/10/Screenshot-2026-10-10-at-2.42.28-PM.jpg?resize=1200,624",
+      "reading_time": "3 minutes",
+      "hackernews": null
+    }
+  ]
+}

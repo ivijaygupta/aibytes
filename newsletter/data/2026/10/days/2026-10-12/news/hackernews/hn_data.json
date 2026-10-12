@@ -1,0 +1,100 @@
+{
+  "source": "hackernews",
+  "section": "ai-news",
+  "fetched_at": "2026-10-12",
+  "window": {
+    "after": "2026-10-11",
+    "before": "2026-10-13"
+  },
+  "query_params": {
+    "tags": "story",
+    "count": 10,
+    "min_points": 50,
+    "topic": "ai",
+    "ranking": "points,recency"
+  },
+  "totalCount": 8,
+  "poolCount": 63,
+  "stories": [
+    {
+      "title": "The gap in shared understanding of LLM capability is widening",
+      "url": "https://twitter.com/karpathy/status/2109361546505966046",
+      "type": "story",
+      "points": 431,
+      "num_comments": 600,
+      "author": "albertzeyer",
+      "created_at": "2026-10-11T20:20:52Z",
+      "hn_url": "https://news.ycombinator.com/item?id=50047422"
+    },
+    {
+      "title": "500B tokens later: Letting AI agents decompile a first-person shooter",
+      "url": "https://momo5502.com/posts/2026-10-09-game-decompilation/",
+      "type": "story",
+      "points": 194,
+      "num_comments": 138,
+      "author": "davikr",
+      "created_at": "2026-10-11T02:02:38Z",
+      "hn_url": "https://news.ycombinator.com/item?id=50039092"
+    },
+    {
+      "title": "Attack of the Vibe Coded Photoshop Clones",
+      "url": "https://www.shokunin.studio/blog/2026/10/9/attack-of-the-vibe-coded-photoshop-clones",
+      "type": "story",
+      "points": 105,
+      "num_comments": 121,
+      "author": "riffraff",
+      "created_at": "2026-10-12T06:35:05Z",
+      "hn_url": "https://news.ycombinator.com/item?id=50052156"
+    },
+    {
+      "title": "Using AI for just 10 minutes erodes your ability to persist at hard things",
+      "url": "https://vcresearch.berkeley.edu/news/using-ai-just-10-minutes-erodes-your-ability-persist-hard-things",
+      "type": "story",
+      "points": 103,
+      "num_comments": 100,
+      "author": "giuliomagnifico",
+      "created_at": "2026-10-11T10:47:21Z",
+      "hn_url": "https://news.ycombinator.com/item?id=50041765"
+    },
+    {
+      "title": "Nicolas Cage says he won't work with Amazon again over AI dispute",
+      "url": "https://www.latimes.com/entertainment-arts/business/story/2026-10-10/nicolas-cage-says-he-wont-work-with-amazon-again-over-ai-dispute",
+      "type": "story",
+      "points": 89,
+      "num_comments": 31,
+      "author": "Bluestein",
+      "created_at": "2026-10-11T11:03:21Z",
+      "hn_url": "https://news.ycombinator.com/item?id=50041873"
+    },
+    {
+      "title": "AI is creating a 'human premium' for art created by people",
+      "url": "https://www.bbc.com/news/articles/c5vgjm3gk7rzo",
+      "type": "story",
+      "points": 71,
+      "num_comments": 115,
+      "author": "colinprince",
+      "created_at": "2026-10-11T11:34:28Z",
+      "hn_url": "https://news.ycombinator.com/item?id=50042107"
+    },
+    {
+      "title": "Anthropic Bans Cruelty to Claude, Still Won't Say What It Protects",
+      "url": "https://rews.cc/a/anthropic-bans-cruelty-to-claude-still-won-t-say-what-it-pro-bd99f6",
+      "type": "story",
+      "points": 67,
+      "num_comments": 146,
+      "author": "ojosilva",
+      "created_at": "2026-10-11T00:08:31Z",
+      "hn_url": "https://news.ycombinator.com/item?id=50038383"
+    },
+    {
+      "title": "Anthropic asks users to stop being mean to Claude",
+      "url": "https://www.theregister.com/ai-and-ml/2026/10/09/anthropic-asks-users-to-stop-being-mean-to-claude/5302218",
+      "type": "story",
+      "points": 53,
+      "num_comments": 52,
+      "author": "alex_young",
+      "created_at": "2026-10-11T01:17:22Z",
+      "hn_url": "https://news.ycombinator.com/item?id=50038865"
+    }
+  ]
+}

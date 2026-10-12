@@ -1,7 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-11T08:01:20Z",
+  "generated_at": "2026-10-12T08:01:15Z",
   "editions": [
+    {
+      "date": "2026-10-12",
+      "path": "editions/2026-10-12.json",
+      "total": 20,
+      "generated_at": "2026-10-12T08:01:15Z"
+    },
     {
       "date": "2026-10-11",
       "path": "editions/2026-10-11.json",
