@@ -3,12 +3,12 @@ format: longclaw.ticket/v1
 id: a643f261-9128-4601-8b2d-102f009a1b09
 key: AIB-84e
 title: "Issue #13: 11 Oct 2026"
-status: in_progress
+status: done
 priority: urgent
 type: newsletter
 due: 2026-10-11
 created_at: 2026-10-10T23:37:28.210Z
-updated_at: 2026-10-11T09:55:11.425Z
+updated_at: 2026-10-13T16:46:23.549Z
 ---
 
 Weekly aiBytes_ Issue #13.
@@ -34,7 +34,7 @@ Checklist copied from Issue #12 (AIB-60g).
 - [x] Send the newsletter <!-- longclaw:item=ck_06e73d1e -->
 - [x] Generate Social Media Posts <!-- longclaw:item=ck_42226844 -->
 - [x] Create the LC Tickets for AI Learning Backlog <!-- longclaw:item=ck_7b70e42d -->
-- [ ] Commit the issue output and open a PR against main <!-- longclaw:item=ck_fa35c15a -->
+- [x] Commit the issue output and open a PR against main <!-- longclaw:item=ck_fa35c15a -->
 
 ## Activity
 
@@ -251,4 +251,25 @@ changes:
 ### Claude Code updated this ticket
 
 Social: announcement posts on the Favourite Picks, per the publisher. newsletter/issues/2026/week-42-Issue-13/social/c_linkedIn.md (2 variations) and c_x.md (3 variations). {ISSUE_URL} placeholder until the Beehiiv link is live.
+<!-- /longclaw:event -->
+
+<!-- longclaw:event
+id: evt_d8d177e2
+kind: update
+occurred_at: 2026-10-13T16:46:23.549Z
+actor:
+  type: agent
+  id: claude-code
+  name: Claude Code
+changes:
+  - field: status
+    from: in_progress
+    to: done
+  - field: checklist.ck_fa35c15a.checked
+    from: "false"
+    to: "true"
+-->
+### Claude Code updated this ticket
+
+Issue #13 shipped. Branch issue-13-11-oct-weekly-newsletter merged to main via PR.
 <!-- /longclaw:event -->
