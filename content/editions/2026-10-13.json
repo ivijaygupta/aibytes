@@ -1,0 +1,706 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-13",
+  "generated_at": "2026-10-13T08:01:39Z",
+  "counts": {
+    "launches": 4,
+    "repos": 6,
+    "news": 7,
+    "hn": 10
+  },
+  "items": [
+    {
+      "id": "ph-google-embeddinggemma-2-2026-10-13",
+      "title": "Google EmbeddingGemma 2",
+      "summary": "740M-parameter open model that embeds text, code, images, video and audio into one shared space; runs on-device in about 567MB of RAM, Apache 2.0, weights on Hugging Face and Kaggle.",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/",
+      "source": "producthunt",
+      "source_url": "https://www.producthunt.com/products/embeddinggemma-2",
+      "category": "launches",
+      "tags": [
+        "Model Release",
+        "Embeddings",
+        "Open Source",
+        "Google"
+      ],
+      "image": {
+        "type": "logo",
+        "url": "https://ph-files.imgix.net/222c2b1e-d873-4878-beb2-be3704aed064.png?auto=format"
+      },
+      "signals": {
+        "upvotes": 288,
+        "comments": 3
+      },
+      "published_at": "2026-10-12T07:01:00Z",
+      "hidden": false,
+      "rank": 4
+    },
+    {
+      "id": "ph-ngram-2-0-2-2026-10-13",
+      "title": "ngram 2.0",
+      "summary": "Turns documents and screen recordings into narrated videos, picking out key moments to build product walkthroughs, with optional AI avatar presenters and edits made in chat.",
+      "url": "https://www.ngram.com/features/explainer-video-maker",
+      "source": "producthunt",
+      "source_url": "https://www.producthunt.com/products/ngram",
+      "category": "launches",
+      "tags": [
+        "Video",
+        "Launch"
+      ],
+      "image": {
+        "type": "logo",
+        "url": "https://ph-files.imgix.net/ff626e36-21c0-49e6-9937-f794c9825256.png?auto=format"
+      },
+      "signals": {
+        "upvotes": 253,
+        "comments": 40
+      },
+      "published_at": "2026-10-12T07:01:00Z",
+      "hidden": false,
+      "rank": 9
+    },
+    {
+      "id": "ph-guilds-run-2026-10-13",
+      "title": "guilds.run",
+      "summary": "Open-source, self-hostable multi-agent framework that logs every prompt, tool call and memory change, with per-agent permissions, editable context and a model choice per agent.",
+      "url": "https://www.guilds.run/",
+      "source": "producthunt",
+      "source_url": "https://www.producthunt.com/products/guilds-run",
+      "category": "launches",
+      "tags": [
+        "Framework",
+        "Agents",
+        "Open Source",
+        "Launch"
+      ],
+      "image": {
+        "type": "logo",
+        "url": "https://ph-files.imgix.net/37579761-1375-4bdd-9dc3-d0c95b4b13a8.png?auto=format"
+      },
+      "signals": {
+        "upvotes": 188,
+        "comments": 41
+      },
+      "published_at": "2026-10-12T07:01:00Z",
+      "hidden": false,
+      "rank": 17
+    },
+    {
+      "id": "ph-manifold-mcp-2026-10-13",
+      "title": "Manifold MCP",
+      "summary": "Hosted MCP server that feeds Claude, ChatGPT, Cursor and Claude Code live SEO rankings, AI-answer mentions, TikTok trends, competitor ads, Reddit threads and buyer emails.",
+      "url": "https://www.manifoldmcp.com",
+      "source": "producthunt",
+      "source_url": "https://www.producthunt.com/products/manifold-mcp",
+      "category": "launches",
+      "tags": [
+        "API",
+        "Agents",
+        "MCP",
+        "Launch"
+      ],
+      "image": {
+        "type": "logo",
+        "url": "https://ph-files.imgix.net/568430b5-0efe-4c4e-a3e3-57cc8a3ee0a1.png?auto=format"
+      },
+      "signals": {
+        "upvotes": 155,
+        "comments": 28
+      },
+      "published_at": "2026-10-12T07:01:00Z",
+      "hidden": false,
+      "rank": 23
+    },
+    {
+      "id": "gh-diagram-design-2026-10-13",
+      "title": "cathrynlavery/diagram-design",
+      "summary": "Editorial diagram templates for Claude Code, Codex, Copilot, Cursor and other coding agents: 44 diagram types output as self-contained HTML and SVG instead of Mermaid.",
+      "url": "https://github.com/cathrynlavery/diagram-design",
+      "source": "github",
+      "source_url": "https://github.com/cathrynlavery/diagram-design",
+      "category": "repos",
+      "tags": [
+        "Dev Tool",
+        "Agents",
+        "Open Source"
+      ],
+      "image": {
+        "type": "avatar",
+        "url": "https://github.com/cathrynlavery.png?size=80"
+      },
+      "signals": {
+        "stars": 53128,
+        "stars_gained": 2081,
+        "forks": 3358
+      },
+      "meta": {
+        "language": "HTML"
+      },
+      "hidden": false,
+      "rank": 1
+    },
+    {
+      "id": "gh-airllm-2026-10-13",
+      "title": "lyogavin/airllm",
+      "summary": "Inference library, shipped with Jupyter notebooks, that claims to run LLMs up to 2.8T parameters on a single 4GB GPU.",
+      "url": "https://github.com/lyogavin/airllm",
+      "source": "github",
+      "source_url": "https://github.com/lyogavin/airllm",
+      "category": "repos",
+      "tags": [
+        "Inference",
+        "Local LLM",
+        "Open Source"
+      ],
+      "image": {
+        "type": "avatar",
+        "url": "https://github.com/lyogavin.png?size=80"
+      },
+      "signals": {
+        "stars": 37818,
+        "stars_gained": 879,
+        "forks": 3890
+      },
+      "meta": {
+        "language": "Jupyter Notebook"
+      },
+      "hidden": false,
+      "rank": 7
+    },
+    {
+      "id": "gh-free-claude-code-2026-10-13",
+      "title": "Alishahryar1/free-claude-code",
+      "summary": "Python tool for running Claude Code, Codex, OpenCode and eight other harnesses on free tokens from a terminal, IDE, phone or browser, with multi-model sessions and voice.",
+      "url": "https://github.com/Alishahryar1/free-claude-code",
+      "source": "github",
+      "source_url": "https://github.com/Alishahryar1/free-claude-code",
+      "category": "repos",
+      "tags": [
+        "Dev Tool",
+        "Code Gen",
+        "Claude Code"
+      ],
+      "image": {
+        "type": "avatar",
+        "url": "https://github.com/Alishahryar1.png?size=80"
+      },
+      "signals": {
+        "stars": 59591,
+        "stars_gained": 626,
+        "forks": 9360
+      },
+      "meta": {
+        "language": "Python"
+      },
+      "hidden": false,
+      "rank": 12
+    },
+    {
+      "id": "gh-context-mode-2026-10-13",
+      "title": "mksglu/context-mode",
+      "summary": "Sandboxes coding-agent tool output to cut it by 98%, persists session memory and enforces routing across 17 platforms, wired in through MCP and hooks; written in TypeScript.",
+      "url": "https://github.com/mksglu/context-mode",
+      "source": "github",
+      "source_url": "https://github.com/mksglu/context-mode",
+      "category": "repos",
+      "tags": [
+        "Dev Tool",
+        "Agents",
+        "MCP"
+      ],
+      "image": {
+        "type": "avatar",
+        "url": "https://github.com/mksglu.png?size=80"
+      },
+      "signals": {
+        "stars": 27597,
+        "stars_gained": 246,
+        "forks": 1958
+      },
+      "meta": {
+        "language": "TypeScript"
+      },
+      "hidden": false,
+      "rank": 15
+    },
+    {
+      "id": "gh-open-webui-2026-10-13",
+      "title": "open-webui/open-webui",
+      "summary": "Python web chat interface for LLMs that connects to Ollama and OpenAI API-compatible backends.",
+      "url": "https://github.com/open-webui/open-webui",
+      "source": "github",
+      "source_url": "https://github.com/open-webui/open-webui",
+      "category": "repos",
+      "tags": [
+        "Open Source",
+        "Local LLM"
+      ],
+      "image": {
+        "type": "avatar",
+        "url": "https://github.com/open-webui.png?size=80"
+      },
+      "signals": {
+        "stars": 155375,
+        "stars_gained": 157,
+        "forks": 22666
+      },
+      "meta": {
+        "language": "Python"
+      },
+      "hidden": false,
+      "rank": 20
+    },
+    {
+      "id": "gh-bitnet-2026-10-13",
+      "title": "microsoft/BitNet",
+      "summary": "Microsoft's official C++ runtime for 1-bit LLMs, the inference path for models stored at a single bit per weight.",
+      "url": "https://github.com/microsoft/BitNet",
+      "source": "github",
+      "source_url": "https://github.com/microsoft/BitNet",
+      "category": "repos",
+      "tags": [
+        "Framework",
+        "Inference",
+        "Microsoft"
+      ],
+      "image": {
+        "type": "avatar",
+        "url": "https://github.com/microsoft.png?size=80"
+      },
+      "signals": {
+        "stars": 41039,
+        "stars_gained": 97,
+        "forks": 3819
+      },
+      "meta": {
+        "language": "C++"
+      },
+      "hidden": false,
+      "rank": 25
+    },
+    {
+      "id": "tc-meta-releases-its-first-frontier-model-muse-2026-10-13",
+      "title": "Meta releases its first frontier model, Muse Wonder",
+      "summary": "Larger sibling to the low-latency Muse Spark, with higher benchmark scores and stronger results on complex tasks like coding.",
+      "url": "https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/",
+      "source": "techcrunch",
+      "source_url": "https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/",
+      "category": "news",
+      "tags": [
+        "Model Release",
+        "LLM",
+        "Meta"
+      ],
+      "image": {
+        "type": "thumbnail",
+        "url": "https://techcrunch.com/wp-content/uploads/2026/10/Screenshot-2026-10-12-at-1.09.43-PM.jpg?resize=1200,676"
+      },
+      "meta": {
+        "author": "Russell Brandom",
+        "reading_time": "2 minutes"
+      },
+      "published_at": "2026-10-12T17:56:56Z",
+      "hidden": false,
+      "rank": 3
+    },
+    {
+      "id": "tc-windborne-wins-a-hefty-us-air-force-contract-2026-10-13",
+      "title": "WindBorne wins a hefty US Air Force contract for its balloon data",
+      "summary": "The Silicon Valley startup pairs its own weather balloon data with AI forecasting; the military contract is worth almost $50 million.",
+      "url": "https://techcrunch.com/2026/10/12/windborne-wins-a-hefty-us-air-force-contract-for-its-balloon-data/",
+      "source": "techcrunch",
+      "source_url": "https://techcrunch.com/2026/10/12/windborne-wins-a-hefty-us-air-force-contract-for-its-balloon-data/",
+      "category": "news",
+      "tags": [
+        "Dataset"
+      ],
+      "image": {
+        "type": "thumbnail",
+        "url": "https://techcrunch.com/wp-content/uploads/2026/06/Pic-8.jpg?resize=1200,675"
+      },
+      "meta": {
+        "author": "Tim Fernholz",
+        "reading_time": "3 minutes"
+      },
+      "published_at": "2026-10-12T17:19:14Z",
+      "hidden": false,
+      "rank": 6
+    },
+    {
+      "id": "tc-honeyjar-offers-ai-tools-to-improve-pr-and-2026-10-13",
+      "title": "Honeyjar offers AI tools to improve PR and comms at every company",
+      "summary": "Profile of a startup building AI tools for PR and communications teams, aimed at a process journalists and PR professionals alike call broken.",
+      "url": "https://techcrunch.com/2026/10/12/honeyjar-offers-ai-tools-to-improve-pr-and-comms-at-every-company/",
+      "source": "techcrunch",
+      "source_url": "https://techcrunch.com/2026/10/12/honeyjar-offers-ai-tools-to-improve-pr-and-comms-at-every-company/",
+      "category": "news",
+      "tags": [
+        "LLM"
+      ],
+      "image": {
+        "type": "thumbnail",
+        "url": "https://techcrunch.com/wp-content/uploads/2026/10/honeyjar-founders.jpg?resize=960,1200"
+      },
+      "meta": {
+        "author": "Anthony Ha",
+        "reading_time": "4 minutes"
+      },
+      "published_at": "2026-10-12T15:45:00Z",
+      "hidden": false,
+      "rank": 10
+    },
+    {
+      "id": "tc-microsoft-president-says-uk-is-best-placed-to-2026-10-13",
+      "title": "Microsoft president says UK is best placed to drive AI regulation",
+      "summary": "Brad Smith calls for urgent AI rules, arguing milk and washing machines face more oversight than AI companies do.",
+      "url": "https://techcrunch.com/2026/10/12/microsoft-president-says-uk-is-best-placed-to-drive-ai-regulation/",
+      "source": "techcrunch",
+      "source_url": "https://techcrunch.com/2026/10/12/microsoft-president-says-uk-is-best-placed-to-drive-ai-regulation/",
+      "category": "news",
+      "tags": [
+        "Policy",
+        "Microsoft"
+      ],
+      "image": {
+        "type": "thumbnail",
+        "url": "https://techcrunch.com/wp-content/uploads/2018/10/GettyImages-1039496404.jpg?w=1024"
+      },
+      "meta": {
+        "author": "Rebecca Bellan",
+        "reading_time": "3 minutes"
+      },
+      "published_at": "2026-10-12T15:31:19Z",
+      "hidden": false,
+      "rank": 14
+    },
+    {
+      "id": "tc-this-ai-startup-says-it-can-generate-permit-2026-10-13",
+      "title": "This AI startup says it can generate permit-ready blueprints in minutes",
+      "summary": "Blueprints AI, a bootstrapped Santa Monica company, turns a photo, PDF or sketch into code-compliant construction blueprints.",
+      "url": "https://techcrunch.com/2026/10/12/this-ai-startup-says-it-can-generate-permit-ready-blueprints-in-minutes/",
+      "source": "techcrunch",
+      "source_url": "https://techcrunch.com/2026/10/12/this-ai-startup-says-it-can-generate-permit-ready-blueprints-in-minutes/",
+      "category": "news",
+      "tags": [
+        "Vision"
+      ],
+      "image": {
+        "type": "thumbnail",
+        "url": "https://techcrunch.com/wp-content/uploads/2026/10/Blueprints-AI-Founder1.jpg?resize=1200,799"
+      },
+      "meta": {
+        "author": "Kirsten Korosec",
+        "reading_time": "4 minutes"
+      },
+      "published_at": "2026-10-12T15:27:59Z",
+      "hidden": false,
+      "rank": 18
+    },
+    {
+      "id": "tc-techcrunch-disrupt-2026-starts-tomorrow-your-2026-10-13",
+      "title": "TechCrunch Disrupt 2026 starts tomorrow: Your final chance to secure up to $100 ticket savings",
+      "summary": "Ticket promotion for the three-day conference, which opens at 8 a.m. PT on October 13, with up to $100 off before doors open.",
+      "url": "https://techcrunch.com/2026/10/12/techcrunch-disrupt-2026-starts-tomorrow-your-final-chance-to-secure-up-to-100-ticket-savings/",
+      "source": "techcrunch",
+      "source_url": "https://techcrunch.com/2026/10/12/techcrunch-disrupt-2026-starts-tomorrow-your-final-chance-to-secure-up-to-100-ticket-savings/",
+      "category": "news",
+      "tags": [
+        "Pricing"
+      ],
+      "image": {
+        "type": "thumbnail",
+        "url": "https://techcrunch.com/wp-content/uploads/2026/02/TCD26_24Hours-16X9-Dark.png?resize=1200,675"
+      },
+      "meta": {
+        "author": "TechCrunch Events",
+        "reading_time": "3 minutes"
+      },
+      "published_at": "2026-10-12T14:00:00Z",
+      "hidden": false,
+      "rank": 22
+    },
+    {
+      "id": "tc-former-plaud-exec-raises-26m-for-ai-app-that-2026-10-13",
+      "title": "Former Plaud exec raises $26M for AI app that listens to you in the background",
+      "summary": "Backs an app that gathers ambient context for suggestions, part of the industry bet that assistants must listen, watch or record users all the time to be useful.",
+      "url": "https://techcrunch.com/2026/10/12/former-plaud-exec-raises-26m-for-ai-app-that-listens-to-you-in-the-background/",
+      "source": "techcrunch",
+      "source_url": "https://techcrunch.com/2026/10/12/former-plaud-exec-raises-26m-for-ai-app-that-listens-to-you-in-the-background/",
+      "category": "news",
+      "tags": [
+        "Funding",
+        "Voice / Speech",
+        "Privacy"
+      ],
+      "image": {
+        "type": "thumbnail",
+        "url": "https://techcrunch.com/wp-content/uploads/2026/10/Ambi-by-Mistlabs.jpeg?resize=1200,800"
+      },
+      "meta": {
+        "author": "Ivan Mehta",
+        "reading_time": "4 minutes"
+      },
+      "published_at": "2026-10-12T12:47:59Z",
+      "hidden": false,
+      "rank": 26
+    },
+    {
+      "id": "hn-glm-legal-2026-10-13",
+      "title": "GLM-Legal",
+      "summary": "Release post on the Z.ai blog introducing GLM-Legal, a legal-domain entry in its GLM model family.",
+      "url": "https://z.ai/blog/glm-legal",
+      "source": "hackernews",
+      "source_url": "https://news.ycombinator.com/item?id=50058507",
+      "category": "hn",
+      "tags": [
+        "Model Release",
+        "LLM"
+      ],
+      "image": {
+        "type": "none"
+      },
+      "signals": {
+        "points": 535,
+        "comments": 307
+      },
+      "meta": {
+        "author": "ilreb"
+      },
+      "published_at": "2026-10-12T16:11:45Z",
+      "hidden": false,
+      "rank": 2
+    },
+    {
+      "id": "hn-ai-is-a-tool-and-using-it-well-takes-skill-2026-10-13",
+      "title": "AI is a tool and using it well takes skill",
+      "summary": "Personal blog essay arguing that results from AI depend on learned skill in using it; Rich Hickey argues the opposite framing in this same edition.",
+      "url": "https://yyhh.org/blog/2026/10/ai-is-a-tool/",
+      "source": "hackernews",
+      "source_url": "https://news.ycombinator.com/item?id=50063427",
+      "category": "hn",
+      "tags": [
+        "LLM"
+      ],
+      "image": {
+        "type": "none"
+      },
+      "signals": {
+        "points": 375,
+        "comments": 294
+      },
+      "meta": {
+        "author": "layer8"
+      },
+      "published_at": "2026-10-12T21:40:18Z",
+      "hidden": false,
+      "rank": 5
+    },
+    {
+      "id": "hn-qgis-enacts-moratorium-on-ai-contributions-2026-10-13",
+      "title": "QGIS enacts moratorium on AI contributions",
+      "summary": "Enhancement proposal pull request in the QGIS GitHub repo pausing AI-generated contributions to the open-source GIS project.",
+      "url": "https://github.com/qgis/QGIS-Enhancement-Proposals/pull/387",
+      "source": "hackernews",
+      "source_url": "https://news.ycombinator.com/item?id=50054751",
+      "category": "hn",
+      "tags": [
+        "Open Source",
+        "Policy",
+        "Code Gen"
+      ],
+      "image": {
+        "type": "none"
+      },
+      "signals": {
+        "points": 373,
+        "comments": 402
+      },
+      "meta": {
+        "author": "bwnkl"
+      },
+      "published_at": "2026-10-12T11:22:24Z",
+      "hidden": false,
+      "rank": 8
+    },
+    {
+      "id": "hn-ai-coding-agents-generate-more-code-but-not-2026-10-13",
+      "title": "AI coding agents generate more code, but not more software",
+      "summary": "Ars Technica report that coding agents raise the volume of code written without a matching rise in shipped software.",
+      "url": "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/",
+      "source": "hackernews",
+      "source_url": "https://news.ycombinator.com/item?id=50059523",
+      "category": "hn",
+      "tags": [
+        "Code Gen",
+        "Agents"
+      ],
+      "image": {
+        "type": "none"
+      },
+      "signals": {
+        "points": 331,
+        "comments": 278
+      },
+      "meta": {
+        "author": "gumby"
+      },
+      "published_at": "2026-10-12T17:14:01Z",
+      "hidden": false,
+      "rank": 11
+    },
+    {
+      "id": "hn-why-aren-t-ai-companies-being-charged-for-2026-10-13",
+      "title": "Why aren't AI companies being charged for hacking?",
+      "summary": "Personal blog essay on mortoray.com asking why AI companies are not prosecuted under hacking laws.",
+      "url": "https://mortoray.com/why-arent-ai-companies-being-charged-for-hacking/",
+      "source": "hackernews",
+      "source_url": "https://news.ycombinator.com/item?id=50057278",
+      "category": "hn",
+      "tags": [
+        "Legal",
+        "Security"
+      ],
+      "image": {
+        "type": "none"
+      },
+      "signals": {
+        "points": 320,
+        "comments": 339
+      },
+      "meta": {
+        "author": "ingve"
+      },
+      "published_at": "2026-10-12T14:52:37Z",
+      "hidden": false,
+      "rank": 13
+    },
+    {
+      "id": "hn-ai-is-not-a-tool-by-rich-hickey-2026-10-13",
+      "title": "'AI' Is Not a Tool by Rich Hickey",
+      "summary": "LinkedIn essay from the Clojure creator rejecting the framing of AI as a tool, a counterpoint to the 'AI is a tool' post in this edition.",
+      "url": "https://www.linkedin.com/pulse/ai-tool-rich-hickey-kjl8e",
+      "source": "hackernews",
+      "source_url": "https://news.ycombinator.com/item?id=50060269",
+      "category": "hn",
+      "tags": [
+        "LLM"
+      ],
+      "image": {
+        "type": "none"
+      },
+      "signals": {
+        "points": 263,
+        "comments": 133
+      },
+      "meta": {
+        "author": "svieira"
+      },
+      "published_at": "2026-10-12T18:00:25Z",
+      "hidden": false,
+      "rank": 16
+    },
+    {
+      "id": "hn-research-firm-calls-anthropic-s-ipo-2026-10-13",
+      "title": "Research Firm Calls Anthropic's IPO 'Unprecedented Test of Investor Gullibity'",
+      "summary": "CNBC report on an analyst calling Anthropic's IPO the most ridiculous of the year.",
+      "url": "https://www.cnbc.com/2026/10/07/anthropic-will-be-most-ridiculous-ipo-of-year-analyst-says.html",
+      "source": "hackernews",
+      "source_url": "https://news.ycombinator.com/item?id=50051583",
+      "category": "hn",
+      "tags": [
+        "Anthropic",
+        "Funding"
+      ],
+      "image": {
+        "type": "none"
+      },
+      "signals": {
+        "points": 240,
+        "comments": 214
+      },
+      "meta": {
+        "author": "m463"
+      },
+      "published_at": "2026-10-12T05:03:47Z",
+      "hidden": false,
+      "rank": 19
+    },
+    {
+      "id": "hn-ai-models-can-provably-hide-arbitrary-2026-10-13",
+      "title": "AI models can provably hide arbitrary capabilities",
+      "summary": "arXiv paper claiming a formal proof that a model can conceal arbitrary capabilities from those evaluating it.",
+      "url": "https://arxiv.org/abs/2610.13928",
+      "source": "hackernews",
+      "source_url": "https://news.ycombinator.com/item?id=50065692",
+      "category": "hn",
+      "tags": [
+        "Paper",
+        "Safety",
+        "Eval"
+      ],
+      "image": {
+        "type": "none"
+      },
+      "signals": {
+        "points": 185,
+        "comments": 100
+      },
+      "meta": {
+        "author": "sbulaev"
+      },
+      "published_at": "2026-10-13T02:07:08Z",
+      "hidden": false,
+      "rank": 21
+    },
+    {
+      "id": "hn-intel-d270-gpu-ai-acceleratorup-to-480-gb-2026-10-13",
+      "title": "Intel D270 GPU AI Accelerator–Up to 480 GB LPDDR5X",
+      "summary": "Intel product page for its D-series data center GPU, an AI accelerator configurable with up to 480GB of LPDDR5X memory.",
+      "url": "https://www.intel.com/content/www/us/en/products/details/discrete-gpus/data-center-gpu/d-series.html",
+      "source": "hackernews",
+      "source_url": "https://news.ycombinator.com/item?id=50063365",
+      "category": "hn",
+      "tags": [
+        "Inference"
+      ],
+      "image": {
+        "type": "none"
+      },
+      "signals": {
+        "points": 181,
+        "comments": 81
+      },
+      "meta": {
+        "author": "hurricanepootis"
+      },
+      "published_at": "2026-10-12T21:35:35Z",
+      "hidden": false,
+      "rank": 24
+    },
+    {
+      "id": "hn-kevin-kelly-s-2016-ai-predictions-10-years-later-2026-10-13",
+      "title": "Kevin Kelly's 2016 AI Predictions, 10 Years Later",
+      "summary": "Blog post on taylor.town scoring Kevin Kelly's 2016 AI forecasts against how things turned out by 2026.",
+      "url": "https://taylor.town/kk-ai-2026",
+      "source": "hackernews",
+      "source_url": "https://news.ycombinator.com/item?id=50057668",
+      "category": "hn",
+      "tags": [
+        "Deep Dive"
+      ],
+      "image": {
+        "type": "none"
+      },
+      "signals": {
+        "points": 181,
+        "comments": 66
+      },
+      "meta": {
+        "author": "surprisetalk"
+      },
+      "published_at": "2026-10-12T15:16:45Z",
+      "hidden": false,
+      "rank": 27
+    }
+  ]
+}

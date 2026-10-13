@@ -1,0 +1,72 @@
+{
+  "source": "github-trending",
+  "section": "trending-repos",
+  "fetched_at": "2026-10-13",
+  "query_params": {
+    "since": "daily",
+    "languages": [
+      "all"
+    ],
+    "count": 10,
+    "topic": "ai",
+    "ranking": "period_stars,total_stars"
+  },
+  "totalCount": 6,
+  "poolCount": 9,
+  "repos": [
+    {
+      "name": "cathrynlavery/diagram-design",
+      "url": "https://github.com/cathrynlavery/diagram-design",
+      "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+      "language": "HTML",
+      "stars": 53128,
+      "forks": 3358,
+      "period_stars": 2081
+    },
+    {
+      "name": "lyogavin/airllm",
+      "url": "https://github.com/lyogavin/airllm",
+      "description": "AirLLM 2.8T LLM inference with single 4GB GPU",
+      "language": "Jupyter Notebook",
+      "stars": 37818,
+      "forks": 3890,
+      "period_stars": 879
+    },
+    {
+      "name": "Alishahryar1/free-claude-code",
+      "url": "https://github.com/Alishahryar1/free-claude-code",
+      "description": "Use Claude Code, Codex, VSCode, Pi, and OpenCode (and 6 other harnesses) for free (1.3B+ free tokens) from your terminal, app, IDE, or phone, and now from the browser with native browser sessions (multi-harness + multi-model) like OpenClaw (voice supported + ToS friendly)",
+      "language": "Python",
+      "stars": 59591,
+      "forks": 9360,
+      "period_stars": 626
+    },
+    {
+      "name": "mksglu/context-mode",
+      "url": "https://github.com/mksglu/context-mode",
+      "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
+      "language": "TypeScript",
+      "stars": 27597,
+      "forks": 1958,
+      "period_stars": 246
+    },
+    {
+      "name": "open-webui/open-webui",
+      "url": "https://github.com/open-webui/open-webui",
+      "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
+      "language": "Python",
+      "stars": 155375,
+      "forks": 22666,
+      "period_stars": 157
+    },
+    {
+      "name": "microsoft/BitNet",
+      "url": "https://github.com/microsoft/BitNet",
+      "description": "Official inference framework for 1-bit LLMs",
+      "language": "C++",
+      "stars": 41039,
+      "forks": 3819,
+      "period_stars": 97
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "source": "hackernews",
+  "section": "ai-news",
+  "fetched_at": "2026-10-13",
+  "window": {
+    "after": "2026-10-12",
+    "before": "2026-10-14"
+  },
+  "query_params": {
+    "tags": "story",
+    "count": 10,
+    "min_points": 50,
+    "topic": "ai",
+    "ranking": "points,recency"
+  },
+  "totalCount": 21,
+  "poolCount": 68,
+  "stories": [
+    {
+      "title": "GLM-Legal",
+      "url": "https://z.ai/blog/glm-legal",
+      "type": "story",
+      "points": 535,
+      "num_comments": 307,
+      "author": "ilreb",
+      "created_at": "2026-10-12T16:11:45Z",
+      "hn_url": "https://news.ycombinator.com/item?id=50058507"
+    },
+    {
+      "title": "AI is a tool and using it well takes skill",
+      "url": "https://yyhh.org/blog/2026/10/ai-is-a-tool/",
+      "type": "story",
+      "points": 375,
+      "num_comments": 294,
+      "author": "layer8",
+      "created_at": "2026-10-12T21:40:18Z",
+      "hn_url": "https://news.ycombinator.com/item?id=50063427"
+    },
+    {
+      "title": "QGIS enacts moratorium on AI contributions",
+      "url": "https://github.com/qgis/QGIS-Enhancement-Proposals/pull/387",
+      "type": "story",
+      "points": 373,
+      "num_comments": 402,
+      "author": "bwnkl",
+      "created_at": "2026-10-12T11:22:24Z",
+      "hn_url": "https://news.ycombinator.com/item?id=50054751"
+    },
+    {
+      "title": "AI coding agents generate more code, but not more software",
+      "url": "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/",
+      "type": "story",
+      "points": 331,
+      "num_comments": 278,
+      "author": "gumby",
+      "created_at": "2026-10-12T17:14:01Z",
+      "hn_url": "https://news.ycombinator.com/item?id=50059523"
+    },
+    {
+      "title": "Why aren't AI companies being charged for hacking?",
+      "url": "https://mortoray.com/why-arent-ai-companies-being-charged-for-hacking/",
+      "type": "story",
+      "points": 320,
+      "num_comments": 339,
+      "author": "ingve",
+      "created_at": "2026-10-12T14:52:37Z",
+      "hn_url": "https://news.ycombinator.com/item?id=50057278"
+    },
+    {
+      "title": "'AI' Is Not a Tool by Rich Hickey",
+      "url": "https://www.linkedin.com/pulse/ai-tool-rich-hickey-kjl8e",
+      "type": "story",
+      "points": 263,
+      "num_comments": 133,
+      "author": "svieira",
+      "created_at": "2026-10-12T18:00:25Z",
+      "hn_url": "https://news.ycombinator.com/item?id=50060269"
+    },
+    {
+      "title": "Research Firm Calls Anthropic's IPO 'Unprecedented Test of Investor Gullibity'",
+      "url": "https://www.cnbc.com/2026/10/07/anthropic-will-be-most-ridiculous-ipo-of-year-analyst-says.html",
+      "type": "story",
+      "points": 240,
+      "num_comments": 214,
+      "author": "m463",
+      "created_at": "2026-10-12T05:03:47Z",
+      "hn_url": "https://news.ycombinator.com/item?id=50051583"
+    },
+    {
+      "title": "AI models can provably hide arbitrary capabilities",
+      "url": "https://arxiv.org/abs/2610.13928",
+      "type": "story",
+      "points": 185,
+      "num_comments": 100,
+      "author": "sbulaev",
+      "created_at": "2026-10-13T02:07:08Z",
+      "hn_url": "https://news.ycombinator.com/item?id=50065692"
+    },
+    {
+      "title": "Intel D270 GPU AI Accelerator\u2013Up to 480 GB LPDDR5X",
+      "url": "https://www.intel.com/content/www/us/en/products/details/discrete-gpus/data-center-gpu/d-series.html",
+      "type": "story",
+      "points": 181,
+      "num_comments": 81,
+      "author": "hurricanepootis",
+      "created_at": "2026-10-12T21:35:35Z",
+      "hn_url": "https://news.ycombinator.com/item?id=50063365"
+    },
+    {
+      "title": "Kevin Kelly's 2016 AI Predictions, 10 Years Later",
+      "url": "https://taylor.town/kk-ai-2026",
+      "type": "story",
+      "points": 181,
+      "num_comments": 66,
+      "author": "surprisetalk",
+      "created_at": "2026-10-12T15:16:45Z",
+      "hn_url": "https://news.ycombinator.com/item?id=50057668"
+    }
+  ]
+}

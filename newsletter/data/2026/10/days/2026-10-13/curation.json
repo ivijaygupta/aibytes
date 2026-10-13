@@ -1,0 +1,656 @@
+{
+  "date": "2026-10-13",
+  "generated_at": "2026-10-13T08:00:27Z",
+  "instructions": "Write one line per item in the aiBytes_ voice - dense, calm, honest, technical. Say what the thing does, not why it matters. At most 200 characters, one sentence, no em dashes. Then pick 1 to 4 tags per item from `tags` below, by their exact display name. Answer with the summaries file described in the curate-edition skill.",
+  "tags": [
+    {
+      "name": "What it is",
+      "tags": [
+        {
+          "name": "Model Release",
+          "slug": "model-release"
+        },
+        {
+          "name": "Open Source",
+          "slug": "open-source"
+        },
+        {
+          "name": "Paper",
+          "slug": "paper"
+        },
+        {
+          "name": "Benchmark",
+          "slug": "benchmark"
+        },
+        {
+          "name": "Dataset",
+          "slug": "dataset"
+        },
+        {
+          "name": "Framework",
+          "slug": "framework"
+        },
+        {
+          "name": "Dev Tool",
+          "slug": "dev-tool"
+        },
+        {
+          "name": "API",
+          "slug": "api"
+        }
+      ]
+    },
+    {
+      "name": "Domain",
+      "tags": [
+        {
+          "name": "LLM",
+          "slug": "llm"
+        },
+        {
+          "name": "Agents",
+          "slug": "agents"
+        },
+        {
+          "name": "RAG",
+          "slug": "rag"
+        },
+        {
+          "name": "Fine-tuning",
+          "slug": "fine-tuning"
+        },
+        {
+          "name": "Inference",
+          "slug": "inference"
+        },
+        {
+          "name": "Local LLM",
+          "slug": "local-llm"
+        },
+        {
+          "name": "Vision",
+          "slug": "vision"
+        },
+        {
+          "name": "Voice / Speech",
+          "slug": "voice-speech"
+        },
+        {
+          "name": "Video",
+          "slug": "video"
+        },
+        {
+          "name": "Image Gen",
+          "slug": "image-gen"
+        },
+        {
+          "name": "Code Gen",
+          "slug": "code-gen"
+        },
+        {
+          "name": "Embeddings",
+          "slug": "embeddings"
+        },
+        {
+          "name": "Eval",
+          "slug": "eval"
+        },
+        {
+          "name": "Reasoning",
+          "slug": "reasoning"
+        },
+        {
+          "name": "Multimodal",
+          "slug": "multimodal"
+        },
+        {
+          "name": "Robotics",
+          "slug": "robotics"
+        }
+      ]
+    },
+    {
+      "name": "Ecosystem",
+      "tags": [
+        {
+          "name": "OpenAI",
+          "slug": "openai"
+        },
+        {
+          "name": "Anthropic",
+          "slug": "anthropic"
+        },
+        {
+          "name": "Google",
+          "slug": "google"
+        },
+        {
+          "name": "Meta",
+          "slug": "meta"
+        },
+        {
+          "name": "Nvidia",
+          "slug": "nvidia"
+        },
+        {
+          "name": "Hugging Face",
+          "slug": "hugging-face"
+        },
+        {
+          "name": "Mistral",
+          "slug": "mistral"
+        },
+        {
+          "name": "xAI",
+          "slug": "xai"
+        },
+        {
+          "name": "Apple",
+          "slug": "apple"
+        },
+        {
+          "name": "Microsoft",
+          "slug": "microsoft"
+        },
+        {
+          "name": "Claude Code",
+          "slug": "claude-code"
+        },
+        {
+          "name": "Cursor",
+          "slug": "cursor"
+        },
+        {
+          "name": "MCP",
+          "slug": "mcp"
+        }
+      ]
+    },
+    {
+      "name": "Business",
+      "tags": [
+        {
+          "name": "Funding",
+          "slug": "funding"
+        },
+        {
+          "name": "Acquisition",
+          "slug": "acquisition"
+        },
+        {
+          "name": "Launch",
+          "slug": "launch"
+        },
+        {
+          "name": "Pricing",
+          "slug": "pricing"
+        },
+        {
+          "name": "Policy",
+          "slug": "policy"
+        },
+        {
+          "name": "Legal",
+          "slug": "legal"
+        },
+        {
+          "name": "Security",
+          "slug": "security"
+        },
+        {
+          "name": "Privacy",
+          "slug": "privacy"
+        },
+        {
+          "name": "Safety",
+          "slug": "safety"
+        }
+      ]
+    },
+    {
+      "name": "Format",
+      "tags": [
+        {
+          "name": "Show HN",
+          "slug": "show-hn"
+        },
+        {
+          "name": "Tutorial",
+          "slug": "tutorial"
+        },
+        {
+          "name": "Deep Dive",
+          "slug": "deep-dive"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "ph-google-embeddinggemma-2-2026-10-13",
+      "title": "Google EmbeddingGemma 2",
+      "category": "launches",
+      "source": "producthunt",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/",
+      "source_url": "https://www.producthunt.com/products/embeddinggemma-2",
+      "source_text": "Google EmbeddingGemma 2 An open, lightweight multimodal embedding model EmbeddingGemma 2 is Google DeepMind's open embedding model that maps text, code, images, video and audio into one shared space, so you can search across them from a single query. At 740M parameters it runs on-device, needing about 567MB of RAM on a Pixel 11 Pro for the full multimodal model (191MB for text only). Apache 2.0 licensed, with weights on Hugging Face and Kaggle. MTEB Code score rises from 68.76 to 78.68. Artificial Intelligence Audio Video",
+      "signals": {
+        "upvotes": 288,
+        "comments": 3
+      },
+      "published_at": "2026-10-12T07:01:00Z"
+    },
+    {
+      "id": "ph-ngram-2-0-2-2026-10-13",
+      "title": "ngram 2.0",
+      "category": "launches",
+      "source": "producthunt",
+      "url": "https://www.ngram.com/features/explainer-video-maker",
+      "source_url": "https://www.producthunt.com/products/ngram",
+      "source_text": "ngram 2.0 Create explainers, screencasts, and AI avatar videos Turn ideas, documents, and recordings into narrated videos. ngram analyzes uploaded videos and screen recordings to identify key moments and build clear product walkthroughs. Create animated explainers or add an AI avatar presenter, then refine your video in chat. Education Artificial Intelligence Video",
+      "signals": {
+        "upvotes": 253,
+        "comments": 40
+      },
+      "published_at": "2026-10-12T07:01:00Z"
+    },
+    {
+      "id": "ph-guilds-run-2026-10-13",
+      "title": "guilds.run",
+      "category": "launches",
+      "source": "producthunt",
+      "url": "https://www.guilds.run/",
+      "source_url": "https://www.producthunt.com/products/guilds-run",
+      "source_text": "guilds.run Create multi-agent workflows that you can trust Open-source AI agent teams you can actually inspect. Debug every prompt, tool call, memory change, and agent interaction. Control permissions, edit context, and choose the model for each agent. Self-host for free. Stop guessing what your agents are doing. Open Source Virtual Assistants Bots",
+      "signals": {
+        "upvotes": 188,
+        "comments": 41
+      },
+      "published_at": "2026-10-12T07:01:00Z"
+    },
+    {
+      "id": "ph-manifold-mcp-2026-10-13",
+      "title": "Manifold MCP",
+      "category": "launches",
+      "source": "producthunt",
+      "url": "https://www.manifoldmcp.com",
+      "source_url": "https://www.producthunt.com/products/manifold-mcp",
+      "source_text": "Manifold MCP SEO, AI answers, social, ads and leads data for your agent Manifold gives your agent live data from every marketing channel, in one hosted MCP server for Claude, ChatGPT, Cursor and Claude Code. Find keywords one push from page one. See if ChatGPT and Gemini recommend you. Watch the TikToks winning your niche. Read your competitors’ live ads. Catch Reddit threads asking for what you make. Get verified emails for buyers looking right now. Ask in plain words and your agent does the work. No pile of tabs. Free to start. Marketing Artificial Intelligence Growth Hacks ",
+      "signals": {
+        "upvotes": 155,
+        "comments": 28
+      },
+      "published_at": "2026-10-12T07:01:00Z"
+    },
+    {
+      "id": "gh-diagram-design-2026-10-13",
+      "title": "cathrynlavery/diagram-design",
+      "category": "repos",
+      "source": "github",
+      "url": "https://github.com/cathrynlavery/diagram-design",
+      "source_url": "https://github.com/cathrynlavery/diagram-design",
+      "source_text": "cathrynlavery/diagram-design Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop. HTML",
+      "signals": {
+        "stars": 53128,
+        "stars_gained": 2081,
+        "forks": 3358
+      },
+      "meta": {
+        "language": "HTML"
+      }
+    },
+    {
+      "id": "gh-airllm-2026-10-13",
+      "title": "lyogavin/airllm",
+      "category": "repos",
+      "source": "github",
+      "url": "https://github.com/lyogavin/airllm",
+      "source_url": "https://github.com/lyogavin/airllm",
+      "source_text": "lyogavin/airllm AirLLM 2.8T LLM inference with single 4GB GPU Jupyter Notebook",
+      "signals": {
+        "stars": 37818,
+        "stars_gained": 879,
+        "forks": 3890
+      },
+      "meta": {
+        "language": "Jupyter Notebook"
+      }
+    },
+    {
+      "id": "gh-free-claude-code-2026-10-13",
+      "title": "Alishahryar1/free-claude-code",
+      "category": "repos",
+      "source": "github",
+      "url": "https://github.com/Alishahryar1/free-claude-code",
+      "source_url": "https://github.com/Alishahryar1/free-claude-code",
+      "source_text": "Alishahryar1/free-claude-code Use Claude Code, Codex, VSCode, Pi, and OpenCode (and 6 other harnesses) for free (1.3B+ free tokens) from your terminal, app, IDE, or phone, and now from the browser with native browser sessions (multi-harness + multi-model) like OpenClaw (voice supported + ToS friendly) Python",
+      "signals": {
+        "stars": 59591,
+        "stars_gained": 626,
+        "forks": 9360
+      },
+      "meta": {
+        "language": "Python"
+      }
+    },
+    {
+      "id": "gh-context-mode-2026-10-13",
+      "title": "mksglu/context-mode",
+      "category": "repos",
+      "source": "github",
+      "url": "https://github.com/mksglu/context-mode",
+      "source_url": "https://github.com/mksglu/context-mode",
+      "source_text": "mksglu/context-mode Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks. TypeScript",
+      "signals": {
+        "stars": 27597,
+        "stars_gained": 246,
+        "forks": 1958
+      },
+      "meta": {
+        "language": "TypeScript"
+      }
+    },
+    {
+      "id": "gh-open-webui-2026-10-13",
+      "title": "open-webui/open-webui",
+      "category": "repos",
+      "source": "github",
+      "url": "https://github.com/open-webui/open-webui",
+      "source_url": "https://github.com/open-webui/open-webui",
+      "source_text": "open-webui/open-webui User-friendly AI Interface (Supports Ollama, OpenAI API, ...) Python",
+      "signals": {
+        "stars": 155375,
+        "stars_gained": 157,
+        "forks": 22666
+      },
+      "meta": {
+        "language": "Python"
+      }
+    },
+    {
+      "id": "gh-bitnet-2026-10-13",
+      "title": "microsoft/BitNet",
+      "category": "repos",
+      "source": "github",
+      "url": "https://github.com/microsoft/BitNet",
+      "source_url": "https://github.com/microsoft/BitNet",
+      "source_text": "microsoft/BitNet Official inference framework for 1-bit LLMs C++",
+      "signals": {
+        "stars": 41039,
+        "stars_gained": 97,
+        "forks": 3819
+      },
+      "meta": {
+        "language": "C++"
+      }
+    },
+    {
+      "id": "tc-meta-releases-its-first-frontier-model-muse-2026-10-13",
+      "title": "Meta releases its first frontier model, Muse Wonder",
+      "category": "news",
+      "source": "techcrunch",
+      "url": "https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/",
+      "source_url": "https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/",
+      "source_text": "Meta releases its first frontier model, Muse Wonder Where Muse Spark aimed to be a lightweight model that could perform at low latency, the Wonder models are larger and said to be more capable, with higher benchmark scores and better results on complex tasks like coding.",
+      "meta": {
+        "author": "Russell Brandom",
+        "reading_time": "2 minutes"
+      },
+      "published_at": "2026-10-12T17:56:56Z"
+    },
+    {
+      "id": "tc-windborne-wins-a-hefty-us-air-force-contract-2026-10-13",
+      "title": "WindBorne wins a hefty US Air Force contract for its balloon data",
+      "category": "news",
+      "source": "techcrunch",
+      "url": "https://techcrunch.com/2026/10/12/windborne-wins-a-hefty-us-air-force-contract-for-its-balloon-data/",
+      "source_url": "https://techcrunch.com/2026/10/12/windborne-wins-a-hefty-us-air-force-contract-for-its-balloon-data/",
+      "source_text": "WindBorne wins a hefty US Air Force contract for its balloon data A Silicon Valley startup that uses weather balloons and AI to predict the weather won a U.S. military contract worth almost $50 million.",
+      "meta": {
+        "author": "Tim Fernholz",
+        "reading_time": "3 minutes"
+      },
+      "published_at": "2026-10-12T17:19:14Z"
+    },
+    {
+      "id": "tc-honeyjar-offers-ai-tools-to-improve-pr-and-2026-10-13",
+      "title": "Honeyjar offers AI tools to improve PR and comms at every company",
+      "category": "news",
+      "source": "techcrunch",
+      "url": "https://techcrunch.com/2026/10/12/honeyjar-offers-ai-tools-to-improve-pr-and-comms-at-every-company/",
+      "source_url": "https://techcrunch.com/2026/10/12/honeyjar-offers-ai-tools-to-improve-pr-and-comms-at-every-company/",
+      "source_text": "Honeyjar offers AI tools to improve PR and comms at every company Journalists, entrepreneurs, and even some public relations professionals will tell you that the PR process is broken. But could AI actually make things better?",
+      "meta": {
+        "author": "Anthony Ha",
+        "reading_time": "4 minutes"
+      },
+      "published_at": "2026-10-12T15:45:00Z"
+    },
+    {
+      "id": "tc-microsoft-president-says-uk-is-best-placed-to-2026-10-13",
+      "title": "Microsoft president says UK is best placed to drive AI regulation",
+      "category": "news",
+      "source": "techcrunch",
+      "url": "https://techcrunch.com/2026/10/12/microsoft-president-says-uk-is-best-placed-to-drive-ai-regulation/",
+      "source_url": "https://techcrunch.com/2026/10/12/microsoft-president-says-uk-is-best-placed-to-drive-ai-regulation/",
+      "source_text": "Microsoft president says UK is best placed to drive AI regulation Microsoft president Brad Smith calls for urgent AI regulation, saying milk and washing machines have more oversight than AI companies.",
+      "meta": {
+        "author": "Rebecca Bellan",
+        "reading_time": "3 minutes"
+      },
+      "published_at": "2026-10-12T15:31:19Z"
+    },
+    {
+      "id": "tc-this-ai-startup-says-it-can-generate-permit-2026-10-13",
+      "title": "This AI startup says it can generate permit-ready blueprints in minutes",
+      "category": "news",
+      "source": "techcrunch",
+      "url": "https://techcrunch.com/2026/10/12/this-ai-startup-says-it-can-generate-permit-ready-blueprints-in-minutes/",
+      "source_url": "https://techcrunch.com/2026/10/12/this-ai-startup-says-it-can-generate-permit-ready-blueprints-in-minutes/",
+      "source_text": "This AI startup says it can generate permit-ready blueprints in minutes Blueprints AI, a bootstrapped startup based in Santa Monica, developed software that produces code-compliant construction blueprints from a photo, PDF, or sketch.",
+      "meta": {
+        "author": "Kirsten Korosec",
+        "reading_time": "4 minutes"
+      },
+      "published_at": "2026-10-12T15:27:59Z"
+    },
+    {
+      "id": "tc-techcrunch-disrupt-2026-starts-tomorrow-your-2026-10-13",
+      "title": "TechCrunch Disrupt 2026 starts tomorrow: Your final chance to secure up to $100 ticket savings",
+      "category": "news",
+      "source": "techcrunch",
+      "url": "https://techcrunch.com/2026/10/12/techcrunch-disrupt-2026-starts-tomorrow-your-final-chance-to-secure-up-to-100-ticket-savings/",
+      "source_url": "https://techcrunch.com/2026/10/12/techcrunch-disrupt-2026-starts-tomorrow-your-final-chance-to-secure-up-to-100-ticket-savings/",
+      "source_text": "TechCrunch Disrupt 2026 starts tomorrow: Your final chance to secure up to $100 ticket savings TechCrunch Disrupt 2026 starts at 8 a.m. PT on Oct. 13 for three days of insight, tech discovery, and connections. Save up to $100 before doors open.",
+      "meta": {
+        "author": "TechCrunch Events",
+        "reading_time": "3 minutes"
+      },
+      "published_at": "2026-10-12T14:00:00Z"
+    },
+    {
+      "id": "tc-former-plaud-exec-raises-26m-for-ai-app-that-2026-10-13",
+      "title": "Former Plaud exec raises $26M for AI app that listens to you in the background",
+      "category": "news",
+      "source": "techcrunch",
+      "url": "https://techcrunch.com/2026/10/12/former-plaud-exec-raises-26m-for-ai-app-that-listens-to-you-in-the-background/",
+      "source_url": "https://techcrunch.com/2026/10/12/former-plaud-exec-raises-26m-for-ai-app-that-listens-to-you-in-the-background/",
+      "source_text": "Former Plaud exec raises $26M for AI app that listens to you in the background One of the core promises of AI is that the more it knows about a person, the better it will be able to assist them with tasks and make appropriate suggestions, which, if you'll believe the tech companies, requires apps and devices to listen, watch, or record users' activity all the time and gather all possible context.",
+      "meta": {
+        "author": "Ivan Mehta",
+        "reading_time": "4 minutes"
+      },
+      "published_at": "2026-10-12T12:47:59Z"
+    },
+    {
+      "id": "hn-glm-legal-2026-10-13",
+      "title": "GLM-Legal",
+      "category": "hn",
+      "source": "hackernews",
+      "url": "https://z.ai/blog/glm-legal",
+      "source_url": "https://news.ycombinator.com/item?id=50058507",
+      "source_text": "GLM-Legal",
+      "signals": {
+        "points": 535,
+        "comments": 307
+      },
+      "meta": {
+        "author": "ilreb"
+      },
+      "published_at": "2026-10-12T16:11:45Z"
+    },
+    {
+      "id": "hn-ai-is-a-tool-and-using-it-well-takes-skill-2026-10-13",
+      "title": "AI is a tool and using it well takes skill",
+      "category": "hn",
+      "source": "hackernews",
+      "url": "https://yyhh.org/blog/2026/10/ai-is-a-tool/",
+      "source_url": "https://news.ycombinator.com/item?id=50063427",
+      "source_text": "AI is a tool and using it well takes skill",
+      "signals": {
+        "points": 375,
+        "comments": 294
+      },
+      "meta": {
+        "author": "layer8"
+      },
+      "published_at": "2026-10-12T21:40:18Z"
+    },
+    {
+      "id": "hn-qgis-enacts-moratorium-on-ai-contributions-2026-10-13",
+      "title": "QGIS enacts moratorium on AI contributions",
+      "category": "hn",
+      "source": "hackernews",
+      "url": "https://github.com/qgis/QGIS-Enhancement-Proposals/pull/387",
+      "source_url": "https://news.ycombinator.com/item?id=50054751",
+      "source_text": "QGIS enacts moratorium on AI contributions",
+      "signals": {
+        "points": 373,
+        "comments": 402
+      },
+      "meta": {
+        "author": "bwnkl"
+      },
+      "published_at": "2026-10-12T11:22:24Z"
+    },
+    {
+      "id": "hn-ai-coding-agents-generate-more-code-but-not-2026-10-13",
+      "title": "AI coding agents generate more code, but not more software",
+      "category": "hn",
+      "source": "hackernews",
+      "url": "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/",
+      "source_url": "https://news.ycombinator.com/item?id=50059523",
+      "source_text": "AI coding agents generate more code, but not more software",
+      "signals": {
+        "points": 331,
+        "comments": 278
+      },
+      "meta": {
+        "author": "gumby"
+      },
+      "published_at": "2026-10-12T17:14:01Z"
+    },
+    {
+      "id": "hn-why-aren-t-ai-companies-being-charged-for-2026-10-13",
+      "title": "Why aren't AI companies being charged for hacking?",
+      "category": "hn",
+      "source": "hackernews",
+      "url": "https://mortoray.com/why-arent-ai-companies-being-charged-for-hacking/",
+      "source_url": "https://news.ycombinator.com/item?id=50057278",
+      "source_text": "Why aren't AI companies being charged for hacking?",
+      "signals": {
+        "points": 320,
+        "comments": 339
+      },
+      "meta": {
+        "author": "ingve"
+      },
+      "published_at": "2026-10-12T14:52:37Z"
+    },
+    {
+      "id": "hn-ai-is-not-a-tool-by-rich-hickey-2026-10-13",
+      "title": "'AI' Is Not a Tool by Rich Hickey",
+      "category": "hn",
+      "source": "hackernews",
+      "url": "https://www.linkedin.com/pulse/ai-tool-rich-hickey-kjl8e",
+      "source_url": "https://news.ycombinator.com/item?id=50060269",
+      "source_text": "'AI' Is Not a Tool by Rich Hickey",
+      "signals": {
+        "points": 263,
+        "comments": 133
+      },
+      "meta": {
+        "author": "svieira"
+      },
+      "published_at": "2026-10-12T18:00:25Z"
+    },
+    {
+      "id": "hn-research-firm-calls-anthropic-s-ipo-2026-10-13",
+      "title": "Research Firm Calls Anthropic's IPO 'Unprecedented Test of Investor Gullibity'",
+      "category": "hn",
+      "source": "hackernews",
+      "url": "https://www.cnbc.com/2026/10/07/anthropic-will-be-most-ridiculous-ipo-of-year-analyst-says.html",
+      "source_url": "https://news.ycombinator.com/item?id=50051583",
+      "source_text": "Research Firm Calls Anthropic's IPO 'Unprecedented Test of Investor Gullibity'",
+      "signals": {
+        "points": 240,
+        "comments": 214
+      },
+      "meta": {
+        "author": "m463"
+      },
+      "published_at": "2026-10-12T05:03:47Z"
+    },
+    {
+      "id": "hn-ai-models-can-provably-hide-arbitrary-2026-10-13",
+      "title": "AI models can provably hide arbitrary capabilities",
+      "category": "hn",
+      "source": "hackernews",
+      "url": "https://arxiv.org/abs/2610.13928",
+      "source_url": "https://news.ycombinator.com/item?id=50065692",
+      "source_text": "AI models can provably hide arbitrary capabilities",
+      "signals": {
+        "points": 185,
+        "comments": 100
+      },
+      "meta": {
+        "author": "sbulaev"
+      },
+      "published_at": "2026-10-13T02:07:08Z"
+    },
+    {
+      "id": "hn-intel-d270-gpu-ai-acceleratorup-to-480-gb-2026-10-13",
+      "title": "Intel D270 GPU AI Accelerator–Up to 480 GB LPDDR5X",
+      "category": "hn",
+      "source": "hackernews",
+      "url": "https://www.intel.com/content/www/us/en/products/details/discrete-gpus/data-center-gpu/d-series.html",
+      "source_url": "https://news.ycombinator.com/item?id=50063365",
+      "source_text": "Intel D270 GPU AI Accelerator–Up to 480 GB LPDDR5X",
+      "signals": {
+        "points": 181,
+        "comments": 81
+      },
+      "meta": {
+        "author": "hurricanepootis"
+      },
+      "published_at": "2026-10-12T21:35:35Z"
+    },
+    {
+      "id": "hn-kevin-kelly-s-2016-ai-predictions-10-years-later-2026-10-13",
+      "title": "Kevin Kelly's 2016 AI Predictions, 10 Years Later",
+      "category": "hn",
+      "source": "hackernews",
+      "url": "https://taylor.town/kk-ai-2026",
+      "source_url": "https://news.ycombinator.com/item?id=50057668",
+      "source_text": "Kevin Kelly's 2016 AI Predictions, 10 Years Later",
+      "signals": {
+        "points": 181,
+        "comments": 66
+      },
+      "meta": {
+        "author": "surprisetalk"
+      },
+      "published_at": "2026-10-12T15:16:45Z"
+    }
+  ]
+}

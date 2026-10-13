@@ -1,0 +1,113 @@
+{
+  "date": "2026-10-13",
+  "items": {
+    "ph-google-embeddinggemma-2-2026-10-13": {
+      "summary": "740M-parameter open model that embeds text, code, images, video and audio into one shared space; runs on-device in about 567MB of RAM, Apache 2.0, weights on Hugging Face and Kaggle.",
+      "tags": ["Model Release", "Embeddings", "Open Source", "Google"]
+    },
+    "ph-ngram-2-0-2-2026-10-13": {
+      "summary": "Turns documents and screen recordings into narrated videos, picking out key moments to build product walkthroughs, with optional AI avatar presenters and edits made in chat.",
+      "tags": ["Video", "Launch"]
+    },
+    "ph-guilds-run-2026-10-13": {
+      "summary": "Open-source, self-hostable multi-agent framework that logs every prompt, tool call and memory change, with per-agent permissions, editable context and a model choice per agent.",
+      "tags": ["Framework", "Agents", "Open Source", "Launch"]
+    },
+    "ph-manifold-mcp-2026-10-13": {
+      "summary": "Hosted MCP server that feeds Claude, ChatGPT, Cursor and Claude Code live SEO rankings, AI-answer mentions, TikTok trends, competitor ads, Reddit threads and buyer emails.",
+      "tags": ["API", "Agents", "MCP", "Launch"]
+    },
+    "gh-diagram-design-2026-10-13": {
+      "summary": "Editorial diagram templates for Claude Code, Codex, Copilot, Cursor and other coding agents: 44 diagram types output as self-contained HTML and SVG instead of Mermaid.",
+      "tags": ["Dev Tool", "Agents", "Open Source"]
+    },
+    "gh-airllm-2026-10-13": {
+      "summary": "Inference library, shipped with Jupyter notebooks, that claims to run LLMs up to 2.8T parameters on a single 4GB GPU.",
+      "tags": ["Inference", "Local LLM", "Open Source"]
+    },
+    "gh-free-claude-code-2026-10-13": {
+      "summary": "Python tool for running Claude Code, Codex, OpenCode and eight other harnesses on free tokens from a terminal, IDE, phone or browser, with multi-model sessions and voice.",
+      "tags": ["Dev Tool", "Code Gen", "Claude Code"]
+    },
+    "gh-context-mode-2026-10-13": {
+      "summary": "Sandboxes coding-agent tool output to cut it by 98%, persists session memory and enforces routing across 17 platforms, wired in through MCP and hooks; written in TypeScript.",
+      "tags": ["Dev Tool", "Agents", "MCP"]
+    },
+    "gh-open-webui-2026-10-13": {
+      "summary": "Python web chat interface for LLMs that connects to Ollama and OpenAI API-compatible backends.",
+      "tags": ["Open Source", "Local LLM"]
+    },
+    "gh-bitnet-2026-10-13": {
+      "summary": "Microsoft's official C++ runtime for 1-bit LLMs, the inference path for models stored at a single bit per weight.",
+      "tags": ["Framework", "Inference", "Microsoft"]
+    },
+    "tc-meta-releases-its-first-frontier-model-muse-2026-10-13": {
+      "summary": "Larger sibling to the low-latency Muse Spark, with higher benchmark scores and stronger results on complex tasks like coding.",
+      "tags": ["Model Release", "LLM", "Meta"]
+    },
+    "tc-windborne-wins-a-hefty-us-air-force-contract-2026-10-13": {
+      "summary": "The Silicon Valley startup pairs its own weather balloon data with AI forecasting; the military contract is worth almost $50 million.",
+      "tags": ["Dataset"]
+    },
+    "tc-honeyjar-offers-ai-tools-to-improve-pr-and-2026-10-13": {
+      "summary": "Profile of a startup building AI tools for PR and communications teams, aimed at a process journalists and PR professionals alike call broken.",
+      "tags": ["LLM"]
+    },
+    "tc-microsoft-president-says-uk-is-best-placed-to-2026-10-13": {
+      "summary": "Brad Smith calls for urgent AI rules, arguing milk and washing machines face more oversight than AI companies do.",
+      "tags": ["Policy", "Microsoft"]
+    },
+    "tc-this-ai-startup-says-it-can-generate-permit-2026-10-13": {
+      "summary": "Blueprints AI, a bootstrapped Santa Monica company, turns a photo, PDF or sketch into code-compliant construction blueprints.",
+      "tags": ["Vision"]
+    },
+    "tc-techcrunch-disrupt-2026-starts-tomorrow-your-2026-10-13": {
+      "summary": "Ticket promotion for the three-day conference, which opens at 8 a.m. PT on October 13, with up to $100 off before doors open.",
+      "tags": ["Pricing"]
+    },
+    "tc-former-plaud-exec-raises-26m-for-ai-app-that-2026-10-13": {
+      "summary": "Backs an app that gathers ambient context for suggestions, part of the industry bet that assistants must listen, watch or record users all the time to be useful.",
+      "tags": ["Funding", "Voice / Speech", "Privacy"]
+    },
+    "hn-glm-legal-2026-10-13": {
+      "summary": "Release post on the Z.ai blog introducing GLM-Legal, a legal-domain entry in its GLM model family.",
+      "tags": ["Model Release", "LLM"]
+    },
+    "hn-ai-is-a-tool-and-using-it-well-takes-skill-2026-10-13": {
+      "summary": "Personal blog essay arguing that results from AI depend on learned skill in using it; Rich Hickey argues the opposite framing in this same edition.",
+      "tags": ["LLM"]
+    },
+    "hn-qgis-enacts-moratorium-on-ai-contributions-2026-10-13": {
+      "summary": "Enhancement proposal pull request in the QGIS GitHub repo pausing AI-generated contributions to the open-source GIS project.",
+      "tags": ["Open Source", "Policy", "Code Gen"]
+    },
+    "hn-ai-coding-agents-generate-more-code-but-not-2026-10-13": {
+      "summary": "Ars Technica report that coding agents raise the volume of code written without a matching rise in shipped software.",
+      "tags": ["Code Gen", "Agents"]
+    },
+    "hn-why-aren-t-ai-companies-being-charged-for-2026-10-13": {
+      "summary": "Personal blog essay on mortoray.com asking why AI companies are not prosecuted under hacking laws.",
+      "tags": ["Legal", "Security"]
+    },
+    "hn-ai-is-not-a-tool-by-rich-hickey-2026-10-13": {
+      "summary": "LinkedIn essay from the Clojure creator rejecting the framing of AI as a tool, a counterpoint to the 'AI is a tool' post in this edition.",
+      "tags": ["LLM"]
+    },
+    "hn-research-firm-calls-anthropic-s-ipo-2026-10-13": {
+      "summary": "CNBC report on an analyst calling Anthropic's IPO the most ridiculous of the year.",
+      "tags": ["Anthropic", "Funding"]
+    },
+    "hn-ai-models-can-provably-hide-arbitrary-2026-10-13": {
+      "summary": "arXiv paper claiming a formal proof that a model can conceal arbitrary capabilities from those evaluating it.",
+      "tags": ["Paper", "Safety", "Eval"]
+    },
+    "hn-intel-d270-gpu-ai-acceleratorup-to-480-gb-2026-10-13": {
+      "summary": "Intel product page for its D-series data center GPU, an AI accelerator configurable with up to 480GB of LPDDR5X memory.",
+      "tags": ["Inference"]
+    },
+    "hn-kevin-kelly-s-2016-ai-predictions-10-years-later-2026-10-13": {
+      "summary": "Blog post on taylor.town scoring Kevin Kelly's 2016 AI forecasts against how things turned out by 2026.",
+      "tags": ["Deep Dive"]
+    }
+  }
+}

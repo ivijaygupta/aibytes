@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-13",
+  "generated_at": "2026-10-13T08:01:39Z",
+  "counts": {
+    "kept": 27,
+    "rejected": 1
+  },
+  "rejected": [
+    {
+      "id": "ph-base-code-2026-10-13",
+      "source": "producthunt",
+      "title": "Base Code",
+      "url": "https://base44.com/base-code",
+      "reason": "not-ai",
+      "detail": "no AI keyword or domain in the tagline, description or topics"
+    }
+  ]
+}
