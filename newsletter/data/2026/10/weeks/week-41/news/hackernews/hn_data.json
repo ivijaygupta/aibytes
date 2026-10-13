@@ -1,0 +1,120 @@
+{
+  "source": "hackernews",
+  "section": "ai-news",
+  "fetched_at": "2026-10-11",
+  "window": {
+    "after": "2026-10-04",
+    "before": "2026-10-12"
+  },
+  "query_params": {
+    "tags": "story",
+    "count": 10,
+    "min_points": 50,
+    "topic": "ai",
+    "ranking": "points,recency"
+  },
+  "totalCount": 74,
+  "poolCount": 392,
+  "stories": [
+    {
+      "title": "Mistral Large 4",
+      "url": "https://mistral.ai/news/mistral-large-4/\\",
+      "type": "story",
+      "points": 2036,
+      "num_comments": 1211,
+      "author": "Philpax",
+      "created_at": "2026-10-06T13:15:49Z",
+      "hn_url": "https://news.ycombinator.com/item?id=49977979"
+    },
+    {
+      "title": "Sharing AI progress in mathematics",
+      "url": "https://openai.com/index/sharing-ai-progress-in-mathematics/",
+      "type": "story",
+      "points": 1348,
+      "num_comments": 1526,
+      "author": "OfficialTurkey",
+      "created_at": "2026-10-06T22:17:21Z",
+      "hn_url": "https://news.ycombinator.com/item?id=49984923"
+    },
+    {
+      "title": "Why isn't the industry freaking out about DeepSeek 4.1 Flash?",
+      "url": "https://www.dgt.is/blog/2026-10-07-deepseek-freek-out/",
+      "type": "story",
+      "points": 1110,
+      "num_comments": 976,
+      "author": "jonotime",
+      "created_at": "2026-10-08T00:14:48Z",
+      "hn_url": "https://news.ycombinator.com/item?id=50000488"
+    },
+    {
+      "title": "Claude Haiku 5.5",
+      "url": "https://www.anthropic.com/claude-haiku-5-5",
+      "type": "story",
+      "points": 1045,
+      "num_comments": 488,
+      "author": "sfkgtbor",
+      "created_at": "2026-10-07T18:01:32Z",
+      "hn_url": "https://news.ycombinator.com/item?id=49996437"
+    },
+    {
+      "title": "Run Qwen 3.8 Flash Next (125B) on consumer hardware (RTX 4090) at 100T/s",
+      "url": "https://github.com/Niko1221/Strata",
+      "type": "story",
+      "points": 935,
+      "num_comments": 421,
+      "author": "snehesht",
+      "created_at": "2026-10-04T12:51:53Z",
+      "hn_url": "https://news.ycombinator.com/item?id=49953495"
+    },
+    {
+      "title": "Anthropic reported diary entry to police, woman faces felony charge",
+      "url": "https://www.techspot.com/news/114091-florida-woman-used-claude-diary-anthropic-reported-shoot.html",
+      "type": "story",
+      "points": 836,
+      "num_comments": 674,
+      "author": "emptybits",
+      "created_at": "2026-10-05T05:37:40Z",
+      "hn_url": "https://news.ycombinator.com/item?id=49961057"
+    },
+    {
+      "title": "GPT\u20116 and Intelligent UI for everyone",
+      "url": "https://openai.com/index/gpt-6-for-everyone/",
+      "type": "story",
+      "points": 755,
+      "num_comments": 458,
+      "author": "joshuawright11",
+      "created_at": "2026-10-07T18:00:58Z",
+      "hn_url": "https://news.ycombinator.com/item?id=49996425"
+    },
+    {
+      "title": "ChatGPT is adding real cartoonists' signatures to fake New Yorker cartoons",
+      "url": "https://www.niemanlab.org/2026/10/chatgpt-is-adding-real-cartoonists-signatures-to-fake-new-yorker-cartoons/",
+      "type": "story",
+      "points": 558,
+      "num_comments": 426,
+      "author": "rdmuser",
+      "created_at": "2026-10-05T22:46:45Z",
+      "hn_url": "https://news.ycombinator.com/item?id=49971846"
+    },
+    {
+      "title": "Mistral Large 4: \"Le Chonk\"",
+      "url": "https://mistral.ai/news/mistral-large-4/",
+      "type": "story",
+      "points": 522,
+      "num_comments": 5,
+      "author": "j-bu",
+      "created_at": "2026-10-06T13:25:50Z",
+      "hn_url": "https://news.ycombinator.com/item?id=49978116"
+    },
+    {
+      "title": "OpenAI annualised revenues $20B less than previously signalled",
+      "url": "https://www.cnbc.com/2026/10/08/open-ai-revenue-nvidia-oracle-coreweave.html",
+      "type": "story",
+      "points": 429,
+      "num_comments": 300,
+      "author": "mfiguiere",
+      "created_at": "2026-10-08T16:45:58Z",
+      "hn_url": "https://news.ycombinator.com/item?id=50008187"
+    }
+  ]
+}
