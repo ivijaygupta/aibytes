@@ -1,0 +1,664 @@
+{
+  "date": "2026-10-14",
+  "generated_at": "2026-10-14T08:00:30Z",
+  "instructions": "Write one line per item in the aiBytes_ voice - dense, calm, honest, technical. Say what the thing does, not why it matters. At most 200 characters, one sentence, no em dashes. Then pick 1 to 4 tags per item from `tags` below, by their exact display name. Answer with the summaries file described in the curate-edition skill.",
+  "tags": [
+    {
+      "name": "What it is",
+      "tags": [
+        {
+          "name": "Model Release",
+          "slug": "model-release"
+        },
+        {
+          "name": "Open Source",
+          "slug": "open-source"
+        },
+        {
+          "name": "Paper",
+          "slug": "paper"
+        },
+        {
+          "name": "Benchmark",
+          "slug": "benchmark"
+        },
+        {
+          "name": "Dataset",
+          "slug": "dataset"
+        },
+        {
+          "name": "Framework",
+          "slug": "framework"
+        },
+        {
+          "name": "Dev Tool",
+          "slug": "dev-tool"
+        },
+        {
+          "name": "API",
+          "slug": "api"
+        }
+      ]
+    },
+    {
+      "name": "Domain",
+      "tags": [
+        {
+          "name": "LLM",
+          "slug": "llm"
+        },
+        {
+          "name": "Agents",
+          "slug": "agents"
+        },
+        {
+          "name": "RAG",
+          "slug": "rag"
+        },
+        {
+          "name": "Fine-tuning",
+          "slug": "fine-tuning"
+        },
+        {
+          "name": "Inference",
+          "slug": "inference"
+        },
+        {
+          "name": "Local LLM",
+          "slug": "local-llm"
+        },
+        {
+          "name": "Vision",
+          "slug": "vision"
+        },
+        {
+          "name": "Voice / Speech",
+          "slug": "voice-speech"
+        },
+        {
+          "name": "Video",
+          "slug": "video"
+        },
+        {
+          "name": "Image Gen",
+          "slug": "image-gen"
+        },
+        {
+          "name": "Code Gen",
+          "slug": "code-gen"
+        },
+        {
+          "name": "Embeddings",
+          "slug": "embeddings"
+        },
+        {
+          "name": "Eval",
+          "slug": "eval"
+        },
+        {
+          "name": "Reasoning",
+          "slug": "reasoning"
+        },
+        {
+          "name": "Multimodal",
+          "slug": "multimodal"
+        },
+        {
+          "name": "Robotics",
+          "slug": "robotics"
+        }
+      ]
+    },
+    {
+      "name": "Ecosystem",
+      "tags": [
+        {
+          "name": "OpenAI",
+          "slug": "openai"
+        },
+        {
+          "name": "Anthropic",
+          "slug": "anthropic"
+        },
+        {
+          "name": "Google",
+          "slug": "google"
+        },
+        {
+          "name": "Meta",
+          "slug": "meta"
+        },
+        {
+          "name": "Nvidia",
+          "slug": "nvidia"
+        },
+        {
+          "name": "Hugging Face",
+          "slug": "hugging-face"
+        },
+        {
+          "name": "Mistral",
+          "slug": "mistral"
+        },
+        {
+          "name": "xAI",
+          "slug": "xai"
+        },
+        {
+          "name": "Apple",
+          "slug": "apple"
+        },
+        {
+          "name": "Microsoft",
+          "slug": "microsoft"
+        },
+        {
+          "name": "Claude Code",
+          "slug": "claude-code"
+        },
+        {
+          "name": "Cursor",
+          "slug": "cursor"
+        },
+        {
+          "name": "MCP",
+          "slug": "mcp"
+        }
+      ]
+    },
+    {
+      "name": "Business",
+      "tags": [
+        {
+          "name": "Funding",
+          "slug": "funding"
+        },
+        {
+          "name": "Acquisition",
+          "slug": "acquisition"
+        },
+        {
+          "name": "Launch",
+          "slug": "launch"
+        },
+        {
+          "name": "Pricing",
+          "slug": "pricing"
+        },
+        {
+          "name": "Policy",
+          "slug": "policy"
+        },
+        {
+          "name": "Legal",
+          "slug": "legal"
+        },
+        {
+          "name": "Security",
+          "slug": "security"
+        },
+        {
+          "name": "Privacy",
+          "slug": "privacy"
+        },
+        {
+          "name": "Safety",
+          "slug": "safety"
+        }
+      ]
+    },
+    {
+      "name": "Format",
+      "tags": [
+        {
+          "name": "Show HN",
+          "slug": "show-hn"
+        },
+        {
+          "name": "Tutorial",
+          "slug": "tutorial"
+        },
+        {
+          "name": "Deep Dive",
+          "slug": "deep-dive"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "ph-articos-mcp-2026-10-14",
+      "title": "Articos MCP",
+      "category": "launches",
+      "source": "producthunt",
+      "url": "https://articos.com",
+      "source_url": "https://www.producthunt.com/products/articos",
+      "source_text": "Articos MCP See how simulated buyers react, right in your agent Most teams ship, then hope it lands. Articos MCP lets you check first. Right inside Claude or ChatGPT, run your headlines, positioning, or pages past simulated buyers based on your actual customers, and see how they respond before it goes out. Validated against human research from Baymard and Nielsen Norman, it agrees 86% of the time. Marketing Developer Tools Artificial Intelligence",
+      "signals": {
+        "upvotes": 326,
+        "comments": 101
+      },
+      "published_at": "2026-10-13T07:01:00Z"
+    },
+    {
+      "id": "ph-opencode-2-0-2026-10-14",
+      "title": "OpenCode 2.0",
+      "category": "launches",
+      "source": "producthunt",
+      "url": "https://opencode.ai/",
+      "source_url": "https://www.producthunt.com/products/opencode",
+      "source_text": "OpenCode 2.0 The open source AI coding agent OpenCode is an open source AI coding agent. It’s available as a terminal-based interface, desktop app, or web app. Open Source Developer Tools GitHub Development",
+      "signals": {
+        "upvotes": 293,
+        "comments": 14
+      },
+      "published_at": "2026-10-13T07:01:00Z"
+    },
+    {
+      "id": "ph-muse-wonder-2026-10-14",
+      "title": "Muse Wonder",
+      "category": "launches",
+      "source": "producthunt",
+      "url": "https://research.meta.ai/blog/muse-wonder",
+      "source_url": "https://www.producthunt.com/products/meta-ai",
+      "source_text": "Muse Wonder Meta’s most capable models for personal agents Muse Wonder is Meta’s new model series for personal and professional agents, with two models: Muse Wonder and Muse Wonder Full. Active Memory carries your context across conversations, Active Focus keeps working through blockers on hard goals, and it adds domain expertise in law, finance, and health plus stronger coding. Muse Wonder is live on the Meta Model API and Muse Code. Muse Wonder Full is for Muse Code subscribers. Artificial Intelligence",
+      "signals": {
+        "upvotes": 235,
+        "comments": 4
+      },
+      "published_at": "2026-10-13T07:01:00Z"
+    },
+    {
+      "id": "ph-hirekai-2026-10-14",
+      "title": "Kai",
+      "category": "launches",
+      "source": "producthunt",
+      "url": "https://hirekai.ai",
+      "source_url": "https://www.producthunt.com/products/hirekai",
+      "source_text": "Kai Autonomous assistant designed to handle meetings and email Kai is an AI executive assistant for solopreneurs, freelancers and startup founders. It works across your email, calendar and tasks: it triages your inbox and drafts replies, schedules around your availability, records and transcribes your meetings, then turns them into summaries and action items. Workflows run in the background, and Kai hands tasks to Claude or ChatGPT with the context of the meeting or email they came from. Web, desktop and mobile. Product Hunt sign-ups get 2x trial credits. Email Productivity Artificial Intelligence",
+      "signals": {
+        "upvotes": 195,
+        "comments": 48
+      },
+      "published_at": "2026-10-13T07:01:00Z"
+    },
+    {
+      "id": "hn-show-hn-use-your-openai-subscription-to-create-2026-10-14",
+      "title": "Show HN: Use your OpenAI subscription to create audiobooks",
+      "category": "launches",
+      "source": "hackernews",
+      "url": "https://pdftomp3.com/connect-ai/",
+      "source_url": "https://news.ycombinator.com/item?id=50069337",
+      "source_text": "Show HN: Use your OpenAI subscription to create audiobooks",
+      "signals": {
+        "points": 161,
+        "comments": 83
+      },
+      "meta": {
+        "author": "janpmz"
+      },
+      "published_at": "2026-10-13T10:08:34Z"
+    },
+    {
+      "id": "gh-diagram-design-2026-10-14",
+      "title": "cathrynlavery/diagram-design",
+      "category": "repos",
+      "source": "github",
+      "url": "https://github.com/cathrynlavery/diagram-design",
+      "source_url": "https://github.com/cathrynlavery/diagram-design",
+      "source_text": "cathrynlavery/diagram-design Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop. HTML",
+      "signals": {
+        "stars": 54707,
+        "stars_gained": 1815,
+        "forks": 3455
+      },
+      "meta": {
+        "language": "HTML"
+      }
+    },
+    {
+      "id": "gh-airllm-2026-10-14",
+      "title": "lyogavin/airllm",
+      "category": "repos",
+      "source": "github",
+      "url": "https://github.com/lyogavin/airllm",
+      "source_url": "https://github.com/lyogavin/airllm",
+      "source_text": "lyogavin/airllm AirLLM 2.8T LLM inference with single 4GB GPU Jupyter Notebook",
+      "signals": {
+        "stars": 38511,
+        "stars_gained": 1001,
+        "forks": 3933
+      },
+      "meta": {
+        "language": "Jupyter Notebook"
+      }
+    },
+    {
+      "id": "gh-context-mode-2026-10-14",
+      "title": "mksglu/context-mode",
+      "category": "repos",
+      "source": "github",
+      "url": "https://github.com/mksglu/context-mode",
+      "source_url": "https://github.com/mksglu/context-mode",
+      "source_text": "mksglu/context-mode Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks. TypeScript",
+      "signals": {
+        "stars": 28544,
+        "stars_gained": 969,
+        "forks": 2012
+      },
+      "meta": {
+        "language": "TypeScript"
+      }
+    },
+    {
+      "id": "gh-skills-2026-10-14",
+      "title": "vercel-labs/skills",
+      "category": "repos",
+      "source": "github",
+      "url": "https://github.com/vercel-labs/skills",
+      "source_url": "https://github.com/vercel-labs/skills",
+      "source_text": "vercel-labs/skills The open agent skills tool - npx skills TypeScript",
+      "signals": {
+        "stars": 34740,
+        "stars_gained": 190,
+        "forks": 2966
+      },
+      "meta": {
+        "language": "TypeScript"
+      }
+    },
+    {
+      "id": "tc-google-play-now-lets-anyone-build-private-vibe-2026-10-14",
+      "title": "Google Play now lets anyone build private, vibe-coded apps that run on Android",
+      "category": "news",
+      "source": "techcrunch",
+      "url": "https://techcrunch.com/2026/10/13/google-play-now-supports-private-vibe-coded-apps-built-just-for-you/",
+      "source_url": "https://techcrunch.com/2026/10/13/google-play-now-supports-private-vibe-coded-apps-built-just-for-you/",
+      "source_text": "Google Play now lets anyone build private, vibe-coded apps that run on Android Google is making it easier to build and use personal Android apps created with AI, without having to make them available to everyone on the Play Store.",
+      "meta": {
+        "author": "Sarah Perez",
+        "reading_time": "4 minutes"
+      },
+      "published_at": "2026-10-13T17:00:00Z"
+    },
+    {
+      "id": "tc-amex-introduces-a-framework-to-prevent-ai-2026-10-14",
+      "title": "Amex introduces a framework to prevent AI agents from making unauthorized purchases",
+      "category": "news",
+      "source": "techcrunch",
+      "url": "https://techcrunch.com/2026/10/13/amex-introduces-a-framework-to-prevent-ai-agents-from-making-unauthorized-purchases/",
+      "source_url": "https://techcrunch.com/2026/10/13/amex-introduces-a-framework-to-prevent-ai-agents-from-making-unauthorized-purchases/",
+      "source_text": "Amex introduces a framework to prevent AI agents from making unauthorized purchases American Express is introducing a new framework designed to ensure AI agents only make purchases their users have authorized, potentially preventing costly mistakes and disputes as AI-powered shopping grows.",
+      "meta": {
+        "author": "Sarah Perez",
+        "reading_time": "4 minutes"
+      },
+      "published_at": "2026-10-13T13:00:00Z"
+    },
+    {
+      "id": "tc-just-5-years-in-interactive-chatbot-platform-2026-10-14",
+      "title": "Just 5 years in, interactive chatbot platform Character.AI files for bankruptcy",
+      "category": "news",
+      "source": "techcrunch",
+      "url": "https://techcrunch.com/2026/10/13/just-5-years-in-interactive-chatbot-platform-character-ai-files-for-bankruptcy/",
+      "source_url": "https://techcrunch.com/2026/10/13/just-5-years-in-interactive-chatbot-platform-character-ai-files-for-bankruptcy/",
+      "source_text": "Just 5 years in, interactive chatbot platform Character.AI files for bankruptcy The startup will sell some of its assets to Disney for $20 million.",
+      "meta": {
+        "author": "Ivan Mehta",
+        "reading_time": "4 minutes"
+      },
+      "published_at": "2026-10-13T12:23:42Z"
+    },
+    {
+      "id": "tc-science-corporation-implants-its-vision-2026-10-14",
+      "title": "Science Corporation implants its vision-restoring chip in its first Stargardt disease patient",
+      "category": "news",
+      "source": "techcrunch",
+      "url": "https://techcrunch.com/2026/10/13/science-corporation-implants-its-vision-restoring-chip-in-its-first-stargardt-disease-patient/",
+      "source_url": "https://techcrunch.com/2026/10/13/science-corporation-implants-its-vision-restoring-chip-in-its-first-stargardt-disease-patient/",
+      "source_text": "Science Corporation implants its vision-restoring chip in its first Stargardt disease patient Max Hodak, the former president and co-founder of Neuralink, detailed onstage at TechCrunch Disrupt how his company's work with PRIMA is part of its path toward a novel brain-computer interface (BCI).",
+      "meta": {
+        "author": "Aisha Malik",
+        "reading_time": "5 minutes"
+      },
+      "published_at": "2026-10-13T23:13:31Z"
+    },
+    {
+      "id": "tc-cerebras-ceo-says-were-nearing-a-future-where-2026-10-14",
+      "title": "Cerebras CEO says we’re nearing a future where everyone has a personal AI assistant at home",
+      "category": "news",
+      "source": "techcrunch",
+      "url": "https://techcrunch.com/2026/10/13/cerebras-ceo-says-were-nearing-a-future-where-everyone-has-a-personal-ai-assistant-at-home/",
+      "source_url": "https://techcrunch.com/2026/10/13/cerebras-ceo-says-were-nearing-a-future-where-everyone-has-a-personal-ai-assistant-at-home/",
+      "source_text": "Cerebras CEO says we’re nearing a future where everyone has a personal AI assistant at home Cerebras CEO Andrew Feldman predicts a future where personal AI assistants become as commonplace as household appliances, running partly on local devices and partly in the cloud.",
+      "meta": {
+        "author": "Sarah Perez",
+        "reading_time": "2 minutes"
+      },
+      "published_at": "2026-10-13T23:05:34Z"
+    },
+    {
+      "id": "tc-industrial-next-wants-factory-robots-to-switch-2026-10-14",
+      "title": "Industrial Next wants factory robots to switch tasks in minutes, not weeks",
+      "category": "news",
+      "source": "techcrunch",
+      "url": "https://techcrunch.com/2026/10/13/industrial-next-wants-factory-robots-to-switch-tasks-in-minutes-not-weeks/",
+      "source_url": "https://techcrunch.com/2026/10/13/industrial-next-wants-factory-robots-to-switch-tasks-in-minutes-not-weeks/",
+      "source_text": "Industrial Next wants factory robots to switch tasks in minutes, not weeks Industrial Next helps manufacturers automate complex, delicate tasks that have traditionally required human labor.",
+      "meta": {
+        "author": "Aisha Malik",
+        "reading_time": "5 minutes"
+      },
+      "published_at": "2026-10-13T23:00:00Z"
+    },
+    {
+      "id": "tc-cerebras-ceo-pushes-back-on-ai-doomsday-warnings-2026-10-14",
+      "title": "Cerebras CEO pushes back on AI doomsday warnings",
+      "category": "news",
+      "source": "techcrunch",
+      "url": "https://techcrunch.com/2026/10/13/cerebras-ceo-pushes-back-on-ai-doomsday-warnings/",
+      "source_url": "https://techcrunch.com/2026/10/13/cerebras-ceo-pushes-back-on-ai-doomsday-warnings/",
+      "source_text": "Cerebras CEO pushes back on AI doomsday warnings Cerebras CEO Andrew Feldman has a message for AI leaders spreading doomsday warnings: Maybe stop talking? At TechCrunch Disrupt, he argued that the industry's focus on AI's risks is drowning out its potential benefits.",
+      "meta": {
+        "author": "Sarah Perez",
+        "reading_time": "3 minutes"
+      },
+      "published_at": "2026-10-13T22:36:59Z"
+    },
+    {
+      "id": "tc-judge-orders-openai-to-turn-over-hiring-records-2026-10-14",
+      "title": "Judge orders OpenAI to turn over hiring records in Apple trade secrets case",
+      "category": "news",
+      "source": "techcrunch",
+      "url": "https://techcrunch.com/2026/10/13/judge-orders-openai-to-turn-over-hiring-records-in-apple-trade-secrets-case/",
+      "source_url": "https://techcrunch.com/2026/10/13/judge-orders-openai-to-turn-over-hiring-records-in-apple-trade-secrets-case/",
+      "source_text": "Judge orders OpenAI to turn over hiring records in Apple trade secrets case A federal judge ruled that Apple can access OpenAI's interview materials involving former Apple employees, as well as private messages and testimony from key figures in the case.",
+      "meta": {
+        "author": "Sarah Perez",
+        "reading_time": "2 minutes"
+      },
+      "published_at": "2026-10-13T20:36:44Z"
+    },
+    {
+      "id": "tc-flox-intelligence-is-building-ai-to-keep-2026-10-14",
+      "title": "Flox Intelligence is building AI to keep wildlife away from trains, airports, and roads",
+      "category": "news",
+      "source": "techcrunch",
+      "url": "https://techcrunch.com/2026/10/13/flox-intelligence-is-building-ai-to-keep-wildlife-away-from-trains-airports-and-roads/",
+      "source_url": "https://techcrunch.com/2026/10/13/flox-intelligence-is-building-ai-to-keep-wildlife-away-from-trains-airports-and-roads/",
+      "source_text": "Flox Intelligence is building AI to keep wildlife away from trains, airports, and roads Flox's edge devices can identify animals and use species-specific sounds to drive them away from critical infrastructure.",
+      "meta": {
+        "author": "Ram Iyer",
+        "reading_time": "5 minutes"
+      },
+      "published_at": "2026-10-13T18:30:00Z"
+    },
+    {
+      "id": "tc-facebook-is-giving-users-more-control-over-2026-10-14",
+      "title": "Facebook is giving users more control over their algorithm",
+      "category": "news",
+      "source": "techcrunch",
+      "url": "https://techcrunch.com/2026/10/13/facebook-is-giving-users-more-control-over-their-algorithm/",
+      "source_url": "https://techcrunch.com/2026/10/13/facebook-is-giving-users-more-control-over-their-algorithm/",
+      "source_text": "Facebook is giving users more control over their algorithm Meta announced the launch of its new AI-powered feature, “Your Algorithm,” a feature it first launched on Instagram.",
+      "meta": {
+        "author": "Lauren Forristal",
+        "reading_time": "2 minutes"
+      },
+      "published_at": "2026-10-13T18:05:24Z"
+    },
+    {
+      "id": "hn-gemini-4-argon-2026-10-14",
+      "title": "Gemini 4 Argon",
+      "category": "hn",
+      "source": "hackernews",
+      "url": "https://deepmind.google/models/gemini/",
+      "source_url": "https://news.ycombinator.com/item?id=50073879",
+      "source_text": "Gemini 4 Argon",
+      "signals": {
+        "points": 1241,
+        "comments": 865
+      },
+      "meta": {
+        "author": "737max"
+      },
+      "published_at": "2026-10-13T16:03:16Z"
+    },
+    {
+      "id": "hn-redesigning-source-control-at-anthropic-2026-10-14",
+      "title": "Redesigning source control at Anthropic",
+      "category": "hn",
+      "source": "hackernews",
+      "url": "https://www.anthropic.com/engineering/redesigning-source-control",
+      "source_url": "https://news.ycombinator.com/item?id=50073633",
+      "source_text": "Redesigning source control at Anthropic",
+      "signals": {
+        "points": 736,
+        "comments": 724
+      },
+      "meta": {
+        "author": "Philpax"
+      },
+      "published_at": "2026-10-13T15:49:56Z"
+    },
+    {
+      "id": "hn-openai-engineer-arrested-in-bugging-of-2026-10-14",
+      "title": "OpenAI engineer arrested in bugging of executive conference room",
+      "category": "hn",
+      "source": "hackernews",
+      "url": "https://sfstandard.com/2026/10/13/openai-engineer-arrested-alleged-bugging-executive-conference-room/",
+      "source_url": "https://news.ycombinator.com/item?id=50078141",
+      "source_text": "OpenAI engineer arrested in bugging of executive conference room",
+      "signals": {
+        "points": 549,
+        "comments": 460
+      },
+      "meta": {
+        "author": "forthwall"
+      },
+      "published_at": "2026-10-13T20:23:55Z"
+    },
+    {
+      "id": "hn-i-posted-to-hn-and-then-my-website-was-flooded-2026-10-14",
+      "title": "I posted to HN, and then my website was flooded with AI bot traffic",
+      "category": "hn",
+      "source": "hackernews",
+      "url": "https://www.sammystraus.com/#i-posted-to-hn-and-then-my-website-was-flooded-with-ai-bot-traffic",
+      "source_url": "https://news.ycombinator.com/item?id=50073221",
+      "source_text": "I posted to HN, and then my website was flooded with AI bot traffic",
+      "signals": {
+        "points": 317,
+        "comments": 170
+      },
+      "meta": {
+        "author": "sammy0910"
+      },
+      "published_at": "2026-10-13T15:25:50Z"
+    },
+    {
+      "id": "hn-ai-models-can-provably-hide-arbitrary-2026-10-14",
+      "title": "AI models can provably hide arbitrary capabilities",
+      "category": "hn",
+      "source": "hackernews",
+      "url": "https://arxiv.org/abs/2610.13928",
+      "source_url": "https://news.ycombinator.com/item?id=50065692",
+      "source_text": "AI models can provably hide arbitrary capabilities",
+      "signals": {
+        "points": 274,
+        "comments": 138
+      },
+      "meta": {
+        "author": "sbulaev"
+      },
+      "published_at": "2026-10-13T02:07:08Z"
+    },
+    {
+      "id": "hn-a-look-at-the-math-that-openai-claims-computes-2026-10-14",
+      "title": "A look at the math that OpenAI claims computes faster Fourier transforms",
+      "category": "hn",
+      "source": "hackernews",
+      "url": "https://www.argmin.net/p/faster-fourier-transforms",
+      "source_url": "https://news.ycombinator.com/item?id=50065932",
+      "source_text": "A look at the math that OpenAI claims computes faster Fourier transforms",
+      "signals": {
+        "points": 241,
+        "comments": 159
+      },
+      "meta": {
+        "author": "mochomocha"
+      },
+      "published_at": "2026-10-13T02:46:43Z"
+    },
+    {
+      "id": "hn-gemini-4-argon-for-robotics-2026-10-14",
+      "title": "Gemini 4 Argon for Robotics",
+      "category": "hn",
+      "source": "hackernews",
+      "url": "https://developers.googleblog.com/gemini-4-argon-for-robotics/",
+      "source_url": "https://news.ycombinator.com/item?id=50074869",
+      "source_text": "Gemini 4 Argon for Robotics",
+      "signals": {
+        "points": 213,
+        "comments": 49
+      },
+      "meta": {
+        "author": "xnx"
+      },
+      "published_at": "2026-10-13T16:55:47Z"
+    },
+    {
+      "id": "hn-how-to-engineer-an-ai-harness-for-game-2026-10-14",
+      "title": "How to engineer an AI harness for game development",
+      "category": "hn",
+      "source": "hackernews",
+      "url": "https://kylekukshtel.com/ai-harness-engineering-game-development-claude-code",
+      "source_url": "https://news.ycombinator.com/item?id=50072120",
+      "source_text": "How to engineer an AI harness for game development",
+      "signals": {
+        "points": 146,
+        "comments": 69
+      },
+      "meta": {
+        "author": "kkukshtel"
+      },
+      "published_at": "2026-10-13T14:14:23Z"
+    },
+    {
+      "id": "hn-threat-of-ai-share-crash-puts-world-financial-2026-10-14",
+      "title": "Threat of AI share crash puts world financial stability at risk, says IMF",
+      "category": "hn",
+      "source": "hackernews",
+      "url": "https://www.theguardian.com/business/2026/oct/13/ai-share-crash-risk-global-imf-debt-corrowing-cyber-attacks",
+      "source_url": "https://news.ycombinator.com/item?id=50067356",
+      "source_text": "Threat of AI share crash puts world financial stability at risk, says IMF",
+      "signals": {
+        "points": 111,
+        "comments": 125
+      },
+      "meta": {
+        "author": "novaRom"
+      },
+      "published_at": "2026-10-13T05:57:32Z"
+    }
+  ]
+}

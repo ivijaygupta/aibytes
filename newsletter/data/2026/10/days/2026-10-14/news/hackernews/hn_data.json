@@ -1,0 +1,120 @@
+{
+  "source": "hackernews",
+  "section": "ai-news",
+  "fetched_at": "2026-10-14",
+  "window": {
+    "after": "2026-10-13",
+    "before": "2026-10-15"
+  },
+  "query_params": {
+    "tags": "story",
+    "count": 10,
+    "min_points": 50,
+    "topic": "ai",
+    "ranking": "points,recency"
+  },
+  "totalCount": 15,
+  "poolCount": 61,
+  "stories": [
+    {
+      "title": "Gemini 4 Argon",
+      "url": "https://deepmind.google/models/gemini/",
+      "type": "story",
+      "points": 1241,
+      "num_comments": 865,
+      "author": "737max",
+      "created_at": "2026-10-13T16:03:16Z",
+      "hn_url": "https://news.ycombinator.com/item?id=50073879"
+    },
+    {
+      "title": "Redesigning source control at Anthropic",
+      "url": "https://www.anthropic.com/engineering/redesigning-source-control",
+      "type": "story",
+      "points": 736,
+      "num_comments": 724,
+      "author": "Philpax",
+      "created_at": "2026-10-13T15:49:56Z",
+      "hn_url": "https://news.ycombinator.com/item?id=50073633"
+    },
+    {
+      "title": "OpenAI engineer arrested in bugging of executive conference room",
+      "url": "https://sfstandard.com/2026/10/13/openai-engineer-arrested-alleged-bugging-executive-conference-room/",
+      "type": "story",
+      "points": 549,
+      "num_comments": 460,
+      "author": "forthwall",
+      "created_at": "2026-10-13T20:23:55Z",
+      "hn_url": "https://news.ycombinator.com/item?id=50078141"
+    },
+    {
+      "title": "I posted to HN, and then my website was flooded with AI bot traffic",
+      "url": "https://www.sammystraus.com/#i-posted-to-hn-and-then-my-website-was-flooded-with-ai-bot-traffic",
+      "type": "story",
+      "points": 317,
+      "num_comments": 170,
+      "author": "sammy0910",
+      "created_at": "2026-10-13T15:25:50Z",
+      "hn_url": "https://news.ycombinator.com/item?id=50073221"
+    },
+    {
+      "title": "AI models can provably hide arbitrary capabilities",
+      "url": "https://arxiv.org/abs/2610.13928",
+      "type": "story",
+      "points": 274,
+      "num_comments": 138,
+      "author": "sbulaev",
+      "created_at": "2026-10-13T02:07:08Z",
+      "hn_url": "https://news.ycombinator.com/item?id=50065692"
+    },
+    {
+      "title": "A look at the math that OpenAI claims computes faster Fourier transforms",
+      "url": "https://www.argmin.net/p/faster-fourier-transforms",
+      "type": "story",
+      "points": 241,
+      "num_comments": 159,
+      "author": "mochomocha",
+      "created_at": "2026-10-13T02:46:43Z",
+      "hn_url": "https://news.ycombinator.com/item?id=50065932"
+    },
+    {
+      "title": "Gemini 4 Argon for Robotics",
+      "url": "https://developers.googleblog.com/gemini-4-argon-for-robotics/",
+      "type": "story",
+      "points": 213,
+      "num_comments": 49,
+      "author": "xnx",
+      "created_at": "2026-10-13T16:55:47Z",
+      "hn_url": "https://news.ycombinator.com/item?id=50074869"
+    },
+    {
+      "title": "Show HN: Use your OpenAI subscription to create audiobooks",
+      "url": "https://pdftomp3.com/connect-ai/",
+      "type": "show_hn",
+      "points": 161,
+      "num_comments": 83,
+      "author": "janpmz",
+      "created_at": "2026-10-13T10:08:34Z",
+      "hn_url": "https://news.ycombinator.com/item?id=50069337"
+    },
+    {
+      "title": "How to engineer an AI harness for game development",
+      "url": "https://kylekukshtel.com/ai-harness-engineering-game-development-claude-code",
+      "type": "story",
+      "points": 146,
+      "num_comments": 69,
+      "author": "kkukshtel",
+      "created_at": "2026-10-13T14:14:23Z",
+      "hn_url": "https://news.ycombinator.com/item?id=50072120"
+    },
+    {
+      "title": "Threat of AI share crash puts world financial stability at risk, says IMF",
+      "url": "https://www.theguardian.com/business/2026/oct/13/ai-share-crash-risk-global-imf-debt-corrowing-cyber-attacks",
+      "type": "story",
+      "points": 111,
+      "num_comments": 125,
+      "author": "novaRom",
+      "created_at": "2026-10-13T05:57:32Z",
+      "hn_url": "https://news.ycombinator.com/item?id=50067356"
+    }
+  ]
+}

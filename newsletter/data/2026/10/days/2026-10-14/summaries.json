@@ -1,0 +1,117 @@
+{
+  "date": "2026-10-14",
+  "items": {
+    "ph-articos-mcp-2026-10-14": {
+      "summary": "MCP server that runs headlines, positioning and pages past simulated buyers modelled on your customers, inside Claude or ChatGPT; reports 86% agreement with Baymard and NN/g research.",
+      "tags": ["Dev Tool", "Agents", "MCP", "Launch"]
+    },
+    "ph-opencode-2-0-2026-10-14": {
+      "summary": "Open source AI coding agent that runs as a terminal interface, a desktop app, or a web app.",
+      "tags": ["Open Source", "Code Gen", "Dev Tool", "Launch"]
+    },
+    "ph-muse-wonder-2026-10-14": {
+      "summary": "Meta's two-model series for agents, with Active Memory across chats and Active Focus on hard goals; live on the Meta Model API, the Full tier for Muse Code subscribers.",
+      "tags": ["Model Release", "Agents", "Meta", "Launch"]
+    },
+    "ph-hirekai-2026-10-14": {
+      "summary": "Assistant for founders and freelancers that triages email, drafts replies, schedules, records and summarises meetings, and hands tasks to Claude or ChatGPT with that context.",
+      "tags": ["Agents", "Launch"]
+    },
+    "hn-show-hn-use-your-openai-subscription-to-create-2026-10-14": {
+      "summary": "Feature on pdftomp3.com that connects a user's own OpenAI subscription to generate audiobooks.",
+      "tags": ["Show HN", "Voice / Speech", "Launch"]
+    },
+    "gh-diagram-design-2026-10-14": {
+      "summary": "Editorial diagram design for Claude Code, Codex, Copilot, Cursor, Factory Droid and Pi, producing self-contained HTML and SVG across 44 diagram types without Mermaid.",
+      "tags": ["Open Source", "Dev Tool", "Agents"]
+    },
+    "gh-airllm-2026-10-14": {
+      "summary": "Inference project claiming LLMs of up to 2.8T parameters can run on a single 4GB GPU; the code ships as Jupyter notebooks.",
+      "tags": ["Open Source", "Inference", "Local LLM"]
+    },
+    "gh-context-mode-2026-10-14": {
+      "summary": "TypeScript tool that sandboxes coding-agent tool output for a claimed 98% context reduction, persists session memory, and enforces routing across 17 platforms via MCP and hooks.",
+      "tags": ["Open Source", "Dev Tool", "Agents", "MCP"]
+    },
+    "gh-skills-2026-10-14": {
+      "summary": "Vercel Labs' TypeScript CLI for the open agent skills format, run with npx skills.",
+      "tags": ["Open Source", "Dev Tool", "Agents"]
+    },
+    "tc-google-play-now-lets-anyone-build-private-vibe-2026-10-14": {
+      "summary": "Personal Android apps built with AI can now be used through Google Play without being made available to everyone on the store.",
+      "tags": ["Code Gen", "Google", "Launch"]
+    },
+    "tc-amex-introduces-a-framework-to-prevent-ai-2026-10-14": {
+      "summary": "American Express is setting rules so shopping agents only buy what their users authorized, aimed at cutting costly mistakes and disputes as agent purchases grow.",
+      "tags": ["Agents", "Security"]
+    },
+    "tc-just-5-years-in-interactive-chatbot-platform-2026-10-14": {
+      "summary": "As part of the bankruptcy, the startup will sell some of its assets to Disney for $20 million.",
+      "tags": ["LLM", "Acquisition"]
+    },
+    "tc-science-corporation-implants-its-vision-2026-10-14": {
+      "summary": "Former Neuralink president Max Hodak told TechCrunch Disrupt the PRIMA work is a step on the company's path to a novel brain-computer interface.",
+      "tags": ["Vision"]
+    },
+    "tc-cerebras-ceo-says-were-nearing-a-future-where-2026-10-14": {
+      "summary": "Andrew Feldman predicts home AI assistants as common as household appliances, running partly on local devices and partly in the cloud.",
+      "tags": ["Local LLM", "Inference"]
+    },
+    "tc-industrial-next-wants-factory-robots-to-switch-2026-10-14": {
+      "summary": "Startup helping manufacturers automate complex, delicate tasks that have traditionally needed human labor.",
+      "tags": ["Robotics"]
+    },
+    "tc-cerebras-ceo-pushes-back-on-ai-doomsday-warnings-2026-10-14": {
+      "summary": "At TechCrunch Disrupt, Andrew Feldman argued the industry's focus on AI risk is drowning out its benefits and suggested leaders stop issuing warnings.",
+      "tags": ["Safety"]
+    },
+    "tc-judge-orders-openai-to-turn-over-hiring-records-2026-10-14": {
+      "summary": "A federal judge gave Apple access to OpenAI interview materials involving former Apple staff, plus private messages and testimony from key figures.",
+      "tags": ["Legal", "OpenAI", "Apple"]
+    },
+    "tc-flox-intelligence-is-building-ai-to-keep-2026-10-14": {
+      "summary": "Edge devices identify animals and play species-specific sounds to drive them away from rail lines, airports and roads.",
+      "tags": ["Vision"]
+    },
+    "tc-facebook-is-giving-users-more-control-over-2026-10-14": {
+      "summary": "Meta brings Your Algorithm, the AI-powered feed control it first launched on Instagram, to Facebook.",
+      "tags": ["Meta", "Launch"]
+    },
+    "hn-gemini-4-argon-2026-10-14": {
+      "summary": "Google DeepMind's Gemini model page, now listing Gemini 4 Argon; a robotics version shipped the same day.",
+      "tags": ["Model Release", "LLM", "Google"]
+    },
+    "hn-redesigning-source-control-at-anthropic-2026-10-14": {
+      "summary": "Anthropic engineering blog post on how the company rebuilt its source control setup.",
+      "tags": ["Dev Tool", "Anthropic", "Deep Dive"]
+    },
+    "hn-openai-engineer-arrested-in-bugging-of-2026-10-14": {
+      "summary": "San Francisco Standard report on an OpenAI engineer's arrest over the alleged bugging of an executive conference room.",
+      "tags": ["OpenAI", "Security", "Legal"]
+    },
+    "hn-i-posted-to-hn-and-then-my-website-was-flooded-2026-10-14": {
+      "summary": "Personal blog post on the wave of AI crawler traffic that hit the author's site after a Hacker News submission.",
+      "tags": ["Security"]
+    },
+    "hn-ai-models-can-provably-hide-arbitrary-2026-10-14": {
+      "summary": "arXiv paper claiming a formal proof that AI models can conceal arbitrary capabilities.",
+      "tags": ["Paper", "Safety", "Eval"]
+    },
+    "hn-a-look-at-the-math-that-openai-claims-computes-2026-10-14": {
+      "summary": "Essay on the argmin blog examining the math behind OpenAI's claim of a faster Fourier transform.",
+      "tags": ["OpenAI", "Deep Dive"]
+    },
+    "hn-gemini-4-argon-for-robotics-2026-10-14": {
+      "summary": "Google Developers Blog post on the robotics version of Gemini 4 Argon, released the same day as the base model.",
+      "tags": ["Model Release", "Robotics", "Google"]
+    },
+    "hn-how-to-engineer-an-ai-harness-for-game-2026-10-14": {
+      "summary": "Blog post by Kyle Kukshtel on building an AI harness around Claude Code for game development.",
+      "tags": ["Tutorial", "Agents", "Claude Code"]
+    },
+    "hn-threat-of-ai-share-crash-puts-world-financial-2026-10-14": {
+      "summary": "Guardian report on the IMF's warning that a fall in AI stocks could spread into global financial instability.",
+      "tags": ["Policy"]
+    }
+  }
+}

@@ -1,0 +1,619 @@
+{
+  "source": "producthunt",
+  "fetched_at": "2026-10-14",
+  "window": {
+    "postedAfter": "2026-10-13T00:00:00Z",
+    "postedBefore": "2026-10-15T00:00:00Z"
+  },
+  "query_params": {
+    "first": 5,
+    "order": "VOTES",
+    "featured": true
+  },
+  "totalCount": 77,
+  "posts": [
+    {
+      "id": "1267617",
+      "name": "Articos MCP",
+      "tagline": "See how simulated buyers react, right in your agent",
+      "description": "Most teams ship, then hope it lands. Articos MCP lets you check first. Right inside Claude or ChatGPT, run your headlines, positioning, or pages past simulated buyers based on your actual customers, and see how they respond before it goes out. Validated against human research from Baymard and Nielsen Norman, it agrees 86% of the time.",
+      "slug": "articos-mcp",
+      "votesCount": 326,
+      "commentsCount": 101,
+      "reviewsRating": 0.0,
+      "reviewsCount": 0,
+      "dailyRank": 1,
+      "weeklyRank": 1,
+      "url": "https://www.producthunt.com/products/articos?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29",
+      "website": "https://www.producthunt.com/r/KE4OQDDO5PVYVA?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29",
+      "featuredAt": "2026-10-13T07:01:00Z",
+      "createdAt": "2026-10-13T07:01:00Z",
+      "thumbnail": {
+        "type": "image",
+        "url": "https://ph-files.imgix.net/ef1f593e-8929-4cb5-9341-f4374a3dbc1d.jpeg?auto=format"
+      },
+      "media": [
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/bf8a4aba-000b-4cce-86ca-fb88380bb028.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/07232e80-2fe3-432f-b173-ae8d5559ecce.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/45e9ef49-b9be-4151-beed-0a179c36c8f0.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/de05c1b5-8bc6-4bf6-bb2b-bacc91e31255.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/55391717-e217-4145-ba41-135ee004535a.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/7119a008-ad34-4ce1-af06-3ca8f59056c7.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/1c2da212-fb9d-4d1b-92cc-a9ee0a2deec1.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "video",
+          "url": "https://ph-files.imgix.net/09538f71-5c04-49d1-b3ee-89add4884e7d.jpeg?auto=format",
+          "videoUrl": "https://youtu.be/-Xpwl-58GIo"
+        }
+      ],
+      "productLinks": [
+        {
+          "type": "Twitter",
+          "url": "https://www.producthunt.com/r/ENOC7ZUZYX7KQS?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29"
+        },
+        {
+          "type": "Website",
+          "url": "https://www.producthunt.com/r/KE4OQDDO5PVYVA?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29"
+        },
+        {
+          "type": "Twitter",
+          "url": "https://www.producthunt.com/r/MY46FWKVM6Y5R2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29"
+        }
+      ],
+      "topics": {
+        "nodes": [
+          {
+            "name": "Marketing",
+            "slug": "marketing"
+          },
+          {
+            "name": "Developer Tools",
+            "slug": "developer-tools"
+          },
+          {
+            "name": "Artificial Intelligence",
+            "slug": "artificial-intelligence"
+          }
+        ]
+      },
+      "makers": [
+        {
+          "name": "Owais Khan",
+          "username": "owais_khan22",
+          "headline": "Marketing & Growth Leader ",
+          "url": "https://www.producthunt.com/@owais_khan22?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29",
+          "twitterUsername": "Owaize1"
+        },
+        {
+          "name": "Shaheer Gadit",
+          "username": "shaheergadit",
+          "headline": "Founder and CEO Articos",
+          "url": "https://www.producthunt.com/@shaheergadit?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29",
+          "twitterUsername": "ShaheerGadit"
+        }
+      ],
+      "user": {
+        "name": "Chris Messina",
+        "username": "chrismessina",
+        "headline": "\ud83c\udfc6 #1 Hunter!",
+        "url": "https://www.producthunt.com/@chrismessina?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29"
+      }
+    },
+    {
+      "id": "1278232",
+      "name": "OpenCode 2.0",
+      "tagline": "The open source AI coding agent",
+      "description": "OpenCode is an open source AI coding agent. It\u2019s available as a terminal-based interface, desktop app, or web app.",
+      "slug": "opencode-2-0",
+      "votesCount": 293,
+      "commentsCount": 14,
+      "reviewsRating": 5.0,
+      "reviewsCount": 51,
+      "dailyRank": 2,
+      "weeklyRank": 3,
+      "url": "https://www.producthunt.com/products/opencode?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29",
+      "website": "https://www.producthunt.com/r/RIJ2YFQQYD7OOS?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29",
+      "featuredAt": "2026-10-13T07:01:00Z",
+      "createdAt": "2026-10-13T07:01:00Z",
+      "thumbnail": {
+        "type": "image",
+        "url": "https://ph-files.imgix.net/231dd0e9-bd57-4d55-b0ee-d122d5db540c.png?auto=format"
+      },
+      "media": [
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/8e52eeef-b98d-48b7-b0e3-9579fc3864b9.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/1bf33523-1e9b-4e21-902f-4b0f841336f5.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/7a6e074d-78e8-4a36-822e-c75f593e57f4.png?auto=format",
+          "videoUrl": null
+        }
+      ],
+      "productLinks": [
+        {
+          "type": "Website",
+          "url": "https://www.producthunt.com/r/S7YVW7J4LXLL7Z?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29"
+        },
+        {
+          "type": "Github",
+          "url": "https://www.producthunt.com/r/YEXXJEMKIFA5SV?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29"
+        },
+        {
+          "type": "Website",
+          "url": "https://www.producthunt.com/r/DESYVVEGKXRFAA?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29"
+        },
+        {
+          "type": "Twitter",
+          "url": "https://www.producthunt.com/r/ENHOLYB6HSES3S?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29"
+        },
+        {
+          "type": "Website",
+          "url": "https://www.producthunt.com/r/RIJ2YFQQYD7OOS?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29"
+        }
+      ],
+      "topics": {
+        "nodes": [
+          {
+            "name": "Open Source",
+            "slug": "open-source"
+          },
+          {
+            "name": "Developer Tools",
+            "slug": "developer-tools"
+          },
+          {
+            "name": "GitHub",
+            "slug": "github"
+          },
+          {
+            "name": "Development",
+            "slug": "development"
+          }
+        ]
+      },
+      "makers": [
+        {
+          "name": "[REDACTED]",
+          "username": "[REDACTED]",
+          "headline": null,
+          "url": "[REDACTED]",
+          "twitterUsername": null
+        },
+        {
+          "name": "[REDACTED]",
+          "username": "[REDACTED]",
+          "headline": null,
+          "url": "[REDACTED]",
+          "twitterUsername": null
+        },
+        {
+          "name": "[REDACTED]",
+          "username": "[REDACTED]",
+          "headline": null,
+          "url": "[REDACTED]",
+          "twitterUsername": null
+        },
+        {
+          "name": "[REDACTED]",
+          "username": "[REDACTED]",
+          "headline": null,
+          "url": "[REDACTED]",
+          "twitterUsername": null
+        },
+        {
+          "name": "Brendan",
+          "username": "brendonovichdev",
+          "headline": "Founding member of Spacedrive",
+          "url": "https://www.producthunt.com/@brendonovichdev?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29",
+          "twitterUsername": "brendonovichdev"
+        }
+      ],
+      "user": {
+        "name": "Chris Messina",
+        "username": "chrismessina",
+        "headline": "\ud83c\udfc6 #1 Hunter!",
+        "url": "https://www.producthunt.com/@chrismessina?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29"
+      }
+    },
+    {
+      "id": "1254833",
+      "name": "Fina Business",
+      "tagline": "The flexible $20/mo QuickBooks alternative for founders",
+      "description": "You started a business, not an accounting department. Fina Business gives founders the essentials of business accounting without the complexity of traditional tools. Track business and personal finances your way, automate invoices, accept Stripe payments, manage customers, and get double-entry bookkeeping, P&L, and balance sheets. Start at $20/mo and customize Fina around how your business actually works.",
+      "slug": "fina-business",
+      "votesCount": 262,
+      "commentsCount": 53,
+      "reviewsRating": 4.84,
+      "reviewsCount": 19,
+      "dailyRank": 3,
+      "weeklyRank": 5,
+      "url": "https://www.producthunt.com/products/fina?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29",
+      "website": "https://www.producthunt.com/r/5DQUP4N5FLROGS?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29",
+      "featuredAt": "2026-10-13T07:01:00Z",
+      "createdAt": "2026-10-13T07:01:00Z",
+      "thumbnail": {
+        "type": "image",
+        "url": "https://ph-files.imgix.net/60934128-d9c5-45f5-83c3-638b53413cf6.png?auto=format"
+      },
+      "media": [
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/a5d55202-1d0a-4374-ae0c-712cb83760b2.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/5bb8da2f-eced-40b5-9d68-048c6552ab3d.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/77fdeb99-6009-4fc2-b302-afa8f6d61518.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/0ff14740-c2a6-4d2d-9591-eabf69659fd2.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "video",
+          "url": "https://ph-files.imgix.net/8039952d-c68d-49a6-8dac-913d3e60e6bc.gif?auto=format",
+          "videoUrl": "https://www.loom.com/share/dad2e105e9fc4f9aa6295f588a165881"
+        }
+      ],
+      "productLinks": [
+        {
+          "type": "Website",
+          "url": "https://www.producthunt.com/r/U7N424T35I5YSE?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29"
+        },
+        {
+          "type": "Twitter",
+          "url": "https://www.producthunt.com/r/PUQPJBW6F6EMRA?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29"
+        },
+        {
+          "type": "Website",
+          "url": "https://www.producthunt.com/r/5DQUP4N5FLROGS?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29"
+        },
+        {
+          "type": "Twitter",
+          "url": "https://www.producthunt.com/r/4SBXGL3Z5W5FFZ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29"
+        }
+      ],
+      "topics": {
+        "nodes": [
+          {
+            "name": "Business",
+            "slug": "business"
+          },
+          {
+            "name": "Accounting",
+            "slug": "accounting"
+          },
+          {
+            "name": "Budgeting",
+            "slug": "budgeting"
+          }
+        ]
+      },
+      "makers": [
+        {
+          "name": "[REDACTED]",
+          "username": "[REDACTED]",
+          "headline": null,
+          "url": "[REDACTED]",
+          "twitterUsername": null
+        },
+        {
+          "name": "[REDACTED]",
+          "username": "[REDACTED]",
+          "headline": null,
+          "url": "[REDACTED]",
+          "twitterUsername": null
+        },
+        {
+          "name": "Xiao Hu",
+          "username": "hukid",
+          "headline": "An engineer with passion to UX .",
+          "url": "https://www.producthunt.com/@hukid?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29",
+          "twitterUsername": null
+        }
+      ],
+      "user": {
+        "name": "Ben Lang",
+        "username": "benln",
+        "headline": "Cursor",
+        "url": "https://www.producthunt.com/@benln?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29"
+      }
+    },
+    {
+      "id": "1278066",
+      "name": "Muse Wonder",
+      "tagline": "Meta\u2019s most capable models for personal agents",
+      "description": "Muse Wonder is Meta\u2019s new model series for personal and professional agents, with two models: Muse Wonder and Muse Wonder Full. Active Memory carries your context across conversations, Active Focus keeps working through blockers on hard goals, and it adds domain expertise in law, finance, and health plus stronger coding. Muse Wonder is live on the Meta Model API and Muse Code. Muse Wonder Full is for Muse Code subscribers.",
+      "slug": "muse-wonder",
+      "votesCount": 235,
+      "commentsCount": 4,
+      "reviewsRating": 5.0,
+      "reviewsCount": 4,
+      "dailyRank": 4,
+      "weeklyRank": 6,
+      "url": "https://www.producthunt.com/products/meta-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29",
+      "website": "https://www.producthunt.com/r/BPLYESDJCGE7ME?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29",
+      "featuredAt": "2026-10-13T07:01:00Z",
+      "createdAt": "2026-10-13T07:01:00Z",
+      "thumbnail": {
+        "type": "image",
+        "url": "https://ph-files.imgix.net/c5c7a2c9-add2-4fb1-93bf-6d88bc3ec57d.svg?auto=format"
+      },
+      "media": [
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/3247d91c-ed53-4879-b811-e82feeb43f2c.webp?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/fc06330e-ceb5-43d9-ac91-02a36da3d935.webp?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/73aec96b-6a93-4894-aaa6-1b666337d8e8.webp?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "video",
+          "url": "https://ph-files.imgix.net/a5913298-cb0a-41a6-ab77-7bfec212ba19.jpeg?auto=format",
+          "videoUrl": "https://www.youtube.com/watch?v=4ZwVP0-ylZU"
+        }
+      ],
+      "productLinks": [
+        {
+          "type": "Facebook",
+          "url": "https://www.producthunt.com/r/EIS4ZWHDVGEZFY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29"
+        },
+        {
+          "type": "Twitter",
+          "url": "https://www.producthunt.com/r/35FBPI6FRF5JUT?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29"
+        },
+        {
+          "type": "Website",
+          "url": "https://www.producthunt.com/r/BPLYESDJCGE7ME?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29"
+        },
+        {
+          "type": "Twitter",
+          "url": "https://www.producthunt.com/r/ZBUKKWASPQDPTB?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29"
+        }
+      ],
+      "topics": {
+        "nodes": [
+          {
+            "name": "Artificial Intelligence",
+            "slug": "artificial-intelligence"
+          }
+        ]
+      },
+      "makers": [],
+      "user": {
+        "name": "Rohan Chaubey",
+        "username": "rohanrecommends",
+        "headline": "\ud83e\udd47 Top Hunter | Author | Startup Advisor",
+        "url": "https://www.producthunt.com/@rohanrecommends?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29"
+      }
+    },
+    {
+      "id": "1259407",
+      "name": "Kai",
+      "tagline": "Autonomous assistant designed to handle meetings and email",
+      "description": "Kai is an AI executive assistant for solopreneurs, freelancers and startup founders. It works across your email, calendar and tasks: it triages your inbox and drafts replies, schedules around your availability, records and transcribes your meetings, then turns them into summaries and action items. Workflows run in the background, and Kai hands tasks to Claude or ChatGPT with the context of the meeting or email they came from. Web, desktop and mobile. Product Hunt sign-ups get 2x trial credits.",
+      "slug": "hirekai",
+      "votesCount": 195,
+      "commentsCount": 48,
+      "reviewsRating": 0.0,
+      "reviewsCount": 0,
+      "dailyRank": 5,
+      "weeklyRank": 9,
+      "url": "https://www.producthunt.com/products/hirekai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29",
+      "website": "https://www.producthunt.com/r/NJDBQIHHJFMEQK?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29",
+      "featuredAt": "2026-10-13T07:01:00Z",
+      "createdAt": "2026-10-13T07:01:00Z",
+      "thumbnail": {
+        "type": "image",
+        "url": "https://ph-files.imgix.net/44a56911-aa9a-4683-84c4-7d60e604ee51.png?auto=format"
+      },
+      "media": [
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/a20e8ef7-b6b3-4abd-a22d-0bdf43f5dc94.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/37dd782b-b788-4119-922c-1b51ae963cea.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/fcf1e10f-4657-4bb1-8484-aef0d355f229.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/ead2c6fc-2bcd-4f82-815d-00f2e3f5063e.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/9ac8be0e-129d-4f06-b54a-c03f511fd83e.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/3eb5c7b5-1376-452d-97c6-15462502522a.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/205735d6-e225-4f11-9727-2da1090bc7d9.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/355bf1d4-8ecb-41f4-beab-f8e260bf256d.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "video",
+          "url": "https://ph-files.imgix.net/f02a108e-6b15-4e4f-a45c-dfd603a72cdd.jpeg?auto=format",
+          "videoUrl": "https://www.youtube.com/watch?v=dbcOY2LzV5Q"
+        }
+      ],
+      "productLinks": [
+        {
+          "type": "Twitter",
+          "url": "https://www.producthunt.com/r/HLRFIS324KCK5Q?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29"
+        },
+        {
+          "type": "Instagram",
+          "url": "https://www.producthunt.com/r/X7P6BSP2LIBSNV?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29"
+        },
+        {
+          "type": "Play Store",
+          "url": "https://www.producthunt.com/r/4WK4S3Q6ATMDXA?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29"
+        },
+        {
+          "type": "Website",
+          "url": "https://www.producthunt.com/r/HUJ62YEEYH6JEY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29"
+        },
+        {
+          "type": "Website",
+          "url": "https://www.producthunt.com/r/HIABPPEDZEXEGE?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29"
+        },
+        {
+          "type": "Twitter",
+          "url": "https://www.producthunt.com/r/R2UEXB6EYN6AIU?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29"
+        },
+        {
+          "type": "Website",
+          "url": "https://www.producthunt.com/r/NJDBQIHHJFMEQK?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29"
+        }
+      ],
+      "topics": {
+        "nodes": [
+          {
+            "name": "Email",
+            "slug": "email"
+          },
+          {
+            "name": "Productivity",
+            "slug": "productivity"
+          },
+          {
+            "name": "Artificial Intelligence",
+            "slug": "artificial-intelligence"
+          }
+        ]
+      },
+      "makers": [
+        {
+          "name": "[REDACTED]",
+          "username": "[REDACTED]",
+          "headline": null,
+          "url": "[REDACTED]",
+          "twitterUsername": null
+        },
+        {
+          "name": "[REDACTED]",
+          "username": "[REDACTED]",
+          "headline": null,
+          "url": "[REDACTED]",
+          "twitterUsername": null
+        },
+        {
+          "name": "[REDACTED]",
+          "username": "[REDACTED]",
+          "headline": null,
+          "url": "[REDACTED]",
+          "twitterUsername": null
+        },
+        {
+          "name": "[REDACTED]",
+          "username": "[REDACTED]",
+          "headline": null,
+          "url": "[REDACTED]",
+          "twitterUsername": null
+        },
+        {
+          "name": "[REDACTED]",
+          "username": "[REDACTED]",
+          "headline": null,
+          "url": "[REDACTED]",
+          "twitterUsername": null
+        },
+        {
+          "name": "[REDACTED]",
+          "username": "[REDACTED]",
+          "headline": null,
+          "url": "[REDACTED]",
+          "twitterUsername": null
+        },
+        {
+          "name": "[REDACTED]",
+          "username": "[REDACTED]",
+          "headline": null,
+          "url": "[REDACTED]",
+          "twitterUsername": null
+        },
+        {
+          "name": "Marco Ancona",
+          "username": "marco_ancona2",
+          "headline": "Making time easy",
+          "url": "https://www.producthunt.com/@marco_ancona2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29",
+          "twitterUsername": null
+        }
+      ],
+      "user": {
+        "name": "David Tedaldi",
+        "username": "david_tedaldi1",
+        "headline": "Launching Kai - AGI personal assistant",
+        "url": "https://www.producthunt.com/@david_tedaldi1?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29"
+      }
+    }
+  ]
+}

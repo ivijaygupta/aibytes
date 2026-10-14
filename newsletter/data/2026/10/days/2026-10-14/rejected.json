@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-14",
+  "generated_at": "2026-10-14T08:01:36Z",
+  "counts": {
+    "kept": 28,
+    "rejected": 1
+  },
+  "rejected": [
+    {
+      "id": "ph-fina-business-2026-10-14",
+      "source": "producthunt",
+      "title": "Fina Business",
+      "url": "https://www.fina.money",
+      "reason": "not-ai",
+      "detail": "no AI keyword or domain in the tagline, description or topics"
+    }
+  ]
+}
