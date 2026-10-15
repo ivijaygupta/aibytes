@@ -1,0 +1,745 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-15",
+  "generated_at": "2026-10-15T08:01:32Z",
+  "counts": {
+    "launches": 6,
+    "repos": 4,
+    "news": 10,
+    "hn": 9
+  },
+  "items": [
+    {
+      "id": "ph-pancake-7-2026-10-15",
+      "title": "Pancake",
+      "summary": "Exposes a GTM knowledge base, email sending infrastructure and 40+ data and enrichment providers to Claude or Codex through a single MCP connection.",
+      "url": "http://pancake.ai",
+      "source": "producthunt",
+      "source_url": "https://www.producthunt.com/products/pancake-6",
+      "category": "launches",
+      "tags": [
+        "Dev Tool",
+        "Agents",
+        "MCP",
+        "Launch"
+      ],
+      "image": {
+        "type": "logo",
+        "url": "https://ph-files.imgix.net/97c3d3e6-3484-4fe5-9a56-bf795d31eaa5.png?auto=format"
+      },
+      "signals": {
+        "upvotes": 546,
+        "comments": 75
+      },
+      "published_at": "2026-10-14T07:01:00Z",
+      "hidden": false,
+      "rank": 4
+    },
+    {
+      "id": "ph-inferock-2026-10-15",
+      "title": "Inferock",
+      "summary": "Pay-per-token serverless LLM inference that also runs your own OpenAI, Claude or Gemini keys, logs where calls fail and what they cost, and refunds credits on eligible failures.",
+      "url": "https://inferock.ai",
+      "source": "producthunt",
+      "source_url": "https://www.producthunt.com/products/inferock",
+      "category": "launches",
+      "tags": [
+        "API",
+        "Inference",
+        "Launch"
+      ],
+      "image": {
+        "type": "logo",
+        "url": "https://ph-files.imgix.net/7a48325f-d5b7-4547-9aaf-aae3b709d967.png?auto=format"
+      },
+      "signals": {
+        "upvotes": 393,
+        "comments": 45
+      },
+      "published_at": "2026-10-14T07:01:00Z",
+      "hidden": false,
+      "rank": 9
+    },
+    {
+      "id": "ph-retriever-ai-2026-10-15",
+      "title": "Retriever AI",
+      "summary": "Free browser agent that runs multi-site tasks like lead outreach, creator shortlisting or job applications, either in your own Chrome or in cloud browsers hosted by rtrvr.",
+      "url": "https://rtrvr.ai",
+      "source": "producthunt",
+      "source_url": "https://www.producthunt.com/products/rtrvr-ai",
+      "category": "launches",
+      "tags": [
+        "Agents",
+        "Launch"
+      ],
+      "image": {
+        "type": "logo",
+        "url": "https://ph-files.imgix.net/9c8e2898-8610-4813-bbe9-d5a5f51f72e9.png?auto=format"
+      },
+      "signals": {
+        "upvotes": 223,
+        "comments": 32
+      },
+      "published_at": "2026-10-14T07:01:00Z",
+      "hidden": false,
+      "rank": 15
+    },
+    {
+      "id": "ph-tiden-2026-10-15",
+      "title": "Tiden",
+      "summary": "Stores what you asked a coding agent for as versioned requirements that branch and merge, then checks each change with tests in your environment rather than a model grading the diff.",
+      "url": "https://tiden.ai",
+      "source": "producthunt",
+      "source_url": "https://www.producthunt.com/products/tiden",
+      "category": "launches",
+      "tags": [
+        "Dev Tool",
+        "Code Gen",
+        "Agents",
+        "Launch"
+      ],
+      "image": {
+        "type": "logo",
+        "url": "https://ph-files.imgix.net/75eab5b8-2f1b-4cf3-91f5-575e00d04650.png?auto=format"
+      },
+      "signals": {
+        "upvotes": 199,
+        "comments": 35
+      },
+      "published_at": "2026-10-14T07:01:00Z",
+      "hidden": false,
+      "rank": 21
+    },
+    {
+      "id": "ph-daily-dev-for-agents-2026-10-15",
+      "title": "daily.dev for agents",
+      "summary": "An MCP server that lets Claude, Cursor, Codex or any MCP client read your personalized daily.dev feed, search posts and discussions, save bookmarks and tune the feed.",
+      "url": "https://daily.dev/marketplace",
+      "source": "producthunt",
+      "source_url": "https://www.producthunt.com/products/daily-dev",
+      "category": "launches",
+      "tags": [
+        "Dev Tool",
+        "Agents",
+        "MCP",
+        "Launch"
+      ],
+      "image": {
+        "type": "logo",
+        "url": "https://ph-files.imgix.net/946909a1-6f76-4b14-8c6b-56046f6e02b5.png?auto=format"
+      },
+      "signals": {
+        "upvotes": 198,
+        "comments": 12
+      },
+      "published_at": "2026-10-14T07:01:00Z",
+      "hidden": false,
+      "rank": 27
+    },
+    {
+      "id": "hn-show-hn-i-built-a-tool-to-track-what-ai-leaders-2026-10-15",
+      "title": "Show HN: I built a tool to track what AI leaders say and how their views change",
+      "summary": "Blumify keeps per-person pages of public statements by AI figures so you can follow how each one's stated positions shift over time.",
+      "url": "https://blumify.io/people",
+      "source": "hackernews",
+      "source_url": "https://news.ycombinator.com/item?id=50081151",
+      "category": "launches",
+      "tags": [
+        "Show HN",
+        "Launch"
+      ],
+      "image": {
+        "type": "none"
+      },
+      "signals": {
+        "points": 117,
+        "comments": 77
+      },
+      "meta": {
+        "author": "gcsydney"
+      },
+      "published_at": "2026-10-14T01:09:13Z",
+      "hidden": false,
+      "rank": 22
+    },
+    {
+      "id": "gh-ifixai-2026-10-15",
+      "title": "ifixai-ai/iFixAi",
+      "summary": "Python tool for auditing whether an AI agent is doing what it is supposed to, run either by a human reviewer or by the agent on itself, in under two minutes.",
+      "url": "https://github.com/ifixai-ai/iFixAi",
+      "source": "github",
+      "source_url": "https://github.com/ifixai-ai/iFixAi",
+      "category": "repos",
+      "tags": [
+        "Open Source",
+        "Agents",
+        "Eval"
+      ],
+      "image": {
+        "type": "avatar",
+        "url": "https://github.com/ifixai-ai.png?size=80"
+      },
+      "signals": {
+        "stars": 27911,
+        "stars_gained": 2109,
+        "forks": 1520
+      },
+      "meta": {
+        "language": "Python"
+      },
+      "hidden": false,
+      "rank": 1
+    },
+    {
+      "id": "gh-pentagi-2026-10-15",
+      "title": "vxcontrol/pentagi",
+      "summary": "Go system of autonomous AI agents that plan and carry out multi-step penetration testing tasks.",
+      "url": "https://github.com/vxcontrol/pentagi",
+      "source": "github",
+      "source_url": "https://github.com/vxcontrol/pentagi",
+      "category": "repos",
+      "tags": [
+        "Open Source",
+        "Agents",
+        "Security"
+      ],
+      "image": {
+        "type": "avatar",
+        "url": "https://github.com/vxcontrol.png?size=80"
+      },
+      "signals": {
+        "stars": 30012,
+        "stars_gained": 1025,
+        "forks": 4493
+      },
+      "meta": {
+        "language": "Go"
+      },
+      "hidden": false,
+      "rank": 10
+    },
+    {
+      "id": "gh-context-mode-2026-10-15",
+      "title": "mksglu/context-mode",
+      "summary": "TypeScript layer for coding agents that sandboxes tool output to shrink context, persists session memory, and enforces routing across 17 platforms via MCP and hooks.",
+      "url": "https://github.com/mksglu/context-mode",
+      "source": "github",
+      "source_url": "https://github.com/mksglu/context-mode",
+      "category": "repos",
+      "tags": [
+        "Open Source",
+        "Dev Tool",
+        "Agents",
+        "MCP"
+      ],
+      "image": {
+        "type": "avatar",
+        "url": "https://github.com/mksglu.png?size=80"
+      },
+      "signals": {
+        "stars": 29429,
+        "stars_gained": 947,
+        "forks": 2058
+      },
+      "meta": {
+        "language": "TypeScript"
+      },
+      "hidden": false,
+      "rank": 16
+    },
+    {
+      "id": "gh-scientific-agent-skills-2026-10-15",
+      "title": "K-Dense-AI/scientific-agent-skills",
+      "summary": "177 validated Agent Skills plus connectors to 100+ databases in biology, chemistry, medicine and drug discovery, usable from Claude Code, Cursor, Codex and other Agent Skills clients.",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "source": "github",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "category": "repos",
+      "tags": [
+        "Open Source",
+        "Agents",
+        "Claude Code"
+      ],
+      "image": {
+        "type": "avatar",
+        "url": "https://github.com/K-Dense-AI.png?size=80"
+      },
+      "signals": {
+        "stars": 49725,
+        "stars_gained": 163,
+        "forks": 4441
+      },
+      "meta": {
+        "language": "Python"
+      },
+      "hidden": false,
+      "rank": 24
+    },
+    {
+      "id": "tc-ricursive-intelligence-is-betting-on-ai-2026-10-15",
+      "title": "Ricursive Intelligence is betting on AI-designed chips to help solve the compute crisis",
+      "summary": "The founders describe a system that designs chips, learns from each design iteration and feeds that into the next, aiming to automate and speed up chip design.",
+      "url": "https://techcrunch.com/2026/10/14/ricursive-intelligence-is-betting-on-ai-designed-chips-to-help-solve-the-compute-crisis/",
+      "source": "techcrunch",
+      "source_url": "https://techcrunch.com/2026/10/14/ricursive-intelligence-is-betting-on-ai-designed-chips-to-help-solve-the-compute-crisis/",
+      "category": "news",
+      "tags": [
+        "Inference"
+      ],
+      "image": {
+        "type": "thumbnail",
+        "url": "https://techcrunch.com/wp-content/uploads/2026/10/55590095286_7fe28ddb94_o.jpg?resize=1200,800"
+      },
+      "meta": {
+        "author": "Aisha Malik",
+        "reading_time": "3 minutes"
+      },
+      "published_at": "2026-10-15T01:01:32Z",
+      "hidden": false,
+      "rank": 3
+    },
+    {
+      "id": "tc-figma-announces-new-features-to-define-how-2026-10-15",
+      "title": "Figma announces new features to define how agents work on its platform",
+      "summary": "Figma is adding controls over how AI agents operate inside its files, and is moving its code layers feature into open beta.",
+      "url": "https://techcrunch.com/2026/10/14/figma-announces-new-features-to-define-how-agents-work-on-its-platform/",
+      "source": "techcrunch",
+      "source_url": "https://techcrunch.com/2026/10/14/figma-announces-new-features-to-define-how-agents-work-on-its-platform/",
+      "category": "news",
+      "tags": [
+        "Agents",
+        "Launch"
+      ],
+      "image": {
+        "type": "thumbnail",
+        "url": "https://techcrunch.com/wp-content/uploads/2026/10/Specs_agent.jpeg?resize=1200,675"
+      },
+      "meta": {
+        "author": "Ivan Mehta",
+        "reading_time": "3 minutes"
+      },
+      "published_at": "2026-10-15T04:30:00Z",
+      "hidden": false,
+      "rank": 6
+    },
+    {
+      "id": "tc-gudea-leverages-ai-to-help-organizations-2026-10-15",
+      "title": "Gudea leverages AI to help organizations prevent social media crises before they erupt",
+      "summary": "Gudea monitors conversations across social media and the web to flag posts, including AI-generated ones, that could escalate into a reputational crisis for an organization.",
+      "url": "https://techcrunch.com/2026/10/14/gudea-leverages-ai-to-help-organizations-prevent-social-media-crises-before-they-erupt/",
+      "source": "techcrunch",
+      "source_url": "https://techcrunch.com/2026/10/14/gudea-leverages-ai-to-help-organizations-prevent-social-media-crises-before-they-erupt/",
+      "category": "news",
+      "tags": [
+        "LLM"
+      ],
+      "image": {
+        "type": "thumbnail",
+        "url": "https://techcrunch.com/wp-content/uploads/2025/03/GettyImages-2197117084.jpg?resize=1200,843"
+      },
+      "meta": {
+        "author": "Lauren Forristal",
+        "reading_time": "4 minutes"
+      },
+      "published_at": "2026-10-15T00:00:00Z",
+      "hidden": false,
+      "rank": 8
+    },
+    {
+      "id": "tc-flock-ceo-says-its-microphones-detect-just-2026-10-15",
+      "title": "Flock CEO says its microphones detect ‘just gunshots’ — its website says different",
+      "summary": "CEO Langley's claim is contradicted by Flock's own product pages, as the ACLU and other privacy advocates scrutinize how its surveillance technology can be misused.",
+      "url": "https://techcrunch.com/2026/10/14/flock-ceo-says-its-microphones-detect-just-gunshots-its-website-says-different/",
+      "source": "techcrunch",
+      "source_url": "https://techcrunch.com/2026/10/14/flock-ceo-says-its-microphones-detect-just-gunshots-its-website-says-different/",
+      "category": "news",
+      "tags": [
+        "Voice / Speech",
+        "Privacy"
+      ],
+      "image": {
+        "type": "thumbnail",
+        "url": "https://techcrunch.com/wp-content/uploads/2026/10/55589672916_8efa76c0ac_o.jpg?resize=1200,800"
+      },
+      "meta": {
+        "author": "Aisha Malik",
+        "reading_time": "4 minutes"
+      },
+      "published_at": "2026-10-14T21:30:33Z",
+      "hidden": false,
+      "rank": 12
+    },
+    {
+      "id": "tc-youtube-music-launches-new-labels-as-ai-2026-10-15",
+      "title": "YouTube Music launches new labels as AI-generated music floods streaming platforms",
+      "summary": "The label shows on the player page and covers tracks fully generated by AI as well as ones where AI was used for parts like composition or vocals.",
+      "url": "https://techcrunch.com/2026/10/14/youtube-music-launches-new-labels-as-ai-generated-music-floods-streaming-platforms/",
+      "source": "techcrunch",
+      "source_url": "https://techcrunch.com/2026/10/14/youtube-music-launches-new-labels-as-ai-generated-music-floods-streaming-platforms/",
+      "category": "news",
+      "tags": [
+        "Policy",
+        "Launch"
+      ],
+      "image": {
+        "type": "thumbnail",
+        "url": "https://techcrunch.com/wp-content/uploads/2026/10/youtube-music-gen-ai-labels.png?w=1080"
+      },
+      "meta": {
+        "author": "Lauren Forristal",
+        "reading_time": "2 minutes"
+      },
+      "published_at": "2026-10-14T18:23:46Z",
+      "hidden": false,
+      "rank": 14
+    },
+    {
+      "id": "tc-apate-sends-ai-agents-undercover-to-get-scammed-2026-10-15",
+      "title": "Apate sends AI agents undercover to get scammed so they can gather fraud intelligence",
+      "summary": "Apate.ai deploys AI agents that pose as victims and engage scammers on purpose, collecting what they learn as fraud intelligence.",
+      "url": "https://techcrunch.com/2026/10/14/apate-sends-ai-agents-undercover-to-get-scammed-so-they-can-gather-fraud-intelligence/",
+      "source": "techcrunch",
+      "source_url": "https://techcrunch.com/2026/10/14/apate-sends-ai-agents-undercover-to-get-scammed-so-they-can-gather-fraud-intelligence/",
+      "category": "news",
+      "tags": [
+        "Agents",
+        "Security"
+      ],
+      "image": {
+        "type": "thumbnail",
+        "url": "https://techcrunch.com/wp-content/uploads/2026/10/6811e05224449e9b499b4916_apate_team-p-1600.webp?resize=1200,797"
+      },
+      "meta": {
+        "author": "Ram Iyer",
+        "reading_time": "5 minutes"
+      },
+      "published_at": "2026-10-14T18:00:00Z",
+      "hidden": false,
+      "rank": 18
+    },
+    {
+      "id": "tc-deezer-will-soon-let-you-filter-out-ai-2026-10-15",
+      "title": "Deezer will soon let you filter out AI-generated music",
+      "summary": "A toggle to hide AI-generated tracks is due to roll out to Deezer listeners by the end of the year.",
+      "url": "https://techcrunch.com/2026/10/14/deezer-will-soon-let-you-filter-out-ai-generated-music/",
+      "source": "techcrunch",
+      "source_url": "https://techcrunch.com/2026/10/14/deezer-will-soon-let-you-filter-out-ai-generated-music/",
+      "category": "news",
+      "tags": [
+        "Policy"
+      ],
+      "image": {
+        "type": "thumbnail",
+        "url": "https://techcrunch.com/wp-content/uploads/2026/10/Deezer-AI-detection-feat.jpg?w=1067"
+      },
+      "meta": {
+        "author": "Ivan Mehta",
+        "reading_time": "2 minutes"
+      },
+      "published_at": "2026-10-14T15:16:04Z",
+      "hidden": false,
+      "rank": 20
+    },
+    {
+      "id": "tc-save-50-on-your-techcrunch-disrupt-2026-ticket-2026-10-15",
+      "title": "Save 50% on your TechCrunch Disrupt 2026 ticket and join the last 2 days in San Francisco’s Moscone West",
+      "summary": "A TechCrunch Events promotion for half-price passes covering the final two days of Disrupt 2026 at Moscone West in San Francisco.",
+      "url": "https://techcrunch.com/2026/10/14/save-50-on-your-techcrunch-disrupt-2026-ticket-and-join-the-last-two-days-in-san-francisco/",
+      "source": "techcrunch",
+      "source_url": "https://techcrunch.com/2026/10/14/save-50-on-your-techcrunch-disrupt-2026-ticket-and-join-the-last-two-days-in-san-francisco/",
+      "category": "news",
+      "tags": [
+        "Pricing"
+      ],
+      "image": {
+        "type": "thumbnail",
+        "url": "https://techcrunch.com/wp-content/uploads/2026/10/55588061334_e461da18f4_k.jpg?resize=1200,800"
+      },
+      "meta": {
+        "author": "TechCrunch Events",
+        "reading_time": "2 minutes"
+      },
+      "published_at": "2026-10-14T15:13:24Z",
+      "hidden": false,
+      "rank": 23
+    },
+    {
+      "id": "tc-zenzap-raises-44m-for-its-ai-chat-app-that-aims-2026-10-15",
+      "title": "Zenzap raises $44M for its AI chat app that aims to replace WhatsApp in the workplace",
+      "summary": "Zenzap's workplace messaging app with AI features already counts Starbucks and Taco Bell among the organizations using it.",
+      "url": "https://techcrunch.com/2026/10/14/zenzap-raises-44m-for-its-ai-chat-app-that-aims-to-replace-whatsapp-in-the-workplace/",
+      "source": "techcrunch",
+      "source_url": "https://techcrunch.com/2026/10/14/zenzap-raises-44m-for-its-ai-chat-app-that-aims-to-replace-whatsapp-in-the-workplace/",
+      "category": "news",
+      "tags": [
+        "Funding"
+      ],
+      "image": {
+        "type": "thumbnail",
+        "url": "https://techcrunch.com/wp-content/uploads/2026/10/Desktop-01-Agents-working-together.jpeg?resize=1200,675"
+      },
+      "meta": {
+        "author": "Ivan Mehta",
+        "reading_time": "4 minutes"
+      },
+      "published_at": "2026-10-14T15:08:00Z",
+      "hidden": false,
+      "rank": 26
+    },
+    {
+      "id": "tc-floqers-ai-agents-research-sales-prospects-so-2026-10-15",
+      "title": "Floqer’s AI agents research sales prospects so teams don’t have to",
+      "summary": "Floqer builds agents that do customer and prospect research for B2B sales and revenue operations teams.",
+      "url": "https://techcrunch.com/2026/10/14/floqers-ai-agents-help-b2b-revenue-teams-research-customers/",
+      "source": "techcrunch",
+      "source_url": "https://techcrunch.com/2026/10/14/floqers-ai-agents-help-b2b-revenue-teams-research-customers/",
+      "category": "news",
+      "tags": [
+        "Agents"
+      ],
+      "image": {
+        "type": "thumbnail",
+        "url": "https://techcrunch.com/wp-content/uploads/2026/10/floqer-founders.png?w=1200"
+      },
+      "meta": {
+        "author": "Lauren Forristal",
+        "reading_time": "4 minutes"
+      },
+      "published_at": "2026-10-14T15:00:00Z",
+      "hidden": false,
+      "rank": 29
+    },
+    {
+      "id": "hn-containment-and-monitoring-failures-are-to-2026-10-15",
+      "title": "Containment and monitoring failures are to blame for AI hacking reports: experts",
+      "summary": "A CSO Online piece in which security experts argue reported AI agent hacking incidents come from frontier labs skipping basic containment and monitoring, not from agents going rogue.",
+      "url": "https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html",
+      "source": "hackernews",
+      "source_url": "https://news.ycombinator.com/item?id=50091788",
+      "category": "hn",
+      "tags": [
+        "Agents",
+        "Security",
+        "Deep Dive"
+      ],
+      "image": {
+        "type": "none"
+      },
+      "signals": {
+        "points": 887,
+        "comments": 518
+      },
+      "meta": {
+        "author": "latexr"
+      },
+      "published_at": "2026-10-14T17:45:23Z",
+      "hidden": false,
+      "rank": 2
+    },
+    {
+      "id": "hn-anthropic-s-scion-is-heavily-inspired-by-2026-10-15",
+      "title": "Anthropic's Scion is heavily inspired by Mononoke",
+      "summary": "A sunshowers.io blog post tracing the design parallels between Anthropic's Scion and the earlier Mononoke project.",
+      "url": "https://sunshowers.io/posts/anthropic-mononoke/",
+      "source": "hackernews",
+      "source_url": "https://news.ycombinator.com/item?id=50094694",
+      "category": "hn",
+      "tags": [
+        "Anthropic",
+        "Dev Tool"
+      ],
+      "image": {
+        "type": "none"
+      },
+      "signals": {
+        "points": 363,
+        "comments": 134
+      },
+      "meta": {
+        "author": "sunshowers"
+      },
+      "published_at": "2026-10-14T20:30:54Z",
+      "hidden": false,
+      "rank": 5
+    },
+    {
+      "id": "hn-banks-are-now-trying-to-offload-the-ai-data-2026-10-15",
+      "title": "Banks are now trying to offload the AI data center debt they just underwrote",
+      "summary": "A Startup Fortune report on lenders looking to sell down the AI data center loans they recently underwrote.",
+      "url": "https://startupfortune.com/banks-are-now-trying-to-offload-the-ai-data-center-debt-they-just-underwrote/",
+      "source": "hackernews",
+      "source_url": "https://news.ycombinator.com/item?id=50092664",
+      "category": "hn",
+      "tags": [
+        "Funding"
+      ],
+      "image": {
+        "type": "none"
+      },
+      "signals": {
+        "points": 362,
+        "comments": 254
+      },
+      "meta": {
+        "author": "smartmic"
+      },
+      "published_at": "2026-10-14T18:32:52Z",
+      "hidden": false,
+      "rank": 7
+    },
+    {
+      "id": "hn-asml-s-strong-orders-ease-fears-ai-spending-2026-10-15",
+      "title": "ASML's strong orders ease fears AI spending boom is running out of steam",
+      "summary": "Reuters reports ASML forecast fourth-quarter sales above expectations on AI chip demand, a read-through on whether the AI capex cycle is slowing.",
+      "url": "https://www.reuters.com/business/asml-forecasts-q4-sales-above-expectations-ai-chip-demand-2026-10-14/",
+      "source": "hackernews",
+      "source_url": "https://news.ycombinator.com/item?id=50088430",
+      "category": "hn",
+      "tags": [
+        "Inference"
+      ],
+      "image": {
+        "type": "none"
+      },
+      "signals": {
+        "points": 170,
+        "comments": 171
+      },
+      "meta": {
+        "author": "tartoran"
+      },
+      "published_at": "2026-10-14T14:38:55Z",
+      "hidden": false,
+      "rank": 11
+    },
+    {
+      "id": "hn-why-do-llm-pelicans-look-like-this-2026-10-15",
+      "title": "Why do LLM pelicans look like this?",
+      "summary": "An arcfu.com essay, \"The emperor pelican has no clothes\", on why pelicans drawn by LLMs converge on the same look.",
+      "url": "https://arcfu.com/post/the-emperor-pelican-has-no-clothes/",
+      "source": "hackernews",
+      "source_url": "https://news.ycombinator.com/item?id=50090443",
+      "category": "hn",
+      "tags": [
+        "LLM",
+        "Eval",
+        "Image Gen"
+      ],
+      "image": {
+        "type": "none"
+      },
+      "signals": {
+        "points": 161,
+        "comments": 135
+      },
+      "meta": {
+        "author": "pcwelder"
+      },
+      "published_at": "2026-10-14T16:33:34Z",
+      "hidden": false,
+      "rank": 13
+    },
+    {
+      "id": "hn-tv4-postpones-show-after-ai-agent-erases-edited-2026-10-15",
+      "title": "TV4 postpones show after AI agent erases edited material",
+      "summary": "Sweden Herald reports TV4 has pushed The Challenge to 2027 after a technical failure involving an AI agent erased the edited footage.",
+      "url": "https://swedenherald.com/article/tv4-postpones-the-challenge-until-2027-after-technical-failure-erases-edited-footage",
+      "source": "hackernews",
+      "source_url": "https://news.ycombinator.com/item?id=50085323",
+      "category": "hn",
+      "tags": [
+        "Agents",
+        "Video"
+      ],
+      "image": {
+        "type": "none"
+      },
+      "signals": {
+        "points": 145,
+        "comments": 84
+      },
+      "meta": {
+        "author": "tobr"
+      },
+      "published_at": "2026-10-14T10:28:26Z",
+      "hidden": false,
+      "rank": 17
+    },
+    {
+      "id": "hn-has-ai-tells-2026-10-15",
+      "title": "Has AI tells",
+      "summary": "A post on The Consensus blog about the tells that give away AI-written text.",
+      "url": "https://theconsensus.dev/blog/2026/10/14/has-ai-tells.html?focus=1",
+      "source": "hackernews",
+      "source_url": "https://news.ycombinator.com/item?id=50090799",
+      "category": "hn",
+      "tags": [
+        "LLM"
+      ],
+      "image": {
+        "type": "none"
+      },
+      "signals": {
+        "points": 118,
+        "comments": 100
+      },
+      "meta": {
+        "author": "7777777phil"
+      },
+      "published_at": "2026-10-14T16:52:42Z",
+      "hidden": false,
+      "rank": 19
+    },
+    {
+      "id": "hn-linus-torvalds-s-first-llm-assisted-patch-series-2026-10-15",
+      "title": "Linus Torvalds's first LLM-assisted patch series",
+      "summary": "LWN covers the first kernel patch series Linus Torvalds has posted with help from an LLM.",
+      "url": "https://lwn.net/Articles/1100449/",
+      "source": "hackernews",
+      "source_url": "https://news.ycombinator.com/item?id=50090842",
+      "category": "hn",
+      "tags": [
+        "Code Gen",
+        "Open Source"
+      ],
+      "image": {
+        "type": "none"
+      },
+      "signals": {
+        "points": 116,
+        "comments": 98
+      },
+      "meta": {
+        "author": "janvdberg"
+      },
+      "published_at": "2026-10-14T16:55:07Z",
+      "hidden": false,
+      "rank": 25
+    },
+    {
+      "id": "hn-ai-is-mass-decompiling-games-that-s-both-2026-10-15",
+      "title": "AI is mass decompiling games. That's both awesome and scary",
+      "summary": "A Bear Blog essay on AI being used to decompile games at scale, and why the author finds that both exciting and worrying.",
+      "url": "https://popcar.bearblog.dev/ai-is-mass-decompiling-games-thats-both-awesome-and-scary/",
+      "source": "hackernews",
+      "source_url": "https://news.ycombinator.com/item?id=50088534",
+      "category": "hn",
+      "tags": [
+        "Code Gen"
+      ],
+      "image": {
+        "type": "none"
+      },
+      "signals": {
+        "points": 101,
+        "comments": 154
+      },
+      "meta": {
+        "author": "popcar2"
+      },
+      "published_at": "2026-10-14T14:47:44Z",
+      "hidden": false,
+      "rank": 28
+    }
+  ]
+}
