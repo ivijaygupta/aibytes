@@ -1,0 +1,137 @@
+{
+  "date": "2026-10-16",
+  "items": {
+    "ph-talanoa-2-2026-10-16": {
+      "summary": "Desktop email client that strips quotes and signatures into chat threads, with on-device AI for search and drafting across Gmail, Outlook, iCloud and IMAP, and no cloud sync.",
+      "tags": ["Local LLM", "Privacy", "Launch"]
+    },
+    "ph-navige-2026-10-16": {
+      "summary": "Cost layer for AI agents that routes suitable requests to smaller models, caches repeated reads, trims tool output, and enforces budgets, loop limits and approvals on sensitive actions.",
+      "tags": ["Dev Tool", "Agents", "Inference", "Launch"]
+    },
+    "ph-apple-homeview-2026-10-16": {
+      "summary": "Apple's smart display for the home, pairing Siri AI with a Liquid Retina screen, FaceTime, smart home controls and on-device privacy features.",
+      "tags": ["Apple", "Voice / Speech", "Launch"]
+    },
+    "ph-glm-legal-2026-10-16": {
+      "summary": "Z.ai's GLM-5.3-Flash with legal mid-training and RL across legal task environments; it passes 19.17% of Harvey's Legal Agent Benchmark versus 6.67% for the base, API in application-only beta.",
+      "tags": ["Model Release", "Agents", "Benchmark"]
+    },
+    "ph-openmuse-2026-10-16": {
+      "summary": "CopilotKit's self-hostable personal agent with its own browser, terminal, files and persistent workspace, letting you review its actions and plug it into any agent harness.",
+      "tags": ["Open Source", "Agents", "Launch"]
+    },
+    "gh-scientific-agent-skills-2026-10-16": {
+      "summary": "Python library of 177 Agent Skills plus 100+ scientific database connectors for biology, chemistry, medicine and drug discovery, usable from Claude Code, Cursor, Codex and others.",
+      "tags": ["Open Source", "Agents"]
+    },
+    "gh-ecc-2026-10-16": {
+      "summary": "JavaScript bundle of skills, instincts, memory and security rules that tunes agent harnesses like Claude Code, Codex, Opencode and Cursor toward research-first development.",
+      "tags": ["Open Source", "Code Gen", "Claude Code"]
+    },
+    "gh-context-mode-2026-10-16": {
+      "summary": "TypeScript tool that sandboxes coding-agent tool output to shrink context, persists session memory, and enforces routing across 17 platforms through MCP servers and hooks.",
+      "tags": ["Dev Tool", "Code Gen", "MCP"]
+    },
+    "gh-xerj-2026-10-16": {
+      "summary": "Rust search engine that indexes code, docs, logs and PDFs in one command so agents query it instead of grep and sed, exposing an Elasticsearch-compatible API.",
+      "tags": ["Open Source", "Agents", "RAG"]
+    },
+    "gh-superpowers-2026-10-16": {
+      "summary": "Shell-based skills framework that packages a software development methodology for coding agents as reusable agent skills.",
+      "tags": ["Framework", "Code Gen"]
+    },
+    "gh-caveman-2026-10-16": {
+      "summary": "Go skill and proxy for coding agents that rewrites their output into terse caveman-style speech, cutting about 65% of tokens.",
+      "tags": ["Dev Tool", "Code Gen"]
+    },
+    "gh-claude-plugins-official-2026-10-16": {
+      "summary": "Anthropic-curated directory of Claude Code plugins, maintained by Anthropic as the official source for vetted extensions.",
+      "tags": ["Claude Code", "Anthropic"]
+    },
+    "gh-ruflo-2026-10-16": {
+      "summary": "TypeScript agent harness for multi-agent swarms and autonomous workflows, with adaptive memory, federation, vector RAG and integrations for Claude Code, Codex and Hermes.",
+      "tags": ["Framework", "Agents"]
+    },
+    "gh-tokenspeed-2026-10-16": {
+      "summary": "Python LLM inference engine from lightseekorg aimed at maximum generation speed.",
+      "tags": ["Open Source", "Inference"]
+    },
+    "tc-when-it-came-to-cal-ais-viral-success-a-small-2026-10-16": {
+      "summary": "How the calorie-tracking app Cal AI grew on paid influencer marketing to over $30M in revenue in two years before MyFitnessPal acquired it in March for an undisclosed sum.",
+      "tags": ["Acquisition", "Vision"]
+    },
+    "tc-meta-launches-an-open-weight-ai-model-that-runs-2026-10-16": {
+      "summary": "Muse Spark Open is Meta's newest open-weight model, launched jointly with Apple to run locally on Apple silicon.",
+      "tags": ["Model Release", "Local LLM", "Meta", "Apple"]
+    },
+    "tc-amazon-devices-chief-panos-panay-sees-a-future-2026-10-16": {
+      "summary": "At TechCrunch Disrupt, Panos Panay described ambient AI devices that run in the background and anticipate needs rather than waiting for commands.",
+      "tags": ["Agents"]
+    },
+    "tc-anthropic-is-letting-metr-researchers-look-2026-10-16": {
+      "summary": "METR will publish its own assessments of Anthropic's risks, incidents and practices, and Anthropic has waived any right to block those reports.",
+      "tags": ["Anthropic", "Safety", "Eval"]
+    },
+    "tc-bluesky-expands-its-ai-powered-attie-app-to-let-2026-10-16": {
+      "summary": "Bluesky's experimental Attie adds social vibe coding, so users generate games, quizzes and websites that plug into the network's audience.",
+      "tags": ["Code Gen", "Launch"]
+    },
+    "tc-last-chance-to-save-up-to-200-on-your-2026-10-16": {
+      "summary": "TechCrunch event promo: early pricing for the November 4 Founder Summit in Boston, aimed at 1,000 founders and investors, ends October 16.",
+      "tags": ["Pricing"]
+    },
+    "tc-ai-agents-are-coming-to-rivians-cars-2026-10-16": {
+      "summary": "Rivian plans in-car AI agents, with details expected at its AI & Autonomy Day event in December.",
+      "tags": ["Agents"]
+    },
+    "tc-googles-universal-cart-shopping-tool-launches-2026-10-16": {
+      "summary": "Google's cross-retailer shopping cart is now live in the US inside both Google Search and the Gemini app.",
+      "tags": ["Google", "Launch"]
+    },
+    "tc-techcrunch-disrupt-2026-last-day-2026-10-16": {
+      "summary": "TechCrunch event promo for the final day of Disrupt 2026, offering 75% off passes to the 10,000-attendee conference.",
+      "tags": ["Pricing"]
+    },
+    "tc-amazons-bee-launches-two-new-personal-ai-2026-10-16": {
+      "summary": "Bee's first hardware since Amazon bought it: an updated wearable and a card-sized phone-mounted recorder that summarize conversations into to-dos and hook into Alexa and Amazon shopping.",
+      "tags": ["Voice / Speech", "Launch"]
+    },
+    "hn-neural-networks-are-clean-2026-10-16": {
+      "summary": "Essay from interpretability lab Goodfire, published on its own microsite, making the case stated in its title about the internal structure of neural networks.",
+      "tags": ["Deep Dive", "LLM"]
+    },
+    "hn-steam-client-is-now-faster-than-epic-s-new-vibe-2026-10-16": {
+      "summary": "Gaming-news report comparing performance of Valve's Steam client against Epic's new launcher, which it describes as built with AI-generated code.",
+      "tags": ["Code Gen"]
+    },
+    "hn-more-on-anthropic-s-scion-ripping-off-mononoke-2026-10-16": {
+      "summary": "Follow-up post on sunshowers.io pressing the claim that Anthropic's Scion copies Mononoke, the open-source source-control server from Meta's Sapling project.",
+      "tags": ["Anthropic", "Open Source"]
+    },
+    "hn-simons-foundation-launches-15m-effort-to-help-2026-10-16": {
+      "summary": "Simons Foundation announcement of a $15M program to support mathematicians as AI tools change how mathematical research is done.",
+      "tags": ["Funding", "Reasoning"]
+    },
+    "hn-why-we-re-banning-ai-2026-10-16": {
+      "summary": "Current Affairs magazine explains its editorial decision to ban AI from its publication.",
+      "tags": ["Policy"]
+    },
+    "hn-using-ai-to-reverse-engineer-hardware-2026-10-16": {
+      "summary": "Post on the GNOME blogs about applying AI tools to reverse engineering hardware.",
+      "tags": ["Code Gen", "Open Source"]
+    },
+    "hn-ai-was-great-until-it-was-not-2026-10-16": {
+      "summary": "Substack essay recounting a writer's experience of AI tools working well until they stopped doing so.",
+      "tags": ["LLM"]
+    },
+    "hn-prompt-injection-in-http-headers-what-217m-web-2026-10-16": {
+      "summary": "Signals Corps blog post analysing 217M web responses for prompt-injection text placed in HTTP headers.",
+      "tags": ["Security", "Agents"]
+    },
+    "hn-market-selloff-rising-rates-test-ai-data-centre-2026-10-16": {
+      "summary": "Reuters report on how a market selloff and rising interest rates are straining financing for the wave of AI data centre deals.",
+      "tags": ["Funding", "Inference"]
+    }
+  }
+}

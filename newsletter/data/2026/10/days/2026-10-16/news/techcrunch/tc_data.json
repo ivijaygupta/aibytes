@@ -1,0 +1,117 @@
+{
+  "source": "techcrunch",
+  "section": "ai-news",
+  "fetched_at": "2026-10-16",
+  "window": {
+    "after": "2026-10-15",
+    "before": "2026-10-17"
+  },
+  "query_params": {
+    "category": "artificial-intelligence",
+    "count": 10,
+    "ranking": "hackernews_points,recency"
+  },
+  "totalCount": 10,
+  "articles": [
+    {
+      "title": "When it came to Cal AI\u2019s viral success, a small army of influencers paid off",
+      "description": "The company generated over $30 million in revenue in two years and was acquired by MyFitnessPal for an undisclosed amount of money in March.",
+      "url": "https://techcrunch.com/2026/10/15/when-it-came-to-cal-ais-viral-success-a-small-army-of-influencers-paid-off/",
+      "published_at": "2026-10-15T23:44:56Z",
+      "author": "Lucas Ropek",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/10/IMG_4996.jpeg?resize=1200,900",
+      "reading_time": "3 minutes",
+      "hackernews": null
+    },
+    {
+      "title": "Meta launches an open-weight AI model that runs on Macs",
+      "description": "Meta and Apple have teamed up for the launch of the social media giant's newest model, Muse Spark Open, which will run locally on Apple silicon.",
+      "url": "https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs/",
+      "published_at": "2026-10-15T20:04:53Z",
+      "author": "Lucas Ropek",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/09/GettyImages-2296215726.jpg?resize=1200,799",
+      "reading_time": "2 minutes",
+      "hackernews": null
+    },
+    {
+      "title": "Amazon devices chief Panos Panay sees a future where AI devices replace the need to use apps",
+      "description": "Speaking at TechCrunch Disrupt, Amazon devices chief Panos Panay described a future where ambient AI devices work in the background, anticipating users' needs instead of waiting for commands.",
+      "url": "https://techcrunch.com/2026/10/15/amazon-devices-chief-panos-panay-sees-a-future-where-ai-devices-replace-the-need-to-use-apps/",
+      "published_at": "2026-10-15T19:55:25Z",
+      "author": "Sarah Perez",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/10/GettyImages-2300374993.jpg?w=1024",
+      "reading_time": "3 minutes",
+      "hackernews": null
+    },
+    {
+      "title": "Anthropic is letting METR researchers look under the hood with employee-level access",
+      "description": "METR will publish its own assessments of Anthropic\u2019s risks, incidents, and practices, and the frontier AI model maker has given up the right to block them.",
+      "url": "https://techcrunch.com/2026/10/15/anthropic-is-letting-metr-researchers-look-under-the-hood-with-employee-level-access/",
+      "published_at": "2026-10-15T19:14:26Z",
+      "author": "Aditya Mehta",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/06/GettyImages-2278736523.jpeg?resize=1200,798",
+      "reading_time": "2 minutes",
+      "hackernews": null
+    },
+    {
+      "title": "Bluesky expands its AI-powered Attie app to let anyone build websites, games, and more",
+      "description": "Bluesky is bringing \u201csocial vibe coding\u201d to its experimental Attie platform, allowing users to create interactive experiences like games, quizzes, and websites that can tap into the social network's audience.",
+      "url": "https://techcrunch.com/2026/10/15/bluesky-expands-its-ai-powered-attie-app-to-let-anyone-build-websites-games-and-more/",
+      "published_at": "2026-10-15T18:56:46Z",
+      "author": "Sarah Perez",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/10/55591989690_9a07db512f_k.jpg?resize=1200,800",
+      "reading_time": "3 minutes",
+      "hackernews": null
+    },
+    {
+      "title": "Last chance to save up to $200 on your TechCrunch Founder Summit pass: Early booking ends October 16",
+      "description": "Savings of up to $200 end October 16 for TechCrunch Founder Summit end on October 16. Join 1,000 founders and investors on November 4 in Boston.",
+      "url": "https://techcrunch.com/2026/10/15/last-chance-to-save-up-to-200-on-techcrunch-founder-summit-early-booking-ends-oct-16/",
+      "published_at": "2026-10-15T18:00:00Z",
+      "author": "TechCrunch Events",
+      "image": "https://techcrunch.com/wp-content/uploads/2025/12/TC-All-Stage-2025-roundtable.jpg?resize=1200,800",
+      "reading_time": "3 minutes",
+      "hackernews": null
+    },
+    {
+      "title": "AI agents are coming to Rivian\u2019s cars",
+      "description": "We'll likely learn more about how this will work at the company's upcoming \"AI & Autonomy Day\" event in December.",
+      "url": "https://techcrunch.com/2026/10/15/ai-agents-are-coming-to-rivians-cars/",
+      "published_at": "2026-10-15T15:02:36Z",
+      "author": "Sean O'Kane",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/10/55587802359_b756c3c3bd_k.jpg?resize=1200,800",
+      "reading_time": "3 minutes",
+      "hackernews": null
+    },
+    {
+      "title": "Google\u2019s Universal Cart shopping tool launches in the US",
+      "description": "The new shopping tool is available in the U.S. across Google Search and the Gemini app.",
+      "url": "https://techcrunch.com/2026/10/15/googles-universal-cart-shopping-tool-launches-in-the-us/",
+      "published_at": "2026-10-15T14:29:33Z",
+      "author": "Lauren Forristal",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/10/Google-UniversalCart.png?w=1200",
+      "reading_time": "2 minutes",
+      "hackernews": null
+    },
+    {
+      "title": "TechCrunch Disrupt 2026: Last day",
+      "description": "Last day to join TechCrunch Disrupt 2026. Join 10,000+ tech leaders for a day of connections and insights. Save 75% on your pass now.",
+      "url": "https://techcrunch.com/2026/10/15/techcrunch-disrupt-2026-last-day/",
+      "published_at": "2026-10-15T14:00:00Z",
+      "author": "TechCrunch Events",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/10/GettyImages-2300214995.jpg?resize=1200,800",
+      "reading_time": "6 minutes",
+      "hackernews": null
+    },
+    {
+      "title": "Amazon\u2019s Bee launches two new personal AI devices, starting at $75",
+      "description": "Amazon-owned Bee has launched its first new AI devices since its acquisition, including an updated wearable and a credit-card-sized recorder that attaches to smartphones. The devices can summarize conversations, create to-do lists, and integrate with Alexa and Amazon shopping, with prices starting at $74.99.",
+      "url": "https://techcrunch.com/2026/10/15/amazons-bee-launches-two-new-personal-ai-devices-starting-at-75/",
+      "published_at": "2026-10-15T12:00:00Z",
+      "author": "Sarah Perez",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/10/BEE_FAMILY_01_1080x1080.jpg?w=1080",
+      "reading_time": "4 minutes",
+      "hackernews": null
+    }
+  ]
+}

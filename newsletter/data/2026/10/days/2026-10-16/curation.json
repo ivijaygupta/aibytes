@@ -1,0 +1,746 @@
+{
+  "date": "2026-10-16",
+  "generated_at": "2026-10-16T08:00:30Z",
+  "instructions": "Write one line per item in the aiBytes_ voice - dense, calm, honest, technical. Say what the thing does, not why it matters. At most 200 characters, one sentence, no em dashes. Then pick 1 to 4 tags per item from `tags` below, by their exact display name. Answer with the summaries file described in the curate-edition skill.",
+  "tags": [
+    {
+      "name": "What it is",
+      "tags": [
+        {
+          "name": "Model Release",
+          "slug": "model-release"
+        },
+        {
+          "name": "Open Source",
+          "slug": "open-source"
+        },
+        {
+          "name": "Paper",
+          "slug": "paper"
+        },
+        {
+          "name": "Benchmark",
+          "slug": "benchmark"
+        },
+        {
+          "name": "Dataset",
+          "slug": "dataset"
+        },
+        {
+          "name": "Framework",
+          "slug": "framework"
+        },
+        {
+          "name": "Dev Tool",
+          "slug": "dev-tool"
+        },
+        {
+          "name": "API",
+          "slug": "api"
+        }
+      ]
+    },
+    {
+      "name": "Domain",
+      "tags": [
+        {
+          "name": "LLM",
+          "slug": "llm"
+        },
+        {
+          "name": "Agents",
+          "slug": "agents"
+        },
+        {
+          "name": "RAG",
+          "slug": "rag"
+        },
+        {
+          "name": "Fine-tuning",
+          "slug": "fine-tuning"
+        },
+        {
+          "name": "Inference",
+          "slug": "inference"
+        },
+        {
+          "name": "Local LLM",
+          "slug": "local-llm"
+        },
+        {
+          "name": "Vision",
+          "slug": "vision"
+        },
+        {
+          "name": "Voice / Speech",
+          "slug": "voice-speech"
+        },
+        {
+          "name": "Video",
+          "slug": "video"
+        },
+        {
+          "name": "Image Gen",
+          "slug": "image-gen"
+        },
+        {
+          "name": "Code Gen",
+          "slug": "code-gen"
+        },
+        {
+          "name": "Embeddings",
+          "slug": "embeddings"
+        },
+        {
+          "name": "Eval",
+          "slug": "eval"
+        },
+        {
+          "name": "Reasoning",
+          "slug": "reasoning"
+        },
+        {
+          "name": "Multimodal",
+          "slug": "multimodal"
+        },
+        {
+          "name": "Robotics",
+          "slug": "robotics"
+        }
+      ]
+    },
+    {
+      "name": "Ecosystem",
+      "tags": [
+        {
+          "name": "OpenAI",
+          "slug": "openai"
+        },
+        {
+          "name": "Anthropic",
+          "slug": "anthropic"
+        },
+        {
+          "name": "Google",
+          "slug": "google"
+        },
+        {
+          "name": "Meta",
+          "slug": "meta"
+        },
+        {
+          "name": "Nvidia",
+          "slug": "nvidia"
+        },
+        {
+          "name": "Hugging Face",
+          "slug": "hugging-face"
+        },
+        {
+          "name": "Mistral",
+          "slug": "mistral"
+        },
+        {
+          "name": "xAI",
+          "slug": "xai"
+        },
+        {
+          "name": "Apple",
+          "slug": "apple"
+        },
+        {
+          "name": "Microsoft",
+          "slug": "microsoft"
+        },
+        {
+          "name": "Claude Code",
+          "slug": "claude-code"
+        },
+        {
+          "name": "Cursor",
+          "slug": "cursor"
+        },
+        {
+          "name": "MCP",
+          "slug": "mcp"
+        }
+      ]
+    },
+    {
+      "name": "Business",
+      "tags": [
+        {
+          "name": "Funding",
+          "slug": "funding"
+        },
+        {
+          "name": "Acquisition",
+          "slug": "acquisition"
+        },
+        {
+          "name": "Launch",
+          "slug": "launch"
+        },
+        {
+          "name": "Pricing",
+          "slug": "pricing"
+        },
+        {
+          "name": "Policy",
+          "slug": "policy"
+        },
+        {
+          "name": "Legal",
+          "slug": "legal"
+        },
+        {
+          "name": "Security",
+          "slug": "security"
+        },
+        {
+          "name": "Privacy",
+          "slug": "privacy"
+        },
+        {
+          "name": "Safety",
+          "slug": "safety"
+        }
+      ]
+    },
+    {
+      "name": "Format",
+      "tags": [
+        {
+          "name": "Show HN",
+          "slug": "show-hn"
+        },
+        {
+          "name": "Tutorial",
+          "slug": "tutorial"
+        },
+        {
+          "name": "Deep Dive",
+          "slug": "deep-dive"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "ph-talanoa-2-2026-10-16",
+      "title": "Talanoa",
+      "category": "launches",
+      "source": "producthunt",
+      "url": "https://talanoa.email",
+      "source_url": "https://www.producthunt.com/products/talanoa-2",
+      "source_text": "Talanoa Email that feels like chat Talanoa is your first email messenger. It turns messy email threads into clean, chat-like conversations, removing quotes, signatures and clutter along the way. Turn emails into actionable todos, manage your calendar without leaving your inbox, and use private, on-device AI to search, summarize and write. Connect Gmail, Outlook, iCloud or any IMAP account in one unified inbox. Everything stays on your computer: no cloud sync, no tracking, no one reading your emails. Email Productivity Task Management",
+      "signals": {
+        "upvotes": 310,
+        "comments": 25
+      },
+      "published_at": "2026-10-15T07:01:00Z"
+    },
+    {
+      "id": "ph-navige-2026-10-16",
+      "title": "Navige",
+      "category": "launches",
+      "source": "producthunt",
+      "url": "https://navige.ai/",
+      "source_url": "https://www.producthunt.com/products/navige",
+      "source_text": "Navige Cut AI agent costs and control runaway spending Navige uses Sufficiency Intelligence to cut AI agent costs while work runs. It sends suitable requests to smaller models, caches repeated reads and trims bulky tool results. If unsure, it keeps your chosen model. Set budgets, catch runaway loops and approve sensitive actions. See costs and savings by job, with estimates clearly labelled. Watchtower is free forever. Preview changes before switching controls on. SaaS Developer Tools Artificial Intelligence",
+      "signals": {
+        "upvotes": 243,
+        "comments": 53
+      },
+      "published_at": "2026-10-15T07:01:00Z"
+    },
+    {
+      "id": "ph-apple-homeview-2026-10-16",
+      "title": "Apple HomeView",
+      "category": "launches",
+      "source": "producthunt",
+      "url": "https://www.apple.com/apple-homeview/",
+      "source_url": "https://www.producthunt.com/products/apple",
+      "source_text": "Apple HomeView A new way to stay connected, and manage the home Apple HomeView is a smart display with Siri AI, Liquid Retina display, high-fidelity audio, FaceTime, smart home controls, built-in privacy, and more. Home Apple",
+      "signals": {
+        "upvotes": 203,
+        "comments": 5
+      },
+      "published_at": "2026-10-15T07:01:00Z"
+    },
+    {
+      "id": "ph-glm-legal-2026-10-16",
+      "title": "GLM-Legal",
+      "category": "launches",
+      "source": "producthunt",
+      "url": "https://z.ai/blog/glm-legal",
+      "source_url": "https://www.producthunt.com/products/z-ai",
+      "source_text": "GLM-Legal Z.ai’s legal AI model for contract review and compliance LM-Legal is Z.ai’s legal AI model, built on GLM-5.3-Flash and trained for agentic legal work like contract review, evidence analysis, and compliance research. Z.ai added legal mid-training, then reinforcement learning across tens of thousands of legal task environments. It passes 19.17% of tasks on Harvey’s Legal Agent Benchmark per Vals AI, up from 6.67% for the base model. API access is application-only beta Legal Artificial Intelligence",
+      "signals": {
+        "upvotes": 194,
+        "comments": 4
+      },
+      "published_at": "2026-10-15T07:01:00Z"
+    },
+    {
+      "id": "ph-openmuse-2026-10-16",
+      "title": "OpenMuse",
+      "category": "launches",
+      "source": "producthunt",
+      "url": "https://www.copilotkit.ai/openmuse",
+      "source_url": "https://www.producthunt.com/products/copilotkit",
+      "source_text": "OpenMuse Opensource, self hostable personal assistant for any harness OpenMuse is an open-source, self-hostable personal agent with its own browser, terminal, files, and persistent work. Ask for an outcome, watch it work, review actions, and come back to the result. Compatible with any agent harness. Open Source Developer Tools Artificial Intelligence GitHub",
+      "signals": {
+        "upvotes": 177,
+        "comments": 5
+      },
+      "published_at": "2026-10-15T07:01:00Z"
+    },
+    {
+      "id": "gh-scientific-agent-skills-2026-10-16",
+      "title": "K-Dense-AI/scientific-agent-skills",
+      "category": "repos",
+      "source": "github",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "source_text": "K-Dense-AI/scientific-agent-skills Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard. Python",
+      "signals": {
+        "stars": 50860,
+        "stars_gained": 1091,
+        "forks": 4518
+      },
+      "meta": {
+        "language": "Python"
+      }
+    },
+    {
+      "id": "gh-ecc-2026-10-16",
+      "title": "affaan-m/ECC",
+      "category": "repos",
+      "source": "github",
+      "url": "https://github.com/affaan-m/ECC",
+      "source_url": "https://github.com/affaan-m/ECC",
+      "source_text": "affaan-m/ECC The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond. JavaScript",
+      "signals": {
+        "stars": 280689,
+        "stars_gained": 1013,
+        "forks": 41742
+      },
+      "meta": {
+        "language": "JavaScript"
+      }
+    },
+    {
+      "id": "gh-context-mode-2026-10-16",
+      "title": "mksglu/context-mode",
+      "category": "repos",
+      "source": "github",
+      "url": "https://github.com/mksglu/context-mode",
+      "source_url": "https://github.com/mksglu/context-mode",
+      "source_text": "mksglu/context-mode Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks. TypeScript",
+      "signals": {
+        "stars": 29928,
+        "stars_gained": 904,
+        "forks": 2092
+      },
+      "meta": {
+        "language": "TypeScript"
+      }
+    },
+    {
+      "id": "gh-xerj-2026-10-16",
+      "title": "xerj-org/xerj",
+      "category": "repos",
+      "source": "github",
+      "url": "https://github.com/xerj-org/xerj",
+      "source_url": "https://github.com/xerj-org/xerj",
+      "source_text": "xerj-org/xerj XERJ is the new way for AI to search data. Its autoindex capability activates agents to know your data without the token waste of grep and sed. One command indexes code, docs, logs and PDFs for search, RAG, security audits and agent memory, using 40x fewer tokens than grep. Elasticsearch compatible, so existing clients just work. Rust",
+      "signals": {
+        "stars": 6049,
+        "stars_gained": 715,
+        "forks": 323
+      },
+      "meta": {
+        "language": "Rust"
+      }
+    },
+    {
+      "id": "gh-superpowers-2026-10-16",
+      "title": "obra/superpowers",
+      "category": "repos",
+      "source": "github",
+      "url": "https://github.com/obra/superpowers",
+      "source_url": "https://github.com/obra/superpowers",
+      "source_text": "obra/superpowers An agentic skills framework & software development methodology that works. Shell",
+      "signals": {
+        "stars": 300199,
+        "stars_gained": 582,
+        "forks": 26811
+      },
+      "meta": {
+        "language": "Shell"
+      }
+    },
+    {
+      "id": "gh-caveman-2026-10-16",
+      "title": "JuliusBrussee/caveman",
+      "category": "repos",
+      "source": "github",
+      "url": "https://github.com/JuliusBrussee/caveman",
+      "source_url": "https://github.com/JuliusBrussee/caveman",
+      "source_text": "JuliusBrussee/caveman 🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman. Go",
+      "signals": {
+        "stars": 112841,
+        "stars_gained": 433,
+        "forks": 6532
+      },
+      "meta": {
+        "language": "Go"
+      }
+    },
+    {
+      "id": "gh-claude-plugins-official-2026-10-16",
+      "title": "anthropics/claude-plugins-official",
+      "category": "repos",
+      "source": "github",
+      "url": "https://github.com/anthropics/claude-plugins-official",
+      "source_url": "https://github.com/anthropics/claude-plugins-official",
+      "source_text": "anthropics/claude-plugins-official Official, Anthropic-managed directory of high quality Claude Code Plugins. Python",
+      "signals": {
+        "stars": 39538,
+        "stars_gained": 307,
+        "forks": 4352
+      },
+      "meta": {
+        "language": "Python"
+      }
+    },
+    {
+      "id": "gh-ruflo-2026-10-16",
+      "title": "ruvnet/ruflo",
+      "category": "repos",
+      "source": "github",
+      "url": "https://github.com/ruvnet/ruflo",
+      "source_url": "https://github.com/ruvnet/ruflo",
+      "source_text": "ruvnet/ruflo 🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, federation, vector RAG integration, and native Claude Code / Codex / Hermes and many more Integrated TypeScript",
+      "signals": {
+        "stars": 75316,
+        "stars_gained": 147,
+        "forks": 8943
+      },
+      "meta": {
+        "language": "TypeScript"
+      }
+    },
+    {
+      "id": "gh-tokenspeed-2026-10-16",
+      "title": "lightseekorg/tokenspeed",
+      "category": "repos",
+      "source": "github",
+      "url": "https://github.com/lightseekorg/tokenspeed",
+      "source_url": "https://github.com/lightseekorg/tokenspeed",
+      "source_text": "lightseekorg/tokenspeed TokenSpeed is a speed-of-light LLM inference engine. Python",
+      "signals": {
+        "stars": 2593,
+        "stars_gained": 30,
+        "forks": 345
+      },
+      "meta": {
+        "language": "Python"
+      }
+    },
+    {
+      "id": "tc-when-it-came-to-cal-ais-viral-success-a-small-2026-10-16",
+      "title": "When it came to Cal AI’s viral success, a small army of influencers paid off",
+      "category": "news",
+      "source": "techcrunch",
+      "url": "https://techcrunch.com/2026/10/15/when-it-came-to-cal-ais-viral-success-a-small-army-of-influencers-paid-off/",
+      "source_url": "https://techcrunch.com/2026/10/15/when-it-came-to-cal-ais-viral-success-a-small-army-of-influencers-paid-off/",
+      "source_text": "When it came to Cal AI’s viral success, a small army of influencers paid off The company generated over $30 million in revenue in two years and was acquired by MyFitnessPal for an undisclosed amount of money in March.",
+      "meta": {
+        "author": "Lucas Ropek",
+        "reading_time": "3 minutes"
+      },
+      "published_at": "2026-10-15T23:44:56Z"
+    },
+    {
+      "id": "tc-meta-launches-an-open-weight-ai-model-that-runs-2026-10-16",
+      "title": "Meta launches an open-weight AI model that runs on Macs",
+      "category": "news",
+      "source": "techcrunch",
+      "url": "https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs/",
+      "source_url": "https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs/",
+      "source_text": "Meta launches an open-weight AI model that runs on Macs Meta and Apple have teamed up for the launch of the social media giant's newest model, Muse Spark Open, which will run locally on Apple silicon.",
+      "meta": {
+        "author": "Lucas Ropek",
+        "reading_time": "2 minutes"
+      },
+      "published_at": "2026-10-15T20:04:53Z"
+    },
+    {
+      "id": "tc-amazon-devices-chief-panos-panay-sees-a-future-2026-10-16",
+      "title": "Amazon devices chief Panos Panay sees a future where AI devices replace the need to use apps",
+      "category": "news",
+      "source": "techcrunch",
+      "url": "https://techcrunch.com/2026/10/15/amazon-devices-chief-panos-panay-sees-a-future-where-ai-devices-replace-the-need-to-use-apps/",
+      "source_url": "https://techcrunch.com/2026/10/15/amazon-devices-chief-panos-panay-sees-a-future-where-ai-devices-replace-the-need-to-use-apps/",
+      "source_text": "Amazon devices chief Panos Panay sees a future where AI devices replace the need to use apps Speaking at TechCrunch Disrupt, Amazon devices chief Panos Panay described a future where ambient AI devices work in the background, anticipating users' needs instead of waiting for commands.",
+      "meta": {
+        "author": "Sarah Perez",
+        "reading_time": "3 minutes"
+      },
+      "published_at": "2026-10-15T19:55:25Z"
+    },
+    {
+      "id": "tc-anthropic-is-letting-metr-researchers-look-2026-10-16",
+      "title": "Anthropic is letting METR researchers look under the hood with employee-level access",
+      "category": "news",
+      "source": "techcrunch",
+      "url": "https://techcrunch.com/2026/10/15/anthropic-is-letting-metr-researchers-look-under-the-hood-with-employee-level-access/",
+      "source_url": "https://techcrunch.com/2026/10/15/anthropic-is-letting-metr-researchers-look-under-the-hood-with-employee-level-access/",
+      "source_text": "Anthropic is letting METR researchers look under the hood with employee-level access METR will publish its own assessments of Anthropic’s risks, incidents, and practices, and the frontier AI model maker has given up the right to block them.",
+      "meta": {
+        "author": "Aditya Mehta",
+        "reading_time": "2 minutes"
+      },
+      "published_at": "2026-10-15T19:14:26Z"
+    },
+    {
+      "id": "tc-bluesky-expands-its-ai-powered-attie-app-to-let-2026-10-16",
+      "title": "Bluesky expands its AI-powered Attie app to let anyone build websites, games, and more",
+      "category": "news",
+      "source": "techcrunch",
+      "url": "https://techcrunch.com/2026/10/15/bluesky-expands-its-ai-powered-attie-app-to-let-anyone-build-websites-games-and-more/",
+      "source_url": "https://techcrunch.com/2026/10/15/bluesky-expands-its-ai-powered-attie-app-to-let-anyone-build-websites-games-and-more/",
+      "source_text": "Bluesky expands its AI-powered Attie app to let anyone build websites, games, and more Bluesky is bringing “social vibe coding” to its experimental Attie platform, allowing users to create interactive experiences like games, quizzes, and websites that can tap into the social network's audience.",
+      "meta": {
+        "author": "Sarah Perez",
+        "reading_time": "3 minutes"
+      },
+      "published_at": "2026-10-15T18:56:46Z"
+    },
+    {
+      "id": "tc-last-chance-to-save-up-to-200-on-your-2026-10-16",
+      "title": "Last chance to save up to $200 on your TechCrunch Founder Summit pass: Early booking ends October 16",
+      "category": "news",
+      "source": "techcrunch",
+      "url": "https://techcrunch.com/2026/10/15/last-chance-to-save-up-to-200-on-techcrunch-founder-summit-early-booking-ends-oct-16/",
+      "source_url": "https://techcrunch.com/2026/10/15/last-chance-to-save-up-to-200-on-techcrunch-founder-summit-early-booking-ends-oct-16/",
+      "source_text": "Last chance to save up to $200 on your TechCrunch Founder Summit pass: Early booking ends October 16 Savings of up to $200 end October 16 for TechCrunch Founder Summit end on October 16. Join 1,000 founders and investors on November 4 in Boston.",
+      "meta": {
+        "author": "TechCrunch Events",
+        "reading_time": "3 minutes"
+      },
+      "published_at": "2026-10-15T18:00:00Z"
+    },
+    {
+      "id": "tc-ai-agents-are-coming-to-rivians-cars-2026-10-16",
+      "title": "AI agents are coming to Rivian’s cars",
+      "category": "news",
+      "source": "techcrunch",
+      "url": "https://techcrunch.com/2026/10/15/ai-agents-are-coming-to-rivians-cars/",
+      "source_url": "https://techcrunch.com/2026/10/15/ai-agents-are-coming-to-rivians-cars/",
+      "source_text": "AI agents are coming to Rivian’s cars We'll likely learn more about how this will work at the company's upcoming \"AI & Autonomy Day\" event in December.",
+      "meta": {
+        "author": "Sean O'Kane",
+        "reading_time": "3 minutes"
+      },
+      "published_at": "2026-10-15T15:02:36Z"
+    },
+    {
+      "id": "tc-googles-universal-cart-shopping-tool-launches-2026-10-16",
+      "title": "Google’s Universal Cart shopping tool launches in the US",
+      "category": "news",
+      "source": "techcrunch",
+      "url": "https://techcrunch.com/2026/10/15/googles-universal-cart-shopping-tool-launches-in-the-us/",
+      "source_url": "https://techcrunch.com/2026/10/15/googles-universal-cart-shopping-tool-launches-in-the-us/",
+      "source_text": "Google’s Universal Cart shopping tool launches in the US The new shopping tool is available in the U.S. across Google Search and the Gemini app.",
+      "meta": {
+        "author": "Lauren Forristal",
+        "reading_time": "2 minutes"
+      },
+      "published_at": "2026-10-15T14:29:33Z"
+    },
+    {
+      "id": "tc-techcrunch-disrupt-2026-last-day-2026-10-16",
+      "title": "TechCrunch Disrupt 2026: Last day",
+      "category": "news",
+      "source": "techcrunch",
+      "url": "https://techcrunch.com/2026/10/15/techcrunch-disrupt-2026-last-day/",
+      "source_url": "https://techcrunch.com/2026/10/15/techcrunch-disrupt-2026-last-day/",
+      "source_text": "TechCrunch Disrupt 2026: Last day Last day to join TechCrunch Disrupt 2026. Join 10,000+ tech leaders for a day of connections and insights. Save 75% on your pass now.",
+      "meta": {
+        "author": "TechCrunch Events",
+        "reading_time": "6 minutes"
+      },
+      "published_at": "2026-10-15T14:00:00Z"
+    },
+    {
+      "id": "tc-amazons-bee-launches-two-new-personal-ai-2026-10-16",
+      "title": "Amazon’s Bee launches two new personal AI devices, starting at $75",
+      "category": "news",
+      "source": "techcrunch",
+      "url": "https://techcrunch.com/2026/10/15/amazons-bee-launches-two-new-personal-ai-devices-starting-at-75/",
+      "source_url": "https://techcrunch.com/2026/10/15/amazons-bee-launches-two-new-personal-ai-devices-starting-at-75/",
+      "source_text": "Amazon’s Bee launches two new personal AI devices, starting at $75 Amazon-owned Bee has launched its first new AI devices since its acquisition, including an updated wearable and a credit-card-sized recorder that attaches to smartphones. The devices can summarize conversations, create to-do lists, and integrate with Alexa and Amazon shopping, with prices starting at $74.99.",
+      "meta": {
+        "author": "Sarah Perez",
+        "reading_time": "4 minutes"
+      },
+      "published_at": "2026-10-15T12:00:00Z"
+    },
+    {
+      "id": "hn-neural-networks-are-clean-2026-10-16",
+      "title": "Neural networks are clean",
+      "category": "hn",
+      "source": "hackernews",
+      "url": "https://already-clean.goodfire.com/",
+      "source_url": "https://news.ycombinator.com/item?id=50105647",
+      "source_text": "Neural networks are clean",
+      "signals": {
+        "points": 652,
+        "comments": 242
+      },
+      "meta": {
+        "author": "themgt"
+      },
+      "published_at": "2026-10-15T16:04:01Z"
+    },
+    {
+      "id": "hn-steam-client-is-now-faster-than-epic-s-new-vibe-2026-10-16",
+      "title": "Steam Client is now faster than Epic's new vibe coded launcher",
+      "category": "hn",
+      "source": "hackernews",
+      "url": "https://respawnfirst.com/steam-client-is-now-faster-than-epics-new-vibe-coded-launcher/",
+      "source_url": "https://news.ycombinator.com/item?id=50105635",
+      "source_text": "Steam Client is now faster than Epic's new vibe coded launcher",
+      "signals": {
+        "points": 309,
+        "comments": 319
+      },
+      "meta": {
+        "author": "starkparker"
+      },
+      "published_at": "2026-10-15T16:03:19Z"
+    },
+    {
+      "id": "hn-more-on-anthropic-s-scion-ripping-off-mononoke-2026-10-16",
+      "title": "More on Anthropic's Scion ripping off Mononoke",
+      "category": "hn",
+      "source": "hackernews",
+      "url": "https://sunshowers.io/posts/anthropic-mononoke-2/",
+      "source_url": "https://news.ycombinator.com/item?id=50106738",
+      "source_text": "More on Anthropic's Scion ripping off Mononoke",
+      "signals": {
+        "points": 241,
+        "comments": 77
+      },
+      "meta": {
+        "author": "sunshowers"
+      },
+      "published_at": "2026-10-15T17:05:19Z"
+    },
+    {
+      "id": "hn-simons-foundation-launches-15m-effort-to-help-2026-10-16",
+      "title": "Simons Foundation launches $15M effort to help mathematicians navigate AI era",
+      "category": "hn",
+      "source": "hackernews",
+      "url": "https://www.simonsfoundation.org/news/simons-foundation-launches-15m-effort-to-help-mathematicians-navigate-ai-era/",
+      "source_url": "https://news.ycombinator.com/item?id=50104654",
+      "source_text": "Simons Foundation launches $15M effort to help mathematicians navigate AI era",
+      "signals": {
+        "points": 239,
+        "comments": 192
+      },
+      "meta": {
+        "author": "aaraujo002"
+      },
+      "published_at": "2026-10-15T14:58:48Z"
+    },
+    {
+      "id": "hn-why-we-re-banning-ai-2026-10-16",
+      "title": "Why We're Banning AI",
+      "category": "hn",
+      "source": "hackernews",
+      "url": "https://www.currentaffairs.org/news/why-were-banning-ai",
+      "source_url": "https://news.ycombinator.com/item?id=50108131",
+      "source_text": "Why We're Banning AI",
+      "signals": {
+        "points": 236,
+        "comments": 183
+      },
+      "meta": {
+        "author": "vinyl7"
+      },
+      "published_at": "2026-10-15T18:32:29Z"
+    },
+    {
+      "id": "hn-using-ai-to-reverse-engineer-hardware-2026-10-16",
+      "title": "Using AI to reverse engineer hardware",
+      "category": "hn",
+      "source": "hackernews",
+      "url": "https://blogs.gnome.org/uraeus/2026/10/15/aiandreverseengineerhardware/",
+      "source_url": "https://news.ycombinator.com/item?id=50104299",
+      "source_text": "Using AI to reverse engineer hardware",
+      "signals": {
+        "points": 179,
+        "comments": 159
+      },
+      "meta": {
+        "author": "ErenayDev"
+      },
+      "published_at": "2026-10-15T14:35:15Z"
+    },
+    {
+      "id": "hn-ai-was-great-until-it-was-not-2026-10-16",
+      "title": "AI was great until it was not",
+      "category": "hn",
+      "source": "hackernews",
+      "url": "https://thetheorygirlie.substack.com/p/ai-was-great-until-it-was-not",
+      "source_url": "https://news.ycombinator.com/item?id=50100791",
+      "source_text": "AI was great until it was not",
+      "signals": {
+        "points": 119,
+        "comments": 77
+      },
+      "meta": {
+        "author": "JohnHammersley"
+      },
+      "published_at": "2026-10-15T08:18:38Z"
+    },
+    {
+      "id": "hn-prompt-injection-in-http-headers-what-217m-web-2026-10-16",
+      "title": "Prompt injection in HTTP headers: what 217M web responses show",
+      "category": "hn",
+      "source": "hackernews",
+      "url": "https://www.signalscorps.com/blog/prompt-injection-in-http-headers/",
+      "source_url": "https://news.ycombinator.com/item?id=50104310",
+      "source_text": "Prompt injection in HTTP headers: what 217M web responses show",
+      "signals": {
+        "points": 86,
+        "comments": 17
+      },
+      "meta": {
+        "author": "panoramas4good"
+      },
+      "published_at": "2026-10-15T14:36:22Z"
+    },
+    {
+      "id": "hn-market-selloff-rising-rates-test-ai-data-centre-2026-10-16",
+      "title": "Market selloff, rising rates test AI data centre deal boom",
+      "category": "hn",
+      "source": "hackernews",
+      "url": "https://www.reuters.com/business/finance/market-selloff-rising-rates-test-ai-data-centre-deal-boom-2026-10-15/",
+      "source_url": "https://news.ycombinator.com/item?id=50105900",
+      "source_text": "Market selloff, rising rates test AI data centre deal boom",
+      "signals": {
+        "points": 69,
+        "comments": 80
+      },
+      "meta": {
+        "author": "tartoran"
+      },
+      "published_at": "2026-10-15T16:17:40Z"
+    }
+  ]
+}
