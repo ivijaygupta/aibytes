@@ -84,12 +84,29 @@ class TestGHRepoFilter(unittest.TestCase):
         ):
             self.assertTrue(fetch_gh.is_ai_repo(self.repo(name, desc)), name)
 
+    def test_matches_agent_repos_without_an_ai_word(self):
+        # Issue #13 (AIB-86f): trending repos whose only signal is "agent".
+        for name, desc in (
+            ("mattpocock/skills", "Skills for Real Engineers. Straight from my .agents directory."),
+            ("heygen-com/hyperframes", "Write HTML. Render video. Built for agents."),
+            ("earthtojake/text-to-cad", "Give your agent CAD superpowers."),
+            ("cursor/plugins", "Cursor plugin specification and official plugins"),
+            ("ranxianglei/billion-context", "A context-compression plugin for small context windows"),
+            ("morluto/rea", "Reverse engineer anything with agents, from app behavior down to native binaries."),
+        ):
+            self.assertTrue(fetch_gh.is_ai_repo(self.repo(name, desc)), name)
+
     def test_ignores_non_ai_repos(self):
         for name, desc in (
             ("oven-sh/bun", "Incredibly fast JavaScript runtime and bundler"),
             ("abseil/abseil-cpp", "Abseil Common Libraries (C++)"),
             ("actions/checkout", "Action for checking out a repo"),
             ("datadog/datadog-agent", "Main repository for the monitoring agent"),
+            ("ua-parser/uap-core", "Regex file necessary to build language ports of the user-agent parser"),
+            ("acme/agent-forward", "Forward your SSH agent into containers"),
+            ("acme/ci-runner", "Self-hosted runner for your build agents"),
+            ("acme/editor", "Multi-cursor editing for the terminal"),
+            ("acme/pgcursor", "Server-side cursor pagination for Postgres"),
         ):
             self.assertFalse(fetch_gh.is_ai_repo(self.repo(name, desc)), name)
 
