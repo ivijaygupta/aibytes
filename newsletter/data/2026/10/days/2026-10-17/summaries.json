@@ -1,0 +1,129 @@
+{
+  "date": "2026-10-17",
+  "items": {
+    "ph-jockey-by-twelvelabs-2-2026-10-17": {
+      "summary": "Indexes photo and video libraries to find people and moments across footage, ingests YouTube, TikTok and Reels links, cuts MP4s, and runs inside Claude or ChatGPT or via an API/SDK.",
+      "tags": ["Video", "API", "Launch"]
+    },
+    "ph-harness-by-autonomous-2-2026-10-17": {
+      "summary": "Open-source dashboard for Claude Code, Codex and Hermes sessions across machines, with a desktop app, an `hn` CLI, voice replies from mobile, and end-to-end encryption.",
+      "tags": ["Open Source", "Agents", "Code Gen", "Launch"]
+    },
+    "ph-signwith-2026-10-17": {
+      "summary": "Pay-per-document e-signatures: 3 free a month, then credit packs from $9, with signing order, email OTP and audit trails, sendable from the app, an API, or Claude and ChatGPT via MCP.",
+      "tags": ["MCP", "Pricing", "Launch"]
+    },
+    "ph-pomerado-2026-10-17": {
+      "summary": "Open-source tool that wraps sites without APIs, such as Google Flights or Zillow, as MCP or API tools for agents, and handles hosting, auth and upkeep of each integration.",
+      "tags": ["Open Source", "Agents", "MCP", "Launch"]
+    },
+    "hn-show-hn-gemini-4-argon-plays-starcraft-2026-10-17": {
+      "summary": "Version 0.2 of the StarSkirmish benchmark, which runs Google's Gemini 4 Argon through StarCraft matches and publishes the results.",
+      "tags": ["Show HN", "Benchmark", "Google"]
+    },
+    "gh-xerj-2026-10-17": {
+      "summary": "Rust search engine that indexes code, docs, logs and PDFs in one command for agent search, RAG and memory, claiming 40x fewer tokens than grep, with an Elasticsearch-compatible API.",
+      "tags": ["Open Source", "RAG", "Agents"]
+    },
+    "gh-claude-plugins-official-2026-10-17": {
+      "summary": "Anthropic's own curated directory of Claude Code plugins, maintained in the open.",
+      "tags": ["Claude Code", "Dev Tool"]
+    },
+    "gh-scientific-agent-skills-2026-10-17": {
+      "summary": "177 agent skills plus connectors to 100+ scientific databases for biology, chemistry, medicine and drug discovery, in the Agent Skills format used by Claude Code, Cursor and Codex.",
+      "tags": ["Open Source", "Agents"]
+    },
+    "gh-ecc-2026-10-17": {
+      "summary": "JavaScript toolkit of skills, memory, security rules and research-first workflows for tuning coding agent harnesses across Claude Code, Codex, Opencode and Cursor.",
+      "tags": ["Framework", "Agents", "Code Gen"]
+    },
+    "gh-superpowers-2026-10-17": {
+      "summary": "Shell-based skills library paired with a software development methodology for coding agents to follow.",
+      "tags": ["Framework", "Agents", "Code Gen"]
+    },
+    "gh-ai-job-search-2026-10-17": {
+      "summary": "Local job application pipeline built on Claude Code that scores postings, tailors CVs, drafts cover letters and preps interviews, meant to be forked and customised.",
+      "tags": ["Open Source", "Agents", "Claude Code"]
+    },
+    "gh-ruflo-2026-10-17": {
+      "summary": "TypeScript framework for multi-agent swarms with adaptive memory, federation and vector RAG, integrating Claude Code, Codex and Hermes.",
+      "tags": ["Framework", "Agents"]
+    },
+    "gh-context-mode-2026-10-17": {
+      "summary": "Sandboxes coding agent tool output to cut context use, persists session memory, and enforces routing across 17 platforms through MCP and hooks.",
+      "tags": ["Dev Tool", "Agents", "MCP"]
+    },
+    "tc-replit-is-no-longer-working-with-anthropic-ceo-2026-10-17": {
+      "summary": "Amjad Masad cited cost among several reasons; Replit announced an OpenAI partnership in August without signalling it was dropping Anthropic.",
+      "tags": ["Anthropic", "OpenAI"]
+    },
+    "tc-elorians-first-ai-model-wants-to-reason-with-2026-10-17": {
+      "summary": "The model, Glimpse, beats GPT-6 Astra on scientific chart reasoning and short-form video captioning by Elorian's own evaluations, and is competitive on other visual reasoning tasks.",
+      "tags": ["Model Release", "Vision", "Reasoning"]
+    },
+    "tc-india-becomes-the-latest-country-to-report-2026-10-17": {
+      "summary": "The agents got in through credentials and connection settings exposed in app configs, public code repositories, and overly permissive cloud roles.",
+      "tags": ["Agents", "Security"]
+    },
+    "tc-physical-ai-is-more-than-robots-says-the-nvidia-2026-10-17": {
+      "summary": "Equity podcast with Techable VC founder Amulya Vishwanath, who argues the near-term opportunity is rebuilding robotics' basic building blocks rather than waiting for a breakout moment.",
+      "tags": ["Robotics"]
+    },
+    "tc-an-nvidia-insider-turned-vc-on-why-robotics-2026-10-17": {
+      "summary": "Video cut of the Equity interview with Techable VC founder Amulya Vishwanath on rebuilding the basic building blocks of robotics.",
+      "tags": ["Robotics"]
+    },
+    "tc-jev-is-vercels-fastest-adopted-ai-model-ever-2026-10-17": {
+      "summary": "The adoption numbers come from Vercel's AI gateway, a unified API across model providers comparable to OpenRouter.",
+      "tags": ["LLM", "API"]
+    },
+    "tc-mark-wahlberg-on-using-ai-in-film-the-right-way-2026-10-17": {
+      "summary": "The actor and angel investor says he accepts AI in filmmaking as long as it is used to enhance the work.",
+      "tags": ["Video"]
+    },
+    "tc-veritas-expands-its-anti-counterfeit-chip-to-2026-10-17": {
+      "summary": "The startup embeds a verification chip in goods to catch \"superfakes\", counterfeits that now copy brand marks closely enough to pass as genuine.",
+      "tags": ["Security"]
+    },
+    "tc-replits-ceo-says-the-future-of-work-is-the-self-2026-10-17": {
+      "summary": "Amjad Masad describes companies where AI agents run day-to-day tasks and people handle higher-level decisions.",
+      "tags": ["Agents"]
+    },
+    "hn-claude-reveals-ecdsa-curve-origins-2026-10-17": {
+      "summary": "Anthropic research post on using Claude to trace where the elliptic curves behind ECDSA came from.",
+      "tags": ["Anthropic", "Security"]
+    },
+    "hn-90-of-us-working-hours-are-spent-on-tasks-not-2026-10-17": {
+      "summary": "Mercor research, part of its labor index, mapping US working hours against what existing AI benchmarks actually measure.",
+      "tags": ["Benchmark", "Eval"]
+    },
+    "hn-how-the-claude-code-team-does-code-review-2026-10-17": {
+      "summary": "Post on the claude.dev blog describing how Anthropic's Claude Code team handles code review internally.",
+      "tags": ["Claude Code", "Dev Tool"]
+    },
+    "hn-llama-cpp-on-a-jailbroken-ps5-run-any-gguf-2026-10-17": {
+      "summary": "PS5LM, a GitHub project porting llama.cpp to the PlayStation 5 so GGUF models run on the console's own hardware.",
+      "tags": ["Open Source", "Local LLM", "Inference"]
+    },
+    "hn-you-could-have-invented-transformers-from-memory-2026-10-17": {
+      "summary": "Essay on alexwang.ai that derives the transformer architecture from the idea of associative memory.",
+      "tags": ["LLM", "Deep Dive"]
+    },
+    "hn-anthropic-assigned-highest-junk-credit-rating-2026-10-17": {
+      "summary": "Financial Times report that Anthropic's June credit rating sat at the top of sub-investment grade, one step below investment grade.",
+      "tags": ["Anthropic", "Funding"]
+    },
+    "hn-postgres-19-delayed-after-ai-reviewers-find-2026-10-17": {
+      "summary": "The Register reports the PostgreSQL release slipped because AI review tools surfaced bugs faster than maintainers could fix them.",
+      "tags": ["Code Gen", "Open Source"]
+    },
+    "hn-designing-more-efficient-quantum-circuits-with-2026-10-17": {
+      "summary": "Anthropic research post on using Claude to design quantum circuits more efficiently.",
+      "tags": ["Anthropic", "Deep Dive"]
+    },
+    "hn-artificial-intelligence-is-capitalism-s-final-2026-10-17": {
+      "summary": "Arundhati Roy essay in Equator arguing AI is where capitalism ends up.",
+      "tags": ["Policy"]
+    }
+  }
+}

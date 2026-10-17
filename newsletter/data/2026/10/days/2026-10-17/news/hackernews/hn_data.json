@@ -1,0 +1,120 @@
+{
+  "source": "hackernews",
+  "section": "ai-news",
+  "fetched_at": "2026-10-17",
+  "window": {
+    "after": "2026-10-16",
+    "before": "2026-10-18"
+  },
+  "query_params": {
+    "tags": "story",
+    "count": 10,
+    "min_points": 50,
+    "topic": "ai",
+    "ranking": "points,recency"
+  },
+  "totalCount": 13,
+  "poolCount": 52,
+  "stories": [
+    {
+      "title": "Claude reveals ECDSA curve origins",
+      "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
+      "type": "story",
+      "points": 840,
+      "num_comments": 315,
+      "author": "ahlCVA",
+      "created_at": "2026-10-16T18:55:59Z",
+      "hn_url": "https://news.ycombinator.com/item?id=50122800"
+    },
+    {
+      "title": "90% of US working hours are spent on tasks not covered well by AI benchmarks",
+      "url": "https://www.mercor.com/research/labor-index/benchmark-map/",
+      "type": "story",
+      "points": 486,
+      "num_comments": 408,
+      "author": "speckx",
+      "created_at": "2026-10-16T17:08:38Z",
+      "hn_url": "https://news.ycombinator.com/item?id=50121179"
+    },
+    {
+      "title": "How the Claude Code team does code review",
+      "url": "https://claude.dev/blog/solving-code-review-at-anthropic/",
+      "type": "story",
+      "points": 325,
+      "num_comments": 302,
+      "author": "pretext",
+      "created_at": "2026-10-16T19:04:47Z",
+      "hn_url": "https://news.ycombinator.com/item?id=50122951"
+    },
+    {
+      "title": "Llama.cpp on a jailbroken PS5: run any GGUF model natively on the console",
+      "url": "https://github.com/cobanov/PS5LM",
+      "type": "story",
+      "points": 272,
+      "num_comments": 66,
+      "author": "Anon84",
+      "created_at": "2026-10-16T18:32:35Z",
+      "hn_url": "https://news.ycombinator.com/item?id=50122431"
+    },
+    {
+      "title": "You could have invented transformers from memory",
+      "url": "https://alexwang.ai/posts/associative-memory/",
+      "type": "story",
+      "points": 271,
+      "num_comments": 64,
+      "author": "speckx",
+      "created_at": "2026-10-16T19:01:17Z",
+      "hn_url": "https://news.ycombinator.com/item?id=50122878"
+    },
+    {
+      "title": "Anthropic assigned highest junk credit rating in June",
+      "url": "https://www.ft.com/content/5a310aee-f555-4266-874c-b1b4db20186d",
+      "type": "story",
+      "points": 247,
+      "num_comments": 75,
+      "author": "JumpCrisscross",
+      "created_at": "2026-10-16T18:11:42Z",
+      "hn_url": "https://news.ycombinator.com/item?id=50122112"
+    },
+    {
+      "title": "Show HN: Gemini 4 Argon plays StarCraft",
+      "url": "https://starskirmish.com/bench/v0-2/",
+      "type": "show_hn",
+      "points": 216,
+      "num_comments": 97,
+      "author": "__cayenne__",
+      "created_at": "2026-10-16T14:18:44Z",
+      "hn_url": "https://news.ycombinator.com/item?id=50118688"
+    },
+    {
+      "title": "Postgres 19 delayed after AI reviewers find more bugs than humans can fix",
+      "url": "https://www.theregister.com/databases/2026/10/16/postgres-19-delayed-after-ai-reviewers-find-more-bugs-than-humans-can-fix/5303471",
+      "type": "story",
+      "points": 197,
+      "num_comments": 77,
+      "author": "magoghm",
+      "created_at": "2026-10-16T15:55:40Z",
+      "hn_url": "https://news.ycombinator.com/item?id=50119991"
+    },
+    {
+      "title": "Designing more efficient quantum circuits with Claude",
+      "url": "https://www.anthropic.com/research/designing-efficient-quantum-circuits",
+      "type": "story",
+      "points": 133,
+      "num_comments": 31,
+      "author": "pretext",
+      "created_at": "2026-10-16T18:00:18Z",
+      "hn_url": "https://news.ycombinator.com/item?id=50121939"
+    },
+    {
+      "title": "Artificial intelligence is capitalism's final destination",
+      "url": "https://www.equator.org/articles/arundhati-roy-artificial-intelligence",
+      "type": "story",
+      "points": 111,
+      "num_comments": 122,
+      "author": "tirumaraiselvan",
+      "created_at": "2026-10-16T12:08:40Z",
+      "hn_url": "https://news.ycombinator.com/item?id=50117382"
+    }
+  ]
+}

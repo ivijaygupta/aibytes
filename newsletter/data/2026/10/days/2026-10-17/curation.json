@@ -1,0 +1,716 @@
+{
+  "date": "2026-10-17",
+  "generated_at": "2026-10-17T08:00:25Z",
+  "instructions": "Write one line per item in the aiBytes_ voice - dense, calm, honest, technical. Say what the thing does, not why it matters. At most 200 characters, one sentence, no em dashes. Then pick 1 to 4 tags per item from `tags` below, by their exact display name. Answer with the summaries file described in the curate-edition skill.",
+  "tags": [
+    {
+      "name": "What it is",
+      "tags": [
+        {
+          "name": "Model Release",
+          "slug": "model-release"
+        },
+        {
+          "name": "Open Source",
+          "slug": "open-source"
+        },
+        {
+          "name": "Paper",
+          "slug": "paper"
+        },
+        {
+          "name": "Benchmark",
+          "slug": "benchmark"
+        },
+        {
+          "name": "Dataset",
+          "slug": "dataset"
+        },
+        {
+          "name": "Framework",
+          "slug": "framework"
+        },
+        {
+          "name": "Dev Tool",
+          "slug": "dev-tool"
+        },
+        {
+          "name": "API",
+          "slug": "api"
+        }
+      ]
+    },
+    {
+      "name": "Domain",
+      "tags": [
+        {
+          "name": "LLM",
+          "slug": "llm"
+        },
+        {
+          "name": "Agents",
+          "slug": "agents"
+        },
+        {
+          "name": "RAG",
+          "slug": "rag"
+        },
+        {
+          "name": "Fine-tuning",
+          "slug": "fine-tuning"
+        },
+        {
+          "name": "Inference",
+          "slug": "inference"
+        },
+        {
+          "name": "Local LLM",
+          "slug": "local-llm"
+        },
+        {
+          "name": "Vision",
+          "slug": "vision"
+        },
+        {
+          "name": "Voice / Speech",
+          "slug": "voice-speech"
+        },
+        {
+          "name": "Video",
+          "slug": "video"
+        },
+        {
+          "name": "Image Gen",
+          "slug": "image-gen"
+        },
+        {
+          "name": "Code Gen",
+          "slug": "code-gen"
+        },
+        {
+          "name": "Embeddings",
+          "slug": "embeddings"
+        },
+        {
+          "name": "Eval",
+          "slug": "eval"
+        },
+        {
+          "name": "Reasoning",
+          "slug": "reasoning"
+        },
+        {
+          "name": "Multimodal",
+          "slug": "multimodal"
+        },
+        {
+          "name": "Robotics",
+          "slug": "robotics"
+        }
+      ]
+    },
+    {
+      "name": "Ecosystem",
+      "tags": [
+        {
+          "name": "OpenAI",
+          "slug": "openai"
+        },
+        {
+          "name": "Anthropic",
+          "slug": "anthropic"
+        },
+        {
+          "name": "Google",
+          "slug": "google"
+        },
+        {
+          "name": "Meta",
+          "slug": "meta"
+        },
+        {
+          "name": "Nvidia",
+          "slug": "nvidia"
+        },
+        {
+          "name": "Hugging Face",
+          "slug": "hugging-face"
+        },
+        {
+          "name": "Mistral",
+          "slug": "mistral"
+        },
+        {
+          "name": "xAI",
+          "slug": "xai"
+        },
+        {
+          "name": "Apple",
+          "slug": "apple"
+        },
+        {
+          "name": "Microsoft",
+          "slug": "microsoft"
+        },
+        {
+          "name": "Claude Code",
+          "slug": "claude-code"
+        },
+        {
+          "name": "Cursor",
+          "slug": "cursor"
+        },
+        {
+          "name": "MCP",
+          "slug": "mcp"
+        }
+      ]
+    },
+    {
+      "name": "Business",
+      "tags": [
+        {
+          "name": "Funding",
+          "slug": "funding"
+        },
+        {
+          "name": "Acquisition",
+          "slug": "acquisition"
+        },
+        {
+          "name": "Launch",
+          "slug": "launch"
+        },
+        {
+          "name": "Pricing",
+          "slug": "pricing"
+        },
+        {
+          "name": "Policy",
+          "slug": "policy"
+        },
+        {
+          "name": "Legal",
+          "slug": "legal"
+        },
+        {
+          "name": "Security",
+          "slug": "security"
+        },
+        {
+          "name": "Privacy",
+          "slug": "privacy"
+        },
+        {
+          "name": "Safety",
+          "slug": "safety"
+        }
+      ]
+    },
+    {
+      "name": "Format",
+      "tags": [
+        {
+          "name": "Show HN",
+          "slug": "show-hn"
+        },
+        {
+          "name": "Tutorial",
+          "slug": "tutorial"
+        },
+        {
+          "name": "Deep Dive",
+          "slug": "deep-dive"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "ph-jockey-by-twelvelabs-2-2026-10-17",
+      "title": "Jockey by TwelveLabs",
+      "category": "launches",
+      "source": "producthunt",
+      "url": "https://twelvelabs.io/jockey",
+      "source_url": "https://www.producthunt.com/products/twelvelabs",
+      "source_text": "Jockey by TwelveLabs Your entire video library: organized, searchable, understood Jockey is the first AI that understands your entire media library across photos and video. It analyzes thousands of hours of footage so you can find and connect people, moments and context across videos. Use it in Claude or ChatGPT, or build with the API/SDK. Ingest YouTube, TikTok and Instagram Reels links; assemble content into MP4s; and create and share video-driven artifacts with playable clips. Every TwelveLabs model upgrade makes Jockey better, without re-integration. Productivity Artificial Intelligence Video",
+      "signals": {
+        "upvotes": 407,
+        "comments": 29
+      },
+      "published_at": "2026-10-16T07:01:00Z"
+    },
+    {
+      "id": "ph-harness-by-autonomous-2-2026-10-17",
+      "title": "Harness by Autonomous",
+      "category": "launches",
+      "source": "producthunt",
+      "url": "https://www.autonomous.ai/harness",
+      "source_url": "https://www.producthunt.com/products/harness-by-autonomous",
+      "source_text": "Harness by Autonomous Every coding agent, every machine, one command center. Harness is the open-source command center for coding agents. Claude Code at work, Codex at home, Hermes in the cloud: every agent on every machine, side by side. Use the native desktop app, hn in your terminal, or the iOS and Android app to answer agents by voice. End-to-end encrypted. Then go beyond code with 49 harnesses for CAD, circuits, robots, games and music. Free on Mac and Linux. Open Source Developer Tools Artificial Intelligence GitHub",
+      "signals": {
+        "upvotes": 326,
+        "comments": 27
+      },
+      "published_at": "2026-10-16T07:01:00Z"
+    },
+    {
+      "id": "ph-signwith-2026-10-17",
+      "title": "SignWith",
+      "category": "launches",
+      "source": "producthunt",
+      "url": "https://signwith.co/",
+      "source_url": "https://www.producthunt.com/products/signwith",
+      "source_text": "SignWith E-signatures without the subscription. Pay per doc. Sign 3 documents free every month, then buy one-time credit packs from $9. Every account gets signing order, email OTP verification, audit trail and certificate of completion. Send from the app, the API, or AI assistants like Claude and ChatGPT using the MCP. Productivity SaaS Legal",
+      "signals": {
+        "upvotes": 211,
+        "comments": 35
+      },
+      "published_at": "2026-10-16T07:01:00Z"
+    },
+    {
+      "id": "ph-pomerado-2026-10-17",
+      "title": "Pomerado",
+      "category": "launches",
+      "source": "producthunt",
+      "url": "https://pomerado.ai",
+      "source_url": "https://www.producthunt.com/products/pomerado",
+      "source_text": "Pomerado Turn any website into an API; Faster & reliable browser use Pomerado turns any website into a MCP / API in minutes. Automate everything by turning previously inaccessible websites (like Google Flights, Zillow, Instacart, legacy portals) into native tools for your agents. Our open-source tool builds, hosts, authenticates, and maintains your integrations, so you can focus on building. API Developer Tools Artificial Intelligence GitHub",
+      "signals": {
+        "upvotes": 170,
+        "comments": 17
+      },
+      "published_at": "2026-10-16T07:01:00Z"
+    },
+    {
+      "id": "hn-show-hn-gemini-4-argon-plays-starcraft-2026-10-17",
+      "title": "Show HN: Gemini 4 Argon plays StarCraft",
+      "category": "launches",
+      "source": "hackernews",
+      "url": "https://starskirmish.com/bench/v0-2/",
+      "source_url": "https://news.ycombinator.com/item?id=50118688",
+      "source_text": "Show HN: Gemini 4 Argon plays StarCraft",
+      "signals": {
+        "points": 216,
+        "comments": 97
+      },
+      "meta": {
+        "author": "__cayenne__"
+      },
+      "published_at": "2026-10-16T14:18:44Z"
+    },
+    {
+      "id": "gh-xerj-2026-10-17",
+      "title": "xerj-org/xerj",
+      "category": "repos",
+      "source": "github",
+      "url": "https://github.com/xerj-org/xerj",
+      "source_url": "https://github.com/xerj-org/xerj",
+      "source_text": "xerj-org/xerj XERJ is the new way for AI to search data. Its autoindex capability activates agents to know your data without the token waste of grep and sed. One command indexes code, docs, logs and PDFs for search, RAG, security audits and agent memory, using 40x fewer tokens than grep. Elasticsearch compatible, so existing clients just work. Rust",
+      "signals": {
+        "stars": 7196,
+        "stars_gained": 1648,
+        "forks": 369
+      },
+      "meta": {
+        "language": "Rust"
+      }
+    },
+    {
+      "id": "gh-claude-plugins-official-2026-10-17",
+      "title": "anthropics/claude-plugins-official",
+      "category": "repos",
+      "source": "github",
+      "url": "https://github.com/anthropics/claude-plugins-official",
+      "source_url": "https://github.com/anthropics/claude-plugins-official",
+      "source_text": "anthropics/claude-plugins-official Official, Anthropic-managed directory of high quality Claude Code Plugins. Python",
+      "signals": {
+        "stars": 40949,
+        "stars_gained": 1552,
+        "forks": 4423
+      },
+      "meta": {
+        "language": "Python"
+      }
+    },
+    {
+      "id": "gh-scientific-agent-skills-2026-10-17",
+      "title": "K-Dense-AI/scientific-agent-skills",
+      "category": "repos",
+      "source": "github",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "source_text": "K-Dense-AI/scientific-agent-skills Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard. Python",
+      "signals": {
+        "stars": 51771,
+        "stars_gained": 1158,
+        "forks": 4585
+      },
+      "meta": {
+        "language": "Python"
+      }
+    },
+    {
+      "id": "gh-ecc-2026-10-17",
+      "title": "affaan-m/ECC",
+      "category": "repos",
+      "source": "github",
+      "url": "https://github.com/affaan-m/ECC",
+      "source_url": "https://github.com/affaan-m/ECC",
+      "source_text": "affaan-m/ECC The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond. JavaScript",
+      "signals": {
+        "stars": 281762,
+        "stars_gained": 1057,
+        "forks": 41896
+      },
+      "meta": {
+        "language": "JavaScript"
+      }
+    },
+    {
+      "id": "gh-superpowers-2026-10-17",
+      "title": "obra/superpowers",
+      "category": "repos",
+      "source": "github",
+      "url": "https://github.com/obra/superpowers",
+      "source_url": "https://github.com/obra/superpowers",
+      "source_text": "obra/superpowers An agentic skills framework & software development methodology that works. Shell",
+      "signals": {
+        "stars": 300858,
+        "stars_gained": 973,
+        "forks": 26857
+      },
+      "meta": {
+        "language": "Shell"
+      }
+    },
+    {
+      "id": "gh-ai-job-search-2026-10-17",
+      "title": "MadsLorentzen/ai-job-search",
+      "category": "repos",
+      "source": "github",
+      "url": "https://github.com/MadsLorentzen/ai-job-search",
+      "source_url": "https://github.com/MadsLorentzen/ai-job-search",
+      "source_text": "MadsLorentzen/ai-job-search The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it. Python",
+      "signals": {
+        "stars": 48920,
+        "stars_gained": 898,
+        "forks": 16702
+      },
+      "meta": {
+        "language": "Python"
+      }
+    },
+    {
+      "id": "gh-ruflo-2026-10-17",
+      "title": "ruvnet/ruflo",
+      "category": "repos",
+      "source": "github",
+      "url": "https://github.com/ruvnet/ruflo",
+      "source_url": "https://github.com/ruvnet/ruflo",
+      "source_text": "ruvnet/ruflo 🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, federation, vector RAG integration, and native Claude Code / Codex / Hermes and many more Integrated TypeScript",
+      "signals": {
+        "stars": 75746,
+        "stars_gained": 672,
+        "forks": 8973
+      },
+      "meta": {
+        "language": "TypeScript"
+      }
+    },
+    {
+      "id": "gh-context-mode-2026-10-17",
+      "title": "mksglu/context-mode",
+      "category": "repos",
+      "source": "github",
+      "url": "https://github.com/mksglu/context-mode",
+      "source_url": "https://github.com/mksglu/context-mode",
+      "source_text": "mksglu/context-mode Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks. TypeScript",
+      "signals": {
+        "stars": 30342,
+        "stars_gained": 449,
+        "forks": 2156
+      },
+      "meta": {
+        "language": "TypeScript"
+      }
+    },
+    {
+      "id": "tc-replit-is-no-longer-working-with-anthropic-ceo-2026-10-17",
+      "title": "Replit is no longer working with Anthropic, CEO says",
+      "category": "news",
+      "source": "techcrunch",
+      "url": "https://techcrunch.com/2026/10/16/replit-is-no-longer-working-with-anthropic-ceo-says/",
+      "source_url": "https://techcrunch.com/2026/10/16/replit-is-no-longer-working-with-anthropic-ceo-says/",
+      "source_text": "Replit is no longer working with Anthropic, CEO says Masad said the decision was made for a number of different reasons, including cost. Replit announced a partnership with OpenAI in August, but there was never any indication that it was no longer with Anthropic.",
+      "meta": {
+        "author": "Lucas Ropek",
+        "reading_time": "3 minutes"
+      },
+      "published_at": "2026-10-16T21:22:28Z"
+    },
+    {
+      "id": "tc-elorians-first-ai-model-wants-to-reason-with-2026-10-17",
+      "title": "Elorian’s first AI model wants to reason with images, not just about them",
+      "category": "news",
+      "source": "techcrunch",
+      "url": "https://techcrunch.com/2026/10/16/elorians-first-ai-model-wants-to-reason-with-images-not-just-about-them/",
+      "source_url": "https://techcrunch.com/2026/10/16/elorians-first-ai-model-wants-to-reason-with-images-not-just-about-them/",
+      "source_text": "Elorian’s first AI model wants to reason with images, not just about them According to Elorian's evaluations, Glimpse outperforms even GPT-6 Astra on scientific chart reasoning and short-form video captioning, with competitive results on other visual reasoning tasks. ",
+      "meta": {
+        "author": "Aditya Mehta",
+        "reading_time": "3 minutes"
+      },
+      "published_at": "2026-10-16T16:01:37Z"
+    },
+    {
+      "id": "tc-india-becomes-the-latest-country-to-report-2026-10-17",
+      "title": "India becomes the latest country to report rogue AI agent activity",
+      "category": "news",
+      "source": "techcrunch",
+      "url": "https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/",
+      "source_url": "https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/",
+      "source_text": "India becomes the latest country to report rogue AI agent activity The agents got in through credentials and connection settings left exposed in app configurations, public code repositories, and overly permissive cloud roles.",
+      "meta": {
+        "author": "Aditya Mehta",
+        "reading_time": "2 minutes"
+      },
+      "published_at": "2026-10-16T17:52:24Z"
+    },
+    {
+      "id": "tc-physical-ai-is-more-than-robots-says-the-nvidia-2026-10-17",
+      "title": "Physical AI is more than robots, says the Nvidia veteran now investing in it",
+      "category": "news",
+      "source": "techcrunch",
+      "url": "https://techcrunch.com/podcast/physical-ai-is-more-than-robots-says-the-nvidia-veteran-now-investing-in-it/",
+      "source_url": "https://techcrunch.com/podcast/physical-ai-is-more-than-robots-says-the-nvidia-veteran-now-investing-in-it/",
+      "source_text": "Physical AI is more than robots, says the Nvidia veteran now investing in it Techable VC founder and former Nvidia exec Amulya Vishwanath tells Equity why robotics’ ChatGPT moment can wait, and why the real opportunity is rebuilding its basic building blocks.",
+      "meta": {
+        "reading_time": "2 minutes"
+      },
+      "published_at": "2026-10-16T16:30:00Z"
+    },
+    {
+      "id": "tc-an-nvidia-insider-turned-vc-on-why-robotics-2026-10-17",
+      "title": "An Nvidia insider-turned-VC on why robotics hasn’t hit its ChatGPT moment, yet",
+      "category": "news",
+      "source": "techcrunch",
+      "url": "https://techcrunch.com/video/a-nvidia-insider-turned-vc-on-why-robotics-hasnt-hit-its-chatgpt-moment-yet/",
+      "source_url": "https://techcrunch.com/video/a-nvidia-insider-turned-vc-on-why-robotics-hasnt-hit-its-chatgpt-moment-yet/",
+      "source_text": "An Nvidia insider-turned-VC on why robotics hasn’t hit its ChatGPT moment, yet Watch as Techable VC founder and former Nvidia exec Amulya Vishwanath tells Equity why robotics’ ChatGPT moment can wait, and why the real opportunity is rebuilding its basic building blocks.",
+      "meta": {
+        "reading_time": "2 minutes"
+      },
+      "published_at": "2026-10-16T16:30:00Z"
+    },
+    {
+      "id": "tc-jev-is-vercels-fastest-adopted-ai-model-ever-2026-10-17",
+      "title": "Jev is Vercel’s fastest-adopted AI model ever",
+      "category": "news",
+      "source": "techcrunch",
+      "url": "https://techcrunch.com/2026/10/16/jev-is-vercels-fastest-adopted-ai-model-ever/",
+      "source_url": "https://techcrunch.com/2026/10/16/jev-is-vercels-fastest-adopted-ai-model-ever/",
+      "source_text": "Jev is Vercel’s fastest-adopted AI model ever The data comes from Vercel's AI gateway, a unified API service similar to OpenRouter.",
+      "meta": {
+        "author": "Russell Brandom",
+        "reading_time": "2 minutes"
+      },
+      "published_at": "2026-10-16T15:33:49Z"
+    },
+    {
+      "id": "tc-mark-wahlberg-on-using-ai-in-film-the-right-way-2026-10-17",
+      "title": "Mark Wahlberg on using AI in film ‘the right way’ and being open to an AI clone carrying on his legacy",
+      "category": "news",
+      "source": "techcrunch",
+      "url": "https://techcrunch.com/2026/10/16/mark-wahlberg-on-using-ai-in-film-the-right-way-and-being-open-to-an-ai-clone-carrying-on-his-legacy/",
+      "source_url": "https://techcrunch.com/2026/10/16/mark-wahlberg-on-using-ai-in-film-the-right-way-and-being-open-to-an-ai-clone-carrying-on-his-legacy/",
+      "source_text": "Mark Wahlberg on using AI in film ‘the right way’ and being open to an AI clone carrying on his legacy Actor and angel investor Mark Wahlberg says he's OK with using AI in filmmaking, provided it's used \"to enhance what you're doing.\"",
+      "meta": {
+        "author": "Aisha Malik",
+        "reading_time": "3 minutes"
+      },
+      "published_at": "2026-10-16T14:26:51Z"
+    },
+    {
+      "id": "tc-veritas-expands-its-anti-counterfeit-chip-to-2026-10-17",
+      "title": "Veritas expands its anti-counterfeit chip to jewelry, trophies, and fragrance bottles",
+      "category": "news",
+      "source": "techcrunch",
+      "url": "https://techcrunch.com/2026/10/16/veritas-is-building-a-chip-to-verify-luxury-goods/",
+      "source_url": "https://techcrunch.com/2026/10/16/veritas-is-building-a-chip-to-verify-luxury-goods/",
+      "source_text": "Veritas expands its anti-counterfeit chip to jewelry, trophies, and fragrance bottles Counterfeiters are getting better at replicating brands' marks and passing off dupes, known as \"superfakes,\" as genuine items. A startup called Veritas wants to tackle the problem with its own chip that verifies goods.",
+      "meta": {
+        "author": "Ivan Mehta",
+        "reading_time": "3 minutes"
+      },
+      "published_at": "2026-10-16T14:00:00Z"
+    },
+    {
+      "id": "tc-replits-ceo-says-the-future-of-work-is-the-self-2026-10-17",
+      "title": "Replit’s CEO says the future of work is the ‘self-driving company’",
+      "category": "news",
+      "source": "techcrunch",
+      "url": "https://techcrunch.com/2026/10/16/replits-ceo-says-the-future-of-work-is-the-self-driving-company/",
+      "source_url": "https://techcrunch.com/2026/10/16/replits-ceo-says-the-future-of-work-is-the-self-driving-company/",
+      "source_text": "Replit’s CEO says the future of work is the ‘self-driving company’ Replit CEO Amjad Masad envisions a future of “self-driving companies,” where AI agents handle day-to-day tasks and people focus on higher-level decisions.",
+      "meta": {
+        "author": "Sarah Perez",
+        "reading_time": "3 minutes"
+      },
+      "published_at": "2026-10-16T12:55:09Z"
+    },
+    {
+      "id": "hn-claude-reveals-ecdsa-curve-origins-2026-10-17",
+      "title": "Claude reveals ECDSA curve origins",
+      "category": "hn",
+      "source": "hackernews",
+      "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
+      "source_url": "https://news.ycombinator.com/item?id=50122800",
+      "source_text": "Claude reveals ECDSA curve origins",
+      "signals": {
+        "points": 840,
+        "comments": 315
+      },
+      "meta": {
+        "author": "ahlCVA"
+      },
+      "published_at": "2026-10-16T18:55:59Z"
+    },
+    {
+      "id": "hn-90-of-us-working-hours-are-spent-on-tasks-not-2026-10-17",
+      "title": "90% of US working hours are spent on tasks not covered well by AI benchmarks",
+      "category": "hn",
+      "source": "hackernews",
+      "url": "https://www.mercor.com/research/labor-index/benchmark-map/",
+      "source_url": "https://news.ycombinator.com/item?id=50121179",
+      "source_text": "90% of US working hours are spent on tasks not covered well by AI benchmarks",
+      "signals": {
+        "points": 486,
+        "comments": 408
+      },
+      "meta": {
+        "author": "speckx"
+      },
+      "published_at": "2026-10-16T17:08:38Z"
+    },
+    {
+      "id": "hn-how-the-claude-code-team-does-code-review-2026-10-17",
+      "title": "How the Claude Code team does code review",
+      "category": "hn",
+      "source": "hackernews",
+      "url": "https://claude.dev/blog/solving-code-review-at-anthropic/",
+      "source_url": "https://news.ycombinator.com/item?id=50122951",
+      "source_text": "How the Claude Code team does code review",
+      "signals": {
+        "points": 325,
+        "comments": 302
+      },
+      "meta": {
+        "author": "pretext"
+      },
+      "published_at": "2026-10-16T19:04:47Z"
+    },
+    {
+      "id": "hn-llama-cpp-on-a-jailbroken-ps5-run-any-gguf-2026-10-17",
+      "title": "Llama.cpp on a jailbroken PS5: run any GGUF model natively on the console",
+      "category": "hn",
+      "source": "hackernews",
+      "url": "https://github.com/cobanov/PS5LM",
+      "source_url": "https://news.ycombinator.com/item?id=50122431",
+      "source_text": "Llama.cpp on a jailbroken PS5: run any GGUF model natively on the console",
+      "signals": {
+        "points": 272,
+        "comments": 66
+      },
+      "meta": {
+        "author": "Anon84"
+      },
+      "published_at": "2026-10-16T18:32:35Z"
+    },
+    {
+      "id": "hn-you-could-have-invented-transformers-from-memory-2026-10-17",
+      "title": "You could have invented transformers from memory",
+      "category": "hn",
+      "source": "hackernews",
+      "url": "https://alexwang.ai/posts/associative-memory/",
+      "source_url": "https://news.ycombinator.com/item?id=50122878",
+      "source_text": "You could have invented transformers from memory",
+      "signals": {
+        "points": 271,
+        "comments": 64
+      },
+      "meta": {
+        "author": "speckx"
+      },
+      "published_at": "2026-10-16T19:01:17Z"
+    },
+    {
+      "id": "hn-anthropic-assigned-highest-junk-credit-rating-2026-10-17",
+      "title": "Anthropic assigned highest junk credit rating in June",
+      "category": "hn",
+      "source": "hackernews",
+      "url": "https://www.ft.com/content/5a310aee-f555-4266-874c-b1b4db20186d",
+      "source_url": "https://news.ycombinator.com/item?id=50122112",
+      "source_text": "Anthropic assigned highest junk credit rating in June",
+      "signals": {
+        "points": 247,
+        "comments": 75
+      },
+      "meta": {
+        "author": "JumpCrisscross"
+      },
+      "published_at": "2026-10-16T18:11:42Z"
+    },
+    {
+      "id": "hn-postgres-19-delayed-after-ai-reviewers-find-2026-10-17",
+      "title": "Postgres 19 delayed after AI reviewers find more bugs than humans can fix",
+      "category": "hn",
+      "source": "hackernews",
+      "url": "https://www.theregister.com/databases/2026/10/16/postgres-19-delayed-after-ai-reviewers-find-more-bugs-than-humans-can-fix/5303471",
+      "source_url": "https://news.ycombinator.com/item?id=50119991",
+      "source_text": "Postgres 19 delayed after AI reviewers find more bugs than humans can fix",
+      "signals": {
+        "points": 197,
+        "comments": 77
+      },
+      "meta": {
+        "author": "magoghm"
+      },
+      "published_at": "2026-10-16T15:55:40Z"
+    },
+    {
+      "id": "hn-designing-more-efficient-quantum-circuits-with-2026-10-17",
+      "title": "Designing more efficient quantum circuits with Claude",
+      "category": "hn",
+      "source": "hackernews",
+      "url": "https://www.anthropic.com/research/designing-efficient-quantum-circuits",
+      "source_url": "https://news.ycombinator.com/item?id=50121939",
+      "source_text": "Designing more efficient quantum circuits with Claude",
+      "signals": {
+        "points": 133,
+        "comments": 31
+      },
+      "meta": {
+        "author": "pretext"
+      },
+      "published_at": "2026-10-16T18:00:18Z"
+    },
+    {
+      "id": "hn-artificial-intelligence-is-capitalism-s-final-2026-10-17",
+      "title": "Artificial intelligence is capitalism's final destination",
+      "category": "hn",
+      "source": "hackernews",
+      "url": "https://www.equator.org/articles/arundhati-roy-artificial-intelligence",
+      "source_url": "https://news.ycombinator.com/item?id=50117382",
+      "source_text": "Artificial intelligence is capitalism's final destination",
+      "signals": {
+        "points": 111,
+        "comments": 122
+      },
+      "meta": {
+        "author": "tirumaraiselvan"
+      },
+      "published_at": "2026-10-16T12:08:40Z"
+    }
+  ]
+}
