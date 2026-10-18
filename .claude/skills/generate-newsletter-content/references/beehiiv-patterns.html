@@ -48,16 +48,25 @@ anything, including the trailing (HackerNews) and (ProductHunt) links.
   </tr>
 </table>
 
-<!-- ═══ PATTERN: intro block (greeting / welcome + hook / storyline / this week) ═══ -->
+<!-- ═══ PATTERN: intro block (greeting / welcome + hook / storyline / in this issue) ═══ -->
 <!-- The greeting line is fixed copy, and it renders in ink (#191C26), not body grey.
      No comment/upvote/star counts anywhere in the intro. No "Let's dive in." - the
-     This week line is the closer. A spotlight intro (see SKILL.md) repeats the
+     "In this issue" table of contents is the closer. A spotlight intro (see SKILL.md) repeats the
      middle <p> style for each of its paragraphs. -->
 <div style="border:1px solid #E4E4DC;border-radius:14px;background-color:#FFFFFF;padding:20px 22px;margin-bottom:18px;">
   <p style="padding:0;margin:0 0 14px 0;font-family:'Instrument Sans',Helvetica,Arial,sans-serif;font-size:15.5px;line-height:1.65;color:#191C26;">Hello, builders 👋</p>
   <p style="padding:0;margin:0 0 14px 0;font-family:'Instrument Sans',Helvetica,Arial,sans-serif;font-size:15.5px;line-height:1.65;color:#3A3E4A;">Welcome back to your weekly dose of AI Bytes. {{INTRO_HOOK}}</p>
   <p style="padding:0;margin:0 0 14px 0;font-family:'Instrument Sans',Helvetica,Arial,sans-serif;font-size:15.5px;line-height:1.65;color:#3A3E4A;"><b style="color:#191C26;">{{INTRO_STORYLINE_LEAD}}</b>: {{INTRO_STORYLINE}}</p>
-  <p style="padding:0;margin:0;font-family:'Instrument Sans',Helvetica,Arial,sans-serif;font-size:15.5px;line-height:1.65;color:#3A3E4A;"><b style="color:#191C26;">This week:</b> {{INTRO_TODAY}}</p>
+  <p style="padding:0;margin:0 0 4px 0;font-family:'Instrument Sans',Helvetica,Arial,sans-serif;font-size:15.5px;line-height:1.65;font-weight:700;color:#191C26;">In this issue</p>
+  <!-- One <tr> per section, in reading order: marker, name, what it holds. Not links.
+       The hairline sits on each row's cells; the last row omits it. -->
+  <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation" style="border-collapse:collapse;border-top:1px solid #E4E4DC;">
+    <tr>
+      <td width="40" style="padding:5px 10px 5px 0;border-bottom:1px solid #E4E4DC;font-family:'JetBrains Mono',Menlo,Consolas,monospace;font-size:10.5px;font-weight:500;color:#6B7080;white-space:nowrap;">{{MARKER}}</td>
+      <td style="padding:5px 0;border-bottom:1px solid #E4E4DC;font-family:'Instrument Sans',Helvetica,Arial,sans-serif;font-size:13.5px;line-height:1.5;font-weight:500;color:#3A3E4A;">{{SECTION_NAME}}</td>
+      <td align="right" style="padding:5px 0 5px 10px;border-bottom:1px solid #E4E4DC;font-family:'JetBrains Mono',Menlo,Consolas,monospace;font-size:11px;color:#6B7080;white-space:nowrap;">{{WHAT_IT_HOLDS}}</td>
+    </tr>
+  </table>
 </div>
 
 <!-- ═══ PATTERN: My Favourite Picks (title line + description line) ═══ -->
