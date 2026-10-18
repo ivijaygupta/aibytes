@@ -1,0 +1,617 @@
+{
+  "date": "2026-10-18",
+  "generated_at": "2026-10-18T08:00:22Z",
+  "instructions": "Write one line per item in the aiBytes_ voice - dense, calm, honest, technical. Say what the thing does, not why it matters. At most 200 characters, one sentence, no em dashes. Then pick 1 to 4 tags per item from `tags` below, by their exact display name. Answer with the summaries file described in the curate-edition skill.",
+  "tags": [
+    {
+      "name": "What it is",
+      "tags": [
+        {
+          "name": "Model Release",
+          "slug": "model-release"
+        },
+        {
+          "name": "Open Source",
+          "slug": "open-source"
+        },
+        {
+          "name": "Paper",
+          "slug": "paper"
+        },
+        {
+          "name": "Benchmark",
+          "slug": "benchmark"
+        },
+        {
+          "name": "Dataset",
+          "slug": "dataset"
+        },
+        {
+          "name": "Framework",
+          "slug": "framework"
+        },
+        {
+          "name": "Dev Tool",
+          "slug": "dev-tool"
+        },
+        {
+          "name": "API",
+          "slug": "api"
+        }
+      ]
+    },
+    {
+      "name": "Domain",
+      "tags": [
+        {
+          "name": "LLM",
+          "slug": "llm"
+        },
+        {
+          "name": "Agents",
+          "slug": "agents"
+        },
+        {
+          "name": "RAG",
+          "slug": "rag"
+        },
+        {
+          "name": "Fine-tuning",
+          "slug": "fine-tuning"
+        },
+        {
+          "name": "Inference",
+          "slug": "inference"
+        },
+        {
+          "name": "Local LLM",
+          "slug": "local-llm"
+        },
+        {
+          "name": "Vision",
+          "slug": "vision"
+        },
+        {
+          "name": "Voice / Speech",
+          "slug": "voice-speech"
+        },
+        {
+          "name": "Video",
+          "slug": "video"
+        },
+        {
+          "name": "Image Gen",
+          "slug": "image-gen"
+        },
+        {
+          "name": "Code Gen",
+          "slug": "code-gen"
+        },
+        {
+          "name": "Embeddings",
+          "slug": "embeddings"
+        },
+        {
+          "name": "Eval",
+          "slug": "eval"
+        },
+        {
+          "name": "Reasoning",
+          "slug": "reasoning"
+        },
+        {
+          "name": "Multimodal",
+          "slug": "multimodal"
+        },
+        {
+          "name": "Robotics",
+          "slug": "robotics"
+        }
+      ]
+    },
+    {
+      "name": "Ecosystem",
+      "tags": [
+        {
+          "name": "OpenAI",
+          "slug": "openai"
+        },
+        {
+          "name": "Anthropic",
+          "slug": "anthropic"
+        },
+        {
+          "name": "Google",
+          "slug": "google"
+        },
+        {
+          "name": "Meta",
+          "slug": "meta"
+        },
+        {
+          "name": "Nvidia",
+          "slug": "nvidia"
+        },
+        {
+          "name": "Hugging Face",
+          "slug": "hugging-face"
+        },
+        {
+          "name": "Mistral",
+          "slug": "mistral"
+        },
+        {
+          "name": "xAI",
+          "slug": "xai"
+        },
+        {
+          "name": "Apple",
+          "slug": "apple"
+        },
+        {
+          "name": "Microsoft",
+          "slug": "microsoft"
+        },
+        {
+          "name": "Claude Code",
+          "slug": "claude-code"
+        },
+        {
+          "name": "Cursor",
+          "slug": "cursor"
+        },
+        {
+          "name": "MCP",
+          "slug": "mcp"
+        }
+      ]
+    },
+    {
+      "name": "Business",
+      "tags": [
+        {
+          "name": "Funding",
+          "slug": "funding"
+        },
+        {
+          "name": "Acquisition",
+          "slug": "acquisition"
+        },
+        {
+          "name": "Launch",
+          "slug": "launch"
+        },
+        {
+          "name": "Pricing",
+          "slug": "pricing"
+        },
+        {
+          "name": "Policy",
+          "slug": "policy"
+        },
+        {
+          "name": "Legal",
+          "slug": "legal"
+        },
+        {
+          "name": "Security",
+          "slug": "security"
+        },
+        {
+          "name": "Privacy",
+          "slug": "privacy"
+        },
+        {
+          "name": "Safety",
+          "slug": "safety"
+        }
+      ]
+    },
+    {
+      "name": "Format",
+      "tags": [
+        {
+          "name": "Show HN",
+          "slug": "show-hn"
+        },
+        {
+          "name": "Tutorial",
+          "slug": "tutorial"
+        },
+        {
+          "name": "Deep Dive",
+          "slug": "deep-dive"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "ph-nitrostack-2026-10-18",
+      "title": "NitroStack",
+      "category": "launches",
+      "source": "producthunt",
+      "url": "https://nitrostack.ai/",
+      "source_url": "https://www.producthunt.com/products/nitrostack",
+      "source_text": "NitroStack Build, test, and deploy MCP servers in one place NitroStack is the full-stack platform for building production-ready MCP servers and AI apps. Build with open-source TypeScript & Python SDKs, test and debug visually in NitroStack Studio, orchestrate agent workflows with NitroStack Workflow, deploy on NitroStack Cloud, and ship branded experiences with NitroStack Chat. Auth, testing, deployment and frontend stay in one workflow. Connect to ChatGPT, Claude and other AI clients. Powering 80,000+ MCP servers. Open Source Developer Tools Artificial Intelligence GitHub",
+      "signals": {
+        "upvotes": 293,
+        "comments": 28
+      },
+      "published_at": "2026-10-17T07:01:00Z"
+    },
+    {
+      "id": "ph-notion-context-for-your-agents-2026-10-18",
+      "title": "Notion: Context for your agents",
+      "category": "launches",
+      "source": "producthunt",
+      "url": "https://notion.so",
+      "source_url": "https://www.producthunt.com/products/notion",
+      "source_text": "Notion: Context for your agents Switch AI agents without re-explaining your work Notion 3.8 turns your workspace into the shared context layer for every AI agent your team uses. Unlike chat tools that start from zero each time you switch models, Notion keeps your docs, databases, and Skills in one place any MCP agent can read and update. Connect Claude, ChatGPT, or any MCP agent, plug Notion Agents into 150+ tools, sync Skills everywhere with the new Skills API, and see every agent edit in upgraded version history. Plus column permissions and rebuilt synced databases. Productivity Artificial Intelligence Notion",
+      "signals": {
+        "upvotes": 176,
+        "comments": 5
+      },
+      "published_at": "2026-10-17T07:01:00Z"
+    },
+    {
+      "id": "ph-emochi-2-2026-10-18",
+      "title": "Emochi",
+      "category": "launches",
+      "source": "producthunt",
+      "url": "https://apps.apple.com/app/emochi-voice-journal-diary/id6778995401?at=1000l6eA",
+      "source_url": "https://www.producthunt.com/products/emochi-2",
+      "source_text": "Emochi Voice journal to understand yourself through art and science Emochi turns your voice notes into a living, generative character that reflects your emotional world. Vent about your day, untangle a thought, or check in with yourself. Your words are transcribed instantly, helping you notice patterns in how you feel. Built by a doctor, a designer, and two AI engineers, Emochi brings affective science and playful art to private, non-clinical self-reflection. Start with a voice note. Meet your Mochi. iOS Health & Fitness Artificial Intelligence",
+      "signals": {
+        "upvotes": 157,
+        "comments": 16
+      },
+      "published_at": "2026-10-17T07:01:00Z"
+    },
+    {
+      "id": "ph-train-with-pasta-2026-10-18",
+      "title": "Train with Pasta",
+      "category": "launches",
+      "source": "producthunt",
+      "url": "https://pppasta.com",
+      "source_url": "https://www.producthunt.com/products/train-with-pasta",
+      "source_text": "Train with Pasta A personal trainer powered by Apple Intelligence Pasta is a personal trainer in your pocket. Ask for \"a 30 minute upper body workout\", and it'll build it for you. While you train, the app uses voice as a guide, so you can focus on pushing yourself hard. It does plans too! Tell it what you're training for and it writes a plan around the days you can train. The app runs on Apple Intelligence and needs no account. Your progress and health data stays on your device. Requires an iPhone with Apple Intelligence on iOS 27. iOS Health & Fitness Artificial Intelligence",
+      "signals": {
+        "upvotes": 130,
+        "comments": 4
+      },
+      "published_at": "2026-10-17T07:01:00Z"
+    },
+    {
+      "id": "hn-show-hn-llmspeed-feel-how-fast-a-local-llm-runs-2026-10-18",
+      "title": "Show HN: Llmspeed – feel how fast a local LLM runs before you buy the hardware",
+      "category": "launches",
+      "source": "hackernews",
+      "url": "https://llmspeed.dev/",
+      "source_url": "https://news.ycombinator.com/item?id=50127979",
+      "source_text": "Show HN: Llmspeed – feel how fast a local LLM runs before you buy the hardware",
+      "signals": {
+        "points": 283,
+        "comments": 81
+      },
+      "meta": {
+        "author": "albinstman"
+      },
+      "published_at": "2026-10-17T04:36:53Z"
+    },
+    {
+      "id": "hn-show-hn-sphinx-a-hook-that-quizzes-you-on-your-2026-10-18",
+      "title": "Show HN: Sphinx – A hook that quizzes you on your AI's code before shipping",
+      "category": "launches",
+      "source": "hackernews",
+      "url": "https://sphinx-six-theta.vercel.app/",
+      "source_url": "https://news.ycombinator.com/item?id=50137950",
+      "source_text": "Show HN: Sphinx – A hook that quizzes you on your AI's code before shipping",
+      "signals": {
+        "points": 94,
+        "comments": 26
+      },
+      "meta": {
+        "author": "critiquebrowser"
+      },
+      "published_at": "2026-10-18T04:33:49Z"
+    },
+    {
+      "id": "gh-claude-plugins-official-2026-10-18",
+      "title": "anthropics/claude-plugins-official",
+      "category": "repos",
+      "source": "github",
+      "url": "https://github.com/anthropics/claude-plugins-official",
+      "source_url": "https://github.com/anthropics/claude-plugins-official",
+      "source_text": "anthropics/claude-plugins-official Official, Anthropic-managed directory of high quality Claude Code Plugins. Python",
+      "signals": {
+        "stars": 42097,
+        "stars_gained": 1397,
+        "forks": 4491
+      },
+      "meta": {
+        "language": "Python"
+      }
+    },
+    {
+      "id": "gh-ai-job-search-2026-10-18",
+      "title": "MadsLorentzen/ai-job-search",
+      "category": "repos",
+      "source": "github",
+      "url": "https://github.com/MadsLorentzen/ai-job-search",
+      "source_url": "https://github.com/MadsLorentzen/ai-job-search",
+      "source_text": "MadsLorentzen/ai-job-search The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it. Python",
+      "signals": {
+        "stars": 51041,
+        "stars_gained": 1365,
+        "forks": 17009
+      },
+      "meta": {
+        "language": "Python"
+      }
+    },
+    {
+      "id": "gh-xerj-2026-10-18",
+      "title": "xerj-org/xerj",
+      "category": "repos",
+      "source": "github",
+      "url": "https://github.com/xerj-org/xerj",
+      "source_url": "https://github.com/xerj-org/xerj",
+      "source_text": "xerj-org/xerj XERJ is the new way for AI to search data. Its autoindex capability activates agents to know your data without the token waste of grep (1974 tool). One command indexes code, docs, logs and PDFs for search, RAG, security audits and agent memory, using 40x fewer tokens than grep. It’s durable and can replace ElasticSearch saving you x10 infra costs. Rust",
+      "signals": {
+        "stars": 8036,
+        "stars_gained": 1160,
+        "forks": 426
+      },
+      "meta": {
+        "language": "Rust"
+      }
+    },
+    {
+      "id": "gh-ecc-2026-10-18",
+      "title": "affaan-m/ECC",
+      "category": "repos",
+      "source": "github",
+      "url": "https://github.com/affaan-m/ECC",
+      "source_url": "https://github.com/affaan-m/ECC",
+      "source_text": "affaan-m/ECC The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond. JavaScript",
+      "signals": {
+        "stars": 282778,
+        "stars_gained": 1145,
+        "forks": 42010
+      },
+      "meta": {
+        "language": "JavaScript"
+      }
+    },
+    {
+      "id": "gh-scientific-agent-skills-2026-10-18",
+      "title": "K-Dense-AI/scientific-agent-skills",
+      "category": "repos",
+      "source": "github",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "source_text": "K-Dense-AI/scientific-agent-skills Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard. Python",
+      "signals": {
+        "stars": 52445,
+        "stars_gained": 878,
+        "forks": 4640
+      },
+      "meta": {
+        "language": "Python"
+      }
+    },
+    {
+      "id": "gh-orca-2026-10-18",
+      "title": "stablyai/orca",
+      "category": "repos",
+      "source": "github",
+      "url": "https://github.com/stablyai/orca",
+      "source_url": "https://github.com/stablyai/orca",
+      "source_text": "stablyai/orca Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime. TypeScript",
+      "signals": {
+        "stars": 95752,
+        "stars_gained": 830,
+        "forks": 6127
+      },
+      "meta": {
+        "language": "TypeScript"
+      }
+    },
+    {
+      "id": "gh-opencode-2026-10-18",
+      "title": "anomalyco/opencode",
+      "category": "repos",
+      "source": "github",
+      "url": "https://github.com/anomalyco/opencode",
+      "source_url": "https://github.com/anomalyco/opencode",
+      "source_text": "anomalyco/opencode The open source coding agent. TypeScript",
+      "signals": {
+        "stars": 215736,
+        "stars_gained": 438,
+        "forks": 28901
+      },
+      "meta": {
+        "language": "TypeScript"
+      }
+    },
+    {
+      "id": "gh-ruflo-2026-10-18",
+      "title": "ruvnet/ruflo",
+      "category": "repos",
+      "source": "github",
+      "url": "https://github.com/ruvnet/ruflo",
+      "source_url": "https://github.com/ruvnet/ruflo",
+      "source_text": "ruvnet/ruflo 🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, federation, vector RAG integration, and native Claude Code / Codex / Hermes and many more Integrated TypeScript",
+      "signals": {
+        "stars": 76215,
+        "stars_gained": 420,
+        "forks": 9012
+      },
+      "meta": {
+        "language": "TypeScript"
+      }
+    },
+    {
+      "id": "gh-claude-code-2026-10-18",
+      "title": "anthropics/claude-code",
+      "category": "repos",
+      "source": "github",
+      "url": "https://github.com/anthropics/claude-code",
+      "source_url": "https://github.com/anthropics/claude-code",
+      "source_text": "anthropics/claude-code Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands. TypeScript",
+      "signals": {
+        "stars": 152142,
+        "stars_gained": 179,
+        "forks": 26942
+      },
+      "meta": {
+        "language": "TypeScript"
+      }
+    },
+    {
+      "id": "gh-ai-memory-2026-10-18",
+      "title": "akitaonrails/ai-memory",
+      "category": "repos",
+      "source": "github",
+      "url": "https://github.com/akitaonrails/ai-memory",
+      "source_url": "https://github.com/akitaonrails/ai-memory",
+      "source_text": "akitaonrails/ai-memory Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors Rust",
+      "signals": {
+        "stars": 10095,
+        "stars_gained": 178,
+        "forks": 728
+      },
+      "meta": {
+        "language": "Rust"
+      }
+    },
+    {
+      "id": "tc-meta-removes-language-that-raised-scraping-and-2026-10-18",
+      "title": "Meta removes language that raised scraping and AI training concerns",
+      "category": "news",
+      "source": "techcrunch",
+      "url": "https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns/",
+      "source_url": "https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns/",
+      "source_text": "Meta removes language that raised scraping and AI training concerns A Meta spokesperson insisted that the updated terms did not reflect a change in the way Meta crawls the web.",
+      "meta": {
+        "author": "Anthony Ha",
+        "reading_time": "1 minute"
+      },
+      "published_at": "2026-10-17T21:31:32Z"
+    },
+    {
+      "id": "tc-anthropic-says-its-workforce-has-become-less-2026-10-18",
+      "title": "Anthropic says its workforce has become less junior and is spending more time in meetings",
+      "category": "news",
+      "source": "techcrunch",
+      "url": "https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings/",
+      "source_url": "https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings/",
+      "source_text": "Anthropic says its workforce has become less junior and is spending more time in meetings The composition of Anthropic’s workforce and the type of work getting done have changed significantly in the past year.",
+      "meta": {
+        "author": "Anthony Ha",
+        "reading_time": "2 minutes"
+      },
+      "published_at": "2026-10-17T20:21:19Z"
+    },
+    {
+      "id": "tc-replit-makes-openai-its-default-over-anthropic-2026-10-18",
+      "title": "Replit makes OpenAI its default over Anthropic, CEO says",
+      "category": "news",
+      "source": "techcrunch",
+      "url": "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/",
+      "source_url": "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/",
+      "source_text": "Replit makes OpenAI its default over Anthropic, CEO says Over the weekend, Masad clarified that OpenAI would replace Anthropic as its default model provider. Claude will still be available to customers on the platform.",
+      "meta": {
+        "author": "Kirsten Korosec, Lucas Ropek, Rebecca Bellan",
+        "reading_time": "3 minutes"
+      },
+      "published_at": "2026-10-17T18:48:08Z"
+    },
+    {
+      "id": "hn-deepseek-v4-1-flash-1017-2026-10-18",
+      "title": "DeepSeek-v4.1-Flash-1017",
+      "category": "hn",
+      "source": "hackernews",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+      "source_url": "https://news.ycombinator.com/item?id=50129045",
+      "source_text": "DeepSeek-v4.1-Flash-1017",
+      "signals": {
+        "points": 830,
+        "comments": 640
+      },
+      "meta": {
+        "author": "theykk"
+      },
+      "published_at": "2026-10-17T08:21:25Z"
+    },
+    {
+      "id": "hn-deepseek-deepseek-v4-1-flash-1017-2026-10-18",
+      "title": "DeepSeek: DeepSeek v4.1 Flash 1017",
+      "category": "hn",
+      "source": "hackernews",
+      "url": "https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017",
+      "source_url": "https://news.ycombinator.com/item?id=50129121",
+      "source_text": "DeepSeek: DeepSeek v4.1 Flash 1017",
+      "signals": {
+        "points": 514,
+        "comments": 5
+      },
+      "meta": {
+        "author": "theanonymousone"
+      },
+      "published_at": "2026-10-17T08:37:46Z"
+    },
+    {
+      "id": "hn-amazon-uses-ai-to-monitor-union-risk-in-uk-2026-10-18",
+      "title": "Amazon uses AI to monitor union risk in UK warehouses",
+      "category": "hn",
+      "source": "hackernews",
+      "url": "https://www.opendemocracy.net/amazon-ai-surveillance-monitor-union-activity-uk-warehouses-birmingham-coventry-atlas-sutton-coldfield/",
+      "source_url": "https://news.ycombinator.com/item?id=50132278",
+      "source_text": "Amazon uses AI to monitor union risk in UK warehouses",
+      "signals": {
+        "points": 162,
+        "comments": 58
+      },
+      "meta": {
+        "author": "DeepLogin"
+      },
+      "published_at": "2026-10-17T16:04:23Z"
+    },
+    {
+      "id": "hn-openai-discloses-four-more-rogue-incidents-2026-10-18",
+      "title": "OpenAI discloses four more rogue incidents",
+      "category": "hn",
+      "source": "hackernews",
+      "url": "https://fortune.com/2026/10/16/openai-discloses-four-more-rogue-incidents-involving-financial-medical-and-government-data/",
+      "source_url": "https://news.ycombinator.com/item?id=50132502",
+      "source_text": "OpenAI discloses four more rogue incidents",
+      "signals": {
+        "points": 125,
+        "comments": 150
+      },
+      "meta": {
+        "author": "DASD"
+      },
+      "published_at": "2026-10-17T16:31:12Z"
+    },
+    {
+      "id": "hn-deepseek-search-and-fetch-0-75-per-1000-2026-10-18",
+      "title": "DeepSeek search and fetch – $0.75 per 1000 successful requests",
+      "category": "hn",
+      "source": "hackernews",
+      "url": "https://api-docs.deepseek.com/guides/search/",
+      "source_url": "https://news.ycombinator.com/item?id=50138531",
+      "source_text": "DeepSeek search and fetch – $0.75 per 1000 successful requests",
+      "signals": {
+        "points": 78,
+        "comments": 26
+      },
+      "meta": {
+        "author": "fagnerbrack"
+      },
+      "published_at": "2026-10-18T06:50:36Z"
+    }
+  ]
+}

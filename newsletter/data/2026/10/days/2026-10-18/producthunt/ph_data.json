@@ -1,0 +1,654 @@
+{
+  "source": "producthunt",
+  "fetched_at": "2026-10-18",
+  "window": {
+    "postedAfter": "2026-10-17T00:00:00Z",
+    "postedBefore": "2026-10-19T00:00:00Z"
+  },
+  "query_params": {
+    "first": 5,
+    "order": "VOTES",
+    "featured": true
+  },
+  "totalCount": 35,
+  "posts": [
+    {
+      "id": "1273961",
+      "name": "NitroStack",
+      "tagline": "Build, test, and deploy MCP servers in one place",
+      "description": "NitroStack is the full-stack platform for building production-ready MCP servers and AI apps. Build with open-source TypeScript & Python SDKs, test and debug visually in NitroStack Studio, orchestrate agent workflows with NitroStack Workflow, deploy on NitroStack Cloud, and ship branded experiences with NitroStack Chat. Auth, testing, deployment and frontend stay in one workflow. Connect to ChatGPT, Claude and other AI clients. Powering 80,000+ MCP servers.",
+      "slug": "nitrostack",
+      "votesCount": 293,
+      "commentsCount": 28,
+      "reviewsRating": 0.0,
+      "reviewsCount": 0,
+      "dailyRank": 1,
+      "weeklyRank": 9,
+      "url": "https://www.producthunt.com/products/nitrostack?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29",
+      "website": "https://www.producthunt.com/r/NFV7LZ6PHSL5AT?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29",
+      "featuredAt": "2026-10-17T07:01:00Z",
+      "createdAt": "2026-10-17T07:01:00Z",
+      "thumbnail": {
+        "type": "image",
+        "url": "https://ph-files.imgix.net/435e7137-2641-4c1c-98eb-f5b3728fd0a8.jpeg?auto=format"
+      },
+      "media": [
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/5e19b60e-627e-4cba-a56b-afe217d6e2c1.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/d6999149-faab-4e92-b2f1-794a410431ca.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/d7eabaae-2cfd-4af0-8a45-a9683390e918.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/66339e1c-b1de-4ee1-9e4f-8425e07c7d06.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/34bcfa2b-e27e-4be0-83db-7b29743a8bac.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/fdfce722-9caf-4505-8fcc-8d80bf176fe8.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/e94cd481-610f-412a-ae23-b6f145fec426.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/3e3a92aa-b429-45cf-8691-74d9487d122b.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/b50efbf0-c959-4fa2-905b-3c047b473752.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/a0c508dc-a5c1-42e6-82b5-1804db000ec6.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "video",
+          "url": "https://ph-files.imgix.net/7d0d12d7-09f8-4725-b288-779762526990.jpeg?auto=format",
+          "videoUrl": "https://www.youtube.com/watch?v=r8-_bEBRLp0"
+        }
+      ],
+      "productLinks": [
+        {
+          "type": "Twitter",
+          "url": "https://www.producthunt.com/r/SZHM3GB4PZT2HQ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29"
+        },
+        {
+          "type": "Website",
+          "url": "https://www.producthunt.com/r/OURNYU4VO7WMH5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29"
+        },
+        {
+          "type": "Github",
+          "url": "https://www.producthunt.com/r/EFEOWVWFX3X7NO?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29"
+        },
+        {
+          "type": "Website",
+          "url": "https://www.producthunt.com/r/YNPP4UDCEKV3C7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29"
+        },
+        {
+          "type": "Website",
+          "url": "https://www.producthunt.com/r/QVL7QYHK4R4PYM?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29"
+        },
+        {
+          "type": "Twitter",
+          "url": "https://www.producthunt.com/r/DWN3MVY4CTLRC3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29"
+        },
+        {
+          "type": "Website",
+          "url": "https://www.producthunt.com/r/NFV7LZ6PHSL5AT?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29"
+        }
+      ],
+      "topics": {
+        "nodes": [
+          {
+            "name": "Open Source",
+            "slug": "open-source"
+          },
+          {
+            "name": "Developer Tools",
+            "slug": "developer-tools"
+          },
+          {
+            "name": "Artificial Intelligence",
+            "slug": "artificial-intelligence"
+          },
+          {
+            "name": "GitHub",
+            "slug": "github"
+          }
+        ]
+      },
+      "makers": [
+        {
+          "name": "Abhishek Dutta",
+          "username": "abhishek_dutta7",
+          "headline": "Product Manager @NitroStack",
+          "url": "https://www.producthunt.com/@abhishek_dutta7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29",
+          "twitterUsername": null
+        },
+        {
+          "name": "Hemant Jadhav",
+          "username": "webdev_hemant",
+          "headline": "Building the future of AI agents, MCP",
+          "url": "https://www.producthunt.com/@webdev_hemant?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29",
+          "twitterUsername": null
+        },
+        {
+          "name": "Satyam Soni",
+          "username": "satyampsoni",
+          "headline": "AI GTM and DevEx at Nitrostack",
+          "url": "https://www.producthunt.com/@satyampsoni?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29",
+          "twitterUsername": null
+        },
+        {
+          "name": "Sharvari Raut",
+          "username": "sharvari_raut",
+          "headline": "Developer Relations @NitroStack",
+          "url": "https://www.producthunt.com/@sharvari_raut?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29",
+          "twitterUsername": null
+        },
+        {
+          "name": "Pallav Tripathi",
+          "username": "pallav_tripathi",
+          "headline": "Founding Engineer @NitroStack",
+          "url": "https://www.producthunt.com/@pallav_tripathi?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29",
+          "twitterUsername": null
+        },
+        {
+          "name": "Abhijit Tewari",
+          "username": "abhijit_tewari",
+          "headline": "SDET 2 @Nitrostack",
+          "url": "https://www.producthunt.com/@abhijit_tewari?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29",
+          "twitterUsername": null
+        },
+        {
+          "name": "Shubham Singh",
+          "username": "sudo_santoryu",
+          "headline": "Founding Engineer @nitrostack",
+          "url": "https://www.producthunt.com/@sudo_santoryu?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29",
+          "twitterUsername": null
+        },
+        {
+          "name": "Pablo Jimenez",
+          "username": "pmjg108",
+          "headline": "Builder and Investor in AI ",
+          "url": "https://www.producthunt.com/@pmjg108?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29",
+          "twitterUsername": null
+        },
+        {
+          "name": "Abhishek Pandit",
+          "username": "abhishek_pandit5",
+          "headline": "CEO & Founder Nitrostack",
+          "url": "https://www.producthunt.com/@abhishek_pandit5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29",
+          "twitterUsername": null
+        },
+        {
+          "name": "Manish Sharma",
+          "username": "iamsharmanish",
+          "headline": "Founding Engineer @NitroStack",
+          "url": "https://www.producthunt.com/@iamsharmanish?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29",
+          "twitterUsername": null
+        }
+      ],
+      "user": {
+        "name": "Ben Lang",
+        "username": "benln",
+        "headline": "Cursor",
+        "url": "https://www.producthunt.com/@benln?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29"
+      }
+    },
+    {
+      "id": "1278219",
+      "name": "Caldera",
+      "tagline": "Your Obsidian vault as a living profile and linked garden",
+      "description": "Caldera turns your Obsidian vault into a public page that updates itself, and a digital garden of notes you grow in public. Plant a note and it becomes a page marked seedling, budding or evergreen, with a license you choose. Link to a note in a friend's garden and the backlink appears on theirs. Private by default: nothing leaves your vault unless you choose it, and contact details are stripped. Free, open source and self-hostable.",
+      "slug": "caldera",
+      "votesCount": 189,
+      "commentsCount": 22,
+      "reviewsRating": 0.0,
+      "reviewsCount": 0,
+      "dailyRank": 2,
+      "weeklyRank": 24,
+      "url": "https://www.producthunt.com/products/caldera?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29",
+      "website": "https://www.producthunt.com/r/2JSRELYQXYA53W?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29",
+      "featuredAt": "2026-10-17T07:01:00Z",
+      "createdAt": "2026-10-17T07:01:00Z",
+      "thumbnail": {
+        "type": "image",
+        "url": "https://ph-files.imgix.net/9ddfe38e-133a-4257-8d46-60ee70a63150.png?auto=format"
+      },
+      "media": [
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/2c80407b-287d-44aa-9de0-4d61a0f00a9d.jpeg?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/a2c62148-5339-4317-8668-56b5bfba41b0.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/a7a65e63-8043-4afc-b37e-61a1b5d70c8d.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/2a51bfce-1354-4d3d-b5ee-6a396a1628bf.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/b54fb4b7-8ab0-49d4-aa60-6d4d487a98bb.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/121e733a-167e-4ff0-95c9-9d41c4379d71.png?auto=format",
+          "videoUrl": null
+        }
+      ],
+      "productLinks": [
+        {
+          "type": "Github",
+          "url": "https://www.producthunt.com/r/ZJDCFM2ZVRW73L?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29"
+        },
+        {
+          "type": "Website",
+          "url": "https://www.producthunt.com/r/2JSRELYQXYA53W?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29"
+        }
+      ],
+      "topics": {
+        "nodes": [
+          {
+            "name": "Productivity",
+            "slug": "productivity"
+          },
+          {
+            "name": "Notes",
+            "slug": "notes"
+          },
+          {
+            "name": "GitHub",
+            "slug": "github"
+          }
+        ]
+      },
+      "makers": [
+        {
+          "name": "Michael Jones",
+          "username": "mjonesone",
+          "headline": "Mike Jones, CEO",
+          "url": "https://www.producthunt.com/@mjonesone?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29",
+          "twitterUsername": "mjones"
+        }
+      ],
+      "user": {
+        "name": "Michael Jones",
+        "username": "mjonesone",
+        "headline": "Mike Jones, CEO",
+        "url": "https://www.producthunt.com/@mjonesone?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29"
+      }
+    },
+    {
+      "id": "1279890",
+      "name": "Notion: Context for your agents",
+      "tagline": "Switch AI agents without re-explaining your work",
+      "description": "Notion 3.8 turns your workspace into the shared context layer for every AI agent your team uses. Unlike chat tools that start from zero each time you switch models, Notion keeps your docs, databases, and Skills in one place any MCP agent can read and update. Connect Claude, ChatGPT, or any MCP agent, plug Notion Agents into 150+ tools, sync Skills everywhere with the new Skills API, and see every agent edit in upgraded version history. Plus column permissions and rebuilt synced databases.",
+      "slug": "notion-context-for-your-agents",
+      "votesCount": 176,
+      "commentsCount": 5,
+      "reviewsRating": 4.83,
+      "reviewsCount": 1410,
+      "dailyRank": 3,
+      "weeklyRank": 27,
+      "url": "https://www.producthunt.com/products/notion?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29",
+      "website": "https://www.producthunt.com/r/6JUMUPF3NCHFPT?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29",
+      "featuredAt": "2026-10-17T07:01:00Z",
+      "createdAt": "2026-10-17T07:01:00Z",
+      "thumbnail": {
+        "type": "image",
+        "url": "https://ph-files.imgix.net/ff3e2acf-884a-4f4c-a383-6edfe3de0d88.png?auto=format"
+      },
+      "media": [
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/fd5e596d-3937-4c8c-a7c8-e8c8f0d1b7f4.gif?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/4829ffbe-3a44-431e-a633-b01ea77d3228.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/308c1f96-f870-4485-900c-9c8a5f420a06.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/de42a701-fc16-46bc-b690-c77717d7d930.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/69fdcc9b-edd6-4cf7-bf6c-bd2b0afc5b86.png?auto=format",
+          "videoUrl": null
+        }
+      ],
+      "productLinks": [
+        {
+          "type": "Website",
+          "url": "https://www.producthunt.com/r/ZIOP3VQMNOGYFZ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29"
+        },
+        {
+          "type": "Twitter",
+          "url": "https://www.producthunt.com/r/QRLHBWRKSSO2FQ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29"
+        },
+        {
+          "type": "Website",
+          "url": "https://www.producthunt.com/r/6JUMUPF3NCHFPT?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29"
+        },
+        {
+          "type": "Twitter",
+          "url": "https://www.producthunt.com/r/GMV67WG2OOLNFG?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29"
+        }
+      ],
+      "topics": {
+        "nodes": [
+          {
+            "name": "Productivity",
+            "slug": "productivity"
+          },
+          {
+            "name": "Artificial Intelligence",
+            "slug": "artificial-intelligence"
+          },
+          {
+            "name": "Notion",
+            "slug": "notion"
+          }
+        ]
+      },
+      "makers": [
+        {
+          "name": "[REDACTED]",
+          "username": "[REDACTED]",
+          "headline": null,
+          "url": "[REDACTED]",
+          "twitterUsername": null
+        },
+        {
+          "name": "[REDACTED]",
+          "username": "[REDACTED]",
+          "headline": null,
+          "url": "[REDACTED]",
+          "twitterUsername": null
+        },
+        {
+          "name": "Simon Last",
+          "username": "simon_last",
+          "headline": null,
+          "url": "https://www.producthunt.com/@simon_last?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29",
+          "twitterUsername": "simonlast"
+        }
+      ],
+      "user": {
+        "name": "Kate Ramakaieva",
+        "username": "kate_ramakaieva",
+        "headline": "Woman Hunter \ud83e\uddb9\ud83c\udffb\u200d\u2640\ufe0f",
+        "url": "https://www.producthunt.com/@kate_ramakaieva?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29"
+      }
+    },
+    {
+      "id": "1282248",
+      "name": "Emochi",
+      "tagline": "Voice journal to understand yourself through art and science",
+      "description": "Emochi turns your voice notes into a living, generative character that reflects your emotional world. Vent about your day, untangle a thought, or check in with yourself. Your words are transcribed instantly, helping you notice patterns in how you feel. Built by a doctor, a designer, and two AI engineers, Emochi brings affective science and playful art to private, non-clinical self-reflection. Start with a voice note. Meet your Mochi.",
+      "slug": "emochi-2",
+      "votesCount": 157,
+      "commentsCount": 16,
+      "reviewsRating": 0.0,
+      "reviewsCount": 0,
+      "dailyRank": 4,
+      "weeklyRank": 31,
+      "url": "https://www.producthunt.com/products/emochi-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29",
+      "website": "https://www.producthunt.com/r/YAJULXSMGNIKDO?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29",
+      "featuredAt": "2026-10-17T07:01:00Z",
+      "createdAt": "2026-10-17T07:01:00Z",
+      "thumbnail": {
+        "type": "image",
+        "url": "https://ph-files.imgix.net/9a76b94d-5022-4931-ac22-2e629f56fecd.gif?auto=format"
+      },
+      "media": [
+        {
+          "type": "video",
+          "url": "https://ph-files.imgix.net/0abd025c-97f1-46ff-ac87-b59498e3513d.jpeg?auto=format",
+          "videoUrl": "https://youtu.be/46y0sE-sVqw?si=6AyATJa-9G6b5sTz"
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/5affd85e-0b75-4a80-8dca-664fa98185ac.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/46e05612-3ed6-4c0e-b9b2-7167cd8f0e1b.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/9813142a-569d-46b3-9171-cb4b1f8f9058.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/bf63614f-2155-4185-9cc4-ebdfa8fdede2.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/f16dfa17-6725-4023-ac19-97bd89f74b1c.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/93166690-8165-47eb-bba6-015b5a87e755.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/29bb813a-3084-458b-93b0-0d499117630a.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/af48a1eb-ee0b-4199-ade0-efafa48f82bf.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/8465d263-1810-4d45-b369-4eb27b083abf.png?auto=format",
+          "videoUrl": null
+        }
+      ],
+      "productLinks": [
+        {
+          "type": "Play Store",
+          "url": "https://www.producthunt.com/r/CSSUCUMZB56FN4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29"
+        },
+        {
+          "type": "Website",
+          "url": "https://www.producthunt.com/r/IBDM6PS4P6IRYD?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29"
+        },
+        {
+          "type": "App Store",
+          "url": "https://www.producthunt.com/r/YAJULXSMGNIKDO?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29"
+        }
+      ],
+      "topics": {
+        "nodes": [
+          {
+            "name": "iOS",
+            "slug": "ios"
+          },
+          {
+            "name": "Health & Fitness",
+            "slug": "health-fitness"
+          },
+          {
+            "name": "Artificial Intelligence",
+            "slug": "artificial-intelligence"
+          }
+        ]
+      },
+      "makers": [
+        {
+          "name": "[REDACTED]",
+          "username": "[REDACTED]",
+          "headline": null,
+          "url": "[REDACTED]",
+          "twitterUsername": null
+        },
+        {
+          "name": "[REDACTED]",
+          "username": "[REDACTED]",
+          "headline": null,
+          "url": "[REDACTED]",
+          "twitterUsername": null
+        },
+        {
+          "name": "[REDACTED]",
+          "username": "[REDACTED]",
+          "headline": null,
+          "url": "[REDACTED]",
+          "twitterUsername": null
+        },
+        {
+          "name": "Vanessa Tam",
+          "username": "vanessa_tam",
+          "headline": null,
+          "url": "https://www.producthunt.com/@vanessa_tam?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29",
+          "twitterUsername": null
+        }
+      ],
+      "user": {
+        "name": "Nick Zieber",
+        "username": "nzieber",
+        "headline": "Tech & Startups Community in Hong Kong",
+        "url": "https://www.producthunt.com/@nzieber?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29"
+      }
+    },
+    {
+      "id": "1279257",
+      "name": "Train with Pasta",
+      "tagline": "A personal trainer powered by Apple Intelligence",
+      "description": "Pasta is a personal trainer in your pocket. Ask for \"a 30 minute upper body workout\", and it'll build it for you. While you train, the app uses voice as a guide, so you can focus on pushing yourself hard. It does plans too! Tell it what you're training for and it writes a plan around the days you can train. The app runs on Apple Intelligence and needs no account. Your progress and health data stays on your device. Requires an iPhone with Apple Intelligence on iOS 27.",
+      "slug": "train-with-pasta",
+      "votesCount": 130,
+      "commentsCount": 4,
+      "reviewsRating": 0.0,
+      "reviewsCount": 0,
+      "dailyRank": 5,
+      "weeklyRank": 38,
+      "url": "https://www.producthunt.com/products/train-with-pasta?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29",
+      "website": "https://www.producthunt.com/r/RCYFVIP3UANWOT?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29",
+      "featuredAt": "2026-10-17T07:01:00Z",
+      "createdAt": "2026-10-17T07:01:00Z",
+      "thumbnail": {
+        "type": "image",
+        "url": "https://ph-files.imgix.net/5bc5e36c-9f15-48c4-9d90-c8a6f8f89879.png?auto=format"
+      },
+      "media": [
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/3db92606-07c8-4c1d-aae6-5cb1f0c85805.jpeg?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/45b7ad22-bc85-416f-80dd-8da496722f83.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/dc0bd42e-804a-4dac-b76e-11a4f417f09f.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/c97174d6-b47f-4075-a814-f3563b30a0a8.png?auto=format",
+          "videoUrl": null
+        }
+      ],
+      "productLinks": [
+        {
+          "type": "App Store",
+          "url": "https://www.producthunt.com/r/UMLNV5QVYTO2WG?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29"
+        },
+        {
+          "type": "Website",
+          "url": "https://www.producthunt.com/r/RCYFVIP3UANWOT?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29"
+        },
+        {
+          "type": "Twitter",
+          "url": "https://www.producthunt.com/r/VOGNEE4TTE3PVU?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29"
+        }
+      ],
+      "topics": {
+        "nodes": [
+          {
+            "name": "iOS",
+            "slug": "ios"
+          },
+          {
+            "name": "Health & Fitness",
+            "slug": "health-fitness"
+          },
+          {
+            "name": "Artificial Intelligence",
+            "slug": "artificial-intelligence"
+          }
+        ]
+      },
+      "makers": [
+        {
+          "name": "Tim Shim",
+          "username": "timshim",
+          "headline": "Product Lead, iOS Engineer, Wander",
+          "url": "https://www.producthunt.com/@timshim?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29",
+          "twitterUsername": "timshim"
+        }
+      ],
+      "user": {
+        "name": "Tim Shim",
+        "username": "timshim",
+        "headline": "Product Lead, iOS Engineer, Wander",
+        "url": "https://www.producthunt.com/@timshim?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29"
+      }
+    }
+  ]
+}

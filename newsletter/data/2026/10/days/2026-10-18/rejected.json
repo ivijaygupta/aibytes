@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-18",
+  "generated_at": "2026-10-18T08:01:08Z",
+  "counts": {
+    "kept": 24,
+    "rejected": 1
+  },
+  "rejected": [
+    {
+      "id": "ph-caldera-2026-10-18",
+      "source": "producthunt",
+      "title": "Caldera",
+      "url": "https://caldera.social",
+      "reason": "not-ai",
+      "detail": "no AI keyword or domain in the tagline, description or topics"
+    }
+  ]
+}

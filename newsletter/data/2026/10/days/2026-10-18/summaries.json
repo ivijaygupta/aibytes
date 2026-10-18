@@ -1,0 +1,101 @@
+{
+  "date": "2026-10-18",
+  "items": {
+    "ph-nitrostack-2026-10-18": {
+      "summary": "Open-source TypeScript and Python SDKs for MCP servers, plus a visual debugger, workflow orchestration, hosted deploys and a branded chat frontend that connects to ChatGPT and Claude.",
+      "tags": ["Dev Tool", "MCP", "Agents", "Launch"]
+    },
+    "ph-notion-context-for-your-agents-2026-10-18": {
+      "summary": "Notion 3.8 exposes docs, databases and Skills to any MCP agent for read and write, adds a Skills API to sync them across tools, and logs agent edits in version history.",
+      "tags": ["Agents", "MCP", "Launch"]
+    },
+    "ph-emochi-2-2026-10-18": {
+      "summary": "iOS voice journal that transcribes your entries, tracks mood patterns over time, and renders them as a generative character meant for non-clinical self-reflection.",
+      "tags": ["Voice / Speech", "Launch"]
+    },
+    "ph-train-with-pasta-2026-10-18": {
+      "summary": "iOS workout and training-plan builder that runs on-device on Apple Intelligence with voice coaching, no account, and health data kept on the phone; needs iOS 27.",
+      "tags": ["Local LLM", "Apple", "Launch"]
+    },
+    "hn-show-hn-llmspeed-feel-how-fast-a-local-llm-runs-2026-10-18": {
+      "summary": "Web tool that simulates how fast a local LLM generates on a given hardware setup, so you can judge throughput before buying the machine.",
+      "tags": ["Local LLM", "Inference", "Show HN"]
+    },
+    "hn-show-hn-sphinx-a-hook-that-quizzes-you-on-your-2026-10-18": {
+      "summary": "A pre-ship hook that asks you questions about AI-generated code changes, checking you understand them before they go out.",
+      "tags": ["Dev Tool", "Code Gen", "Show HN"]
+    },
+    "gh-claude-plugins-official-2026-10-18": {
+      "summary": "Anthropic's own curated directory of Claude Code plugins, maintained as a GitHub repo.",
+      "tags": ["Claude Code", "Anthropic", "Dev Tool"]
+    },
+    "gh-ai-job-search-2026-10-18": {
+      "summary": "Local, forkable job-application framework on Claude Code that scores postings, tailors CVs, drafts cover letters and preps interviews.",
+      "tags": ["Agents", "Claude Code", "Open Source"]
+    },
+    "gh-xerj-2026-10-18": {
+      "summary": "Rust indexer that auto-indexes code, docs, logs and PDFs for agent search, RAG and memory, pitched as a lower-token grep replacement and an Elasticsearch alternative.",
+      "tags": ["Open Source", "RAG", "Agents"]
+    },
+    "gh-ecc-2026-10-18": {
+      "summary": "Harness layer of skills, memory, security rules and research-first workflows that plugs into Claude Code, Codex, Opencode and Cursor.",
+      "tags": ["Open Source", "Agents", "Claude Code"]
+    },
+    "gh-scientific-agent-skills-2026-10-18": {
+      "summary": "177 Agent Skills plus connectors to 100+ scientific databases across biology, chemistry, medicine and drug discovery, usable from Cursor, Claude Code and Codex.",
+      "tags": ["Open Source", "Agents"]
+    },
+    "gh-orca-2026-10-18": {
+      "summary": "TypeScript workspace for running a fleet of coding agents such as Claude Code on your own subscriptions, across desktop, mobile and a remote runtime.",
+      "tags": ["Open Source", "Agents", "Code Gen"]
+    },
+    "gh-opencode-2026-10-18": {
+      "summary": "An open-source coding agent written in TypeScript.",
+      "tags": ["Open Source", "Code Gen", "Agents"]
+    },
+    "gh-ruflo-2026-10-18": {
+      "summary": "TypeScript orchestration harness for multi-agent swarms with adaptive memory, vector RAG and federation, with integrations for Claude Code, Codex and Hermes.",
+      "tags": ["Open Source", "Agents", "Framework"]
+    },
+    "gh-claude-code-2026-10-18": {
+      "summary": "Anthropic's terminal coding agent: reads the codebase, runs routine tasks, explains code and handles git through natural-language commands.",
+      "tags": ["Claude Code", "Anthropic", "Code Gen"]
+    },
+    "gh-ai-memory-2026-10-18": {
+      "summary": "Rust long-term memory store for coding-agent CLIs, built so context can be handed off between agents from different vendors.",
+      "tags": ["Open Source", "Agents"]
+    },
+    "tc-meta-removes-language-that-raised-scraping-and-2026-10-18": {
+      "summary": "Meta pulled the terms-of-service wording after the concerns, and a spokesperson said the update never reflected a change in how Meta crawls the web.",
+      "tags": ["Meta", "Policy", "Privacy"]
+    },
+    "tc-anthropic-says-its-workforce-has-become-less-2026-10-18": {
+      "summary": "Anthropic reports that both the make-up of its staff and the kind of work they do have shifted significantly over the past year.",
+      "tags": ["Anthropic"]
+    },
+    "tc-replit-makes-openai-its-default-over-anthropic-2026-10-18": {
+      "summary": "CEO Amjad Masad clarified that OpenAI replaces Anthropic as Replit's default model provider, while Claude stays selectable for customers.",
+      "tags": ["OpenAI", "Anthropic", "Code Gen"]
+    },
+    "hn-deepseek-v4-1-flash-1017-2026-10-18": {
+      "summary": "The model card and weights for DeepSeek's V4.1 Flash 1017 checkpoint on Hugging Face; it is also live on OpenRouter.",
+      "tags": ["Model Release", "Open Source", "LLM"]
+    },
+    "hn-deepseek-deepseek-v4-1-flash-1017-2026-10-18": {
+      "summary": "OpenRouter's hosted API listing for DeepSeek V4.1 Flash 1017, the same checkpoint whose weights went up on Hugging Face.",
+      "tags": ["Model Release", "API", "LLM"]
+    },
+    "hn-amazon-uses-ai-to-monitor-union-risk-in-uk-2026-10-18": {
+      "summary": "openDemocracy investigation into AI surveillance Amazon uses to assess union activity at UK warehouses including Birmingham, Coventry and Sutton Coldfield.",
+      "tags": ["Privacy", "Policy"]
+    },
+    "hn-openai-discloses-four-more-rogue-incidents-2026-10-18": {
+      "summary": "Fortune report on four newly disclosed OpenAI incidents of rogue model behaviour, touching financial, medical and government data.",
+      "tags": ["OpenAI", "Safety"]
+    },
+    "hn-deepseek-search-and-fetch-0-75-per-1000-2026-10-18": {
+      "summary": "DeepSeek API docs for its new web search and page-fetch tools, billed only on successful requests.",
+      "tags": ["API", "Pricing", "Agents"]
+    }
+  }
+}

@@ -1,0 +1,651 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-18",
+  "generated_at": "2026-10-18T08:01:08Z",
+  "counts": {
+    "launches": 6,
+    "repos": 10,
+    "news": 3,
+    "hn": 5
+  },
+  "items": [
+    {
+      "id": "ph-nitrostack-2026-10-18",
+      "title": "NitroStack",
+      "summary": "Open-source TypeScript and Python SDKs for MCP servers, plus a visual debugger, workflow orchestration, hosted deploys and a branded chat frontend that connects to ChatGPT and Claude.",
+      "url": "https://nitrostack.ai/",
+      "source": "producthunt",
+      "source_url": "https://www.producthunt.com/products/nitrostack",
+      "category": "launches",
+      "tags": [
+        "Dev Tool",
+        "MCP",
+        "Agents",
+        "Launch"
+      ],
+      "image": {
+        "type": "logo",
+        "url": "https://ph-files.imgix.net/435e7137-2641-4c1c-98eb-f5b3728fd0a8.jpeg?auto=format"
+      },
+      "signals": {
+        "upvotes": 293,
+        "comments": 28
+      },
+      "published_at": "2026-10-17T07:01:00Z",
+      "hidden": false,
+      "rank": 4
+    },
+    {
+      "id": "ph-notion-context-for-your-agents-2026-10-18",
+      "title": "Notion: Context for your agents",
+      "summary": "Notion 3.8 exposes docs, databases and Skills to any MCP agent for read and write, adds a Skills API to sync them across tools, and logs agent edits in version history.",
+      "url": "https://notion.so",
+      "source": "producthunt",
+      "source_url": "https://www.producthunt.com/products/notion",
+      "category": "launches",
+      "tags": [
+        "Agents",
+        "MCP",
+        "Launch"
+      ],
+      "image": {
+        "type": "logo",
+        "url": "https://ph-files.imgix.net/ff3e2acf-884a-4f4c-a383-6edfe3de0d88.png?auto=format"
+      },
+      "signals": {
+        "upvotes": 176,
+        "comments": 5
+      },
+      "published_at": "2026-10-17T07:01:00Z",
+      "hidden": false,
+      "rank": 8
+    },
+    {
+      "id": "ph-emochi-2-2026-10-18",
+      "title": "Emochi",
+      "summary": "iOS voice journal that transcribes your entries, tracks mood patterns over time, and renders them as a generative character meant for non-clinical self-reflection.",
+      "url": "https://apps.apple.com/app/emochi-voice-journal-diary/id6778995401?at=1000l6eA",
+      "source": "producthunt",
+      "source_url": "https://www.producthunt.com/products/emochi-2",
+      "category": "launches",
+      "tags": [
+        "Voice / Speech",
+        "Launch"
+      ],
+      "image": {
+        "type": "logo",
+        "url": "https://ph-files.imgix.net/9a76b94d-5022-4931-ac22-2e629f56fecd.gif?auto=format"
+      },
+      "signals": {
+        "upvotes": 157,
+        "comments": 16
+      },
+      "published_at": "2026-10-17T07:01:00Z",
+      "hidden": false,
+      "rank": 15
+    },
+    {
+      "id": "ph-train-with-pasta-2026-10-18",
+      "title": "Train with Pasta",
+      "summary": "iOS workout and training-plan builder that runs on-device on Apple Intelligence with voice coaching, no account, and health data kept on the phone; needs iOS 27.",
+      "url": "https://pppasta.com",
+      "source": "producthunt",
+      "source_url": "https://www.producthunt.com/products/train-with-pasta",
+      "category": "launches",
+      "tags": [
+        "Local LLM",
+        "Apple",
+        "Launch"
+      ],
+      "image": {
+        "type": "logo",
+        "url": "https://ph-files.imgix.net/5bc5e36c-9f15-48c4-9d90-c8a6f8f89879.png?auto=format"
+      },
+      "signals": {
+        "upvotes": 130,
+        "comments": 4
+      },
+      "published_at": "2026-10-17T07:01:00Z",
+      "hidden": false,
+      "rank": 21
+    },
+    {
+      "id": "hn-show-hn-llmspeed-feel-how-fast-a-local-llm-runs-2026-10-18",
+      "title": "Show HN: Llmspeed – feel how fast a local LLM runs before you buy the hardware",
+      "summary": "Web tool that simulates how fast a local LLM generates on a given hardware setup, so you can judge throughput before buying the machine.",
+      "url": "https://llmspeed.dev/",
+      "source": "hackernews",
+      "source_url": "https://news.ycombinator.com/item?id=50127979",
+      "category": "launches",
+      "tags": [
+        "Local LLM",
+        "Inference",
+        "Show HN"
+      ],
+      "image": {
+        "type": "none"
+      },
+      "signals": {
+        "points": 283,
+        "comments": 81
+      },
+      "meta": {
+        "author": "albinstman"
+      },
+      "published_at": "2026-10-17T04:36:53Z",
+      "hidden": false,
+      "rank": 9
+    },
+    {
+      "id": "hn-show-hn-sphinx-a-hook-that-quizzes-you-on-your-2026-10-18",
+      "title": "Show HN: Sphinx – A hook that quizzes you on your AI's code before shipping",
+      "summary": "A pre-ship hook that asks you questions about AI-generated code changes, checking you understand them before they go out.",
+      "url": "https://sphinx-six-theta.vercel.app/",
+      "source": "hackernews",
+      "source_url": "https://news.ycombinator.com/item?id=50137950",
+      "category": "launches",
+      "tags": [
+        "Dev Tool",
+        "Code Gen",
+        "Show HN"
+      ],
+      "image": {
+        "type": "none"
+      },
+      "signals": {
+        "points": 94,
+        "comments": 26
+      },
+      "meta": {
+        "author": "critiquebrowser"
+      },
+      "published_at": "2026-10-18T04:33:49Z",
+      "hidden": false,
+      "rank": 20
+    },
+    {
+      "id": "gh-claude-plugins-official-2026-10-18",
+      "title": "anthropics/claude-plugins-official",
+      "summary": "Anthropic's own curated directory of Claude Code plugins, maintained as a GitHub repo.",
+      "url": "https://github.com/anthropics/claude-plugins-official",
+      "source": "github",
+      "source_url": "https://github.com/anthropics/claude-plugins-official",
+      "category": "repos",
+      "tags": [
+        "Claude Code",
+        "Anthropic",
+        "Dev Tool"
+      ],
+      "image": {
+        "type": "avatar",
+        "url": "https://github.com/anthropics.png?size=80"
+      },
+      "signals": {
+        "stars": 42097,
+        "stars_gained": 1397,
+        "forks": 4491
+      },
+      "meta": {
+        "language": "Python"
+      },
+      "hidden": false,
+      "rank": 1
+    },
+    {
+      "id": "gh-ai-job-search-2026-10-18",
+      "title": "MadsLorentzen/ai-job-search",
+      "summary": "Local, forkable job-application framework on Claude Code that scores postings, tailors CVs, drafts cover letters and preps interviews.",
+      "url": "https://github.com/MadsLorentzen/ai-job-search",
+      "source": "github",
+      "source_url": "https://github.com/MadsLorentzen/ai-job-search",
+      "category": "repos",
+      "tags": [
+        "Agents",
+        "Claude Code",
+        "Open Source"
+      ],
+      "image": {
+        "type": "avatar",
+        "url": "https://github.com/MadsLorentzen.png?size=80"
+      },
+      "signals": {
+        "stars": 51041,
+        "stars_gained": 1365,
+        "forks": 17009
+      },
+      "meta": {
+        "language": "Python"
+      },
+      "hidden": false,
+      "rank": 5
+    },
+    {
+      "id": "gh-xerj-2026-10-18",
+      "title": "xerj-org/xerj",
+      "summary": "Rust indexer that auto-indexes code, docs, logs and PDFs for agent search, RAG and memory, pitched as a lower-token grep replacement and an Elasticsearch alternative.",
+      "url": "https://github.com/xerj-org/xerj",
+      "source": "github",
+      "source_url": "https://github.com/xerj-org/xerj",
+      "category": "repos",
+      "tags": [
+        "Open Source",
+        "RAG",
+        "Agents"
+      ],
+      "image": {
+        "type": "avatar",
+        "url": "https://github.com/xerj-org.png?size=80"
+      },
+      "signals": {
+        "stars": 8036,
+        "stars_gained": 1160,
+        "forks": 426
+      },
+      "meta": {
+        "language": "Rust"
+      },
+      "hidden": false,
+      "rank": 7
+    },
+    {
+      "id": "gh-ecc-2026-10-18",
+      "title": "affaan-m/ECC",
+      "summary": "Harness layer of skills, memory, security rules and research-first workflows that plugs into Claude Code, Codex, Opencode and Cursor.",
+      "url": "https://github.com/affaan-m/ECC",
+      "source": "github",
+      "source_url": "https://github.com/affaan-m/ECC",
+      "category": "repos",
+      "tags": [
+        "Open Source",
+        "Agents",
+        "Claude Code"
+      ],
+      "image": {
+        "type": "avatar",
+        "url": "https://github.com/affaan-m.png?size=80"
+      },
+      "signals": {
+        "stars": 282778,
+        "stars_gained": 1145,
+        "forks": 42010
+      },
+      "meta": {
+        "language": "JavaScript"
+      },
+      "hidden": false,
+      "rank": 10
+    },
+    {
+      "id": "gh-scientific-agent-skills-2026-10-18",
+      "title": "K-Dense-AI/scientific-agent-skills",
+      "summary": "177 Agent Skills plus connectors to 100+ scientific databases across biology, chemistry, medicine and drug discovery, usable from Cursor, Claude Code and Codex.",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "source": "github",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "category": "repos",
+      "tags": [
+        "Open Source",
+        "Agents"
+      ],
+      "image": {
+        "type": "avatar",
+        "url": "https://github.com/K-Dense-AI.png?size=80"
+      },
+      "signals": {
+        "stars": 52445,
+        "stars_gained": 878,
+        "forks": 4640
+      },
+      "meta": {
+        "language": "Python"
+      },
+      "hidden": false,
+      "rank": 12
+    },
+    {
+      "id": "gh-orca-2026-10-18",
+      "title": "stablyai/orca",
+      "summary": "TypeScript workspace for running a fleet of coding agents such as Claude Code on your own subscriptions, across desktop, mobile and a remote runtime.",
+      "url": "https://github.com/stablyai/orca",
+      "source": "github",
+      "source_url": "https://github.com/stablyai/orca",
+      "category": "repos",
+      "tags": [
+        "Open Source",
+        "Agents",
+        "Code Gen"
+      ],
+      "image": {
+        "type": "avatar",
+        "url": "https://github.com/stablyai.png?size=80"
+      },
+      "signals": {
+        "stars": 95752,
+        "stars_gained": 830,
+        "forks": 6127
+      },
+      "meta": {
+        "language": "TypeScript"
+      },
+      "hidden": false,
+      "rank": 14
+    },
+    {
+      "id": "gh-opencode-2026-10-18",
+      "title": "anomalyco/opencode",
+      "summary": "An open-source coding agent written in TypeScript.",
+      "url": "https://github.com/anomalyco/opencode",
+      "source": "github",
+      "source_url": "https://github.com/anomalyco/opencode",
+      "category": "repos",
+      "tags": [
+        "Open Source",
+        "Code Gen",
+        "Agents"
+      ],
+      "image": {
+        "type": "avatar",
+        "url": "https://github.com/anomalyco.png?size=80"
+      },
+      "signals": {
+        "stars": 215736,
+        "stars_gained": 438,
+        "forks": 28901
+      },
+      "meta": {
+        "language": "TypeScript"
+      },
+      "hidden": false,
+      "rank": 17
+    },
+    {
+      "id": "gh-ruflo-2026-10-18",
+      "title": "ruvnet/ruflo",
+      "summary": "TypeScript orchestration harness for multi-agent swarms with adaptive memory, vector RAG and federation, with integrations for Claude Code, Codex and Hermes.",
+      "url": "https://github.com/ruvnet/ruflo",
+      "source": "github",
+      "source_url": "https://github.com/ruvnet/ruflo",
+      "category": "repos",
+      "tags": [
+        "Open Source",
+        "Agents",
+        "Framework"
+      ],
+      "image": {
+        "type": "avatar",
+        "url": "https://github.com/ruvnet.png?size=80"
+      },
+      "signals": {
+        "stars": 76215,
+        "stars_gained": 420,
+        "forks": 9012
+      },
+      "meta": {
+        "language": "TypeScript"
+      },
+      "hidden": false,
+      "rank": 19
+    },
+    {
+      "id": "gh-claude-code-2026-10-18",
+      "title": "anthropics/claude-code",
+      "summary": "Anthropic's terminal coding agent: reads the codebase, runs routine tasks, explains code and handles git through natural-language commands.",
+      "url": "https://github.com/anthropics/claude-code",
+      "source": "github",
+      "source_url": "https://github.com/anthropics/claude-code",
+      "category": "repos",
+      "tags": [
+        "Claude Code",
+        "Anthropic",
+        "Code Gen"
+      ],
+      "image": {
+        "type": "avatar",
+        "url": "https://github.com/anthropics.png?size=80"
+      },
+      "signals": {
+        "stars": 152142,
+        "stars_gained": 179,
+        "forks": 26942
+      },
+      "meta": {
+        "language": "TypeScript"
+      },
+      "hidden": false,
+      "rank": 22
+    },
+    {
+      "id": "gh-ai-memory-2026-10-18",
+      "title": "akitaonrails/ai-memory",
+      "summary": "Rust long-term memory store for coding-agent CLIs, built so context can be handed off between agents from different vendors.",
+      "url": "https://github.com/akitaonrails/ai-memory",
+      "source": "github",
+      "source_url": "https://github.com/akitaonrails/ai-memory",
+      "category": "repos",
+      "tags": [
+        "Open Source",
+        "Agents"
+      ],
+      "image": {
+        "type": "avatar",
+        "url": "https://github.com/akitaonrails.png?size=80"
+      },
+      "signals": {
+        "stars": 10095,
+        "stars_gained": 178,
+        "forks": 728
+      },
+      "meta": {
+        "language": "Rust"
+      },
+      "hidden": false,
+      "rank": 24
+    },
+    {
+      "id": "tc-meta-removes-language-that-raised-scraping-and-2026-10-18",
+      "title": "Meta removes language that raised scraping and AI training concerns",
+      "summary": "Meta pulled the terms-of-service wording after the concerns, and a spokesperson said the update never reflected a change in how Meta crawls the web.",
+      "url": "https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns/",
+      "source": "techcrunch",
+      "source_url": "https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns/",
+      "category": "news",
+      "tags": [
+        "Meta",
+        "Policy",
+        "Privacy"
+      ],
+      "image": {
+        "type": "thumbnail",
+        "url": "https://techcrunch.com/wp-content/uploads/2026/05/meta-ai-GettyImages-2264943773.jpg?w=1024"
+      },
+      "meta": {
+        "author": "Anthony Ha",
+        "reading_time": "1 minute"
+      },
+      "published_at": "2026-10-17T21:31:32Z",
+      "hidden": false,
+      "rank": 3
+    },
+    {
+      "id": "tc-anthropic-says-its-workforce-has-become-less-2026-10-18",
+      "title": "Anthropic says its workforce has become less junior and is spending more time in meetings",
+      "summary": "Anthropic reports that both the make-up of its staff and the kind of work they do have shifted significantly over the past year.",
+      "url": "https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings/",
+      "source": "techcrunch",
+      "source_url": "https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings/",
+      "category": "news",
+      "tags": [
+        "Anthropic"
+      ],
+      "image": {
+        "type": "thumbnail",
+        "url": "https://techcrunch.com/wp-content/uploads/2026/06/GettyImages-2278736523.jpeg?resize=1200,798"
+      },
+      "meta": {
+        "author": "Anthony Ha",
+        "reading_time": "2 minutes"
+      },
+      "published_at": "2026-10-17T20:21:19Z",
+      "hidden": false,
+      "rank": 11
+    },
+    {
+      "id": "tc-replit-makes-openai-its-default-over-anthropic-2026-10-18",
+      "title": "Replit makes OpenAI its default over Anthropic, CEO says",
+      "summary": "CEO Amjad Masad clarified that OpenAI replaces Anthropic as Replit's default model provider, while Claude stays selectable for customers.",
+      "url": "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/",
+      "source": "techcrunch",
+      "source_url": "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/",
+      "category": "news",
+      "tags": [
+        "OpenAI",
+        "Anthropic",
+        "Code Gen"
+      ],
+      "image": {
+        "type": "thumbnail",
+        "url": "https://techcrunch.com/wp-content/uploads/2026/10/replit-ceo-masad.jpg?resize=1200,800"
+      },
+      "meta": {
+        "author": "Kirsten Korosec, Lucas Ropek, Rebecca Bellan",
+        "reading_time": "3 minutes"
+      },
+      "published_at": "2026-10-17T18:48:08Z",
+      "hidden": false,
+      "rank": 18
+    },
+    {
+      "id": "hn-deepseek-v4-1-flash-1017-2026-10-18",
+      "title": "DeepSeek-v4.1-Flash-1017",
+      "summary": "The model card and weights for DeepSeek's V4.1 Flash 1017 checkpoint on Hugging Face; it is also live on OpenRouter.",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+      "source": "hackernews",
+      "source_url": "https://news.ycombinator.com/item?id=50129045",
+      "category": "hn",
+      "tags": [
+        "Model Release",
+        "Open Source",
+        "LLM"
+      ],
+      "image": {
+        "type": "none"
+      },
+      "signals": {
+        "points": 830,
+        "comments": 640
+      },
+      "meta": {
+        "author": "theykk"
+      },
+      "published_at": "2026-10-17T08:21:25Z",
+      "hidden": false,
+      "rank": 2
+    },
+    {
+      "id": "hn-deepseek-deepseek-v4-1-flash-1017-2026-10-18",
+      "title": "DeepSeek: DeepSeek v4.1 Flash 1017",
+      "summary": "OpenRouter's hosted API listing for DeepSeek V4.1 Flash 1017, the same checkpoint whose weights went up on Hugging Face.",
+      "url": "https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017",
+      "source": "hackernews",
+      "source_url": "https://news.ycombinator.com/item?id=50129121",
+      "category": "hn",
+      "tags": [
+        "Model Release",
+        "API",
+        "LLM"
+      ],
+      "image": {
+        "type": "none"
+      },
+      "signals": {
+        "points": 514,
+        "comments": 5
+      },
+      "meta": {
+        "author": "theanonymousone"
+      },
+      "published_at": "2026-10-17T08:37:46Z",
+      "hidden": false,
+      "rank": 6
+    },
+    {
+      "id": "hn-amazon-uses-ai-to-monitor-union-risk-in-uk-2026-10-18",
+      "title": "Amazon uses AI to monitor union risk in UK warehouses",
+      "summary": "openDemocracy investigation into AI surveillance Amazon uses to assess union activity at UK warehouses including Birmingham, Coventry and Sutton Coldfield.",
+      "url": "https://www.opendemocracy.net/amazon-ai-surveillance-monitor-union-activity-uk-warehouses-birmingham-coventry-atlas-sutton-coldfield/",
+      "source": "hackernews",
+      "source_url": "https://news.ycombinator.com/item?id=50132278",
+      "category": "hn",
+      "tags": [
+        "Privacy",
+        "Policy"
+      ],
+      "image": {
+        "type": "none"
+      },
+      "signals": {
+        "points": 162,
+        "comments": 58
+      },
+      "meta": {
+        "author": "DeepLogin"
+      },
+      "published_at": "2026-10-17T16:04:23Z",
+      "hidden": false,
+      "rank": 13
+    },
+    {
+      "id": "hn-openai-discloses-four-more-rogue-incidents-2026-10-18",
+      "title": "OpenAI discloses four more rogue incidents",
+      "summary": "Fortune report on four newly disclosed OpenAI incidents of rogue model behaviour, touching financial, medical and government data.",
+      "url": "https://fortune.com/2026/10/16/openai-discloses-four-more-rogue-incidents-involving-financial-medical-and-government-data/",
+      "source": "hackernews",
+      "source_url": "https://news.ycombinator.com/item?id=50132502",
+      "category": "hn",
+      "tags": [
+        "OpenAI",
+        "Safety"
+      ],
+      "image": {
+        "type": "none"
+      },
+      "signals": {
+        "points": 125,
+        "comments": 150
+      },
+      "meta": {
+        "author": "DASD"
+      },
+      "published_at": "2026-10-17T16:31:12Z",
+      "hidden": false,
+      "rank": 16
+    },
+    {
+      "id": "hn-deepseek-search-and-fetch-0-75-per-1000-2026-10-18",
+      "title": "DeepSeek search and fetch – $0.75 per 1000 successful requests",
+      "summary": "DeepSeek API docs for its new web search and page-fetch tools, billed only on successful requests.",
+      "url": "https://api-docs.deepseek.com/guides/search/",
+      "source": "hackernews",
+      "source_url": "https://news.ycombinator.com/item?id=50138531",
+      "category": "hn",
+      "tags": [
+        "API",
+        "Pricing",
+        "Agents"
+      ],
+      "image": {
+        "type": "none"
+      },
+      "signals": {
+        "points": 78,
+        "comments": 26
+      },
+      "meta": {
+        "author": "fagnerbrack"
+      },
+      "published_at": "2026-10-18T06:50:36Z",
+      "hidden": false,
+      "rank": 23
+    }
+  ]
+}

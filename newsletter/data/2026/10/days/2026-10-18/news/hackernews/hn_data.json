@@ -1,0 +1,90 @@
+{
+  "source": "hackernews",
+  "section": "ai-news",
+  "fetched_at": "2026-10-18",
+  "window": {
+    "after": "2026-10-17",
+    "before": "2026-10-19"
+  },
+  "query_params": {
+    "tags": "story",
+    "count": 10,
+    "min_points": 50,
+    "topic": "ai",
+    "ranking": "points,recency"
+  },
+  "totalCount": 7,
+  "poolCount": 40,
+  "stories": [
+    {
+      "title": "DeepSeek-v4.1-Flash-1017",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+      "type": "story",
+      "points": 830,
+      "num_comments": 640,
+      "author": "theykk",
+      "created_at": "2026-10-17T08:21:25Z",
+      "hn_url": "https://news.ycombinator.com/item?id=50129045"
+    },
+    {
+      "title": "DeepSeek: DeepSeek v4.1 Flash 1017",
+      "url": "https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017",
+      "type": "story",
+      "points": 514,
+      "num_comments": 5,
+      "author": "theanonymousone",
+      "created_at": "2026-10-17T08:37:46Z",
+      "hn_url": "https://news.ycombinator.com/item?id=50129121"
+    },
+    {
+      "title": "Show HN: Llmspeed \u2013 feel how fast a local LLM runs before you buy the hardware",
+      "url": "https://llmspeed.dev/",
+      "type": "show_hn",
+      "points": 283,
+      "num_comments": 81,
+      "author": "albinstman",
+      "created_at": "2026-10-17T04:36:53Z",
+      "hn_url": "https://news.ycombinator.com/item?id=50127979"
+    },
+    {
+      "title": "Amazon uses AI to monitor union risk in UK warehouses",
+      "url": "https://www.opendemocracy.net/amazon-ai-surveillance-monitor-union-activity-uk-warehouses-birmingham-coventry-atlas-sutton-coldfield/",
+      "type": "story",
+      "points": 162,
+      "num_comments": 58,
+      "author": "DeepLogin",
+      "created_at": "2026-10-17T16:04:23Z",
+      "hn_url": "https://news.ycombinator.com/item?id=50132278"
+    },
+    {
+      "title": "OpenAI discloses four more rogue incidents",
+      "url": "https://fortune.com/2026/10/16/openai-discloses-four-more-rogue-incidents-involving-financial-medical-and-government-data/",
+      "type": "story",
+      "points": 125,
+      "num_comments": 150,
+      "author": "DASD",
+      "created_at": "2026-10-17T16:31:12Z",
+      "hn_url": "https://news.ycombinator.com/item?id=50132502"
+    },
+    {
+      "title": "Show HN: Sphinx \u2013 A hook that quizzes you on your AI's code before shipping",
+      "url": "https://sphinx-six-theta.vercel.app/",
+      "type": "show_hn",
+      "points": 94,
+      "num_comments": 26,
+      "author": "critiquebrowser",
+      "created_at": "2026-10-18T04:33:49Z",
+      "hn_url": "https://news.ycombinator.com/item?id=50137950"
+    },
+    {
+      "title": "DeepSeek search and fetch \u2013 $0.75 per 1000 successful requests",
+      "url": "https://api-docs.deepseek.com/guides/search/",
+      "type": "story",
+      "points": 78,
+      "num_comments": 26,
+      "author": "fagnerbrack",
+      "created_at": "2026-10-18T06:50:36Z",
+      "hn_url": "https://news.ycombinator.com/item?id=50138531"
+    }
+  ]
+}
