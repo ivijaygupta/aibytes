@@ -1,0 +1,651 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-19",
+  "generated_at": "2026-10-19T08:01:25Z",
+  "counts": {
+    "launches": 4,
+    "repos": 9,
+    "news": 2,
+    "hn": 9
+  },
+  "items": [
+    {
+      "id": "ph-inbox-zero-7-2026-10-19",
+      "title": "Inbox Zero",
+      "summary": "Open-source, keyboard-first email client for Gmail and Outlook on web, Mac, Windows and iPhone; a $20/mo AI tier sorts every email and drafts replies in your voice.",
+      "url": "https://www.getinboxzero.com/email-client",
+      "source": "producthunt",
+      "source_url": "https://www.producthunt.com/products/inbox-zero-2",
+      "category": "launches",
+      "tags": [
+        "Open Source",
+        "Agents",
+        "Launch"
+      ],
+      "image": {
+        "type": "logo",
+        "url": "https://ph-files.imgix.net/96996a48-1d05-47a6-8ceb-ecb1ec25cf62.png?auto=format"
+      },
+      "signals": {
+        "upvotes": 329,
+        "comments": 30
+      },
+      "published_at": "2026-10-18T07:01:00Z",
+      "hidden": false,
+      "rank": 4
+    },
+    {
+      "id": "ph-mylens-23606f5c-c212-4382-854f-b920d35917a7-2026-10-19",
+      "title": "MyLens",
+      "summary": "Gives each viewer a private live presentation built from your sources, answers their questions and adds slides mid-session, then reports who is stuck.",
+      "url": "https://mylens.ai",
+      "source": "producthunt",
+      "source_url": "https://www.producthunt.com/products/mylens-ai",
+      "category": "launches",
+      "tags": [
+        "Agents",
+        "Launch"
+      ],
+      "image": {
+        "type": "logo",
+        "url": "https://ph-files.imgix.net/d4955924-1a85-494c-b2a6-29398e28c916.png?auto=format"
+      },
+      "signals": {
+        "upvotes": 207,
+        "comments": 33
+      },
+      "published_at": "2026-10-18T07:01:00Z",
+      "hidden": false,
+      "rank": 11
+    },
+    {
+      "id": "ph-shim-cli-2026-10-19",
+      "title": "shim-cli",
+      "summary": "Open-source hook and local proxy for Claude Code, Codex, Copilot CLI and VS Code that masks secrets in tool results and logs what each session sent and cost.",
+      "url": "https://getshim.tech/products/shim-cli",
+      "source": "producthunt",
+      "source_url": "https://www.producthunt.com/products/shim-cli",
+      "category": "launches",
+      "tags": [
+        "Dev Tool",
+        "Open Source",
+        "Privacy",
+        "Claude Code"
+      ],
+      "image": {
+        "type": "logo",
+        "url": "https://ph-files.imgix.net/b8683c25-445b-44e0-aef2-599c509a7880.png?auto=format"
+      },
+      "signals": {
+        "upvotes": 184,
+        "comments": 26
+      },
+      "published_at": "2026-10-18T07:01:00Z",
+      "hidden": false,
+      "rank": 19
+    },
+    {
+      "id": "hn-show-hn-sphinx-a-hook-that-quizzes-you-on-your-2026-10-19",
+      "title": "Show HN: Sphinx – A hook that quizzes you on your AI's code before shipping",
+      "summary": "A pre-ship hook that makes you answer questions about AI-generated code before it ships.",
+      "url": "https://sphinx-six-theta.vercel.app/",
+      "source": "hackernews",
+      "source_url": "https://news.ycombinator.com/item?id=50137950",
+      "category": "launches",
+      "tags": [
+        "Dev Tool",
+        "Code Gen",
+        "Show HN"
+      ],
+      "image": {
+        "type": "none"
+      },
+      "signals": {
+        "points": 245,
+        "comments": 86
+      },
+      "meta": {
+        "author": "critiquebrowser"
+      },
+      "published_at": "2026-10-18T04:33:49Z",
+      "hidden": false,
+      "rank": 7
+    },
+    {
+      "id": "gh-ai-job-search-2026-10-19",
+      "title": "MadsLorentzen/ai-job-search",
+      "summary": "Python framework on Claude Code that runs locally to evaluate job postings, tailor CVs, write cover letters and prep interviews; meant to be forked and owned.",
+      "url": "https://github.com/MadsLorentzen/ai-job-search",
+      "source": "github",
+      "source_url": "https://github.com/MadsLorentzen/ai-job-search",
+      "category": "repos",
+      "tags": [
+        "Open Source",
+        "Agents",
+        "Claude Code"
+      ],
+      "image": {
+        "type": "avatar",
+        "url": "https://github.com/MadsLorentzen.png?size=80"
+      },
+      "signals": {
+        "stars": 54518,
+        "stars_gained": 2232,
+        "forks": 17616
+      },
+      "meta": {
+        "language": "Python"
+      },
+      "hidden": false,
+      "rank": 1
+    },
+    {
+      "id": "gh-opencode-2026-10-19",
+      "title": "anomalyco/opencode",
+      "summary": "Open-source coding agent written in TypeScript.",
+      "url": "https://github.com/anomalyco/opencode",
+      "source": "github",
+      "source_url": "https://github.com/anomalyco/opencode",
+      "category": "repos",
+      "tags": [
+        "Open Source",
+        "Code Gen",
+        "Agents"
+      ],
+      "image": {
+        "type": "avatar",
+        "url": "https://github.com/anomalyco.png?size=80"
+      },
+      "signals": {
+        "stars": 216976,
+        "stars_gained": 1414,
+        "forks": 29028
+      },
+      "meta": {
+        "language": "TypeScript"
+      },
+      "hidden": false,
+      "rank": 6
+    },
+    {
+      "id": "gh-claude-plugins-official-2026-10-19",
+      "title": "anthropics/claude-plugins-official",
+      "summary": "Anthropic-managed directory of vetted Claude Code plugins.",
+      "url": "https://github.com/anthropics/claude-plugins-official",
+      "source": "github",
+      "source_url": "https://github.com/anthropics/claude-plugins-official",
+      "category": "repos",
+      "tags": [
+        "Open Source",
+        "Claude Code",
+        "Anthropic"
+      ],
+      "image": {
+        "type": "avatar",
+        "url": "https://github.com/anthropics.png?size=80"
+      },
+      "signals": {
+        "stars": 42939,
+        "stars_gained": 1175,
+        "forks": 4548
+      },
+      "meta": {
+        "language": "Python"
+      },
+      "hidden": false,
+      "rank": 8
+    },
+    {
+      "id": "gh-orca-2026-10-19",
+      "title": "stablyai/orca",
+      "summary": "TypeScript workspace for running a fleet of coding agents such as Claude Code and Grok Bot on your own subscriptions, on desktop, mobile or a remote runtime.",
+      "url": "https://github.com/stablyai/orca",
+      "source": "github",
+      "source_url": "https://github.com/stablyai/orca",
+      "category": "repos",
+      "tags": [
+        "Dev Tool",
+        "Agents",
+        "Code Gen"
+      ],
+      "image": {
+        "type": "avatar",
+        "url": "https://github.com/stablyai.png?size=80"
+      },
+      "signals": {
+        "stars": 97225,
+        "stars_gained": 1146,
+        "forks": 6198
+      },
+      "meta": {
+        "language": "TypeScript"
+      },
+      "hidden": false,
+      "rank": 10
+    },
+    {
+      "id": "gh-ruflo-2026-10-19",
+      "title": "ruvnet/ruflo",
+      "summary": "TypeScript agent harness for multi-agent swarms with adaptive memory, federation and vector RAG, integrating Claude Code, Codex and Hermes.",
+      "url": "https://github.com/ruvnet/ruflo",
+      "source": "github",
+      "source_url": "https://github.com/ruvnet/ruflo",
+      "category": "repos",
+      "tags": [
+        "Framework",
+        "Agents",
+        "Open Source"
+      ],
+      "image": {
+        "type": "avatar",
+        "url": "https://github.com/ruvnet.png?size=80"
+      },
+      "signals": {
+        "stars": 76744,
+        "stars_gained": 513,
+        "forks": 9068
+      },
+      "meta": {
+        "language": "TypeScript"
+      },
+      "hidden": false,
+      "rank": 13
+    },
+    {
+      "id": "gh-ai-memory-2026-10-19",
+      "title": "akitaonrails/ai-memory",
+      "summary": "Rust long-term memory layer for agent coding CLIs that also hands context off between different agent vendors.",
+      "url": "https://github.com/akitaonrails/ai-memory",
+      "source": "github",
+      "source_url": "https://github.com/akitaonrails/ai-memory",
+      "category": "repos",
+      "tags": [
+        "Dev Tool",
+        "Agents",
+        "Open Source"
+      ],
+      "image": {
+        "type": "avatar",
+        "url": "https://github.com/akitaonrails.png?size=80"
+      },
+      "signals": {
+        "stars": 10743,
+        "stars_gained": 512,
+        "forks": 760
+      },
+      "meta": {
+        "language": "Rust"
+      },
+      "hidden": false,
+      "rank": 16
+    },
+    {
+      "id": "gh-dsh-purge-2026-10-19",
+      "title": "YuJunZhiXue/dsh-purge",
+      "summary": "JavaScript jailbreak harness with swappable per-model prompts; the default prompt targets Chinese models, and docs are mostly in Chinese.",
+      "url": "https://github.com/YuJunZhiXue/dsh-purge",
+      "source": "github",
+      "source_url": "https://github.com/YuJunZhiXue/dsh-purge",
+      "category": "repos",
+      "tags": [
+        "Open Source",
+        "LLM",
+        "Safety"
+      ],
+      "image": {
+        "type": "avatar",
+        "url": "https://github.com/YuJunZhiXue.png?size=80"
+      },
+      "signals": {
+        "stars": 7274,
+        "stars_gained": 423,
+        "forks": 1097
+      },
+      "meta": {
+        "language": "JavaScript"
+      },
+      "hidden": false,
+      "rank": 18
+    },
+    {
+      "id": "gh-comfyui-2026-10-19",
+      "title": "Comfy-Org/ComfyUI",
+      "summary": "Node-graph GUI, API and backend for building and running diffusion model pipelines locally, in Python.",
+      "url": "https://github.com/Comfy-Org/ComfyUI",
+      "source": "github",
+      "source_url": "https://github.com/Comfy-Org/ComfyUI",
+      "category": "repos",
+      "tags": [
+        "Open Source",
+        "Image Gen",
+        "Inference"
+      ],
+      "image": {
+        "type": "avatar",
+        "url": "https://github.com/Comfy-Org.png?size=80"
+      },
+      "signals": {
+        "stars": 138961,
+        "stars_gained": 154,
+        "forks": 16514
+      },
+      "meta": {
+        "language": "Python"
+      },
+      "hidden": false,
+      "rank": 21
+    },
+    {
+      "id": "gh-llm-course-2026-10-19",
+      "title": "mlabonne/llm-course",
+      "summary": "Course on large language models, organised as roadmaps with runnable Colab notebooks.",
+      "url": "https://github.com/mlabonne/llm-course",
+      "source": "github",
+      "source_url": "https://github.com/mlabonne/llm-course",
+      "category": "repos",
+      "tags": [
+        "Tutorial",
+        "LLM"
+      ],
+      "image": {
+        "type": "avatar",
+        "url": "https://github.com/mlabonne.png?size=80"
+      },
+      "signals": {
+        "stars": 84248,
+        "stars_gained": 81,
+        "forks": 9799
+      },
+      "hidden": false,
+      "rank": 23
+    },
+    {
+      "id": "tc-anthropic-says-its-committing-5-of-its-shares-2026-10-19",
+      "title": "Anthropic says it’s committing 5% of its shares to a ‘public benefit fund’",
+      "summary": "TechCrunch report on Anthropic setting aside 5% of its equity for a fund it describes as serving the public benefit; Anthropic's own announcement is also in this edition.",
+      "url": "https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund/",
+      "source": "techcrunch",
+      "source_url": "https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund/",
+      "category": "news",
+      "tags": [
+        "Anthropic",
+        "Policy"
+      ],
+      "image": {
+        "type": "thumbnail",
+        "url": "https://techcrunch.com/wp-content/uploads/2026/01/GettyImages-2252871842.jpg?w=1024"
+      },
+      "meta": {
+        "author": "Anthony Ha",
+        "reading_time": "2 minutes"
+      },
+      "published_at": "2026-10-18T20:37:40Z",
+      "hidden": false,
+      "rank": 3
+    },
+    {
+      "id": "tc-disney-agrees-to-hire-the-majority-of-character-2026-10-19",
+      "title": "Disney agrees to hire the majority of Character.AI’s workforce",
+      "summary": "A filing says most Character.AI staff offered Disney jobs accepted, but the deal is a stalking horse bid, so a higher offer could still displace it.",
+      "url": "https://techcrunch.com/2026/10/18/disney-agrees-to-hire-the-majority-of-character-ais-workforce/",
+      "source": "techcrunch",
+      "source_url": "https://techcrunch.com/2026/10/18/disney-agrees-to-hire-the-majority-of-character-ais-workforce/",
+      "category": "news",
+      "tags": [
+        "Acquisition",
+        "LLM"
+      ],
+      "image": {
+        "type": "thumbnail",
+        "url": "https://techcrunch.com/wp-content/uploads/2024/01/character-ai-alexa.jpg?resize=1200,675"
+      },
+      "meta": {
+        "author": "Anthony Ha",
+        "reading_time": "2 minutes"
+      },
+      "published_at": "2026-10-18T16:30:00Z",
+      "hidden": false,
+      "rank": 15
+    },
+    {
+      "id": "hn-deepseek-search-and-fetch-0-75-per-1000-2026-10-19",
+      "title": "DeepSeek search and fetch – $0.75 per 1000 successful requests",
+      "summary": "DeepSeek API docs for built-in web search and page fetch tools, billed only on successful requests.",
+      "url": "https://api-docs.deepseek.com/guides/search/",
+      "source": "hackernews",
+      "source_url": "https://news.ycombinator.com/item?id=50138531",
+      "category": "hn",
+      "tags": [
+        "API",
+        "Pricing",
+        "Agents"
+      ],
+      "image": {
+        "type": "none"
+      },
+      "signals": {
+        "points": 569,
+        "comments": 268
+      },
+      "meta": {
+        "author": "fagnerbrack"
+      },
+      "published_at": "2026-10-18T06:50:36Z",
+      "hidden": false,
+      "rank": 2
+    },
+    {
+      "id": "hn-hybrid-reasoning-agents-llm-agents-that-think-2026-10-19",
+      "title": "Hybrid Reasoning Agents: LLM agents that think in latent space, act through text",
+      "summary": "arXiv paper on agents that reason in latent space rather than in text tokens, emitting text only for actions.",
+      "url": "https://arxiv.org/abs/2610.18861",
+      "source": "hackernews",
+      "source_url": "https://news.ycombinator.com/item?id=50145337",
+      "category": "hn",
+      "tags": [
+        "Paper",
+        "Agents",
+        "Reasoning"
+      ],
+      "image": {
+        "type": "none"
+      },
+      "signals": {
+        "points": 368,
+        "comments": 173
+      },
+      "meta": {
+        "author": "allinonai"
+      },
+      "published_at": "2026-10-18T20:48:14Z",
+      "hidden": false,
+      "rank": 5
+    },
+    {
+      "id": "hn-anthropic-s-proposed-ai-safety-bill-only-kicks-2026-10-19",
+      "title": "Anthropic's proposed AI safety bill only kicks in if 50 deaths or $1B in damages",
+      "summary": "Tom's Hardware reads Anthropic's draft bill as leaving the Commerce Department as the only agency able to stop an AI model.",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-proposed-ai-safety-bill-only-kicks-in-if-50-deaths-or-usd1-billion-in-damages-are-on-the-line-proposal-would-effectively-make-the-commerce-department-the-only-agency-capable-of-stopping-an-ai-model",
+      "source": "hackernews",
+      "source_url": "https://news.ycombinator.com/item?id=50141429",
+      "category": "hn",
+      "tags": [
+        "Policy",
+        "Safety",
+        "Anthropic"
+      ],
+      "image": {
+        "type": "none"
+      },
+      "signals": {
+        "points": 162,
+        "comments": 164
+      },
+      "meta": {
+        "author": "f-serif"
+      },
+      "published_at": "2026-10-18T14:30:27Z",
+      "hidden": false,
+      "rank": 9
+    },
+    {
+      "id": "hn-if-you-don-t-run-your-own-llm-proxy-how-do-you-2026-10-19",
+      "title": "If you don't run your own LLM proxy, how do you know whats going on?",
+      "summary": "Personal essay arguing for routing your LLM traffic through a self-hosted proxy to see what tools actually send and receive.",
+      "url": "https://jrdsgl.com/if-you-dont-run-your-own-llm-proxy-how-the-fuck-do-you-even-know-whats-going-on/",
+      "source": "hackernews",
+      "source_url": "https://news.ycombinator.com/item?id=50145507",
+      "category": "hn",
+      "tags": [
+        "Inference",
+        "LLM",
+        "Privacy"
+      ],
+      "image": {
+        "type": "none"
+      },
+      "signals": {
+        "points": 137,
+        "comments": 89
+      },
+      "meta": {
+        "author": "amrrs"
+      },
+      "published_at": "2026-10-18T21:09:12Z",
+      "hidden": false,
+      "rank": 12
+    },
+    {
+      "id": "hn-websites-are-closing-their-doors-to-ai-agents-2026-10-19",
+      "title": "Websites are closing their doors to AI agents",
+      "summary": "The Verge reports on sites moving to block AI agents from browsing and acting on their pages.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web",
+      "source": "hackernews",
+      "source_url": "https://news.ycombinator.com/item?id=50141657",
+      "category": "hn",
+      "tags": [
+        "Agents",
+        "Policy"
+      ],
+      "image": {
+        "type": "none"
+      },
+      "signals": {
+        "points": 137,
+        "comments": 135
+      },
+      "meta": {
+        "author": "evolve2k"
+      },
+      "published_at": "2026-10-18T14:58:10Z",
+      "hidden": false,
+      "rank": 14
+    },
+    {
+      "id": "hn-deepseek-v4-1-flash-1017-max-2026-10-19",
+      "title": "DeepSeek V4.1 Flash 1017 (Max)",
+      "summary": "Artificial Analysis benchmark page for DeepSeek's V4.1 Flash 1017 checkpoint at its Max setting.",
+      "url": "https://artificialanalysis.ai/models/deepseek-v4-1-flash-1017",
+      "source": "hackernews",
+      "source_url": "https://news.ycombinator.com/item?id=50148452",
+      "category": "hn",
+      "tags": [
+        "Model Release",
+        "Benchmark",
+        "LLM"
+      ],
+      "image": {
+        "type": "none"
+      },
+      "signals": {
+        "points": 116,
+        "comments": 38
+      },
+      "meta": {
+        "author": "theanonymousone"
+      },
+      "published_at": "2026-10-19T04:41:46Z",
+      "hidden": false,
+      "rank": 17
+    },
+    {
+      "id": "hn-how-employment-is-changing-at-anthropic-2026-10-19",
+      "title": "How employment is changing at Anthropic",
+      "summary": "Anthropic research post on how employment inside the company is changing.",
+      "url": "https://www.anthropic.com/research/employment-at-anthropic",
+      "source": "hackernews",
+      "source_url": "https://news.ycombinator.com/item?id=50139873",
+      "category": "hn",
+      "tags": [
+        "Anthropic",
+        "Deep Dive"
+      ],
+      "image": {
+        "type": "none"
+      },
+      "signals": {
+        "points": 112,
+        "comments": 195
+      },
+      "meta": {
+        "author": "theanonymousone"
+      },
+      "published_at": "2026-10-18T10:49:26Z",
+      "hidden": false,
+      "rank": 20
+    },
+    {
+      "id": "hn-how-far-will-ai-assistants-go-for-a-refund-they-2026-10-19",
+      "title": "How Far Will AI Assistants Go for a Refund They Can't Get?",
+      "summary": "Vals.ai test of how hard AI assistants push for a refund that policy forbids, and what they will do to get it.",
+      "url": "https://www.vals.ai/blogs/impossible-refund",
+      "source": "hackernews",
+      "source_url": "https://news.ycombinator.com/item?id=50140462",
+      "category": "hn",
+      "tags": [
+        "Eval",
+        "Agents",
+        "Safety"
+      ],
+      "image": {
+        "type": "none"
+      },
+      "signals": {
+        "points": 83,
+        "comments": 101
+      },
+      "meta": {
+        "author": "DeepLogin"
+      },
+      "published_at": "2026-10-18T12:22:58Z",
+      "hidden": false,
+      "rank": 22
+    },
+    {
+      "id": "hn-investing-in-the-public-benefit-2026-10-19",
+      "title": "Investing in the public benefit",
+      "summary": "Anthropic's own announcement of the public benefit fund, which TechCrunch reports takes 5% of its shares.",
+      "url": "https://www.anthropic.com/news/public-benefit-fund",
+      "source": "hackernews",
+      "source_url": "https://news.ycombinator.com/item?id=50143755",
+      "category": "hn",
+      "tags": [
+        "Anthropic",
+        "Policy"
+      ],
+      "image": {
+        "type": "none"
+      },
+      "signals": {
+        "points": 56,
+        "comments": 47
+      },
+      "meta": {
+        "author": "surprisetalk"
+      },
+      "published_at": "2026-10-18T18:15:10Z",
+      "hidden": false,
+      "rank": 24
+    }
+  ]
+}

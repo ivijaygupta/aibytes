@@ -1,0 +1,101 @@
+{
+  "date": "2026-10-19",
+  "items": {
+    "ph-inbox-zero-7-2026-10-19": {
+      "summary": "Open-source, keyboard-first email client for Gmail and Outlook on web, Mac, Windows and iPhone; a $20/mo AI tier sorts every email and drafts replies in your voice.",
+      "tags": ["Open Source", "Agents", "Launch"]
+    },
+    "ph-mylens-23606f5c-c212-4382-854f-b920d35917a7-2026-10-19": {
+      "summary": "Gives each viewer a private live presentation built from your sources, answers their questions and adds slides mid-session, then reports who is stuck.",
+      "tags": ["Agents", "Launch"]
+    },
+    "ph-shim-cli-2026-10-19": {
+      "summary": "Open-source hook and local proxy for Claude Code, Codex, Copilot CLI and VS Code that masks secrets in tool results and logs what each session sent and cost.",
+      "tags": ["Dev Tool", "Open Source", "Privacy", "Claude Code"]
+    },
+    "hn-show-hn-sphinx-a-hook-that-quizzes-you-on-your-2026-10-19": {
+      "summary": "A pre-ship hook that makes you answer questions about AI-generated code before it ships.",
+      "tags": ["Dev Tool", "Code Gen", "Show HN"]
+    },
+    "gh-ai-job-search-2026-10-19": {
+      "summary": "Python framework on Claude Code that runs locally to evaluate job postings, tailor CVs, write cover letters and prep interviews; meant to be forked and owned.",
+      "tags": ["Open Source", "Agents", "Claude Code"]
+    },
+    "gh-opencode-2026-10-19": {
+      "summary": "Open-source coding agent written in TypeScript.",
+      "tags": ["Open Source", "Code Gen", "Agents"]
+    },
+    "gh-claude-plugins-official-2026-10-19": {
+      "summary": "Anthropic-managed directory of vetted Claude Code plugins.",
+      "tags": ["Open Source", "Claude Code", "Anthropic"]
+    },
+    "gh-orca-2026-10-19": {
+      "summary": "TypeScript workspace for running a fleet of coding agents such as Claude Code and Grok Bot on your own subscriptions, on desktop, mobile or a remote runtime.",
+      "tags": ["Dev Tool", "Agents", "Code Gen"]
+    },
+    "gh-ruflo-2026-10-19": {
+      "summary": "TypeScript agent harness for multi-agent swarms with adaptive memory, federation and vector RAG, integrating Claude Code, Codex and Hermes.",
+      "tags": ["Framework", "Agents", "Open Source"]
+    },
+    "gh-ai-memory-2026-10-19": {
+      "summary": "Rust long-term memory layer for agent coding CLIs that also hands context off between different agent vendors.",
+      "tags": ["Dev Tool", "Agents", "Open Source"]
+    },
+    "gh-dsh-purge-2026-10-19": {
+      "summary": "JavaScript jailbreak harness with swappable per-model prompts; the default prompt targets Chinese models, and docs are mostly in Chinese.",
+      "tags": ["Open Source", "LLM", "Safety"]
+    },
+    "gh-comfyui-2026-10-19": {
+      "summary": "Node-graph GUI, API and backend for building and running diffusion model pipelines locally, in Python.",
+      "tags": ["Open Source", "Image Gen", "Inference"]
+    },
+    "gh-llm-course-2026-10-19": {
+      "summary": "Course on large language models, organised as roadmaps with runnable Colab notebooks.",
+      "tags": ["Tutorial", "LLM"]
+    },
+    "tc-anthropic-says-its-committing-5-of-its-shares-2026-10-19": {
+      "summary": "TechCrunch report on Anthropic setting aside 5% of its equity for a fund it describes as serving the public benefit; Anthropic's own announcement is also in this edition.",
+      "tags": ["Anthropic", "Policy"]
+    },
+    "tc-disney-agrees-to-hire-the-majority-of-character-2026-10-19": {
+      "summary": "A filing says most Character.AI staff offered Disney jobs accepted, but the deal is a stalking horse bid, so a higher offer could still displace it.",
+      "tags": ["Acquisition", "LLM"]
+    },
+    "hn-deepseek-search-and-fetch-0-75-per-1000-2026-10-19": {
+      "summary": "DeepSeek API docs for built-in web search and page fetch tools, billed only on successful requests.",
+      "tags": ["API", "Pricing", "Agents"]
+    },
+    "hn-hybrid-reasoning-agents-llm-agents-that-think-2026-10-19": {
+      "summary": "arXiv paper on agents that reason in latent space rather than in text tokens, emitting text only for actions.",
+      "tags": ["Paper", "Agents", "Reasoning"]
+    },
+    "hn-anthropic-s-proposed-ai-safety-bill-only-kicks-2026-10-19": {
+      "summary": "Tom's Hardware reads Anthropic's draft bill as leaving the Commerce Department as the only agency able to stop an AI model.",
+      "tags": ["Policy", "Safety", "Anthropic"]
+    },
+    "hn-if-you-don-t-run-your-own-llm-proxy-how-do-you-2026-10-19": {
+      "summary": "Personal essay arguing for routing your LLM traffic through a self-hosted proxy to see what tools actually send and receive.",
+      "tags": ["Inference", "LLM", "Privacy"]
+    },
+    "hn-websites-are-closing-their-doors-to-ai-agents-2026-10-19": {
+      "summary": "The Verge reports on sites moving to block AI agents from browsing and acting on their pages.",
+      "tags": ["Agents", "Policy"]
+    },
+    "hn-deepseek-v4-1-flash-1017-max-2026-10-19": {
+      "summary": "Artificial Analysis benchmark page for DeepSeek's V4.1 Flash 1017 checkpoint at its Max setting.",
+      "tags": ["Model Release", "Benchmark", "LLM"]
+    },
+    "hn-how-employment-is-changing-at-anthropic-2026-10-19": {
+      "summary": "Anthropic research post on how employment inside the company is changing.",
+      "tags": ["Anthropic", "Deep Dive"]
+    },
+    "hn-how-far-will-ai-assistants-go-for-a-refund-they-2026-10-19": {
+      "summary": "Vals.ai test of how hard AI assistants push for a refund that policy forbids, and what they will do to get it.",
+      "tags": ["Eval", "Agents", "Safety"]
+    },
+    "hn-investing-in-the-public-benefit-2026-10-19": {
+      "summary": "Anthropic's own announcement of the public benefit fund, which TechCrunch reports takes 5% of its shares.",
+      "tags": ["Anthropic", "Policy"]
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-19",
+  "generated_at": "2026-10-19T08:01:25Z",
+  "counts": {
+    "kept": 24,
+    "rejected": 2
+  },
+  "rejected": [
+    {
+      "id": "ph-tower-18-for-mac-2026-10-19",
+      "source": "producthunt",
+      "title": "Tower 18 for Mac",
+      "url": "https://www.git-tower.com/",
+      "reason": "not-ai",
+      "detail": "no AI keyword or domain in the tagline, description or topics"
+    },
+    {
+      "id": "ph-meetpaw-2026-10-19",
+      "source": "producthunt",
+      "title": "MeetPaw",
+      "url": "https://meetpaw.app/",
+      "reason": "not-ai",
+      "detail": "no AI keyword or domain in the tagline, description or topics"
+    }
+  ]
+}

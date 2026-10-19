@@ -1,0 +1,120 @@
+{
+  "source": "hackernews",
+  "section": "ai-news",
+  "fetched_at": "2026-10-19",
+  "window": {
+    "after": "2026-10-18",
+    "before": "2026-10-20"
+  },
+  "query_params": {
+    "tags": "story",
+    "count": 10,
+    "min_points": 50,
+    "topic": "ai",
+    "ranking": "points,recency"
+  },
+  "totalCount": 10,
+  "poolCount": 49,
+  "stories": [
+    {
+      "title": "DeepSeek search and fetch \u2013 $0.75 per 1000 successful requests",
+      "url": "https://api-docs.deepseek.com/guides/search/",
+      "type": "story",
+      "points": 569,
+      "num_comments": 268,
+      "author": "fagnerbrack",
+      "created_at": "2026-10-18T06:50:36Z",
+      "hn_url": "https://news.ycombinator.com/item?id=50138531"
+    },
+    {
+      "title": "Hybrid Reasoning Agents: LLM agents that think in latent space, act through text",
+      "url": "https://arxiv.org/abs/2610.18861",
+      "type": "story",
+      "points": 368,
+      "num_comments": 173,
+      "author": "allinonai",
+      "created_at": "2026-10-18T20:48:14Z",
+      "hn_url": "https://news.ycombinator.com/item?id=50145337"
+    },
+    {
+      "title": "Show HN: Sphinx \u2013 A hook that quizzes you on your AI's code before shipping",
+      "url": "https://sphinx-six-theta.vercel.app/",
+      "type": "show_hn",
+      "points": 245,
+      "num_comments": 86,
+      "author": "critiquebrowser",
+      "created_at": "2026-10-18T04:33:49Z",
+      "hn_url": "https://news.ycombinator.com/item?id=50137950"
+    },
+    {
+      "title": "Anthropic's proposed AI safety bill only kicks in if 50 deaths or $1B in damages",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-proposed-ai-safety-bill-only-kicks-in-if-50-deaths-or-usd1-billion-in-damages-are-on-the-line-proposal-would-effectively-make-the-commerce-department-the-only-agency-capable-of-stopping-an-ai-model",
+      "type": "story",
+      "points": 162,
+      "num_comments": 164,
+      "author": "f-serif",
+      "created_at": "2026-10-18T14:30:27Z",
+      "hn_url": "https://news.ycombinator.com/item?id=50141429"
+    },
+    {
+      "title": "If you don't run your own LLM proxy, how do you know whats going on?",
+      "url": "https://jrdsgl.com/if-you-dont-run-your-own-llm-proxy-how-the-fuck-do-you-even-know-whats-going-on/",
+      "type": "story",
+      "points": 137,
+      "num_comments": 89,
+      "author": "amrrs",
+      "created_at": "2026-10-18T21:09:12Z",
+      "hn_url": "https://news.ycombinator.com/item?id=50145507"
+    },
+    {
+      "title": "Websites are closing their doors to AI agents",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web",
+      "type": "story",
+      "points": 137,
+      "num_comments": 135,
+      "author": "evolve2k",
+      "created_at": "2026-10-18T14:58:10Z",
+      "hn_url": "https://news.ycombinator.com/item?id=50141657"
+    },
+    {
+      "title": "DeepSeek V4.1 Flash 1017 (Max)",
+      "url": "https://artificialanalysis.ai/models/deepseek-v4-1-flash-1017",
+      "type": "story",
+      "points": 116,
+      "num_comments": 38,
+      "author": "theanonymousone",
+      "created_at": "2026-10-19T04:41:46Z",
+      "hn_url": "https://news.ycombinator.com/item?id=50148452"
+    },
+    {
+      "title": "How employment is changing at Anthropic",
+      "url": "https://www.anthropic.com/research/employment-at-anthropic",
+      "type": "story",
+      "points": 112,
+      "num_comments": 195,
+      "author": "theanonymousone",
+      "created_at": "2026-10-18T10:49:26Z",
+      "hn_url": "https://news.ycombinator.com/item?id=50139873"
+    },
+    {
+      "title": "How Far Will AI Assistants Go for a Refund They Can't Get?",
+      "url": "https://www.vals.ai/blogs/impossible-refund",
+      "type": "story",
+      "points": 83,
+      "num_comments": 101,
+      "author": "DeepLogin",
+      "created_at": "2026-10-18T12:22:58Z",
+      "hn_url": "https://news.ycombinator.com/item?id=50140462"
+    },
+    {
+      "title": "Investing in the public benefit",
+      "url": "https://www.anthropic.com/news/public-benefit-fund",
+      "type": "story",
+      "points": 56,
+      "num_comments": 47,
+      "author": "surprisetalk",
+      "created_at": "2026-10-18T18:15:10Z",
+      "hn_url": "https://news.ycombinator.com/item?id=50143755"
+    }
+  ]
+}
