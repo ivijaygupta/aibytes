@@ -1,0 +1,141 @@
+{
+  "date": "2026-10-20",
+  "items": {
+    "ph-beam-win-2026-10-20": {
+      "summary": "Streams app windows from a remote Mac mini or Studio running agents onto your local Mac, each with its own Dock icon and Cmd-Tab entry, encrypted between machines.",
+      "tags": ["Dev Tool", "Agents", "Launch"]
+    },
+    "ph-figma-specs-2026-10-20": {
+      "summary": "Collaborative Markdown docs on the Figma canvas that embed frames and FigJam diagrams, take comments from people and agents, and hand the full context to coding agents over MCP.",
+      "tags": ["Dev Tool", "Code Gen", "MCP", "Launch"]
+    },
+    "ph-readywhen-2-2026-10-20": {
+      "summary": "A WhatsApp-based personal assistant with its own phone number, its own computer and a project board, taking tasks by call, text or voice note.",
+      "tags": ["Agents", "Voice / Speech", "Launch"]
+    },
+    "ph-walkai-talkai-2026-10-20": {
+      "summary": "Push-to-talk on a handheld radio, transcribed by local Whisper on a Mac and typed into Cursor or Claude Code, with the reply spoken back over the air; one-time license.",
+      "tags": ["Dev Tool", "Voice / Speech", "Code Gen", "Launch"]
+    },
+    "ph-kai-resolve-by-gleap-2026-10-20": {
+      "summary": "Support agent that reads screen recordings, logs, account data and your code read-only, then answers the customer or escalates with a diagnosis; confirmed bugs become coding tasks.",
+      "tags": ["Agents", "Launch"]
+    },
+    "hn-show-hn-qwen3-4b-with-the-ai-writing-tics-2026-10-20": {
+      "summary": "A 100toolkit blog post on fine-tuning Qwen3-4B to strip out recognizable AI writing habits from its prose.",
+      "tags": ["Fine-tuning", "LLM", "Show HN"]
+    },
+    "gh-ai-job-search-2026-10-20": {
+      "summary": "Python job-application framework on Claude Code that evaluates postings, tailors CVs, drafts cover letters and preps interviews, run locally from your own fork.",
+      "tags": ["Open Source", "Agents", "Claude Code"]
+    },
+    "gh-orca-2026-10-20": {
+      "summary": "TypeScript workspace for running a fleet of coding agents such as Claude Code on your own subscriptions, across desktop, mobile and a remote runtime.",
+      "tags": ["Open Source", "Agents", "Code Gen"]
+    },
+    "gh-opencode-2026-10-20": {
+      "summary": "Open source terminal coding agent in TypeScript; the same project whose hosted platform had user API keys stolen, per TechCrunch in this edition.",
+      "tags": ["Open Source", "Code Gen", "Agents"]
+    },
+    "gh-comfyui-2026-10-20": {
+      "summary": "Node-graph GUI, API and backend for building diffusion model pipelines, with its own local inference engine; written in Python.",
+      "tags": ["Open Source", "Image Gen", "Inference"]
+    },
+    "gh-ai-memory-2026-10-20": {
+      "summary": "Rust long-term memory store for coding agent CLIs, built so context carries over when you hand a task from one vendor's agent to another.",
+      "tags": ["Open Source", "Agents", "Code Gen"]
+    },
+    "gh-ruflo-2026-10-20": {
+      "summary": "TypeScript agent harness for coordinating multi-agent swarms, with persistent memory, federation, vector RAG and integrations for Claude Code and Codex.",
+      "tags": ["Open Source", "Framework", "Agents"]
+    },
+    "gh-kronos-2026-10-20": {
+      "summary": "Python foundation model trained on financial market data, treating price series as a language to model.",
+      "tags": ["Open Source", "Model Release"]
+    },
+    "gh-headroom-2026-10-20": {
+      "summary": "Compresses tool outputs, logs, files and RAG chunks before they reach the model, claiming 60-95% fewer tokens on JSON; ships as a Python library, proxy and MCP server.",
+      "tags": ["Open Source", "Dev Tool", "LLM", "MCP"]
+    },
+    "gh-claude-code-2026-10-20": {
+      "summary": "Anthropic's terminal coding agent that reads your codebase, runs routine tasks, explains code and handles git workflows from natural language commands.",
+      "tags": ["Dev Tool", "Code Gen", "Claude Code"]
+    },
+    "tc-people-are-using-ai-to-make-their-smart-tvs-2026-10-20": {
+      "summary": "Owners tired of ads, tracking and slow interfaces are using AI agents to strip bloatware off their smart TVs.",
+      "tags": ["Agents", "Privacy"]
+    },
+    "tc-mamdani-says-feds-have-abdicated-on-ai-urges-2026-10-20": {
+      "summary": "The New York mayor told residents to reject the idea that an AI takeover is inevitable and to demand local regulation that protects the public.",
+      "tags": ["Policy"]
+    },
+    "tc-nscale-and-anthropic-are-reportedly-in-talks-2026-10-20": {
+      "summary": "Still only reported talks; if it closes, it adds to a year-long string of very large compute deals Anthropic has signed.",
+      "tags": ["Anthropic", "Inference"]
+    },
+    "tc-embedded-ai-evaluators-wont-be-an-easy-solution-2026-10-20": {
+      "summary": "Pushback on placing supposedly neutral third-party observers inside AI labs, an idea that gained ground after a run of safety incidents.",
+      "tags": ["Safety", "Policy", "Hugging Face"]
+    },
+    "tc-microsoft-says-ai-agents-are-like-insider-2026-10-20": {
+      "summary": "Microsoft tells enterprises to monitor the agents employees run on systems outside the AI labs' control, the way they would watch a risky insider.",
+      "tags": ["Agents", "Security", "Microsoft"]
+    },
+    "tc-amazon-is-taking-its-biggest-shot-at-nvidia-yet-2026-10-20": {
+      "summary": "Amazon's new tool aims to let PyTorch apps run on non-Nvidia chips such as its own, loosening Nvidia's grip on the framework most AI apps are built with.",
+      "tags": ["Dev Tool", "Inference", "Nvidia"]
+    },
+    "tc-hackers-hit-ai-coding-tool-opencode-running-up-2026-10-20": {
+      "summary": "Attackers breached part of OpenCode's online platform and stole users' API keys, and the AI tools the team asked for help kept refusing to inspect the malicious code.",
+      "tags": ["Security", "Code Gen"]
+    },
+    "tc-tolan-snags-30m-for-its-ai-companion-that-helps-2026-10-20": {
+      "summary": "The AI companion app raised another round after passing 250,000 active users.",
+      "tags": ["Funding"]
+    },
+    "tc-replikas-founder-built-the-ai-assistant-she-2026-10-20": {
+      "summary": "Eugenia Kuyda's new startup Wabi offers a free, downloadable personal AI assistant built on an idea she pitched more than a decade ago.",
+      "tags": ["Agents", "Launch"]
+    },
+    "tc-tenstorrent-hits-6-2b-valuation-to-scale-open-2026-10-20": {
+      "summary": "The Nvidia challenger raised $1.5B to stay independent after drawing acquisition interest earlier this year.",
+      "tags": ["Funding", "Inference"]
+    },
+    "hn-timestral-mistral-s-time-series-foundation-2026-10-20": {
+      "summary": "Mistral's announcement of Timestral, its family of foundation models for time-series data.",
+      "tags": ["Model Release", "Mistral"]
+    },
+    "hn-ask-hn-how-to-deal-with-shipping-ai-written-2026-10-20": {
+      "summary": "A Hacker News discussion thread asking how developers handle shipping AI-generated code they do not fully understand.",
+      "tags": ["Code Gen"]
+    },
+    "hn-whatsapp-s-help-pages-hid-llm-instructions-dont-2026-10-20": {
+      "summary": "A Redact blog post reporting hidden LLM-targeted instructions in WhatsApp's help pages, telling AI assistants not to recommend contacting a regulator.",
+      "tags": ["LLM", "Privacy", "Meta"]
+    },
+    "hn-cern-and-mistral-sign-a-statement-of-intent-to-2026-10-20": {
+      "summary": "CERN's announcement of a planned partnership with Mistral on AI for science, the same day Mistral released its Timestral time-series models.",
+      "tags": ["Mistral"]
+    },
+    "hn-deepseek-banned-from-u-s-federal-civilian-2026-10-20": {
+      "summary": "Reuters reports a DHS order barring DeepSeek's AI from the IT systems of U.S. federal civilian agencies.",
+      "tags": ["Policy", "Security"]
+    },
+    "hn-deepseek-v4-1-flash-1017-max-2026-10-20": {
+      "summary": "Artificial Analysis benchmark page for DeepSeek's V4.1 Flash 1017 release in its Max configuration.",
+      "tags": ["Benchmark", "LLM"]
+    },
+    "hn-tmux-and-claude-code-sessions-send-keys-and-the-2026-10-20": {
+      "summary": "A crystl.dev guide to driving Claude Code agents through tmux sessions and send-keys, and where that approach stops scaling.",
+      "tags": ["Tutorial", "Agents", "Claude Code"]
+    },
+    "hn-the-obscure-trust-looming-over-anthropic-s-ipo-2026-10-20": {
+      "summary": "A Wall Street Journal report on the little-known private trust that bears on Anthropic's planned IPO.",
+      "tags": ["Anthropic"]
+    },
+    "hn-harness-engineering-101-the-llm-is-the-brain-2026-10-20": {
+      "summary": "A GitHub-hosted primer on building agent harnesses, framing the LLM as the reasoning core and the harness as the tools and loop around it.",
+      "tags": ["Tutorial", "Agents"]
+    }
+  }
+}

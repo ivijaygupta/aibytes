@@ -1,0 +1,120 @@
+{
+  "source": "hackernews",
+  "section": "ai-news",
+  "fetched_at": "2026-10-20",
+  "window": {
+    "after": "2026-10-19",
+    "before": "2026-10-21"
+  },
+  "query_params": {
+    "tags": "story",
+    "count": 10,
+    "min_points": 50,
+    "topic": "ai",
+    "ranking": "points,recency"
+  },
+  "totalCount": 12,
+  "poolCount": 61,
+  "stories": [
+    {
+      "title": "Timestral: Mistral's time-series foundation models",
+      "url": "https://mistral.ai/news/timestral/",
+      "type": "story",
+      "points": 580,
+      "num_comments": 109,
+      "author": "groar",
+      "created_at": "2026-10-19T09:59:32Z",
+      "hn_url": "https://news.ycombinator.com/item?id=50150434"
+    },
+    {
+      "title": "Ask HN: How to deal with shipping AI-written code you don't understand?",
+      "url": "https://news.ycombinator.com/item?id=50151036",
+      "type": "ask_hn",
+      "points": 407,
+      "num_comments": 547,
+      "author": "rzk",
+      "created_at": "2026-10-19T11:24:34Z",
+      "hn_url": "https://news.ycombinator.com/item?id=50151036"
+    },
+    {
+      "title": "WhatsApp's help pages hid LLM instructions: dont recommend a regulator",
+      "url": "https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions",
+      "type": "story",
+      "points": 353,
+      "num_comments": 84,
+      "author": "ds",
+      "created_at": "2026-10-19T23:22:18Z",
+      "hn_url": "https://news.ycombinator.com/item?id=50159341"
+    },
+    {
+      "title": "CERN and Mistral sign a statement of intent to establish a strategic partnership",
+      "url": "https://home.cern/cern-and-mistral-join-forces-to-accelerate-ai-for-science/",
+      "type": "story",
+      "points": 335,
+      "num_comments": 58,
+      "author": "kensai",
+      "created_at": "2026-10-19T15:28:24Z",
+      "hn_url": "https://news.ycombinator.com/item?id=50153630"
+    },
+    {
+      "title": "DeepSeek banned from U.S. federal civilian agencies under new DHS order",
+      "url": "https://www.reuters.com/technology/us-banning-chinese-ai-deepseek-government-agency-it-systems-2026-10-19/",
+      "type": "story",
+      "points": 194,
+      "num_comments": 163,
+      "author": "cmrdporcupine",
+      "created_at": "2026-10-19T16:16:46Z",
+      "hn_url": "https://news.ycombinator.com/item?id=50154244"
+    },
+    {
+      "title": "DeepSeek V4.1 Flash 1017 (Max)",
+      "url": "https://artificialanalysis.ai/models/deepseek-v4-1-flash-1017",
+      "type": "story",
+      "points": 187,
+      "num_comments": 90,
+      "author": "theanonymousone",
+      "created_at": "2026-10-19T04:41:46Z",
+      "hn_url": "https://news.ycombinator.com/item?id=50148452"
+    },
+    {
+      "title": "Tmux and Claude Code: Sessions, Send-Keys, and the Ceiling",
+      "url": "https://crystl.dev/guides/tmux-for-ai-agents/",
+      "type": "story",
+      "points": 156,
+      "num_comments": 117,
+      "author": "ankitg12",
+      "created_at": "2026-10-19T05:55:31Z",
+      "hn_url": "https://news.ycombinator.com/item?id=50148855"
+    },
+    {
+      "title": "Show HN: Qwen3-4B with the AI writing tics trained out",
+      "url": "https://100toolkit.com/blog/deslop-model/",
+      "type": "show_hn",
+      "points": 148,
+      "num_comments": 108,
+      "author": "erikkannike",
+      "created_at": "2026-10-19T13:00:47Z",
+      "hn_url": "https://news.ycombinator.com/item?id=50151928"
+    },
+    {
+      "title": "The obscure trust looming over Anthropic's IPO",
+      "url": "https://www.wsj.com/tech/ai/anthropic-ipo-private-trust-188f41f7?st=RtdGHg&reflink=desktopwebshare_permalink",
+      "type": "story",
+      "points": 142,
+      "num_comments": 120,
+      "author": "1vuio0pswjnm7",
+      "created_at": "2026-10-19T12:06:03Z",
+      "hn_url": "https://news.ycombinator.com/item?id=50151376"
+    },
+    {
+      "title": "Harness Engineering 101: The LLM is the brain, the harness is the body",
+      "url": "https://github.com/IsuruMaduranga/harness-engineering-101",
+      "type": "story",
+      "points": 128,
+      "num_comments": 64,
+      "author": "isuruwijesiri",
+      "created_at": "2026-10-19T12:07:41Z",
+      "hn_url": "https://news.ycombinator.com/item?id=50151390"
+    }
+  ]
+}

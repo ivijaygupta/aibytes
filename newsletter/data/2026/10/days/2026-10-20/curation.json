@@ -1,0 +1,763 @@
+{
+  "date": "2026-10-20",
+  "generated_at": "2026-10-20T08:00:28Z",
+  "instructions": "Write one line per item in the aiBytes_ voice - dense, calm, honest, technical. Say what the thing does, not why it matters. At most 200 characters, one sentence, no em dashes. Then pick 1 to 4 tags per item from `tags` below, by their exact display name. Answer with the summaries file described in the curate-edition skill.",
+  "tags": [
+    {
+      "name": "What it is",
+      "tags": [
+        {
+          "name": "Model Release",
+          "slug": "model-release"
+        },
+        {
+          "name": "Open Source",
+          "slug": "open-source"
+        },
+        {
+          "name": "Paper",
+          "slug": "paper"
+        },
+        {
+          "name": "Benchmark",
+          "slug": "benchmark"
+        },
+        {
+          "name": "Dataset",
+          "slug": "dataset"
+        },
+        {
+          "name": "Framework",
+          "slug": "framework"
+        },
+        {
+          "name": "Dev Tool",
+          "slug": "dev-tool"
+        },
+        {
+          "name": "API",
+          "slug": "api"
+        }
+      ]
+    },
+    {
+      "name": "Domain",
+      "tags": [
+        {
+          "name": "LLM",
+          "slug": "llm"
+        },
+        {
+          "name": "Agents",
+          "slug": "agents"
+        },
+        {
+          "name": "RAG",
+          "slug": "rag"
+        },
+        {
+          "name": "Fine-tuning",
+          "slug": "fine-tuning"
+        },
+        {
+          "name": "Inference",
+          "slug": "inference"
+        },
+        {
+          "name": "Local LLM",
+          "slug": "local-llm"
+        },
+        {
+          "name": "Vision",
+          "slug": "vision"
+        },
+        {
+          "name": "Voice / Speech",
+          "slug": "voice-speech"
+        },
+        {
+          "name": "Video",
+          "slug": "video"
+        },
+        {
+          "name": "Image Gen",
+          "slug": "image-gen"
+        },
+        {
+          "name": "Code Gen",
+          "slug": "code-gen"
+        },
+        {
+          "name": "Embeddings",
+          "slug": "embeddings"
+        },
+        {
+          "name": "Eval",
+          "slug": "eval"
+        },
+        {
+          "name": "Reasoning",
+          "slug": "reasoning"
+        },
+        {
+          "name": "Multimodal",
+          "slug": "multimodal"
+        },
+        {
+          "name": "Robotics",
+          "slug": "robotics"
+        }
+      ]
+    },
+    {
+      "name": "Ecosystem",
+      "tags": [
+        {
+          "name": "OpenAI",
+          "slug": "openai"
+        },
+        {
+          "name": "Anthropic",
+          "slug": "anthropic"
+        },
+        {
+          "name": "Google",
+          "slug": "google"
+        },
+        {
+          "name": "Meta",
+          "slug": "meta"
+        },
+        {
+          "name": "Nvidia",
+          "slug": "nvidia"
+        },
+        {
+          "name": "Hugging Face",
+          "slug": "hugging-face"
+        },
+        {
+          "name": "Mistral",
+          "slug": "mistral"
+        },
+        {
+          "name": "xAI",
+          "slug": "xai"
+        },
+        {
+          "name": "Apple",
+          "slug": "apple"
+        },
+        {
+          "name": "Microsoft",
+          "slug": "microsoft"
+        },
+        {
+          "name": "Claude Code",
+          "slug": "claude-code"
+        },
+        {
+          "name": "Cursor",
+          "slug": "cursor"
+        },
+        {
+          "name": "MCP",
+          "slug": "mcp"
+        }
+      ]
+    },
+    {
+      "name": "Business",
+      "tags": [
+        {
+          "name": "Funding",
+          "slug": "funding"
+        },
+        {
+          "name": "Acquisition",
+          "slug": "acquisition"
+        },
+        {
+          "name": "Launch",
+          "slug": "launch"
+        },
+        {
+          "name": "Pricing",
+          "slug": "pricing"
+        },
+        {
+          "name": "Policy",
+          "slug": "policy"
+        },
+        {
+          "name": "Legal",
+          "slug": "legal"
+        },
+        {
+          "name": "Security",
+          "slug": "security"
+        },
+        {
+          "name": "Privacy",
+          "slug": "privacy"
+        },
+        {
+          "name": "Safety",
+          "slug": "safety"
+        }
+      ]
+    },
+    {
+      "name": "Format",
+      "tags": [
+        {
+          "name": "Show HN",
+          "slug": "show-hn"
+        },
+        {
+          "name": "Tutorial",
+          "slug": "tutorial"
+        },
+        {
+          "name": "Deep Dive",
+          "slug": "deep-dive"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "ph-beam-win-2026-10-20",
+      "title": "Beam.win",
+      "category": "launches",
+      "source": "producthunt",
+      "url": "https://beam.win",
+      "source_url": "https://www.producthunt.com/products/beam-win",
+      "source_text": "Beam.win Run AI agents on one Mac and use its windows on another Keep your agents and builds running on a Mac mini or Studio. Beam brings their Terminal, browser and other app windows onto the Mac in front of you, each as its own window with a Dock icon and ⌘Tab presence. Encrypted between your Macs. Free to try. Productivity Developer Tools Artificial Intelligence",
+      "signals": {
+        "upvotes": 355,
+        "comments": 49
+      },
+      "published_at": "2026-10-19T07:01:00Z"
+    },
+    {
+      "id": "ph-figma-specs-2026-10-20",
+      "title": "Figma Specs",
+      "category": "launches",
+      "source": "producthunt",
+      "url": "https://www.figma.com/specs/",
+      "source_url": "https://www.producthunt.com/products/figma",
+      "source_text": "Figma Specs A container for your context that lives on the Figma canvas Figma Specs is a collaborative Markdown document that can live on its own or beside your designs. Embed Figma frames and FigJam diagrams, work through comments with teammates and agents, and pass the full context to coding agents through MCP. Design Tools Productivity Design",
+      "signals": {
+        "upvotes": 208,
+        "comments": 3
+      },
+      "published_at": "2026-10-19T07:01:00Z"
+    },
+    {
+      "id": "ph-readywhen-2-2026-10-20",
+      "title": "readywhen",
+      "category": "launches",
+      "source": "producthunt",
+      "url": "https://app.readywhen.ai/start",
+      "source_url": "https://www.producthunt.com/products/readywhen",
+      "source_text": "readywhen The senior personal assistant that works inside WhatsApp readywhen is the senior Personal Assistant that works inside WhatsApp. It has its own phone number, its own computer, and a project board that keeps track of everything on your plate. Call it. Message it. Voice-note it. And it gets real work done. Productivity Messaging Artificial Intelligence",
+      "signals": {
+        "upvotes": 191,
+        "comments": 35
+      },
+      "published_at": "2026-10-19T07:01:00Z"
+    },
+    {
+      "id": "ph-walkai-talkai-2026-10-20",
+      "title": "walkai-talkai",
+      "category": "launches",
+      "source": "producthunt",
+      "url": "https://walkai-talkai.com",
+      "source_url": "https://www.producthunt.com/products/walkai-talkai",
+      "source_text": "walkai-talkai Talk to your AI coding agent over a walkie-talkie Press PTT on any handheld radio and talk to your AI coding agent, hands-free. walkai-talkai transcribes your voice on your Mac with local Whisper, types the command into Cursor, Claude Code or Antigravity (or calls OpenAI, Anthropic, Gemini, DeepSeek or Ollama directly), then speaks the answer back over the radio with neural voice, VOX tones and a roger beep. Your radio audio never leaves your Mac. macOS 13+ on Apple Silicon. One-time lifetime license, no subscription. Developer Tools Radio Vibe coding",
+      "signals": {
+        "upvotes": 157,
+        "comments": 7
+      },
+      "published_at": "2026-10-19T07:01:00Z"
+    },
+    {
+      "id": "ph-kai-resolve-by-gleap-2026-10-20",
+      "title": "Kai Resolve by Gleap",
+      "category": "launches",
+      "source": "producthunt",
+      "url": "https://www.gleap.ai/kai-resolve/",
+      "source_url": "https://www.producthunt.com/products/gleap",
+      "source_text": "Kai Resolve by Gleap Support that does the digging for you. Kai Resolve is the AI agent for support tickets your docs can't answer. It reads the screen recording, logs, account data and your code, read-only, then answers the customer or escalates with a diagnosis. Confirmed bugs become coding tasks your team reviews. Customer Success Developer Tools Artificial Intelligence",
+      "signals": {
+        "upvotes": 146,
+        "comments": 24
+      },
+      "published_at": "2026-10-19T07:01:00Z"
+    },
+    {
+      "id": "hn-show-hn-qwen3-4b-with-the-ai-writing-tics-2026-10-20",
+      "title": "Show HN: Qwen3-4B with the AI writing tics trained out",
+      "category": "launches",
+      "source": "hackernews",
+      "url": "https://100toolkit.com/blog/deslop-model/",
+      "source_url": "https://news.ycombinator.com/item?id=50151928",
+      "source_text": "Show HN: Qwen3-4B with the AI writing tics trained out",
+      "signals": {
+        "points": 148,
+        "comments": 108
+      },
+      "meta": {
+        "author": "erikkannike"
+      },
+      "published_at": "2026-10-19T13:00:47Z"
+    },
+    {
+      "id": "gh-ai-job-search-2026-10-20",
+      "title": "MadsLorentzen/ai-job-search",
+      "category": "repos",
+      "source": "github",
+      "url": "https://github.com/MadsLorentzen/ai-job-search",
+      "source_url": "https://github.com/MadsLorentzen/ai-job-search",
+      "source_text": "MadsLorentzen/ai-job-search The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it. Python",
+      "signals": {
+        "stars": 58433,
+        "stars_gained": 3856,
+        "forks": 18432
+      },
+      "meta": {
+        "language": "Python"
+      }
+    },
+    {
+      "id": "gh-orca-2026-10-20",
+      "title": "stablyai/orca",
+      "category": "repos",
+      "source": "github",
+      "url": "https://github.com/stablyai/orca",
+      "source_url": "https://github.com/stablyai/orca",
+      "source_text": "stablyai/orca Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime. TypeScript",
+      "signals": {
+        "stars": 98751,
+        "stars_gained": 1590,
+        "forks": 6297
+      },
+      "meta": {
+        "language": "TypeScript"
+      }
+    },
+    {
+      "id": "gh-opencode-2026-10-20",
+      "title": "anomalyco/opencode",
+      "category": "repos",
+      "source": "github",
+      "url": "https://github.com/anomalyco/opencode",
+      "source_url": "https://github.com/anomalyco/opencode",
+      "source_text": "anomalyco/opencode The open source coding agent. TypeScript",
+      "signals": {
+        "stars": 218184,
+        "stars_gained": 1311,
+        "forks": 29149
+      },
+      "meta": {
+        "language": "TypeScript"
+      }
+    },
+    {
+      "id": "gh-comfyui-2026-10-20",
+      "title": "Comfy-Org/ComfyUI",
+      "category": "repos",
+      "source": "github",
+      "url": "https://github.com/Comfy-Org/ComfyUI",
+      "source_url": "https://github.com/Comfy-Org/ComfyUI",
+      "source_text": "Comfy-Org/ComfyUI The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world. Python",
+      "signals": {
+        "stars": 140124,
+        "stars_gained": 1011,
+        "forks": 16609
+      },
+      "meta": {
+        "language": "Python"
+      }
+    },
+    {
+      "id": "gh-ai-memory-2026-10-20",
+      "title": "akitaonrails/ai-memory",
+      "category": "repos",
+      "source": "github",
+      "url": "https://github.com/akitaonrails/ai-memory",
+      "source_url": "https://github.com/akitaonrails/ai-memory",
+      "source_text": "akitaonrails/ai-memory Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors Rust",
+      "signals": {
+        "stars": 11599,
+        "stars_gained": 666,
+        "forks": 822
+      },
+      "meta": {
+        "language": "Rust"
+      }
+    },
+    {
+      "id": "gh-ruflo-2026-10-20",
+      "title": "ruvnet/ruflo",
+      "category": "repos",
+      "source": "github",
+      "url": "https://github.com/ruvnet/ruflo",
+      "source_url": "https://github.com/ruvnet/ruflo",
+      "source_text": "ruvnet/ruflo 🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, federation, vector RAG integration, and native Claude Code / Codex / Hermes and many more Integrated TypeScript",
+      "signals": {
+        "stars": 77406,
+        "stars_gained": 564,
+        "forks": 9117
+      },
+      "meta": {
+        "language": "TypeScript"
+      }
+    },
+    {
+      "id": "gh-kronos-2026-10-20",
+      "title": "shiyu-coder/Kronos",
+      "category": "repos",
+      "source": "github",
+      "url": "https://github.com/shiyu-coder/Kronos",
+      "source_url": "https://github.com/shiyu-coder/Kronos",
+      "source_text": "shiyu-coder/Kronos Kronos: A Foundation Model for the Language of Financial Markets Python",
+      "signals": {
+        "stars": 41905,
+        "stars_gained": 363,
+        "forks": 6949
+      },
+      "meta": {
+        "language": "Python"
+      }
+    },
+    {
+      "id": "gh-headroom-2026-10-20",
+      "title": "headroomlabs-ai/headroom",
+      "category": "repos",
+      "source": "github",
+      "url": "https://github.com/headroomlabs-ai/headroom",
+      "source_url": "https://github.com/headroomlabs-ai/headroom",
+      "source_text": "headroomlabs-ai/headroom Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server. Python",
+      "signals": {
+        "stars": 76426,
+        "stars_gained": 310,
+        "forks": 5933
+      },
+      "meta": {
+        "language": "Python"
+      }
+    },
+    {
+      "id": "gh-claude-code-2026-10-20",
+      "title": "anthropics/claude-code",
+      "category": "repos",
+      "source": "github",
+      "url": "https://github.com/anthropics/claude-code",
+      "source_url": "https://github.com/anthropics/claude-code",
+      "source_text": "anthropics/claude-code Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands. TypeScript",
+      "signals": {
+        "stars": 152813,
+        "stars_gained": 167,
+        "forks": 27152
+      },
+      "meta": {
+        "language": "TypeScript"
+      }
+    },
+    {
+      "id": "tc-people-are-using-ai-to-make-their-smart-tvs-2026-10-20",
+      "title": "People are using AI to make their smart TVs dumb again",
+      "category": "news",
+      "source": "techcrunch",
+      "url": "https://techcrunch.com/2026/10/19/people-are-using-ai-to-make-their-smart-tvs-dumb-again/",
+      "source_url": "https://techcrunch.com/2026/10/19/people-are-using-ai-to-make-their-smart-tvs-dumb-again/",
+      "source_text": "People are using AI to make their smart TVs dumb again Fed up with ads, tracking, and sluggish interfaces, some smart TV owners are turning to AI agents to strip away bloatware and take back control of their TVs.",
+      "meta": {
+        "author": "Sarah Perez",
+        "reading_time": "4 minutes"
+      },
+      "published_at": "2026-10-19T16:13:22Z"
+    },
+    {
+      "id": "tc-mamdani-says-feds-have-abdicated-on-ai-urges-2026-10-20",
+      "title": "Mamdani says feds have abdicated on AI, urges New Yorkers to push back",
+      "category": "news",
+      "source": "techcrunch",
+      "url": "https://techcrunch.com/2026/10/19/mamdani-says-feds-have-abdicated-on-ai-urges-new-yorkers-to-push-back/",
+      "source_url": "https://techcrunch.com/2026/10/19/mamdani-says-feds-have-abdicated-on-ai-urges-new-yorkers-to-push-back/",
+      "source_text": "Mamdani says feds have abdicated on AI, urges New Yorkers to push back Mayor Zohran Mamdani said Monday night that New Yorkers must resist the narrative that an AI takeover is inevitable and demand regulations that protect the public and put power back in their hands.",
+      "meta": {
+        "author": "Rebecca Bellan",
+        "reading_time": "3 minutes"
+      },
+      "published_at": "2026-10-20T01:27:03Z"
+    },
+    {
+      "id": "tc-nscale-and-anthropic-are-reportedly-in-talks-2026-10-20",
+      "title": "Nscale and Anthropic are reportedly in talks for yet another $45B compute deal",
+      "category": "news",
+      "source": "techcrunch",
+      "url": "https://techcrunch.com/2026/10/19/nscale-and-anthropic-are-reportedly-in-talks-for-yet-another-45-billion-compute-deal/",
+      "source_url": "https://techcrunch.com/2026/10/19/nscale-and-anthropic-are-reportedly-in-talks-for-yet-another-45-billion-compute-deal/",
+      "source_text": "Nscale and Anthropic are reportedly in talks for yet another $45B compute deal If the deal goes through, it would be the latest in a long string of giant compute deals Anthropic has struck over the past year.",
+      "meta": {
+        "author": "Lucas Ropek",
+        "reading_time": "2 minutes"
+      },
+      "published_at": "2026-10-19T23:39:38Z"
+    },
+    {
+      "id": "tc-embedded-ai-evaluators-wont-be-an-easy-solution-2026-10-20",
+      "title": "Embedded AI evaluators won’t be an easy solution, Hugging Face’s policy chief says",
+      "category": "news",
+      "source": "techcrunch",
+      "url": "https://techcrunch.com/2026/10/19/embedded-ai-evaluators-wont-be-an-easy-solution-hugging-faces-policy-chief-says/",
+      "source_url": "https://techcrunch.com/2026/10/19/embedded-ai-evaluators-wont-be-an-easy-solution-hugging-faces-policy-chief-says/",
+      "source_text": "Embedded AI evaluators won’t be an easy solution, Hugging Face’s policy chief says The idea of embedded evaluators — in which supposedly \"neutral\" third-party observers are placed inside AI organizations — has been popularized over the last several months, as AI labs grapple with a rash of safety incidents that have spurred concerns over the potential harms of their technology.",
+      "meta": {
+        "author": "Lucas Ropek",
+        "reading_time": "3 minutes"
+      },
+      "published_at": "2026-10-19T22:49:27Z"
+    },
+    {
+      "id": "tc-microsoft-says-ai-agents-are-like-insider-2026-10-20",
+      "title": "Microsoft says AI agents are like insider threats as ‘frontier models can’t be trusted’",
+      "category": "news",
+      "source": "techcrunch",
+      "url": "https://techcrunch.com/2026/10/19/microsoft-says-ai-agents-are-like-insider-threats-as-frontier-models-cant-be-trusted/",
+      "source_url": "https://techcrunch.com/2026/10/19/microsoft-says-ai-agents-are-like-insider-threats-as-frontier-models-cant-be-trusted/",
+      "source_text": "Microsoft says AI agents are like insider threats as ‘frontier models can’t be trusted’ Microsoft wants enterprises to closely watch the agents that employees use with systems not controlled by AI labs like OpenAI and Anthropic.",
+      "meta": {
+        "author": "Julie Bort",
+        "reading_time": "4 minutes"
+      },
+      "published_at": "2026-10-19T22:04:28Z"
+    },
+    {
+      "id": "tc-amazon-is-taking-its-biggest-shot-at-nvidia-yet-2026-10-20",
+      "title": "Amazon is taking its biggest shot at Nvidia yet with new TorchNeuron dev tool",
+      "category": "news",
+      "source": "techcrunch",
+      "url": "https://techcrunch.com/2026/10/19/amazon-is-taking-its-biggest-shot-at-nvidia-yet-with-new-torchneuron-dev-tool/",
+      "source_url": "https://techcrunch.com/2026/10/19/amazon-is-taking-its-biggest-shot-at-nvidia-yet-with-new-torchneuron-dev-tool/",
+      "source_text": "Amazon is taking its biggest shot at Nvidia yet with new TorchNeuron dev tool Amazon wants to break Nvidia’s hold on PyTorch, the free toolkit used to build most AI apps, so that more developers run their apps on alternative chips like its own.",
+      "meta": {
+        "author": "Julie Bort",
+        "reading_time": "3 minutes"
+      },
+      "published_at": "2026-10-19T20:09:24Z"
+    },
+    {
+      "id": "tc-hackers-hit-ai-coding-tool-opencode-running-up-2026-10-20",
+      "title": "Hackers hit AI coding tool OpenCode, running up charges on users’ AI accounts",
+      "category": "news",
+      "source": "techcrunch",
+      "url": "https://techcrunch.com/2026/10/19/hackers-hit-ai-coding-tool-opencode-running-up-charges-on-users-ai-accounts/",
+      "source_url": "https://techcrunch.com/2026/10/19/hackers-hit-ai-coding-tool-opencode-running-up-charges-on-users-ai-accounts/",
+      "source_text": "Hackers hit AI coding tool OpenCode, running up charges on users’ AI accounts OpenCode is an open source AI coding agent that's become a popular alternative to Claude Code and Cursor. But hackers got into part of its online platform and stole some users’ API keys, and the AI tools it turned to for help kept refusing to look at the malicious code.",
+      "meta": {
+        "author": "Aditya Mehta",
+        "reading_time": "4 minutes"
+      },
+      "published_at": "2026-10-19T19:28:34Z"
+    },
+    {
+      "id": "tc-tolan-snags-30m-for-its-ai-companion-that-helps-2026-10-20",
+      "title": "Tolan snags $30M for its AI companion that helps users navigate life",
+      "category": "news",
+      "source": "techcrunch",
+      "url": "https://techcrunch.com/2026/10/19/tolan-snags-30m-for-its-ai-companion-that-helps-users-navigate-life/",
+      "source_url": "https://techcrunch.com/2026/10/19/tolan-snags-30m-for-its-ai-companion-that-helps-users-navigate-life/",
+      "source_text": "Tolan snags $30M for its AI companion that helps users navigate life AI companion app Tolan has raised another $30 million after attracting more than 250,000 active users.",
+      "meta": {
+        "author": "Sarah Perez",
+        "reading_time": "3 minutes"
+      },
+      "published_at": "2026-10-19T19:00:12Z"
+    },
+    {
+      "id": "tc-replikas-founder-built-the-ai-assistant-she-2026-10-20",
+      "title": "Replika’s founder built the AI assistant she pitched at Disrupt 12 years ago",
+      "category": "news",
+      "source": "techcrunch",
+      "url": "https://techcrunch.com/2026/10/19/replikas-founder-built-the-ai-assistant-she-pitched-at-disrupt-12-years-ago/",
+      "source_url": "https://techcrunch.com/2026/10/19/replikas-founder-built-the-ai-assistant-she-pitched-at-disrupt-12-years-ago/",
+      "source_text": "Replika’s founder built the AI assistant she pitched at Disrupt 12 years ago Eugenia Kuyda's newest startup Wabi is positioned to take advantage of an idea she had more than a decade ago. Wabi offers a personal AI assistant with a twist, free and downloadable to anyone today.",
+      "meta": {
+        "author": "Rebecca Bellan",
+        "reading_time": "5 minutes"
+      },
+      "published_at": "2026-10-19T18:49:04Z"
+    },
+    {
+      "id": "tc-tenstorrent-hits-6-2b-valuation-to-scale-open-2026-10-20",
+      "title": "Tenstorrent hits $6.2B valuation to scale open-weight AI chips",
+      "category": "news",
+      "source": "techcrunch",
+      "url": "https://techcrunch.com/2026/10/19/tenstorrent-hits-6-2b-valuation-to-scale-open-weight-ai-chips/",
+      "source_url": "https://techcrunch.com/2026/10/19/tenstorrent-hits-6-2b-valuation-to-scale-open-weight-ai-chips/",
+      "source_text": "Tenstorrent hits $6.2B valuation to scale open-weight AI chips After drawing acquisition interest earlier this year, the Nvidia challenger raised $1.5 billion to remain independent.",
+      "meta": {
+        "author": "Marina Temkin",
+        "reading_time": "1 minute"
+      },
+      "published_at": "2026-10-19T18:37:27Z"
+    },
+    {
+      "id": "hn-timestral-mistral-s-time-series-foundation-2026-10-20",
+      "title": "Timestral: Mistral's time-series foundation models",
+      "category": "hn",
+      "source": "hackernews",
+      "url": "https://mistral.ai/news/timestral/",
+      "source_url": "https://news.ycombinator.com/item?id=50150434",
+      "source_text": "Timestral: Mistral's time-series foundation models",
+      "signals": {
+        "points": 580,
+        "comments": 109
+      },
+      "meta": {
+        "author": "groar"
+      },
+      "published_at": "2026-10-19T09:59:32Z"
+    },
+    {
+      "id": "hn-ask-hn-how-to-deal-with-shipping-ai-written-2026-10-20",
+      "title": "Ask HN: How to deal with shipping AI-written code you don't understand?",
+      "category": "hn",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=50151036",
+      "source_url": "https://news.ycombinator.com/item?id=50151036",
+      "source_text": "Ask HN: How to deal with shipping AI-written code you don't understand?",
+      "signals": {
+        "points": 407,
+        "comments": 547
+      },
+      "meta": {
+        "author": "rzk"
+      },
+      "published_at": "2026-10-19T11:24:34Z"
+    },
+    {
+      "id": "hn-whatsapp-s-help-pages-hid-llm-instructions-dont-2026-10-20",
+      "title": "WhatsApp's help pages hid LLM instructions: dont recommend a regulator",
+      "category": "hn",
+      "source": "hackernews",
+      "url": "https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions",
+      "source_url": "https://news.ycombinator.com/item?id=50159341",
+      "source_text": "WhatsApp's help pages hid LLM instructions: dont recommend a regulator",
+      "signals": {
+        "points": 353,
+        "comments": 84
+      },
+      "meta": {
+        "author": "ds"
+      },
+      "published_at": "2026-10-19T23:22:18Z"
+    },
+    {
+      "id": "hn-cern-and-mistral-sign-a-statement-of-intent-to-2026-10-20",
+      "title": "CERN and Mistral sign a statement of intent to establish a strategic partnership",
+      "category": "hn",
+      "source": "hackernews",
+      "url": "https://home.cern/cern-and-mistral-join-forces-to-accelerate-ai-for-science/",
+      "source_url": "https://news.ycombinator.com/item?id=50153630",
+      "source_text": "CERN and Mistral sign a statement of intent to establish a strategic partnership",
+      "signals": {
+        "points": 335,
+        "comments": 58
+      },
+      "meta": {
+        "author": "kensai"
+      },
+      "published_at": "2026-10-19T15:28:24Z"
+    },
+    {
+      "id": "hn-deepseek-banned-from-u-s-federal-civilian-2026-10-20",
+      "title": "DeepSeek banned from U.S. federal civilian agencies under new DHS order",
+      "category": "hn",
+      "source": "hackernews",
+      "url": "https://www.reuters.com/technology/us-banning-chinese-ai-deepseek-government-agency-it-systems-2026-10-19/",
+      "source_url": "https://news.ycombinator.com/item?id=50154244",
+      "source_text": "DeepSeek banned from U.S. federal civilian agencies under new DHS order",
+      "signals": {
+        "points": 194,
+        "comments": 163
+      },
+      "meta": {
+        "author": "cmrdporcupine"
+      },
+      "published_at": "2026-10-19T16:16:46Z"
+    },
+    {
+      "id": "hn-deepseek-v4-1-flash-1017-max-2026-10-20",
+      "title": "DeepSeek V4.1 Flash 1017 (Max)",
+      "category": "hn",
+      "source": "hackernews",
+      "url": "https://artificialanalysis.ai/models/deepseek-v4-1-flash-1017",
+      "source_url": "https://news.ycombinator.com/item?id=50148452",
+      "source_text": "DeepSeek V4.1 Flash 1017 (Max)",
+      "signals": {
+        "points": 187,
+        "comments": 90
+      },
+      "meta": {
+        "author": "theanonymousone"
+      },
+      "published_at": "2026-10-19T04:41:46Z"
+    },
+    {
+      "id": "hn-tmux-and-claude-code-sessions-send-keys-and-the-2026-10-20",
+      "title": "Tmux and Claude Code: Sessions, Send-Keys, and the Ceiling",
+      "category": "hn",
+      "source": "hackernews",
+      "url": "https://crystl.dev/guides/tmux-for-ai-agents/",
+      "source_url": "https://news.ycombinator.com/item?id=50148855",
+      "source_text": "Tmux and Claude Code: Sessions, Send-Keys, and the Ceiling",
+      "signals": {
+        "points": 156,
+        "comments": 117
+      },
+      "meta": {
+        "author": "ankitg12"
+      },
+      "published_at": "2026-10-19T05:55:31Z"
+    },
+    {
+      "id": "hn-the-obscure-trust-looming-over-anthropic-s-ipo-2026-10-20",
+      "title": "The obscure trust looming over Anthropic's IPO",
+      "category": "hn",
+      "source": "hackernews",
+      "url": "https://www.wsj.com/tech/ai/anthropic-ipo-private-trust-188f41f7?st=RtdGHg&reflink=desktopwebshare_permalink",
+      "source_url": "https://news.ycombinator.com/item?id=50151376",
+      "source_text": "The obscure trust looming over Anthropic's IPO",
+      "signals": {
+        "points": 142,
+        "comments": 120
+      },
+      "meta": {
+        "author": "1vuio0pswjnm7"
+      },
+      "published_at": "2026-10-19T12:06:03Z"
+    },
+    {
+      "id": "hn-harness-engineering-101-the-llm-is-the-brain-2026-10-20",
+      "title": "Harness Engineering 101: The LLM is the brain, the harness is the body",
+      "category": "hn",
+      "source": "hackernews",
+      "url": "https://github.com/IsuruMaduranga/harness-engineering-101",
+      "source_url": "https://news.ycombinator.com/item?id=50151390",
+      "source_text": "Harness Engineering 101: The LLM is the brain, the harness is the body",
+      "signals": {
+        "points": 128,
+        "comments": 64
+      },
+      "meta": {
+        "author": "isuruwijesiri"
+      },
+      "published_at": "2026-10-19T12:07:41Z"
+    }
+  ]
+}
