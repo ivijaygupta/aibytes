@@ -1,0 +1,133 @@
+{
+  "date": "2026-10-21",
+  "items": {
+    "ph-composio-instant-2026-10-21": {
+      "summary": "Lets an AI agent pay per use for tools like web search, business contact lookup, voiceovers and transcription, with no subscription or signup on the developer's side.",
+      "tags": ["API", "Agents", "Launch"]
+    },
+    "ph-harness-6c72f469-0ceb-4bd8-a470-a028991b1f97-2026-10-21": {
+      "summary": "Google Research framework where LLM agents rewrite their own prompts, tools and memory without ground-truth verifiers, via Propose-Probe-Compose refinement plus reusable experience.",
+      "tags": ["Framework", "Agents", "Open Source", "Google"]
+    },
+    "ph-exa-3-0-2026-10-21": {
+      "summary": "Adds a larger embedding model, 1.27B ecommerce listings and 211M+ local businesses, plus Dynamic Highlights at 95% fewer tokens than full text; a new Lite tier is $4 per 1,000 requests.",
+      "tags": ["API", "Agents", "Launch"]
+    },
+    "hn-show-hn-penmentor-claude-marks-up-your-2026-10-21": {
+      "summary": "Open-source GitHub project that sends handwritten math work to Claude and returns teacher-style markup on it.",
+      "tags": ["Show HN", "Open Source", "Vision"]
+    },
+    "gh-ai-job-search-2026-10-21": {
+      "summary": "Python job application framework built on Claude Code that evaluates postings, tailors CVs, drafts cover letters and preps interviews, run locally from your own fork.",
+      "tags": ["Framework", "Agents", "Claude Code"]
+    },
+    "gh-security-audit-skill-2026-10-21": {
+      "summary": "Cloudflare's coding-agent skill that runs a security audit in multiple phases and emits findings that are independently verified and machine-readable.",
+      "tags": ["Dev Tool", "Agents", "Security"]
+    },
+    "gh-orca-2026-10-21": {
+      "summary": "TypeScript workspace for running a fleet of coding agents such as Claude Code on your own subscriptions, across desktop, mobile and a remote runtime.",
+      "tags": ["Dev Tool", "Agents", "Code Gen"]
+    },
+    "gh-opencode-2026-10-21": {
+      "summary": "Open-source coding agent from anomalyco, written in TypeScript.",
+      "tags": ["Open Source", "Code Gen", "Agents"]
+    },
+    "gh-ponytail-2026-10-21": {
+      "summary": "JavaScript project that steers AI coding agents toward the smallest possible change, on the premise that the best code is code never written.",
+      "tags": ["Dev Tool", "Code Gen", "Agents"]
+    },
+    "gh-comfyui-2026-10-21": {
+      "summary": "Python GUI, API and backend for diffusion models built around a node graph, with its own local inference engine.",
+      "tags": ["Open Source", "Image Gen", "Inference"]
+    },
+    "gh-graphify-2026-10-21": {
+      "summary": "Skill for Claude Code, Cursor, Codex and Gemini CLI that turns code, docs, SQL schemas, configs and PDFs into a queryable graph via local AST parsing, with no vector store.",
+      "tags": ["Dev Tool", "Code Gen", "Claude Code"]
+    },
+    "gh-kronos-2026-10-21": {
+      "summary": "Python repo for a foundation model that treats financial market data as a language of its own.",
+      "tags": ["Model Release", "Open Source"]
+    },
+    "gh-ruflo-2026-10-21": {
+      "summary": "TypeScript agent harness for multi-agent swarms and workflows, with adaptive memory, federation, vector RAG and integrations for Claude Code, Codex and Hermes.",
+      "tags": ["Framework", "Agents", "RAG"]
+    },
+    "gh-agency-agents-2026-10-21": {
+      "summary": "Collection of specialized agent personas, from frontend developers to Reddit community managers, each with its own defined processes and deliverables.",
+      "tags": ["Agents", "Open Source"]
+    },
+    "tc-anthropic-pitches-ai-safety-bill-that-may-block-2026-10-21": {
+      "summary": "The draft would also forbid federal agencies from blocking a model's release without a judge's approval, moving the power to halt a model to the courts.",
+      "tags": ["Anthropic", "Policy", "Safety"]
+    },
+    "tc-hugging-face-ceo-warns-that-netflixs-openai-2026-10-21": {
+      "summary": "Clem Delangue, who appears in the Netflix film \"AI Gone Rogue\", says it went \"full doomer mode\" and is not accurate.",
+      "tags": ["Hugging Face", "OpenAI"]
+    },
+    "tc-anthropics-cloud-partnerships-are-getting-messy-2026-10-21": {
+      "summary": "Anthropic is reportedly struggling to get enough compute from cloud providers that now see it as a competitor, as infrastructure spending grows ahead of a planned November IPO.",
+      "tags": ["Anthropic"]
+    },
+    "tc-spacexs-ai-business-is-beating-expectations-2026-10-21": {
+      "summary": "SpaceX turned profitable in the third quarter with $4.4B in net income, with AI as the main driver.",
+      "tags": ["xAI"]
+    },
+    "tc-openai-acquires-startup-orchestra-bio-to-beef-2026-10-21": {
+      "summary": "Orchestra's team and tech go to Rosalind, OpenAI's life sciences model, and Rosalind Workbench, a harness for planning experiments and analyzing results.",
+      "tags": ["OpenAI", "Acquisition"]
+    },
+    "tc-google-has-joined-amazon-in-attacking-nvidias-2026-10-21": {
+      "summary": "Google released a developer tool that helps PyTorch users move their apps off Nvidia GPUs, following a similar release from Amazon.",
+      "tags": ["Google", "Nvidia", "Dev Tool"]
+    },
+    "tc-chatgpt-now-lets-you-lock-your-chats-2026-10-21": {
+      "summary": "Locked conversations stay private when you hand your device to someone to show them a different chat, aimed at personal topics or surprise plans.",
+      "tags": ["OpenAI", "Privacy", "Launch"]
+    },
+    "tc-eric-schmidt-reportedly-owns-about-half-as-much-2026-10-21": {
+      "summary": "Report on Anthropic's ownership that puts the former Google CEO's stake at roughly half of Dario Amodei's, ahead of the company's planned November IPO.",
+      "tags": ["Anthropic", "Funding"]
+    },
+    "tc-metas-muse-hits-10m-us-downloads-in-40-days-a-2026-10-21": {
+      "summary": "New data also shows Muse retaining users at higher rates than rival AI apps.",
+      "tags": ["Meta"]
+    },
+    "tc-ex-nvidia-turned-vc-amulya-vishwanath-physical-2026-10-21": {
+      "summary": "On TechCrunch's Equity, the former Nvidia staffer turned investor argues robotics is approaching its ChatGPT moment.",
+      "tags": ["Robotics"]
+    },
+    "hn-deepinfer-high-performance-inference-framework-2026-10-21": {
+      "summary": "Inference framework published by DeepSeek on its GitHub, built for serving the company's own models.",
+      "tags": ["Open Source", "Inference", "LLM"]
+    },
+    "hn-voxtral-3-2026-10-21": {
+      "summary": "Mistral's release post for the third version of Voxtral, its speech model family.",
+      "tags": ["Model Release", "Voice / Speech", "Mistral"]
+    },
+    "hn-publish-fake-stats-get-cited-in-llms-2026-10-21": {
+      "summary": "Blog post on peec.ai describing how publishing statistics got the author's data repeated across the web and cited in LLM answers.",
+      "tags": ["LLM"]
+    },
+    "hn-steam-users-beg-for-no-ai-filter-as-vibecoders-2026-10-21": {
+      "summary": "IGN report on Steam Next Fest filling with AI-built games and players asking for a filter to hide them.",
+      "tags": ["Code Gen"]
+    },
+    "hn-anthropic-logged-net-loss-of-over-80b-in-first-2026-10-21": {
+      "summary": "Reuters, citing the WSJ, reports the figure; the same edition has Anthropic straining for cloud compute ahead of a planned November IPO.",
+      "tags": ["Anthropic"]
+    },
+    "hn-claude-designed-protein-binders-against-2026-10-21": {
+      "summary": "Anthropic research post on using Claude to design proteins that bind scorpion neurotoxins.",
+      "tags": ["Anthropic", "Paper"]
+    },
+    "hn-on-ai-writing-2026-10-21": {
+      "summary": "Personal essay on bolkunov.com on AI and writing.",
+      "tags": ["LLM"]
+    },
+    "hn-advanced-coding-in-low-resource-programming-2026-10-21": {
+      "summary": "OpenAI post on how its models handle advanced coding in programming languages that have little training data.",
+      "tags": ["OpenAI", "Code Gen"]
+    }
+  }
+}

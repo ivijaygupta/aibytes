@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-21",
+  "generated_at": "2026-10-21T08:01:48Z",
+  "counts": {
+    "kept": 32,
+    "rejected": 2
+  },
+  "rejected": [
+    {
+      "id": "ph-dev-null-2026-10-21",
+      "source": "producthunt",
+      "title": "/dev/null",
+      "url": "https://dev-null.sh",
+      "reason": "not-ai",
+      "detail": "no AI keyword or domain in the tagline, description or topics"
+    },
+    {
+      "id": "ph-hoistbay-2026-10-21",
+      "source": "producthunt",
+      "title": "Hoistbay",
+      "url": "https://hoistbay.app",
+      "reason": "not-ai",
+      "detail": "no AI keyword or domain in the tagline, description or topics"
+    }
+  ]
+}

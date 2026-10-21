@@ -1,0 +1,117 @@
+{
+  "source": "techcrunch",
+  "section": "ai-news",
+  "fetched_at": "2026-10-21",
+  "window": {
+    "after": "2026-10-20",
+    "before": "2026-10-22"
+  },
+  "query_params": {
+    "category": "artificial-intelligence",
+    "count": 10,
+    "ranking": "hackernews_points,recency"
+  },
+  "totalCount": 16,
+  "articles": [
+    {
+      "title": "Anthropic pitches AI safety bill that may block a model if 50+ people could be killed",
+      "description": "The proposed policy seems to offer protections against AI running amok but actually forbids federal agencies from blocking a model's release without the permission of a judge.",
+      "url": "https://techcrunch.com/2026/10/20/anthropic-pitches-ai-safety-bill-that-may-block-a-model-if-50-people-could-be-killed/",
+      "published_at": "2026-10-20T23:01:23Z",
+      "author": "Lucas Ropek",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/08/GettyImages-2282033342.jpg?w=1024",
+      "reading_time": "3 minutes",
+      "hackernews": null
+    },
+    {
+      "title": "Hugging Face CEO warns that Netflix\u2019s OpenAI hack documentary isn\u2019t accurate",
+      "description": "Before you share the Netflix documentary \"AI Gone Rogue,\" take note. Clem Delangue, Hugging Face's co-founder who is featured in the film, says it went \"full doomer mode\" and isn't accurate.",
+      "url": "https://techcrunch.com/2026/10/20/hugging-face-ceo-warns-that-netflixs-openai-hack-documentary-isnt-accurate/",
+      "published_at": "2026-10-20T22:24:02Z",
+      "author": "Julie Bort",
+      "image": "https://techcrunch.com/wp-content/uploads/2025/11/clem-delangue.png?resize=1200,789",
+      "reading_time": "3 minutes",
+      "hackernews": null
+    },
+    {
+      "title": "Anthropic\u2019s cloud partnerships are getting messy",
+      "description": "Anthropic is reportedly struggling to secure enough compute from cloud providers that increasingly view it as a competitor, even as its infrastructure spending balloons ahead of a planned November IPO.",
+      "url": "https://techcrunch.com/2026/10/20/anthropics-cloud-partnerships-are-getting-messy/",
+      "published_at": "2026-10-20T21:25:22Z",
+      "author": "Rebecca Bellan",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/10/GettyImages-2295579000.jpg?resize=1200,800",
+      "reading_time": "2 minutes",
+      "hackernews": null
+    },
+    {
+      "title": "SpaceX\u2019s AI business is beating expectations",
+      "description": "SpaceX hit profitability in the third quarter, with net income of $4.4 billion. AI was the engine.",
+      "url": "https://techcrunch.com/2026/10/20/spacexs-ai-business-is-beating-expectations/",
+      "published_at": "2026-10-20T20:40:41Z",
+      "author": "Tim Fernholz, Kirsten Korosec",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/10/Screenshot-2026-10-20-at-2.40.46-PM.png?resize=1130,1200",
+      "reading_time": "3 minutes",
+      "hackernews": null
+    },
+    {
+      "title": "OpenAI acquires startup Orchestra Bio\u2060 to beef up its biotech business",
+      "description": "OpenAI says it's adding Orchestra's team and technology to work on Rosalind, its AI model for life sciences research, and to its related Rosalind Workbench tool, a harness that aims to help researchers plan experiments and analyze results.",
+      "url": "https://techcrunch.com/2026/10/20/openai-acquires-startup-orchestra-bio%e2%81%a0-to-beef-up-its-biotech-business/",
+      "published_at": "2026-10-20T20:35:10Z",
+      "author": "Julie Bort",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/10/pills-GettyImages-157287767.jpg?resize=1200,800",
+      "reading_time": "2 minutes",
+      "hackernews": null
+    },
+    {
+      "title": "Google has joined Amazon in attacking Nvidia\u2019s stronghold with AI app developers",
+      "description": "Google has joined Amazon in releasing a developer tool that makes it easy for PyTorch users to move their apps off Nvidia GPUs.",
+      "url": "https://techcrunch.com/2026/10/20/google-has-joined-amazon-in-attacking-nvidias-stronghold-with-ai-app-developers/",
+      "published_at": "2026-10-20T18:38:24Z",
+      "author": "Julie Bort",
+      "image": "https://techcrunch.com/wp-content/uploads/2025/05/GettyImages-2215577882.jpg?resize=1200,800",
+      "reading_time": "3 minutes",
+      "hackernews": null
+    },
+    {
+      "title": "ChatGPT now lets you lock your chats",
+      "description": "The company says the feature is designed for situations where users might be discussing something personal or planning a surprise and want to keep those conversations private when handing their device to friends or family to show them something in another chat.",
+      "url": "https://techcrunch.com/2026/10/20/chatgpt-now-lets-you-lock-your-chats/",
+      "published_at": "2026-10-20T18:36:53Z",
+      "author": "Aisha Malik",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/09/openai-getty.jpg?resize=1200,800",
+      "reading_time": "2 minutes",
+      "hackernews": null
+    },
+    {
+      "title": "Eric Schmidt reportedly owns about half as much of Anthropic as CEO Dario Amodei",
+      "description": "Eric Schmidt\u2019s fortune is about to get even bigger.",
+      "url": "https://techcrunch.com/2026/10/20/eric-schmidt-reportedly-owns-about-half-as-much-of-anthropic-as-ceo-dario-amodei/",
+      "published_at": "2026-10-20T17:55:12Z",
+      "author": "Marina Temkin",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/10/Eric-Schmidt.jpg?w=1024",
+      "reading_time": "1 minute",
+      "hackernews": null
+    },
+    {
+      "title": "Meta\u2019s Muse hits 10M US downloads in 40 days, a milestone reached by only 11 other apps",
+      "description": "New data also shows Muse is retaining users at higher rates than its AI rivals.",
+      "url": "https://techcrunch.com/2026/10/20/metas-muse-hits-10m-u-s-downloads-in-40-days-a-milestone-reached-by-only-11-other-apps/",
+      "published_at": "2026-10-20T17:12:48Z",
+      "author": "Sarah Perez",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/09/meta-muse-app-GettyImages-2293792137.jpg?w=1024",
+      "reading_time": "3 minutes",
+      "hackernews": null
+    },
+    {
+      "title": "Ex-Nvidia-turned-VC Amulya Vishwanath: \u2018Physical AI is in its LEGO era\u2019",
+      "description": "It\u2019s the moment everyone is waiting for \u2014 the ChatGPT moment for robotics, Amulya Vishwanath explained to TechCrunch\u2019s Equity.\u00a0",
+      "url": "https://techcrunch.com/2026/10/20/ex-nvidia-turned-vc-amulya-vishwanath-physical-ai-is-in-its-lego-era/",
+      "published_at": "2026-10-20T16:20:06Z",
+      "author": "Dominic-Madori Davis",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/10/GettyImages-1404749040.jpg?resize=1200,675",
+      "reading_time": "2 minutes",
+      "hackernews": null
+    }
+  ]
+}

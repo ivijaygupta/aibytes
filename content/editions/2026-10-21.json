@@ -1,0 +1,839 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-21",
+  "generated_at": "2026-10-21T08:01:48Z",
+  "counts": {
+    "launches": 4,
+    "repos": 10,
+    "news": 10,
+    "hn": 8
+  },
+  "items": [
+    {
+      "id": "ph-composio-instant-2026-10-21",
+      "title": "Composio Instant",
+      "summary": "Lets an AI agent pay per use for tools like web search, business contact lookup, voiceovers and transcription, with no subscription or signup on the developer's side.",
+      "url": "https://composio.dev/instant",
+      "source": "producthunt",
+      "source_url": "https://www.producthunt.com/products/composio",
+      "category": "launches",
+      "tags": [
+        "API",
+        "Agents",
+        "Launch"
+      ],
+      "image": {
+        "type": "logo",
+        "url": "https://ph-files.imgix.net/3e8d6fc9-bcb0-43a5-8043-8304eeed2578.png?auto=format"
+      },
+      "signals": {
+        "upvotes": 320,
+        "comments": 47
+      },
+      "published_at": "2026-10-20T07:01:00Z",
+      "hidden": false,
+      "rank": 4
+    },
+    {
+      "id": "ph-harness-6c72f469-0ceb-4bd8-a470-a028991b1f97-2026-10-21",
+      "title": "Harness²",
+      "summary": "Google Research framework where LLM agents rewrite their own prompts, tools and memory without ground-truth verifiers, via Propose-Probe-Compose refinement plus reusable experience.",
+      "url": "https://github.com/google-research/harness2",
+      "source": "producthunt",
+      "source_url": "https://www.producthunt.com/products/harness-104",
+      "category": "launches",
+      "tags": [
+        "Framework",
+        "Agents",
+        "Open Source",
+        "Google"
+      ],
+      "image": {
+        "type": "logo",
+        "url": "https://ph-files.imgix.net/c0f3ae97-2a7a-4d6d-bcd3-da89bcff39f7.png?auto=format"
+      },
+      "signals": {
+        "upvotes": 186,
+        "comments": 7
+      },
+      "published_at": "2026-10-20T07:01:00Z",
+      "hidden": false,
+      "rank": 14
+    },
+    {
+      "id": "ph-exa-3-0-2026-10-21",
+      "title": "Exa 3.0",
+      "summary": "Adds a larger embedding model, 1.27B ecommerce listings and 211M+ local businesses, plus Dynamic Highlights at 95% fewer tokens than full text; a new Lite tier is $4 per 1,000 requests.",
+      "url": "https://exa.ai/blog/exa-3",
+      "source": "producthunt",
+      "source_url": "https://www.producthunt.com/products/exa-ai",
+      "category": "launches",
+      "tags": [
+        "API",
+        "Agents",
+        "Launch"
+      ],
+      "image": {
+        "type": "logo",
+        "url": "https://ph-files.imgix.net/91b04293-fdeb-4889-9fa6-e0ca308142ee.png?auto=format"
+      },
+      "signals": {
+        "upvotes": 184,
+        "comments": 2
+      },
+      "published_at": "2026-10-20T07:01:00Z",
+      "hidden": false,
+      "rank": 24
+    },
+    {
+      "id": "hn-show-hn-penmentor-claude-marks-up-your-2026-10-21",
+      "title": "Show HN: Penmentor – Claude marks up your handwritten math like a teacher",
+      "summary": "Open-source GitHub project that sends handwritten math work to Claude and returns teacher-style markup on it.",
+      "url": "https://github.com/AbdullahAlhariri/penmentor",
+      "source": "hackernews",
+      "source_url": "https://news.ycombinator.com/item?id=50167604",
+      "category": "launches",
+      "tags": [
+        "Show HN",
+        "Open Source",
+        "Vision"
+      ],
+      "image": {
+        "type": "none"
+      },
+      "signals": {
+        "points": 60,
+        "comments": 7
+      },
+      "meta": {
+        "author": "abdullahalharir"
+      },
+      "published_at": "2026-10-20T15:10:54Z",
+      "hidden": false,
+      "rank": 30
+    },
+    {
+      "id": "gh-ai-job-search-2026-10-21",
+      "title": "MadsLorentzen/ai-job-search",
+      "summary": "Python job application framework built on Claude Code that evaluates postings, tailors CVs, drafts cover letters and preps interviews, run locally from your own fork.",
+      "url": "https://github.com/MadsLorentzen/ai-job-search",
+      "source": "github",
+      "source_url": "https://github.com/MadsLorentzen/ai-job-search",
+      "category": "repos",
+      "tags": [
+        "Framework",
+        "Agents",
+        "Claude Code"
+      ],
+      "image": {
+        "type": "avatar",
+        "url": "https://github.com/MadsLorentzen.png?size=80"
+      },
+      "signals": {
+        "stars": 61586,
+        "stars_gained": 3861,
+        "forks": 19091
+      },
+      "meta": {
+        "language": "Python"
+      },
+      "hidden": false,
+      "rank": 1
+    },
+    {
+      "id": "gh-security-audit-skill-2026-10-21",
+      "title": "cloudflare/security-audit-skill",
+      "summary": "Cloudflare's coding-agent skill that runs a security audit in multiple phases and emits findings that are independently verified and machine-readable.",
+      "url": "https://github.com/cloudflare/security-audit-skill",
+      "source": "github",
+      "source_url": "https://github.com/cloudflare/security-audit-skill",
+      "category": "repos",
+      "tags": [
+        "Dev Tool",
+        "Agents",
+        "Security"
+      ],
+      "image": {
+        "type": "avatar",
+        "url": "https://github.com/cloudflare.png?size=80"
+      },
+      "signals": {
+        "stars": 34806,
+        "stars_gained": 1712,
+        "forks": 2191
+      },
+      "meta": {
+        "language": "JavaScript"
+      },
+      "hidden": false,
+      "rank": 5
+    },
+    {
+      "id": "gh-orca-2026-10-21",
+      "title": "stablyai/orca",
+      "summary": "TypeScript workspace for running a fleet of coding agents such as Claude Code on your own subscriptions, across desktop, mobile and a remote runtime.",
+      "url": "https://github.com/stablyai/orca",
+      "source": "github",
+      "source_url": "https://github.com/stablyai/orca",
+      "category": "repos",
+      "tags": [
+        "Dev Tool",
+        "Agents",
+        "Code Gen"
+      ],
+      "image": {
+        "type": "avatar",
+        "url": "https://github.com/stablyai.png?size=80"
+      },
+      "signals": {
+        "stars": 100246,
+        "stars_gained": 1565,
+        "forks": 6352
+      },
+      "meta": {
+        "language": "TypeScript"
+      },
+      "hidden": false,
+      "rank": 8
+    },
+    {
+      "id": "gh-opencode-2026-10-21",
+      "title": "anomalyco/opencode",
+      "summary": "Open-source coding agent from anomalyco, written in TypeScript.",
+      "url": "https://github.com/anomalyco/opencode",
+      "source": "github",
+      "source_url": "https://github.com/anomalyco/opencode",
+      "category": "repos",
+      "tags": [
+        "Open Source",
+        "Code Gen",
+        "Agents"
+      ],
+      "image": {
+        "type": "avatar",
+        "url": "https://github.com/anomalyco.png?size=80"
+      },
+      "signals": {
+        "stars": 219277,
+        "stars_gained": 1240,
+        "forks": 29259
+      },
+      "meta": {
+        "language": "TypeScript"
+      },
+      "hidden": false,
+      "rank": 11
+    },
+    {
+      "id": "gh-ponytail-2026-10-21",
+      "title": "DietrichGebert/ponytail",
+      "summary": "JavaScript project that steers AI coding agents toward the smallest possible change, on the premise that the best code is code never written.",
+      "url": "https://github.com/DietrichGebert/ponytail",
+      "source": "github",
+      "source_url": "https://github.com/DietrichGebert/ponytail",
+      "category": "repos",
+      "tags": [
+        "Dev Tool",
+        "Code Gen",
+        "Agents"
+      ],
+      "image": {
+        "type": "avatar",
+        "url": "https://github.com/DietrichGebert.png?size=80"
+      },
+      "signals": {
+        "stars": 170360,
+        "stars_gained": 1208,
+        "forks": 9269
+      },
+      "meta": {
+        "language": "JavaScript"
+      },
+      "hidden": false,
+      "rank": 15
+    },
+    {
+      "id": "gh-comfyui-2026-10-21",
+      "title": "Comfy-Org/ComfyUI",
+      "summary": "Python GUI, API and backend for diffusion models built around a node graph, with its own local inference engine.",
+      "url": "https://github.com/Comfy-Org/ComfyUI",
+      "source": "github",
+      "source_url": "https://github.com/Comfy-Org/ComfyUI",
+      "category": "repos",
+      "tags": [
+        "Open Source",
+        "Image Gen",
+        "Inference"
+      ],
+      "image": {
+        "type": "avatar",
+        "url": "https://github.com/Comfy-Org.png?size=80"
+      },
+      "signals": {
+        "stars": 141065,
+        "stars_gained": 1206,
+        "forks": 16688
+      },
+      "meta": {
+        "language": "Python"
+      },
+      "hidden": false,
+      "rank": 18
+    },
+    {
+      "id": "gh-graphify-2026-10-21",
+      "title": "Graphify-Labs/graphify",
+      "summary": "Skill for Claude Code, Cursor, Codex and Gemini CLI that turns code, docs, SQL schemas, configs and PDFs into a queryable graph via local AST parsing, with no vector store.",
+      "url": "https://github.com/Graphify-Labs/graphify",
+      "source": "github",
+      "source_url": "https://github.com/Graphify-Labs/graphify",
+      "category": "repos",
+      "tags": [
+        "Dev Tool",
+        "Code Gen",
+        "Claude Code"
+      ],
+      "image": {
+        "type": "avatar",
+        "url": "https://github.com/Graphify-Labs.png?size=80"
+      },
+      "signals": {
+        "stars": 130688,
+        "stars_gained": 802,
+        "forks": 12567
+      },
+      "meta": {
+        "language": "Python"
+      },
+      "hidden": false,
+      "rank": 21
+    },
+    {
+      "id": "gh-kronos-2026-10-21",
+      "title": "shiyu-coder/Kronos",
+      "summary": "Python repo for a foundation model that treats financial market data as a language of its own.",
+      "url": "https://github.com/shiyu-coder/Kronos",
+      "source": "github",
+      "source_url": "https://github.com/shiyu-coder/Kronos",
+      "category": "repos",
+      "tags": [
+        "Model Release",
+        "Open Source"
+      ],
+      "image": {
+        "type": "avatar",
+        "url": "https://github.com/shiyu-coder.png?size=80"
+      },
+      "signals": {
+        "stars": 42497,
+        "stars_gained": 733,
+        "forks": 7031
+      },
+      "meta": {
+        "language": "Python"
+      },
+      "hidden": false,
+      "rank": 25
+    },
+    {
+      "id": "gh-ruflo-2026-10-21",
+      "title": "ruvnet/ruflo",
+      "summary": "TypeScript agent harness for multi-agent swarms and workflows, with adaptive memory, federation, vector RAG and integrations for Claude Code, Codex and Hermes.",
+      "url": "https://github.com/ruvnet/ruflo",
+      "source": "github",
+      "source_url": "https://github.com/ruvnet/ruflo",
+      "category": "repos",
+      "tags": [
+        "Framework",
+        "Agents",
+        "RAG"
+      ],
+      "image": {
+        "type": "avatar",
+        "url": "https://github.com/ruvnet.png?size=80"
+      },
+      "signals": {
+        "stars": 78003,
+        "stars_gained": 684,
+        "forks": 9174
+      },
+      "meta": {
+        "language": "TypeScript"
+      },
+      "hidden": false,
+      "rank": 28
+    },
+    {
+      "id": "gh-agency-agents-2026-10-21",
+      "title": "msitarzewski/agency-agents",
+      "summary": "Collection of specialized agent personas, from frontend developers to Reddit community managers, each with its own defined processes and deliverables.",
+      "url": "https://github.com/msitarzewski/agency-agents",
+      "source": "github",
+      "source_url": "https://github.com/msitarzewski/agency-agents",
+      "category": "repos",
+      "tags": [
+        "Agents",
+        "Open Source"
+      ],
+      "image": {
+        "type": "avatar",
+        "url": "https://github.com/msitarzewski.png?size=80"
+      },
+      "signals": {
+        "stars": 162622,
+        "stars_gained": 562,
+        "forks": 26246
+      },
+      "meta": {
+        "language": "Shell"
+      },
+      "hidden": false,
+      "rank": 31
+    },
+    {
+      "id": "tc-anthropic-pitches-ai-safety-bill-that-may-block-2026-10-21",
+      "title": "Anthropic pitches AI safety bill that may block a model if 50+ people could be killed",
+      "summary": "The draft would also forbid federal agencies from blocking a model's release without a judge's approval, moving the power to halt a model to the courts.",
+      "url": "https://techcrunch.com/2026/10/20/anthropic-pitches-ai-safety-bill-that-may-block-a-model-if-50-people-could-be-killed/",
+      "source": "techcrunch",
+      "source_url": "https://techcrunch.com/2026/10/20/anthropic-pitches-ai-safety-bill-that-may-block-a-model-if-50-people-could-be-killed/",
+      "category": "news",
+      "tags": [
+        "Anthropic",
+        "Policy",
+        "Safety"
+      ],
+      "image": {
+        "type": "thumbnail",
+        "url": "https://techcrunch.com/wp-content/uploads/2026/08/GettyImages-2282033342.jpg?w=1024"
+      },
+      "meta": {
+        "author": "Lucas Ropek",
+        "reading_time": "3 minutes"
+      },
+      "published_at": "2026-10-20T23:01:23Z",
+      "hidden": false,
+      "rank": 3
+    },
+    {
+      "id": "tc-hugging-face-ceo-warns-that-netflixs-openai-2026-10-21",
+      "title": "Hugging Face CEO warns that Netflix’s OpenAI hack documentary isn’t accurate",
+      "summary": "Clem Delangue, who appears in the Netflix film \"AI Gone Rogue\", says it went \"full doomer mode\" and is not accurate.",
+      "url": "https://techcrunch.com/2026/10/20/hugging-face-ceo-warns-that-netflixs-openai-hack-documentary-isnt-accurate/",
+      "source": "techcrunch",
+      "source_url": "https://techcrunch.com/2026/10/20/hugging-face-ceo-warns-that-netflixs-openai-hack-documentary-isnt-accurate/",
+      "category": "news",
+      "tags": [
+        "Hugging Face",
+        "OpenAI"
+      ],
+      "image": {
+        "type": "thumbnail",
+        "url": "https://techcrunch.com/wp-content/uploads/2025/11/clem-delangue.png?resize=1200,789"
+      },
+      "meta": {
+        "author": "Julie Bort",
+        "reading_time": "3 minutes"
+      },
+      "published_at": "2026-10-20T22:24:02Z",
+      "hidden": false,
+      "rank": 6
+    },
+    {
+      "id": "tc-anthropics-cloud-partnerships-are-getting-messy-2026-10-21",
+      "title": "Anthropic’s cloud partnerships are getting messy",
+      "summary": "Anthropic is reportedly struggling to get enough compute from cloud providers that now see it as a competitor, as infrastructure spending grows ahead of a planned November IPO.",
+      "url": "https://techcrunch.com/2026/10/20/anthropics-cloud-partnerships-are-getting-messy/",
+      "source": "techcrunch",
+      "source_url": "https://techcrunch.com/2026/10/20/anthropics-cloud-partnerships-are-getting-messy/",
+      "category": "news",
+      "tags": [
+        "Anthropic"
+      ],
+      "image": {
+        "type": "thumbnail",
+        "url": "https://techcrunch.com/wp-content/uploads/2026/10/GettyImages-2295579000.jpg?resize=1200,800"
+      },
+      "meta": {
+        "author": "Rebecca Bellan",
+        "reading_time": "2 minutes"
+      },
+      "published_at": "2026-10-20T21:25:22Z",
+      "hidden": false,
+      "rank": 9
+    },
+    {
+      "id": "tc-spacexs-ai-business-is-beating-expectations-2026-10-21",
+      "title": "SpaceX’s AI business is beating expectations",
+      "summary": "SpaceX turned profitable in the third quarter with $4.4B in net income, with AI as the main driver.",
+      "url": "https://techcrunch.com/2026/10/20/spacexs-ai-business-is-beating-expectations/",
+      "source": "techcrunch",
+      "source_url": "https://techcrunch.com/2026/10/20/spacexs-ai-business-is-beating-expectations/",
+      "category": "news",
+      "tags": [
+        "xAI"
+      ],
+      "image": {
+        "type": "thumbnail",
+        "url": "https://techcrunch.com/wp-content/uploads/2026/10/Screenshot-2026-10-20-at-2.40.46-PM.png?resize=1130,1200"
+      },
+      "meta": {
+        "author": "Tim Fernholz, Kirsten Korosec",
+        "reading_time": "3 minutes"
+      },
+      "published_at": "2026-10-20T20:40:41Z",
+      "hidden": false,
+      "rank": 12
+    },
+    {
+      "id": "tc-openai-acquires-startup-orchestra-bio-to-beef-2026-10-21",
+      "title": "OpenAI acquires startup Orchestra Bio⁠ to beef up its biotech business",
+      "summary": "Orchestra's team and tech go to Rosalind, OpenAI's life sciences model, and Rosalind Workbench, a harness for planning experiments and analyzing results.",
+      "url": "https://techcrunch.com/2026/10/20/openai-acquires-startup-orchestra-bio%e2%81%a0-to-beef-up-its-biotech-business/",
+      "source": "techcrunch",
+      "source_url": "https://techcrunch.com/2026/10/20/openai-acquires-startup-orchestra-bio%e2%81%a0-to-beef-up-its-biotech-business/",
+      "category": "news",
+      "tags": [
+        "OpenAI",
+        "Acquisition"
+      ],
+      "image": {
+        "type": "thumbnail",
+        "url": "https://techcrunch.com/wp-content/uploads/2026/10/pills-GettyImages-157287767.jpg?resize=1200,800"
+      },
+      "meta": {
+        "author": "Julie Bort",
+        "reading_time": "2 minutes"
+      },
+      "published_at": "2026-10-20T20:35:10Z",
+      "hidden": false,
+      "rank": 16
+    },
+    {
+      "id": "tc-google-has-joined-amazon-in-attacking-nvidias-2026-10-21",
+      "title": "Google has joined Amazon in attacking Nvidia’s stronghold with AI app developers",
+      "summary": "Google released a developer tool that helps PyTorch users move their apps off Nvidia GPUs, following a similar release from Amazon.",
+      "url": "https://techcrunch.com/2026/10/20/google-has-joined-amazon-in-attacking-nvidias-stronghold-with-ai-app-developers/",
+      "source": "techcrunch",
+      "source_url": "https://techcrunch.com/2026/10/20/google-has-joined-amazon-in-attacking-nvidias-stronghold-with-ai-app-developers/",
+      "category": "news",
+      "tags": [
+        "Google",
+        "Nvidia",
+        "Dev Tool"
+      ],
+      "image": {
+        "type": "thumbnail",
+        "url": "https://techcrunch.com/wp-content/uploads/2025/05/GettyImages-2215577882.jpg?resize=1200,800"
+      },
+      "meta": {
+        "author": "Julie Bort",
+        "reading_time": "3 minutes"
+      },
+      "published_at": "2026-10-20T18:38:24Z",
+      "hidden": false,
+      "rank": 19
+    },
+    {
+      "id": "tc-chatgpt-now-lets-you-lock-your-chats-2026-10-21",
+      "title": "ChatGPT now lets you lock your chats",
+      "summary": "Locked conversations stay private when you hand your device to someone to show them a different chat, aimed at personal topics or surprise plans.",
+      "url": "https://techcrunch.com/2026/10/20/chatgpt-now-lets-you-lock-your-chats/",
+      "source": "techcrunch",
+      "source_url": "https://techcrunch.com/2026/10/20/chatgpt-now-lets-you-lock-your-chats/",
+      "category": "news",
+      "tags": [
+        "OpenAI",
+        "Privacy",
+        "Launch"
+      ],
+      "image": {
+        "type": "thumbnail",
+        "url": "https://techcrunch.com/wp-content/uploads/2026/09/openai-getty.jpg?resize=1200,800"
+      },
+      "meta": {
+        "author": "Aisha Malik",
+        "reading_time": "2 minutes"
+      },
+      "published_at": "2026-10-20T18:36:53Z",
+      "hidden": false,
+      "rank": 22
+    },
+    {
+      "id": "tc-eric-schmidt-reportedly-owns-about-half-as-much-2026-10-21",
+      "title": "Eric Schmidt reportedly owns about half as much of Anthropic as CEO Dario Amodei",
+      "summary": "Report on Anthropic's ownership that puts the former Google CEO's stake at roughly half of Dario Amodei's, ahead of the company's planned November IPO.",
+      "url": "https://techcrunch.com/2026/10/20/eric-schmidt-reportedly-owns-about-half-as-much-of-anthropic-as-ceo-dario-amodei/",
+      "source": "techcrunch",
+      "source_url": "https://techcrunch.com/2026/10/20/eric-schmidt-reportedly-owns-about-half-as-much-of-anthropic-as-ceo-dario-amodei/",
+      "category": "news",
+      "tags": [
+        "Anthropic",
+        "Funding"
+      ],
+      "image": {
+        "type": "thumbnail",
+        "url": "https://techcrunch.com/wp-content/uploads/2026/10/Eric-Schmidt.jpg?w=1024"
+      },
+      "meta": {
+        "author": "Marina Temkin",
+        "reading_time": "1 minute"
+      },
+      "published_at": "2026-10-20T17:55:12Z",
+      "hidden": false,
+      "rank": 26
+    },
+    {
+      "id": "tc-metas-muse-hits-10m-us-downloads-in-40-days-a-2026-10-21",
+      "title": "Meta’s Muse hits 10M US downloads in 40 days, a milestone reached by only 11 other apps",
+      "summary": "New data also shows Muse retaining users at higher rates than rival AI apps.",
+      "url": "https://techcrunch.com/2026/10/20/metas-muse-hits-10m-u-s-downloads-in-40-days-a-milestone-reached-by-only-11-other-apps/",
+      "source": "techcrunch",
+      "source_url": "https://techcrunch.com/2026/10/20/metas-muse-hits-10m-u-s-downloads-in-40-days-a-milestone-reached-by-only-11-other-apps/",
+      "category": "news",
+      "tags": [
+        "Meta"
+      ],
+      "image": {
+        "type": "thumbnail",
+        "url": "https://techcrunch.com/wp-content/uploads/2026/09/meta-muse-app-GettyImages-2293792137.jpg?w=1024"
+      },
+      "meta": {
+        "author": "Sarah Perez",
+        "reading_time": "3 minutes"
+      },
+      "published_at": "2026-10-20T17:12:48Z",
+      "hidden": false,
+      "rank": 29
+    },
+    {
+      "id": "tc-ex-nvidia-turned-vc-amulya-vishwanath-physical-2026-10-21",
+      "title": "Ex-Nvidia-turned-VC Amulya Vishwanath: ‘Physical AI is in its LEGO era’",
+      "summary": "On TechCrunch's Equity, the former Nvidia staffer turned investor argues robotics is approaching its ChatGPT moment.",
+      "url": "https://techcrunch.com/2026/10/20/ex-nvidia-turned-vc-amulya-vishwanath-physical-ai-is-in-its-lego-era/",
+      "source": "techcrunch",
+      "source_url": "https://techcrunch.com/2026/10/20/ex-nvidia-turned-vc-amulya-vishwanath-physical-ai-is-in-its-lego-era/",
+      "category": "news",
+      "tags": [
+        "Robotics"
+      ],
+      "image": {
+        "type": "thumbnail",
+        "url": "https://techcrunch.com/wp-content/uploads/2026/10/GettyImages-1404749040.jpg?resize=1200,675"
+      },
+      "meta": {
+        "author": "Dominic-Madori Davis",
+        "reading_time": "2 minutes"
+      },
+      "published_at": "2026-10-20T16:20:06Z",
+      "hidden": false,
+      "rank": 32
+    },
+    {
+      "id": "hn-deepinfer-high-performance-inference-framework-2026-10-21",
+      "title": "DeepInfer: High-performance inference framework for DeepSeek models",
+      "summary": "Inference framework published by DeepSeek on its GitHub, built for serving the company's own models.",
+      "url": "https://github.com/deepseek-ai/DeepInfer",
+      "source": "hackernews",
+      "source_url": "https://news.ycombinator.com/item?id=50163277",
+      "category": "hn",
+      "tags": [
+        "Open Source",
+        "Inference",
+        "LLM"
+      ],
+      "image": {
+        "type": "none"
+      },
+      "signals": {
+        "points": 2230,
+        "comments": 853
+      },
+      "meta": {
+        "author": "ggcr"
+      },
+      "published_at": "2026-10-20T09:08:54Z",
+      "hidden": false,
+      "rank": 2
+    },
+    {
+      "id": "hn-voxtral-3-2026-10-21",
+      "title": "Voxtral 3",
+      "summary": "Mistral's release post for the third version of Voxtral, its speech model family.",
+      "url": "https://mistral.ai/news/voxtral-3/",
+      "source": "hackernews",
+      "source_url": "https://news.ycombinator.com/item?id=50168396",
+      "category": "hn",
+      "tags": [
+        "Model Release",
+        "Voice / Speech",
+        "Mistral"
+      ],
+      "image": {
+        "type": "none"
+      },
+      "signals": {
+        "points": 635,
+        "comments": 164
+      },
+      "meta": {
+        "author": "ilreb"
+      },
+      "published_at": "2026-10-20T16:02:07Z",
+      "hidden": false,
+      "rank": 7
+    },
+    {
+      "id": "hn-publish-fake-stats-get-cited-in-llms-2026-10-21",
+      "title": "Publish fake stats, get cited in LLMs",
+      "summary": "Blog post on peec.ai describing how publishing statistics got the author's data repeated across the web and cited in LLM answers.",
+      "url": "https://peec.ai/blog/publish-stats-get-cited-the-tactic-that-put-my-data-all-over-the-web",
+      "source": "hackernews",
+      "source_url": "https://news.ycombinator.com/item?id=50165801",
+      "category": "hn",
+      "tags": [
+        "LLM"
+      ],
+      "image": {
+        "type": "none"
+      },
+      "signals": {
+        "points": 337,
+        "comments": 195
+      },
+      "meta": {
+        "author": "robtherobber"
+      },
+      "published_at": "2026-10-20T13:06:22Z",
+      "hidden": false,
+      "rank": 10
+    },
+    {
+      "id": "hn-steam-users-beg-for-no-ai-filter-as-vibecoders-2026-10-21",
+      "title": "Steam Users Beg for \"No AI\" Filter as Vibecoders Flood Next Fest",
+      "summary": "IGN report on Steam Next Fest filling with AI-built games and players asking for a filter to hide them.",
+      "url": "https://www.ign.com/articles/steam-fans-are-begging-for-a-no-ai-filter-as-steam-next-fest-is-filled-with-slop",
+      "source": "hackernews",
+      "source_url": "https://news.ycombinator.com/item?id=50168190",
+      "category": "hn",
+      "tags": [
+        "Code Gen"
+      ],
+      "image": {
+        "type": "none"
+      },
+      "signals": {
+        "points": 176,
+        "comments": 206
+      },
+      "meta": {
+        "author": "4gateftw"
+      },
+      "published_at": "2026-10-20T15:48:26Z",
+      "hidden": false,
+      "rank": 13
+    },
+    {
+      "id": "hn-anthropic-logged-net-loss-of-over-80b-in-first-2026-10-21",
+      "title": "Anthropic logged net loss of over $80B in first half of 2026",
+      "summary": "Reuters, citing the WSJ, reports the figure; the same edition has Anthropic straining for cloud compute ahead of a planned November IPO.",
+      "url": "https://www.reuters.com/business/anthropic-recorded-net-loss-over-80-billion-first-half-this-year-wsj-reports-2026-10-20/",
+      "source": "hackernews",
+      "source_url": "https://news.ycombinator.com/item?id=50171966",
+      "category": "hn",
+      "tags": [
+        "Anthropic"
+      ],
+      "image": {
+        "type": "none"
+      },
+      "signals": {
+        "points": 144,
+        "comments": 61
+      },
+      "meta": {
+        "author": "throwa356262"
+      },
+      "published_at": "2026-10-20T20:09:46Z",
+      "hidden": false,
+      "rank": 17
+    },
+    {
+      "id": "hn-claude-designed-protein-binders-against-2026-10-21",
+      "title": "Claude designed protein binders against scorpion neurotoxins",
+      "summary": "Anthropic research post on using Claude to design proteins that bind scorpion neurotoxins.",
+      "url": "https://www.anthropic.com/research/claude-scorpion-toxin-binder-design",
+      "source": "hackernews",
+      "source_url": "https://news.ycombinator.com/item?id=50170021",
+      "category": "hn",
+      "tags": [
+        "Anthropic",
+        "Paper"
+      ],
+      "image": {
+        "type": "none"
+      },
+      "signals": {
+        "points": 104,
+        "comments": 67
+      },
+      "meta": {
+        "author": "artninja1988"
+      },
+      "published_at": "2026-10-20T17:48:29Z",
+      "hidden": false,
+      "rank": 20
+    },
+    {
+      "id": "hn-on-ai-writing-2026-10-21",
+      "title": "On AI writing",
+      "summary": "Personal essay on bolkunov.com on AI and writing.",
+      "url": "https://www.bolkunov.com/p/on-ai-writing",
+      "source": "hackernews",
+      "source_url": "https://news.ycombinator.com/item?id=50171771",
+      "category": "hn",
+      "tags": [
+        "LLM"
+      ],
+      "image": {
+        "type": "none"
+      },
+      "signals": {
+        "points": 84,
+        "comments": 57
+      },
+      "meta": {
+        "author": "dbolkunov"
+      },
+      "published_at": "2026-10-20T19:55:11Z",
+      "hidden": false,
+      "rank": 23
+    },
+    {
+      "id": "hn-advanced-coding-in-low-resource-programming-2026-10-21",
+      "title": "Advanced coding in low-resource programming languages",
+      "summary": "OpenAI post on how its models handle advanced coding in programming languages that have little training data.",
+      "url": "https://openai.com/index/low-resource-programming-languages/",
+      "source": "hackernews",
+      "source_url": "https://news.ycombinator.com/item?id=50169955",
+      "category": "hn",
+      "tags": [
+        "OpenAI",
+        "Code Gen"
+      ],
+      "image": {
+        "type": "none"
+      },
+      "signals": {
+        "points": 68,
+        "comments": 77
+      },
+      "meta": {
+        "author": "sumnole"
+      },
+      "published_at": "2026-10-20T17:43:11Z",
+      "hidden": false,
+      "rank": 27
+    }
+  ]
+}
