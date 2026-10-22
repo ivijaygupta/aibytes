@@ -1,0 +1,738 @@
+{
+  "date": "2026-10-22",
+  "generated_at": "2026-10-22T08:00:20Z",
+  "instructions": "Write one line per item in the aiBytes_ voice - dense, calm, honest, technical. Say what the thing does, not why it matters. At most 200 characters, one sentence, no em dashes. Then pick 1 to 4 tags per item from `tags` below, by their exact display name. Answer with the summaries file described in the curate-edition skill.",
+  "tags": [
+    {
+      "name": "What it is",
+      "tags": [
+        {
+          "name": "Model Release",
+          "slug": "model-release"
+        },
+        {
+          "name": "Open Source",
+          "slug": "open-source"
+        },
+        {
+          "name": "Paper",
+          "slug": "paper"
+        },
+        {
+          "name": "Benchmark",
+          "slug": "benchmark"
+        },
+        {
+          "name": "Dataset",
+          "slug": "dataset"
+        },
+        {
+          "name": "Framework",
+          "slug": "framework"
+        },
+        {
+          "name": "Dev Tool",
+          "slug": "dev-tool"
+        },
+        {
+          "name": "API",
+          "slug": "api"
+        }
+      ]
+    },
+    {
+      "name": "Domain",
+      "tags": [
+        {
+          "name": "LLM",
+          "slug": "llm"
+        },
+        {
+          "name": "Agents",
+          "slug": "agents"
+        },
+        {
+          "name": "RAG",
+          "slug": "rag"
+        },
+        {
+          "name": "Fine-tuning",
+          "slug": "fine-tuning"
+        },
+        {
+          "name": "Inference",
+          "slug": "inference"
+        },
+        {
+          "name": "Local LLM",
+          "slug": "local-llm"
+        },
+        {
+          "name": "Vision",
+          "slug": "vision"
+        },
+        {
+          "name": "Voice / Speech",
+          "slug": "voice-speech"
+        },
+        {
+          "name": "Video",
+          "slug": "video"
+        },
+        {
+          "name": "Image Gen",
+          "slug": "image-gen"
+        },
+        {
+          "name": "Code Gen",
+          "slug": "code-gen"
+        },
+        {
+          "name": "Embeddings",
+          "slug": "embeddings"
+        },
+        {
+          "name": "Eval",
+          "slug": "eval"
+        },
+        {
+          "name": "Reasoning",
+          "slug": "reasoning"
+        },
+        {
+          "name": "Multimodal",
+          "slug": "multimodal"
+        },
+        {
+          "name": "Robotics",
+          "slug": "robotics"
+        }
+      ]
+    },
+    {
+      "name": "Ecosystem",
+      "tags": [
+        {
+          "name": "OpenAI",
+          "slug": "openai"
+        },
+        {
+          "name": "Anthropic",
+          "slug": "anthropic"
+        },
+        {
+          "name": "Google",
+          "slug": "google"
+        },
+        {
+          "name": "Meta",
+          "slug": "meta"
+        },
+        {
+          "name": "Nvidia",
+          "slug": "nvidia"
+        },
+        {
+          "name": "Hugging Face",
+          "slug": "hugging-face"
+        },
+        {
+          "name": "Mistral",
+          "slug": "mistral"
+        },
+        {
+          "name": "xAI",
+          "slug": "xai"
+        },
+        {
+          "name": "Apple",
+          "slug": "apple"
+        },
+        {
+          "name": "Microsoft",
+          "slug": "microsoft"
+        },
+        {
+          "name": "Claude Code",
+          "slug": "claude-code"
+        },
+        {
+          "name": "Cursor",
+          "slug": "cursor"
+        },
+        {
+          "name": "MCP",
+          "slug": "mcp"
+        }
+      ]
+    },
+    {
+      "name": "Business",
+      "tags": [
+        {
+          "name": "Funding",
+          "slug": "funding"
+        },
+        {
+          "name": "Acquisition",
+          "slug": "acquisition"
+        },
+        {
+          "name": "Launch",
+          "slug": "launch"
+        },
+        {
+          "name": "Pricing",
+          "slug": "pricing"
+        },
+        {
+          "name": "Policy",
+          "slug": "policy"
+        },
+        {
+          "name": "Legal",
+          "slug": "legal"
+        },
+        {
+          "name": "Security",
+          "slug": "security"
+        },
+        {
+          "name": "Privacy",
+          "slug": "privacy"
+        },
+        {
+          "name": "Safety",
+          "slug": "safety"
+        }
+      ]
+    },
+    {
+      "name": "Format",
+      "tags": [
+        {
+          "name": "Show HN",
+          "slug": "show-hn"
+        },
+        {
+          "name": "Tutorial",
+          "slug": "tutorial"
+        },
+        {
+          "name": "Deep Dive",
+          "slug": "deep-dive"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "ph-useit-studio-2026-10-22",
+      "title": "UseIt Studio",
+      "category": "launches",
+      "source": "producthunt",
+      "url": "https://useit.im",
+      "source_url": "https://www.producthunt.com/products/useit-studio-from-idea-to-delivery",
+      "source_text": "UseIt Studio Your AI design agent for real, editable project files. UseIt is an AI design studio for things you can hold. Describe what you want in one sentence. UseIt asks what a designer would ask, designs it with you, and lets you refine any detail by pointing at it. You get a real, editable design file, not a flat image, ready to print, cut and fold, with real dimensions, bleed and dielines. Make pins, stickers, gift boxes, pop-up cards, brand kits and more. Use it in your browser, or call it up anywhere on your Windows desktop. Design Tools Art Artificial Intelligence",
+      "signals": {
+        "upvotes": 320,
+        "comments": 28
+      },
+      "published_at": "2026-10-21T07:01:00Z"
+    },
+    {
+      "id": "ph-band-for-developers-2026-10-22",
+      "title": "BAND for Developers",
+      "category": "launches",
+      "source": "producthunt",
+      "url": "https://www.band.ai/use-cases/band-desktop",
+      "source_url": "https://www.producthunt.com/products/band",
+      "source_text": "BAND for Developers Coding agents, meet teamwork Running multiple coding agents shouldn’t mean becoming their project manager. BAND lets them work together. Connect agents across your existing development tools and give them a shared workspace to coordinate tasks, exchange context, and hand off work without you playing middleman. See what every agent is doing, step in when decisions need your judgment, and scale agentic development across teams. Your agents stay in their existing tools while BAND handles the teamwork. Software Engineering Developer Tools Artificial Intelligence",
+      "signals": {
+        "upvotes": 288,
+        "comments": 14
+      },
+      "published_at": "2026-10-21T07:01:00Z"
+    },
+    {
+      "id": "ph-needle-391a6980-1f80-4939-8a6d-535d2f72c156-2026-10-22",
+      "title": "Needle",
+      "category": "launches",
+      "source": "producthunt",
+      "url": "https://needle.app",
+      "source_url": "https://www.producthunt.com/products/needle-3",
+      "source_text": "Needle The agent-native outbound engine Find your perfect leads and reach out by prompting Claude, ChatGPT, or Grok. Wherever your ICP are, on LinkedIn, Instagram, or email. Sales Artificial Intelligence LinkedIn",
+      "signals": {
+        "upvotes": 263,
+        "comments": 29
+      },
+      "published_at": "2026-10-21T07:01:00Z"
+    },
+    {
+      "id": "ph-twinmind-for-desktop-2026-10-22",
+      "title": "TwinMind for Desktop",
+      "category": "launches",
+      "source": "producthunt",
+      "url": "https://twinmind.ai/desktop-PH",
+      "source_url": "https://www.producthunt.com/products/twinmind",
+      "source_text": "TwinMind for Desktop Transcribe meetings and dictate anywhere on Mac & Windows TwinMind now lives natively on your Desktop! Auto-detect meetings in Zoom, Meet, Teams and more, and get live transcripts and summaries in 140+ languages. With calendar reminders, join the call in one click and start capturing. A floating mic stays with you across every app and space: hold the hotkey to dictate, and a cleaned-up text pastes straight wherever you're writing. Productivity Notes Artificial Intelligence",
+      "signals": {
+        "upvotes": 158,
+        "comments": 21
+      },
+      "published_at": "2026-10-21T07:01:00Z"
+    },
+    {
+      "id": "gh-ponytail-2026-10-22",
+      "title": "DietrichGebert/ponytail",
+      "category": "repos",
+      "source": "github",
+      "url": "https://github.com/DietrichGebert/ponytail",
+      "source_url": "https://github.com/DietrichGebert/ponytail",
+      "source_text": "DietrichGebert/ponytail Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. JavaScript",
+      "signals": {
+        "stars": 172244,
+        "stars_gained": 2079,
+        "forks": 9375
+      },
+      "meta": {
+        "language": "JavaScript"
+      }
+    },
+    {
+      "id": "gh-security-audit-skill-2026-10-22",
+      "title": "cloudflare/security-audit-skill",
+      "category": "repos",
+      "source": "github",
+      "url": "https://github.com/cloudflare/security-audit-skill",
+      "source_url": "https://github.com/cloudflare/security-audit-skill",
+      "source_text": "cloudflare/security-audit-skill A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings JavaScript",
+      "signals": {
+        "stars": 37551,
+        "stars_gained": 2012,
+        "forks": 2345
+      },
+      "meta": {
+        "language": "JavaScript"
+      }
+    },
+    {
+      "id": "gh-orca-2026-10-22",
+      "title": "stablyai/orca",
+      "category": "repos",
+      "source": "github",
+      "url": "https://github.com/stablyai/orca",
+      "source_url": "https://github.com/stablyai/orca",
+      "source_text": "stablyai/orca Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime. TypeScript",
+      "signals": {
+        "stars": 101842,
+        "stars_gained": 1541,
+        "forks": 6441
+      },
+      "meta": {
+        "language": "TypeScript"
+      }
+    },
+    {
+      "id": "gh-graphify-2026-10-22",
+      "title": "Graphify-Labs/graphify",
+      "category": "repos",
+      "source": "github",
+      "url": "https://github.com/Graphify-Labs/graphify",
+      "source_url": "https://github.com/Graphify-Labs/graphify",
+      "source_text": "Graphify-Labs/graphify Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store. Python",
+      "signals": {
+        "stars": 132044,
+        "stars_gained": 1433,
+        "forks": 12666
+      },
+      "meta": {
+        "language": "Python"
+      }
+    },
+    {
+      "id": "gh-comfyui-2026-10-22",
+      "title": "Comfy-Org/ComfyUI",
+      "category": "repos",
+      "source": "github",
+      "url": "https://github.com/Comfy-Org/ComfyUI",
+      "source_url": "https://github.com/Comfy-Org/ComfyUI",
+      "source_text": "Comfy-Org/ComfyUI The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world. Python",
+      "signals": {
+        "stars": 141759,
+        "stars_gained": 939,
+        "forks": 16748
+      },
+      "meta": {
+        "language": "Python"
+      }
+    },
+    {
+      "id": "gh-kronos-2026-10-22",
+      "title": "shiyu-coder/Kronos",
+      "category": "repos",
+      "source": "github",
+      "url": "https://github.com/shiyu-coder/Kronos",
+      "source_url": "https://github.com/shiyu-coder/Kronos",
+      "source_text": "shiyu-coder/Kronos Kronos: A Foundation Model for the Language of Financial Markets Python",
+      "signals": {
+        "stars": 43004,
+        "stars_gained": 575,
+        "forks": 7092
+      },
+      "meta": {
+        "language": "Python"
+      }
+    },
+    {
+      "id": "gh-supabase-2026-10-22",
+      "title": "supabase/supabase",
+      "category": "repos",
+      "source": "github",
+      "url": "https://github.com/supabase/supabase",
+      "source_url": "https://github.com/supabase/supabase",
+      "source_text": "supabase/supabase The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications. TypeScript",
+      "signals": {
+        "stars": 113188,
+        "stars_gained": 504,
+        "forks": 16987
+      },
+      "meta": {
+        "language": "TypeScript"
+      }
+    },
+    {
+      "id": "gh-headroom-2026-10-22",
+      "title": "headroomlabs-ai/headroom",
+      "category": "repos",
+      "source": "github",
+      "url": "https://github.com/headroomlabs-ai/headroom",
+      "source_url": "https://github.com/headroomlabs-ai/headroom",
+      "source_text": "headroomlabs-ai/headroom Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server. Python",
+      "signals": {
+        "stars": 77431,
+        "stars_gained": 474,
+        "forks": 6012
+      },
+      "meta": {
+        "language": "Python"
+      }
+    },
+    {
+      "id": "gh-vllm-2026-10-22",
+      "title": "vllm-project/vllm",
+      "category": "repos",
+      "source": "github",
+      "url": "https://github.com/vllm-project/vllm",
+      "source_url": "https://github.com/vllm-project/vllm",
+      "source_text": "vllm-project/vllm A high-throughput and memory-efficient inference and serving engine for LLMs Python",
+      "signals": {
+        "stars": 95037,
+        "stars_gained": 441,
+        "forks": 23780
+      },
+      "meta": {
+        "language": "Python"
+      }
+    },
+    {
+      "id": "gh-ai-memory-2026-10-22",
+      "title": "akitaonrails/ai-memory",
+      "category": "repos",
+      "source": "github",
+      "url": "https://github.com/akitaonrails/ai-memory",
+      "source_url": "https://github.com/akitaonrails/ai-memory",
+      "source_text": "akitaonrails/ai-memory Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors Rust",
+      "signals": {
+        "stars": 12544,
+        "stars_gained": 286,
+        "forks": 886
+      },
+      "meta": {
+        "language": "Rust"
+      }
+    },
+    {
+      "id": "tc-blackstones-jas-khaira-says-fears-over-ai-2026-10-22",
+      "title": "Blackstone’s Jas Khaira says fears over AI-buildout debt are overblown",
+      "category": "news",
+      "source": "techcrunch",
+      "url": "https://techcrunch.com/2026/10/21/blackstones-jas-khaira-says-fears-over-ai-buildout-debt-are-overblown/",
+      "source_url": "https://techcrunch.com/2026/10/21/blackstones-jas-khaira-says-fears-over-ai-buildout-debt-are-overblown/",
+      "source_text": "Blackstone’s Jas Khaira says fears over AI-buildout debt are overblown Blackstone’s AI head on why the PE giant isn't panicked by market jitters.",
+      "meta": {
+        "author": "Marina Temkin",
+        "reading_time": "5 minutes"
+      },
+      "published_at": "2026-10-21T22:51:22Z"
+    },
+    {
+      "id": "tc-techcrunch-founder-summit-2026-everything-you-2026-10-22",
+      "title": "TechCrunch Founder Summit 2026: Everything you need to know",
+      "category": "news",
+      "source": "techcrunch",
+      "url": "https://techcrunch.com/2026/10/21/techcrunch-founder-summit-2026-everything-you-need-to-know/",
+      "source_url": "https://techcrunch.com/2026/10/21/techcrunch-founder-summit-2026-everything-you-need-to-know/",
+      "source_text": "TechCrunch Founder Summit 2026: Everything you need to know TechCrunch Founder Summit is a full-day gathering in Boston on November 4 where founders across all stages connect with top VCs and experienced entrepreneurs to gain tactical insights on building and scaling their companies.",
+      "meta": {
+        "author": "TechCrunch Events",
+        "reading_time": "5 minutes"
+      },
+      "published_at": "2026-10-21T21:16:20Z"
+    },
+    {
+      "id": "tc-meta-says-muse-has-over-10m-users-with-shopping-2026-10-22",
+      "title": "Meta says Muse has over 10M users, with shopping a top activity",
+      "category": "news",
+      "source": "techcrunch",
+      "url": "https://techcrunch.com/2026/10/21/meta-says-muse-has-over-10m-users-with-shopping-a-top-activity/",
+      "source_url": "https://techcrunch.com/2026/10/21/meta-says-muse-has-over-10m-users-with-shopping-a-top-activity/",
+      "source_text": "Meta says Muse has over 10M users, with shopping a top activity Meta Muse users are adopting the app for shopping and personal productivity, the company said during its Q3 earnings call. The AI app now has over 10M users.",
+      "meta": {
+        "author": "Sarah Perez",
+        "reading_time": "3 minutes"
+      },
+      "published_at": "2026-10-21T21:14:19Z"
+    },
+    {
+      "id": "tc-recursive-launches-flint-a-laptop-coding-model-2026-10-22",
+      "title": "Recursive launches Flint, a laptop coding model it says was largely built by AI",
+      "category": "news",
+      "source": "techcrunch",
+      "url": "https://techcrunch.com/2026/10/21/recursive-launches-flint-a-laptop-coding-model-it-says-was-largely-built-by-ai/",
+      "source_url": "https://techcrunch.com/2026/10/21/recursive-launches-flint-a-laptop-coding-model-it-says-was-largely-built-by-ai/",
+      "source_text": "Recursive launches Flint, a laptop coding model it says was largely built by AI Startup Recursive has released Flint, a free, laptop-sized coding model built largely by its own AI research system, as an early test of AI that improves itself.",
+      "meta": {
+        "author": "Aditya Mehta",
+        "reading_time": "4 minutes"
+      },
+      "published_at": "2026-10-21T20:27:41Z"
+    },
+    {
+      "id": "tc-while-amazon-blocks-ai-agents-walmart-rolls-out-2026-10-22",
+      "title": "While Amazon blocks AI agents, Walmart rolls out the welcome mat",
+      "category": "news",
+      "source": "techcrunch",
+      "url": "https://techcrunch.com/2026/10/21/while-amazon-blocks-ai-agents-walmart-rolls-out-the-welcome-mat/",
+      "source_url": "https://techcrunch.com/2026/10/21/while-amazon-blocks-ai-agents-walmart-rolls-out-the-welcome-mat/",
+      "source_text": "While Amazon blocks AI agents, Walmart rolls out the welcome mat As Amazon blocks AI agents from shopping on its site, Walmart is taking the opposite approach, introducing new technology that lets AI agents make purchases on customers' behalf, with controls over spending and transaction approvals.",
+      "meta": {
+        "author": "Sarah Perez",
+        "reading_time": "3 minutes"
+      },
+      "published_at": "2026-10-21T19:30:00Z"
+    },
+    {
+      "id": "tc-php-armageddon-openai-googles-wiz-find-ancient-2026-10-22",
+      "title": "PHP Armageddon: OpenAI, Google’s Wiz find ancient holes, panicking the internet",
+      "category": "news",
+      "source": "techcrunch",
+      "url": "https://techcrunch.com/2026/10/21/php-armageddon-openai-googles-wiz-find-ancient-holes-panicking-the-internet/",
+      "source_url": "https://techcrunch.com/2026/10/21/php-armageddon-openai-googles-wiz-find-ancient-holes-panicking-the-internet/",
+      "source_text": "PHP Armageddon: OpenAI, Google’s Wiz find ancient holes, panicking the internet This is the kind of security issue that was found and prevented by AI, but is also a high risk because of AI.",
+      "meta": {
+        "author": "Julie Bort",
+        "reading_time": "3 minutes"
+      },
+      "published_at": "2026-10-21T17:59:12Z"
+    },
+    {
+      "id": "tc-blacksmith-hits-unicorn-valuation-after-sequoia-2026-10-22",
+      "title": "Blacksmith hits unicorn valuation after Sequoia leads Series C",
+      "category": "news",
+      "source": "techcrunch",
+      "url": "https://techcrunch.com/2026/10/21/blacksmith-hits-unicorn-valuation-after-sequoia-leads-series-c/",
+      "source_url": "https://techcrunch.com/2026/10/21/blacksmith-hits-unicorn-valuation-after-sequoia-leads-series-c/",
+      "source_text": "Blacksmith hits unicorn valuation after Sequoia leads Series C Blacksmith, a platform that lets companies build and test AI code more effectively, just announced a $66 million Series C round led by Sequoia that values the company at $1 billion. ",
+      "meta": {
+        "author": "Dominic-Madori Davis",
+        "reading_time": "2 minutes"
+      },
+      "published_at": "2026-10-21T17:18:27Z"
+    },
+    {
+      "id": "tc-ai-promises-productivity-but-for-managers-its-2026-10-22",
+      "title": "AI promises productivity, but for managers, it’s mostly a headache for now",
+      "category": "news",
+      "source": "techcrunch",
+      "url": "https://techcrunch.com/2026/10/21/ai-promises-productivity-but-for-managers-its-mostly-a-headache-for-now-says-new-survey/",
+      "source_url": "https://techcrunch.com/2026/10/21/ai-promises-productivity-but-for-managers-its-mostly-a-headache-for-now-says-new-survey/",
+      "source_text": "AI promises productivity, but for managers, it’s mostly a headache for now More than 50% of managers say they're finding it harder to evaluate employees' work after adopting AI, according to a new survey.",
+      "meta": {
+        "author": "Ram Iyer",
+        "reading_time": "4 minutes"
+      },
+      "published_at": "2026-10-21T14:00:00Z"
+    },
+    {
+      "id": "hn-php2shell-ai-uncovers-critical-rce-in-php-2026-10-22",
+      "title": "PHP2Shell: AI uncovers critical RCE in PHP",
+      "category": "hn",
+      "source": "hackernews",
+      "url": "https://www.wiz.io/blog/php2shell-php-rce",
+      "source_url": "https://news.ycombinator.com/item?id=50180836",
+      "source_text": "PHP2Shell: AI uncovers critical RCE in PHP",
+      "signals": {
+        "points": 441,
+        "comments": 174
+      },
+      "meta": {
+        "author": "danlark1"
+      },
+      "published_at": "2026-10-21T13:43:19Z"
+    },
+    {
+      "id": "hn-claude-duet-2026-10-22",
+      "title": "Claude Duet",
+      "category": "hn",
+      "source": "hackernews",
+      "url": "https://claude.com/product/claude-duet",
+      "source_url": "https://news.ycombinator.com/item?id=50186037",
+      "source_text": "Claude Duet",
+      "signals": {
+        "points": 351,
+        "comments": 319
+      },
+      "meta": {
+        "author": "kuberwastaken"
+      },
+      "published_at": "2026-10-21T19:14:01Z"
+    },
+    {
+      "id": "hn-mistral-large-4-2026-10-22",
+      "title": "Mistral Large 4",
+      "category": "hn",
+      "source": "hackernews",
+      "url": "https://mistral.ai/news/mistral-large-4/",
+      "source_url": "https://news.ycombinator.com/item?id=50186129",
+      "source_text": "Mistral Large 4",
+      "signals": {
+        "points": 319,
+        "comments": 95
+      },
+      "meta": {
+        "author": "funnym0nk3y"
+      },
+      "published_at": "2026-10-21T19:20:55Z"
+    },
+    {
+      "id": "hn-openai-models-are-coming-to-google-cloud-2026-10-22",
+      "title": "OpenAI models are coming to Google Cloud",
+      "category": "hn",
+      "source": "hackernews",
+      "url": "https://openai.com/index/openai-models-google-cloud/",
+      "source_url": "https://news.ycombinator.com/item?id=50180079",
+      "source_text": "OpenAI models are coming to Google Cloud",
+      "signals": {
+        "points": 284,
+        "comments": 117
+      },
+      "meta": {
+        "author": "armcat"
+      },
+      "published_at": "2026-10-21T12:53:11Z"
+    },
+    {
+      "id": "hn-patch-the-planet-global-response-coordination-2026-10-22",
+      "title": "Patch the Planet: global response coordination as agents uncover vulnerabilities",
+      "category": "hn",
+      "source": "hackernews",
+      "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/",
+      "source_url": "https://news.ycombinator.com/item?id=50181175",
+      "source_text": "Patch the Planet: global response coordination as agents uncover vulnerabilities",
+      "signals": {
+        "points": 251,
+        "comments": 170
+      },
+      "meta": {
+        "author": "nr378"
+      },
+      "published_at": "2026-10-21T14:03:43Z"
+    },
+    {
+      "id": "hn-using-thousands-of-ai-agents-to-uncover-new-2026-10-22",
+      "title": "Using thousands of AI agents to uncover new leads in biological data",
+      "category": "hn",
+      "source": "hackernews",
+      "url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data/",
+      "source_url": "https://news.ycombinator.com/item?id=50180752",
+      "source_text": "Using thousands of AI agents to uncover new leads in biological data",
+      "signals": {
+        "points": 142,
+        "comments": 91
+      },
+      "meta": {
+        "author": "raahelb"
+      },
+      "published_at": "2026-10-21T13:37:00Z"
+    },
+    {
+      "id": "hn-using-claude-to-reduce-the-attack-surface-of-2026-10-22",
+      "title": "Using Claude to reduce the attack surface of code",
+      "category": "hn",
+      "source": "hackernews",
+      "url": "https://www.anthropic.com/research/attack-surface-reduction",
+      "source_url": "https://news.ycombinator.com/item?id=50175779",
+      "source_text": "Using Claude to reduce the attack surface of code",
+      "signals": {
+        "points": 131,
+        "comments": 85
+      },
+      "meta": {
+        "author": "dnw"
+      },
+      "published_at": "2026-10-21T03:36:43Z"
+    },
+    {
+      "id": "hn-google-staff-resign-in-backlash-over-its-ai-2026-10-22",
+      "title": "Google staff resign in backlash over its AI contracts with military",
+      "category": "hn",
+      "source": "hackernews",
+      "url": "https://www.bbc.com/news/articles/cmreyvepnv0po",
+      "source_url": "https://news.ycombinator.com/item?id=50186043",
+      "source_text": "Google staff resign in backlash over its AI contracts with military",
+      "signals": {
+        "points": 123,
+        "comments": 25
+      },
+      "meta": {
+        "author": "saikatsg"
+      },
+      "published_at": "2026-10-21T19:14:21Z"
+    },
+    {
+      "id": "hn-claude-duet-2-2026-10-22",
+      "title": "Claude Duet",
+      "category": "hn",
+      "source": "hackernews",
+      "url": "https://claude.com/resources/articles/claude-duet",
+      "source_url": "https://news.ycombinator.com/item?id=50186455",
+      "source_text": "Claude Duet",
+      "signals": {
+        "points": 78,
+        "comments": 8
+      },
+      "meta": {
+        "author": "zaevlad"
+      },
+      "published_at": "2026-10-21T19:40:18Z"
+    },
+    {
+      "id": "hn-openai-cli-2026-10-22",
+      "title": "OpenAI CLI",
+      "category": "hn",
+      "source": "hackernews",
+      "url": "https://github.com/openai/openai-cli",
+      "source_url": "https://news.ycombinator.com/item?id=50191507",
+      "source_text": "OpenAI CLI",
+      "signals": {
+        "points": 74,
+        "comments": 38
+      },
+      "meta": {
+        "author": "armcat"
+      },
+      "published_at": "2026-10-22T05:23:11Z"
+    }
+  ]
+}

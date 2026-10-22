@@ -1,0 +1,740 @@
+{
+  "source": "producthunt",
+  "fetched_at": "2026-10-22",
+  "window": {
+    "postedAfter": "2026-10-21T00:00:00Z",
+    "postedBefore": "2026-10-23T00:00:00Z"
+  },
+  "query_params": {
+    "first": 5,
+    "order": "VOTES",
+    "featured": true
+  },
+  "totalCount": 57,
+  "posts": [
+    {
+      "id": "1280279",
+      "name": "UseIt Studio",
+      "tagline": "Your AI design agent for real, editable project files.",
+      "description": "UseIt is an AI design studio for things you can hold. Describe what you want in one sentence. UseIt asks what a designer would ask, designs it with you, and lets you refine any detail by pointing at it. You get a real, editable design file, not a flat image, ready to print, cut and fold, with real dimensions, bleed and dielines. Make pins, stickers, gift boxes, pop-up cards, brand kits and more. Use it in your browser, or call it up anywhere on your Windows desktop.",
+      "slug": "useit-studio",
+      "votesCount": 320,
+      "commentsCount": 28,
+      "reviewsRating": 0.0,
+      "reviewsCount": 0,
+      "dailyRank": 1,
+      "weeklyRank": 4,
+      "url": "https://www.producthunt.com/products/useit-studio-from-idea-to-delivery?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29",
+      "website": "https://www.producthunt.com/r/YLLDQZV3DAU3ZO?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29",
+      "featuredAt": "2026-10-21T07:01:00Z",
+      "createdAt": "2026-10-21T07:01:00Z",
+      "thumbnail": {
+        "type": "image",
+        "url": "https://ph-files.imgix.net/61871a26-bd6a-43e0-9c7c-3a40b91eb51e.svg?auto=format"
+      },
+      "media": [
+        {
+          "type": "video",
+          "url": "https://ph-files.imgix.net/7d59c7ca-92b9-417d-bd34-b4dd52d16ba0.jpeg?auto=format",
+          "videoUrl": "https://youtu.be/eeGK35KMKXE"
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/5e977eaf-13a7-4f94-b873-00241e51e92a.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/04f63dd6-9ac0-44b3-9fa9-56ab3670c577.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/3dfeb813-e1d0-4a18-a137-b9f081499a9b.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/41fa0643-1c47-4d93-b197-b6ea76d040dc.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/5f266d51-0e6a-4217-86ce-105e25f53109.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/b6bfd50c-c13e-4261-b1b3-66f0edbdcc3f.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/d90a75b2-eefc-43be-a12b-3a90d764afa6.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/113f8138-c9b2-40df-a944-5c8515b9adf5.png?auto=format",
+          "videoUrl": null
+        }
+      ],
+      "productLinks": [
+        {
+          "type": "Twitter",
+          "url": "https://www.producthunt.com/r/KEYQUD6JY53SKQ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29"
+        },
+        {
+          "type": "Website",
+          "url": "https://www.producthunt.com/r/YLLDQZV3DAU3ZO?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29"
+        },
+        {
+          "type": "Twitter",
+          "url": "https://www.producthunt.com/r/RJMZNH5ZPCLSNU?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29"
+        }
+      ],
+      "topics": {
+        "nodes": [
+          {
+            "name": "Design Tools",
+            "slug": "design-tools"
+          },
+          {
+            "name": "Art",
+            "slug": "art"
+          },
+          {
+            "name": "Artificial Intelligence",
+            "slug": "artificial-intelligence"
+          }
+        ]
+      },
+      "makers": [
+        {
+          "name": "Lindia Chen",
+          "username": "lindiac",
+          "headline": "I was drunk, but haunted by sobriety.",
+          "url": "https://www.producthunt.com/@lindiac?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29",
+          "twitterUsername": "Me7216130763363"
+        },
+        {
+          "name": "Daniel Gao",
+          "username": "gao_difei",
+          "headline": "Turning ideas into things you can hold",
+          "url": "https://www.producthunt.com/@gao_difei?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29",
+          "twitterUsername": "maybelu_9"
+        }
+      ],
+      "user": {
+        "name": "Zac Zuo",
+        "username": "zaczuo",
+        "headline": "Flowtica & AI Frontiers",
+        "url": "https://www.producthunt.com/@zaczuo?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29"
+      }
+    },
+    {
+      "id": "1278273",
+      "name": "BAND for Developers",
+      "tagline": "Coding agents, meet teamwork",
+      "description": "Running multiple coding agents shouldn\u2019t mean becoming their project manager. BAND lets them work together. Connect agents across your existing development tools and give them a shared workspace to coordinate tasks, exchange context, and hand off work without you playing middleman. See what every agent is doing, step in when decisions need your judgment, and scale agentic development across teams. Your agents stay in their existing tools while BAND handles the teamwork.",
+      "slug": "band-for-developers",
+      "votesCount": 288,
+      "commentsCount": 14,
+      "reviewsRating": 0.0,
+      "reviewsCount": 0,
+      "dailyRank": 2,
+      "weeklyRank": 5,
+      "url": "https://www.producthunt.com/products/band?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29",
+      "website": "https://www.producthunt.com/r/LFGJP5O6OXFYLB?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29",
+      "featuredAt": "2026-10-21T07:01:00Z",
+      "createdAt": "2026-10-21T07:01:00Z",
+      "thumbnail": {
+        "type": "image",
+        "url": "https://ph-files.imgix.net/d2484b7e-3a24-4ad0-a225-c5f873420f15.png?auto=format"
+      },
+      "media": [
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/3e26af9c-c3f2-4346-9b4b-425d511bcde5.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/d4a53d23-9b2c-4901-af76-1794ce4c5a34.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/467ce23e-2f2b-4ad0-a79d-7ba99688e59a.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/332a3775-162f-4212-85de-26f6e93f5792.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/6652d0ce-ed81-419c-ac3c-f87298acaa2d.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/8521f765-c442-4190-b5f0-5b2fca11b475.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/e1107322-df2c-4b8f-af31-627b8a0632e8.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "video",
+          "url": "https://ph-files.imgix.net/c8f42ee1-18fa-4128-b2c8-42f3d102ba13.jpeg?auto=format",
+          "videoUrl": "https://youtu.be/rmoqdlk1mII?si=OZW_i47JUsX6EenS"
+        }
+      ],
+      "productLinks": [
+        {
+          "type": "Twitter",
+          "url": "https://www.producthunt.com/r/3H3QR5ISZOVEWH?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29"
+        },
+        {
+          "type": "Website",
+          "url": "https://www.producthunt.com/r/LFGJP5O6OXFYLB?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29"
+        },
+        {
+          "type": "Twitter",
+          "url": "https://www.producthunt.com/r/X6V7DBYYTJPRRD?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29"
+        }
+      ],
+      "topics": {
+        "nodes": [
+          {
+            "name": "Software Engineering",
+            "slug": "software-engineering"
+          },
+          {
+            "name": "Developer Tools",
+            "slug": "developer-tools"
+          },
+          {
+            "name": "Artificial Intelligence",
+            "slug": "artificial-intelligence"
+          }
+        ]
+      },
+      "makers": [
+        {
+          "name": "[REDACTED]",
+          "username": "[REDACTED]",
+          "headline": null,
+          "url": "[REDACTED]",
+          "twitterUsername": null
+        },
+        {
+          "name": "[REDACTED]",
+          "username": "[REDACTED]",
+          "headline": null,
+          "url": "[REDACTED]",
+          "twitterUsername": null
+        },
+        {
+          "name": "[REDACTED]",
+          "username": "[REDACTED]",
+          "headline": null,
+          "url": "[REDACTED]",
+          "twitterUsername": null
+        },
+        {
+          "name": "[REDACTED]",
+          "username": "[REDACTED]",
+          "headline": null,
+          "url": "[REDACTED]",
+          "twitterUsername": null
+        },
+        {
+          "name": "[REDACTED]",
+          "username": "[REDACTED]",
+          "headline": null,
+          "url": "[REDACTED]",
+          "twitterUsername": null
+        },
+        {
+          "name": "[REDACTED]",
+          "username": "[REDACTED]",
+          "headline": null,
+          "url": "[REDACTED]",
+          "twitterUsername": null
+        },
+        {
+          "name": "[REDACTED]",
+          "username": "[REDACTED]",
+          "headline": null,
+          "url": "[REDACTED]",
+          "twitterUsername": null
+        },
+        {
+          "name": "Joanna Braunold",
+          "username": "jobraunold",
+          "headline": "Marketing Manager, Inception VR",
+          "url": "https://www.producthunt.com/@jobraunold?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29",
+          "twitterUsername": "jobraunold"
+        }
+      ],
+      "user": {
+        "name": "Ben Lang",
+        "username": "benln",
+        "headline": "Cursor",
+        "url": "https://www.producthunt.com/@benln?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29"
+      }
+    },
+    {
+      "id": "1274622",
+      "name": "Needle",
+      "tagline": "The agent-native outbound engine",
+      "description": "Find your perfect leads and reach out by prompting Claude, ChatGPT, or Grok. Wherever your ICP are, on LinkedIn, Instagram, or email.",
+      "slug": "needle-391a6980-1f80-4939-8a6d-535d2f72c156",
+      "votesCount": 263,
+      "commentsCount": 29,
+      "reviewsRating": 4.63,
+      "reviewsCount": 8,
+      "dailyRank": 3,
+      "weeklyRank": 6,
+      "url": "https://www.producthunt.com/products/needle-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29",
+      "website": "https://www.producthunt.com/r/E6AZ74Q5YPL2B5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29",
+      "featuredAt": "2026-10-21T07:01:00Z",
+      "createdAt": "2026-10-21T07:01:00Z",
+      "thumbnail": {
+        "type": "image",
+        "url": "https://ph-files.imgix.net/a2d0f7e4-e61f-4f28-b2b5-93285c924254.webp?auto=format"
+      },
+      "media": [
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/c5d8f0ba-dea1-4953-87e7-c0348d4c42da.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "video",
+          "url": "https://ph-files.imgix.net/3571ea13-42cf-4e76-b317-2ffec62c1ea1.jpeg?auto=format",
+          "videoUrl": "https://www.youtube.com/watch?v=B7fbRmadmQ8"
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/19a2d32a-fd30-46a5-940d-126f06ec0141.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/6379cfbe-b14c-4419-82eb-5a6633ae0b4a.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/3d7d19e2-b78e-40d0-8def-4d1a7e2a4828.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/ce15a88d-916f-488b-a229-e970d309ca27.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/086cac1b-ceaf-4724-be74-dc480ef0a22d.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/f2eafa26-3a29-4e4e-9edc-ff220649fad6.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/59c32c7c-5631-41c6-b979-3ab67b6f2d81.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/5e06f156-8b3e-49c9-aaec-b8ca00cc89ca.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "video",
+          "url": "https://ph-files.imgix.net/2284dec3-3e6e-4750-828d-9721dd2acb7f.jpeg?auto=format",
+          "videoUrl": "https://www.youtube.com/watch?v=ofK0MRD7ZaU"
+        }
+      ],
+      "productLinks": [
+        {
+          "type": "Twitter",
+          "url": "https://www.producthunt.com/r/YLP43QO7FEH7ZY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29"
+        },
+        {
+          "type": "Website",
+          "url": "https://www.producthunt.com/r/E6AZ74Q5YPL2B5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29"
+        },
+        {
+          "type": "Twitter",
+          "url": "https://www.producthunt.com/r/5LPXEQAV76OMMJ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29"
+        }
+      ],
+      "topics": {
+        "nodes": [
+          {
+            "name": "Sales",
+            "slug": "sales"
+          },
+          {
+            "name": "Artificial Intelligence",
+            "slug": "artificial-intelligence"
+          },
+          {
+            "name": "LinkedIn",
+            "slug": "linkedin"
+          }
+        ]
+      },
+      "makers": [
+        {
+          "name": "[REDACTED]",
+          "username": "[REDACTED]",
+          "headline": null,
+          "url": "[REDACTED]",
+          "twitterUsername": null
+        },
+        {
+          "name": "[REDACTED]",
+          "username": "[REDACTED]",
+          "headline": null,
+          "url": "[REDACTED]",
+          "twitterUsername": null
+        },
+        {
+          "name": "[REDACTED]",
+          "username": "[REDACTED]",
+          "headline": null,
+          "url": "[REDACTED]",
+          "twitterUsername": null
+        },
+        {
+          "name": "Maurice",
+          "username": "mauricevv",
+          "headline": "Chief of Staff at Needle",
+          "url": "https://www.producthunt.com/@mauricevv?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29",
+          "twitterUsername": null
+        }
+      ],
+      "user": {
+        "name": "Rohan Chaubey",
+        "username": "rohanrecommends",
+        "headline": "\ud83e\udd47 Top Hunter | Author | Startup Advisor",
+        "url": "https://www.producthunt.com/@rohanrecommends?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29"
+      }
+    },
+    {
+      "id": "1271317",
+      "name": "The Library",
+      "tagline": "Your business context organized by queries",
+      "description": "The Querri Library is where your data gets organized around the questions your business asks, so every answer comes from the same trusted, shared foundation.. The library learns your definitions, business context, and past analysis, so its answers are grounded in how your business actually works. And when it doesn\u2019t know, it says so, instead of making things up.",
+      "slug": "the-library-1a4accbe-0203-45f7-bb35-1567ccc523e0",
+      "votesCount": 197,
+      "commentsCount": 31,
+      "reviewsRating": 0.0,
+      "reviewsCount": 0,
+      "dailyRank": 4,
+      "weeklyRank": 11,
+      "url": "https://www.producthunt.com/products/querri?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29",
+      "website": "https://www.producthunt.com/r/XZ6RB34WYUJWIN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29",
+      "featuredAt": "2026-10-21T07:01:00Z",
+      "createdAt": "2026-10-21T07:01:00Z",
+      "thumbnail": {
+        "type": "image",
+        "url": "https://ph-files.imgix.net/3b204bf1-f8aa-4598-b5cb-7f65074ec4ae.svg?auto=format"
+      },
+      "media": [
+        {
+          "type": "video",
+          "url": "https://ph-files.imgix.net/1fb61d2d-aafe-43b1-be89-e30754f0b989.jpeg?auto=format",
+          "videoUrl": "https://youtu.be/Uo5-pcJ-jWs"
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/24c6ce26-2274-497d-8d0e-ea1800be9d31.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/f68c954d-9e7a-483a-aced-1b6e3a6bbdac.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/fefb17d3-2069-4a50-a84f-01848f2341e6.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/9bbdcfdc-b88d-48c8-9897-38914574392d.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/6c6238fe-64ef-459e-9cfd-27b289176833.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/af4dcd57-d323-48a4-b497-cce54f06cf47.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/54403e2d-91dc-4c12-865c-166fbe8088a1.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/e943a983-6d86-4e31-8061-846540fe9627.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/46082564-b9d2-4460-aa19-b52839c268f2.png?auto=format",
+          "videoUrl": null
+        }
+      ],
+      "productLinks": [
+        {
+          "type": "Facebook",
+          "url": "https://www.producthunt.com/r/QOJCUWOQBPA32X?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29"
+        },
+        {
+          "type": "Instagram",
+          "url": "https://www.producthunt.com/r/NH564O4C2IYCSE?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29"
+        },
+        {
+          "type": "Website",
+          "url": "https://www.producthunt.com/r/XZ6RB34WYUJWIN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29"
+        }
+      ],
+      "topics": {
+        "nodes": [
+          {
+            "name": "Analytics",
+            "slug": "analytics"
+          },
+          {
+            "name": "Tech",
+            "slug": "tech"
+          }
+        ]
+      },
+      "makers": [
+        {
+          "name": "[REDACTED]",
+          "username": "[REDACTED]",
+          "headline": null,
+          "url": "[REDACTED]",
+          "twitterUsername": null
+        },
+        {
+          "name": "[REDACTED]",
+          "username": "[REDACTED]",
+          "headline": null,
+          "url": "[REDACTED]",
+          "twitterUsername": null
+        },
+        {
+          "name": "[REDACTED]",
+          "username": "[REDACTED]",
+          "headline": null,
+          "url": "[REDACTED]",
+          "twitterUsername": null
+        },
+        {
+          "name": "[REDACTED]",
+          "username": "[REDACTED]",
+          "headline": null,
+          "url": "[REDACTED]",
+          "twitterUsername": null
+        },
+        {
+          "name": "John Sim",
+          "username": "johnrsim",
+          "headline": "Innovator and Lead Architect",
+          "url": "https://www.producthunt.com/@johnrsim?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29",
+          "twitterUsername": null
+        }
+      ],
+      "user": {
+        "name": "Neelam Chakrabarty",
+        "username": "querri",
+        "headline": "Building a text to data analytics app ",
+        "url": "https://www.producthunt.com/@querri?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29"
+      }
+    },
+    {
+      "id": "1195703",
+      "name": "TwinMind for Desktop",
+      "tagline": "Transcribe meetings and dictate anywhere on Mac & Windows",
+      "description": "TwinMind now lives natively on your Desktop! Auto-detect meetings in Zoom, Meet, Teams and more, and get live transcripts and summaries in 140+ languages. With calendar reminders, join the call in one click and start capturing. A floating mic stays with you across every app and space: hold the hotkey to dictate, and a cleaned-up text pastes straight wherever you're writing.",
+      "slug": "twinmind-for-desktop",
+      "votesCount": 158,
+      "commentsCount": 21,
+      "reviewsRating": 0.0,
+      "reviewsCount": 0,
+      "dailyRank": 5,
+      "weeklyRank": 15,
+      "url": "https://www.producthunt.com/products/twinmind?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29",
+      "website": "https://www.producthunt.com/r/QXPYLTASWW6C47?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29",
+      "featuredAt": "2026-10-21T07:01:00Z",
+      "createdAt": "2026-10-21T07:01:00Z",
+      "thumbnail": {
+        "type": "image",
+        "url": "https://ph-files.imgix.net/06214f5e-34ec-4358-b890-de7ecb074ea0.png?auto=format"
+      },
+      "media": [
+        {
+          "type": "video",
+          "url": "https://ph-files.imgix.net/304b1784-541a-4fc5-8baa-af993c510a31.jpeg?auto=format",
+          "videoUrl": "https://www.youtube.com/watch?v=ZFUcBRYegW0"
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/c9ca9625-e40f-48b3-8b4d-eae8f0eb24de.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/84463ac2-ad9b-43b5-91b0-23bf9773d91a.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/f967eff8-e9a5-4ffe-b2db-2bdea3657875.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/22d4d146-0913-4ce7-8071-a11622d09a79.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/2c0a74d5-e2f2-4183-9593-f57089f87daf.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/463370f9-17cf-4a30-8aed-7cfaee9965bb.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/512db733-7d0c-4c21-93f3-4a39e3f8b143.png?auto=format",
+          "videoUrl": null
+        }
+      ],
+      "productLinks": [
+        {
+          "type": "Instagram",
+          "url": "https://www.producthunt.com/r/DC7LS5RNTBIKQF?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29"
+        },
+        {
+          "type": "Twitter",
+          "url": "https://www.producthunt.com/r/HMAAXLUH5BI3IQ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29"
+        },
+        {
+          "type": "Twitter",
+          "url": "https://www.producthunt.com/r/XY6PTYS7G6PY6Q?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29"
+        },
+        {
+          "type": "Website",
+          "url": "https://www.producthunt.com/r/QXPYLTASWW6C47?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29"
+        }
+      ],
+      "topics": {
+        "nodes": [
+          {
+            "name": "Productivity",
+            "slug": "productivity"
+          },
+          {
+            "name": "Notes",
+            "slug": "notes"
+          },
+          {
+            "name": "Artificial Intelligence",
+            "slug": "artificial-intelligence"
+          }
+        ]
+      },
+      "makers": [
+        {
+          "name": "[REDACTED]",
+          "username": "[REDACTED]",
+          "headline": null,
+          "url": "[REDACTED]",
+          "twitterUsername": null
+        },
+        {
+          "name": "[REDACTED]",
+          "username": "[REDACTED]",
+          "headline": null,
+          "url": "[REDACTED]",
+          "twitterUsername": null
+        },
+        {
+          "name": "[REDACTED]",
+          "username": "[REDACTED]",
+          "headline": null,
+          "url": "[REDACTED]",
+          "twitterUsername": null
+        },
+        {
+          "name": "[REDACTED]",
+          "username": "[REDACTED]",
+          "headline": null,
+          "url": "[REDACTED]",
+          "twitterUsername": null
+        },
+        {
+          "name": "[REDACTED]",
+          "username": "[REDACTED]",
+          "headline": null,
+          "url": "[REDACTED]",
+          "twitterUsername": null
+        },
+        {
+          "name": "[REDACTED]",
+          "username": "[REDACTED]",
+          "headline": null,
+          "url": "[REDACTED]",
+          "twitterUsername": null
+        },
+        {
+          "name": "[REDACTED]",
+          "username": "[REDACTED]",
+          "headline": null,
+          "url": "[REDACTED]",
+          "twitterUsername": null
+        },
+        {
+          "name": "Ashwin Thomas",
+          "username": "majortom_39",
+          "headline": "AI-focused Product Builder.",
+          "url": "https://www.producthunt.com/@majortom_39?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29",
+          "twitterUsername": null
+        }
+      ],
+      "user": {
+        "name": "Kartikey Sharma",
+        "username": "kartikeythirdear",
+        "headline": "Forward Deployment Engineer @ TwinMind",
+        "url": "https://www.producthunt.com/@kartikeythirdear?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29"
+      }
+    }
+  ]
+}

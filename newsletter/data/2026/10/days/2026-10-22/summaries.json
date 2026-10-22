@@ -1,0 +1,133 @@
+{
+  "date": "2026-10-22",
+  "items": {
+    "ph-useit-studio-2026-10-22": {
+      "summary": "Design agent that asks a designer's questions, then outputs editable print files with real dimensions, bleed and dielines for stickers, gift boxes and pop-up cards, in browser or on Windows.",
+      "tags": ["Agents", "Image Gen", "Launch"]
+    },
+    "ph-band-for-developers-2026-10-22": {
+      "summary": "Shared workspace where coding agents in different dev tools coordinate tasks, swap context and hand off work, with a view of each agent and a point to step in on decisions.",
+      "tags": ["Dev Tool", "Agents", "Code Gen", "Launch"]
+    },
+    "ph-needle-391a6980-1f80-4939-8a6d-535d2f72c156-2026-10-22": {
+      "summary": "Lead finding and outbound outreach driven by prompting Claude, ChatGPT or Grok, covering LinkedIn, Instagram and email.",
+      "tags": ["Agents", "Launch"]
+    },
+    "ph-twinmind-for-desktop-2026-10-22": {
+      "summary": "Native Mac and Windows app that auto-detects Zoom, Meet and Teams calls for live transcripts and summaries in 140+ languages, plus hold-to-dictate cleaned text into any app.",
+      "tags": ["Voice / Speech", "Launch"]
+    },
+    "gh-ponytail-2026-10-22": {
+      "summary": "JavaScript project that steers an AI coding agent toward writing as little code as possible, on the premise that the best code is code never written.",
+      "tags": ["Open Source", "Agents", "Code Gen"]
+    },
+    "gh-security-audit-skill-2026-10-22": {
+      "summary": "Cloudflare's coding-agent skill that runs a security audit in multiple phases and emits findings that are independently verified and machine-readable.",
+      "tags": ["Open Source", "Agents", "Security"]
+    },
+    "gh-orca-2026-10-22": {
+      "summary": "TypeScript workspace for running a fleet of coding agents such as Claude Code on your own subscriptions, across desktop, mobile and a remote runtime.",
+      "tags": ["Open Source", "Agents", "Code Gen"]
+    },
+    "gh-graphify-2026-10-22": {
+      "summary": "A /graphify skill for Claude Code, Cursor, Codex and Gemini CLI that turns code, docs, SQL schemas and PDFs into a local knowledge graph via AST parsing, with no vector store.",
+      "tags": ["Open Source", "Code Gen", "RAG"]
+    },
+    "gh-comfyui-2026-10-22": {
+      "summary": "Node-graph GUI, API and backend in Python for building and running diffusion model pipelines locally.",
+      "tags": ["Open Source", "Image Gen", "Inference"]
+    },
+    "gh-kronos-2026-10-22": {
+      "summary": "Python code for a foundation model that treats financial market data as a language to be modeled.",
+      "tags": ["Open Source", "Model Release"]
+    },
+    "gh-supabase-2026-10-22": {
+      "summary": "Postgres development platform that gives each project a dedicated database for web, mobile and AI applications.",
+      "tags": ["Open Source", "Dev Tool"]
+    },
+    "gh-headroom-2026-10-22": {
+      "summary": "Python library, proxy and MCP server that compresses tool outputs, logs, files and RAG chunks before the LLM, claiming 20% fewer tokens for coding agents and 60-95% for JSON.",
+      "tags": ["Open Source", "LLM", "Agents"]
+    },
+    "gh-vllm-2026-10-22": {
+      "summary": "Python inference and serving engine for LLMs, built for high throughput and memory efficiency.",
+      "tags": ["Open Source", "Inference", "LLM"]
+    },
+    "gh-ai-memory-2026-10-22": {
+      "summary": "Rust tool that gives agent coding CLIs long-term memory and lets work hand off between agents from different vendors.",
+      "tags": ["Open Source", "Agents", "Code Gen"]
+    },
+    "tc-blackstones-jas-khaira-says-fears-over-ai-2026-10-22": {
+      "summary": "Blackstone's head of AI explains why the private equity firm is not rattled by market jitters over debt-funded AI infrastructure.",
+      "tags": ["Deep Dive"]
+    },
+    "tc-techcrunch-founder-summit-2026-everything-you-2026-10-22": {
+      "summary": "Full-day event in Boston on November 4 pairing founders at every stage with VCs and experienced operators for tactical sessions on building and scaling.",
+      "tags": ["Funding"]
+    },
+    "tc-meta-says-muse-has-over-10m-users-with-shopping-2026-10-22": {
+      "summary": "Disclosed on Meta's Q3 earnings call, with people using the AI app mostly for shopping and personal productivity.",
+      "tags": ["Meta", "LLM"]
+    },
+    "tc-recursive-launches-flint-a-laptop-coding-model-2026-10-22": {
+      "summary": "Free coding model sized for a laptop, which Recursive pitches as an early test of self-improving AI since its own research system did most of the building.",
+      "tags": ["Model Release", "Code Gen", "Local LLM"]
+    },
+    "tc-while-amazon-blocks-ai-agents-walmart-rolls-out-2026-10-22": {
+      "summary": "Walmart's new tech lets AI agents buy on a customer's behalf, with controls over spending and transaction approvals.",
+      "tags": ["Agents", "Launch"]
+    },
+    "tc-php-armageddon-openai-googles-wiz-find-ancient-2026-10-22": {
+      "summary": "Long-standing PHP flaws surfaced with AI by OpenAI and Wiz, framed as both a defensive win for AI and a sign of the risk AI-driven bug discovery creates.",
+      "tags": ["Security", "OpenAI"]
+    },
+    "tc-blacksmith-hits-unicorn-valuation-after-sequoia-2026-10-22": {
+      "summary": "A $66M round values the platform for building and testing AI-written code at $1B.",
+      "tags": ["Funding", "Code Gen"]
+    },
+    "tc-ai-promises-productivity-but-for-managers-its-2026-10-22": {
+      "summary": "In a new survey, more than half of managers say AI adoption has made their employees' work harder to evaluate.",
+      "tags": ["Deep Dive"]
+    },
+    "hn-php2shell-ai-uncovers-critical-rce-in-php-2026-10-22": {
+      "summary": "Wiz research write-up of a critical remote code execution flaw in PHP found with AI, part of the PHP disclosures TechCrunch covers in this edition.",
+      "tags": ["Security", "Deep Dive"]
+    },
+    "hn-claude-duet-2026-10-22": {
+      "summary": "Product page on claude.com for Claude Duet, a new Anthropic product.",
+      "tags": ["Anthropic", "Launch"]
+    },
+    "hn-mistral-large-4-2026-10-22": {
+      "summary": "Mistral's announcement post for the fourth version of its Large model.",
+      "tags": ["Model Release", "LLM", "Mistral"]
+    },
+    "hn-openai-models-are-coming-to-google-cloud-2026-10-22": {
+      "summary": "OpenAI announcement that its models will be available through Google Cloud.",
+      "tags": ["OpenAI", "Google", "API"]
+    },
+    "hn-patch-the-planet-global-response-coordination-2026-10-22": {
+      "summary": "OpenAI post on coordinated disclosure of critical vulnerabilities found by agents, the same day OpenAI and Wiz disclosed long-standing PHP flaws.",
+      "tags": ["Security", "OpenAI", "Agents"]
+    },
+    "hn-using-thousands-of-ai-agents-to-uncover-new-2026-10-22": {
+      "summary": "OpenAI research post on scaling AI research to complex biological datasets with thousands of agents searching for new leads.",
+      "tags": ["Agents", "OpenAI"]
+    },
+    "hn-using-claude-to-reduce-the-attack-surface-of-2026-10-22": {
+      "summary": "Anthropic research post on applying Claude to shrink the attack surface of existing codebases.",
+      "tags": ["Security", "Anthropic", "Code Gen"]
+    },
+    "hn-google-staff-resign-in-backlash-over-its-ai-2026-10-22": {
+      "summary": "BBC report on Google employees quitting over the company's AI work for the military.",
+      "tags": ["Google", "Policy"]
+    },
+    "hn-claude-duet-2-2026-10-22": {
+      "summary": "Companion article on claude.com about Claude Duet, the Anthropic product whose launch page is also in this edition.",
+      "tags": ["Anthropic"]
+    },
+    "hn-openai-cli-2026-10-22": {
+      "summary": "OpenAI's command-line tool, published as an open repository on GitHub.",
+      "tags": ["OpenAI", "Dev Tool", "Open Source"]
+    }
+  }
+}

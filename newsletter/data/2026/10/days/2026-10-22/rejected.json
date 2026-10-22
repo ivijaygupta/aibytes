@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-22",
+  "generated_at": "2026-10-22T08:01:32Z",
+  "counts": {
+    "kept": 32,
+    "rejected": 1
+  },
+  "rejected": [
+    {
+      "id": "ph-the-library-1a4accbe-0203-45f7-bb35-1567ccc523e0-2026-10-22",
+      "source": "producthunt",
+      "title": "The Library",
+      "url": "https://querri.com",
+      "reason": "not-ai",
+      "detail": "no AI keyword or domain in the tagline, description or topics"
+    }
+  ]
+}

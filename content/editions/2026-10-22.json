@@ -1,0 +1,844 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-22",
+  "generated_at": "2026-10-22T08:01:32Z",
+  "counts": {
+    "launches": 4,
+    "repos": 10,
+    "news": 8,
+    "hn": 10
+  },
+  "items": [
+    {
+      "id": "ph-useit-studio-2026-10-22",
+      "title": "UseIt Studio",
+      "summary": "Design agent that asks a designer's questions, then outputs editable print files with real dimensions, bleed and dielines for stickers, gift boxes and pop-up cards, in browser or on Windows.",
+      "url": "https://useit.im",
+      "source": "producthunt",
+      "source_url": "https://www.producthunt.com/products/useit-studio-from-idea-to-delivery",
+      "category": "launches",
+      "tags": [
+        "Agents",
+        "Image Gen",
+        "Launch"
+      ],
+      "image": {
+        "type": "logo",
+        "url": "https://ph-files.imgix.net/61871a26-bd6a-43e0-9c7c-3a40b91eb51e.svg?auto=format"
+      },
+      "signals": {
+        "upvotes": 320,
+        "comments": 28
+      },
+      "published_at": "2026-10-21T07:01:00Z",
+      "hidden": false,
+      "rank": 4
+    },
+    {
+      "id": "ph-band-for-developers-2026-10-22",
+      "title": "BAND for Developers",
+      "summary": "Shared workspace where coding agents in different dev tools coordinate tasks, swap context and hand off work, with a view of each agent and a point to step in on decisions.",
+      "url": "https://www.band.ai/use-cases/band-desktop",
+      "source": "producthunt",
+      "source_url": "https://www.producthunt.com/products/band",
+      "category": "launches",
+      "tags": [
+        "Dev Tool",
+        "Agents",
+        "Code Gen",
+        "Launch"
+      ],
+      "image": {
+        "type": "logo",
+        "url": "https://ph-files.imgix.net/d2484b7e-3a24-4ad0-a225-c5f873420f15.png?auto=format"
+      },
+      "signals": {
+        "upvotes": 288,
+        "comments": 14
+      },
+      "published_at": "2026-10-21T07:01:00Z",
+      "hidden": false,
+      "rank": 11
+    },
+    {
+      "id": "ph-needle-391a6980-1f80-4939-8a6d-535d2f72c156-2026-10-22",
+      "title": "Needle",
+      "summary": "Lead finding and outbound outreach driven by prompting Claude, ChatGPT or Grok, covering LinkedIn, Instagram and email.",
+      "url": "https://needle.app",
+      "source": "producthunt",
+      "source_url": "https://www.producthunt.com/products/needle-3",
+      "category": "launches",
+      "tags": [
+        "Agents",
+        "Launch"
+      ],
+      "image": {
+        "type": "logo",
+        "url": "https://ph-files.imgix.net/a2d0f7e4-e61f-4f28-b2b5-93285c924254.webp?auto=format"
+      },
+      "signals": {
+        "upvotes": 263,
+        "comments": 29
+      },
+      "published_at": "2026-10-21T07:01:00Z",
+      "hidden": false,
+      "rank": 20
+    },
+    {
+      "id": "ph-twinmind-for-desktop-2026-10-22",
+      "title": "TwinMind for Desktop",
+      "summary": "Native Mac and Windows app that auto-detects Zoom, Meet and Teams calls for live transcripts and summaries in 140+ languages, plus hold-to-dictate cleaned text into any app.",
+      "url": "https://twinmind.ai/desktop-PH",
+      "source": "producthunt",
+      "source_url": "https://www.producthunt.com/products/twinmind",
+      "category": "launches",
+      "tags": [
+        "Voice / Speech",
+        "Launch"
+      ],
+      "image": {
+        "type": "logo",
+        "url": "https://ph-files.imgix.net/06214f5e-34ec-4358-b890-de7ecb074ea0.png?auto=format"
+      },
+      "signals": {
+        "upvotes": 158,
+        "comments": 21
+      },
+      "published_at": "2026-10-21T07:01:00Z",
+      "hidden": false,
+      "rank": 27
+    },
+    {
+      "id": "gh-ponytail-2026-10-22",
+      "title": "DietrichGebert/ponytail",
+      "summary": "JavaScript project that steers an AI coding agent toward writing as little code as possible, on the premise that the best code is code never written.",
+      "url": "https://github.com/DietrichGebert/ponytail",
+      "source": "github",
+      "source_url": "https://github.com/DietrichGebert/ponytail",
+      "category": "repos",
+      "tags": [
+        "Open Source",
+        "Agents",
+        "Code Gen"
+      ],
+      "image": {
+        "type": "avatar",
+        "url": "https://github.com/DietrichGebert.png?size=80"
+      },
+      "signals": {
+        "stars": 172244,
+        "stars_gained": 2079,
+        "forks": 9375
+      },
+      "meta": {
+        "language": "JavaScript"
+      },
+      "hidden": false,
+      "rank": 1
+    },
+    {
+      "id": "gh-security-audit-skill-2026-10-22",
+      "title": "cloudflare/security-audit-skill",
+      "summary": "Cloudflare's coding-agent skill that runs a security audit in multiple phases and emits findings that are independently verified and machine-readable.",
+      "url": "https://github.com/cloudflare/security-audit-skill",
+      "source": "github",
+      "source_url": "https://github.com/cloudflare/security-audit-skill",
+      "category": "repos",
+      "tags": [
+        "Open Source",
+        "Agents",
+        "Security"
+      ],
+      "image": {
+        "type": "avatar",
+        "url": "https://github.com/cloudflare.png?size=80"
+      },
+      "signals": {
+        "stars": 37551,
+        "stars_gained": 2012,
+        "forks": 2345
+      },
+      "meta": {
+        "language": "JavaScript"
+      },
+      "hidden": false,
+      "rank": 5
+    },
+    {
+      "id": "gh-orca-2026-10-22",
+      "title": "stablyai/orca",
+      "summary": "TypeScript workspace for running a fleet of coding agents such as Claude Code on your own subscriptions, across desktop, mobile and a remote runtime.",
+      "url": "https://github.com/stablyai/orca",
+      "source": "github",
+      "source_url": "https://github.com/stablyai/orca",
+      "category": "repos",
+      "tags": [
+        "Open Source",
+        "Agents",
+        "Code Gen"
+      ],
+      "image": {
+        "type": "avatar",
+        "url": "https://github.com/stablyai.png?size=80"
+      },
+      "signals": {
+        "stars": 101842,
+        "stars_gained": 1541,
+        "forks": 6441
+      },
+      "meta": {
+        "language": "TypeScript"
+      },
+      "hidden": false,
+      "rank": 8
+    },
+    {
+      "id": "gh-graphify-2026-10-22",
+      "title": "Graphify-Labs/graphify",
+      "summary": "A /graphify skill for Claude Code, Cursor, Codex and Gemini CLI that turns code, docs, SQL schemas and PDFs into a local knowledge graph via AST parsing, with no vector store.",
+      "url": "https://github.com/Graphify-Labs/graphify",
+      "source": "github",
+      "source_url": "https://github.com/Graphify-Labs/graphify",
+      "category": "repos",
+      "tags": [
+        "Open Source",
+        "Code Gen",
+        "RAG"
+      ],
+      "image": {
+        "type": "avatar",
+        "url": "https://github.com/Graphify-Labs.png?size=80"
+      },
+      "signals": {
+        "stars": 132044,
+        "stars_gained": 1433,
+        "forks": 12666
+      },
+      "meta": {
+        "language": "Python"
+      },
+      "hidden": false,
+      "rank": 12
+    },
+    {
+      "id": "gh-comfyui-2026-10-22",
+      "title": "Comfy-Org/ComfyUI",
+      "summary": "Node-graph GUI, API and backend in Python for building and running diffusion model pipelines locally.",
+      "url": "https://github.com/Comfy-Org/ComfyUI",
+      "source": "github",
+      "source_url": "https://github.com/Comfy-Org/ComfyUI",
+      "category": "repos",
+      "tags": [
+        "Open Source",
+        "Image Gen",
+        "Inference"
+      ],
+      "image": {
+        "type": "avatar",
+        "url": "https://github.com/Comfy-Org.png?size=80"
+      },
+      "signals": {
+        "stars": 141759,
+        "stars_gained": 939,
+        "forks": 16748
+      },
+      "meta": {
+        "language": "Python"
+      },
+      "hidden": false,
+      "rank": 15
+    },
+    {
+      "id": "gh-kronos-2026-10-22",
+      "title": "shiyu-coder/Kronos",
+      "summary": "Python code for a foundation model that treats financial market data as a language to be modeled.",
+      "url": "https://github.com/shiyu-coder/Kronos",
+      "source": "github",
+      "source_url": "https://github.com/shiyu-coder/Kronos",
+      "category": "repos",
+      "tags": [
+        "Open Source",
+        "Model Release"
+      ],
+      "image": {
+        "type": "avatar",
+        "url": "https://github.com/shiyu-coder.png?size=80"
+      },
+      "signals": {
+        "stars": 43004,
+        "stars_gained": 575,
+        "forks": 7092
+      },
+      "meta": {
+        "language": "Python"
+      },
+      "hidden": false,
+      "rank": 17
+    },
+    {
+      "id": "gh-supabase-2026-10-22",
+      "title": "supabase/supabase",
+      "summary": "Postgres development platform that gives each project a dedicated database for web, mobile and AI applications.",
+      "url": "https://github.com/supabase/supabase",
+      "source": "github",
+      "source_url": "https://github.com/supabase/supabase",
+      "category": "repos",
+      "tags": [
+        "Open Source",
+        "Dev Tool"
+      ],
+      "image": {
+        "type": "avatar",
+        "url": "https://github.com/supabase.png?size=80"
+      },
+      "signals": {
+        "stars": 113188,
+        "stars_gained": 504,
+        "forks": 16987
+      },
+      "meta": {
+        "language": "TypeScript"
+      },
+      "hidden": false,
+      "rank": 21
+    },
+    {
+      "id": "gh-headroom-2026-10-22",
+      "title": "headroomlabs-ai/headroom",
+      "summary": "Python library, proxy and MCP server that compresses tool outputs, logs, files and RAG chunks before the LLM, claiming 20% fewer tokens for coding agents and 60-95% for JSON.",
+      "url": "https://github.com/headroomlabs-ai/headroom",
+      "source": "github",
+      "source_url": "https://github.com/headroomlabs-ai/headroom",
+      "category": "repos",
+      "tags": [
+        "Open Source",
+        "LLM",
+        "Agents"
+      ],
+      "image": {
+        "type": "avatar",
+        "url": "https://github.com/headroomlabs-ai.png?size=80"
+      },
+      "signals": {
+        "stars": 77431,
+        "stars_gained": 474,
+        "forks": 6012
+      },
+      "meta": {
+        "language": "Python"
+      },
+      "hidden": false,
+      "rank": 24
+    },
+    {
+      "id": "gh-vllm-2026-10-22",
+      "title": "vllm-project/vllm",
+      "summary": "Python inference and serving engine for LLMs, built for high throughput and memory efficiency.",
+      "url": "https://github.com/vllm-project/vllm",
+      "source": "github",
+      "source_url": "https://github.com/vllm-project/vllm",
+      "category": "repos",
+      "tags": [
+        "Open Source",
+        "Inference",
+        "LLM"
+      ],
+      "image": {
+        "type": "avatar",
+        "url": "https://github.com/vllm-project.png?size=80"
+      },
+      "signals": {
+        "stars": 95037,
+        "stars_gained": 441,
+        "forks": 23780
+      },
+      "meta": {
+        "language": "Python"
+      },
+      "hidden": false,
+      "rank": 28
+    },
+    {
+      "id": "gh-ai-memory-2026-10-22",
+      "title": "akitaonrails/ai-memory",
+      "summary": "Rust tool that gives agent coding CLIs long-term memory and lets work hand off between agents from different vendors.",
+      "url": "https://github.com/akitaonrails/ai-memory",
+      "source": "github",
+      "source_url": "https://github.com/akitaonrails/ai-memory",
+      "category": "repos",
+      "tags": [
+        "Open Source",
+        "Agents",
+        "Code Gen"
+      ],
+      "image": {
+        "type": "avatar",
+        "url": "https://github.com/akitaonrails.png?size=80"
+      },
+      "signals": {
+        "stars": 12544,
+        "stars_gained": 286,
+        "forks": 886
+      },
+      "meta": {
+        "language": "Rust"
+      },
+      "hidden": false,
+      "rank": 31
+    },
+    {
+      "id": "tc-blackstones-jas-khaira-says-fears-over-ai-2026-10-22",
+      "title": "Blackstone’s Jas Khaira says fears over AI-buildout debt are overblown",
+      "summary": "Blackstone's head of AI explains why the private equity firm is not rattled by market jitters over debt-funded AI infrastructure.",
+      "url": "https://techcrunch.com/2026/10/21/blackstones-jas-khaira-says-fears-over-ai-buildout-debt-are-overblown/",
+      "source": "techcrunch",
+      "source_url": "https://techcrunch.com/2026/10/21/blackstones-jas-khaira-says-fears-over-ai-buildout-debt-are-overblown/",
+      "category": "news",
+      "tags": [
+        "Deep Dive"
+      ],
+      "image": {
+        "type": "thumbnail",
+        "url": "https://techcrunch.com/wp-content/uploads/2026/10/55591561486_34813d39be_c.jpg?w=799"
+      },
+      "meta": {
+        "author": "Marina Temkin",
+        "reading_time": "5 minutes"
+      },
+      "published_at": "2026-10-21T22:51:22Z",
+      "hidden": false,
+      "rank": 3
+    },
+    {
+      "id": "tc-techcrunch-founder-summit-2026-everything-you-2026-10-22",
+      "title": "TechCrunch Founder Summit 2026: Everything you need to know",
+      "summary": "Full-day event in Boston on November 4 pairing founders at every stage with VCs and experienced operators for tactical sessions on building and scaling.",
+      "url": "https://techcrunch.com/2026/10/21/techcrunch-founder-summit-2026-everything-you-need-to-know/",
+      "source": "techcrunch",
+      "source_url": "https://techcrunch.com/2026/10/21/techcrunch-founder-summit-2026-everything-you-need-to-know/",
+      "category": "news",
+      "tags": [
+        "Funding"
+      ],
+      "image": {
+        "type": "thumbnail",
+        "url": "https://techcrunch.com/wp-content/uploads/2026/09/54657603888_9ade234c98_k.jpg?resize=1200,800"
+      },
+      "meta": {
+        "author": "TechCrunch Events",
+        "reading_time": "5 minutes"
+      },
+      "published_at": "2026-10-21T21:16:20Z",
+      "hidden": false,
+      "rank": 7
+    },
+    {
+      "id": "tc-meta-says-muse-has-over-10m-users-with-shopping-2026-10-22",
+      "title": "Meta says Muse has over 10M users, with shopping a top activity",
+      "summary": "Disclosed on Meta's Q3 earnings call, with people using the AI app mostly for shopping and personal productivity.",
+      "url": "https://techcrunch.com/2026/10/21/meta-says-muse-has-over-10m-users-with-shopping-a-top-activity/",
+      "source": "techcrunch",
+      "source_url": "https://techcrunch.com/2026/10/21/meta-says-muse-has-over-10m-users-with-shopping-a-top-activity/",
+      "category": "news",
+      "tags": [
+        "Meta",
+        "LLM"
+      ],
+      "image": {
+        "type": "thumbnail",
+        "url": "https://techcrunch.com/wp-content/uploads/2026/09/meta-muse-finger-on-app-GettyImages-2293791808.jpg?w=1024"
+      },
+      "meta": {
+        "author": "Sarah Perez",
+        "reading_time": "3 minutes"
+      },
+      "published_at": "2026-10-21T21:14:19Z",
+      "hidden": false,
+      "rank": 10
+    },
+    {
+      "id": "tc-recursive-launches-flint-a-laptop-coding-model-2026-10-22",
+      "title": "Recursive launches Flint, a laptop coding model it says was largely built by AI",
+      "summary": "Free coding model sized for a laptop, which Recursive pitches as an early test of self-improving AI since its own research system did most of the building.",
+      "url": "https://techcrunch.com/2026/10/21/recursive-launches-flint-a-laptop-coding-model-it-says-was-largely-built-by-ai/",
+      "source": "techcrunch",
+      "source_url": "https://techcrunch.com/2026/10/21/recursive-launches-flint-a-laptop-coding-model-it-says-was-largely-built-by-ai/",
+      "category": "news",
+      "tags": [
+        "Model Release",
+        "Code Gen",
+        "Local LLM"
+      ],
+      "image": {
+        "type": "thumbnail",
+        "url": "https://techcrunch.com/wp-content/uploads/2026/05/GettyImages-2157738833.jpg?resize=1200,800"
+      },
+      "meta": {
+        "author": "Aditya Mehta",
+        "reading_time": "4 minutes"
+      },
+      "published_at": "2026-10-21T20:27:41Z",
+      "hidden": false,
+      "rank": 14
+    },
+    {
+      "id": "tc-while-amazon-blocks-ai-agents-walmart-rolls-out-2026-10-22",
+      "title": "While Amazon blocks AI agents, Walmart rolls out the welcome mat",
+      "summary": "Walmart's new tech lets AI agents buy on a customer's behalf, with controls over spending and transaction approvals.",
+      "url": "https://techcrunch.com/2026/10/21/while-amazon-blocks-ai-agents-walmart-rolls-out-the-welcome-mat/",
+      "source": "techcrunch",
+      "source_url": "https://techcrunch.com/2026/10/21/while-amazon-blocks-ai-agents-walmart-rolls-out-the-welcome-mat/",
+      "category": "news",
+      "tags": [
+        "Agents",
+        "Launch"
+      ],
+      "image": {
+        "type": "thumbnail",
+        "url": "https://techcrunch.com/wp-content/uploads/2018/01/gettyimages-903923942.jpeg?resize=1200,800"
+      },
+      "meta": {
+        "author": "Sarah Perez",
+        "reading_time": "3 minutes"
+      },
+      "published_at": "2026-10-21T19:30:00Z",
+      "hidden": false,
+      "rank": 19
+    },
+    {
+      "id": "tc-php-armageddon-openai-googles-wiz-find-ancient-2026-10-22",
+      "title": "PHP Armageddon: OpenAI, Google’s Wiz find ancient holes, panicking the internet",
+      "summary": "Long-standing PHP flaws surfaced with AI by OpenAI and Wiz, framed as both a defensive win for AI and a sign of the risk AI-driven bug discovery creates.",
+      "url": "https://techcrunch.com/2026/10/21/php-armageddon-openai-googles-wiz-find-ancient-holes-panicking-the-internet/",
+      "source": "techcrunch",
+      "source_url": "https://techcrunch.com/2026/10/21/php-armageddon-openai-googles-wiz-find-ancient-holes-panicking-the-internet/",
+      "category": "news",
+      "tags": [
+        "Security",
+        "OpenAI"
+      ],
+      "image": {
+        "type": "thumbnail",
+        "url": "https://techcrunch.com/wp-content/uploads/2021/12/GettyImages-460689215.jpg?resize=1200,801"
+      },
+      "meta": {
+        "author": "Julie Bort",
+        "reading_time": "3 minutes"
+      },
+      "published_at": "2026-10-21T17:59:12Z",
+      "hidden": false,
+      "rank": 23
+    },
+    {
+      "id": "tc-blacksmith-hits-unicorn-valuation-after-sequoia-2026-10-22",
+      "title": "Blacksmith hits unicorn valuation after Sequoia leads Series C",
+      "summary": "A $66M round values the platform for building and testing AI-written code at $1B.",
+      "url": "https://techcrunch.com/2026/10/21/blacksmith-hits-unicorn-valuation-after-sequoia-leads-series-c/",
+      "source": "techcrunch",
+      "source_url": "https://techcrunch.com/2026/10/21/blacksmith-hits-unicorn-valuation-after-sequoia-leads-series-c/",
+      "category": "news",
+      "tags": [
+        "Funding",
+        "Code Gen"
+      ],
+      "image": {
+        "type": "thumbnail",
+        "url": "https://techcrunch.com/wp-content/uploads/2026/10/Blacksmith.jpg?resize=1200,800"
+      },
+      "meta": {
+        "author": "Dominic-Madori Davis",
+        "reading_time": "2 minutes"
+      },
+      "published_at": "2026-10-21T17:18:27Z",
+      "hidden": false,
+      "rank": 26
+    },
+    {
+      "id": "tc-ai-promises-productivity-but-for-managers-its-2026-10-22",
+      "title": "AI promises productivity, but for managers, it’s mostly a headache for now",
+      "summary": "In a new survey, more than half of managers say AI adoption has made their employees' work harder to evaluate.",
+      "url": "https://techcrunch.com/2026/10/21/ai-promises-productivity-but-for-managers-its-mostly-a-headache-for-now-says-new-survey/",
+      "source": "techcrunch",
+      "source_url": "https://techcrunch.com/2026/10/21/ai-promises-productivity-but-for-managers-its-mostly-a-headache-for-now-says-new-survey/",
+      "category": "news",
+      "tags": [
+        "Deep Dive"
+      ],
+      "image": {
+        "type": "thumbnail",
+        "url": "https://techcrunch.com/wp-content/uploads/2026/10/GettyImages-157163369.jpg?resize=1200,900"
+      },
+      "meta": {
+        "author": "Ram Iyer",
+        "reading_time": "4 minutes"
+      },
+      "published_at": "2026-10-21T14:00:00Z",
+      "hidden": false,
+      "rank": 30
+    },
+    {
+      "id": "hn-php2shell-ai-uncovers-critical-rce-in-php-2026-10-22",
+      "title": "PHP2Shell: AI uncovers critical RCE in PHP",
+      "summary": "Wiz research write-up of a critical remote code execution flaw in PHP found with AI, part of the PHP disclosures TechCrunch covers in this edition.",
+      "url": "https://www.wiz.io/blog/php2shell-php-rce",
+      "source": "hackernews",
+      "source_url": "https://news.ycombinator.com/item?id=50180836",
+      "category": "hn",
+      "tags": [
+        "Security",
+        "Deep Dive"
+      ],
+      "image": {
+        "type": "none"
+      },
+      "signals": {
+        "points": 441,
+        "comments": 174
+      },
+      "meta": {
+        "author": "danlark1"
+      },
+      "published_at": "2026-10-21T13:43:19Z",
+      "hidden": false,
+      "rank": 2
+    },
+    {
+      "id": "hn-claude-duet-2026-10-22",
+      "title": "Claude Duet",
+      "summary": "Product page on claude.com for Claude Duet, a new Anthropic product.",
+      "url": "https://claude.com/product/claude-duet",
+      "source": "hackernews",
+      "source_url": "https://news.ycombinator.com/item?id=50186037",
+      "category": "hn",
+      "tags": [
+        "Anthropic",
+        "Launch"
+      ],
+      "image": {
+        "type": "none"
+      },
+      "signals": {
+        "points": 351,
+        "comments": 319
+      },
+      "meta": {
+        "author": "kuberwastaken"
+      },
+      "published_at": "2026-10-21T19:14:01Z",
+      "hidden": false,
+      "rank": 6
+    },
+    {
+      "id": "hn-mistral-large-4-2026-10-22",
+      "title": "Mistral Large 4",
+      "summary": "Mistral's announcement post for the fourth version of its Large model.",
+      "url": "https://mistral.ai/news/mistral-large-4/",
+      "source": "hackernews",
+      "source_url": "https://news.ycombinator.com/item?id=50186129",
+      "category": "hn",
+      "tags": [
+        "Model Release",
+        "LLM",
+        "Mistral"
+      ],
+      "image": {
+        "type": "none"
+      },
+      "signals": {
+        "points": 319,
+        "comments": 95
+      },
+      "meta": {
+        "author": "funnym0nk3y"
+      },
+      "published_at": "2026-10-21T19:20:55Z",
+      "hidden": false,
+      "rank": 9
+    },
+    {
+      "id": "hn-openai-models-are-coming-to-google-cloud-2026-10-22",
+      "title": "OpenAI models are coming to Google Cloud",
+      "summary": "OpenAI announcement that its models will be available through Google Cloud.",
+      "url": "https://openai.com/index/openai-models-google-cloud/",
+      "source": "hackernews",
+      "source_url": "https://news.ycombinator.com/item?id=50180079",
+      "category": "hn",
+      "tags": [
+        "OpenAI",
+        "Google",
+        "API"
+      ],
+      "image": {
+        "type": "none"
+      },
+      "signals": {
+        "points": 284,
+        "comments": 117
+      },
+      "meta": {
+        "author": "armcat"
+      },
+      "published_at": "2026-10-21T12:53:11Z",
+      "hidden": false,
+      "rank": 13
+    },
+    {
+      "id": "hn-patch-the-planet-global-response-coordination-2026-10-22",
+      "title": "Patch the Planet: global response coordination as agents uncover vulnerabilities",
+      "summary": "OpenAI post on coordinated disclosure of critical vulnerabilities found by agents, the same day OpenAI and Wiz disclosed long-standing PHP flaws.",
+      "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/",
+      "source": "hackernews",
+      "source_url": "https://news.ycombinator.com/item?id=50181175",
+      "category": "hn",
+      "tags": [
+        "Security",
+        "OpenAI",
+        "Agents"
+      ],
+      "image": {
+        "type": "none"
+      },
+      "signals": {
+        "points": 251,
+        "comments": 170
+      },
+      "meta": {
+        "author": "nr378"
+      },
+      "published_at": "2026-10-21T14:03:43Z",
+      "hidden": false,
+      "rank": 16
+    },
+    {
+      "id": "hn-using-thousands-of-ai-agents-to-uncover-new-2026-10-22",
+      "title": "Using thousands of AI agents to uncover new leads in biological data",
+      "summary": "OpenAI research post on scaling AI research to complex biological datasets with thousands of agents searching for new leads.",
+      "url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data/",
+      "source": "hackernews",
+      "source_url": "https://news.ycombinator.com/item?id=50180752",
+      "category": "hn",
+      "tags": [
+        "Agents",
+        "OpenAI"
+      ],
+      "image": {
+        "type": "none"
+      },
+      "signals": {
+        "points": 142,
+        "comments": 91
+      },
+      "meta": {
+        "author": "raahelb"
+      },
+      "published_at": "2026-10-21T13:37:00Z",
+      "hidden": false,
+      "rank": 18
+    },
+    {
+      "id": "hn-using-claude-to-reduce-the-attack-surface-of-2026-10-22",
+      "title": "Using Claude to reduce the attack surface of code",
+      "summary": "Anthropic research post on applying Claude to shrink the attack surface of existing codebases.",
+      "url": "https://www.anthropic.com/research/attack-surface-reduction",
+      "source": "hackernews",
+      "source_url": "https://news.ycombinator.com/item?id=50175779",
+      "category": "hn",
+      "tags": [
+        "Security",
+        "Anthropic",
+        "Code Gen"
+      ],
+      "image": {
+        "type": "none"
+      },
+      "signals": {
+        "points": 131,
+        "comments": 85
+      },
+      "meta": {
+        "author": "dnw"
+      },
+      "published_at": "2026-10-21T03:36:43Z",
+      "hidden": false,
+      "rank": 22
+    },
+    {
+      "id": "hn-google-staff-resign-in-backlash-over-its-ai-2026-10-22",
+      "title": "Google staff resign in backlash over its AI contracts with military",
+      "summary": "BBC report on Google employees quitting over the company's AI work for the military.",
+      "url": "https://www.bbc.com/news/articles/cmreyvepnv0po",
+      "source": "hackernews",
+      "source_url": "https://news.ycombinator.com/item?id=50186043",
+      "category": "hn",
+      "tags": [
+        "Google",
+        "Policy"
+      ],
+      "image": {
+        "type": "none"
+      },
+      "signals": {
+        "points": 123,
+        "comments": 25
+      },
+      "meta": {
+        "author": "saikatsg"
+      },
+      "published_at": "2026-10-21T19:14:21Z",
+      "hidden": false,
+      "rank": 25
+    },
+    {
+      "id": "hn-claude-duet-2-2026-10-22",
+      "title": "Claude Duet",
+      "summary": "Companion article on claude.com about Claude Duet, the Anthropic product whose launch page is also in this edition.",
+      "url": "https://claude.com/resources/articles/claude-duet",
+      "source": "hackernews",
+      "source_url": "https://news.ycombinator.com/item?id=50186455",
+      "category": "hn",
+      "tags": [
+        "Anthropic"
+      ],
+      "image": {
+        "type": "none"
+      },
+      "signals": {
+        "points": 78,
+        "comments": 8
+      },
+      "meta": {
+        "author": "zaevlad"
+      },
+      "published_at": "2026-10-21T19:40:18Z",
+      "hidden": false,
+      "rank": 29
+    },
+    {
+      "id": "hn-openai-cli-2026-10-22",
+      "title": "OpenAI CLI",
+      "summary": "OpenAI's command-line tool, published as an open repository on GitHub.",
+      "url": "https://github.com/openai/openai-cli",
+      "source": "hackernews",
+      "source_url": "https://news.ycombinator.com/item?id=50191507",
+      "category": "hn",
+      "tags": [
+        "OpenAI",
+        "Dev Tool",
+        "Open Source"
+      ],
+      "image": {
+        "type": "none"
+      },
+      "signals": {
+        "points": 74,
+        "comments": 38
+      },
+      "meta": {
+        "author": "armcat"
+      },
+      "published_at": "2026-10-22T05:23:11Z",
+      "hidden": false,
+      "rank": 32
+    }
+  ]
+}
