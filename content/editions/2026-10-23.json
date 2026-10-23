@@ -1,0 +1,786 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-23",
+  "generated_at": "2026-10-23T08:01:41Z",
+  "counts": {
+    "launches": 5,
+    "repos": 6,
+    "news": 10,
+    "hn": 9
+  },
+  "items": [
+    {
+      "id": "ph-deepcell-2026-10-23",
+      "title": "DeepCell",
+      "summary": "Builds docs, spreadsheets and slides with sources and cheat sheets, as a web app or agent plug-in, on its own .deepcell format where one edit updates the related parts.",
+      "url": "https://deepcell.net",
+      "source": "producthunt",
+      "source_url": "https://www.producthunt.com/products/deepcell",
+      "category": "launches",
+      "tags": [
+        "Agents",
+        "Launch"
+      ],
+      "image": {
+        "type": "logo",
+        "url": "https://ph-files.imgix.net/67be0c24-289d-4d8b-b2e9-91901a791309.png?auto=format"
+      },
+      "signals": {
+        "upvotes": 333,
+        "comments": 75
+      },
+      "published_at": "2026-10-22T07:01:00Z",
+      "hidden": false,
+      "rank": 4
+    },
+    {
+      "id": "ph-claude-duet-2026-10-23",
+      "title": "Claude Duet",
+      "summary": "Anthropic agent you hand tasks to by message; it works on its own cloud computer through apps you connect and messages back when done or when it needs a decision.",
+      "url": "https://claude.com/product/claude-duet",
+      "source": "producthunt",
+      "source_url": "https://www.producthunt.com/products/claude",
+      "category": "launches",
+      "tags": [
+        "Agents",
+        "Anthropic",
+        "Launch"
+      ],
+      "image": {
+        "type": "logo",
+        "url": "https://ph-files.imgix.net/bf5b2b1a-a473-4ea8-ac3a-55f84c3a9d1a.svg?auto=format"
+      },
+      "signals": {
+        "upvotes": 306,
+        "comments": 4
+      },
+      "published_at": "2026-10-22T07:01:00Z",
+      "hidden": false,
+      "rank": 10
+    },
+    {
+      "id": "ph-heal-dev-2026-10-23",
+      "title": "heal.dev",
+      "summary": "Learns to run your app in a production-like sandbox with external services stubbed, then hunts runtime bugs, perf regressions and vulnerabilities, reproducing each before reporting it.",
+      "url": "https://www.heal.dev/",
+      "source": "producthunt",
+      "source_url": "https://www.producthunt.com/products/heal-dev",
+      "category": "launches",
+      "tags": [
+        "Dev Tool",
+        "Security",
+        "Launch"
+      ],
+      "image": {
+        "type": "logo",
+        "url": "https://ph-files.imgix.net/ea04a85d-a3ee-4523-80a3-b7aa2d83357c.png?auto=format"
+      },
+      "signals": {
+        "upvotes": 242,
+        "comments": 36
+      },
+      "published_at": "2026-10-22T07:01:00Z",
+      "hidden": false,
+      "rank": 19
+    },
+    {
+      "id": "ph-mistral-voxtral-3-2026-10-23",
+      "title": "Mistral Voxtral 3",
+      "summary": "Speech-to-text and TTS models plus a LiveKit-based voice agent SDK: 50+ languages with diarization, sub-500ms realtime transcription, voice cloning, batch from $0.0035 per minute.",
+      "url": "https://mistral.ai/news/voxtral-3/",
+      "source": "producthunt",
+      "source_url": "https://www.producthunt.com/products/mistral-7b",
+      "category": "launches",
+      "tags": [
+        "Model Release",
+        "Voice / Speech",
+        "Mistral",
+        "Launch"
+      ],
+      "image": {
+        "type": "logo",
+        "url": "https://ph-files.imgix.net/296959f2-f1f5-408c-803c-58b33e049208.png?auto=format"
+      },
+      "signals": {
+        "upvotes": 207,
+        "comments": 3
+      },
+      "published_at": "2026-10-22T07:01:00Z",
+      "hidden": false,
+      "rank": 25
+    },
+    {
+      "id": "hn-show-hn-ui-micro-interactions-prompts-for-ai-2026-10-23",
+      "title": "Show HN: UI micro interactions prompts for AI",
+      "summary": "A prompt collection on typeui.sh for getting AI models to generate UI micro interactions.",
+      "url": "https://www.typeui.sh/micro-interactions",
+      "source": "hackernews",
+      "source_url": "https://news.ycombinator.com/item?id=50199290",
+      "category": "launches",
+      "tags": [
+        "Show HN",
+        "Code Gen",
+        "Launch"
+      ],
+      "image": {
+        "type": "none"
+      },
+      "signals": {
+        "points": 77,
+        "comments": 42
+      },
+      "meta": {
+        "author": "elwingo1"
+      },
+      "published_at": "2026-10-22T18:32:57Z",
+      "hidden": false,
+      "rank": 29
+    },
+    {
+      "id": "gh-security-audit-skill-2026-10-23",
+      "title": "cloudflare/security-audit-skill",
+      "summary": "Cloudflare's JavaScript skill for coding agents that runs security audits in phases, verifies each finding independently, and emits the results in a machine-readable format.",
+      "url": "https://github.com/cloudflare/security-audit-skill",
+      "source": "github",
+      "source_url": "https://github.com/cloudflare/security-audit-skill",
+      "category": "repos",
+      "tags": [
+        "Agents",
+        "Security",
+        "Open Source"
+      ],
+      "image": {
+        "type": "avatar",
+        "url": "https://github.com/cloudflare.png?size=80"
+      },
+      "signals": {
+        "stars": 40275,
+        "stars_gained": 2979,
+        "forks": 2514
+      },
+      "meta": {
+        "language": "JavaScript"
+      },
+      "hidden": false,
+      "rank": 1
+    },
+    {
+      "id": "gh-ponytail-2026-10-23",
+      "title": "DietrichGebert/ponytail",
+      "summary": "A JavaScript add-on for AI coding agents that steers them toward writing as little code as possible, on the premise that the best code is the code never written.",
+      "url": "https://github.com/DietrichGebert/ponytail",
+      "source": "github",
+      "source_url": "https://github.com/DietrichGebert/ponytail",
+      "category": "repos",
+      "tags": [
+        "Agents",
+        "Code Gen",
+        "Open Source"
+      ],
+      "image": {
+        "type": "avatar",
+        "url": "https://github.com/DietrichGebert.png?size=80"
+      },
+      "signals": {
+        "stars": 174051,
+        "stars_gained": 1948,
+        "forks": 9479
+      },
+      "meta": {
+        "language": "JavaScript"
+      },
+      "hidden": false,
+      "rank": 7
+    },
+    {
+      "id": "gh-graphify-2026-10-23",
+      "title": "Graphify-Labs/graphify",
+      "summary": "A /graphify skill for Claude Code, Cursor, Codex and Gemini CLI that maps code, docs, SQL schemas and PDFs into a knowledge graph via local AST parsing, with no vector store.",
+      "url": "https://github.com/Graphify-Labs/graphify",
+      "source": "github",
+      "source_url": "https://github.com/Graphify-Labs/graphify",
+      "category": "repos",
+      "tags": [
+        "Dev Tool",
+        "Code Gen",
+        "Open Source"
+      ],
+      "image": {
+        "type": "avatar",
+        "url": "https://github.com/Graphify-Labs.png?size=80"
+      },
+      "signals": {
+        "stars": 133374,
+        "stars_gained": 1408,
+        "forks": 12741
+      },
+      "meta": {
+        "language": "Python"
+      },
+      "hidden": false,
+      "rank": 13
+    },
+    {
+      "id": "gh-supabase-2026-10-23",
+      "title": "supabase/supabase",
+      "summary": "TypeScript platform that gives each project a dedicated Postgres database as the backend for web, mobile and AI apps.",
+      "url": "https://github.com/supabase/supabase",
+      "source": "github",
+      "source_url": "https://github.com/supabase/supabase",
+      "category": "repos",
+      "tags": [
+        "Open Source",
+        "Dev Tool"
+      ],
+      "image": {
+        "type": "avatar",
+        "url": "https://github.com/supabase.png?size=80"
+      },
+      "signals": {
+        "stars": 113622,
+        "stars_gained": 693,
+        "forks": 17019
+      },
+      "meta": {
+        "language": "TypeScript"
+      },
+      "hidden": false,
+      "rank": 16
+    },
+    {
+      "id": "gh-knowledge-work-plugins-2026-10-23",
+      "title": "anthropics/knowledge-work-plugins",
+      "summary": "Anthropic's open source collection of Python plugins for Claude Cowork, built primarily for knowledge workers.",
+      "url": "https://github.com/anthropics/knowledge-work-plugins",
+      "source": "github",
+      "source_url": "https://github.com/anthropics/knowledge-work-plugins",
+      "category": "repos",
+      "tags": [
+        "Open Source",
+        "Agents",
+        "Anthropic"
+      ],
+      "image": {
+        "type": "avatar",
+        "url": "https://github.com/anthropics.png?size=80"
+      },
+      "signals": {
+        "stars": 31814,
+        "stars_gained": 303,
+        "forks": 3545
+      },
+      "meta": {
+        "language": "Python"
+      },
+      "hidden": false,
+      "rank": 22
+    },
+    {
+      "id": "gh-claude-howto-2026-10-23",
+      "title": "luongnv89/claude-howto",
+      "summary": "Visual, example-driven guide to Claude Code that runs from basic concepts to advanced agents, with copy-paste templates.",
+      "url": "https://github.com/luongnv89/claude-howto",
+      "source": "github",
+      "source_url": "https://github.com/luongnv89/claude-howto",
+      "category": "repos",
+      "tags": [
+        "Tutorial",
+        "Claude Code",
+        "Agents"
+      ],
+      "image": {
+        "type": "avatar",
+        "url": "https://github.com/luongnv89.png?size=80"
+      },
+      "signals": {
+        "stars": 43585,
+        "stars_gained": 177,
+        "forks": 5416
+      },
+      "meta": {
+        "language": "Python"
+      },
+      "hidden": false,
+      "rank": 28
+    },
+    {
+      "id": "tc-1password-launches-a-way-for-ai-agents-to-log-2026-10-23",
+      "title": "1Password launches a way for AI agents to log in on your behalf without seeing your password",
+      "summary": "The feature lets agents sign in to a customer's personal accounts while the credentials that secure those accounts stay protected from the agent.",
+      "url": "https://techcrunch.com/2026/10/22/1password-launches-a-way-for-ai-agents-to-log-in-on-your-behalf-without-seeing-your-password/",
+      "source": "techcrunch",
+      "source_url": "https://techcrunch.com/2026/10/22/1password-launches-a-way-for-ai-agents-to-log-in-on-your-behalf-without-seeing-your-password/",
+      "category": "news",
+      "tags": [
+        "Agents",
+        "Security",
+        "Launch"
+      ],
+      "image": {
+        "type": "thumbnail",
+        "url": "https://techcrunch.com/wp-content/uploads/2026/10/AI-agents.jpg?resize=1200,675"
+      },
+      "meta": {
+        "author": "Lucas Ropek",
+        "reading_time": "2 minutes"
+      },
+      "published_at": "2026-10-22T19:07:09Z",
+      "hidden": false,
+      "rank": 3
+    },
+    {
+      "id": "tc-uber-rival-indrive-eyes-2027-robotaxi-tests-in-2026-10-23",
+      "title": "Uber rival inDrive eyes 2027 robotaxi tests in Central Asia with Pony.ai and Nvidia",
+      "summary": "inDrive plans to start testing Pony.ai robotaxis in Kazakhstan's capital in the first half of 2027.",
+      "url": "https://techcrunch.com/2026/10/22/uber-rival-indrive-eyes-2027-robotaxi-tests-in-central-asia-with-pony-ai-and-nvidia/",
+      "source": "techcrunch",
+      "source_url": "https://techcrunch.com/2026/10/22/uber-rival-indrive-eyes-2027-robotaxi-tests-in-central-asia-with-pony-ai-and-nvidia/",
+      "category": "news",
+      "tags": [
+        "Robotics",
+        "Nvidia"
+      ],
+      "image": {
+        "type": "thumbnail",
+        "url": "https://techcrunch.com/wp-content/uploads/2026/10/indrive-pony-ai-kazakhstan.jpg?resize=1200,800"
+      },
+      "meta": {
+        "author": "Jagmeet Singh",
+        "reading_time": "3 minutes"
+      },
+      "published_at": "2026-10-23T04:00:00Z",
+      "hidden": false,
+      "rank": 6
+    },
+    {
+      "id": "tc-left-alone-with-nothing-to-do-ai-agents-started-2026-10-23",
+      "title": "Left alone with nothing to do, AI agents started playing",
+      "summary": "MIT researchers marooned 13 AIs on a virtual island; they invented games, mourned a lost ring and eventually got better at their jobs.",
+      "url": "https://techcrunch.com/2026/10/22/left-alone-with-nothing-to-do-ai-agents-started-playing/",
+      "source": "techcrunch",
+      "source_url": "https://techcrunch.com/2026/10/22/left-alone-with-nothing-to-do-ai-agents-started-playing/",
+      "category": "news",
+      "tags": [
+        "Paper",
+        "Agents"
+      ],
+      "image": {
+        "type": "thumbnail",
+        "url": "https://techcrunch.com/wp-content/uploads/2026/10/Screenshot-2026-10-22-at-5.42.44-PM.png?resize=1200,590"
+      },
+      "meta": {
+        "author": "Aditya Mehta",
+        "reading_time": "3 minutes"
+      },
+      "published_at": "2026-10-23T00:45:37Z",
+      "hidden": false,
+      "rank": 9
+    },
+    {
+      "id": "tc-openai-working-on-new-30b-raise-at-1-25t-2026-10-23",
+      "title": "OpenAI working on new $30B raise at $1.25T valuation ahead of IPO",
+      "summary": "At over $1 trillion, the round would make OpenAI the most highly valued private company ever.",
+      "url": "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/",
+      "source": "techcrunch",
+      "source_url": "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/",
+      "category": "news",
+      "tags": [
+        "Funding",
+        "OpenAI"
+      ],
+      "image": {
+        "type": "thumbnail",
+        "url": "https://techcrunch.com/wp-content/uploads/2023/11/Sam-Altman-OpenAI.jpg?resize=1200,680"
+      },
+      "meta": {
+        "author": "Julie Bort",
+        "reading_time": "2 minutes"
+      },
+      "published_at": "2026-10-22T22:08:24Z",
+      "hidden": false,
+      "rank": 12
+    },
+    {
+      "id": "tc-canva-releases-its-first-image-generation-model-2026-10-23",
+      "title": "Canva releases its first image generation model",
+      "summary": "Canva is making the model available to all users, pitching more customizable output at lower cost.",
+      "url": "https://techcrunch.com/2026/10/22/canva-releases-its-first-image-generation-model/",
+      "source": "techcrunch",
+      "source_url": "https://techcrunch.com/2026/10/22/canva-releases-its-first-image-generation-model/",
+      "category": "news",
+      "tags": [
+        "Model Release",
+        "Image Gen",
+        "Launch"
+      ],
+      "image": {
+        "type": "thumbnail",
+        "url": "https://techcrunch.com/wp-content/uploads/2026/10/Sample-Outputs.jpeg?resize=1200,675"
+      },
+      "meta": {
+        "author": "Ivan Mehta",
+        "reading_time": "2 minutes"
+      },
+      "published_at": "2026-10-22T19:00:00Z",
+      "hidden": false,
+      "rank": 15
+    },
+    {
+      "id": "tc-openai-makes-its-jev-competitor-widely-2026-10-23",
+      "title": "OpenAI makes its Jev competitor widely available as decision model competition heats up",
+      "summary": "OpenAI is opening its decision model to everyone, setting it directly against the original Jev.",
+      "url": "https://techcrunch.com/2026/10/22/openai-makes-its-jev-competitor-widely-available-as-decision-model-competition-heats-up/",
+      "source": "techcrunch",
+      "source_url": "https://techcrunch.com/2026/10/22/openai-makes-its-jev-competitor-widely-available-as-decision-model-competition-heats-up/",
+      "category": "news",
+      "tags": [
+        "Model Release",
+        "OpenAI",
+        "Launch"
+      ],
+      "image": {
+        "type": "thumbnail",
+        "url": "https://techcrunch.com/wp-content/uploads/2026/10/Screenshot-2026-10-22-at-12.17.11-PM-1.png?resize=1200,988"
+      },
+      "meta": {
+        "author": "Tim Fernholz",
+        "reading_time": "4 minutes"
+      },
+      "published_at": "2026-10-22T19:00:00Z",
+      "hidden": false,
+      "rank": 18
+    },
+    {
+      "id": "tc-microsofts-mustafa-suleyman-says-its-ai-2026-10-23",
+      "title": "Microsoft’s Mustafa Suleyman says its AI outperforms doctors on hard cases as he chases ‘medical superintelligence’",
+      "summary": "Per a study in Science, the diagnostic system beat generalist doctors on hard cases, though most of the gain seems to come from the underlying models, not Microsoft's system.",
+      "url": "https://techcrunch.com/2026/10/22/microsofts-mustafa-suleyman-says-its-ai-outperforms-doctors-on-hard-cases-as-he-chases-medical-superintelligence/",
+      "source": "techcrunch",
+      "source_url": "https://techcrunch.com/2026/10/22/microsofts-mustafa-suleyman-says-its-ai-outperforms-doctors-on-hard-cases-as-he-chases-medical-superintelligence/",
+      "category": "news",
+      "tags": [
+        "Paper",
+        "Eval",
+        "Microsoft"
+      ],
+      "image": {
+        "type": "thumbnail",
+        "url": "https://techcrunch.com/wp-content/uploads/2026/10/GettyImages-1935915215.jpg?w=1024"
+      },
+      "meta": {
+        "author": "Rebecca Bellan",
+        "reading_time": "6 minutes"
+      },
+      "published_at": "2026-10-22T18:43:53Z",
+      "hidden": false,
+      "rank": 21
+    },
+    {
+      "id": "tc-chinese-hackers-spied-on-thousands-of-companies-2026-10-23",
+      "title": "Chinese hackers spied on thousands of companies after breaching IT giant ConnectWise",
+      "summary": "Microsoft attributes the breach to a China-aligned actor that used AI agents to rapidly break into thousands of ConnectWise customers.",
+      "url": "https://techcrunch.com/2026/10/22/chinese-hackers-spied-on-thousands-of-companies-after-breaching-it-giant-connectwise/",
+      "source": "techcrunch",
+      "source_url": "https://techcrunch.com/2026/10/22/chinese-hackers-spied-on-thousands-of-companies-after-breaching-it-giant-connectwise/",
+      "category": "news",
+      "tags": [
+        "Security",
+        "Agents"
+      ],
+      "image": {
+        "type": "thumbnail",
+        "url": "https://techcrunch.com/wp-content/uploads/2025/01/GettyImages-591881449.jpg?resize=1200,799"
+      },
+      "meta": {
+        "author": "Zack Whittaker",
+        "reading_time": "2 minutes"
+      },
+      "published_at": "2026-10-22T16:47:17Z",
+      "hidden": false,
+      "rank": 24
+    },
+    {
+      "id": "tc-uber-puts-all-30-000-employees-on-chatgpt-work-2026-10-23",
+      "title": "Uber puts all 30,000 employees on ChatGPT Work",
+      "summary": "Uber is expanding a much smaller pilot into a company-wide rollout of OpenAI's enterprise agent.",
+      "url": "https://techcrunch.com/2026/10/22/uber-puts-all-30000-employees-on-chatgpt-work/",
+      "source": "techcrunch",
+      "source_url": "https://techcrunch.com/2026/10/22/uber-puts-all-30000-employees-on-chatgpt-work/",
+      "category": "news",
+      "tags": [
+        "Agents",
+        "OpenAI"
+      ],
+      "image": {
+        "type": "thumbnail",
+        "url": "https://techcrunch.com/wp-content/uploads/2026/06/wayve-uber-uk.jpg?resize=1200,800"
+      },
+      "meta": {
+        "author": "Lucas Ropek",
+        "reading_time": "2 minutes"
+      },
+      "published_at": "2026-10-22T16:00:00Z",
+      "hidden": false,
+      "rank": 27
+    },
+    {
+      "id": "tc-spotifys-current-ai-bet-is-about-being-the-2026-10-23",
+      "title": "Spotify’s current AI bet is about being the music service that agents choose",
+      "summary": "Co-CEO Gustav Söderström explains why the rise of AI agents could be good news for Spotify.",
+      "url": "https://techcrunch.com/2026/10/22/spotifys-current-ai-bet-is-about-being-the-music-service-that-agents-choose/",
+      "source": "techcrunch",
+      "source_url": "https://techcrunch.com/2026/10/22/spotifys-current-ai-bet-is-about-being-the-music-service-that-agents-choose/",
+      "category": "news",
+      "tags": [
+        "Agents"
+      ],
+      "image": {
+        "type": "thumbnail",
+        "url": "https://techcrunch.com/wp-content/uploads/2024/02/GettyImages-1783835425-crop-e1717409949317.jpg?resize=1200,676"
+      },
+      "meta": {
+        "author": "Lauren Forristal",
+        "reading_time": "3 minutes"
+      },
+      "published_at": "2026-10-22T15:03:58Z",
+      "hidden": false,
+      "rank": 30
+    },
+    {
+      "id": "hn-openshell-a-safe-private-runtime-for-fleets-of-2026-10-23",
+      "title": "OpenShell – A safe, private runtime for fleets of autonomous AI agents",
+      "summary": "Nvidia's open source runtime on GitHub for running fleets of autonomous agents with safety and privacy controls.",
+      "url": "https://github.com/NVIDIA/OpenShell",
+      "source": "hackernews",
+      "source_url": "https://news.ycombinator.com/item?id=50198675",
+      "category": "hn",
+      "tags": [
+        "Open Source",
+        "Agents",
+        "Nvidia",
+        "Security"
+      ],
+      "image": {
+        "type": "none"
+      },
+      "signals": {
+        "points": 379,
+        "comments": 187
+      },
+      "meta": {
+        "author": "niemandhier"
+      },
+      "published_at": "2026-10-22T17:44:06Z",
+      "hidden": false,
+      "rank": 2
+    },
+    {
+      "id": "hn-every-ai-model-has-the-same-controversial-take-2026-10-23",
+      "title": "Every AI model has the same \"controversial\" take on humans",
+      "summary": "Blog post on modelcompare.ai comparing how different AI models answer when asked for a controversial take on humans.",
+      "url": "https://www.modelcompare.ai/blog/ai-models-controversial-take-on-humans",
+      "source": "hackernews",
+      "source_url": "https://news.ycombinator.com/item?id=50197313",
+      "category": "hn",
+      "tags": [
+        "LLM",
+        "Eval"
+      ],
+      "image": {
+        "type": "none"
+      },
+      "signals": {
+        "points": 373,
+        "comments": 399
+      },
+      "meta": {
+        "author": "rakannimer"
+      },
+      "published_at": "2026-10-22T16:08:00Z",
+      "hidden": false,
+      "rank": 5
+    },
+    {
+      "id": "hn-llms-are-making-formal-software-verification-2026-10-23",
+      "title": "LLMs are making formal software verification feasible at a much larger scale",
+      "summary": "Anthropic research post on using LLMs to make formal software verification practical at much larger scale.",
+      "url": "https://www.anthropic.com/research/formal-verification",
+      "source": "hackernews",
+      "source_url": "https://news.ycombinator.com/item?id=50202217",
+      "category": "hn",
+      "tags": [
+        "Paper",
+        "Code Gen",
+        "Anthropic"
+      ],
+      "image": {
+        "type": "none"
+      },
+      "signals": {
+        "points": 325,
+        "comments": 174
+      },
+      "meta": {
+        "author": "johnbender"
+      },
+      "published_at": "2026-10-22T22:54:43Z",
+      "hidden": false,
+      "rank": 8
+    },
+    {
+      "id": "hn-openai-cli-2026-10-23",
+      "title": "OpenAI CLI",
+      "summary": "OpenAI's command-line tool, published as the openai/openai-cli repository on GitHub.",
+      "url": "https://github.com/openai/openai-cli",
+      "source": "hackernews",
+      "source_url": "https://news.ycombinator.com/item?id=50191507",
+      "category": "hn",
+      "tags": [
+        "Dev Tool",
+        "OpenAI",
+        "Open Source"
+      ],
+      "image": {
+        "type": "none"
+      },
+      "signals": {
+        "points": 235,
+        "comments": 110
+      },
+      "meta": {
+        "author": "armcat"
+      },
+      "published_at": "2026-10-22T05:23:11Z",
+      "hidden": false,
+      "rank": 11
+    },
+    {
+      "id": "hn-ai-and-the-enclosure-of-the-scientific-commons-2026-10-23",
+      "title": "AI and the Enclosure of the Scientific Commons",
+      "summary": "arXiv paper applying the enclosure metaphor to AI's effect on openly shared scientific research.",
+      "url": "https://arxiv.org/abs/2610.27251",
+      "source": "hackernews",
+      "source_url": "https://news.ycombinator.com/item?id=50199230",
+      "category": "hn",
+      "tags": [
+        "Paper",
+        "Policy"
+      ],
+      "image": {
+        "type": "none"
+      },
+      "signals": {
+        "points": 133,
+        "comments": 77
+      },
+      "meta": {
+        "author": "jrepinc"
+      },
+      "published_at": "2026-10-22T18:28:16Z",
+      "hidden": false,
+      "rank": 14
+    },
+    {
+      "id": "hn-ask-hn-if-the-models-are-so-good-why-doesn-t-2026-10-23",
+      "title": "Ask HN: If the models are so good, why doesn't OpenAI just start 100 companies?",
+      "summary": "Ask HN thread asking why OpenAI sells model access instead of using its own models to launch companies itself.",
+      "url": "https://news.ycombinator.com/item?id=50200997",
+      "source": "hackernews",
+      "source_url": "https://news.ycombinator.com/item?id=50200997",
+      "category": "hn",
+      "tags": [
+        "OpenAI"
+      ],
+      "image": {
+        "type": "none"
+      },
+      "signals": {
+        "points": 101,
+        "comments": 92
+      },
+      "meta": {
+        "author": "ex-aws-dude"
+      },
+      "published_at": "2026-10-22T21:03:55Z",
+      "hidden": false,
+      "rank": 17
+    },
+    {
+      "id": "hn-claude-now-works-with-google-docs-sheets-and-2026-10-23",
+      "title": "Claude Now Works with Google Docs, Sheets, and Slides",
+      "summary": "Anthropic article on bringing Claude into Google Docs, Sheets and Slides.",
+      "url": "https://claude.com/resources/articles/claude-now-works-in-google-docs-sheets-and-slides",
+      "source": "hackernews",
+      "source_url": "https://news.ycombinator.com/item?id=50190357",
+      "category": "hn",
+      "tags": [
+        "Anthropic",
+        "Google",
+        "Launch"
+      ],
+      "image": {
+        "type": "none"
+      },
+      "signals": {
+        "points": 86,
+        "comments": 13
+      },
+      "meta": {
+        "author": "gmays"
+      },
+      "published_at": "2026-10-22T02:17:58Z",
+      "hidden": false,
+      "rank": 20
+    },
+    {
+      "id": "hn-ai-analysis-of-ct-scans-finds-42-9-of-patients-2026-10-23",
+      "title": "AI analysis of CT scans finds 42.9% of patients have coronary inflammation",
+      "summary": "Biograph release on the first U.S. study of Caristo Diagnostics' AI coronary inflammation detection, which found the risk in asymptomatic patients.",
+      "url": "https://www.biograph.com/newsroom/biograph-completes-first-u.s.-study-with-caristo-diagnostics%E2%80%99-ai-powered-coronary-inflammation-detection-finding-risk-in-over-42-of-asymptomatic-patients",
+      "source": "hackernews",
+      "source_url": "https://news.ycombinator.com/item?id=50198940",
+      "category": "hn",
+      "tags": [
+        "Vision"
+      ],
+      "image": {
+        "type": "none"
+      },
+      "signals": {
+        "points": 83,
+        "comments": 41
+      },
+      "meta": {
+        "author": "brandonb"
+      },
+      "published_at": "2026-10-22T18:02:54Z",
+      "hidden": false,
+      "rank": 23
+    },
+    {
+      "id": "hn-most-americans-say-ai-is-bad-for-society-oppose-2026-10-23",
+      "title": "Most Americans Say AI Is Bad for Society, Oppose More Data Centers",
+      "summary": "ABC News/Washington Post/Ipsos poll finding most Americans see AI as bad for society and oppose building more data centers.",
+      "url": "https://abcnews.com/Politics/americans-ai-bad-society-oppose-data-centers-abcpostipsos/story?id=137414085",
+      "source": "hackernews",
+      "source_url": "https://news.ycombinator.com/item?id=50200843",
+      "category": "hn",
+      "tags": [
+        "Policy"
+      ],
+      "image": {
+        "type": "none"
+      },
+      "signals": {
+        "points": 81,
+        "comments": 53
+      },
+      "meta": {
+        "author": "karakoram"
+      },
+      "published_at": "2026-10-22T20:51:23Z",
+      "hidden": false,
+      "rank": 26
+    }
+  ]
+}

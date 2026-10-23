@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-23",
+  "generated_at": "2026-10-23T08:01:41Z",
+  "counts": {
+    "kept": 30,
+    "rejected": 1
+  },
+  "rejected": [
+    {
+      "id": "ph-doneas-2026-10-23",
+      "source": "producthunt",
+      "title": "Doneas",
+      "url": "https://doneas.com",
+      "reason": "not-ai",
+      "detail": "no AI keyword or domain in the tagline, description or topics"
+    }
+  ]
+}

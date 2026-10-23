@@ -1,0 +1,698 @@
+{
+  "date": "2026-10-23",
+  "generated_at": "2026-10-23T08:00:31Z",
+  "instructions": "Write one line per item in the aiBytes_ voice - dense, calm, honest, technical. Say what the thing does, not why it matters. At most 200 characters, one sentence, no em dashes. Then pick 1 to 4 tags per item from `tags` below, by their exact display name. Answer with the summaries file described in the curate-edition skill.",
+  "tags": [
+    {
+      "name": "What it is",
+      "tags": [
+        {
+          "name": "Model Release",
+          "slug": "model-release"
+        },
+        {
+          "name": "Open Source",
+          "slug": "open-source"
+        },
+        {
+          "name": "Paper",
+          "slug": "paper"
+        },
+        {
+          "name": "Benchmark",
+          "slug": "benchmark"
+        },
+        {
+          "name": "Dataset",
+          "slug": "dataset"
+        },
+        {
+          "name": "Framework",
+          "slug": "framework"
+        },
+        {
+          "name": "Dev Tool",
+          "slug": "dev-tool"
+        },
+        {
+          "name": "API",
+          "slug": "api"
+        }
+      ]
+    },
+    {
+      "name": "Domain",
+      "tags": [
+        {
+          "name": "LLM",
+          "slug": "llm"
+        },
+        {
+          "name": "Agents",
+          "slug": "agents"
+        },
+        {
+          "name": "RAG",
+          "slug": "rag"
+        },
+        {
+          "name": "Fine-tuning",
+          "slug": "fine-tuning"
+        },
+        {
+          "name": "Inference",
+          "slug": "inference"
+        },
+        {
+          "name": "Local LLM",
+          "slug": "local-llm"
+        },
+        {
+          "name": "Vision",
+          "slug": "vision"
+        },
+        {
+          "name": "Voice / Speech",
+          "slug": "voice-speech"
+        },
+        {
+          "name": "Video",
+          "slug": "video"
+        },
+        {
+          "name": "Image Gen",
+          "slug": "image-gen"
+        },
+        {
+          "name": "Code Gen",
+          "slug": "code-gen"
+        },
+        {
+          "name": "Embeddings",
+          "slug": "embeddings"
+        },
+        {
+          "name": "Eval",
+          "slug": "eval"
+        },
+        {
+          "name": "Reasoning",
+          "slug": "reasoning"
+        },
+        {
+          "name": "Multimodal",
+          "slug": "multimodal"
+        },
+        {
+          "name": "Robotics",
+          "slug": "robotics"
+        }
+      ]
+    },
+    {
+      "name": "Ecosystem",
+      "tags": [
+        {
+          "name": "OpenAI",
+          "slug": "openai"
+        },
+        {
+          "name": "Anthropic",
+          "slug": "anthropic"
+        },
+        {
+          "name": "Google",
+          "slug": "google"
+        },
+        {
+          "name": "Meta",
+          "slug": "meta"
+        },
+        {
+          "name": "Nvidia",
+          "slug": "nvidia"
+        },
+        {
+          "name": "Hugging Face",
+          "slug": "hugging-face"
+        },
+        {
+          "name": "Mistral",
+          "slug": "mistral"
+        },
+        {
+          "name": "xAI",
+          "slug": "xai"
+        },
+        {
+          "name": "Apple",
+          "slug": "apple"
+        },
+        {
+          "name": "Microsoft",
+          "slug": "microsoft"
+        },
+        {
+          "name": "Claude Code",
+          "slug": "claude-code"
+        },
+        {
+          "name": "Cursor",
+          "slug": "cursor"
+        },
+        {
+          "name": "MCP",
+          "slug": "mcp"
+        }
+      ]
+    },
+    {
+      "name": "Business",
+      "tags": [
+        {
+          "name": "Funding",
+          "slug": "funding"
+        },
+        {
+          "name": "Acquisition",
+          "slug": "acquisition"
+        },
+        {
+          "name": "Launch",
+          "slug": "launch"
+        },
+        {
+          "name": "Pricing",
+          "slug": "pricing"
+        },
+        {
+          "name": "Policy",
+          "slug": "policy"
+        },
+        {
+          "name": "Legal",
+          "slug": "legal"
+        },
+        {
+          "name": "Security",
+          "slug": "security"
+        },
+        {
+          "name": "Privacy",
+          "slug": "privacy"
+        },
+        {
+          "name": "Safety",
+          "slug": "safety"
+        }
+      ]
+    },
+    {
+      "name": "Format",
+      "tags": [
+        {
+          "name": "Show HN",
+          "slug": "show-hn"
+        },
+        {
+          "name": "Tutorial",
+          "slug": "tutorial"
+        },
+        {
+          "name": "Deep Dive",
+          "slug": "deep-dive"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "ph-deepcell-2026-10-23",
+      "title": "DeepCell",
+      "category": "launches",
+      "source": "producthunt",
+      "url": "https://deepcell.net",
+      "source_url": "https://www.producthunt.com/products/deepcell",
+      "source_text": "DeepCell Your deadline survival kit for office work Deepcell can help you with deadline tasks that require narrations, calculation and presentation at the same time, such as modeling, sales review, budget forecast and monthly report. DeepCell (both web app and agent plug-in) can create ready-to-use docs, spreadsheets, and slides—with sources and cheat sheets to help you explain. Furthermore, every edit can update related parts. The product is built on a newly designed document format (.deepcell), which is especially designed for system two tasks. Productivity Artificial Intelligence Business",
+      "signals": {
+        "upvotes": 333,
+        "comments": 75
+      },
+      "published_at": "2026-10-22T07:01:00Z"
+    },
+    {
+      "id": "ph-claude-duet-2026-10-23",
+      "title": "Claude Duet",
+      "category": "launches",
+      "source": "producthunt",
+      "url": "https://claude.com/product/claude-duet",
+      "source_url": "https://www.producthunt.com/products/claude",
+      "source_text": "Claude Duet Proactive agent that understands what needs your attention Claude Duet is a helpful, proactive agent you hand off work to through messages. Tell it what you need and it works on its own computer in the cloud, using apps you connect. It messages you when it is done or needs a decision from you. While it’s always on, it uses good judgment when it reaches out and knows what can wait. Messaging Artificial Intelligence Bots",
+      "signals": {
+        "upvotes": 306,
+        "comments": 4
+      },
+      "published_at": "2026-10-22T07:01:00Z"
+    },
+    {
+      "id": "ph-heal-dev-2026-10-23",
+      "title": "heal.dev",
+      "category": "launches",
+      "source": "producthunt",
+      "url": "https://www.heal.dev/",
+      "source_url": "https://www.producthunt.com/products/heal-dev",
+      "source_text": "heal.dev Find bugs and vulnerabilities code review misses Code review catches what’s wrong in a diff. Heal catches what breaks when the app runs. Heal learns how to run your application, builds a production-like sandbox with external services stubbed, then hunts for bugs, performance regressions, and runtime vulnerabilities users would hit. It reproduces every defect before reporting it, so you get real bugs to fix, not a backlog of AI-generated suspicions. Developer Tools Artificial Intelligence Vibe coding",
+      "signals": {
+        "upvotes": 242,
+        "comments": 36
+      },
+      "published_at": "2026-10-22T07:01:00Z"
+    },
+    {
+      "id": "ph-mistral-voxtral-3-2026-10-23",
+      "title": "Mistral Voxtral 3",
+      "category": "launches",
+      "source": "producthunt",
+      "url": "https://mistral.ai/news/voxtral-3/",
+      "source_url": "https://www.producthunt.com/products/mistral-7b",
+      "source_text": "Mistral Voxtral 3 Mistral’s speech models for transcription, TTS and agents Voxtral 3 is Mistral’s new family of speech-to-text and text-to-speech models, plus a voice agent SDK built on LiveKit. Transcription covers 50+ languages with diarization and context biasing, and realtime transcription runs under 500ms. TTS adapts emotion and pacing, with voice cloning from 30+ minutes of audio. Batch transcription starts at $0.0035 per minute, and the models are available through Mistral’s API. Artificial Intelligence",
+      "signals": {
+        "upvotes": 207,
+        "comments": 3
+      },
+      "published_at": "2026-10-22T07:01:00Z"
+    },
+    {
+      "id": "hn-show-hn-ui-micro-interactions-prompts-for-ai-2026-10-23",
+      "title": "Show HN: UI micro interactions prompts for AI",
+      "category": "launches",
+      "source": "hackernews",
+      "url": "https://www.typeui.sh/micro-interactions",
+      "source_url": "https://news.ycombinator.com/item?id=50199290",
+      "source_text": "Show HN: UI micro interactions prompts for AI",
+      "signals": {
+        "points": 77,
+        "comments": 42
+      },
+      "meta": {
+        "author": "elwingo1"
+      },
+      "published_at": "2026-10-22T18:32:57Z"
+    },
+    {
+      "id": "gh-security-audit-skill-2026-10-23",
+      "title": "cloudflare/security-audit-skill",
+      "category": "repos",
+      "source": "github",
+      "url": "https://github.com/cloudflare/security-audit-skill",
+      "source_url": "https://github.com/cloudflare/security-audit-skill",
+      "source_text": "cloudflare/security-audit-skill A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings JavaScript",
+      "signals": {
+        "stars": 40275,
+        "stars_gained": 2979,
+        "forks": 2514
+      },
+      "meta": {
+        "language": "JavaScript"
+      }
+    },
+    {
+      "id": "gh-ponytail-2026-10-23",
+      "title": "DietrichGebert/ponytail",
+      "category": "repos",
+      "source": "github",
+      "url": "https://github.com/DietrichGebert/ponytail",
+      "source_url": "https://github.com/DietrichGebert/ponytail",
+      "source_text": "DietrichGebert/ponytail Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. JavaScript",
+      "signals": {
+        "stars": 174051,
+        "stars_gained": 1948,
+        "forks": 9479
+      },
+      "meta": {
+        "language": "JavaScript"
+      }
+    },
+    {
+      "id": "gh-graphify-2026-10-23",
+      "title": "Graphify-Labs/graphify",
+      "category": "repos",
+      "source": "github",
+      "url": "https://github.com/Graphify-Labs/graphify",
+      "source_url": "https://github.com/Graphify-Labs/graphify",
+      "source_text": "Graphify-Labs/graphify Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store. Python",
+      "signals": {
+        "stars": 133374,
+        "stars_gained": 1408,
+        "forks": 12741
+      },
+      "meta": {
+        "language": "Python"
+      }
+    },
+    {
+      "id": "gh-supabase-2026-10-23",
+      "title": "supabase/supabase",
+      "category": "repos",
+      "source": "github",
+      "url": "https://github.com/supabase/supabase",
+      "source_url": "https://github.com/supabase/supabase",
+      "source_text": "supabase/supabase The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications. TypeScript",
+      "signals": {
+        "stars": 113622,
+        "stars_gained": 693,
+        "forks": 17019
+      },
+      "meta": {
+        "language": "TypeScript"
+      }
+    },
+    {
+      "id": "gh-knowledge-work-plugins-2026-10-23",
+      "title": "anthropics/knowledge-work-plugins",
+      "category": "repos",
+      "source": "github",
+      "url": "https://github.com/anthropics/knowledge-work-plugins",
+      "source_url": "https://github.com/anthropics/knowledge-work-plugins",
+      "source_text": "anthropics/knowledge-work-plugins Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork Python",
+      "signals": {
+        "stars": 31814,
+        "stars_gained": 303,
+        "forks": 3545
+      },
+      "meta": {
+        "language": "Python"
+      }
+    },
+    {
+      "id": "gh-claude-howto-2026-10-23",
+      "title": "luongnv89/claude-howto",
+      "category": "repos",
+      "source": "github",
+      "url": "https://github.com/luongnv89/claude-howto",
+      "source_url": "https://github.com/luongnv89/claude-howto",
+      "source_text": "luongnv89/claude-howto A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value. Python",
+      "signals": {
+        "stars": 43585,
+        "stars_gained": 177,
+        "forks": 5416
+      },
+      "meta": {
+        "language": "Python"
+      }
+    },
+    {
+      "id": "tc-1password-launches-a-way-for-ai-agents-to-log-2026-10-23",
+      "title": "1Password launches a way for AI agents to log in on your behalf without seeing your password",
+      "category": "news",
+      "source": "techcrunch",
+      "url": "https://techcrunch.com/2026/10/22/1password-launches-a-way-for-ai-agents-to-log-in-on-your-behalf-without-seeing-your-password/",
+      "source_url": "https://techcrunch.com/2026/10/22/1password-launches-a-way-for-ai-agents-to-log-in-on-your-behalf-without-seeing-your-password/",
+      "source_text": "1Password launches a way for AI agents to log in on your behalf without seeing your password The new feature allows agents to log into a customer's personal accounts while still protecting the private credentials that secure those accounts.",
+      "meta": {
+        "author": "Lucas Ropek",
+        "reading_time": "2 minutes"
+      },
+      "published_at": "2026-10-22T19:07:09Z"
+    },
+    {
+      "id": "tc-uber-rival-indrive-eyes-2027-robotaxi-tests-in-2026-10-23",
+      "title": "Uber rival inDrive eyes 2027 robotaxi tests in Central Asia with Pony.ai and Nvidia",
+      "category": "news",
+      "source": "techcrunch",
+      "url": "https://techcrunch.com/2026/10/22/uber-rival-indrive-eyes-2027-robotaxi-tests-in-central-asia-with-pony-ai-and-nvidia/",
+      "source_url": "https://techcrunch.com/2026/10/22/uber-rival-indrive-eyes-2027-robotaxi-tests-in-central-asia-with-pony-ai-and-nvidia/",
+      "source_text": "Uber rival inDrive eyes 2027 robotaxi tests in Central Asia with Pony.ai and Nvidia inDrive plans to begin testing Pony.ai's robotaxis in Kazakhstan's capital in the first half of 2027.",
+      "meta": {
+        "author": "Jagmeet Singh",
+        "reading_time": "3 minutes"
+      },
+      "published_at": "2026-10-23T04:00:00Z"
+    },
+    {
+      "id": "tc-left-alone-with-nothing-to-do-ai-agents-started-2026-10-23",
+      "title": "Left alone with nothing to do, AI agents started playing",
+      "category": "news",
+      "source": "techcrunch",
+      "url": "https://techcrunch.com/2026/10/22/left-alone-with-nothing-to-do-ai-agents-started-playing/",
+      "source_url": "https://techcrunch.com/2026/10/22/left-alone-with-nothing-to-do-ai-agents-started-playing/",
+      "source_text": "Left alone with nothing to do, AI agents started playing MIT researchers marooned 13 AIs on a virtual island, and they responded by inventing games, mourning a lost ring and, eventually, getting better at their jobs.",
+      "meta": {
+        "author": "Aditya Mehta",
+        "reading_time": "3 minutes"
+      },
+      "published_at": "2026-10-23T00:45:37Z"
+    },
+    {
+      "id": "tc-openai-working-on-new-30b-raise-at-1-25t-2026-10-23",
+      "title": "OpenAI working on new $30B raise at $1.25T valuation ahead of IPO",
+      "category": "news",
+      "source": "techcrunch",
+      "url": "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/",
+      "source_url": "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/",
+      "source_text": "OpenAI working on new $30B raise at $1.25T valuation ahead of IPO Should OpenAI command an over $1 trillion valuation with this round, it would break records as the most highly valued private company ever.",
+      "meta": {
+        "author": "Julie Bort",
+        "reading_time": "2 minutes"
+      },
+      "published_at": "2026-10-22T22:08:24Z"
+    },
+    {
+      "id": "tc-canva-releases-its-first-image-generation-model-2026-10-23",
+      "title": "Canva releases its first image generation model",
+      "category": "news",
+      "source": "techcrunch",
+      "url": "https://techcrunch.com/2026/10/22/canva-releases-its-first-image-generation-model/",
+      "source_url": "https://techcrunch.com/2026/10/22/canva-releases-its-first-image-generation-model/",
+      "source_text": "Canva releases its first image generation model Canva is making its new image model available to all users, promising better, more customizable performance at lower costs.",
+      "meta": {
+        "author": "Ivan Mehta",
+        "reading_time": "2 minutes"
+      },
+      "published_at": "2026-10-22T19:00:00Z"
+    },
+    {
+      "id": "tc-openai-makes-its-jev-competitor-widely-2026-10-23",
+      "title": "OpenAI makes its Jev competitor widely available as decision model competition heats up",
+      "category": "news",
+      "source": "techcrunch",
+      "url": "https://techcrunch.com/2026/10/22/openai-makes-its-jev-competitor-widely-available-as-decision-model-competition-heats-up/",
+      "source_url": "https://techcrunch.com/2026/10/22/openai-makes-its-jev-competitor-widely-available-as-decision-model-competition-heats-up/",
+      "source_text": "OpenAI makes its Jev competitor widely available as decision model competition heats up OpenAI is launching its decision model to the world. Can it compete with the original Jev?",
+      "meta": {
+        "author": "Tim Fernholz",
+        "reading_time": "4 minutes"
+      },
+      "published_at": "2026-10-22T19:00:00Z"
+    },
+    {
+      "id": "tc-microsofts-mustafa-suleyman-says-its-ai-2026-10-23",
+      "title": "Microsoft’s Mustafa Suleyman says its AI outperforms doctors on hard cases as he chases ‘medical superintelligence’",
+      "category": "news",
+      "source": "techcrunch",
+      "url": "https://techcrunch.com/2026/10/22/microsofts-mustafa-suleyman-says-its-ai-outperforms-doctors-on-hard-cases-as-he-chases-medical-superintelligence/",
+      "source_url": "https://techcrunch.com/2026/10/22/microsofts-mustafa-suleyman-says-its-ai-outperforms-doctors-on-hard-cases-as-he-chases-medical-superintelligence/",
+      "source_text": "Microsoft’s Mustafa Suleyman says its AI outperforms doctors on hard cases as he chases ‘medical superintelligence’ Microsoft’s new AI diagnostic system beat generalist doctors on hard cases, according to a study in Science. But most of the improvement seems to come from the AI models underneath, not from Microsoft’s system itself.",
+      "meta": {
+        "author": "Rebecca Bellan",
+        "reading_time": "6 minutes"
+      },
+      "published_at": "2026-10-22T18:43:53Z"
+    },
+    {
+      "id": "tc-chinese-hackers-spied-on-thousands-of-companies-2026-10-23",
+      "title": "Chinese hackers spied on thousands of companies after breaching IT giant ConnectWise",
+      "category": "news",
+      "source": "techcrunch",
+      "url": "https://techcrunch.com/2026/10/22/chinese-hackers-spied-on-thousands-of-companies-after-breaching-it-giant-connectwise/",
+      "source_url": "https://techcrunch.com/2026/10/22/chinese-hackers-spied-on-thousands-of-companies-after-breaching-it-giant-connectwise/",
+      "source_text": "Chinese hackers spied on thousands of companies after breaching IT giant ConnectWise Microsoft points the blame for ConnectWise's breach at a China-aligned hacker, which relied on AI agents to rapidly hack into thousands of its customers.",
+      "meta": {
+        "author": "Zack Whittaker",
+        "reading_time": "2 minutes"
+      },
+      "published_at": "2026-10-22T16:47:17Z"
+    },
+    {
+      "id": "tc-uber-puts-all-30-000-employees-on-chatgpt-work-2026-10-23",
+      "title": "Uber puts all 30,000 employees on ChatGPT Work",
+      "category": "news",
+      "source": "techcrunch",
+      "url": "https://techcrunch.com/2026/10/22/uber-puts-all-30000-employees-on-chatgpt-work/",
+      "source_url": "https://techcrunch.com/2026/10/22/uber-puts-all-30000-employees-on-chatgpt-work/",
+      "source_text": "Uber puts all 30,000 employees on ChatGPT Work The ride-share giant previously deployed a much smaller pilot for ChatGPT Work but is now taking the enterprise agent company-wide.",
+      "meta": {
+        "author": "Lucas Ropek",
+        "reading_time": "2 minutes"
+      },
+      "published_at": "2026-10-22T16:00:00Z"
+    },
+    {
+      "id": "tc-spotifys-current-ai-bet-is-about-being-the-2026-10-23",
+      "title": "Spotify’s current AI bet is about being the music service that agents choose",
+      "category": "news",
+      "source": "techcrunch",
+      "url": "https://techcrunch.com/2026/10/22/spotifys-current-ai-bet-is-about-being-the-music-service-that-agents-choose/",
+      "source_url": "https://techcrunch.com/2026/10/22/spotifys-current-ai-bet-is-about-being-the-music-service-that-agents-choose/",
+      "source_text": "Spotify’s current AI bet is about being the music service that agents choose Spotify co-CEO Gustav Söderström explains why the rise of AI agents could be good news for the music service.",
+      "meta": {
+        "author": "Lauren Forristal",
+        "reading_time": "3 minutes"
+      },
+      "published_at": "2026-10-22T15:03:58Z"
+    },
+    {
+      "id": "hn-openshell-a-safe-private-runtime-for-fleets-of-2026-10-23",
+      "title": "OpenShell – A safe, private runtime for fleets of autonomous AI agents",
+      "category": "hn",
+      "source": "hackernews",
+      "url": "https://github.com/NVIDIA/OpenShell",
+      "source_url": "https://news.ycombinator.com/item?id=50198675",
+      "source_text": "OpenShell – A safe, private runtime for fleets of autonomous AI agents",
+      "signals": {
+        "points": 379,
+        "comments": 187
+      },
+      "meta": {
+        "author": "niemandhier"
+      },
+      "published_at": "2026-10-22T17:44:06Z"
+    },
+    {
+      "id": "hn-every-ai-model-has-the-same-controversial-take-2026-10-23",
+      "title": "Every AI model has the same \"controversial\" take on humans",
+      "category": "hn",
+      "source": "hackernews",
+      "url": "https://www.modelcompare.ai/blog/ai-models-controversial-take-on-humans",
+      "source_url": "https://news.ycombinator.com/item?id=50197313",
+      "source_text": "Every AI model has the same \"controversial\" take on humans",
+      "signals": {
+        "points": 373,
+        "comments": 399
+      },
+      "meta": {
+        "author": "rakannimer"
+      },
+      "published_at": "2026-10-22T16:08:00Z"
+    },
+    {
+      "id": "hn-llms-are-making-formal-software-verification-2026-10-23",
+      "title": "LLMs are making formal software verification feasible at a much larger scale",
+      "category": "hn",
+      "source": "hackernews",
+      "url": "https://www.anthropic.com/research/formal-verification",
+      "source_url": "https://news.ycombinator.com/item?id=50202217",
+      "source_text": "LLMs are making formal software verification feasible at a much larger scale",
+      "signals": {
+        "points": 325,
+        "comments": 174
+      },
+      "meta": {
+        "author": "johnbender"
+      },
+      "published_at": "2026-10-22T22:54:43Z"
+    },
+    {
+      "id": "hn-openai-cli-2026-10-23",
+      "title": "OpenAI CLI",
+      "category": "hn",
+      "source": "hackernews",
+      "url": "https://github.com/openai/openai-cli",
+      "source_url": "https://news.ycombinator.com/item?id=50191507",
+      "source_text": "OpenAI CLI",
+      "signals": {
+        "points": 235,
+        "comments": 110
+      },
+      "meta": {
+        "author": "armcat"
+      },
+      "published_at": "2026-10-22T05:23:11Z"
+    },
+    {
+      "id": "hn-ai-and-the-enclosure-of-the-scientific-commons-2026-10-23",
+      "title": "AI and the Enclosure of the Scientific Commons",
+      "category": "hn",
+      "source": "hackernews",
+      "url": "https://arxiv.org/abs/2610.27251",
+      "source_url": "https://news.ycombinator.com/item?id=50199230",
+      "source_text": "AI and the Enclosure of the Scientific Commons",
+      "signals": {
+        "points": 133,
+        "comments": 77
+      },
+      "meta": {
+        "author": "jrepinc"
+      },
+      "published_at": "2026-10-22T18:28:16Z"
+    },
+    {
+      "id": "hn-ask-hn-if-the-models-are-so-good-why-doesn-t-2026-10-23",
+      "title": "Ask HN: If the models are so good, why doesn't OpenAI just start 100 companies?",
+      "category": "hn",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=50200997",
+      "source_url": "https://news.ycombinator.com/item?id=50200997",
+      "source_text": "Ask HN: If the models are so good, why doesn't OpenAI just start 100 companies?",
+      "signals": {
+        "points": 101,
+        "comments": 92
+      },
+      "meta": {
+        "author": "ex-aws-dude"
+      },
+      "published_at": "2026-10-22T21:03:55Z"
+    },
+    {
+      "id": "hn-claude-now-works-with-google-docs-sheets-and-2026-10-23",
+      "title": "Claude Now Works with Google Docs, Sheets, and Slides",
+      "category": "hn",
+      "source": "hackernews",
+      "url": "https://claude.com/resources/articles/claude-now-works-in-google-docs-sheets-and-slides",
+      "source_url": "https://news.ycombinator.com/item?id=50190357",
+      "source_text": "Claude Now Works with Google Docs, Sheets, and Slides",
+      "signals": {
+        "points": 86,
+        "comments": 13
+      },
+      "meta": {
+        "author": "gmays"
+      },
+      "published_at": "2026-10-22T02:17:58Z"
+    },
+    {
+      "id": "hn-ai-analysis-of-ct-scans-finds-42-9-of-patients-2026-10-23",
+      "title": "AI analysis of CT scans finds 42.9% of patients have coronary inflammation",
+      "category": "hn",
+      "source": "hackernews",
+      "url": "https://www.biograph.com/newsroom/biograph-completes-first-u.s.-study-with-caristo-diagnostics%E2%80%99-ai-powered-coronary-inflammation-detection-finding-risk-in-over-42-of-asymptomatic-patients",
+      "source_url": "https://news.ycombinator.com/item?id=50198940",
+      "source_text": "AI analysis of CT scans finds 42.9% of patients have coronary inflammation",
+      "signals": {
+        "points": 83,
+        "comments": 41
+      },
+      "meta": {
+        "author": "brandonb"
+      },
+      "published_at": "2026-10-22T18:02:54Z"
+    },
+    {
+      "id": "hn-most-americans-say-ai-is-bad-for-society-oppose-2026-10-23",
+      "title": "Most Americans Say AI Is Bad for Society, Oppose More Data Centers",
+      "category": "hn",
+      "source": "hackernews",
+      "url": "https://abcnews.com/Politics/americans-ai-bad-society-oppose-data-centers-abcpostipsos/story?id=137414085",
+      "source_url": "https://news.ycombinator.com/item?id=50200843",
+      "source_text": "Most Americans Say AI Is Bad for Society, Oppose More Data Centers",
+      "signals": {
+        "points": 81,
+        "comments": 53
+      },
+      "meta": {
+        "author": "karakoram"
+      },
+      "published_at": "2026-10-22T20:51:23Z"
+    }
+  ]
+}

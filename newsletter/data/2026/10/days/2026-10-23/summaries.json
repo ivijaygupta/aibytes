@@ -1,0 +1,125 @@
+{
+  "date": "2026-10-23",
+  "items": {
+    "ph-deepcell-2026-10-23": {
+      "summary": "Builds docs, spreadsheets and slides with sources and cheat sheets, as a web app or agent plug-in, on its own .deepcell format where one edit updates the related parts.",
+      "tags": ["Agents", "Launch"]
+    },
+    "ph-claude-duet-2026-10-23": {
+      "summary": "Anthropic agent you hand tasks to by message; it works on its own cloud computer through apps you connect and messages back when done or when it needs a decision.",
+      "tags": ["Agents", "Anthropic", "Launch"]
+    },
+    "ph-heal-dev-2026-10-23": {
+      "summary": "Learns to run your app in a production-like sandbox with external services stubbed, then hunts runtime bugs, perf regressions and vulnerabilities, reproducing each before reporting it.",
+      "tags": ["Dev Tool", "Security", "Launch"]
+    },
+    "ph-mistral-voxtral-3-2026-10-23": {
+      "summary": "Speech-to-text and TTS models plus a LiveKit-based voice agent SDK: 50+ languages with diarization, sub-500ms realtime transcription, voice cloning, batch from $0.0035 per minute.",
+      "tags": ["Model Release", "Voice / Speech", "Mistral", "Launch"]
+    },
+    "hn-show-hn-ui-micro-interactions-prompts-for-ai-2026-10-23": {
+      "summary": "A prompt collection on typeui.sh for getting AI models to generate UI micro interactions.",
+      "tags": ["Show HN", "Code Gen", "Launch"]
+    },
+    "gh-security-audit-skill-2026-10-23": {
+      "summary": "Cloudflare's JavaScript skill for coding agents that runs security audits in phases, verifies each finding independently, and emits the results in a machine-readable format.",
+      "tags": ["Agents", "Security", "Open Source"]
+    },
+    "gh-ponytail-2026-10-23": {
+      "summary": "A JavaScript add-on for AI coding agents that steers them toward writing as little code as possible, on the premise that the best code is the code never written.",
+      "tags": ["Agents", "Code Gen", "Open Source"]
+    },
+    "gh-graphify-2026-10-23": {
+      "summary": "A /graphify skill for Claude Code, Cursor, Codex and Gemini CLI that maps code, docs, SQL schemas and PDFs into a knowledge graph via local AST parsing, with no vector store.",
+      "tags": ["Dev Tool", "Code Gen", "Open Source"]
+    },
+    "gh-supabase-2026-10-23": {
+      "summary": "TypeScript platform that gives each project a dedicated Postgres database as the backend for web, mobile and AI apps.",
+      "tags": ["Open Source", "Dev Tool"]
+    },
+    "gh-knowledge-work-plugins-2026-10-23": {
+      "summary": "Anthropic's open source collection of Python plugins for Claude Cowork, built primarily for knowledge workers.",
+      "tags": ["Open Source", "Agents", "Anthropic"]
+    },
+    "gh-claude-howto-2026-10-23": {
+      "summary": "Visual, example-driven guide to Claude Code that runs from basic concepts to advanced agents, with copy-paste templates.",
+      "tags": ["Tutorial", "Claude Code", "Agents"]
+    },
+    "tc-1password-launches-a-way-for-ai-agents-to-log-2026-10-23": {
+      "summary": "The feature lets agents sign in to a customer's personal accounts while the credentials that secure those accounts stay protected from the agent.",
+      "tags": ["Agents", "Security", "Launch"]
+    },
+    "tc-uber-rival-indrive-eyes-2027-robotaxi-tests-in-2026-10-23": {
+      "summary": "inDrive plans to start testing Pony.ai robotaxis in Kazakhstan's capital in the first half of 2027.",
+      "tags": ["Robotics", "Nvidia"]
+    },
+    "tc-left-alone-with-nothing-to-do-ai-agents-started-2026-10-23": {
+      "summary": "MIT researchers marooned 13 AIs on a virtual island; they invented games, mourned a lost ring and eventually got better at their jobs.",
+      "tags": ["Paper", "Agents"]
+    },
+    "tc-openai-working-on-new-30b-raise-at-1-25t-2026-10-23": {
+      "summary": "At over $1 trillion, the round would make OpenAI the most highly valued private company ever.",
+      "tags": ["Funding", "OpenAI"]
+    },
+    "tc-canva-releases-its-first-image-generation-model-2026-10-23": {
+      "summary": "Canva is making the model available to all users, pitching more customizable output at lower cost.",
+      "tags": ["Model Release", "Image Gen", "Launch"]
+    },
+    "tc-openai-makes-its-jev-competitor-widely-2026-10-23": {
+      "summary": "OpenAI is opening its decision model to everyone, setting it directly against the original Jev.",
+      "tags": ["Model Release", "OpenAI", "Launch"]
+    },
+    "tc-microsofts-mustafa-suleyman-says-its-ai-2026-10-23": {
+      "summary": "Per a study in Science, the diagnostic system beat generalist doctors on hard cases, though most of the gain seems to come from the underlying models, not Microsoft's system.",
+      "tags": ["Paper", "Eval", "Microsoft"]
+    },
+    "tc-chinese-hackers-spied-on-thousands-of-companies-2026-10-23": {
+      "summary": "Microsoft attributes the breach to a China-aligned actor that used AI agents to rapidly break into thousands of ConnectWise customers.",
+      "tags": ["Security", "Agents"]
+    },
+    "tc-uber-puts-all-30-000-employees-on-chatgpt-work-2026-10-23": {
+      "summary": "Uber is expanding a much smaller pilot into a company-wide rollout of OpenAI's enterprise agent.",
+      "tags": ["Agents", "OpenAI"]
+    },
+    "tc-spotifys-current-ai-bet-is-about-being-the-2026-10-23": {
+      "summary": "Co-CEO Gustav Söderström explains why the rise of AI agents could be good news for Spotify.",
+      "tags": ["Agents"]
+    },
+    "hn-openshell-a-safe-private-runtime-for-fleets-of-2026-10-23": {
+      "summary": "Nvidia's open source runtime on GitHub for running fleets of autonomous agents with safety and privacy controls.",
+      "tags": ["Open Source", "Agents", "Nvidia", "Security"]
+    },
+    "hn-every-ai-model-has-the-same-controversial-take-2026-10-23": {
+      "summary": "Blog post on modelcompare.ai comparing how different AI models answer when asked for a controversial take on humans.",
+      "tags": ["LLM", "Eval"]
+    },
+    "hn-llms-are-making-formal-software-verification-2026-10-23": {
+      "summary": "Anthropic research post on using LLMs to make formal software verification practical at much larger scale.",
+      "tags": ["Paper", "Code Gen", "Anthropic"]
+    },
+    "hn-openai-cli-2026-10-23": {
+      "summary": "OpenAI's command-line tool, published as the openai/openai-cli repository on GitHub.",
+      "tags": ["Dev Tool", "OpenAI", "Open Source"]
+    },
+    "hn-ai-and-the-enclosure-of-the-scientific-commons-2026-10-23": {
+      "summary": "arXiv paper applying the enclosure metaphor to AI's effect on openly shared scientific research.",
+      "tags": ["Paper", "Policy"]
+    },
+    "hn-ask-hn-if-the-models-are-so-good-why-doesn-t-2026-10-23": {
+      "summary": "Ask HN thread asking why OpenAI sells model access instead of using its own models to launch companies itself.",
+      "tags": ["OpenAI"]
+    },
+    "hn-claude-now-works-with-google-docs-sheets-and-2026-10-23": {
+      "summary": "Anthropic article on bringing Claude into Google Docs, Sheets and Slides.",
+      "tags": ["Anthropic", "Google", "Launch"]
+    },
+    "hn-ai-analysis-of-ct-scans-finds-42-9-of-patients-2026-10-23": {
+      "summary": "Biograph release on the first U.S. study of Caristo Diagnostics' AI coronary inflammation detection, which found the risk in asymptomatic patients.",
+      "tags": ["Vision"]
+    },
+    "hn-most-americans-say-ai-is-bad-for-society-oppose-2026-10-23": {
+      "summary": "ABC News/Washington Post/Ipsos poll finding most Americans see AI as bad for society and oppose building more data centers.",
+      "tags": ["Policy"]
+    }
+  }
+}
