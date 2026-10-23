@@ -1,0 +1,184 @@
+<title>Issue 14 Intro Options</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=Instrument+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  /* Single light look on purpose: these options must render exactly as the email does. */
+  :root{
+    --paper:#FAFAF7; --ink:#191C26; --cobalt:#2B4EF0; --signal:#FFD338;
+    --slate:#6B7080; --line:#E4E4DC; --card:#FFFFFF; --body-ink:#3A3E4A;
+    --display:'Bricolage Grotesque',Helvetica,Arial,sans-serif; --body:'Instrument Sans',Helvetica,Arial,sans-serif; --mono:'JetBrains Mono',Menlo,Consolas,monospace;
+    color-scheme:light;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--body);font-size:15px;line-height:1.5}
+  a{color:var(--cobalt);text-decoration:none}
+  .wrap{max-width:720px;margin:0 auto;padding-inline:16px;padding-block:32px 64px}
+  h1{font-family:var(--display);font-weight:800;font-size:28px;letter-spacing:-.01em;margin:0 0 6px;text-wrap:balance}
+  .lede{color:var(--slate);margin:0 0 10px;max-width:62ch}
+  .facts{font-family:var(--mono);font-size:12px;color:var(--slate);border-left:3px solid var(--signal);padding:6px 12px;margin:0 0 28px;background:var(--card)}
+  .opt{margin-top:36px}
+  .opt-head{display:flex;align-items:center;gap:10px;margin-bottom:6px}
+  .hex{font-family:var(--mono);font-weight:700;font-size:12px;color:var(--paper);background:var(--ink);padding:2px 7px}
+  .opt-name{font-family:var(--display);font-weight:700;font-size:18px;text-transform:uppercase;letter-spacing:.01em}
+  .rule{flex:1;height:2px;background:var(--ink)}
+  .why{color:var(--slate);font-size:14px;margin:0 0 10px}
+  .subject{font-family:var(--mono);font-size:12px;color:var(--slate);margin:0 0 10px}
+  .subject b{color:var(--ink);font-family:var(--body);font-size:15px}
+  .intro{border:1px solid var(--line);border-radius:14px;background:var(--card);padding:20px 22px}
+  .intro p{font-size:15.5px;line-height:1.65;margin:0 0 14px;color:var(--body-ink)}
+  .intro p:last-child{margin-bottom:0}
+  .intro .greet{color:var(--ink)}
+  .intro b{color:var(--ink)}
+  .shared{margin-top:40px}
+  .news-card{border:2px solid var(--cobalt);border-radius:14px;padding:20px 22px;background:var(--card)}
+  .card-title{font-family:var(--display);font-weight:800;font-size:20px;color:var(--cobalt);margin-bottom:14px}
+  .news-item{font-size:15.5px;line-height:1.6;margin:0 0 14px}
+  .news-item:last-child{margin:0}
+  .hot{background:var(--signal);padding:0 4px;font-weight:600}
+  .src{font-family:var(--mono);font-size:12px;color:var(--slate)}
+  .note{font-size:13.5px;color:var(--slate);margin:8px 0 0}
+  .picked{font-family:var(--mono);font-size:11px;font-weight:700;background:var(--signal);color:var(--ink);padding:2px 7px}
+  .decision{border:1.5px solid var(--ink);border-left:5px solid var(--signal);background:var(--card);padding:14px 18px;margin:0 0 8px}
+  .decision p{margin:0 0 6px;font-size:14.5px}
+  .decision p:last-child{margin:0}
+  .group-head{font-family:var(--display);font-weight:800;font-size:22px;margin:44px 0 4px}
+  .group-lede{color:var(--slate);font-size:14px;margin:0 0 4px;max-width:62ch}
+  /* ToC treatments. None are links yet. */
+  /* Same voice as the storyline lead: body face, bold ink, intro size. */
+  .toc-label{font-size:15.5px;line-height:1.65;font-weight:700;color:var(--ink);margin:0 0 4px}
+  .toc-a{font-family:var(--mono);font-size:12.5px;line-height:1.9;color:var(--ink)}
+  .toc-a .dot{color:var(--slate);padding:0 6px}
+  .toc-b{border-top:1px solid var(--line)}
+  .toc-b .r{display:grid;grid-template-columns:40px 1fr auto;gap:10px;align-items:baseline;padding:5px 0;border-bottom:1px solid var(--line);font-size:13.5px}
+  .toc-b .r:last-child{border-bottom:none;padding-bottom:0}
+  .toc-b .m{font-family:var(--mono);font-size:10.5px;font-weight:500;color:var(--slate)}
+  .toc-b .n{color:#3A3E4A;font-weight:500}
+  .toc-b .d{font-family:var(--mono);font-size:11px;color:var(--slate);white-space:nowrap}
+  .toc-c{display:grid;grid-template-columns:1fr 1fr;gap:6px 18px}
+  .toc-c span{font-size:14.5px;color:var(--ink);font-weight:600;display:flex;gap:8px;align-items:baseline}
+  .toc-c i{font-style:normal;font-family:var(--mono);font-size:10.5px;font-weight:700;color:var(--paper);background:var(--ink);padding:1px 5px}
+  @media (max-width:480px){ .toc-c{grid-template-columns:1fr} }
+</style>
+
+<div class="wrap">
+  <h1>Issue #14 intro: is software still a business?</h1>
+  <p class="lede">The story of the week moves to Anthropic replacing git. Option 01 is picked; the open question is how the new table of contents looks. Everything renders as it will in the issue.</p>
+  <p class="facts">From anthropic.com/engineering/redesigning-source-control: ~2,500 merges/day in May 2026, 30,000+ in September · Scion replaced git for the monorepo in five months · also built Antique (code review), code search, source control IAM · "coding is no longer the bottleneck" · Anthropic: most companies won't hit this "in the very near term".</p>
+
+
+  <div class="decision">
+    <p><span class="picked">PICKED · 01</span> <b>The question, straight.</b> Subject line: 🌳 Anthropic replaces git and Meta's Muse Spark Open</p>
+    <p>Why: it opens on the publisher's own question and lets the week's evidence answer it, ending on a view rather than a verdict.</p>
+    <p>Change from the template: the <b>This week:</b> line is replaced by a table of contents of the issue's sections. Not clickable yet.</p>
+    <p><span class="picked">PICKED · B</span> <b>Stacked, with what's inside.</b> Revised at the publisher's request: "In this issue" softened to the storyline lead's style (body face, bold ink, sentence case) instead of a mono caps label, and the rows set smaller and lighter (13.5px, weight 500) so the list sits under the intro rather than competing with it.</p>
+    <p>Applied to Issue #14 and locked into the generate-newsletter-content skill: <code>assets/template.html</code> (the <code>.toc</code> block), <code>references/beehiiv-patterns.html</code> (the email-safe table) and <code>SKILL.md</code> (intro beat 4).</p>
+  </div>
+
+  <h2 class="group-head">Table of contents: three treatments</h2>
+  <p class="group-lede">Same intro, picked option 01. Only the last block differs. Each lists the sections in reading order, with no Favourite Picks this issue.</p>
+
+  <section class="opt">
+    <div class="opt-head"><span class="hex">A</span><span class="opt-name">One line</span><span class="rule"></span></div>
+    <p class="why">The sections in a single mono line, separated by dots. Lightest, and closest to the This week line it replaces.</p>
+    <div class="intro">
+      <p class="greet">Hello, builders 👋</p>
+      <p>Welcome back to your weekly dose of AI Bytes. I keep coming back to one question this week: if a company can replace git in five months, what happens to the companies that sell software? 🌳 Anthropic built its own version control system, Scion, because its merges went from about 2,500 a day in May to over 30,000 in September.</p>
+      <p><b>Build is beating buy</b>: <a href="https://www.anthropic.com/engineering/redesigning-source-control">Anthropic</a> also built its own code review and code search in the same five months, one developer used Claude to make free alternatives to Word, Excel and PowerPoint, and Thorsten Ball is asking why we still open pull requests. Anthropic says most companies won't hit these limits soon. I don't think the software business is ending, but it has a new competitor: its own customers, building instead.</p>
+      <div><p class="toc-label">In this issue</p><div class="toc-a">AI News<span class="dot">·</span>Official Announcements<span class="dot">·</span>Viral on X<span class="dot">·</span>New AI Products<span class="dot">·</span>Trending Github Projects<span class="dot">·</span>HN Deep Stories</div></div>
+    </div>
+  </section>
+
+  <section class="opt">
+    <div class="opt-head"><span class="hex">B</span><span class="opt-name">Stacked, with what's inside</span><span class="picked">PICKED</span><span class="rule"></span></div>
+    <p class="why">One row per section: the issue's own marker (card emoji or section number), the name, and what it holds. Most informative; also the longest.</p>
+    <div class="intro">
+      <p class="greet">Hello, builders 👋</p>
+      <p>Welcome back to your weekly dose of AI Bytes. I keep coming back to one question this week: if a company can replace git in five months, what happens to the companies that sell software? 🌳 Anthropic built its own version control system, Scion, because its merges went from about 2,500 a day in May to over 30,000 in September.</p>
+      <p><b>Build is beating buy</b>: <a href="https://www.anthropic.com/engineering/redesigning-source-control">Anthropic</a> also built its own code review and code search in the same five months, one developer used Claude to make free alternatives to Word, Excel and PowerPoint, and Thorsten Ball is asking why we still open pull requests. Anthropic says most companies won't hit these limits soon. I don't think the software business is ending, but it has a new competitor: its own customers, building instead.</p>
+      <div><p class="toc-label">In this issue</p><div class="toc-b"><div class="r"><span class="m">🌍</span><span class="n">AI News</span><span class="d">9 stories</span></div><div class="r"><span class="m">📣</span><span class="n">Official Announcements</span><span class="d">Meta · OpenAI · Google</span></div><div class="r"><span class="m">0x02</span><span class="n">Viral on X</span><span class="d">5 posts</span></div><div class="r"><span class="m">0x03</span><span class="n">New AI Products</span><span class="d">5 launches</span></div><div class="r"><span class="m">0x04</span><span class="n">Trending Github Projects</span><span class="d">4 repos</span></div><div class="r"><span class="m">0x05</span><span class="n">HN Deep Stories</span><span class="d">4 threads</span></div></div></div>
+    </div>
+  </section>
+
+  <section class="opt">
+    <div class="opt-head"><span class="hex">C</span><span class="opt-name">Two columns</span><span class="rule"></span></div>
+    <p class="why">The section names in a two-column grid with their numbered chips, like the section headers below. Compact, and it reads as a map of the issue.</p>
+    <div class="intro">
+      <p class="greet">Hello, builders 👋</p>
+      <p>Welcome back to your weekly dose of AI Bytes. I keep coming back to one question this week: if a company can replace git in five months, what happens to the companies that sell software? 🌳 Anthropic built its own version control system, Scion, because its merges went from about 2,500 a day in May to over 30,000 in September.</p>
+      <p><b>Build is beating buy</b>: <a href="https://www.anthropic.com/engineering/redesigning-source-control">Anthropic</a> also built its own code review and code search in the same five months, one developer used Claude to make free alternatives to Word, Excel and PowerPoint, and Thorsten Ball is asking why we still open pull requests. Anthropic says most companies won't hit these limits soon. I don't think the software business is ending, but it has a new competitor: its own customers, building instead.</p>
+      <div><p class="toc-label">In this issue</p><div class="toc-c"><span><i>🌍</i>AI News</span><span><i>📣</i>Official Announcements</span><span><i>0x02</i>Viral on X</span><span><i>0x03</i>New AI Products</span><span><i>0x04</i>Trending Github Projects</span><span><i>0x05</i>HN Deep Stories</span></div></div>
+    </div>
+  </section>
+
+  <h2 class="group-head">The five options</h2>
+  <p class="group-lede">As first proposed. 01 was picked.</p>
+  <section class="opt">
+    <div class="opt-head"><span class="hex">01</span><span class="opt-name">The question, straight</span><span class="picked">PICKED</span><span class="rule"></span></div>
+    <p class="why">Opens on your question and lets the evidence answer it. Ends on a view, not a verdict.</p>
+    <p class="subject">SUBJECT · <b>🌳 Anthropic replaces git and Meta's Muse Spark Open</b></p>
+    <div class="intro">
+      <p class="greet">Hello, builders 👋</p>
+      <p>Welcome back to your weekly dose of AI Bytes. I keep coming back to one question this week: if a company can replace git in five months, what happens to the companies that sell software? 🌳 Anthropic built its own version control system, Scion, because its merges went from about 2,500 a day in May to over 30,000 in September.</p>
+      <p><b>Build is beating buy</b>: <a href="https://www.anthropic.com/engineering/redesigning-source-control">Anthropic</a> also built its own code review and code search in the same five months, one developer used Claude to make free alternatives to Word, Excel and PowerPoint, and Thorsten Ball is asking why we still open pull requests. Anthropic says most companies won't hit these limits soon. I don't think the software business is ending, but it has a new competitor: its own customers, building instead.</p>
+      <p><b>This week:</b> Meta's Muse Spark Open, Gemini 4 Argon and GPT-6 Astra Pro's parallel agents in the companies' own words, five posts from X worth reading, Pancake and four more launches, and four repos worth your weekend.</p>
+    </div>
+  </section>
+
+  <section class="opt">
+    <div class="opt-head"><span class="hex">02</span><span class="opt-name">Gloomy days</span><span class="rule"></span></div>
+    <p class="why">Your "gloomy days" framing, said plainly as the hook. Darkest of the five.</p>
+    <p class="subject">SUBJECT · <b>🌧️ Gloomy days for software and Meta goes open</b></p>
+    <div class="intro">
+      <p class="greet">Hello, builders 👋</p>
+      <p>Welcome back to your weekly dose of AI Bytes. These are gloomy days to be selling software 🌧️ Anthropic outgrew git, the tool nearly every team runs on, and after hundreds of git mirrors stopped keeping up, it built its own version control system in five months.</p>
+      <p><b>The customers are building it themselves</b>: Anthropic's merges went from about 2,500 a day in May to over 30,000 in September, so it also <a href="https://www.anthropic.com/engineering/redesigning-source-control">built its own code review and code search</a>. One developer used Claude to make free alternatives to Word, Excel and PowerPoint. If the people who used to buy your product can build it in a season, what exactly are you selling?</p>
+      <p><b>This week:</b> Meta's Muse Spark Open, Gemini 4 Argon and GPT-6 Astra Pro's parallel agents in the companies' own words, five posts from X worth reading, Pancake and four more launches, and four repos worth your weekend.</p>
+    </div>
+  </section>
+
+  <section class="opt">
+    <div class="opt-head"><span class="hex">03</span><span class="opt-name">The bottleneck moved</span><span class="rule"></span></div>
+    <p class="why">Builder-first: what Anthropic's post means for your own stack, with the business question as the turn.</p>
+    <p class="subject">SUBJECT · <b>🌳 Anthropic outgrows git and Meta's Muse Spark Open</b></p>
+    <div class="intro">
+      <p class="greet">Hello, builders 👋</p>
+      <p>Welcome back to your weekly dose of AI Bytes. Writing code stopped being the slow part at Anthropic, and git became it 🌳 Its merges went from about 2,500 a day in May to over 30,000 in September, so it replaced git with Scion, a version control system it built in five months.</p>
+      <p><b>The tools built for human speed are next</b>: <a href="https://www.anthropic.com/engineering/redesigning-source-control">in the same five months</a> Anthropic also built its own code review and code search, and Thorsten Ball is asking why we still open pull requests at all. That's the uncomfortable part for software companies. When a customer can build the replacement this fast, the product has to be worth more than the code.</p>
+      <p><b>This week:</b> Meta's Muse Spark Open, Gemini 4 Argon and GPT-6 Astra Pro's parallel agents in the companies' own words, five posts from X worth reading, Pancake and four more launches, and four repos worth your weekend.</p>
+    </div>
+  </section>
+
+  <section class="opt">
+    <div class="opt-head"><span class="hex">04</span><span class="opt-name">Not yet, but</span><span class="rule"></span></div>
+    <p class="why">Asks "is this the end of the software business?" and answers it, using Anthropic's own caveat.</p>
+    <p class="subject">SUBJECT · <b>🌳 Is software next? Anthropic replaces git</b></p>
+    <div class="intro">
+      <p class="greet">Hello, builders 👋</p>
+      <p>Welcome back to your weekly dose of AI Bytes. Is this the end of the software business? 🌳 Anthropic just replaced git with a version control system it built itself in five months, because its merges went from about 2,500 a day in May to over 30,000 in September.</p>
+      <p><b>Not yet, but the pressure is real</b>: Anthropic says most companies won't hit these limits soon, and it <a href="https://www.anthropic.com/engineering/redesigning-source-control">leaned on Google's and Meta's prior work</a> to get there. Still, it built code review and code search in the same stretch, and one developer used Claude to make free alternatives to Word, Excel and PowerPoint. The moat used to be that software was hard to build. That moat is getting shallow.</p>
+      <p><b>This week:</b> Meta's Muse Spark Open, Gemini 4 Argon and GPT-6 Astra Pro's parallel agents in the companies' own words, five posts from X worth reading, Pancake and four more launches, and four repos worth your weekend.</p>
+    </div>
+  </section>
+
+  <section class="opt">
+    <div class="opt-head"><span class="hex">05</span><span class="opt-name">Short and sharp</span><span class="rule"></span></div>
+    <p class="why">The fewest words. One fact, one question, and the menu.</p>
+    <p class="subject">SUBJECT · <b>🌳 Anthropic built its own git and Meta goes open</b></p>
+    <div class="intro">
+      <p class="greet">Hello, builders 👋</p>
+      <p>Welcome back to your weekly dose of AI Bytes. Anthropic replaced git in five months 🌳 Not a fork, not a wrapper: its own version control system, built because its merges grew more than tenfold since May.</p>
+      <p><b>So who still buys software?</b> If a team can <a href="https://www.anthropic.com/engineering/redesigning-source-control">rebuild git, code review and code search</a> in one stretch, and one developer can make free alternatives to Word, Excel and PowerPoint with Claude, the hard part of software isn't the code any more. I think that's gloomy news for anyone selling code, and good news for anyone building.</p>
+      <p><b>This week:</b> Meta's Muse Spark Open, Gemini 4 Argon and GPT-6 Astra Pro's parallel agents in the companies' own words, five posts from X worth reading, Pancake and four more launches, and four repos worth your weekend.</p>
+    </div>
+  </section>
+
+  <section class="shared">
+    <div class="opt-head"><span class="hex">AI</span><span class="opt-name">News change, all options</span><span class="rule"></span></div>
+    <div class="news-card">
+      <div class="card-title">🌍 AI NEWS</div>
+      <p class="news-item">🌳 <b><a href="https://www.anthropic.com/engineering/redesigning-source-control">Anthropic replaced git with its own version control in five months</a></b> - Merges grew from about 2,500 a day in May to over 30,000 in September, so Claude helped build Scion, plus code review and code search. <span class="hot">Story of the week</span> <span class="src">(Anthropic)</span></p>
+      <p class="news-item">🔐 <b><a href="https://www.anthropic.com/research/ecdsa-curve-origins">Claude explains where the ECDSA curve seeds came from</a></b> - Anthropic says Claude traced the origin of the seed behind NIST's P-256 curve, a mystery cryptographers argued over for decades. <span class="src">(Anthropic)</span></p>
+    </div>
+    <p class="note">The other seven news items stay as they are. "Redesigning source control at Anthropic" leaves HN Deep Stories, which drops to four rows. No My Favourite Picks this issue.</p>
+  </section>
+</div>
