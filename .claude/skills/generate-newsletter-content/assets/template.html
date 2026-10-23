@@ -38,6 +38,15 @@
   .intro p:last-child{margin-bottom:0}
   .intro .greet{color:var(--ink)}
   .intro b{color:var(--ink);font-weight:700}
+  /* Table of contents: closes the intro. The label speaks in the storyline lead's
+       voice (body face, bold ink); the rows sit smaller and lighter beneath it. */
+  .intro .toc-label{color:var(--ink);font-weight:700;margin-bottom:4px}
+  .toc{border-top:1px solid var(--line)}
+  .toc .r{display:grid;grid-template-columns:40px 1fr auto;gap:10px;align-items:baseline;padding:5px 0;border-bottom:1px solid var(--line);font-size:13.5px}
+  .toc .r:last-child{border-bottom:none;padding-bottom:0}
+  .toc .m{font-family:var(--mono);font-size:10.5px;font-weight:500;color:var(--slate)}
+  .toc .n{color:#3A3E4A;font-weight:500}
+  .toc .d{font-family:var(--mono);font-size:11px;color:var(--slate);white-space:nowrap}
 
   /* ── My Favourite Picks: the publisher's shortlist, drawn from any section ──
        Ink border with a signal spine. The pick name is INK and undecorated - the
@@ -123,16 +132,24 @@
             standing name for the audience; do not swap it issue to issue.
          2. WELCOME + HOOK - the standing "Welcome back to your weekly dose of AI Bytes."
             line, then a first-person
-            hook: what surprised you while putting the issue together, in your own
+            hook: what surprised you this week, in your own
             voice. One light emoji is fine.
          3. STORYLINE - the thread connecting the week's items; <b> lead + one inline link.
-         4. THIS WEEK - a menu of what's below, so a skimmer knows what they're scrolling
-            into. This replaces the old "Let's dive in." sign-off; do not add one. -->
+         4. IN THIS ISSUE - a table of contents of the sections below, in reading order,
+            one row each: the section's own marker (🌍 / 📣 for the cards, 0x02... for
+            the numbered sections), its name, and what it holds ("9 stories",
+            "Meta · OpenAI · Google", "5 posts"). Not links yet. Leave out sections the
+            issue doesn't carry. Replaced the "This week:" line from issue #14. Pattern:
+    <div class="r"><span class="m">0x02</span><span class="n">Viral on X</span><span class="d">5 posts</span></div>
+    -->
     <div class="intro">
       <p class="greet">Hello, builders 👋</p>
       <p>Welcome back to your weekly dose of AI Bytes. {{INTRO_HOOK}}</p>
       <p><b>{{INTRO_STORYLINE_LEAD}}</b>: {{INTRO_STORYLINE}}</p>
-      <p><b>This week:</b> {{INTRO_TODAY}}</p>
+      <p class="toc-label">In this issue</p>
+      <div class="toc">
+{{TOC_ROWS}}
+      </div>
     </div>
 
     <!-- My Favourite Picks: the publisher's own shortlist, pulled from anywhere in

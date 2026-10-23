@@ -40,8 +40,17 @@ AI_PATTERNS = keywords.compile_patterns(
         r"\bagentic\b",
         r"\b(ai|coding|trading|parallel|autonomous|browser|voice) agents?\b",
         r"\bagents? (multiplexer|skills?|framework|orchestrat)",
+        # "agent" as the audience, not as a daemon: "built for agents",
+        # "with agents", "give your agent", a .agents/ directory. "your SSH
+        # agent" and "your build agents" stay out.
+        r"\b(for|with) (ai |coding )?agents\b",
+        r"\byour (ai |coding )?agents?\b(?!')",
+        r"(?<![\w.-])\.agents\b",
+        r"context[ -](window|compression|engineering)",
+        # AI-tool vendors whose repo descriptions don't say AI.
+        r"^(cursor|anthropics|openai|google-gemini|huggingface|mistralai|ollama)/",
         r"\bmcp\b|model context protocol",
-        r"text[ -]to[ -](image|video|speech|sql)",
+        r"text[ -]to[ -](image|video|speech|sql|cad|3d)",
         r"\binference\b",
         r"\bembeddings?\b",
         r"vector (database|db|search)",

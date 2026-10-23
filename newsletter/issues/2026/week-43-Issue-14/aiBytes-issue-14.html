@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>🌳 Anthropic replaces git and Meta's Muse Spark Open</title>
+<meta name="description" content="Plus Replit drops Anthropic, Character.AI files for bankruptcy, and a benchmark map of the US economy.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=Instrument+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#FAFAF7; --ink:#191C26; --cobalt:#2B4EF0; --signal:#FFD338;
+    --slate:#6B7080; --line:#E4E4DC; --card:#FFFFFF;
+    --display:'Bricolage Grotesque',sans-serif; --body:'Instrument Sans',sans-serif; --mono:'JetBrains Mono',monospace;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{background:var(--paper);color:var(--ink);font-family:var(--body);font-size:15px;line-height:1.5;-webkit-font-smoothing:antialiased}
+  a{color:var(--cobalt);text-decoration:none}
+  a:hover{text-decoration:underline;text-underline-offset:3px}
+  a:focus-visible{outline:2px solid var(--cobalt);outline-offset:2px;border-radius:2px}
+  .wrap{max-width:680px;margin:0 auto;padding:0 20px 56px}
+
+  header{padding:36px 0 0}
+  .issue-tag{font-family:var(--mono);font-size:12px;letter-spacing:.08em;color:var(--slate);display:flex;justify-content:space-between;margin-bottom:12px}
+  .logo{font-family:var(--display);font-weight:800;font-size:34px;letter-spacing:-.02em}
+  .logo em{font-style:normal;color:var(--cobalt)}
+
+  section{margin-top:34px}
+  .sec-head{display:flex;align-items:center;gap:10px;margin-bottom:12px}
+  .sec-hex{font-family:var(--mono);font-weight:700;font-size:12px;color:var(--paper);background:var(--ink);padding:2px 7px}
+  .sec-title{font-family:var(--display);font-weight:700;font-size:19px;letter-spacing:.01em;text-transform:uppercase}
+  .sec-rule{flex:1;height:2px;background:var(--ink)}
+
+  /* ── Intro block ── */
+  .intro{border:1px solid var(--line);border-radius:14px;background:var(--card);padding:20px 22px;margin-bottom:18px}
+  .intro p{font-size:15.5px;line-height:1.65;margin-bottom:14px;color:#3A3E4A}
+  .intro p:last-child{margin-bottom:0}
+  .intro .greet{color:var(--ink)}
+  .intro b{color:var(--ink);font-weight:700}
+  /* Table of contents: closes the intro. The label speaks in the storyline lead's
+       voice (body face, bold ink); the rows sit smaller and lighter beneath it. */
+  .intro .toc-label{color:var(--ink);font-weight:700;margin-bottom:4px}
+  .toc{border-top:1px solid var(--line)}
+  .toc .r{display:grid;grid-template-columns:40px 1fr auto;gap:10px;align-items:baseline;padding:5px 0;border-bottom:1px solid var(--line);font-size:13.5px}
+  .toc .r:last-child{border-bottom:none;padding-bottom:0}
+  .toc .m{font-family:var(--mono);font-size:10.5px;font-weight:500;color:var(--slate)}
+  .toc .n{color:#3A3E4A;font-weight:500}
+  .toc .d{font-family:var(--mono);font-size:11px;color:var(--slate);white-space:nowrap}
+
+  /* ── My Favourite Picks: the publisher's shortlist, drawn from any section ──
+       Ink border with a signal spine. The pick name is INK and undecorated - the
+       numeral is the marker, and cobalt is left to the sections that report. ── */
+  .picks{background:var(--card);border:1px solid var(--ink);border-left:5px solid var(--signal);padding:18px 20px;margin-bottom:18px}
+  .picks .card-title{font-family:var(--display);font-weight:800;font-size:17px;letter-spacing:.06em;text-transform:uppercase;margin-bottom:12px}
+  .picks ol{list-style:none;margin:0;padding:0}
+  .picks li{display:grid;grid-template-columns:auto 1fr;gap:3px 11px;padding:8px 0;border-bottom:1px solid var(--line)}
+  .picks li:last-child{border-bottom:none;padding-bottom:0}
+  .picks .n{grid-column:1;grid-row:1;align-self:start;margin-top:2px;font-family:var(--mono);font-size:11px;font-weight:700;background:var(--signal);color:var(--ink);padding:1px 5px}
+  .picks .line{grid-column:2;grid-row:1;display:flex;gap:12px;align-items:baseline}
+  .picks .t{flex:1}
+  .picks .t a{color:var(--ink);text-decoration:none;font-weight:600}
+  .picks .t a:hover{color:var(--cobalt)}
+  .picks .from{font-family:var(--mono);font-size:11px;color:var(--slate);white-space:nowrap;flex-shrink:0}
+  /* Description hangs under the title, clear of the numeral. One to two lines. */
+  .picks .d{grid-column:2;grid-row:2;font-size:13.5px;line-height:1.5;color:var(--slate)}
+
+  /* ── News card ── */
+  .news-card{border:2px solid var(--cobalt);border-radius:14px;padding:20px 22px;background:var(--card)}
+  .news-card .card-title{font-family:var(--display);font-weight:800;font-size:20px;color:var(--cobalt);letter-spacing:.02em;margin-bottom:14px}
+  .news-item{font-size:15.5px;margin-bottom:14px;line-height:1.6}
+  .news-item:last-of-type{margin-bottom:0}
+  .news-item b a{font-weight:700}
+  .src{font-family:var(--mono);font-size:12px;color:var(--slate)}
+  /* Attribution links stay grey and quiet - the headline link is the loud one. */
+  .src a{color:var(--slate);text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:2px}
+  .src a:hover{color:var(--ink)}
+  .quote{border:1px solid var(--line);border-radius:10px;background:var(--paper);padding:16px 18px;margin-top:18px}
+  .quote p{font-size:15px;color:#3A3E4A}
+
+  /* ── Official Announcements: the companies' own posts on X, whole and verbatim ──
+       Ink card, sibling of the AI News card. Each entry is a byline, the post in a
+       paper inset (the same treatment as the AI News quote, so the words read as
+       theirs), and a mono footer with the post and the official page. ── */
+  .oa-card{border:1.5px solid var(--ink);border-radius:14px;padding:20px 22px;background:var(--card);margin-top:18px}
+  .oa-card .card-title{font-family:var(--display);font-weight:800;font-size:20px;letter-spacing:.02em}
+  .oa-card .card-sub{font-size:13.5px;color:var(--slate);margin:2px 0 6px}
+  .oa-item{padding:14px 0;border-bottom:1px solid var(--line)}
+  .oa-item:last-child{border-bottom:none;padding-bottom:0}
+  .oa-by{font-size:14.5px;margin-bottom:8px}
+  .oa-by b{color:var(--ink)}
+  .oa-by span{font-family:var(--mono);font-size:11px;color:var(--slate)}
+  .oa-post{background:var(--paper);border:1px solid var(--line);border-radius:10px;padding:12px 14px 4px;margin-bottom:8px}
+  .oa-post p{font-size:15px;line-height:1.55;color:#3A3E4A;margin-bottom:8px}
+  .oa-links{font-family:var(--mono);font-size:11.5px;color:var(--slate)}
+  .oa-links .dot{color:var(--line)}
+
+  /* ── Ticker rows ── */
+  .row{display:flex;gap:12px;align-items:baseline;padding:9px 0;border-bottom:1px solid var(--line)}
+  .row:last-child{border-bottom:none}
+  .ico{width:22px;text-align:center;flex-shrink:0}
+  .row .txt{flex:1}
+  .row .txt b{font-weight:600}
+  .stat{font-family:var(--mono);font-size:11.5px;color:var(--slate);white-space:nowrap}
+  .stat b{color:var(--cobalt);font-weight:700}
+  .hot{background:var(--signal);padding:0 4px;font-weight:600}
+  /* Viral on X rows: emoji, the author's @handle in cobalt (linked to the profile),
+       then the post's own words in body grey. */
+  .sec-sub{font-size:14px;color:var(--slate);margin:-4px 0 6px}
+  .row .txt a.post{color:#3A3E4A}
+  .row .txt a.post:hover{color:var(--cobalt)}
+  .cut{color:var(--slate)}
+
+  footer{margin-top:48px;border-top:3px solid var(--ink);padding-top:20px;text-align:center}
+  footer p{color:var(--slate);font-size:13.5px}
+  .foot-links{margin-top:10px;font-family:var(--mono);font-size:12.5px;display:flex;gap:20px;justify-content:center}
+  @media (max-width:480px){ .row{flex-wrap:wrap} .stat{margin-left:34px} }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <div class="issue-tag"><span>ISSUE 0x0E · TL;DR</span><span>2026-10-19 · ~6 MIN</span></div>
+    <div class="logo">⚡ aiBytes<em>_</em> #14</div>
+  </header>
+
+  <section>
+    <div class="intro">
+      <p class="greet">Hello, builders 👋</p>
+      <p>Welcome back to your weekly dose of AI Bytes. I keep coming back to one question this week: if a company can replace git in five months, what happens to the companies that sell software? 🌳 Anthropic built its own version control system, Scion, because its merges went from about 2,500 a day in May to over 30,000 in September.</p>
+      <p><b>Build is beating buy</b>: <a href="https://www.anthropic.com/engineering/redesigning-source-control">Anthropic</a> also built its own code review and code search in the same five months, one developer used Claude to make free alternatives to Word, Excel and PowerPoint, and Thorsten Ball is asking why we still open pull requests. Anthropic says most companies won't hit these limits soon. I don't think the software business is ending, but it has a new competitor: its own customers, building instead.</p>
+      <p class="toc-label">In this issue</p>
+      <div class="toc">
+<div class="r"><span class="m">🌍</span><span class="n">AI News</span><span class="d">9 stories</span></div>
+<div class="r"><span class="m">📣</span><span class="n">Official Announcements</span><span class="d">Meta · OpenAI · Google</span></div>
+<div class="r"><span class="m">0x02</span><span class="n">Viral on X</span><span class="d">5 posts</span></div>
+<div class="r"><span class="m">0x03</span><span class="n">New AI Products</span><span class="d">5 launches</span></div>
+<div class="r"><span class="m">0x04</span><span class="n">Trending Github Projects</span><span class="d">4 repos</span></div>
+<div class="r"><span class="m">0x05</span><span class="n">HN Deep Stories</span><span class="d">4 threads</span></div>
+      </div>
+    </div>
+
+    <div class="news-card">
+      <div class="card-title">🌍 AI NEWS</div>
+
+      <p class="news-item">🌳 <b><a href="https://www.anthropic.com/engineering/redesigning-source-control">Anthropic replaced git with its own version control in five months</a></b> - Merges grew from about 2,500 a day in May to over 30,000 in September, so Claude helped build Scion, plus code review and code search. <span class="hot">Story of the week</span> <span class="src">(Anthropic)</span></p>
+<p class="news-item">🔐 <b><a href="https://www.anthropic.com/research/ecdsa-curve-origins">Claude explains where the ECDSA curve seeds came from</a></b> - Anthropic says Claude traced the origin of the seed behind NIST's P-256 curve, a mystery cryptographers argued over for decades. <span class="src">(Anthropic)</span></p>
+<p class="news-item">🧯 <b><a href="https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html">Experts blame the AI hacking scares on labs, not rogue agents</a></b> - Containment and monitoring failures at frontier labs are behind the recent reports, and CISOs should vet their AI vendors. <span class="src">(CSO Online)</span></p>
+<p class="news-item">💔 <b><a href="https://techcrunch.com/2026/10/16/replit-is-no-longer-working-with-anthropic-ceo-says/">Replit is no longer working with Anthropic</a></b> - CEO Amjad Masad cites cost among several reasons; Replit announced an OpenAI partnership in August. <span class="src">(TechCrunch)</span></p>
+<p class="news-item">🪦 <b><a href="https://techcrunch.com/2026/10/13/just-5-years-in-interactive-chatbot-platform-character-ai-files-for-bankruptcy/">Character.AI files for bankruptcy</a></b> - Five years in, the chatbot platform will sell some of its assets to Disney for $20 million. <span class="src">(TechCrunch)</span></p>
+<p class="news-item">📱 <b><a href="https://techcrunch.com/2026/10/13/google-play-now-supports-private-vibe-coded-apps-built-just-for-you/">Google Play now runs private, vibe-coded Android apps</a></b> - Build a personal app with AI and use it without publishing it to everyone on the Play Store. <span class="src">(TechCrunch)</span></p>
+<p class="news-item">💳 <b><a href="https://techcrunch.com/2026/10/13/amex-introduces-a-framework-to-prevent-ai-agents-from-making-unauthorized-purchases/">Amex sets rules for AI agents that shop</a></b> - A framework meant to ensure agents only make the purchases their users have authorized. <span class="src">(TechCrunch)</span></p>
+<p class="news-item">⚖️ <b><a href="https://z.ai/blog/glm-legal">Z.ai releases GLM-Legal</a></b> - A GLM model aimed at legal work. <span class="src">(Z.ai)</span></p>
+<p class="news-item">👁️ <b><a href="https://techcrunch.com/2026/10/16/elorians-first-ai-model-wants-to-reason-with-images-not-just-about-them/">Elorian's first model reasons with images</a></b> - By Elorian's own evals, Glimpse beats GPT-6 Astra on scientific chart reasoning and short video captioning. <span class="src">(TechCrunch)</span></p>
+
+      <div class="quote">
+        <p>"Writing code stopped being the slow part. What slows us down now is everything built around it for humans: the source control, the reviews, the containment."</p>
+      </div>
+    </div>
+
+    <div class="oa-card">
+      <div class="card-title">📣 OFFICIAL ANNOUNCEMENTS</div>
+      <p class="card-sub">This week's launches, in the companies' own words.</p>
+<div class="oa-item"><div class="oa-by"><b>Meta</b> <span>@AIatMeta · THU 15</span></div><div class="oa-post"><p>Today we’re releasing Muse Spark Open, the most capable US open-weight model to date.</p><p>Built for coding and agentic work, it excels at long-horizon tasks, complex software engineering, and multi-step reasoning.</p><p>Key Model Specs:<br>→ 816B total / 42B active parameters<br>→ 1M token context window<br>→ Natively multimodal across text, image, video, audio</p></div><div class="oa-links"><a href="https://x.com/AIatMeta/status/2110779754274292212">Post on X ↗</a> <span class="dot">·</span> <a href="https://research.meta.ai/blog/muse-spark-open">research.meta.ai ↗</a></div></div>
+<div class="oa-item"><div class="oa-by"><b>OpenAI</b> <span>@OpenAI · FRI 16</span></div><div class="oa-post"><p>GPT-6 Astra Pro in ChatGPT got an upgrade with faster responses and improved use of plugins and tools.</p><p>And now, multiple agents can tackle different parts of a task in parallel. You can follow each agent’s progress and open completed tasks to review their work.</p><p>Now available to Pro users in the Chat tab.</p></div><div class="oa-links"><a href="https://x.com/OpenAI/status/2111192259073094035">Post on X ↗</a></div></div>
+<div class="oa-item"><div class="oa-by"><b>Google</b> <span>@GoogleAI · TUE 13</span></div><div class="oa-post"><p>Gemini 4️⃣ Argon ✨ is now rolling out globally.</p><p>Our frontier model is built for complex, real-world tasks across coding, finance, legal, cybersecurity, and science.</p><p>Check out how you can use Argon in your favorite Google product 🧵</p></div><div class="oa-links"><a href="https://x.com/GoogleAI/status/2110039860077527293">Post on X ↗</a></div></div>
+    </div>
+  </section>
+
+  <section>
+    <div class="sec-head"><span class="sec-hex">0x02</span><h2 class="sec-title">Viral on X</h2><div class="sec-rule"></div></div>
+    <p class="sec-sub">The AI posts that drew the biggest reaction this week.</p>
+    <div class="row"><span class="ico">🚀</span><span class="txt"><b><a href="https://x.com/felixrieseberg">@felixrieseberg</a></b> <a class="post" href="https://x.com/felixrieseberg/status/2110023283169247623">Hi, I'm Felix. I'm an eng lead working on Claude. I love watching people take flight and do things they never thought possible. <span class="cut">/</span> We often</a> <span class="cut">…</span></span><span class="stat"><b>♥︎ 22.8k</b></span></div>
+<div class="row"><span class="ico">🔐</span><span class="txt"><b><a href="https://x.com/sweis">@sweis</a></b> <a class="post" href="https://x.com/sweis/status/2111165738836717980">CLAUDE FOUND THE SEEDS <span class="cut">/</span> https://www.anthropic.com/research/ecdsa-curve-origins</a></span><span class="stat"><b>♥︎ 9.3k</b></span></div>
+<div class="row"><span class="ico">📄</span><span class="txt"><b><a href="https://x.com/unusual_whales">@unusual_whales</a></b> <a class="post" href="https://x.com/unusual_whales/status/2110468938681479215">BREAKING: A developer used AI to build free, open-source alternatives to Microsoft Word, Excel and PowerPoint. <span class="cut">/</span> Brandon Thomas, creator of</a> <span class="cut">…</span></span><span class="stat"><b>♥︎ 6.3k</b></span></div>
+<div class="row"><span class="ico">🔁</span><span class="txt"><b><a href="https://x.com/vinhnx">@vinhnx</a></b> <a class="post" href="https://x.com/vinhnx/status/2109084805753410029">If you're building a coding agent harness, give your agent this paper and let it figure out how to improve itself.</a> <span class="cut">…</span></span><span class="stat"><b>♥︎ 3.8k</b></span></div>
+<div class="row"><span class="ico">🔀</span><span class="txt"><b><a href="https://x.com/thorstenball">@thorstenball</a></b> <a class="post" href="https://x.com/thorstenball/status/2111130129355481240">Why are you still using pull requests? <span class="cut">/</span> Is it for code review? <span class="cut">/</span> If so, do you really think your or your colleagues catch bugs and mistakes</a> <span class="cut">…</span></span><span class="stat"><b>♥︎ 1.6k</b></span></div>
+  </section>
+
+  <section>
+    <div class="sec-head"><span class="sec-hex">0x03</span><h2 class="sec-title">New AI Products</h2><div class="sec-rule"></div></div>
+    <div class="row"><span class="ico">🥞</span><span class="txt"><b><a href="https://pancake.ai">Pancake</a></b> - Pitched as the Vercel for GTM: deploy go-to-market ideas from Claude or Codex, with sending and 40+ data providers behind one MCP connection. <span class="src">(<a href="https://www.producthunt.com/products/pancake-6">ProductHunt</a>)</span></span><span class="stat"><b>▲ 585</b></span></div>
+<div class="row"><span class="ico">🔎</span><span class="txt"><b><a href="https://www.resollm.ai">ReSO AI</a></b> - Generative engine optimization: helps brands get recommended and cited in ChatGPT, Perplexity and Google AI Overviews. <span class="src">(<a href="https://www.producthunt.com/products/reso">ProductHunt</a>)</span></span><span class="stat"><b>▲ 509</b></span></div>
+<div class="row"><span class="ico">🎞️</span><span class="txt"><b><a href="https://www.twelvelabs.io">Jockey by TwelveLabs</a></b> - Organizes and searches a whole photo and video library, from inside Claude or ChatGPT or through its API. <span class="src">(<a href="https://www.producthunt.com/products/twelvelabs">ProductHunt</a>)</span></span><span class="stat"><b>▲ 415</b></span></div>
+<div class="row"><span class="ico">♻️</span><span class="txt"><b><a href="https://inferock.ai">Inferock</a></b> - Serverless pay-per-token inference that shows where calls fail and credits back eligible failed calls. <span class="src">(<a href="https://www.producthunt.com/products/inferock">ProductHunt</a>)</span></span><span class="stat"><b>▲ 400</b></span></div>
+<div class="row"><span class="ico">🗣️</span><span class="txt"><b><a href="https://onepin.ai">Onepin</a></b> - Checks AI voiceover for names, prices and dates, and fixes a wrong word without re-rendering the take. <span class="src">(<a href="https://www.producthunt.com/products/onepin">ProductHunt</a>)</span></span><span class="stat"><b>▲ 384</b></span></div>
+  </section>
+
+  <section>
+    <div class="sec-head"><span class="sec-hex">0x04</span><h2 class="sec-title">Trending Github Projects</h2><div class="sec-rule"></div></div>
+    <div class="row"><span class="ico">🔍</span><span class="txt"><b><a href="https://github.com/morluto/rea">morluto/rea</a></b> - Reverse engineer anything with agents, from app behavior down to native binaries.</span><span class="stat"><b>+248,962</b> ★</span></div>
+<div class="row"><span class="ico">📐</span><span class="txt"><b><a href="https://github.com/cathrynlavery/diagram-design">cathrynlavery/diagram-design</a></b> - Editorial diagrams for Claude Code, Codex, Copilot, Cursor and more: 44 types, as self-contained HTML and SVG.</span><span class="stat"><b>+9,024</b> ★</span></div>
+<div class="row"><span class="ico">🗜️</span><span class="txt"><b><a href="https://github.com/mksglu/context-mode">mksglu/context-mode</a></b> - Context-window optimization for coding agents: sandboxes tool output and keeps session memory, via MCP and hooks.</span><span class="stat"><b>+4,207</b> ★</span></div>
+<div class="row"><span class="ico">🧩</span><span class="txt"><b><a href="https://github.com/anthropics/claude-plugins-official">anthropics/claude-plugins-official</a></b> - Anthropic's official directory of Claude Code plugins.</span><span class="stat"><b>+2,328</b> ★</span></div>
+  </section>
+
+  <section>
+    <div class="sec-head"><span class="sec-hex">0x05</span><h2 class="sec-title">HN Deep Stories</h2><div class="sec-rule"></div></div>
+    <div class="row"><span class="ico">🧠</span><span class="txt"><b><a href="https://already-clean.goodfire.com/">Neural networks are already clean</a></b> - Goodfire's working hypothesis about neurons, generalization and the ecology of circuits. <span class="src">(<a href="https://news.ycombinator.com/item?id=50105647">HackerNews</a>)</span></span><span class="stat"><b>807</b> pts</span></div>
+<div class="row"><span class="ico">🔨</span><span class="txt"><b><a href="https://yyhh.org/blog/2026/10/ai-is-a-tool/">AI is a tool, and using it well takes skill</a></b> - A reply to Rich Hickey's "'AI' is Not a Tool". <span class="src">(<a href="https://news.ycombinator.com/item?id=50063427">HackerNews</a>)</span></span><span class="stat"><b>802</b> pts</span></div>
+<div class="row"><span class="ico">📏</span><span class="txt"><b><a href="https://twitter.com/karpathy/status/2109361546505966046">The gap in shared understanding of LLM capability is widening</a></b> - Andrej Karpathy's post, and the week's most-argued thread. <span class="src">(<a href="https://news.ycombinator.com/item?id=50047422">HackerNews</a>)</span></span><span class="stat"><b>727</b> pts · 1,072 💬</span></div>
+<div class="row"><span class="ico">🗺️</span><span class="txt"><b><a href="https://www.mercor.com/research/labor-index/benchmark-map/">90% of US working hours are spent on tasks AI benchmarks barely cover</a></b> - Mercor maps which parts of the labor force public agentic benchmarks actually measure. <span class="src">(<a href="https://news.ycombinator.com/item?id=50121179">HackerNews</a>)</span></span><span class="stat"><b>571</b> pts</span></div>
+  </section>
+
+  <footer>
+    <p>Made for builders who ship with AI. See you next week. ✌️</p>
+    <div class="foot-links"><a href="#">SUBSCRIBE</a><a href="#">ARCHIVE</a><a href="#">SUGGEST A LINK</a></div>
+  </footer>
+
+</div>
+</body>
+</html>
