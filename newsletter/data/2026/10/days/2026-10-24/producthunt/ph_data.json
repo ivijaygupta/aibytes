@@ -1,0 +1,612 @@
+{
+  "source": "producthunt",
+  "fetched_at": "2026-10-24",
+  "window": {
+    "postedAfter": "2026-10-23T00:00:00Z",
+    "postedBefore": "2026-10-25T00:00:00Z"
+  },
+  "query_params": {
+    "first": 5,
+    "order": "VOTES",
+    "featured": true
+  },
+  "totalCount": 38,
+  "posts": [
+    {
+      "id": "1289897",
+      "name": "Product Hunt Visual Launch Editor",
+      "tagline": "See your launch as you build it",
+      "description": "See your Product Hunt launch come to life as you build it! The new visual editor lets you edit your launch in fewer steps while while automatically saving your draft. You can simply click the name, tagline, gallery or makers to edit them in place. A checklist shows what's required and what will help your launch stand out, and clicking a checklist item will take you straight to the field that needs work. Drafts, scheduled launches and live launches now all use the same editor.",
+      "slug": "product-hunt-visual-launch-editor",
+      "votesCount": 392,
+      "commentsCount": 22,
+      "reviewsRating": 4.81,
+      "reviewsCount": 127,
+      "dailyRank": 1,
+      "weeklyRank": 2,
+      "url": "https://www.producthunt.com/products/producthunt?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29",
+      "website": "https://www.producthunt.com/r/Y7DEMV6KEGC3FT?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29",
+      "featuredAt": "2026-10-23T07:01:00Z",
+      "createdAt": "2026-10-23T07:01:00Z",
+      "thumbnail": {
+        "type": "image",
+        "url": "https://ph-files.imgix.net/d618ea86-70ae-4d12-8ec2-0ed78c723ddf.png?auto=format"
+      },
+      "media": [
+        {
+          "type": "video",
+          "url": "https://ph-files.imgix.net/63e7224f-3120-4869-b8c5-6aca2a63c623.jpeg?auto=format",
+          "videoUrl": "https://youtu.be/sc5_prKvxNU"
+        },
+        {
+          "type": "video",
+          "url": "https://ph-files.imgix.net/1deb2bc7-c5ed-4376-8cfc-9a97a661df8f.jpeg?auto=format",
+          "videoUrl": "https://www.youtube.com/watch?v=3Pb_pOUrp5k"
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/2c756dcc-7a27-48f6-907a-5da5fe6fe4d2.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/3ec19904-9017-4331-96b9-02b85cffcc05.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/c59ea434-527d-4c89-ad5e-c2d263661a6c.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/8712c491-46e5-4e9f-98b5-45e568da12ec.png?auto=format",
+          "videoUrl": null
+        }
+      ],
+      "productLinks": [
+        {
+          "type": "Website",
+          "url": "https://www.producthunt.com/r/Y7DEMV6KEGC3FT?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29"
+        }
+      ],
+      "topics": {
+        "nodes": [
+          {
+            "name": "Product Hunt",
+            "slug": "product-hunt"
+          },
+          {
+            "name": "Maker Tools",
+            "slug": "maker-tools"
+          },
+          {
+            "name": "Community",
+            "slug": "community"
+          }
+        ]
+      },
+      "makers": [
+        {
+          "name": "Mike Kerzhner",
+          "username": "mikekerzhner",
+          "headline": "CTO at ProductHunt",
+          "url": "https://www.producthunt.com/@mikekerzhner?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29",
+          "twitterUsername": "kerzhner"
+        },
+        {
+          "name": "Rajiv Ayyangar",
+          "username": "rajiv_ayyangar",
+          "headline": "CEO at Product Hunt",
+          "url": "https://www.producthunt.com/@rajiv_ayyangar?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29",
+          "twitterUsername": "rajivayyangar"
+        },
+        {
+          "name": "Aine O'Leary",
+          "username": "aine_o_leary",
+          "headline": "Community @ Product Hunt",
+          "url": "https://www.producthunt.com/@aine_o_leary?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29",
+          "twitterUsername": ""
+        },
+        {
+          "name": "Juan Secchi",
+          "username": "juan",
+          "headline": "Community, Support and Milanesas",
+          "url": "https://www.producthunt.com/@juan?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29",
+          "twitterUsername": ""
+        },
+        {
+          "name": "Julia Weinberg",
+          "username": "julia_weinberg",
+          "headline": "Partnerships & BizOps at Product Hunt",
+          "url": "https://www.producthunt.com/@julia_weinberg?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29",
+          "twitterUsername": ""
+        },
+        {
+          "name": "Aaron O'Leary",
+          "username": "aaronoleary",
+          "headline": "Content @ Product Hunt",
+          "url": "https://www.producthunt.com/@aaronoleary?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29",
+          "twitterUsername": "aaronoleary"
+        },
+        {
+          "name": "Mike Ciesielka",
+          "username": "mike_ciesielka1",
+          "headline": "just dabblin'",
+          "url": "https://www.producthunt.com/@mike_ciesielka1?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29",
+          "twitterUsername": "cieSielkySmooth"
+        },
+        {
+          "name": "Cory Lane",
+          "username": "cory_lane",
+          "headline": "Sales Director @ Product Hunt",
+          "url": "https://www.producthunt.com/@cory_lane?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29",
+          "twitterUsername": ""
+        },
+        {
+          "name": "Jake Crump",
+          "username": "jakecrump",
+          "headline": "GM of Core Product | Product Hunt",
+          "url": "https://www.producthunt.com/@jakecrump?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29",
+          "twitterUsername": "jakecrump"
+        },
+        {
+          "name": "Raj",
+          "username": "rajsb_",
+          "headline": "Engineering @producthunt",
+          "url": "https://www.producthunt.com/@rajsb_?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29",
+          "twitterUsername": "Rajsb_"
+        },
+        {
+          "name": "Gabe Perez",
+          "username": "gabe",
+          "headline": "Head of Product Curation @ Product Hunt",
+          "url": "https://www.producthunt.com/@gabe?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29",
+          "twitterUsername": "gabe__perez"
+        },
+        {
+          "name": "Alex Gap",
+          "username": "lagap",
+          "headline": "Engineer @ Product Hunt",
+          "url": "https://www.producthunt.com/@lagap?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29",
+          "twitterUsername": "lalexgap"
+        }
+      ],
+      "user": {
+        "name": "Gabe Perez",
+        "username": "gabe",
+        "headline": "Head of Product Curation @ Product Hunt",
+        "url": "https://www.producthunt.com/@gabe?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29"
+      }
+    },
+    {
+      "id": "1255211",
+      "name": "MOVO AI",
+      "tagline": "The world's first long-form video agent for mobile",
+      "description": "MOVO AI is the world\u2019s first AI video agent for long-form creation that works right from your phone. It also works on the web. Shoot, upload, or start with an idea, then tell MOVO AI what you want. MOVO plans, creates, refines, keeps characters and scenes consistent, and brings the whole video together. Lock your phone and MOVO keeps working. Come back to review or make changes through chat. No prompt gymnastics. No canvas-heavy workflows. No manual clip stitching.",
+      "slug": "movo-ai",
+      "votesCount": 294,
+      "commentsCount": 44,
+      "reviewsRating": 0.0,
+      "reviewsCount": 0,
+      "dailyRank": 2,
+      "weeklyRank": 10,
+      "url": "https://www.producthunt.com/products/movo-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29",
+      "website": "https://www.producthunt.com/r/JXYZH5BXNMIBOM?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29",
+      "featuredAt": "2026-10-23T07:01:00Z",
+      "createdAt": "2026-10-23T07:01:00Z",
+      "thumbnail": {
+        "type": "image",
+        "url": "https://ph-files.imgix.net/cf9a67f0-ff2c-4881-97a5-e52537350e77.png?auto=format"
+      },
+      "media": [
+        {
+          "type": "video",
+          "url": "https://ph-files.imgix.net/c0db1ecf-ccf4-4006-accb-51767a6064fc.jpeg?auto=format",
+          "videoUrl": "https://www.youtube.com/watch?v=YCAPeIzOT-8"
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/524aafcb-3fe5-4ad7-a78b-2c1d9030d5c5.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/c8ef8559-dbea-4ad3-a12c-19aee557e249.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/37bdcc1b-23be-4954-9828-af019be28b8c.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/5d1d9da8-1d6c-4822-939d-f57f926ac4ec.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/b391931b-4ce2-490c-92be-f119a2e47802.png?auto=format",
+          "videoUrl": null
+        }
+      ],
+      "productLinks": [
+        {
+          "type": "Twitter",
+          "url": "https://www.producthunt.com/r/22XAKDXQ5PSIWL?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29"
+        },
+        {
+          "type": "Instagram",
+          "url": "https://www.producthunt.com/r/PDTIJDEQEU4EP6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29"
+        },
+        {
+          "type": "Website",
+          "url": "https://www.producthunt.com/r/JXYZH5BXNMIBOM?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29"
+        },
+        {
+          "type": "Website",
+          "url": "https://www.producthunt.com/r/7V5RKUGLK2CAC2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29"
+        },
+        {
+          "type": "App Store",
+          "url": "https://www.producthunt.com/r/E22KXJOYTKKKRR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29"
+        }
+      ],
+      "topics": {
+        "nodes": [
+          {
+            "name": "iOS",
+            "slug": "ios"
+          },
+          {
+            "name": "Artificial Intelligence",
+            "slug": "artificial-intelligence"
+          },
+          {
+            "name": "Video",
+            "slug": "video"
+          }
+        ]
+      },
+      "makers": [
+        {
+          "name": "[REDACTED]",
+          "username": "[REDACTED]",
+          "headline": null,
+          "url": "[REDACTED]",
+          "twitterUsername": null
+        },
+        {
+          "name": "[REDACTED]",
+          "username": "[REDACTED]",
+          "headline": null,
+          "url": "[REDACTED]",
+          "twitterUsername": null
+        },
+        {
+          "name": "[REDACTED]",
+          "username": "[REDACTED]",
+          "headline": null,
+          "url": "[REDACTED]",
+          "twitterUsername": null
+        },
+        {
+          "name": "Stacy Li",
+          "username": "stacyli__",
+          "headline": "Marketing Specialist",
+          "url": "https://www.producthunt.com/@stacyli__?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29",
+          "twitterUsername": null
+        }
+      ],
+      "user": {
+        "name": "Zac Zuo",
+        "username": "zaczuo",
+        "headline": "Flowtica & AI Frontiers",
+        "url": "https://www.producthunt.com/@zaczuo?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29"
+      }
+    },
+    {
+      "id": "1289806",
+      "name": "Agent Hunt",
+      "tagline": "Live rankings of the tools AI agents use most",
+      "description": "Agent Hunt is a live leaderboard of the tools AI agents actually use. Every place is earned by real calls agents make through Monid.",
+      "slug": "agent-hunt",
+      "votesCount": 256,
+      "commentsCount": 6,
+      "reviewsRating": 4.0,
+      "reviewsCount": 1,
+      "dailyRank": 3,
+      "weeklyRank": 12,
+      "url": "https://www.producthunt.com/products/monid?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29",
+      "website": "https://www.producthunt.com/r/VX6RX4U6IBXRW6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29",
+      "featuredAt": "2026-10-23T07:01:00Z",
+      "createdAt": "2026-10-23T07:01:00Z",
+      "thumbnail": {
+        "type": "image",
+        "url": "https://ph-files.imgix.net/cb2e9241-d99c-442e-8834-4538179830dd.jpeg?auto=format"
+      },
+      "media": [
+        {
+          "type": "video",
+          "url": "https://ph-files.imgix.net/7fb51944-90bc-4a7d-8f7e-aad102e79bfb.jpeg?auto=format",
+          "videoUrl": "https://www.youtube.com/watch?v=t3cXqhOLTZs"
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/5fd01a00-4562-4440-abba-498b6b6e3d0e.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/2a1f942d-9af1-404a-b785-bbd4cef14009.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/0d790e87-3ff0-4da7-8ebb-54c47cbf5f72.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/00af11ed-28cf-477b-b2b1-bccabbafc48b.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/91d1bd43-9a4b-4df7-b15a-a81c869cae2a.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/93811283-f8d4-4f15-9258-7fa2ae2aec89.png?auto=format",
+          "videoUrl": null
+        }
+      ],
+      "productLinks": [
+        {
+          "type": "Github",
+          "url": "https://www.producthunt.com/r/KEOAMUYHIOXOMR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29"
+        },
+        {
+          "type": "Website",
+          "url": "https://www.producthunt.com/r/VX6RX4U6IBXRW6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29"
+        }
+      ],
+      "topics": {
+        "nodes": [
+          {
+            "name": "Developer Tools",
+            "slug": "developer-tools"
+          },
+          {
+            "name": "Artificial Intelligence",
+            "slug": "artificial-intelligence"
+          },
+          {
+            "name": "GitHub",
+            "slug": "github"
+          }
+        ]
+      },
+      "makers": [
+        {
+          "name": "[REDACTED]",
+          "username": "[REDACTED]",
+          "headline": null,
+          "url": "[REDACTED]",
+          "twitterUsername": null
+        },
+        {
+          "name": "[REDACTED]",
+          "username": "[REDACTED]",
+          "headline": null,
+          "url": "[REDACTED]",
+          "twitterUsername": null
+        },
+        {
+          "name": "[REDACTED]",
+          "username": "[REDACTED]",
+          "headline": null,
+          "url": "[REDACTED]",
+          "twitterUsername": null
+        },
+        {
+          "name": "Octo Dang",
+          "username": "octo_dang_7",
+          "headline": null,
+          "url": "https://www.producthunt.com/@octo_dang_7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29",
+          "twitterUsername": null
+        }
+      ],
+      "user": {
+        "name": "Zongrong(Jasper) Li",
+        "username": "jasper0122",
+        "headline": "",
+        "url": "https://www.producthunt.com/@jasper0122?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29"
+      }
+    },
+    {
+      "id": "1273697",
+      "name": "Ovren Live Preview",
+      "tagline": "See your product change live before it ships",
+      "description": "Describe a change in plain words. Ovren writes the code on a safe copy of your project and gives you a live preview of every frontend change \u2014 your real page, with the change on it. Click through it, approve it, and your team merges the pull request.",
+      "slug": "ovren-live-preview",
+      "votesCount": 194,
+      "commentsCount": 52,
+      "reviewsRating": 0.0,
+      "reviewsCount": 0,
+      "dailyRank": 4,
+      "weeklyRank": 19,
+      "url": "https://www.producthunt.com/products/ovren?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29",
+      "website": "https://www.producthunt.com/r/GZYWZ6Z6BGE5RV?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29",
+      "featuredAt": "2026-10-23T07:01:00Z",
+      "createdAt": "2026-10-23T07:01:00Z",
+      "thumbnail": {
+        "type": "image",
+        "url": "https://ph-files.imgix.net/f48d70b2-7862-45f1-b6e0-b74cb9e001b0.x-icon?auto=format"
+      },
+      "media": [
+        {
+          "type": "video",
+          "url": "https://ph-files.imgix.net/4608a2ed-db7f-4c71-a72c-e630937fee3d.jpeg?auto=format",
+          "videoUrl": "https://youtu.be/rjJk1IhQ0mQ"
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/db7c7fae-ae64-4dff-a4af-d8ab9657d5b1.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/2aec8786-5daa-4ba2-b14f-6b87efaa7fea.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/b7251c05-12d8-4210-890b-834a2f134633.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/79e70f84-1251-426d-b17b-463de97775c3.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/3409b7ce-4c20-455e-9708-84c5298647fc.png?auto=format",
+          "videoUrl": null
+        }
+      ],
+      "productLinks": [
+        {
+          "type": "Website",
+          "url": "https://www.producthunt.com/r/GZYWZ6Z6BGE5RV?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29"
+        }
+      ],
+      "topics": {
+        "nodes": [
+          {
+            "name": "Developer Tools",
+            "slug": "developer-tools"
+          },
+          {
+            "name": "Artificial Intelligence",
+            "slug": "artificial-intelligence"
+          },
+          {
+            "name": "No-Code",
+            "slug": "no-code"
+          }
+        ]
+      },
+      "makers": [
+        {
+          "name": "[REDACTED]",
+          "username": "[REDACTED]",
+          "headline": null,
+          "url": "[REDACTED]",
+          "twitterUsername": null
+        },
+        {
+          "name": "[REDACTED]",
+          "username": "[REDACTED]",
+          "headline": null,
+          "url": "[REDACTED]",
+          "twitterUsername": null
+        },
+        {
+          "name": "Mikita Aliaksandrovich",
+          "username": "mikita_aliaksandrovich",
+          "headline": "CEO & Founder at Ovren ",
+          "url": "https://www.producthunt.com/@mikita_aliaksandrovich?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29",
+          "twitterUsername": null
+        }
+      ],
+      "user": {
+        "name": "Rohan Chaubey",
+        "username": "rohanrecommends",
+        "headline": "\ud83e\udd47 Top Hunter | Author | Startup Advisor",
+        "url": "https://www.producthunt.com/@rohanrecommends?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29"
+      }
+    },
+    {
+      "id": "1286735",
+      "name": "ElevenLabs Realtime",
+      "tagline": "Realtime voice agent models with 570ms to first audio",
+      "description": "Eleven Realtime is ElevenLabs\u2019 new family of speech-to-speech models for voice agents. Speech recognition, turn-taking, the LLM and the voice are tuned end-to-end. v1 Mini is built for natural conversation, v1 Max for complex tasks, with 620ms and 570ms to first audio. It supports 90+ languages and works in ElevenAgents or through an OpenAI-compatible Realtime API, so you only change the endpoint and model name.",
+      "slug": "elevenlabs-realtime",
+      "votesCount": 183,
+      "commentsCount": 3,
+      "reviewsRating": 0.0,
+      "reviewsCount": 0,
+      "dailyRank": 5,
+      "weeklyRank": 23,
+      "url": "https://www.producthunt.com/products/realtime-max-mini?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29",
+      "website": "https://www.producthunt.com/r/J2VB5S23Y57R7F?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29",
+      "featuredAt": "2026-10-23T07:01:00Z",
+      "createdAt": "2026-10-23T07:01:00Z",
+      "thumbnail": {
+        "type": "image",
+        "url": "https://ph-files.imgix.net/f46fcf9c-3bc6-4b18-9cdc-ca153764002a.png?auto=format"
+      },
+      "media": [
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/4b26b4a9-9f7c-4a44-bcdf-2c6d0acff218.webp?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/35954e57-7315-4ddd-b5c3-759e3173ef32.webp?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/8caa1d84-e382-4a26-9563-eb7ff6b3b6bb.webp?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/42bc25f9-798c-4dd8-bc0a-85a0b0e6f3dd.webp?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/6adfa37e-d45f-4f02-b716-02a89c817676.webp?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "video",
+          "url": "https://ph-files.imgix.net/7c4eebfe-b218-4b3f-9a07-d6933e1d9fef.jpeg?auto=format",
+          "videoUrl": "https://www.youtube.com/watch?v=maJWhEStVBE"
+        }
+      ],
+      "productLinks": [
+        {
+          "type": "Twitter",
+          "url": "https://www.producthunt.com/r/RY5HENGHRHGK2R?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29"
+        },
+        {
+          "type": "Website",
+          "url": "https://www.producthunt.com/r/J2VB5S23Y57R7F?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29"
+        }
+      ],
+      "topics": {
+        "nodes": [
+          {
+            "name": "Artificial Intelligence",
+            "slug": "artificial-intelligence"
+          }
+        ]
+      },
+      "makers": [],
+      "user": {
+        "name": "Rohan Chaubey",
+        "username": "rohanrecommends",
+        "headline": "\ud83e\udd47 Top Hunter | Author | Startup Advisor",
+        "url": "https://www.producthunt.com/@rohanrecommends?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Bytes+%28ID%3A+225737%29"
+      }
+    }
+  ]
+}

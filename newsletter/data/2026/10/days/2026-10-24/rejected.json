@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-24",
+  "generated_at": "2026-10-24T08:00:49Z",
+  "counts": {
+    "kept": 16,
+    "rejected": 1
+  },
+  "rejected": [
+    {
+      "id": "ph-product-hunt-visual-launch-editor-2026-10-24",
+      "source": "producthunt",
+      "title": "Product Hunt Visual Launch Editor",
+      "url": "https://www.producthunt.com/products/producthunt",
+      "reason": "not-ai",
+      "detail": "no AI keyword or domain in the tagline, description or topics"
+    }
+  ]
+}

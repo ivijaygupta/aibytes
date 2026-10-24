@@ -1,0 +1,481 @@
+{
+  "date": "2026-10-24",
+  "generated_at": "2026-10-24T08:00:15Z",
+  "instructions": "Write one line per item in the aiBytes_ voice - dense, calm, honest, technical. Say what the thing does, not why it matters. At most 200 characters, one sentence, no em dashes. Then pick 1 to 4 tags per item from `tags` below, by their exact display name. Answer with the summaries file described in the curate-edition skill.",
+  "tags": [
+    {
+      "name": "What it is",
+      "tags": [
+        {
+          "name": "Model Release",
+          "slug": "model-release"
+        },
+        {
+          "name": "Open Source",
+          "slug": "open-source"
+        },
+        {
+          "name": "Paper",
+          "slug": "paper"
+        },
+        {
+          "name": "Benchmark",
+          "slug": "benchmark"
+        },
+        {
+          "name": "Dataset",
+          "slug": "dataset"
+        },
+        {
+          "name": "Framework",
+          "slug": "framework"
+        },
+        {
+          "name": "Dev Tool",
+          "slug": "dev-tool"
+        },
+        {
+          "name": "API",
+          "slug": "api"
+        }
+      ]
+    },
+    {
+      "name": "Domain",
+      "tags": [
+        {
+          "name": "LLM",
+          "slug": "llm"
+        },
+        {
+          "name": "Agents",
+          "slug": "agents"
+        },
+        {
+          "name": "RAG",
+          "slug": "rag"
+        },
+        {
+          "name": "Fine-tuning",
+          "slug": "fine-tuning"
+        },
+        {
+          "name": "Inference",
+          "slug": "inference"
+        },
+        {
+          "name": "Local LLM",
+          "slug": "local-llm"
+        },
+        {
+          "name": "Vision",
+          "slug": "vision"
+        },
+        {
+          "name": "Voice / Speech",
+          "slug": "voice-speech"
+        },
+        {
+          "name": "Video",
+          "slug": "video"
+        },
+        {
+          "name": "Image Gen",
+          "slug": "image-gen"
+        },
+        {
+          "name": "Code Gen",
+          "slug": "code-gen"
+        },
+        {
+          "name": "Embeddings",
+          "slug": "embeddings"
+        },
+        {
+          "name": "Eval",
+          "slug": "eval"
+        },
+        {
+          "name": "Reasoning",
+          "slug": "reasoning"
+        },
+        {
+          "name": "Multimodal",
+          "slug": "multimodal"
+        },
+        {
+          "name": "Robotics",
+          "slug": "robotics"
+        }
+      ]
+    },
+    {
+      "name": "Ecosystem",
+      "tags": [
+        {
+          "name": "OpenAI",
+          "slug": "openai"
+        },
+        {
+          "name": "Anthropic",
+          "slug": "anthropic"
+        },
+        {
+          "name": "Google",
+          "slug": "google"
+        },
+        {
+          "name": "Meta",
+          "slug": "meta"
+        },
+        {
+          "name": "Nvidia",
+          "slug": "nvidia"
+        },
+        {
+          "name": "Hugging Face",
+          "slug": "hugging-face"
+        },
+        {
+          "name": "Mistral",
+          "slug": "mistral"
+        },
+        {
+          "name": "xAI",
+          "slug": "xai"
+        },
+        {
+          "name": "Apple",
+          "slug": "apple"
+        },
+        {
+          "name": "Microsoft",
+          "slug": "microsoft"
+        },
+        {
+          "name": "Claude Code",
+          "slug": "claude-code"
+        },
+        {
+          "name": "Cursor",
+          "slug": "cursor"
+        },
+        {
+          "name": "MCP",
+          "slug": "mcp"
+        }
+      ]
+    },
+    {
+      "name": "Business",
+      "tags": [
+        {
+          "name": "Funding",
+          "slug": "funding"
+        },
+        {
+          "name": "Acquisition",
+          "slug": "acquisition"
+        },
+        {
+          "name": "Launch",
+          "slug": "launch"
+        },
+        {
+          "name": "Pricing",
+          "slug": "pricing"
+        },
+        {
+          "name": "Policy",
+          "slug": "policy"
+        },
+        {
+          "name": "Legal",
+          "slug": "legal"
+        },
+        {
+          "name": "Security",
+          "slug": "security"
+        },
+        {
+          "name": "Privacy",
+          "slug": "privacy"
+        },
+        {
+          "name": "Safety",
+          "slug": "safety"
+        }
+      ]
+    },
+    {
+      "name": "Format",
+      "tags": [
+        {
+          "name": "Show HN",
+          "slug": "show-hn"
+        },
+        {
+          "name": "Tutorial",
+          "slug": "tutorial"
+        },
+        {
+          "name": "Deep Dive",
+          "slug": "deep-dive"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "ph-movo-ai-2026-10-24",
+      "title": "MOVO AI",
+      "category": "launches",
+      "source": "producthunt",
+      "url": "https://movoai.pro/",
+      "source_url": "https://www.producthunt.com/products/movo-ai",
+      "source_text": "MOVO AI The world's first long-form video agent for mobile MOVO AI is the world’s first AI video agent for long-form creation that works right from your phone. It also works on the web. Shoot, upload, or start with an idea, then tell MOVO AI what you want. MOVO plans, creates, refines, keeps characters and scenes consistent, and brings the whole video together. Lock your phone and MOVO keeps working. Come back to review or make changes through chat. No prompt gymnastics. No canvas-heavy workflows. No manual clip stitching. iOS Artificial Intelligence Video",
+      "signals": {
+        "upvotes": 294,
+        "comments": 44
+      },
+      "published_at": "2026-10-23T07:01:00Z"
+    },
+    {
+      "id": "ph-agent-hunt-2026-10-24",
+      "title": "Agent Hunt",
+      "category": "launches",
+      "source": "producthunt",
+      "url": "https://monid.ai/rankings",
+      "source_url": "https://www.producthunt.com/products/monid",
+      "source_text": "Agent Hunt Live rankings of the tools AI agents use most Agent Hunt is a live leaderboard of the tools AI agents actually use. Every place is earned by real calls agents make through Monid. Developer Tools Artificial Intelligence GitHub",
+      "signals": {
+        "upvotes": 256,
+        "comments": 6
+      },
+      "published_at": "2026-10-23T07:01:00Z"
+    },
+    {
+      "id": "ph-ovren-live-preview-2026-10-24",
+      "title": "Ovren Live Preview",
+      "category": "launches",
+      "source": "producthunt",
+      "url": "https://www.ovren.ai/",
+      "source_url": "https://www.producthunt.com/products/ovren",
+      "source_text": "Ovren Live Preview See your product change live before it ships Describe a change in plain words. Ovren writes the code on a safe copy of your project and gives you a live preview of every frontend change — your real page, with the change on it. Click through it, approve it, and your team merges the pull request. Developer Tools Artificial Intelligence No-Code",
+      "signals": {
+        "upvotes": 194,
+        "comments": 52
+      },
+      "published_at": "2026-10-23T07:01:00Z"
+    },
+    {
+      "id": "ph-elevenlabs-realtime-2026-10-24",
+      "title": "ElevenLabs Realtime",
+      "category": "launches",
+      "source": "producthunt",
+      "url": "https://elevenlabs.io/realtime",
+      "source_url": "https://www.producthunt.com/products/realtime-max-mini",
+      "source_text": "ElevenLabs Realtime Realtime voice agent models with 570ms to first audio Eleven Realtime is ElevenLabs’ new family of speech-to-speech models for voice agents. Speech recognition, turn-taking, the LLM and the voice are tuned end-to-end. v1 Mini is built for natural conversation, v1 Max for complex tasks, with 620ms and 570ms to first audio. It supports 90+ languages and works in ElevenAgents or through an OpenAI-compatible Realtime API, so you only change the endpoint and model name. Artificial Intelligence",
+      "signals": {
+        "upvotes": 183,
+        "comments": 3
+      },
+      "published_at": "2026-10-23T07:01:00Z"
+    },
+    {
+      "id": "hn-show-hn-we-had-ai-write-a-wiki-from-45k-enron-2026-10-24",
+      "title": "Show HN: We had AI write a wiki from 45k Enron emails, every fact cited",
+      "category": "launches",
+      "source": "hackernews",
+      "url": "https://www.thisandthat.chat/enron/",
+      "source_url": "https://news.ycombinator.com/item?id=50207620",
+      "source_text": "Show HN: We had AI write a wiki from 45k Enron emails, every fact cited",
+      "signals": {
+        "points": 61,
+        "comments": 53
+      },
+      "meta": {
+        "author": "jreynar"
+      },
+      "published_at": "2026-10-23T12:02:53Z"
+    },
+    {
+      "id": "gh-security-audit-skill-2026-10-24",
+      "title": "cloudflare/security-audit-skill",
+      "category": "repos",
+      "source": "github",
+      "url": "https://github.com/cloudflare/security-audit-skill",
+      "source_url": "https://github.com/cloudflare/security-audit-skill",
+      "source_text": "cloudflare/security-audit-skill A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings JavaScript",
+      "signals": {
+        "stars": 42666,
+        "stars_gained": 2716,
+        "forks": 2663
+      },
+      "meta": {
+        "language": "JavaScript"
+      }
+    },
+    {
+      "id": "gh-openshell-2026-10-24",
+      "title": "NVIDIA/OpenShell",
+      "category": "repos",
+      "source": "github",
+      "url": "https://github.com/NVIDIA/OpenShell",
+      "source_url": "https://github.com/NVIDIA/OpenShell",
+      "source_text": "NVIDIA/OpenShell OpenShell is the safe, private runtime for autonomous AI agents. Rust",
+      "signals": {
+        "stars": 18988,
+        "stars_gained": 1119,
+        "forks": 1897
+      },
+      "meta": {
+        "language": "Rust"
+      }
+    },
+    {
+      "id": "gh-knowledge-work-plugins-2026-10-24",
+      "title": "anthropics/knowledge-work-plugins",
+      "category": "repos",
+      "source": "github",
+      "url": "https://github.com/anthropics/knowledge-work-plugins",
+      "source_url": "https://github.com/anthropics/knowledge-work-plugins",
+      "source_text": "anthropics/knowledge-work-plugins Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork Python",
+      "signals": {
+        "stars": 32405,
+        "stars_gained": 635,
+        "forks": 3582
+      },
+      "meta": {
+        "language": "Python"
+      }
+    },
+    {
+      "id": "gh-claude-red-2026-10-24",
+      "title": "SnailSploit/Claude-Red",
+      "category": "repos",
+      "source": "github",
+      "url": "https://github.com/SnailSploit/Claude-Red",
+      "source_url": "https://github.com/SnailSploit/Claude-Red",
+      "source_text": "SnailSploit/Claude-Red claude-red is a curated library of offensive security skills designed for the Claude skills system. Each skill is a structured SKILL.md file that primes Claude with expert-level methodology for a specific attack surface — from SQLi to shellcode, EDR evasion to exploit development. Python",
+      "signals": {
+        "stars": 8678,
+        "stars_gained": 226,
+        "forks": 1114
+      },
+      "meta": {
+        "language": "Python"
+      }
+    },
+    {
+      "id": "tc-openai-says-it-will-no-longer-train-its-ai-2026-10-24",
+      "title": "OpenAI says it will no longer train its AI models on the live internet, citing “significant risks”",
+      "category": "news",
+      "source": "techcrunch",
+      "url": "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/",
+      "source_url": "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/",
+      "source_text": "OpenAI says it will no longer train its AI models on the live internet, citing “significant risks” OpenAI will cut frontier models off from the internet weeks after one of its engineers said that solution wouldn't work.",
+      "meta": {
+        "author": "Tim Fernholz",
+        "reading_time": "3 minutes"
+      },
+      "published_at": "2026-10-23T23:05:49Z"
+    },
+    {
+      "id": "tc-hottest-toy-for-christmas-nvidia-ceo-plays-with-2026-10-24",
+      "title": "Hottest toy for Christmas? Nvidia CEO plays with adorable Microduck robots, 20,000 sell",
+      "category": "news",
+      "source": "techcrunch",
+      "url": "https://techcrunch.com/2026/10/23/hottest-toy-for-christmas-nvidia-ceo-plays-with-adorable-microduck-robots-20000-sell/",
+      "source_url": "https://techcrunch.com/2026/10/23/hottest-toy-for-christmas-nvidia-ceo-plays-with-adorable-microduck-robots-20000-sell/",
+      "source_text": "Hottest toy for Christmas? Nvidia CEO plays with adorable Microduck robots, 20,000 sell The robots, stomping their little feet and making tiny R2-D2 noises, sat, fell down dead for a \"nap,\" and summersaulted on voice command.",
+      "meta": {
+        "author": "Julie Bort",
+        "reading_time": "2 minutes"
+      },
+      "published_at": "2026-10-23T21:59:19Z"
+    },
+    {
+      "id": "tc-from-toast-to-bessemer-who-founders-will-hear-2026-10-24",
+      "title": "From Toast to Bessemer: Who founders will hear from at TechCrunch Founder Summit 2026",
+      "category": "news",
+      "source": "techcrunch",
+      "url": "https://techcrunch.com/2026/10/23/from-toast-to-bessemer-who-founders-will-hear-from-at-techcrunch-founder-summit-2026/",
+      "source_url": "https://techcrunch.com/2026/10/23/from-toast-to-bessemer-who-founders-will-hear-from-at-techcrunch-founder-summit-2026/",
+      "source_text": "From Toast to Bessemer: Who founders will hear from at TechCrunch Founder Summit 2026 Hosted by TechCrunch in partnership with Fidelity Private Shares, the full-day event goes beyond fundraising and AI to explore the realities of finding customers, building teams, sharpening a pitch, developing founder leadership, and scaling companies both inside and outside traditional startup hubs.",
+      "meta": {
+        "author": "TechCrunch Events",
+        "reading_time": "6 minutes"
+      },
+      "published_at": "2026-10-23T19:06:23Z"
+    },
+    {
+      "id": "hn-swedish-government-offices-to-ban-chatgpt-and-2026-10-24",
+      "title": "Swedish government offices to ban ChatGPT and Claude",
+      "category": "hn",
+      "source": "hackernews",
+      "url": "https://www.sverigesradio.se/artikel/chat-gpt-och-claude-forbjuder-regeringskansliet",
+      "source_url": "https://news.ycombinator.com/item?id=50207405",
+      "source_text": "Swedish government offices to ban ChatGPT and Claude",
+      "signals": {
+        "points": 317,
+        "comments": 119
+      },
+      "meta": {
+        "author": "armcat"
+      },
+      "published_at": "2026-10-23T11:39:54Z"
+    },
+    {
+      "id": "hn-the-same-ai-request-emits-8-5-times-more-co2-in-2026-10-24",
+      "title": "The same AI request emits 8.5 times more CO2 in Texas than in Sweden",
+      "category": "hn",
+      "source": "hackernews",
+      "url": "https://berget.ai/en/blog/per-request-co2-press-release",
+      "source_url": "https://news.ycombinator.com/item?id=50205229",
+      "source_text": "The same AI request emits 8.5 times more CO2 in Texas than in Sweden",
+      "signals": {
+        "points": 140,
+        "comments": 155
+      },
+      "meta": {
+        "author": "jlundberg"
+      },
+      "published_at": "2026-10-23T06:41:11Z"
+    },
+    {
+      "id": "hn-securing-our-frontier-model-training-environment-2026-10-24",
+      "title": "Securing our frontier model training environment",
+      "category": "hn",
+      "source": "hackernews",
+      "url": "https://openai.com/index/securing-our-frontier-model-training-environment/",
+      "source_url": "https://news.ycombinator.com/item?id=50214416",
+      "source_text": "Securing our frontier model training environment",
+      "signals": {
+        "points": 102,
+        "comments": 103
+      },
+      "meta": {
+        "author": "pretext"
+      },
+      "published_at": "2026-10-23T19:50:56Z"
+    },
+    {
+      "id": "hn-new-ai-is-more-than-twice-as-good-at-diagnosing-2026-10-24",
+      "title": "New AI Is More Than Twice as Good at Diagnosing Diseases as Doctors",
+      "category": "hn",
+      "source": "hackernews",
+      "url": "https://gizmodo.com/microsoft-says-its-new-ai-is-more-than-twice-as-good-at-diagnosing-diseases-as-doctors-2000829562",
+      "source_url": "https://news.ycombinator.com/item?id=50214185",
+      "source_text": "New AI Is More Than Twice as Good at Diagnosing Diseases as Doctors",
+      "signals": {
+        "points": 55,
+        "comments": 43
+      },
+      "meta": {
+        "author": "njx"
+      },
+      "published_at": "2026-10-23T19:31:36Z"
+    }
+  ]
+}
