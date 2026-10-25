@@ -1,0 +1,70 @@
+{
+  "source": "hackernews",
+  "section": "ai-news",
+  "fetched_at": "2026-10-25",
+  "window": {
+    "after": "2026-10-24",
+    "before": "2026-10-26"
+  },
+  "query_params": {
+    "tags": "story",
+    "count": 10,
+    "min_points": 50,
+    "topic": "ai",
+    "ranking": "points,recency"
+  },
+  "totalCount": 5,
+  "poolCount": 47,
+  "stories": [
+    {
+      "title": "No signs of AI payoff outside the tech sector",
+      "url": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector",
+      "type": "story",
+      "points": 544,
+      "num_comments": 562,
+      "author": "the-mitr",
+      "created_at": "2026-10-24T19:47:19Z",
+      "hn_url": "https://news.ycombinator.com/item?id=50224463"
+    },
+    {
+      "title": "America has lost 200k of jobs in media, film and the arts. How much is AI?",
+      "url": "https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class",
+      "type": "story",
+      "points": 325,
+      "num_comments": 322,
+      "author": "gnabgib",
+      "created_at": "2026-10-24T23:11:54Z",
+      "hn_url": "https://news.ycombinator.com/item?id=50226419"
+    },
+    {
+      "title": "Why is AI generated language so hard to understand?",
+      "url": "https://arxiv.org/abs/2610.29162",
+      "type": "story",
+      "points": 186,
+      "num_comments": 165,
+      "author": "canjobear",
+      "created_at": "2026-10-24T18:04:57Z",
+      "hn_url": "https://news.ycombinator.com/item?id=50223647"
+    },
+    {
+      "title": "Cerebras Deploys Trillion-Parameter AI Models",
+      "url": "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras",
+      "type": "story",
+      "points": 123,
+      "num_comments": 42,
+      "author": "gmays",
+      "created_at": "2026-10-25T01:33:49Z",
+      "hn_url": "https://news.ycombinator.com/item?id=50227356"
+    },
+    {
+      "title": "AI-Assisted Paper on Z-Library Cites a TorrentFreak Article That Doesn't Exist",
+      "url": "https://torrentfreak.com/ai-assisted-paper-on-z-library-cites-a-torrentfreak-article-that-doesnt-exist/",
+      "type": "story",
+      "points": 96,
+      "num_comments": 50,
+      "author": "TangerineDream",
+      "created_at": "2026-10-24T11:18:54Z",
+      "hn_url": "https://news.ycombinator.com/item?id=50220204"
+    }
+  ]
+}

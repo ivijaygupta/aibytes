@@ -1,0 +1,562 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-25",
+  "generated_at": "2026-10-25T08:00:54Z",
+  "counts": {
+    "launches": 4,
+    "repos": 8,
+    "news": 4,
+    "hn": 5
+  },
+  "items": [
+    {
+      "id": "ph-zcad-ai-2026-10-25",
+      "title": "zCAD AI",
+      "summary": "Generates editable, dimension-driven parametric CAD models and full assemblies with mates from a text prompt, edited in a browser CAD editor and exported to STEP.",
+      "url": "https://zcad.ai/products/ai",
+      "source": "producthunt",
+      "source_url": "https://www.producthunt.com/products/zcad-ai",
+      "category": "launches",
+      "tags": [
+        "Dev Tool",
+        "Multimodal",
+        "Launch"
+      ],
+      "image": {
+        "type": "logo",
+        "url": "https://ph-files.imgix.net/403bf260-a186-4e77-a6b8-9f9f9a8eb757.png?auto=format"
+      },
+      "signals": {
+        "upvotes": 293,
+        "comments": 33
+      },
+      "published_at": "2026-10-24T07:01:00Z",
+      "hidden": false,
+      "rank": 4
+    },
+    {
+      "id": "ph-mypip-2-2026-10-25",
+      "title": "myPip",
+      "summary": "Builds playable browser games from a text description, with multiplayer, in-app purchases and ads wired in for publishing beyond the browser.",
+      "url": "https://mypip.dev/",
+      "source": "producthunt",
+      "source_url": "https://www.producthunt.com/products/mypip-2",
+      "category": "launches",
+      "tags": [
+        "Dev Tool",
+        "Code Gen",
+        "Launch"
+      ],
+      "image": {
+        "type": "logo",
+        "url": "https://ph-files.imgix.net/9c1a698d-fc18-4fd5-9ae2-a434934ec6be.png?auto=format"
+      },
+      "signals": {
+        "upvotes": 247,
+        "comments": 17
+      },
+      "published_at": "2026-10-24T07:01:00Z",
+      "hidden": false,
+      "rank": 9
+    },
+    {
+      "id": "ph-1password-for-agents-2026-10-25",
+      "title": "1Password for Agents",
+      "summary": "Agents hitting a login ask 1Password, you approve on your own device, and it fills the password or OTP without exposing it or the vault; in Individual and Family plans.",
+      "url": "https://1password.com/personal-ai-agent-integrations",
+      "source": "producthunt",
+      "source_url": "https://www.producthunt.com/products/1password",
+      "category": "launches",
+      "tags": [
+        "Agents",
+        "Security",
+        "Launch"
+      ],
+      "image": {
+        "type": "logo",
+        "url": "https://ph-files.imgix.net/6aa4f1ca-12c9-4f65-93e1-b32bfefde948.png?auto=format"
+      },
+      "signals": {
+        "upvotes": 226,
+        "comments": 7
+      },
+      "published_at": "2026-10-24T07:01:00Z",
+      "hidden": false,
+      "rank": 14
+    },
+    {
+      "id": "ph-agentvalley-2026-10-25",
+      "title": "AgentValley",
+      "summary": "Free, open-source MacBook notch app that shows every Claude Code session and sub-agent as a card, with its model and whether it is waiting on you.",
+      "url": "https://agentvalley.app",
+      "source": "producthunt",
+      "source_url": "https://www.producthunt.com/products/agentvalley",
+      "category": "launches",
+      "tags": [
+        "Dev Tool",
+        "Claude Code",
+        "Open Source",
+        "Launch"
+      ],
+      "image": {
+        "type": "logo",
+        "url": "https://ph-files.imgix.net/d6339e83-f70c-466e-ac7e-03eb3895bf6a.png?auto=format"
+      },
+      "signals": {
+        "upvotes": 147,
+        "comments": 14
+      },
+      "published_at": "2026-10-24T07:01:00Z",
+      "hidden": false,
+      "rank": 19
+    },
+    {
+      "id": "gh-security-audit-skill-2026-10-25",
+      "title": "cloudflare/security-audit-skill",
+      "summary": "Cloudflare's coding-agent skill that runs a multi-phase security audit and emits findings that are independently verified and machine-readable, written in JavaScript.",
+      "url": "https://github.com/cloudflare/security-audit-skill",
+      "source": "github",
+      "source_url": "https://github.com/cloudflare/security-audit-skill",
+      "category": "repos",
+      "tags": [
+        "Dev Tool",
+        "Agents",
+        "Security"
+      ],
+      "image": {
+        "type": "avatar",
+        "url": "https://github.com/cloudflare.png?size=80"
+      },
+      "signals": {
+        "stars": 45327,
+        "stars_gained": 2264,
+        "forks": 2811
+      },
+      "meta": {
+        "language": "JavaScript"
+      },
+      "hidden": false,
+      "rank": 1
+    },
+    {
+      "id": "gh-openshell-2026-10-25",
+      "title": "NVIDIA/OpenShell",
+      "summary": "Nvidia's Rust runtime for running autonomous AI agents in a sandboxed, private environment.",
+      "url": "https://github.com/NVIDIA/OpenShell",
+      "source": "github",
+      "source_url": "https://github.com/NVIDIA/OpenShell",
+      "category": "repos",
+      "tags": [
+        "Open Source",
+        "Agents",
+        "Nvidia",
+        "Security"
+      ],
+      "image": {
+        "type": "avatar",
+        "url": "https://github.com/NVIDIA.png?size=80"
+      },
+      "signals": {
+        "stars": 19655,
+        "stars_gained": 896,
+        "forks": 1941
+      },
+      "meta": {
+        "language": "Rust"
+      },
+      "hidden": false,
+      "rank": 5
+    },
+    {
+      "id": "gh-impeccable-2026-10-25",
+      "title": "pbakaus/impeccable",
+      "summary": "A design language, built in Rust, that an AI coding harness loads to produce better-designed interfaces.",
+      "url": "https://github.com/pbakaus/impeccable",
+      "source": "github",
+      "source_url": "https://github.com/pbakaus/impeccable",
+      "category": "repos",
+      "tags": [
+        "Dev Tool",
+        "Code Gen"
+      ],
+      "image": {
+        "type": "avatar",
+        "url": "https://github.com/pbakaus.png?size=80"
+      },
+      "signals": {
+        "stars": 86700,
+        "stars_gained": 619,
+        "forks": 5177
+      },
+      "meta": {
+        "language": "Rust"
+      },
+      "hidden": false,
+      "rank": 7
+    },
+    {
+      "id": "gh-cindy-2026-10-25",
+      "title": "makecindy/cindy",
+      "summary": "Open-source TypeScript general-purpose AI agent meant to run without setup, with a bilingual English and Chinese project.",
+      "url": "https://github.com/makecindy/cindy",
+      "source": "github",
+      "source_url": "https://github.com/makecindy/cindy",
+      "category": "repos",
+      "tags": [
+        "Open Source",
+        "Agents"
+      ],
+      "image": {
+        "type": "avatar",
+        "url": "https://github.com/makecindy.png?size=80"
+      },
+      "signals": {
+        "stars": 4298,
+        "stars_gained": 477,
+        "forks": 617
+      },
+      "meta": {
+        "language": "TypeScript"
+      },
+      "hidden": false,
+      "rank": 10
+    },
+    {
+      "id": "gh-hallmark-2026-10-25",
+      "title": "Nutlope/hallmark",
+      "summary": "A CSS design skill for Claude Code, Cursor and Codex that steers generated UIs away from generic AI-default styling.",
+      "url": "https://github.com/Nutlope/hallmark",
+      "source": "github",
+      "source_url": "https://github.com/Nutlope/hallmark",
+      "category": "repos",
+      "tags": [
+        "Dev Tool",
+        "Code Gen",
+        "Claude Code"
+      ],
+      "image": {
+        "type": "avatar",
+        "url": "https://github.com/Nutlope.png?size=80"
+      },
+      "signals": {
+        "stars": 32559,
+        "stars_gained": 455,
+        "forks": 1681
+      },
+      "meta": {
+        "language": "CSS"
+      },
+      "hidden": false,
+      "rank": 12
+    },
+    {
+      "id": "gh-claude-howto-2026-10-25",
+      "title": "luongnv89/claude-howto",
+      "summary": "Example-driven visual guide to Claude Code that runs from basic concepts to advanced agents, with copy-paste templates.",
+      "url": "https://github.com/luongnv89/claude-howto",
+      "source": "github",
+      "source_url": "https://github.com/luongnv89/claude-howto",
+      "category": "repos",
+      "tags": [
+        "Tutorial",
+        "Claude Code"
+      ],
+      "image": {
+        "type": "avatar",
+        "url": "https://github.com/luongnv89.png?size=80"
+      },
+      "signals": {
+        "stars": 44760,
+        "stars_gained": 392,
+        "forks": 5505
+      },
+      "meta": {
+        "language": "Python"
+      },
+      "hidden": false,
+      "rank": 16
+    },
+    {
+      "id": "gh-gemini-cli-2026-10-25",
+      "title": "google-gemini/gemini-cli",
+      "summary": "Google's open-source TypeScript agent that runs Gemini models in the terminal.",
+      "url": "https://github.com/google-gemini/gemini-cli",
+      "source": "github",
+      "source_url": "https://github.com/google-gemini/gemini-cli",
+      "category": "repos",
+      "tags": [
+        "Dev Tool",
+        "Agents",
+        "Google",
+        "Open Source"
+      ],
+      "image": {
+        "type": "avatar",
+        "url": "https://github.com/google-gemini.png?size=80"
+      },
+      "signals": {
+        "stars": 108261,
+        "stars_gained": 44,
+        "forks": 14824
+      },
+      "meta": {
+        "language": "TypeScript"
+      },
+      "hidden": false,
+      "rank": 17
+    },
+    {
+      "id": "gh-agent-toolkit-for-aws-2026-10-25",
+      "title": "aws/agent-toolkit-for-aws",
+      "summary": "AWS-supported collection of MCP servers, skills and plugins that let coding agents build on AWS services.",
+      "url": "https://github.com/aws/agent-toolkit-for-aws",
+      "source": "github",
+      "source_url": "https://github.com/aws/agent-toolkit-for-aws",
+      "category": "repos",
+      "tags": [
+        "Dev Tool",
+        "Agents",
+        "MCP"
+      ],
+      "image": {
+        "type": "avatar",
+        "url": "https://github.com/aws.png?size=80"
+      },
+      "signals": {
+        "stars": 3223,
+        "stars_gained": 13,
+        "forks": 403
+      },
+      "meta": {
+        "language": "Python"
+      },
+      "hidden": false,
+      "rank": 21
+    },
+    {
+      "id": "tc-forced-to-pick-groks-ai-model-chooses-2026-10-25",
+      "title": "Forced to pick, Grok’s AI model chooses Republicans. OpenAI’s picks Democrats.",
+      "summary": "Across nearly 500 election races, the two models disagreed in more than 90% of them, according to a new study of their candidate recommendations.",
+      "url": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/",
+      "source": "techcrunch",
+      "source_url": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/",
+      "category": "news",
+      "tags": [
+        "LLM",
+        "Safety",
+        "xAI",
+        "OpenAI"
+      ],
+      "image": {
+        "type": "thumbnail",
+        "url": "https://techcrunch.com/wp-content/uploads/2026/10/GettyImages-1777713346.jpg?resize=1200,900"
+      },
+      "meta": {
+        "author": "Rebecca Bellan",
+        "reading_time": "6 minutes"
+      },
+      "published_at": "2026-10-24T15:00:00Z",
+      "hidden": false,
+      "rank": 3
+    },
+    {
+      "id": "tc-the-ai-graveyard-a-running-list-of-projects-and-2026-10-25",
+      "title": "The AI graveyard: a running list of projects and startups that didn’t make it",
+      "summary": "TechCrunch's tracker of AI projects that shut down or underdelivered, from Apple's repeatedly delayed Siri AI to OpenAI's messy super app launch.",
+      "url": "https://techcrunch.com/2026/10/24/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
+      "source": "techcrunch",
+      "source_url": "https://techcrunch.com/2026/10/24/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
+      "category": "news",
+      "tags": [
+        "Deep Dive"
+      ],
+      "image": {
+        "type": "thumbnail",
+        "url": "https://techcrunch.com/wp-content/uploads/2019/12/GettyImages-95927766-1.jpg?resize=1200,797"
+      },
+      "meta": {
+        "author": "Lauren Forristal",
+        "reading_time": "8 minutes"
+      },
+      "published_at": "2026-10-24T19:00:00Z",
+      "hidden": false,
+      "rank": 8
+    },
+    {
+      "id": "tc-blocks-new-voice-model-sounds-eerily-human-2026-10-25",
+      "title": "Block’s new voice model sounds eerily human",
+      "summary": "Block says its new voice model can run locally on a MacBook M4 Max.",
+      "url": "https://techcrunch.com/2026/10/24/blocks-new-voice-model-sounds-eerily-human/",
+      "source": "techcrunch",
+      "source_url": "https://techcrunch.com/2026/10/24/blocks-new-voice-model-sounds-eerily-human/",
+      "category": "news",
+      "tags": [
+        "Model Release",
+        "Voice / Speech",
+        "Local LLM"
+      ],
+      "image": {
+        "type": "thumbnail",
+        "url": "https://techcrunch.com/wp-content/uploads/2025/07/jack-dorsey.jpg?resize=1200,822"
+      },
+      "meta": {
+        "author": "Ivan Mehta",
+        "reading_time": "3 minutes"
+      },
+      "published_at": "2026-10-24T16:00:00Z",
+      "hidden": false,
+      "rank": 13
+    },
+    {
+      "id": "tc-here-are-the-top-ai-agents-that-can-live-in-2026-10-25",
+      "title": "Here are the top AI agents that can live in your text messages",
+      "summary": "TechCrunch roundup of agents that work over SMS and messaging, from general assistants to ones built for families, travel and work.",
+      "url": "https://techcrunch.com/2026/10/24/all-the-ai-agents-that-can-live-in-your-text-messages/",
+      "source": "techcrunch",
+      "source_url": "https://techcrunch.com/2026/10/24/all-the-ai-agents-that-can-live-in-your-text-messages/",
+      "category": "news",
+      "tags": [
+        "Agents"
+      ],
+      "image": {
+        "type": "thumbnail",
+        "url": "https://techcrunch.com/wp-content/uploads/2017/12/gettyimages-673436934.jpg?resize=1200,813"
+      },
+      "meta": {
+        "author": "Lauren Forristal",
+        "reading_time": "16 minutes"
+      },
+      "published_at": "2026-10-24T14:00:00Z",
+      "hidden": false,
+      "rank": 18
+    },
+    {
+      "id": "hn-no-signs-of-ai-payoff-outside-the-tech-sector-2026-10-25",
+      "title": "No signs of AI payoff outside the tech sector",
+      "summary": "An Apollo Daily Spark markets note arguing that AI is not yet showing a measurable payoff for companies outside the tech sector.",
+      "url": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector",
+      "source": "hackernews",
+      "source_url": "https://news.ycombinator.com/item?id=50224463",
+      "category": "hn",
+      "tags": [
+        "LLM"
+      ],
+      "image": {
+        "type": "none"
+      },
+      "signals": {
+        "points": 544,
+        "comments": 562
+      },
+      "meta": {
+        "author": "the-mitr"
+      },
+      "published_at": "2026-10-24T19:47:19Z",
+      "hidden": false,
+      "rank": 2
+    },
+    {
+      "id": "hn-america-has-lost-200k-of-jobs-in-media-film-and-2026-10-25",
+      "title": "America has lost 200k of jobs in media, film and the arts. How much is AI?",
+      "summary": "An Apricitas Economics analysis of the drop in US media, film and arts employment, asking how much of it AI explains.",
+      "url": "https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class",
+      "source": "hackernews",
+      "source_url": "https://news.ycombinator.com/item?id=50226419",
+      "category": "hn",
+      "tags": [
+        "Deep Dive"
+      ],
+      "image": {
+        "type": "none"
+      },
+      "signals": {
+        "points": 325,
+        "comments": 322
+      },
+      "meta": {
+        "author": "gnabgib"
+      },
+      "published_at": "2026-10-24T23:11:54Z",
+      "hidden": false,
+      "rank": 6
+    },
+    {
+      "id": "hn-why-is-ai-generated-language-so-hard-to-2026-10-25",
+      "title": "Why is AI generated language so hard to understand?",
+      "summary": "An arXiv paper on why text produced by language models is harder for readers to understand than human writing.",
+      "url": "https://arxiv.org/abs/2610.29162",
+      "source": "hackernews",
+      "source_url": "https://news.ycombinator.com/item?id=50223647",
+      "category": "hn",
+      "tags": [
+        "Paper",
+        "LLM"
+      ],
+      "image": {
+        "type": "none"
+      },
+      "signals": {
+        "points": 186,
+        "comments": 165
+      },
+      "meta": {
+        "author": "canjobear"
+      },
+      "published_at": "2026-10-24T18:04:57Z",
+      "hidden": false,
+      "rank": 11
+    },
+    {
+      "id": "hn-cerebras-deploys-trillion-parameter-ai-models-2026-10-25",
+      "title": "Cerebras Deploys Trillion-Parameter AI Models",
+      "summary": "A Cerebras engineering blog post on how the company serves trillion-parameter frontier models on its own hardware.",
+      "url": "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras",
+      "source": "hackernews",
+      "source_url": "https://news.ycombinator.com/item?id=50227356",
+      "category": "hn",
+      "tags": [
+        "Inference",
+        "Deep Dive"
+      ],
+      "image": {
+        "type": "none"
+      },
+      "signals": {
+        "points": 123,
+        "comments": 42
+      },
+      "meta": {
+        "author": "gmays"
+      },
+      "published_at": "2026-10-25T01:33:49Z",
+      "hidden": false,
+      "rank": 15
+    },
+    {
+      "id": "hn-ai-assisted-paper-on-z-library-cites-a-2026-10-25",
+      "title": "AI-Assisted Paper on Z-Library Cites a TorrentFreak Article That Doesn't Exist",
+      "summary": "TorrentFreak reports that an AI-assisted academic paper about Z-Library cites one of its articles that it never published.",
+      "url": "https://torrentfreak.com/ai-assisted-paper-on-z-library-cites-a-torrentfreak-article-that-doesnt-exist/",
+      "source": "hackernews",
+      "source_url": "https://news.ycombinator.com/item?id=50220204",
+      "category": "hn",
+      "tags": [
+        "LLM",
+        "Paper"
+      ],
+      "image": {
+        "type": "none"
+      },
+      "signals": {
+        "points": 96,
+        "comments": 50
+      },
+      "meta": {
+        "author": "TangerineDream"
+      },
+      "published_at": "2026-10-24T11:18:54Z",
+      "hidden": false,
+      "rank": 20
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "date": "2026-10-25",
+  "items": {
+    "ph-zcad-ai-2026-10-25": {
+      "summary": "Generates editable, dimension-driven parametric CAD models and full assemblies with mates from a text prompt, edited in a browser CAD editor and exported to STEP.",
+      "tags": ["Dev Tool", "Multimodal", "Launch"]
+    },
+    "ph-mypip-2-2026-10-25": {
+      "summary": "Builds playable browser games from a text description, with multiplayer, in-app purchases and ads wired in for publishing beyond the browser.",
+      "tags": ["Dev Tool", "Code Gen", "Launch"]
+    },
+    "ph-1password-for-agents-2026-10-25": {
+      "summary": "Agents hitting a login ask 1Password, you approve on your own device, and it fills the password or OTP without exposing it or the vault; in Individual and Family plans.",
+      "tags": ["Agents", "Security", "Launch"]
+    },
+    "ph-agentvalley-2026-10-25": {
+      "summary": "Free, open-source MacBook notch app that shows every Claude Code session and sub-agent as a card, with its model and whether it is waiting on you.",
+      "tags": ["Dev Tool", "Claude Code", "Open Source", "Launch"]
+    },
+    "gh-security-audit-skill-2026-10-25": {
+      "summary": "Cloudflare's coding-agent skill that runs a multi-phase security audit and emits findings that are independently verified and machine-readable, written in JavaScript.",
+      "tags": ["Dev Tool", "Agents", "Security"]
+    },
+    "gh-openshell-2026-10-25": {
+      "summary": "Nvidia's Rust runtime for running autonomous AI agents in a sandboxed, private environment.",
+      "tags": ["Open Source", "Agents", "Nvidia", "Security"]
+    },
+    "gh-impeccable-2026-10-25": {
+      "summary": "A design language, built in Rust, that an AI coding harness loads to produce better-designed interfaces.",
+      "tags": ["Dev Tool", "Code Gen"]
+    },
+    "gh-cindy-2026-10-25": {
+      "summary": "Open-source TypeScript general-purpose AI agent meant to run without setup, with a bilingual English and Chinese project.",
+      "tags": ["Open Source", "Agents"]
+    },
+    "gh-hallmark-2026-10-25": {
+      "summary": "A CSS design skill for Claude Code, Cursor and Codex that steers generated UIs away from generic AI-default styling.",
+      "tags": ["Dev Tool", "Code Gen", "Claude Code"]
+    },
+    "gh-claude-howto-2026-10-25": {
+      "summary": "Example-driven visual guide to Claude Code that runs from basic concepts to advanced agents, with copy-paste templates.",
+      "tags": ["Tutorial", "Claude Code"]
+    },
+    "gh-gemini-cli-2026-10-25": {
+      "summary": "Google's open-source TypeScript agent that runs Gemini models in the terminal.",
+      "tags": ["Dev Tool", "Agents", "Google", "Open Source"]
+    },
+    "gh-agent-toolkit-for-aws-2026-10-25": {
+      "summary": "AWS-supported collection of MCP servers, skills and plugins that let coding agents build on AWS services.",
+      "tags": ["Dev Tool", "Agents", "MCP"]
+    },
+    "tc-forced-to-pick-groks-ai-model-chooses-2026-10-25": {
+      "summary": "Across nearly 500 election races, the two models disagreed in more than 90% of them, according to a new study of their candidate recommendations.",
+      "tags": ["LLM", "Safety", "xAI", "OpenAI"]
+    },
+    "tc-the-ai-graveyard-a-running-list-of-projects-and-2026-10-25": {
+      "summary": "TechCrunch's tracker of AI projects that shut down or underdelivered, from Apple's repeatedly delayed Siri AI to OpenAI's messy super app launch.",
+      "tags": ["Deep Dive"]
+    },
+    "tc-blocks-new-voice-model-sounds-eerily-human-2026-10-25": {
+      "summary": "Block says its new voice model can run locally on a MacBook M4 Max.",
+      "tags": ["Model Release", "Voice / Speech", "Local LLM"]
+    },
+    "tc-here-are-the-top-ai-agents-that-can-live-in-2026-10-25": {
+      "summary": "TechCrunch roundup of agents that work over SMS and messaging, from general assistants to ones built for families, travel and work.",
+      "tags": ["Agents"]
+    },
+    "hn-no-signs-of-ai-payoff-outside-the-tech-sector-2026-10-25": {
+      "summary": "An Apollo Daily Spark markets note arguing that AI is not yet showing a measurable payoff for companies outside the tech sector.",
+      "tags": ["LLM"]
+    },
+    "hn-america-has-lost-200k-of-jobs-in-media-film-and-2026-10-25": {
+      "summary": "An Apricitas Economics analysis of the drop in US media, film and arts employment, asking how much of it AI explains.",
+      "tags": ["Deep Dive"]
+    },
+    "hn-why-is-ai-generated-language-so-hard-to-2026-10-25": {
+      "summary": "An arXiv paper on why text produced by language models is harder for readers to understand than human writing.",
+      "tags": ["Paper", "LLM"]
+    },
+    "hn-cerebras-deploys-trillion-parameter-ai-models-2026-10-25": {
+      "summary": "A Cerebras engineering blog post on how the company serves trillion-parameter frontier models on its own hardware.",
+      "tags": ["Inference", "Deep Dive"]
+    },
+    "hn-ai-assisted-paper-on-z-library-cites-a-2026-10-25": {
+      "summary": "TorrentFreak reports that an AI-assisted academic paper about Z-Library cites one of its articles that it never published.",
+      "tags": ["LLM", "Paper"]
+    }
+  }
+}
