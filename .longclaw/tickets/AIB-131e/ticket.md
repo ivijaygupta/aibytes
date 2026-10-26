@@ -231,3 +231,16 @@ changes:
 -->
 ### You updated this ticket
 <!-- /longclaw:event -->
+
+<!-- longclaw:event
+id: evt_e776c18d
+kind: comment
+occurred_at: 2026-10-26T08:02:58.067Z
+actor:
+  type: human
+  id: local
+-->
+### You commented
+
+Live: https://newsletter.aibytes.io/p/openai-s-models-find-php-flaws-and-the-us-bans-deepseek
+<!-- /longclaw:event -->
