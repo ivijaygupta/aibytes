@@ -1,0 +1,34 @@
+{
+  "date": "2026-10-26",
+  "generated_at": "2026-10-26T08:00:56Z",
+  "counts": {
+    "kept": 22,
+    "rejected": 3
+  },
+  "rejected": [
+    {
+      "id": "ph-badgey-2026-10-26",
+      "source": "producthunt",
+      "title": "Badgey",
+      "url": "https://apps.marcoluthi.com/badgey/",
+      "reason": "not-ai",
+      "detail": "no AI keyword or domain in the tagline, description or topics"
+    },
+    {
+      "id": "ph-openstatus-incident-management-2026-10-26",
+      "source": "producthunt",
+      "title": "Openstatus Incident Management",
+      "url": "https://www.openstatus.dev/incident-management",
+      "reason": "not-ai",
+      "detail": "no AI keyword or domain in the tagline, description or topics"
+    },
+    {
+      "id": "ph-git-flow-next-2026-10-26",
+      "source": "producthunt",
+      "title": "git-flow-next",
+      "url": "https://git-flow.sh/",
+      "reason": "not-ai",
+      "detail": "no AI keyword or domain in the tagline, description or topics"
+    }
+  ]
+}

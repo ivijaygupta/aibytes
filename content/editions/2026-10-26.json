@@ -1,0 +1,584 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-26",
+  "generated_at": "2026-10-26T08:00:56Z",
+  "counts": {
+    "launches": 3,
+    "repos": 7,
+    "news": 3,
+    "hn": 9
+  },
+  "items": [
+    {
+      "id": "ph-moli-by-lexmount-2026-10-26",
+      "title": "Moli by Lexmount",
+      "summary": "A browser engine written from scratch for agents, lighter than Chrome, run as isolated cloud sessions with proxies for browsing, form filling and extraction via an SDK.",
+      "url": "https://browser.lexmount.com/",
+      "source": "producthunt",
+      "source_url": "https://www.producthunt.com/products/lexmount-browser",
+      "category": "launches",
+      "tags": [
+        "Dev Tool",
+        "Agents",
+        "Launch"
+      ],
+      "image": {
+        "type": "logo",
+        "url": "https://ph-files.imgix.net/d7a9d2e2-6db0-4c36-9c37-018bdedffc41.png?auto=format"
+      },
+      "signals": {
+        "upvotes": 282,
+        "comments": 67
+      },
+      "published_at": "2026-10-25T07:01:00Z",
+      "hidden": false,
+      "rank": 4
+    },
+    {
+      "id": "ph-agentgrid-io-2026-10-26",
+      "title": "AgentGrid.io",
+      "summary": "A workspace where people and agents like Claude, Codex and Cursor edit the same live docs, slides and apps, with shared context, access controls and version history.",
+      "url": "https://agentgrid.io/",
+      "source": "producthunt",
+      "source_url": "https://www.producthunt.com/products/agentgrid-io",
+      "category": "launches",
+      "tags": [
+        "Agents",
+        "Launch"
+      ],
+      "image": {
+        "type": "logo",
+        "url": "https://ph-files.imgix.net/fb81d1a5-1eef-40f5-af62-fe544378a6a8.gif?auto=format"
+      },
+      "signals": {
+        "upvotes": 188,
+        "comments": 7
+      },
+      "published_at": "2026-10-25T07:01:00Z",
+      "hidden": false,
+      "rank": 14
+    },
+    {
+      "id": "hn-show-hn-hurston-1-open-source-tts-that-speak-2026-10-26",
+      "title": "Show HN: Hurston-1 open source TTS that speak Southern American and Afro-English",
+      "summary": "An open text-to-speech model on Hugging Face trained to speak in Southern American and Afro-English accents and dialects.",
+      "url": "https://huggingface.co/destined/hurston-1",
+      "source": "hackernews",
+      "source_url": "https://news.ycombinator.com/item?id=50227330",
+      "category": "launches",
+      "tags": [
+        "Open Source",
+        "Voice / Speech",
+        "Show HN"
+      ],
+      "image": {
+        "type": "none"
+      },
+      "signals": {
+        "points": 58,
+        "comments": 25
+      },
+      "meta": {
+        "author": "Gcarter08"
+      },
+      "published_at": "2026-10-25T01:30:13Z",
+      "hidden": false,
+      "rank": 22
+    },
+    {
+      "id": "gh-security-audit-skill-2026-10-26",
+      "title": "cloudflare/security-audit-skill",
+      "summary": "Cloudflare's coding-agent skill that runs a security audit in phases and emits machine-readable findings, each one independently verified.",
+      "url": "https://github.com/cloudflare/security-audit-skill",
+      "source": "github",
+      "source_url": "https://github.com/cloudflare/security-audit-skill",
+      "category": "repos",
+      "tags": [
+        "Open Source",
+        "Agents",
+        "Security"
+      ],
+      "image": {
+        "type": "avatar",
+        "url": "https://github.com/cloudflare.png?size=80"
+      },
+      "signals": {
+        "stars": 47478,
+        "stars_gained": 2878,
+        "forks": 2947
+      },
+      "meta": {
+        "language": "JavaScript"
+      },
+      "hidden": false,
+      "rank": 1
+    },
+    {
+      "id": "gh-hallmark-2026-10-26",
+      "title": "Nutlope/hallmark",
+      "summary": "A design skill for Claude Code, Cursor and Codex that steers generated UI away from the generic look of AI-made frontends.",
+      "url": "https://github.com/Nutlope/hallmark",
+      "source": "github",
+      "source_url": "https://github.com/Nutlope/hallmark",
+      "category": "repos",
+      "tags": [
+        "Open Source",
+        "Code Gen",
+        "Claude Code"
+      ],
+      "image": {
+        "type": "avatar",
+        "url": "https://github.com/Nutlope.png?size=80"
+      },
+      "signals": {
+        "stars": 34622,
+        "stars_gained": 1317,
+        "forks": 1799
+      },
+      "meta": {
+        "language": "CSS"
+      },
+      "hidden": false,
+      "rank": 6
+    },
+    {
+      "id": "gh-impeccable-2026-10-26",
+      "title": "pbakaus/impeccable",
+      "summary": "A design language written in Rust that an AI coding harness loads to produce better-designed interfaces.",
+      "url": "https://github.com/pbakaus/impeccable",
+      "source": "github",
+      "source_url": "https://github.com/pbakaus/impeccable",
+      "category": "repos",
+      "tags": [
+        "Open Source",
+        "Code Gen"
+      ],
+      "image": {
+        "type": "avatar",
+        "url": "https://github.com/pbakaus.png?size=80"
+      },
+      "signals": {
+        "stars": 88177,
+        "stars_gained": 1092,
+        "forks": 5266
+      },
+      "meta": {
+        "language": "Rust"
+      },
+      "hidden": false,
+      "rank": 8
+    },
+    {
+      "id": "gh-cindy-2026-10-26",
+      "title": "makecindy/cindy",
+      "summary": "An open-source TypeScript general-purpose AI agent meant to run with no setup, with a bilingual English and Chinese project.",
+      "url": "https://github.com/makecindy/cindy",
+      "source": "github",
+      "source_url": "https://github.com/makecindy/cindy",
+      "category": "repos",
+      "tags": [
+        "Open Source",
+        "Agents"
+      ],
+      "image": {
+        "type": "avatar",
+        "url": "https://github.com/makecindy.png?size=80"
+      },
+      "signals": {
+        "stars": 5372,
+        "stars_gained": 675,
+        "forks": 703
+      },
+      "meta": {
+        "language": "TypeScript"
+      },
+      "hidden": false,
+      "rank": 12
+    },
+    {
+      "id": "gh-tradingagents-2026-10-26",
+      "title": "TauricResearch/TradingAgents",
+      "summary": "A Python framework where several LLM agents divide up financial trading work and reach trade decisions together.",
+      "url": "https://github.com/TauricResearch/TradingAgents",
+      "source": "github",
+      "source_url": "https://github.com/TauricResearch/TradingAgents",
+      "category": "repos",
+      "tags": [
+        "Framework",
+        "Agents"
+      ],
+      "image": {
+        "type": "avatar",
+        "url": "https://github.com/TauricResearch.png?size=80"
+      },
+      "signals": {
+        "stars": 115019,
+        "stars_gained": 381,
+        "forks": 22168
+      },
+      "meta": {
+        "language": "Python"
+      },
+      "hidden": false,
+      "rank": 15
+    },
+    {
+      "id": "gh-claude-seo-2026-10-26",
+      "title": "AgriciDaniel/claude-seo",
+      "summary": "A Claude Code skill with 26 sub-skills and 19 sub-agents for technical SEO, schema, llms.txt and WebMCP readiness, backlinks and local SEO, plus PDF and Excel reports.",
+      "url": "https://github.com/AgriciDaniel/claude-seo",
+      "source": "github",
+      "source_url": "https://github.com/AgriciDaniel/claude-seo",
+      "category": "repos",
+      "tags": [
+        "Open Source",
+        "Agents",
+        "Claude Code"
+      ],
+      "image": {
+        "type": "avatar",
+        "url": "https://github.com/AgriciDaniel.png?size=80"
+      },
+      "signals": {
+        "stars": 21413,
+        "stars_gained": 197,
+        "forks": 2976
+      },
+      "meta": {
+        "language": "Python"
+      },
+      "hidden": false,
+      "rank": 19
+    },
+    {
+      "id": "gh-thinkrail-2026-10-26",
+      "title": "JetBrains/thinkrail",
+      "summary": "A lightweight JetBrains IDE in TypeScript for vibe coding with the pi agent, which reshapes its own setup around how you work.",
+      "url": "https://github.com/JetBrains/thinkrail",
+      "source": "github",
+      "source_url": "https://github.com/JetBrains/thinkrail",
+      "category": "repos",
+      "tags": [
+        "Dev Tool",
+        "Code Gen",
+        "Open Source"
+      ],
+      "image": {
+        "type": "avatar",
+        "url": "https://github.com/JetBrains.png?size=80"
+      },
+      "signals": {
+        "stars": 2128,
+        "stars_gained": 51,
+        "forks": 119
+      },
+      "meta": {
+        "language": "TypeScript"
+      },
+      "hidden": false,
+      "rank": 21
+    },
+    {
+      "id": "tc-ai-delivers-zero-financial-payoff-to-most-2026-10-26",
+      "title": "AI delivers ‘zero financial payoff’ to most companies, Apollo economist says",
+      "summary": "Apollo's economist argues that outside the tech sector, heavy corporate AI spending has yet to show up in US companies' financial results.",
+      "url": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/",
+      "source": "techcrunch",
+      "source_url": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/",
+      "category": "news",
+      "tags": [
+        "LLM"
+      ],
+      "image": {
+        "type": "thumbnail",
+        "url": "https://techcrunch.com/wp-content/uploads/2023/08/GettyImages-1308803174.jpg?resize=1200,800"
+      },
+      "meta": {
+        "author": "Anthony Ha",
+        "reading_time": "2 minutes"
+      },
+      "published_at": "2026-10-25T16:57:32Z",
+      "hidden": false,
+      "rank": 3
+    },
+    {
+      "id": "tc-grok-releases-the-first-seven-minutes-of-its-ai-2026-10-26",
+      "title": "Grok releases the first seven minutes of its AI-generated ‘Odyssey’",
+      "summary": "xAI shows an opening stretch of its fully AI-generated feature, which TechCrunch finds technically passable but short on artistry and human interest.",
+      "url": "https://techcrunch.com/2026/10/25/grok-releases-the-first-seven-minutes-of-its-ai-generated-odyssey/",
+      "source": "techcrunch",
+      "source_url": "https://techcrunch.com/2026/10/25/grok-releases-the-first-seven-minutes-of-its-ai-generated-odyssey/",
+      "category": "news",
+      "tags": [
+        "Video",
+        "xAI"
+      ],
+      "image": {
+        "type": "thumbnail",
+        "url": "https://techcrunch.com/wp-content/uploads/2026/03/grok-getty.jpg?resize=1200,800"
+      },
+      "meta": {
+        "author": "Anthony Ha",
+        "reading_time": "3 minutes"
+      },
+      "published_at": "2026-10-25T21:31:16Z",
+      "hidden": false,
+      "rank": 10
+    },
+    {
+      "id": "tc-the-hottest-ai-wearables-and-gadgets-you-should-2026-10-26",
+      "title": "The hottest AI wearables and gadgets you should know about",
+      "summary": "A TechCrunch roundup of AI wearables and gadgets, including Muse Charm, Bee, Friend and Plaud.",
+      "url": "https://techcrunch.com/2026/10/25/the-hottest-ai-wearables-and-gadgets-you-should-know-about/",
+      "source": "techcrunch",
+      "source_url": "https://techcrunch.com/2026/10/25/the-hottest-ai-wearables-and-gadgets-you-should-know-about/",
+      "category": "news",
+      "tags": [
+        "Multimodal"
+      ],
+      "image": {
+        "type": "thumbnail",
+        "url": "https://techcrunch.com/wp-content/uploads/2016/09/robocash.jpg?resize=1200,849"
+      },
+      "meta": {
+        "author": "Lauren Forristal",
+        "reading_time": "8 minutes"
+      },
+      "published_at": "2026-10-25T14:10:00Z",
+      "hidden": false,
+      "rank": 17
+    },
+    {
+      "id": "hn-a-10-year-old-cnn-outperforms-frontier-llms-for-2026-10-26",
+      "title": "A 10-year-old CNN outperforms frontier LLMs for skin cancer diagnosis",
+      "summary": "A research lab write-up comparing frontier LLMs with an older convolutional network on skin lesion images, where the specialised model diagnoses more accurately.",
+      "url": "https://lynchlab.net/llm-skin-cancer",
+      "source": "hackernews",
+      "source_url": "https://news.ycombinator.com/item?id=50233779",
+      "category": "hn",
+      "tags": [
+        "Benchmark",
+        "Vision",
+        "Eval"
+      ],
+      "image": {
+        "type": "none"
+      },
+      "signals": {
+        "points": 531,
+        "comments": 234
+      },
+      "meta": {
+        "author": "sungam"
+      },
+      "published_at": "2026-10-25T17:15:38Z",
+      "hidden": false,
+      "rank": 2
+    },
+    {
+      "id": "hn-cerebras-deploys-trillion-parameter-ai-models-2026-10-26",
+      "title": "Cerebras Deploys Trillion-Parameter AI Models",
+      "summary": "A Cerebras engineering post on how it serves trillion-parameter frontier models on its wafer-scale hardware.",
+      "url": "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras",
+      "source": "hackernews",
+      "source_url": "https://news.ycombinator.com/item?id=50227356",
+      "category": "hn",
+      "tags": [
+        "Inference",
+        "Deep Dive"
+      ],
+      "image": {
+        "type": "none"
+      },
+      "signals": {
+        "points": 355,
+        "comments": 132
+      },
+      "meta": {
+        "author": "gmays"
+      },
+      "published_at": "2026-10-25T01:33:49Z",
+      "hidden": false,
+      "rank": 5
+    },
+    {
+      "id": "hn-openai-and-anthropic-cut-their-llm-prices-by-up-2026-10-26",
+      "title": "OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?",
+      "summary": "Max Woolf's essay on minimaxir.com examining why the two labs have cut API prices so steeply in so short a window.",
+      "url": "https://minimaxir.com/2026/10/cheap-llms/",
+      "source": "hackernews",
+      "source_url": "https://news.ycombinator.com/item?id=50236102",
+      "category": "hn",
+      "tags": [
+        "Pricing",
+        "OpenAI",
+        "Anthropic"
+      ],
+      "image": {
+        "type": "none"
+      },
+      "signals": {
+        "points": 274,
+        "comments": 281
+      },
+      "meta": {
+        "author": "minimaxir"
+      },
+      "published_at": "2026-10-25T21:11:31Z",
+      "hidden": false,
+      "rank": 7
+    },
+    {
+      "id": "hn-ai-use-leads-uc-berkeley-math-professor-to-see-2026-10-26",
+      "title": "AI use leads UC Berkeley math professor to see 'no point' in grading homework",
+      "summary": "The Daily Californian reports a Berkeley math professor dropping homework grading because students can hand the problems to AI.",
+      "url": "https://www.dailycal.org/news/campus/academics/ai-use-leads-uc-berkeley-math-professor-to-see-no-point-in-grading-homework/article_bdf1eae2-c08b-491f-b9f1-81a7cea177de.html",
+      "source": "hackernews",
+      "source_url": "https://news.ycombinator.com/item?id=50233304",
+      "category": "hn",
+      "tags": [
+        "Policy"
+      ],
+      "image": {
+        "type": "none"
+      },
+      "signals": {
+        "points": 215,
+        "comments": 312
+      },
+      "meta": {
+        "author": "romanhn"
+      },
+      "published_at": "2026-10-25T16:28:26Z",
+      "hidden": false,
+      "rank": 9
+    },
+    {
+      "id": "hn-nikon-photography-contest-winner-loses-title-2026-10-26",
+      "title": "Nikon photography contest winner loses title after scientists spot signs of AI",
+      "summary": "TechSpot reports a winning Nikon contest entry was stripped of its prize after scientists found signs the image was AI-generated.",
+      "url": "https://www.techspot.com/news/114171-nikon-photography-contest-winner-loses-title-after-scientists.html",
+      "source": "hackernews",
+      "source_url": "https://news.ycombinator.com/item?id=50229827",
+      "category": "hn",
+      "tags": [
+        "Image Gen"
+      ],
+      "image": {
+        "type": "none"
+      },
+      "signals": {
+        "points": 139,
+        "comments": 77
+      },
+      "meta": {
+        "author": "thunderbong"
+      },
+      "published_at": "2026-10-25T09:51:17Z",
+      "hidden": false,
+      "rank": 11
+    },
+    {
+      "id": "hn-imagine-an-ai-future-where-being-banned-means-2026-10-26",
+      "title": "Imagine an AI future where being banned means you are now economically useless",
+      "summary": "A post on X arguing that once work runs through AI platforms, losing your account could cut you off from earning a living.",
+      "url": "https://twitter.com/boneGPT/status/2114035719853265264",
+      "source": "hackernews",
+      "source_url": "https://news.ycombinator.com/item?id=50230995",
+      "category": "hn",
+      "tags": [
+        "Policy"
+      ],
+      "image": {
+        "type": "none"
+      },
+      "signals": {
+        "points": 97,
+        "comments": 78
+      },
+      "meta": {
+        "author": "MrBuddyCasino"
+      },
+      "published_at": "2026-10-25T12:47:20Z",
+      "hidden": false,
+      "rank": 13
+    },
+    {
+      "id": "hn-r-open-source-bans-all-solo-projects-and-2026-10-26",
+      "title": "R/open source bans all solo projects and projects using LLMs",
+      "summary": "The r/opensource moderators announce a rule change on Reddit barring posts about solo projects and anything built with LLMs.",
+      "url": "https://www.reddit.com/r/opensource/comments/1xelcuf/your_tokens_arent_valuable_no_more_ai",
+      "source": "hackernews",
+      "source_url": "https://news.ycombinator.com/item?id=50231722",
+      "category": "hn",
+      "tags": [
+        "Open Source",
+        "Policy"
+      ],
+      "image": {
+        "type": "none"
+      },
+      "signals": {
+        "points": 87,
+        "comments": 110
+      },
+      "meta": {
+        "author": "schleck8"
+      },
+      "published_at": "2026-10-25T14:05:03Z",
+      "hidden": false,
+      "rank": 16
+    },
+    {
+      "id": "hn-cognitive-mercantilism-ai-panic-resembles-fears-2026-10-26",
+      "title": "Cognitive Mercantilism: AI panic resembles fears of early capitalism",
+      "summary": "Venkatesh Rao's essay on Contraptions likening today's anxiety about AI to the mercantilist fears that met early capitalism.",
+      "url": "https://contraptions.venkateshrao.com/p/cognitive-mercantilism",
+      "source": "hackernews",
+      "source_url": "https://news.ycombinator.com/item?id=50239027",
+      "category": "hn",
+      "tags": [
+        "Deep Dive"
+      ],
+      "image": {
+        "type": "none"
+      },
+      "signals": {
+        "points": 59,
+        "comments": 54
+      },
+      "meta": {
+        "author": "ianand"
+      },
+      "published_at": "2026-10-26T04:11:40Z",
+      "hidden": false,
+      "rank": 18
+    },
+    {
+      "id": "hn-a-mathematician-reads-the-ai-future-2026-10-26",
+      "title": "A mathematician reads the AI future",
+      "summary": "An essay in The Atlantic in which a mathematician considers what AI means for mathematics and human work.",
+      "url": "https://www.theatlantic.com/ideas/2026/10/ai-math-human-future/689133/",
+      "source": "hackernews",
+      "source_url": "https://news.ycombinator.com/item?id=50233347",
+      "category": "hn",
+      "tags": [
+        "Reasoning",
+        "Deep Dive"
+      ],
+      "image": {
+        "type": "none"
+      },
+      "signals": {
+        "points": 58,
+        "comments": 78
+      },
+      "meta": {
+        "author": "artninja1988"
+      },
+      "published_at": "2026-10-25T16:31:21Z",
+      "hidden": false,
+      "rank": 20
+    }
+  ]
+}

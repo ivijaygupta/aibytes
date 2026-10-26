@@ -1,0 +1,93 @@
+{
+  "date": "2026-10-26",
+  "items": {
+    "ph-moli-by-lexmount-2026-10-26": {
+      "summary": "A browser engine written from scratch for agents, lighter than Chrome, run as isolated cloud sessions with proxies for browsing, form filling and extraction via an SDK.",
+      "tags": ["Dev Tool", "Agents", "Launch"]
+    },
+    "ph-agentgrid-io-2026-10-26": {
+      "summary": "A workspace where people and agents like Claude, Codex and Cursor edit the same live docs, slides and apps, with shared context, access controls and version history.",
+      "tags": ["Agents", "Launch"]
+    },
+    "hn-show-hn-hurston-1-open-source-tts-that-speak-2026-10-26": {
+      "summary": "An open text-to-speech model on Hugging Face trained to speak in Southern American and Afro-English accents and dialects.",
+      "tags": ["Open Source", "Voice / Speech", "Show HN"]
+    },
+    "gh-security-audit-skill-2026-10-26": {
+      "summary": "Cloudflare's coding-agent skill that runs a security audit in phases and emits machine-readable findings, each one independently verified.",
+      "tags": ["Open Source", "Agents", "Security"]
+    },
+    "gh-hallmark-2026-10-26": {
+      "summary": "A design skill for Claude Code, Cursor and Codex that steers generated UI away from the generic look of AI-made frontends.",
+      "tags": ["Open Source", "Code Gen", "Claude Code"]
+    },
+    "gh-impeccable-2026-10-26": {
+      "summary": "A design language written in Rust that an AI coding harness loads to produce better-designed interfaces.",
+      "tags": ["Open Source", "Code Gen"]
+    },
+    "gh-cindy-2026-10-26": {
+      "summary": "An open-source TypeScript general-purpose AI agent meant to run with no setup, with a bilingual English and Chinese project.",
+      "tags": ["Open Source", "Agents"]
+    },
+    "gh-tradingagents-2026-10-26": {
+      "summary": "A Python framework where several LLM agents divide up financial trading work and reach trade decisions together.",
+      "tags": ["Framework", "Agents"]
+    },
+    "gh-claude-seo-2026-10-26": {
+      "summary": "A Claude Code skill with 26 sub-skills and 19 sub-agents for technical SEO, schema, llms.txt and WebMCP readiness, backlinks and local SEO, plus PDF and Excel reports.",
+      "tags": ["Open Source", "Agents", "Claude Code"]
+    },
+    "gh-thinkrail-2026-10-26": {
+      "summary": "A lightweight JetBrains IDE in TypeScript for vibe coding with the pi agent, which reshapes its own setup around how you work.",
+      "tags": ["Dev Tool", "Code Gen", "Open Source"]
+    },
+    "tc-ai-delivers-zero-financial-payoff-to-most-2026-10-26": {
+      "summary": "Apollo's economist argues that outside the tech sector, heavy corporate AI spending has yet to show up in US companies' financial results.",
+      "tags": ["LLM"]
+    },
+    "tc-grok-releases-the-first-seven-minutes-of-its-ai-2026-10-26": {
+      "summary": "xAI shows an opening stretch of its fully AI-generated feature, which TechCrunch finds technically passable but short on artistry and human interest.",
+      "tags": ["Video", "xAI"]
+    },
+    "tc-the-hottest-ai-wearables-and-gadgets-you-should-2026-10-26": {
+      "summary": "A TechCrunch roundup of AI wearables and gadgets, including Muse Charm, Bee, Friend and Plaud.",
+      "tags": ["Multimodal"]
+    },
+    "hn-a-10-year-old-cnn-outperforms-frontier-llms-for-2026-10-26": {
+      "summary": "A research lab write-up comparing frontier LLMs with an older convolutional network on skin lesion images, where the specialised model diagnoses more accurately.",
+      "tags": ["Benchmark", "Vision", "Eval"]
+    },
+    "hn-cerebras-deploys-trillion-parameter-ai-models-2026-10-26": {
+      "summary": "A Cerebras engineering post on how it serves trillion-parameter frontier models on its wafer-scale hardware.",
+      "tags": ["Inference", "Deep Dive"]
+    },
+    "hn-openai-and-anthropic-cut-their-llm-prices-by-up-2026-10-26": {
+      "summary": "Max Woolf's essay on minimaxir.com examining why the two labs have cut API prices so steeply in so short a window.",
+      "tags": ["Pricing", "OpenAI", "Anthropic"]
+    },
+    "hn-ai-use-leads-uc-berkeley-math-professor-to-see-2026-10-26": {
+      "summary": "The Daily Californian reports a Berkeley math professor dropping homework grading because students can hand the problems to AI.",
+      "tags": ["Policy"]
+    },
+    "hn-nikon-photography-contest-winner-loses-title-2026-10-26": {
+      "summary": "TechSpot reports a winning Nikon contest entry was stripped of its prize after scientists found signs the image was AI-generated.",
+      "tags": ["Image Gen"]
+    },
+    "hn-imagine-an-ai-future-where-being-banned-means-2026-10-26": {
+      "summary": "A post on X arguing that once work runs through AI platforms, losing your account could cut you off from earning a living.",
+      "tags": ["Policy"]
+    },
+    "hn-r-open-source-bans-all-solo-projects-and-2026-10-26": {
+      "summary": "The r/opensource moderators announce a rule change on Reddit barring posts about solo projects and anything built with LLMs.",
+      "tags": ["Open Source", "Policy"]
+    },
+    "hn-cognitive-mercantilism-ai-panic-resembles-fears-2026-10-26": {
+      "summary": "Venkatesh Rao's essay on Contraptions likening today's anxiety about AI to the mercantilist fears that met early capitalism.",
+      "tags": ["Deep Dive"]
+    },
+    "hn-a-mathematician-reads-the-ai-future-2026-10-26": {
+      "summary": "An essay in The Atlantic in which a mathematician considers what AI means for mathematics and human work.",
+      "tags": ["Reasoning", "Deep Dive"]
+    }
+  }
+}
