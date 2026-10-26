@@ -3,12 +3,12 @@ format: longclaw.ticket/v1
 id: 61953b78-a697-471a-986f-1999ff74cddd
 key: AIB-131e
 title: "Issue #15: 25 Oct 2026"
-status: in_progress
+status: done
 priority: urgent
 type: newsletter
 due: 2026-10-25
 created_at: 2026-10-23T22:38:24.148Z
-updated_at: 2026-10-26T07:11:20.452Z
+updated_at: 2026-10-26T08:03:11.195Z
 ---
 
 Weekly aiBytes_ Issue #15.
@@ -243,4 +243,21 @@ actor:
 ### You commented
 
 Live: https://newsletter.aibytes.io/p/openai-s-models-find-php-flaws-and-the-us-bans-deepseek
+<!-- /longclaw:event -->
+
+<!-- longclaw:event
+id: evt_d5338dae
+kind: update
+occurred_at: 2026-10-26T08:03:11.195Z
+actor:
+  type: human
+  id: local
+changes:
+  - field: status
+    from: in_progress
+    to: done
+-->
+### You updated this ticket
+
+Issue #15 shipped; PR #42 merged.
 <!-- /longclaw:event -->
