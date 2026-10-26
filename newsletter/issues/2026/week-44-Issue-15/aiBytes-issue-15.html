@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>🐘 OpenAI's models find PHP flaws and the US bans DeepSeek</title>
+<meta name="description" content="Plus 1Password's agent logins, a search engine built for agents, and why OpenAI doesn't just start 100 companies.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=Instrument+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#FAFAF7; --ink:#191C26; --cobalt:#2B4EF0; --signal:#FFD338;
+    --slate:#6B7080; --line:#E4E4DC; --card:#FFFFFF;
+    --display:'Bricolage Grotesque',sans-serif; --body:'Instrument Sans',sans-serif; --mono:'JetBrains Mono',monospace;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{background:var(--paper);color:var(--ink);font-family:var(--body);font-size:15px;line-height:1.5;-webkit-font-smoothing:antialiased}
+  a{color:var(--cobalt);text-decoration:none}
+  a:hover{text-decoration:underline;text-underline-offset:3px}
+  a:focus-visible{outline:2px solid var(--cobalt);outline-offset:2px;border-radius:2px}
+  .wrap{max-width:680px;margin:0 auto;padding:0 20px 56px}
+
+  header{padding:36px 0 0}
+  .issue-tag{font-family:var(--mono);font-size:12px;letter-spacing:.08em;color:var(--slate);display:flex;justify-content:space-between;margin-bottom:12px}
+  .logo{font-family:var(--display);font-weight:800;font-size:34px;letter-spacing:-.02em}
+  .logo em{font-style:normal;color:var(--cobalt)}
+
+  section{margin-top:34px}
+  .sec-head{display:flex;align-items:center;gap:10px;margin-bottom:12px}
+  .sec-hex{font-family:var(--mono);font-weight:700;font-size:12px;color:var(--paper);background:var(--ink);padding:2px 7px}
+  .sec-title{font-family:var(--display);font-weight:700;font-size:19px;letter-spacing:.01em;text-transform:uppercase}
+  .sec-rule{flex:1;height:2px;background:var(--ink)}
+
+  /* ── Intro block ── */
+  .intro{border:1px solid var(--line);border-radius:14px;background:var(--card);padding:20px 22px;margin-bottom:18px}
+  .intro p{font-size:15.5px;line-height:1.65;margin-bottom:14px;color:#3A3E4A}
+  .intro p:last-child{margin-bottom:0}
+  .intro .greet{color:var(--ink)}
+  .intro b{color:var(--ink);font-weight:700}
+  /* Table of contents: closes the intro. The label speaks in the storyline lead's
+       voice (body face, bold ink); the rows sit smaller and lighter beneath it. */
+  .intro .toc-label{color:var(--ink);font-weight:700;margin-bottom:4px}
+  .toc{border-top:1px solid var(--line)}
+  .toc .r{display:grid;grid-template-columns:40px 1fr auto;gap:10px;align-items:baseline;padding:5px 0;border-bottom:1px solid var(--line);font-size:13.5px}
+  .toc .r:last-child{border-bottom:none;padding-bottom:0}
+  .toc .m{font-family:var(--mono);font-size:10.5px;font-weight:500;color:var(--slate)}
+  .toc .n{color:#3A3E4A;font-weight:500}
+  .toc .d{font-family:var(--mono);font-size:11px;color:var(--slate);white-space:nowrap}
+
+  /* ── My Favourite Picks: the publisher's shortlist, drawn from any section ──
+       Ink border with a signal spine. The pick name is INK and undecorated - the
+       numeral is the marker, and cobalt is left to the sections that report. ── */
+  .picks{background:var(--card);border:1px solid var(--ink);border-left:5px solid var(--signal);padding:18px 20px;margin-bottom:18px}
+  .picks .card-title{font-family:var(--display);font-weight:800;font-size:17px;letter-spacing:.06em;text-transform:uppercase;margin-bottom:12px}
+  .picks ol{list-style:none;margin:0;padding:0}
+  .picks li{display:grid;grid-template-columns:auto 1fr;gap:3px 11px;padding:8px 0;border-bottom:1px solid var(--line)}
+  .picks li:last-child{border-bottom:none;padding-bottom:0}
+  .picks .n{grid-column:1;grid-row:1;align-self:start;margin-top:2px;font-family:var(--mono);font-size:11px;font-weight:700;background:var(--signal);color:var(--ink);padding:1px 5px}
+  .picks .line{grid-column:2;grid-row:1;display:flex;gap:12px;align-items:baseline}
+  .picks .t{flex:1}
+  .picks .t a{color:var(--ink);text-decoration:none;font-weight:600}
+  .picks .t a:hover{color:var(--cobalt)}
+  .picks .from{font-family:var(--mono);font-size:11px;color:var(--slate);white-space:nowrap;flex-shrink:0}
+  /* Description hangs under the title, clear of the numeral. One to two lines. */
+  .picks .d{grid-column:2;grid-row:2;font-size:13.5px;line-height:1.5;color:var(--slate)}
+
+  /* ── News card ── */
+  .news-card{border:2px solid var(--cobalt);border-radius:14px;padding:20px 22px;background:var(--card)}
+  .news-card .card-title{font-family:var(--display);font-weight:800;font-size:20px;color:var(--cobalt);letter-spacing:.02em;margin-bottom:14px}
+  .news-item{font-size:15.5px;margin-bottom:14px;line-height:1.6}
+  .news-item:last-of-type{margin-bottom:0}
+  .news-item b a{font-weight:700}
+  .src{font-family:var(--mono);font-size:12px;color:var(--slate)}
+  /* Attribution links stay grey and quiet - the headline link is the loud one. */
+  .src a{color:var(--slate);text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:2px}
+  .src a:hover{color:var(--ink)}
+  .quote{border:1px solid var(--line);border-radius:10px;background:var(--paper);padding:16px 18px;margin-top:18px}
+  .quote p{font-size:15px;color:#3A3E4A}
+
+  /* ── Official Announcements: the companies' own posts on X, whole and verbatim ──
+       Ink card, sibling of the AI News card. Each entry is a byline, the post in a
+       paper inset (the same treatment as the AI News quote, so the words read as
+       theirs), and a mono footer with the post and the official page. ── */
+  .oa-card{border:1.5px solid var(--ink);border-radius:14px;padding:20px 22px;background:var(--card);margin-top:18px}
+  .oa-card .card-title{font-family:var(--display);font-weight:800;font-size:20px;letter-spacing:.02em}
+  .oa-card .card-sub{font-size:13.5px;color:var(--slate);margin:2px 0 6px}
+  .oa-item{padding:14px 0;border-bottom:1px solid var(--line)}
+  .oa-item:last-child{border-bottom:none;padding-bottom:0}
+  .oa-by{font-size:14.5px;margin-bottom:8px}
+  .oa-by b{color:var(--ink)}
+  .oa-by span{font-family:var(--mono);font-size:11px;color:var(--slate)}
+  .oa-post{background:var(--paper);border:1px solid var(--line);border-radius:10px;padding:12px 14px 4px;margin-bottom:8px}
+  .oa-post p{font-size:15px;line-height:1.55;color:#3A3E4A;margin-bottom:8px}
+  .oa-links{font-family:var(--mono);font-size:11.5px;color:var(--slate)}
+  .oa-links .dot{color:var(--line)}
+
+  /* ── Ticker rows ── */
+  .row{display:flex;gap:12px;align-items:baseline;padding:9px 0;border-bottom:1px solid var(--line)}
+  .row:last-child{border-bottom:none}
+  .ico{width:22px;text-align:center;flex-shrink:0}
+  .row .txt{flex:1}
+  .row .txt b{font-weight:600}
+  .stat{font-family:var(--mono);font-size:11.5px;color:var(--slate);white-space:nowrap}
+  .stat b{color:var(--cobalt);font-weight:700}
+  .hot{background:var(--signal);padding:0 4px;font-weight:600}
+  /* Viral on X rows: emoji, the author's @handle in cobalt (linked to the profile),
+       then the post's own words in body grey. */
+  .sec-sub{font-size:14px;color:var(--slate);margin:-4px 0 6px}
+  .row .txt a.post{color:#3A3E4A}
+  .row .txt a.post:hover{color:var(--cobalt)}
+  .cut{color:var(--slate)}
+
+  footer{margin-top:48px;border-top:3px solid var(--ink);padding-top:20px;text-align:center}
+  footer p{color:var(--slate);font-size:13.5px}
+  .foot-links{margin-top:10px;font-family:var(--mono);font-size:12.5px;display:flex;gap:20px;justify-content:center}
+  @media (max-width:480px){ .row{flex-wrap:wrap} .stat{margin-left:34px} }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <div class="issue-tag"><span>ISSUE 0x0F · TL;DR</span><span>2026-10-26 · ~6 MIN</span></div>
+    <div class="logo">⚡ aiBytes<em>_</em> #15</div>
+  </header>
+
+  <section>
+    <div class="intro">
+      <p class="greet">Hello, builders 👋</p>
+      <p>Welcome back to your weekly dose of AI Bytes. I did not expect PHP to be the biggest AI story of the week. But OpenAI's models found critical flaws in the language that runs an estimated 70% of websites, and a coalition of maintainers spent two months fixing them before anyone else knew 🐘</p>
+      <p><b>AI is becoming the security team</b>: the same week, Anthropic launched <a href="https://red.anthropic.com/oss-scanner">OSS Scanner</a>, which gives critical open-source projects free vulnerability scans from its strongest models, with a proof of concept for each finding and a patch where it can. For years the worry was that AI would help attackers first. This week, the defenders got there first.</p>
+      <p class="toc-label">In this issue</p>
+      <div class="toc">
+<div class="r"><span class="m">🌍</span><span class="n">AI News</span><span class="d">8 stories</span></div>
+<div class="r"><span class="m">📣</span><span class="n">Official Announcements</span><span class="d">Anthropic</span></div>
+<div class="r"><span class="m">0x02</span><span class="n">Viral on X</span><span class="d">5 posts</span></div>
+<div class="r"><span class="m">0x03</span><span class="n">New AI Products</span><span class="d">4 launches</span></div>
+<div class="r"><span class="m">0x04</span><span class="n">Trending Github Projects</span><span class="d">5 repos</span></div>
+<div class="r"><span class="m">0x05</span><span class="n">HN Deep Stories</span><span class="d">5 threads</span></div>
+      </div>
+    </div>
+
+    <div class="news-card">
+      <div class="card-title">🌍 AI NEWS</div>
+
+      <p class="news-item">🐘 <b><a href="https://x.com/OpenAI/status/2112907856018309586">OpenAI's models found critical security flaws in PHP</a></b> The language behind an estimated 70% of websites. Every PHP site can now safely upgrade. <span class="hot">Story of the week</span> <span class="src">(OpenAI)</span></p>
+<p class="news-item">🚫 <b><a href="https://www.reuters.com/technology/us-banning-chinese-ai-deepseek-government-agency-it-systems-2026-10-19/">DeepSeek banned from US federal civilian agencies</a></b> A new DHS order pulls DeepSeek out of government agency IT systems. <span class="src">(Reuters)</span></p>
+<p class="news-item">⚡ <b><a href="https://github.com/deepseek-ai/DeepInfer">DeepInfer</a></b> DeepSeek's own high-performance inference framework for its models, on GitHub. <span class="src">(HackerNews)</span></p>
+<p class="news-item">🔎 <b><a href="https://api-docs.deepseek.com/guides/search/">DeepSeek search and fetch</a></b> Web search and page fetch in the DeepSeek API, at $0.75 per 1,000 successful requests. <span class="src">(HackerNews)</span></p>
+<p class="news-item">💰 <b><a href="https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/">OpenAI is working on a $30B raise at a $1.25T valuation</a></b> It would be the most highly valued private company ever, ahead of an IPO. <span class="src">(TechCrunch)</span></p>
+<p class="news-item">🧭 <b><a href="https://techcrunch.com/2026/10/22/openai-makes-its-jev-competitor-widely-available-as-decision-model-competition-heats-up/">OpenAI makes its Jev competitor widely available</a></b> OpenAI's decision model opens to everyone as the race with Jev heats up. <span class="src">(TechCrunch)</span></p>
+<p class="news-item">🔐 <b><a href="https://techcrunch.com/2026/10/22/1password-launches-a-way-for-ai-agents-to-log-in-on-your-behalf-without-seeing-your-password/">1Password lets AI agents log in for you</a></b> Agents can sign in to your accounts without ever seeing the password. <span class="src">(TechCrunch)</span></p>
+<p class="news-item">🎙️ <b><a href="https://mistral.ai/news/voxtral-3/">Voxtral 3</a></b> Mistral releases the third generation of its Voxtral speech models. <span class="src">(HackerNews)</span></p>
+
+      <div class="quote">
+        <p>"The best time to find a bug is before anyone else knows it exists."</p>
+      </div>
+    </div>
+
+    <div class="oa-card">
+      <div class="card-title">📣 OFFICIAL ANNOUNCEMENTS</div>
+      <p class="card-sub">This week's launches, in the companies' own words.</p>
+<div class="oa-item"><div class="oa-by"><b>Anthropic</b> <span>@ClaudeDevs · MON 19</span></div><div class="oa-post"><p>We launched OSS Scanner, which gives critical open source projects free, periodic vulnerability scans from our strongest models.</p><p>Each finding includes a proof-of-concept, and a patch where possible.</p><p>https://red.anthropic.com/oss-scanner</p></div><div class="oa-links"><a href="https://x.com/ClaudeDevs/status/2112299602510749992">Post on X ↗</a> <span class="dot">·</span> <a href="https://red.anthropic.com/oss-scanner">red.anthropic.com ↗</a></div></div>
+<div class="oa-item"><div class="oa-by"><b>Anthropic</b> <span>@ClaudeDevs · THU 22</span></div><div class="oa-post"><p>We're donating Agent Skills to the Agentic AI Foundation (@AgenticAIFdn), the same foundation we donated MCP to.</p><p>Since December 2025, 70+ agent platforms have integrated the standard, including ChatGPT, Cursor, GitHub Copilot, and VS Code. </p><p>Here's what that means for you:</p></div><div class="oa-links"><a href="https://x.com/ClaudeDevs/status/2113328526413996100">Post on X ↗</a></div></div>
+<div class="oa-item"><div class="oa-by"><b>Anthropic</b> <span>@AnthropicAI · SUN 18</span></div><div class="oa-post"><p>We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new wholly owned entity dedicated entirely to the public benefit.</p><p>It will start off with 5% of our shares. For every 50% increase in the company’s value over a set baseline, we can contribute up to an extra 2%, subject to our board’s discretion. <span class="cut">…</span></p></div><div class="oa-links"><a href="https://x.com/AnthropicAI/status/2111881963657412903">Post on X ↗</a></div></div>
+    </div>
+  </section>
+
+  <section>
+    <div class="sec-head"><span class="sec-hex">0x02</span><h2 class="sec-title">Viral on X</h2><div class="sec-rule"></div></div>
+    <p class="sec-sub">The AI posts that drew the biggest reaction this week.</p>
+    <div class="row"><span class="ico">🪞</span><span class="txt"><b><a href="https://x.com/kiwicopple">@kiwicopple</a></b> <a class="post" href="https://x.com/kiwicopple/status/2112348264150552917">i had 12 Claude agents running in parallel for 6 hours and i managed to reverse engineer @supabase <span class="cut">/</span> i'm making it available here so that you</a> <span class="cut">…</span></span><span class="stat"><b>♥︎ 6.3k</b></span></div>
+<div class="row"><span class="ico">🧬</span><span class="txt"><b><a href="https://x.com/miriamgonp">@miriamgonp</a></b> <a class="post" href="https://x.com/miriamgonp/status/2111885949734990226">Anthropic gave me $30,000 in Claude credits to research my own tumor I wrote what I built since March. I’m looking for someone who can</a> <span class="cut">…</span></span><span class="stat"><b>♥︎ 3.4k</b></span></div>
+<div class="row"><span class="ico">📏</span><span class="txt"><b><a href="https://x.com/HamelHusain">@HamelHusain</a></b> <a class="post" href="https://x.com/HamelHusain/status/2112588257104216294">New blog post 🎉: How To Use Decision Models For Evals <span class="cut">/</span> In this post, we show you how to choose a decision model for your task, tune its</a> <span class="cut">…</span></span><span class="stat"><b>♥︎ 2.3k</b></span></div>
+<div class="row"><span class="ico">🏁</span><span class="txt"><b><a href="https://x.com/PawelHuryn">@PawelHuryn</a></b> <a class="post" href="https://x.com/PawelHuryn/status/2112571119412646370">I repeated DeepSeek V4.1 Flash 1017 benchmark 89 times across 9 harnesses to understand which works best. <span class="cut">/</span> High effort, 5 attempts each: <span class="cut">/</span> Pi</a> <span class="cut">…</span></span><span class="stat"><b>♥︎ 1.2k</b></span></div>
+<div class="row"><span class="ico">🏔️</span><span class="txt"><b><a href="https://x.com/levelsio">@levelsio</a></b> <a class="post" href="https://x.com/levelsio/status/2112544287745302743">Today is the first time a friend living in a small town in Austria with a regular software job in a regular traditional company finally got</a> <span class="cut">…</span></span><span class="stat"><b>♥︎ 870</b></span></div>
+  </section>
+
+  <section>
+    <div class="sec-head"><span class="sec-hex">0x03</span><h2 class="sec-title">New AI Products</h2><div class="sec-rule"></div></div>
+    <div class="row"><span class="ico">🕳️</span><span class="txt"><b><a href="https://dev-null.sh">/dev/null</a></b> - a social network for devs, built from scratch in 48 hours on a JetBrains live stream. <span class="src">(<a href="https://www.producthunt.com/products/dev-null">ProductHunt</a>)</span></span><span class="stat"><b>▲ 492</b></span></div>
+<div class="row"><span class="ico">📬</span><span class="txt"><b><a href="https://www.getinboxzero.com">Inbox Zero</a></b> - open-source Superhuman alternative for Gmail and Outlook, with AI sorting and drafted replies. <span class="src">(<a href="https://www.producthunt.com/products/inbox-zero-2">ProductHunt</a>)</span></span><span class="stat"><b>▲ 379</b></span></div>
+<div class="row"><span class="ico">🪟</span><span class="txt"><b><a href="https://beam.win">Beam.win</a></b> - run AI agents on one Mac and use their windows on another. <span class="src">(<a href="https://www.producthunt.com/products/beam-win">ProductHunt</a>)</span></span><span class="stat"><b>▲ 379</b></span></div>
+<div class="row"><span class="ico">📊</span><span class="txt"><b><a href="https://deepcell.net">DeepCell</a></b> - docs, spreadsheets and slides for deadline work, with sources and cheat sheets. <span class="src">(<a href="https://www.producthunt.com/products/deepcell">ProductHunt</a>)</span></span><span class="stat"><b>▲ 341</b></span></div>
+  </section>
+
+  <section>
+    <div class="sec-head"><span class="sec-hex">0x04</span><h2 class="sec-title">Trending Github Projects</h2><div class="sec-rule"></div></div>
+    <div class="row"><span class="ico">🔍</span><span class="txt"><b><a href="https://github.com/xerj-org/xerj">xerj-org/xerj</a></b> - Local-first search engine and MCP server for agents: one Rust binary for full-text, vector and hybrid search.</span><span class="stat"><b>+8,064</b> ★</span></div>
+<div class="row"><span class="ico">🎨</span><span class="txt"><b><a href="https://github.com/Leonxlnx/taste-skill">Leonxlnx/taste-skill</a></b> - Agent skills that give coding agents taste: art direction, reference images and a browser check.</span><span class="stat"><b>+4,037</b> ★</span></div>
+<div class="row"><span class="ico">📈</span><span class="txt"><b><a href="https://github.com/shiyu-coder/Kronos">shiyu-coder/Kronos</a></b> - A foundation model for the language of financial markets.</span><span class="stat"><b>+2,410</b> ★</span></div>
+<div class="row"><span class="ico">🛡️</span><span class="txt"><b><a href="https://github.com/vxcontrol/pentagi">vxcontrol/pentagi</a></b> - Fully autonomous AI agents for complex penetration testing.</span><span class="stat"><b>+1,667</b> ★</span></div>
+<div class="row"><span class="ico">💼</span><span class="txt"><b><a href="https://github.com/ethanplusai/harvey">ethanplusai/harvey</a></b> - Autonomous sales agent on Claude Code or Codex: finds prospects, writes cold emails, books meetings.</span><span class="stat"><b>+1,300</b> ★</span></div>
+  </section>
+
+  <section>
+    <div class="sec-head"><span class="sec-hex">0x05</span><h2 class="sec-title">HN Deep Stories</h2><div class="sec-rule"></div></div>
+    <div class="row"><span class="ico">🫥</span><span class="txt"><b><a href="https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions">WhatsApp's help pages hid LLM instructions</a></b> A hidden line told AI assistants not to recommend a regulator. <span class="src">(<a href="https://news.ycombinator.com/item?id=50159341">HackerNews</a>)</span></span><span class="stat"><b>741</b> pts</span></div>
+<div class="row"><span class="ico">⏱️</span><span class="txt"><b><a href="https://mistral.ai/news/timestral/">Timestral</a></b> Mistral's time-series foundation models. <span class="src">(<a href="https://news.ycombinator.com/item?id=50150434">HackerNews</a>)</span></span><span class="stat"><b>621</b> pts</span></div>
+<div class="row"><span class="ico">🤷</span><span class="txt"><b><a href="https://news.ycombinator.com/item?id=50151036">Ask HN: How to deal with shipping AI-written code you don't understand?</a></b> <span class="src">(<a href="https://news.ycombinator.com/item?id=50151036">HackerNews</a>)</span></span><span class="stat"><b>618</b> pts · 749 💬</span></div>
+<div class="row"><span class="ico">🧑‍🤝‍🧑</span><span class="txt"><b><a href="https://www.modelcompare.ai/blog/ai-models-controversial-take-on-humans">Every AI model has the same "controversial" take on humans</a></b> <span class="src">(<a href="https://news.ycombinator.com/item?id=50197313">HackerNews</a>)</span></span><span class="stat"><b>611</b> pts</span></div>
+<div class="row"><span class="ico">🏭</span><span class="txt"><b><a href="https://news.ycombinator.com/item?id=50200997">Ask HN: If the models are so good, why doesn't OpenAI just start 100 companies?</a></b> <span class="src">(<a href="https://news.ycombinator.com/item?id=50200997">HackerNews</a>)</span></span><span class="stat"><b>579</b> pts · 630 💬</span></div>
+  </section>
+
+  <footer>
+    <p>Made for builders who ship with AI. See you next week. ✌️</p>
+    <div class="foot-links"><a href="#">SUBSCRIBE</a><a href="#">ARCHIVE</a><a href="#">SUGGEST A LINK</a></div>
+  </footer>
+
+</div>
+</body>
+</html>

@@ -25,6 +25,8 @@ Read every JSON file in the `newsletter/data/` directory of the working folder (
 
 **A launch lives in one place.** When a shortlisted announcement covers a story (Opus 5.5, GPT-6 Sol), AI News drops that story, even if it was the week's biggest; the story of the week then goes to the best remaining news item. The intro may still mention the launch.
 
+The publisher can choose the other way round and make an announcement the story of the week. Then take it off the shortlist (`x_items.py shortlist` again, without it) and run it as the AI News story-of-the-week row, linked to the post on X (or to `link_url` when there is one), with the company as the source label. Issue #15 did this with OpenAI's PHP flaws, which left four Anthropic posts in the card (decision record: `newsletter/artifacts/2026-Oct-24-Intro-AI-defenders-taste.html`).
+
 If a bucket has no data at all, omit that section from the output rather than inventing items. Never fabricate links, upvote counts, or star numbers - only use what's in the data.
 
 ### 2. Determine the send date, week number, and issue number
