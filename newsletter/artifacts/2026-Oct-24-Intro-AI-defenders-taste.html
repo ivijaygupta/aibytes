@@ -1,0 +1,62 @@
+<title>Issue 15 Intro Options</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@700;800&family=Instrument+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@500;700&display=swap">
+<style>
+:root{--paper:#FAFAF7;--ink:#191C26;--cobalt:#2B4EF0;--signal:#FFD338;--slate:#6B7080;--line:#E4E4DC;--card:#FFFFFF;--body:#3A3E4A;
+--display:'Bricolage Grotesque',Helvetica,Arial,sans-serif;--sans:'Instrument Sans',Helvetica,Arial,sans-serif;--mono:'JetBrains Mono',Menlo,Consolas,monospace}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--paper:#14161D;--ink:#ECEDE8;--cobalt:#7D93FF;--slate:#9A9FAE;--line:#2C2F3A;--card:#1B1E27;--body:#C9CBD3;color-scheme:dark}}
+:root[data-theme="dark"]{--paper:#14161D;--ink:#ECEDE8;--cobalt:#7D93FF;--slate:#9A9FAE;--line:#2C2F3A;--card:#1B1E27;--body:#C9CBD3;color-scheme:dark}
+body{background:var(--paper);color:var(--ink);font-family:var(--sans)}
+.wrap{max-width:680px;margin:0 auto;padding-inline:16px;padding-block:32px 56px;display:flex;flex-direction:column;gap:22px}
+h1{font-family:var(--display);font-weight:800;font-size:28px;letter-spacing:-.02em;margin:0;text-wrap:balance}
+.lede{color:var(--body);font-size:15px;line-height:1.6;margin:0}
+.lede code,.note code{font-family:var(--mono);font-size:12.5px}
+.note{border:1px solid var(--line);border-radius:10px;background:var(--card);padding:14px 16px;font-size:14px;line-height:1.6;color:var(--body)}
+.note b{color:var(--ink)}
+.opt{display:flex;flex-direction:column;gap:8px}
+.tag{font-family:var(--mono);font-size:12px;letter-spacing:.08em;color:var(--slate);display:flex;gap:10px;align-items:baseline}
+.tag .n{background:var(--signal);color:#191C26;font-weight:700;padding:1px 6px}
+.tag .why{letter-spacing:0;font-family:var(--sans);font-size:13.5px}
+.intro{border:1px solid var(--line);border-radius:14px;background:var(--card);padding:20px 22px}
+.intro p{margin:0 0 14px;font-size:15.5px;line-height:1.65;color:var(--body);max-width:65ch}
+.intro p:last-child{margin-bottom:0}
+.intro .greet{color:var(--ink)}
+.intro b{color:var(--ink)}
+.intro a{color:var(--cobalt);font-weight:600;text-decoration:none}
+.toc{font-family:var(--mono);font-size:11px;color:var(--slate);border-top:1px solid var(--line);padding-top:8px}
+</style>
+<div class="wrap">
+  <h1>Issue #15 intro: AI finding the bugs first</h1>
+  <p class="lede">You asked for the intro to lead with OpenAI finding the PHP bugs and Anthropic's free OSS Scanner. Below are three versions, each written as the hook plus the bold-led storyline. The table of contents follows each one unchanged. Every claim is checked against the posts: PHP runs "an estimated 70% of websites", the fix took a coalition two months, and OSS Scanner gives free, periodic scans with a proof of concept and, where possible, a patch.</p>
+  <div class="note"><b>Decision, 24 Oct 2026: the publisher picked 01</b>, which shipped in Issue #15 word for word. The title moved to the PHP story too: "🐘 OpenAI's models find PHP flaws and the US bans DeepSeek".</div>
+  <div class="note"><b>Also changing:</b> The PHP post moves out of Official Announcements and becomes the AI News <b>Story of the week</b>, linked to OpenAI's post on X, because a story can't run in both places. The card keeps four Anthropic posts (OSS Scanner, formal verification, Agent Skills, the Public Benefit Fund). The DeepSeek ban becomes a regular news row.</div>
+
+  <div class="opt">
+    <div class="tag"><span class="n">01</span> REACTION, THEN THE STORY <span class="why">The standing hook shape. It closes on the publisher's view.</span></div>
+    <div class="intro">
+      <p class="greet">Hello, builders 👋</p>
+      <p>Welcome back to your weekly dose of AI Bytes. I did not expect PHP to be the biggest AI story of the week. But OpenAI's models found critical flaws in the language that runs an estimated 70% of websites, and a coalition of maintainers spent two months fixing them before anyone else knew 🐘</p>
+      <p><b>AI is becoming the security team</b>: the same week, Anthropic launched <a href="https://red.anthropic.com/oss-scanner">OSS Scanner</a>, which gives critical open-source projects free vulnerability scans from its strongest models, with a proof of concept for each finding and a patch where it can. For years the worry was that AI would help attackers first. This week, the defenders got there first.</p>
+      <div class="toc">IN THIS ISSUE · 🌍 AI News · 📣 Official Announcements · 0x02 … 0x05</div>
+    </div>
+  </div>
+
+  <div class="opt">
+    <div class="tag"><span class="n">02</span> THE DEFENDER'S WINDOW <span class="why">Built on OpenAI's own phrase, with Anthropic making it free.</span></div>
+    <div class="intro">
+      <p class="greet">Hello, builders 👋</p>
+      <p>Welcome back to your weekly dose of AI Bytes. The most serious bug of the year was found by a model, and somehow that is the good news. OpenAI's models found critical flaws in PHP, and the fix shipped before attackers knew there was anything to find 🐘</p>
+      <p><b>Defenders got the head start</b>: OpenAI calls it the Defender's Window, where AI finds the hole before attackers do. Anthropic wants to open that window for everyone: <a href="https://red.anthropic.com/oss-scanner">OSS Scanner</a> gives critical open-source projects free, periodic scans, and Claude formally verified security properties in more than a hundred libraries. I think free security scans will matter more to most maintainers than any model launch this year.</p>
+      <div class="toc">IN THIS ISSUE · 🌍 AI News · 📣 Official Announcements · 0x02 … 0x05</div>
+    </div>
+  </div>
+
+  <div class="opt">
+    <div class="tag"><span class="n">03</span> THE BUILDER'S TO-DO <span class="why">Opens on what the reader should do, then the bigger shift.</span></div>
+    <div class="intro">
+      <p class="greet">Hello, builders 👋</p>
+      <p>Welcome back to your weekly dose of AI Bytes. If anything you run sits on PHP, upgrade before you read the rest of this 🐘 OpenAI's models found critical flaws in the language behind an estimated 70% of websites, and every PHP site can now safely upgrade.</p>
+      <p><b>Security just got cheaper</b>: Anthropic launched <a href="https://red.anthropic.com/oss-scanner">OSS Scanner</a>, free, periodic vulnerability scans for critical open-source projects, with a proof of concept for every finding and a patch where possible. Finding bugs used to need a security team. This week two AI labs started doing it for free.</p>
+      <div class="toc">IN THIS ISSUE · 🌍 AI News · 📣 Official Announcements · 0x02 … 0x05</div>
+    </div>
+  </div>
+</div>

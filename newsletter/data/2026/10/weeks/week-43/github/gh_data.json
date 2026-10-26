@@ -1,0 +1,69 @@
+{
+  "source": "github-trending",
+  "section": "trending-repos",
+  "fetched_at": "2026-10-24",
+  "query_params": {
+    "since": "weekly",
+    "languages": [
+      "all",
+      "python",
+      "typescript",
+      "jupyter-notebook",
+      "rust",
+      "go",
+      "javascript"
+    ],
+    "count": 40,
+    "topic": "ai",
+    "ranking": "period_stars,total_stars"
+  },
+  "totalCount": 5,
+  "poolCount": 98,
+  "repos": [
+    {
+      "name": "xerj-org/xerj",
+      "url": "https://github.com/xerj-org/xerj",
+      "description": "Local-first search engine and MCP server for AI agents. One Rust binary indexes code, docs, logs, JSONL/CSV and PDFs for BM25 full-text, vector and hybrid search, code search without grep, agent memory and RAG. Elasticsearch-compatible API; Corpus Hub serves hundreds of reference memory corpora.",
+      "language": "Rust",
+      "stars": 14190,
+      "forks": 975,
+      "period_stars": 8064
+    },
+    {
+      "name": "Leonxlnx/taste-skill",
+      "url": "https://github.com/Leonxlnx/taste-skill",
+      "description": "Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pages",
+      "language": "JavaScript",
+      "stars": 101604,
+      "forks": 6858,
+      "period_stars": 4037
+    },
+    {
+      "name": "shiyu-coder/Kronos",
+      "url": "https://github.com/shiyu-coder/Kronos",
+      "description": "Kronos: A Foundation Model for the Language of Financial Markets",
+      "language": "Python",
+      "stars": 43455,
+      "forks": 7167,
+      "period_stars": 2410
+    },
+    {
+      "name": "vxcontrol/pentagi",
+      "url": "https://github.com/vxcontrol/pentagi",
+      "description": "Fully autonomous AI Agents system capable of performing complex penetration testing tasks",
+      "language": "Go",
+      "stars": 32173,
+      "forks": 4990,
+      "period_stars": 1667
+    },
+    {
+      "name": "ethanplusai/harvey",
+      "url": "https://github.com/ethanplusai/harvey",
+      "description": "Autonomous AI sales agent powered by Claude Code or Codex. Finds prospects, writes cold emails, sends campaigns, handles replies, books meetings. No API keys needed — runs on your Claude or Codex subscriptions.",
+      "language": "Python",
+      "stars": 2317,
+      "forks": 478,
+      "period_stars": 1300
+    }
+  ]
+}
