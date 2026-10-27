@@ -1,0 +1,120 @@
+{
+  "source": "hackernews",
+  "section": "ai-news",
+  "fetched_at": "2026-10-27",
+  "window": {
+    "after": "2026-10-26",
+    "before": "2026-10-28"
+  },
+  "query_params": {
+    "tags": "story",
+    "count": 10,
+    "min_points": 50,
+    "topic": "ai",
+    "ranking": "points,recency"
+  },
+  "totalCount": 12,
+  "poolCount": 59,
+  "stories": [
+    {
+      "title": "Anthropic S-1",
+      "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
+      "type": "story",
+      "points": 1589,
+      "num_comments": 1523,
+      "author": "SiNTEx",
+      "created_at": "2026-10-26T13:04:50Z",
+      "hn_url": "https://news.ycombinator.com/item?id=50242939"
+    },
+    {
+      "title": "Three new discoveries in mathematics, computer science, and physics",
+      "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities/",
+      "type": "story",
+      "points": 815,
+      "num_comments": 356,
+      "author": "jonluca",
+      "created_at": "2026-10-26T21:35:28Z",
+      "hn_url": "https://news.ycombinator.com/item?id=50251344"
+    },
+    {
+      "title": "GPT-6.1 Terra",
+      "url": "https://openai.com/index/introducing-gpt-6-1-terra/",
+      "type": "story",
+      "points": 576,
+      "num_comments": 363,
+      "author": "meetpateltech",
+      "created_at": "2026-10-26T18:01:17Z",
+      "hn_url": "https://news.ycombinator.com/item?id=50248124"
+    },
+    {
+      "title": "Concerning behavior from a popular open-weight AI model",
+      "url": "https://cohere.com/blog/concerning-behaviour-popular-open-weight-ai-model",
+      "type": "story",
+      "points": 291,
+      "num_comments": 117,
+      "author": "matthieu_bl",
+      "created_at": "2026-10-26T16:35:44Z",
+      "hn_url": "https://news.ycombinator.com/item?id=50246658"
+    },
+    {
+      "title": "ChatGPT Keeps Telling People 404 Media Can Solve Their Tech Support Problems",
+      "url": "https://www.404media.co/chatgpt-keeps-telling-people-404-media-can-solve-their-tech-support-problems/",
+      "type": "story",
+      "points": 246,
+      "num_comments": 89,
+      "author": "cdrnsf",
+      "created_at": "2026-10-26T17:32:16Z",
+      "hn_url": "https://news.ycombinator.com/item?id=50247630"
+    },
+    {
+      "title": "Brown student maps the hidden global labor powering AI",
+      "url": "https://www.brown.edu/news/2026-10-26/ai-data-workers",
+      "type": "story",
+      "points": 179,
+      "num_comments": 171,
+      "author": "cdrnsf",
+      "created_at": "2026-10-26T12:58:27Z",
+      "hn_url": "https://news.ycombinator.com/item?id=50242843"
+    },
+    {
+      "title": "Show HN: Hob - Open-source, on device alternative to Claude Cowork and ChatGPT",
+      "url": "https://github.com/FrigadeHQ/hob",
+      "type": "show_hn",
+      "points": 140,
+      "num_comments": 32,
+      "author": "pancomplex",
+      "created_at": "2026-10-26T16:12:29Z",
+      "hn_url": "https://news.ycombinator.com/item?id=50246238"
+    },
+    {
+      "title": "Cross-request KV cache exposure in the GLM-5.3 Workers AI model (155 responses)",
+      "url": "https://blog.cloudflare.com/kv-cache-exposure-remediation/",
+      "type": "story",
+      "points": 125,
+      "num_comments": 40,
+      "author": "wondersky",
+      "created_at": "2026-10-26T22:41:48Z",
+      "hn_url": "https://news.ycombinator.com/item?id=50252159"
+    },
+    {
+      "title": "Cognitive Mercantilism: AI panic resembles fears of early capitalism",
+      "url": "https://contraptions.venkateshrao.com/p/cognitive-mercantilism",
+      "type": "story",
+      "points": 80,
+      "num_comments": 110,
+      "author": "ianand",
+      "created_at": "2026-10-26T04:11:40Z",
+      "hn_url": "https://news.ycombinator.com/item?id=50239027"
+    },
+    {
+      "title": "Microsoft Decision-1: 9B Qwen Model Launch Explained",
+      "url": "https://shattered.io/microsoft-decision-1-qwen3-5-9b-model-2026/",
+      "type": "story",
+      "points": 71,
+      "num_comments": 29,
+      "author": "gmays",
+      "created_at": "2026-10-26T03:12:05Z",
+      "hn_url": "https://news.ycombinator.com/item?id=50238620"
+    }
+  ]
+}

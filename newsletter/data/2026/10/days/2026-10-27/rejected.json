@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-27",
+  "generated_at": "2026-10-27T08:01:15Z",
+  "counts": {
+    "kept": 29,
+    "rejected": 1
+  },
+  "rejected": [
+    {
+      "id": "ph-pdf-accessibility-checker-by-webyes-2026-10-27",
+      "source": "producthunt",
+      "title": "PDF Accessibility Checker by WebYes",
+      "url": "https://www.webyes.com/product/free-pdf-accessibility-checker/",
+      "reason": "not-ai",
+      "detail": "no AI keyword or domain in the tagline, description or topics"
+    }
+  ]
+}

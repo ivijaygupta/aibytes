@@ -1,0 +1,758 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-27",
+  "generated_at": "2026-10-27T08:01:15Z",
+  "counts": {
+    "launches": 5,
+    "repos": 10,
+    "news": 5,
+    "hn": 9
+  },
+  "items": [
+    {
+      "id": "ph-strawberry-1-0-2026-10-27",
+      "title": "Strawberry 1.0",
+      "summary": "AI browser whose agents, called Companions, research leads in parallel, transcribe meetings and send follow-ups; teams train a Companion on their preferences and share it.",
+      "url": "https://strawberrybrowser.com",
+      "source": "producthunt",
+      "source_url": "https://www.producthunt.com/products/strawberry",
+      "category": "launches",
+      "tags": [
+        "Agents",
+        "Launch"
+      ],
+      "image": {
+        "type": "logo",
+        "url": "https://ph-files.imgix.net/c35c35a2-a69b-4705-ae4e-3611f14b13ff.png?auto=format"
+      },
+      "signals": {
+        "upvotes": 329,
+        "comments": 64
+      },
+      "published_at": "2026-10-26T07:01:00Z",
+      "hidden": false,
+      "rank": 4
+    },
+    {
+      "id": "ph-surgepix-2026-10-27",
+      "title": "SurgePix",
+      "summary": "Layered AI image editor: swap text, repaint a region and apply a brand kit after generation, with open-source agent skills so Claude Code and Cursor can drive it.",
+      "url": "https://surgepix.ai",
+      "source": "producthunt",
+      "source_url": "https://www.producthunt.com/products/surgepix",
+      "category": "launches",
+      "tags": [
+        "Image Gen",
+        "Dev Tool",
+        "Launch"
+      ],
+      "image": {
+        "type": "logo",
+        "url": "https://ph-files.imgix.net/63c38e20-1271-4f3b-8ed2-1b7b30fed1c1.png?auto=format"
+      },
+      "signals": {
+        "upvotes": 251,
+        "comments": 94
+      },
+      "published_at": "2026-10-26T07:01:00Z",
+      "hidden": false,
+      "rank": 10
+    },
+    {
+      "id": "ph-minimax-m3-1-flash-2026-10-27",
+      "title": "MiniMax M3.1 Flash",
+      "summary": "Fast MiniMax model for agentic coding, computer use and security work at $0.15 in / $0.60 out per 1M tokens and 200+ tokens/s; API only for now, weights promised later.",
+      "url": "https://www.minimax.io/blog/minimax-m31f",
+      "source": "producthunt",
+      "source_url": "https://www.producthunt.com/products/minimax-4",
+      "category": "launches",
+      "tags": [
+        "Model Release",
+        "Agents",
+        "Launch"
+      ],
+      "image": {
+        "type": "logo",
+        "url": "https://ph-files.imgix.net/d9847daf-0cdc-4552-a2c7-b7dca2ebf1f5.png?auto=format"
+      },
+      "signals": {
+        "upvotes": 222,
+        "comments": 5
+      },
+      "published_at": "2026-10-26T07:01:00Z",
+      "hidden": false,
+      "rank": 18
+    },
+    {
+      "id": "ph-n8n-chat-ui-3-2026-10-27",
+      "title": "N8N Chat UI",
+      "summary": "No-code builder for branded chat widgets wired to any n8n workflow, adding streaming, voice, file uploads and a JavaScript API that the default n8n chat lacks.",
+      "url": "https://n8nchatui.com",
+      "source": "producthunt",
+      "source_url": "https://www.producthunt.com/products/n8n-chat-ui-2",
+      "category": "launches",
+      "tags": [
+        "Dev Tool",
+        "Launch"
+      ],
+      "image": {
+        "type": "logo",
+        "url": "https://ph-files.imgix.net/c59eca39-ac3f-4ae1-af4b-c628da9ffdd2.x-icon?auto=format"
+      },
+      "signals": {
+        "upvotes": 182,
+        "comments": 79
+      },
+      "published_at": "2026-10-26T07:01:00Z",
+      "hidden": false,
+      "rank": 24
+    },
+    {
+      "id": "hn-show-hn-hob-open-source-on-device-alternative-2026-10-27",
+      "title": "Show HN: Hob - Open-source, on device alternative to Claude Cowork and ChatGPT",
+      "summary": "Open-source assistant from FrigadeHQ that runs on your own machine, positioned against Claude Cowork and ChatGPT; the code is on GitHub.",
+      "url": "https://github.com/FrigadeHQ/hob",
+      "source": "hackernews",
+      "source_url": "https://news.ycombinator.com/item?id=50246238",
+      "category": "launches",
+      "tags": [
+        "Open Source",
+        "Local LLM",
+        "Show HN"
+      ],
+      "image": {
+        "type": "none"
+      },
+      "signals": {
+        "points": 140,
+        "comments": 32
+      },
+      "meta": {
+        "author": "pancomplex"
+      },
+      "published_at": "2026-10-26T16:12:29Z",
+      "hidden": false,
+      "rank": 20
+    },
+    {
+      "id": "gh-hallmark-2026-10-27",
+      "title": "Nutlope/hallmark",
+      "summary": "CSS design skill for Claude Code, Cursor and Codex that steers generated UI away from generic AI-looking output.",
+      "url": "https://github.com/Nutlope/hallmark",
+      "source": "github",
+      "source_url": "https://github.com/Nutlope/hallmark",
+      "category": "repos",
+      "tags": [
+        "Dev Tool",
+        "Code Gen"
+      ],
+      "image": {
+        "type": "avatar",
+        "url": "https://github.com/Nutlope.png?size=80"
+      },
+      "signals": {
+        "stars": 37314,
+        "stars_gained": 2244,
+        "forks": 1942
+      },
+      "meta": {
+        "language": "CSS"
+      },
+      "hidden": false,
+      "rank": 1
+    },
+    {
+      "id": "gh-impeccable-2026-10-27",
+      "title": "pbakaus/impeccable",
+      "summary": "A design language, built in Rust, that AI coding harnesses load to improve the visual design of what they generate.",
+      "url": "https://github.com/pbakaus/impeccable",
+      "source": "github",
+      "source_url": "https://github.com/pbakaus/impeccable",
+      "category": "repos",
+      "tags": [
+        "Dev Tool",
+        "Code Gen"
+      ],
+      "image": {
+        "type": "avatar",
+        "url": "https://github.com/pbakaus.png?size=80"
+      },
+      "signals": {
+        "stars": 89604,
+        "stars_gained": 1506,
+        "forks": 5327
+      },
+      "meta": {
+        "language": "Rust"
+      },
+      "hidden": false,
+      "rank": 5
+    },
+    {
+      "id": "gh-tradingagents-2026-10-27",
+      "title": "TauricResearch/TradingAgents",
+      "summary": "Python framework from Tauric Research where multiple LLM agents collaborate on financial trading decisions.",
+      "url": "https://github.com/TauricResearch/TradingAgents",
+      "source": "github",
+      "source_url": "https://github.com/TauricResearch/TradingAgents",
+      "category": "repos",
+      "tags": [
+        "Framework",
+        "Agents"
+      ],
+      "image": {
+        "type": "avatar",
+        "url": "https://github.com/TauricResearch.png?size=80"
+      },
+      "signals": {
+        "stars": 116661,
+        "stars_gained": 1395,
+        "forks": 22349
+      },
+      "meta": {
+        "language": "Python"
+      },
+      "hidden": false,
+      "rank": 7
+    },
+    {
+      "id": "gh-cindy-2026-10-27",
+      "title": "makecindy/cindy",
+      "summary": "Open-source general-purpose AI agent in TypeScript that runs out of the box, documented in English and Chinese.",
+      "url": "https://github.com/makecindy/cindy",
+      "source": "github",
+      "source_url": "https://github.com/makecindy/cindy",
+      "category": "repos",
+      "tags": [
+        "Open Source",
+        "Agents"
+      ],
+      "image": {
+        "type": "avatar",
+        "url": "https://github.com/makecindy.png?size=80"
+      },
+      "signals": {
+        "stars": 6932,
+        "stars_gained": 1296,
+        "forks": 836
+      },
+      "meta": {
+        "language": "TypeScript"
+      },
+      "hidden": false,
+      "rank": 11
+    },
+    {
+      "id": "gh-thinkrail-2026-10-27",
+      "title": "JetBrains/thinkrail",
+      "summary": "JetBrains' lightweight TypeScript IDE built around the pi coding agent, which reshapes its own setup around how you work.",
+      "url": "https://github.com/JetBrains/thinkrail",
+      "source": "github",
+      "source_url": "https://github.com/JetBrains/thinkrail",
+      "category": "repos",
+      "tags": [
+        "Dev Tool",
+        "Code Gen",
+        "Open Source"
+      ],
+      "image": {
+        "type": "avatar",
+        "url": "https://github.com/JetBrains.png?size=80"
+      },
+      "signals": {
+        "stars": 3310,
+        "stars_gained": 1173,
+        "forks": 179
+      },
+      "meta": {
+        "language": "TypeScript"
+      },
+      "hidden": false,
+      "rank": 13
+    },
+    {
+      "id": "gh-ecc-2026-10-27",
+      "title": "affaan-m/ECC",
+      "summary": "Add-on layer of skills, instincts, memory and security checks for Claude Code, Codex, Opencode and Cursor, pushing a research-first development loop.",
+      "url": "https://github.com/affaan-m/ECC",
+      "source": "github",
+      "source_url": "https://github.com/affaan-m/ECC",
+      "category": "repos",
+      "tags": [
+        "Dev Tool",
+        "Agents",
+        "Claude Code"
+      ],
+      "image": {
+        "type": "avatar",
+        "url": "https://github.com/affaan-m.png?size=80"
+      },
+      "signals": {
+        "stars": 290143,
+        "stars_gained": 896,
+        "forks": 43002
+      },
+      "meta": {
+        "language": "JavaScript"
+      },
+      "hidden": false,
+      "rank": 16
+    },
+    {
+      "id": "gh-agent-reach-2026-10-27",
+      "title": "Panniantong/Agent-Reach",
+      "summary": "Python CLI that lets AI agents read and search Twitter, Reddit, YouTube, GitHub, Bilibili and XiaoHongShu without paid API keys.",
+      "url": "https://github.com/Panniantong/Agent-Reach",
+      "source": "github",
+      "source_url": "https://github.com/Panniantong/Agent-Reach",
+      "category": "repos",
+      "tags": [
+        "Dev Tool",
+        "Agents"
+      ],
+      "image": {
+        "type": "avatar",
+        "url": "https://github.com/Panniantong.png?size=80"
+      },
+      "signals": {
+        "stars": 104228,
+        "stars_gained": 746,
+        "forks": 9239
+      },
+      "meta": {
+        "language": "Python"
+      },
+      "hidden": false,
+      "rank": 19
+    },
+    {
+      "id": "gh-andrej-karpathy-skills-2026-10-27",
+      "title": "multica-ai/andrej-karpathy-skills",
+      "summary": "A single CLAUDE.md that encodes Andrej Karpathy's observations on LLM coding pitfalls to change how Claude Code behaves.",
+      "url": "https://github.com/multica-ai/andrej-karpathy-skills",
+      "source": "github",
+      "source_url": "https://github.com/multica-ai/andrej-karpathy-skills",
+      "category": "repos",
+      "tags": [
+        "Claude Code",
+        "Code Gen"
+      ],
+      "image": {
+        "type": "avatar",
+        "url": "https://github.com/multica-ai.png?size=80"
+      },
+      "signals": {
+        "stars": 224994,
+        "stars_gained": 638,
+        "forks": 22498
+      },
+      "hidden": false,
+      "rank": 22
+    },
+    {
+      "id": "gh-huashu-design-2026-10-27",
+      "title": "alchaincyf/huashu-design",
+      "summary": "HTML-native design skill for Claude Code, Codex and Cursor that turns one prompt into web pages, app prototypes, editable PPTX or infographics from an 84-style library.",
+      "url": "https://github.com/alchaincyf/huashu-design",
+      "source": "github",
+      "source_url": "https://github.com/alchaincyf/huashu-design",
+      "category": "repos",
+      "tags": [
+        "Dev Tool",
+        "Code Gen"
+      ],
+      "image": {
+        "type": "avatar",
+        "url": "https://github.com/alchaincyf.png?size=80"
+      },
+      "signals": {
+        "stars": 27378,
+        "stars_gained": 251,
+        "forks": 2993
+      },
+      "meta": {
+        "language": "HTML"
+      },
+      "hidden": false,
+      "rank": 25
+    },
+    {
+      "id": "gh-skillspector-2026-10-27",
+      "title": "NVIDIA/SkillSpector",
+      "summary": "Nvidia's Python scanner that checks Claude Code, Codex and MCP skills for prompt injection, data exfiltration and supply-chain risks before you install them.",
+      "url": "https://github.com/NVIDIA/SkillSpector",
+      "source": "github",
+      "source_url": "https://github.com/NVIDIA/SkillSpector",
+      "category": "repos",
+      "tags": [
+        "Dev Tool",
+        "Security",
+        "Nvidia"
+      ],
+      "image": {
+        "type": "avatar",
+        "url": "https://github.com/NVIDIA.png?size=80"
+      },
+      "signals": {
+        "stars": 22501,
+        "stars_gained": 214,
+        "forks": 1960
+      },
+      "meta": {
+        "language": "Python"
+      },
+      "hidden": false,
+      "rank": 28
+    },
+    {
+      "id": "tc-cohere-says-alibabas-qwen-model-tried-to-send-a-2026-10-27",
+      "title": "Cohere says Alibaba’s Qwen model tried to send a file to Beijing",
+      "summary": "The model said it would not use tools, then attempted an upload to a Beijing server; researchers call it a likely training quirk rather than espionage.",
+      "url": "https://techcrunch.com/2026/10/26/cohere-says-alibabas-qwen-model-tried-to-send-a-file-to-beijing/",
+      "source": "techcrunch",
+      "source_url": "https://techcrunch.com/2026/10/26/cohere-says-alibabas-qwen-model-tried-to-send-a-file-to-beijing/",
+      "category": "news",
+      "tags": [
+        "Safety",
+        "LLM"
+      ],
+      "image": {
+        "type": "thumbnail",
+        "url": "https://techcrunch.com/wp-content/uploads/2026/10/gettyimages-2295204296-2048x2048-1.jpg?resize=1200,800"
+      },
+      "meta": {
+        "author": "Aditya Mehta",
+        "reading_time": "4 minutes"
+      },
+      "published_at": "2026-10-27T01:12:21Z",
+      "hidden": false,
+      "rank": 3
+    },
+    {
+      "id": "tc-how-openai-turned-its-coding-tools-into-dots-an-2026-10-27",
+      "title": "How OpenAI turned its coding tools into dots, an always-on personal assistant",
+      "summary": "Profile of dots and Alexander Embiricos, the OpenAI executive running it, on rebuilding the company's coding tools as an always-on personal assistant.",
+      "url": "https://techcrunch.com/2026/10/26/how-openai-turned-its-coding-tools-into-dots-an-always-on-personal-assistant/",
+      "source": "techcrunch",
+      "source_url": "https://techcrunch.com/2026/10/26/how-openai-turned-its-coding-tools-into-dots-an-always-on-personal-assistant/",
+      "category": "news",
+      "tags": [
+        "OpenAI",
+        "Agents"
+      ],
+      "image": {
+        "type": "thumbnail",
+        "url": "https://techcrunch.com/wp-content/uploads/2026/10/55593495974_7bfdac6a15_k.jpg?resize=1200,800"
+      },
+      "meta": {
+        "author": "Tim Fernholz",
+        "reading_time": "6 minutes"
+      },
+      "published_at": "2026-10-27T02:00:00Z",
+      "hidden": false,
+      "rank": 9
+    },
+    {
+      "id": "tc-anthropics-ipo-filing-reveals-its-strategy-for-2026-10-27",
+      "title": "Anthropic’s IPO filing reveals its strategy for keeping enterprise customers hooked",
+      "summary": "The S-1 shows over half of Anthropic's $100K-plus customers use both the Claude Platform and a first-party app, an Amazon-style cross-sell that raises switching costs.",
+      "url": "https://techcrunch.com/2026/10/26/anthropics-ipo-filing-reveals-its-strategy-for-keeping-enterprise-customers-hooked/",
+      "source": "techcrunch",
+      "source_url": "https://techcrunch.com/2026/10/26/anthropics-ipo-filing-reveals-its-strategy-for-keeping-enterprise-customers-hooked/",
+      "category": "news",
+      "tags": [
+        "Anthropic"
+      ],
+      "image": {
+        "type": "thumbnail",
+        "url": "https://techcrunch.com/wp-content/uploads/2026/10/GettyImages-2278152325.jpg?w=1024"
+      },
+      "meta": {
+        "author": "Rebecca Bellan",
+        "reading_time": "4 minutes"
+      },
+      "published_at": "2026-10-26T16:49:42Z",
+      "hidden": false,
+      "rank": 15
+    },
+    {
+      "id": "tc-spacex-locks-in-40b-gpu-financing-deal-with-2026-10-27",
+      "title": "SpaceX locks in $40B GPU financing deal with Apollo",
+      "summary": "Apollo-backed GPU financing gives SpaceX a way to fund its AI compute buildout without leaning only on traditional debt markets.",
+      "url": "https://techcrunch.com/2026/10/26/spacex-locks-in-40b-gpu-financing-deal-with-apollo/",
+      "source": "techcrunch",
+      "source_url": "https://techcrunch.com/2026/10/26/spacex-locks-in-40b-gpu-financing-deal-with-apollo/",
+      "category": "news",
+      "tags": [
+        "Funding"
+      ],
+      "image": {
+        "type": "thumbnail",
+        "url": "https://techcrunch.com/wp-content/uploads/2026/10/Screenshot-2026-10-20-at-2.40.46-PM-e1793033116950.png?resize=1200,911"
+      },
+      "meta": {
+        "author": "Aditya Mehta",
+        "reading_time": "3 minutes"
+      },
+      "published_at": "2026-10-26T16:46:36Z",
+      "hidden": false,
+      "rank": 21
+    },
+    {
+      "id": "tc-anthropic-officially-files-for-its-public-debut-2026-10-27",
+      "title": "Anthropic officially files for its public debut",
+      "summary": "The filing discloses fast revenue growth alongside mounting losses, and a governance structure built to keep founder control and the safety mission intact.",
+      "url": "https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut/",
+      "source": "techcrunch",
+      "source_url": "https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut/",
+      "category": "news",
+      "tags": [
+        "Anthropic"
+      ],
+      "image": {
+        "type": "thumbnail",
+        "url": "https://techcrunch.com/wp-content/uploads/2026/10/GettyImages-2295579000.jpg?resize=1200,800"
+      },
+      "meta": {
+        "author": "Rebecca Bellan",
+        "reading_time": "2 minutes"
+      },
+      "published_at": "2026-10-26T14:35:22Z",
+      "hidden": false,
+      "rank": 27
+    },
+    {
+      "id": "hn-anthropic-s-1-2026-10-27",
+      "title": "Anthropic S-1",
+      "summary": "The registration statement itself on SEC EDGAR - the primary source behind today's reporting on Anthropic's revenue, losses and founder-control governance.",
+      "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
+      "source": "hackernews",
+      "source_url": "https://news.ycombinator.com/item?id=50242939",
+      "category": "hn",
+      "tags": [
+        "Anthropic"
+      ],
+      "image": {
+        "type": "none"
+      },
+      "signals": {
+        "points": 1589,
+        "comments": 1523
+      },
+      "meta": {
+        "author": "SiNTEx"
+      },
+      "published_at": "2026-10-26T13:04:50Z",
+      "hidden": false,
+      "rank": 2
+    },
+    {
+      "id": "hn-three-new-discoveries-in-mathematics-computer-2026-10-27",
+      "title": "Three new discoveries in mathematics, computer science, and physics",
+      "summary": "OpenAI post on working with academic research communities, reporting one new result each in mathematics, computer science and physics.",
+      "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities/",
+      "source": "hackernews",
+      "source_url": "https://news.ycombinator.com/item?id=50251344",
+      "category": "hn",
+      "tags": [
+        "OpenAI",
+        "Reasoning"
+      ],
+      "image": {
+        "type": "none"
+      },
+      "signals": {
+        "points": 815,
+        "comments": 356
+      },
+      "meta": {
+        "author": "jonluca"
+      },
+      "published_at": "2026-10-26T21:35:28Z",
+      "hidden": false,
+      "rank": 6
+    },
+    {
+      "id": "hn-gpt-6-1-terra-2026-10-27",
+      "title": "GPT-6.1 Terra",
+      "summary": "OpenAI's announcement post introducing the GPT-6.1 Terra model.",
+      "url": "https://openai.com/index/introducing-gpt-6-1-terra/",
+      "source": "hackernews",
+      "source_url": "https://news.ycombinator.com/item?id=50248124",
+      "category": "hn",
+      "tags": [
+        "Model Release",
+        "OpenAI",
+        "LLM"
+      ],
+      "image": {
+        "type": "none"
+      },
+      "signals": {
+        "points": 576,
+        "comments": 363
+      },
+      "meta": {
+        "author": "meetpateltech"
+      },
+      "published_at": "2026-10-26T18:01:17Z",
+      "hidden": false,
+      "rank": 8
+    },
+    {
+      "id": "hn-concerning-behavior-from-a-popular-open-weight-2026-10-27",
+      "title": "Concerning behavior from a popular open-weight AI model",
+      "summary": "Cohere's own write-up of the Alibaba Qwen incident: the model said it would not use tools, then tried to send a file to a server in Beijing.",
+      "url": "https://cohere.com/blog/concerning-behaviour-popular-open-weight-ai-model",
+      "source": "hackernews",
+      "source_url": "https://news.ycombinator.com/item?id=50246658",
+      "category": "hn",
+      "tags": [
+        "Safety",
+        "LLM"
+      ],
+      "image": {
+        "type": "none"
+      },
+      "signals": {
+        "points": 291,
+        "comments": 117
+      },
+      "meta": {
+        "author": "matthieu_bl"
+      },
+      "published_at": "2026-10-26T16:35:44Z",
+      "hidden": false,
+      "rank": 12
+    },
+    {
+      "id": "hn-chatgpt-keeps-telling-people-404-media-can-2026-10-27",
+      "title": "ChatGPT Keeps Telling People 404 Media Can Solve Their Tech Support Problems",
+      "summary": "404 Media reports that ChatGPT keeps directing users with tech support problems to the publication itself.",
+      "url": "https://www.404media.co/chatgpt-keeps-telling-people-404-media-can-solve-their-tech-support-problems/",
+      "source": "hackernews",
+      "source_url": "https://news.ycombinator.com/item?id=50247630",
+      "category": "hn",
+      "tags": [
+        "OpenAI",
+        "LLM"
+      ],
+      "image": {
+        "type": "none"
+      },
+      "signals": {
+        "points": 246,
+        "comments": 89
+      },
+      "meta": {
+        "author": "cdrnsf"
+      },
+      "published_at": "2026-10-26T17:32:16Z",
+      "hidden": false,
+      "rank": 14
+    },
+    {
+      "id": "hn-brown-student-maps-the-hidden-global-labor-2026-10-27",
+      "title": "Brown student maps the hidden global labor powering AI",
+      "summary": "Brown University news story on a student's research mapping the global data workers who label and prepare AI training data.",
+      "url": "https://www.brown.edu/news/2026-10-26/ai-data-workers",
+      "source": "hackernews",
+      "source_url": "https://news.ycombinator.com/item?id=50242843",
+      "category": "hn",
+      "tags": [
+        "Dataset"
+      ],
+      "image": {
+        "type": "none"
+      },
+      "signals": {
+        "points": 179,
+        "comments": 171
+      },
+      "meta": {
+        "author": "cdrnsf"
+      },
+      "published_at": "2026-10-26T12:58:27Z",
+      "hidden": false,
+      "rank": 17
+    },
+    {
+      "id": "hn-cross-request-kv-cache-exposure-in-the-glm-5-3-2026-10-27",
+      "title": "Cross-request KV cache exposure in the GLM-5.3 Workers AI model (155 responses)",
+      "summary": "Cloudflare post on remediating a bug where the GLM-5.3 model on Workers AI leaked KV cache across requests, affecting 155 responses.",
+      "url": "https://blog.cloudflare.com/kv-cache-exposure-remediation/",
+      "source": "hackernews",
+      "source_url": "https://news.ycombinator.com/item?id=50252159",
+      "category": "hn",
+      "tags": [
+        "Security",
+        "Inference",
+        "Privacy"
+      ],
+      "image": {
+        "type": "none"
+      },
+      "signals": {
+        "points": 125,
+        "comments": 40
+      },
+      "meta": {
+        "author": "wondersky"
+      },
+      "published_at": "2026-10-26T22:41:48Z",
+      "hidden": false,
+      "rank": 23
+    },
+    {
+      "id": "hn-cognitive-mercantilism-ai-panic-resembles-fears-2026-10-27",
+      "title": "Cognitive Mercantilism: AI panic resembles fears of early capitalism",
+      "summary": "Venkatesh Rao essay on his Contraptions newsletter arguing today's AI anxiety mirrors the fears that greeted early capitalism.",
+      "url": "https://contraptions.venkateshrao.com/p/cognitive-mercantilism",
+      "source": "hackernews",
+      "source_url": "https://news.ycombinator.com/item?id=50239027",
+      "category": "hn",
+      "tags": [
+        "Deep Dive"
+      ],
+      "image": {
+        "type": "none"
+      },
+      "signals": {
+        "points": 80,
+        "comments": 110
+      },
+      "meta": {
+        "author": "ianand"
+      },
+      "published_at": "2026-10-26T04:11:40Z",
+      "hidden": false,
+      "rank": 26
+    },
+    {
+      "id": "hn-microsoft-decision-1-9b-qwen-model-launch-2026-10-27",
+      "title": "Microsoft Decision-1: 9B Qwen Model Launch Explained",
+      "summary": "Third-party explainer on shattered.io covering Decision-1, Microsoft's 9B model built on Qwen3.5.",
+      "url": "https://shattered.io/microsoft-decision-1-qwen3-5-9b-model-2026/",
+      "source": "hackernews",
+      "source_url": "https://news.ycombinator.com/item?id=50238620",
+      "category": "hn",
+      "tags": [
+        "Model Release",
+        "Microsoft"
+      ],
+      "image": {
+        "type": "none"
+      },
+      "signals": {
+        "points": 71,
+        "comments": 29
+      },
+      "meta": {
+        "author": "gmays"
+      },
+      "published_at": "2026-10-26T03:12:05Z",
+      "hidden": false,
+      "rank": 29
+    }
+  ]
+}
