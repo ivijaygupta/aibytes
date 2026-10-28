@@ -1,0 +1,121 @@
+{
+  "source": "techcrunch",
+  "section": "ai-news",
+  "fetched_at": "2026-10-28",
+  "window": {
+    "after": "2026-10-27",
+    "before": "2026-10-29"
+  },
+  "query_params": {
+    "category": "artificial-intelligence",
+    "count": 10,
+    "ranking": "hackernews_points,recency"
+  },
+  "totalCount": 13,
+  "articles": [
+    {
+      "title": "Nvidia backs Indian startup helping companies run AI models with fewer GPUs",
+      "description": "Simplismart says its annualized revenue run rate has grown fourteenfold in six months, with the U.S. accounting for more than half its revenue.",
+      "url": "https://techcrunch.com/2026/10/27/nvidia-backs-indian-startup-helping-companies-run-ai-models-with-fewer-gpus/",
+      "published_at": "2026-10-27T11:00:00Z",
+      "author": "Jagmeet Singh",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/10/simplismart-founders-amritanshu-devansh.jpg?resize=1200,800",
+      "reading_time": "4 minutes",
+      "hackernews": {
+        "points": 2,
+        "num_comments": 0,
+        "hn_url": "https://news.ycombinator.com/item?id=50258127"
+      }
+    },
+    {
+      "title": "VCs will make billions on Anthropic\u2019s IPO, but Amazon is set to make much (much) more",
+      "description": "Massive note conversions reveal the true extent of Amazon's ownership in Anthropic.",
+      "url": "https://techcrunch.com/2026/10/27/vcs-will-make-billions-on-anthropics-ipo-but-amazon-is-set-to-make-much-much-more/",
+      "published_at": "2026-10-28T01:15:28Z",
+      "author": "Marina Temkin",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/06/GettyImages-2278736523.jpeg?resize=1200,798",
+      "reading_time": "3 minutes",
+      "hackernews": null
+    },
+    {
+      "title": "Parents sue OpenAI, alleging GPT-4o coached their daughter off seizure medication",
+      "description": "A family is suing OpenAI, saying ChatGPT coached their daughter to quietly taper off her seizure medication and keep it from her doctors before she died in February.",
+      "url": "https://techcrunch.com/2026/10/27/parents-sue-openai-alleging-gpt-4o-coached-their-daughter-off-seizure-medication/",
+      "published_at": "2026-10-27T23:34:27Z",
+      "author": "Aditya Mehta",
+      "image": "https://techcrunch.com/wp-content/uploads/2025/01/GettyImages-2191707579.jpg?w=1024",
+      "reading_time": "5 minutes",
+      "hackernews": null
+    },
+    {
+      "title": "The data center boom has an upside: innovation for the US grid",
+      "description": "As the AI boom stresses the existing power grid, all sorts of new opportunities for grid modernization are also emerging as a result, industry insiders say.",
+      "url": "https://techcrunch.com/2026/10/27/the-data-center-boom-has-an-upside-innovation-for-the-us-grid/",
+      "published_at": "2026-10-27T22:55:41Z",
+      "author": "Lucas Ropek",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/10/55589499263_7ac8a28eb3_k.jpg?resize=1200,800",
+      "reading_time": "3 minutes",
+      "hackernews": null
+    },
+    {
+      "title": "Bank of America kindly asks that you don\u2019t share your banking password with your AI assistant",
+      "description": "The banking giant reminds customers that \"you're responsible for activity\" resulting from your AI agents' access.",
+      "url": "https://techcrunch.com/2026/10/27/bank-of-america-kindly-asks-that-you-dont-share-your-banking-password-with-your-ai-assistant/",
+      "published_at": "2026-10-27T21:44:34Z",
+      "author": "Zack Whittaker",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/05/ai-agents-GettyImages-2229880232.jpg?resize=1200,675",
+      "reading_time": "2 minutes",
+      "hackernews": null
+    },
+    {
+      "title": "Who\u2019s really in charge at Anthropic after the IPO?",
+      "description": "Here's a clear explanation of Anthropic's incredibly complex governance structure.",
+      "url": "https://techcrunch.com/2026/10/27/whos-really-in-charge-at-anthropic-after-the-ipo/",
+      "published_at": "2026-10-27T21:38:28Z",
+      "author": "Tim Fernholz",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/10/GettyImages-2151610601.jpg?resize=1200,799",
+      "reading_time": "4 minutes",
+      "hackernews": null
+    },
+    {
+      "title": "Disruptive raises $10B fund to make big bets on at least 10 companies",
+      "description": "Disruptive has made headlines in recent years for pouring money into companies like chip startup Groq and the AI voice-generation startup ElevenLabs.",
+      "url": "https://techcrunch.com/2026/10/27/disruptive-raises-10b-fund-to-make-big-bets-on-at-least-10-companies/",
+      "published_at": "2026-10-27T18:55:35Z",
+      "author": "Dominic-Madori Davis",
+      "image": "https://techcrunch.com/wp-content/uploads/2023/03/GettyImages-1191380440.jpg?resize=1200,800",
+      "reading_time": "2 minutes",
+      "hackernews": null
+    },
+    {
+      "title": "Frontier AI labs say their models refuted the Exponential Time Hypothesis. What does that mean?",
+      "description": "TechCrunch spoke to the MIT computer scientist charged with explaining OpenAI's latest mind-bending discovery.",
+      "url": "https://techcrunch.com/2026/10/27/frontier-ai-labs-say-their-models-refuted-the-exponential-time-hypothesis-what-does-that-mean/",
+      "published_at": "2026-10-27T17:08:08Z",
+      "author": "Tim Fernholz",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/04/Screenshot-2026-04-14-at-7.00.44-PM.png?resize=1200,783",
+      "reading_time": "5 minutes",
+      "hackernews": null
+    },
+    {
+      "title": "Google\u2019s Genie 4 world model adds audio, more realistic worlds, and real-time steering",
+      "description": "Genie 4 can maintain a consistent scene for up to two minutes, double Genie 3's limit, and offers better physics and more humanlike characters.\u00a0",
+      "url": "https://techcrunch.com/2026/10/27/googles-genie-4-world-model-adds-audio-more-realistic-worlds-and-real-time-steering/",
+      "published_at": "2026-10-27T16:30:57Z",
+      "author": "Rebecca Bellan",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/10/Genie-4-blog-header.png?resize=1200,675",
+      "reading_time": "4 minutes",
+      "hackernews": null
+    },
+    {
+      "title": "Meta AI director Rohit Patel leaves to take on Microsoft Office and Google Workspace",
+      "description": "Rohit Patel is departing Meta after eight years working on AI evaluations and reinforcement learning, TechCrunch has exclusively learned. His startup, Ndoc, aims to take on Microsoft Office Suite.",
+      "url": "https://techcrunch.com/2026/10/27/meta-ai-director-rohit-patel-leaves-to-take-on-microsoft-office-and-google-workspace/",
+      "published_at": "2026-10-27T14:59:09Z",
+      "author": "Rebecca Bellan",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/10/rohit-5.jpg?resize=1200,800",
+      "reading_time": "5 minutes",
+      "hackernews": null
+    }
+  ]
+}

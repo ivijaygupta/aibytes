@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-28",
+  "generated_at": "2026-10-28T08:01:05Z",
+  "counts": {
+    "kept": 32,
+    "rejected": 2
+  },
+  "rejected": [
+    {
+      "id": "ph-orbit-e8ac4f51-8930-424c-895e-7d3365ab0467-2026-10-28",
+      "source": "producthunt",
+      "title": "Orbit",
+      "url": "https://apps.apple.com/us/app/orbit-app-blocker-focus/id6795471478?at=1000l6eA",
+      "reason": "not-ai",
+      "detail": "no AI keyword or domain in the tagline, description or topics"
+    },
+    {
+      "id": "ph-savorapp-ai-2026-10-28",
+      "source": "producthunt",
+      "title": "SavorApp_AI",
+      "url": "https://www.savorapp.ai/",
+      "reason": "not-ai",
+      "detail": "no AI keyword or domain in the tagline, description or topics"
+    }
+  ]
+}

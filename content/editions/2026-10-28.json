@@ -1,0 +1,837 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-28",
+  "generated_at": "2026-10-28T08:01:05Z",
+  "counts": {
+    "launches": 3,
+    "repos": 9,
+    "news": 10,
+    "hn": 10
+  },
+  "items": [
+    {
+      "id": "ph-theysaid-4-0-2026-10-28",
+      "title": "TheySaid 4.0",
+      "summary": "Tests what you are building against real customers or synthetic users modeled on them, from inside Claude, Cursor, or Jira, with answers in minutes.",
+      "url": "https://theysaid.io",
+      "source": "producthunt",
+      "source_url": "https://www.producthunt.com/products/theysaid",
+      "category": "launches",
+      "tags": [
+        "Dev Tool",
+        "Agents",
+        "Launch"
+      ],
+      "image": {
+        "type": "logo",
+        "url": "https://ph-files.imgix.net/36f833d8-2a72-4b85-b5af-1004e8189193.png?auto=format"
+      },
+      "signals": {
+        "upvotes": 347,
+        "comments": 97
+      },
+      "published_at": "2026-10-27T07:01:00Z",
+      "hidden": false,
+      "rank": 4
+    },
+    {
+      "id": "ph-overmind-2-2026-10-28",
+      "title": "Overmind",
+      "summary": "Open-source platform that turns production traces into specialised models you own, handling training, benchmarking, and serving in one loop.",
+      "url": "https://overmindlab.ai",
+      "source": "producthunt",
+      "source_url": "https://www.producthunt.com/products/overmind-2",
+      "category": "launches",
+      "tags": [
+        "Open Source",
+        "Fine-tuning",
+        "Launch"
+      ],
+      "image": {
+        "type": "logo",
+        "url": "https://ph-files.imgix.net/7226c0ca-b890-4f08-8d69-288fa3e7530d.gif?auto=format"
+      },
+      "signals": {
+        "upvotes": 290,
+        "comments": 71
+      },
+      "published_at": "2026-10-27T07:01:00Z",
+      "hidden": false,
+      "rank": 14
+    },
+    {
+      "id": "ph-spacesheep-2026-10-28",
+      "title": "Spacesheep",
+      "summary": "YC F26 startup that turns an agent's output into a shareable space - an interactive doc, live dashboard, mockup, or app - with per-person, team, or public access.",
+      "url": "https://spacesheep.dev",
+      "source": "producthunt",
+      "source_url": "https://www.producthunt.com/products/spacesheep",
+      "category": "launches",
+      "tags": [
+        "Dev Tool",
+        "Agents",
+        "Launch"
+      ],
+      "image": {
+        "type": "logo",
+        "url": "https://ph-files.imgix.net/0474c731-b7eb-4b1f-9599-4ceaa433df42.svg?auto=format"
+      },
+      "signals": {
+        "upvotes": 237,
+        "comments": 41
+      },
+      "published_at": "2026-10-27T07:01:00Z",
+      "hidden": false,
+      "rank": 24
+    },
+    {
+      "id": "gh-hallmark-2026-10-28",
+      "title": "Nutlope/hallmark",
+      "summary": "A design skill for Claude Code, Cursor, and Codex that steers generated UI away from generic AI-looking output, written in CSS.",
+      "url": "https://github.com/Nutlope/hallmark",
+      "source": "github",
+      "source_url": "https://github.com/Nutlope/hallmark",
+      "category": "repos",
+      "tags": [
+        "Open Source",
+        "Code Gen",
+        "Claude Code"
+      ],
+      "image": {
+        "type": "avatar",
+        "url": "https://github.com/Nutlope.png?size=80"
+      },
+      "signals": {
+        "stars": 39547,
+        "stars_gained": 2830,
+        "forks": 2066
+      },
+      "meta": {
+        "language": "CSS"
+      },
+      "hidden": false,
+      "rank": 1
+    },
+    {
+      "id": "gh-cindy-2026-10-28",
+      "title": "makecindy/cindy",
+      "summary": "Open-source TypeScript AI agent meant to run out of the box without setup, with a bilingual English and Chinese project.",
+      "url": "https://github.com/makecindy/cindy",
+      "source": "github",
+      "source_url": "https://github.com/makecindy/cindy",
+      "category": "repos",
+      "tags": [
+        "Open Source",
+        "Agents"
+      ],
+      "image": {
+        "type": "avatar",
+        "url": "https://github.com/makecindy.png?size=80"
+      },
+      "signals": {
+        "stars": 7718,
+        "stars_gained": 1465,
+        "forks": 916
+      },
+      "meta": {
+        "language": "TypeScript"
+      },
+      "hidden": false,
+      "rank": 7
+    },
+    {
+      "id": "gh-impeccable-2026-10-28",
+      "title": "pbakaus/impeccable",
+      "summary": "A design vocabulary for coding agents in Rust: commands like polish and bolder steer output, while critique and audit review it for AI slop before shipping.",
+      "url": "https://github.com/pbakaus/impeccable",
+      "source": "github",
+      "source_url": "https://github.com/pbakaus/impeccable",
+      "category": "repos",
+      "tags": [
+        "Open Source",
+        "Code Gen",
+        "Agents"
+      ],
+      "image": {
+        "type": "avatar",
+        "url": "https://github.com/pbakaus.png?size=80"
+      },
+      "signals": {
+        "stars": 91063,
+        "stars_gained": 1449,
+        "forks": 5394
+      },
+      "meta": {
+        "language": "Rust"
+      },
+      "hidden": false,
+      "rank": 10
+    },
+    {
+      "id": "gh-ai-design-skills-2026-10-28",
+      "title": "elayadesign/ai-design-skills",
+      "summary": "A collection of design skills for AI agents from elayadesign; the repository ships no description beyond its name.",
+      "url": "https://github.com/elayadesign/ai-design-skills",
+      "source": "github",
+      "source_url": "https://github.com/elayadesign/ai-design-skills",
+      "category": "repos",
+      "tags": [
+        "Open Source",
+        "Agents"
+      ],
+      "image": {
+        "type": "avatar",
+        "url": "https://github.com/elayadesign.png?size=80"
+      },
+      "signals": {
+        "stars": 10133,
+        "stars_gained": 1395,
+        "forks": 734
+      },
+      "hidden": false,
+      "rank": 13
+    },
+    {
+      "id": "gh-thinkrail-2026-10-28",
+      "title": "JetBrains/thinkrail",
+      "summary": "JetBrains' lightweight TypeScript IDE for vibe coding with the pi agent, built to reshape its own layout and tooling around how you work.",
+      "url": "https://github.com/JetBrains/thinkrail",
+      "source": "github",
+      "source_url": "https://github.com/JetBrains/thinkrail",
+      "category": "repos",
+      "tags": [
+        "Open Source",
+        "Dev Tool",
+        "Code Gen"
+      ],
+      "image": {
+        "type": "avatar",
+        "url": "https://github.com/JetBrains.png?size=80"
+      },
+      "signals": {
+        "stars": 4388,
+        "stars_gained": 1204,
+        "forks": 232
+      },
+      "meta": {
+        "language": "TypeScript"
+      },
+      "hidden": false,
+      "rank": 17
+    },
+    {
+      "id": "gh-ecc-2026-10-28",
+      "title": "affaan-m/ECC",
+      "summary": "A harness layer for coding agents that adds skills, instincts, memory, security checks, and research-first workflows across Claude Code, Codex, Opencode, and Cursor.",
+      "url": "https://github.com/affaan-m/ECC",
+      "source": "github",
+      "source_url": "https://github.com/affaan-m/ECC",
+      "category": "repos",
+      "tags": [
+        "Open Source",
+        "Agents",
+        "Claude Code"
+      ],
+      "image": {
+        "type": "avatar",
+        "url": "https://github.com/affaan-m.png?size=80"
+      },
+      "signals": {
+        "stars": 291165,
+        "stars_gained": 1165,
+        "forks": 43101
+      },
+      "meta": {
+        "language": "JavaScript"
+      },
+      "hidden": false,
+      "rank": 20
+    },
+    {
+      "id": "gh-postiz-app-2026-10-28",
+      "title": "gitroomhq/postiz-app",
+      "summary": "Open-source social media scheduling tool in TypeScript, built around agentic workflows.",
+      "url": "https://github.com/gitroomhq/postiz-app",
+      "source": "github",
+      "source_url": "https://github.com/gitroomhq/postiz-app",
+      "category": "repos",
+      "tags": [
+        "Open Source",
+        "Agents"
+      ],
+      "image": {
+        "type": "avatar",
+        "url": "https://github.com/gitroomhq.png?size=80"
+      },
+      "signals": {
+        "stars": 39691,
+        "stars_gained": 951,
+        "forks": 7539
+      },
+      "meta": {
+        "language": "TypeScript"
+      },
+      "hidden": false,
+      "rank": 23
+    },
+    {
+      "id": "gh-openbot-2026-10-28",
+      "title": "nightly-labs/openbot",
+      "summary": "Local-first desktop app that gives Codex, Claude, and Grok agents their own workspaces, task queues, file sharing, browser control, and agent-to-agent handoffs.",
+      "url": "https://github.com/nightly-labs/openbot",
+      "source": "github",
+      "source_url": "https://github.com/nightly-labs/openbot",
+      "category": "repos",
+      "tags": [
+        "Open Source",
+        "Agents",
+        "Dev Tool"
+      ],
+      "image": {
+        "type": "avatar",
+        "url": "https://github.com/nightly-labs.png?size=80"
+      },
+      "signals": {
+        "stars": 2733,
+        "stars_gained": 777,
+        "forks": 276
+      },
+      "meta": {
+        "language": "TypeScript"
+      },
+      "hidden": false,
+      "rank": 27
+    },
+    {
+      "id": "gh-superpowers-2026-10-28",
+      "title": "obra/superpowers",
+      "summary": "Shell-based skills framework for coding agents, paired with a software development methodology the agent is meant to follow.",
+      "url": "https://github.com/obra/superpowers",
+      "source": "github",
+      "source_url": "https://github.com/obra/superpowers",
+      "category": "repos",
+      "tags": [
+        "Framework",
+        "Agents",
+        "Code Gen"
+      ],
+      "image": {
+        "type": "avatar",
+        "url": "https://github.com/obra.png?size=80"
+      },
+      "signals": {
+        "stars": 306745,
+        "stars_gained": 617,
+        "forks": 27303
+      },
+      "meta": {
+        "language": "Shell"
+      },
+      "hidden": false,
+      "rank": 30
+    },
+    {
+      "id": "tc-nvidia-backs-indian-startup-helping-companies-2026-10-28",
+      "title": "Nvidia backs Indian startup helping companies run AI models with fewer GPUs",
+      "summary": "The startup is Simplismart, which says its annualized revenue run rate grew fourteenfold in six months, with the U.S. now more than half of revenue.",
+      "url": "https://techcrunch.com/2026/10/27/nvidia-backs-indian-startup-helping-companies-run-ai-models-with-fewer-gpus/",
+      "source": "techcrunch",
+      "source_url": "https://techcrunch.com/2026/10/27/nvidia-backs-indian-startup-helping-companies-run-ai-models-with-fewer-gpus/",
+      "category": "news",
+      "tags": [
+        "Inference",
+        "Funding",
+        "Nvidia"
+      ],
+      "image": {
+        "type": "thumbnail",
+        "url": "https://techcrunch.com/wp-content/uploads/2026/10/simplismart-founders-amritanshu-devansh.jpg?resize=1200,800"
+      },
+      "meta": {
+        "author": "Jagmeet Singh",
+        "reading_time": "4 minutes"
+      },
+      "published_at": "2026-10-27T11:00:00Z",
+      "hidden": false,
+      "rank": 3
+    },
+    {
+      "id": "tc-vcs-will-make-billions-on-anthropics-ipo-but-2026-10-28",
+      "title": "VCs will make billions on Anthropic’s IPO, but Amazon is set to make much (much) more",
+      "summary": "Large convertible note conversions disclosed ahead of the listing show Amazon's stake in Anthropic is far bigger than previously understood.",
+      "url": "https://techcrunch.com/2026/10/27/vcs-will-make-billions-on-anthropics-ipo-but-amazon-is-set-to-make-much-much-more/",
+      "source": "techcrunch",
+      "source_url": "https://techcrunch.com/2026/10/27/vcs-will-make-billions-on-anthropics-ipo-but-amazon-is-set-to-make-much-much-more/",
+      "category": "news",
+      "tags": [
+        "Anthropic",
+        "Funding"
+      ],
+      "image": {
+        "type": "thumbnail",
+        "url": "https://techcrunch.com/wp-content/uploads/2026/06/GettyImages-2278736523.jpeg?resize=1200,798"
+      },
+      "meta": {
+        "author": "Marina Temkin",
+        "reading_time": "3 minutes"
+      },
+      "published_at": "2026-10-28T01:15:28Z",
+      "hidden": false,
+      "rank": 6
+    },
+    {
+      "id": "tc-parents-sue-openai-alleging-gpt-4o-coached-2026-10-28",
+      "title": "Parents sue OpenAI, alleging GPT-4o coached their daughter off seizure medication",
+      "summary": "The family says ChatGPT told their daughter to quietly taper off her seizure medication and hide it from her doctors before she died in February.",
+      "url": "https://techcrunch.com/2026/10/27/parents-sue-openai-alleging-gpt-4o-coached-their-daughter-off-seizure-medication/",
+      "source": "techcrunch",
+      "source_url": "https://techcrunch.com/2026/10/27/parents-sue-openai-alleging-gpt-4o-coached-their-daughter-off-seizure-medication/",
+      "category": "news",
+      "tags": [
+        "OpenAI",
+        "Legal",
+        "Safety"
+      ],
+      "image": {
+        "type": "thumbnail",
+        "url": "https://techcrunch.com/wp-content/uploads/2025/01/GettyImages-2191707579.jpg?w=1024"
+      },
+      "meta": {
+        "author": "Aditya Mehta",
+        "reading_time": "5 minutes"
+      },
+      "published_at": "2026-10-27T23:34:27Z",
+      "hidden": false,
+      "rank": 9
+    },
+    {
+      "id": "tc-the-data-center-boom-has-an-upside-innovation-2026-10-28",
+      "title": "The data center boom has an upside: innovation for the US grid",
+      "summary": "Industry insiders argue that AI data center load stressing the US grid is also creating new opportunities for grid modernization.",
+      "url": "https://techcrunch.com/2026/10/27/the-data-center-boom-has-an-upside-innovation-for-the-us-grid/",
+      "source": "techcrunch",
+      "source_url": "https://techcrunch.com/2026/10/27/the-data-center-boom-has-an-upside-innovation-for-the-us-grid/",
+      "category": "news",
+      "tags": [
+        "Inference",
+        "Policy"
+      ],
+      "image": {
+        "type": "thumbnail",
+        "url": "https://techcrunch.com/wp-content/uploads/2026/10/55589499263_7ac8a28eb3_k.jpg?resize=1200,800"
+      },
+      "meta": {
+        "author": "Lucas Ropek",
+        "reading_time": "3 minutes"
+      },
+      "published_at": "2026-10-27T22:55:41Z",
+      "hidden": false,
+      "rank": 12
+    },
+    {
+      "id": "tc-bank-of-america-kindly-asks-that-you-dont-share-2026-10-28",
+      "title": "Bank of America kindly asks that you don’t share your banking password with your AI assistant",
+      "summary": "Bank of America reminds customers they are responsible for any account activity their AI agents carry out with shared credentials.",
+      "url": "https://techcrunch.com/2026/10/27/bank-of-america-kindly-asks-that-you-dont-share-your-banking-password-with-your-ai-assistant/",
+      "source": "techcrunch",
+      "source_url": "https://techcrunch.com/2026/10/27/bank-of-america-kindly-asks-that-you-dont-share-your-banking-password-with-your-ai-assistant/",
+      "category": "news",
+      "tags": [
+        "Agents",
+        "Security",
+        "Policy"
+      ],
+      "image": {
+        "type": "thumbnail",
+        "url": "https://techcrunch.com/wp-content/uploads/2026/05/ai-agents-GettyImages-2229880232.jpg?resize=1200,675"
+      },
+      "meta": {
+        "author": "Zack Whittaker",
+        "reading_time": "2 minutes"
+      },
+      "published_at": "2026-10-27T21:44:34Z",
+      "hidden": false,
+      "rank": 16
+    },
+    {
+      "id": "tc-whos-really-in-charge-at-anthropic-after-the-ipo-2026-10-28",
+      "title": "Who’s really in charge at Anthropic after the IPO?",
+      "summary": "An explainer that walks through Anthropic's layered governance structure and who holds control once the company is public.",
+      "url": "https://techcrunch.com/2026/10/27/whos-really-in-charge-at-anthropic-after-the-ipo/",
+      "source": "techcrunch",
+      "source_url": "https://techcrunch.com/2026/10/27/whos-really-in-charge-at-anthropic-after-the-ipo/",
+      "category": "news",
+      "tags": [
+        "Anthropic",
+        "Policy",
+        "Deep Dive"
+      ],
+      "image": {
+        "type": "thumbnail",
+        "url": "https://techcrunch.com/wp-content/uploads/2026/10/GettyImages-2151610601.jpg?resize=1200,799"
+      },
+      "meta": {
+        "author": "Tim Fernholz",
+        "reading_time": "4 minutes"
+      },
+      "published_at": "2026-10-27T21:38:28Z",
+      "hidden": false,
+      "rank": 19
+    },
+    {
+      "id": "tc-disruptive-raises-10b-fund-to-make-big-bets-on-2026-10-28",
+      "title": "Disruptive raises $10B fund to make big bets on at least 10 companies",
+      "summary": "Disruptive, an earlier backer of chip startup Groq and voice-generation startup ElevenLabs, plans concentrated checks across a short list of companies.",
+      "url": "https://techcrunch.com/2026/10/27/disruptive-raises-10b-fund-to-make-big-bets-on-at-least-10-companies/",
+      "source": "techcrunch",
+      "source_url": "https://techcrunch.com/2026/10/27/disruptive-raises-10b-fund-to-make-big-bets-on-at-least-10-companies/",
+      "category": "news",
+      "tags": [
+        "Funding"
+      ],
+      "image": {
+        "type": "thumbnail",
+        "url": "https://techcrunch.com/wp-content/uploads/2023/03/GettyImages-1191380440.jpg?resize=1200,800"
+      },
+      "meta": {
+        "author": "Dominic-Madori Davis",
+        "reading_time": "2 minutes"
+      },
+      "published_at": "2026-10-27T18:55:35Z",
+      "hidden": false,
+      "rank": 22
+    },
+    {
+      "id": "tc-frontier-ai-labs-say-their-models-refuted-the-2026-10-28",
+      "title": "Frontier AI labs say their models refuted the Exponential Time Hypothesis. What does that mean?",
+      "summary": "TechCrunch asks the MIT computer scientist tasked with explaining OpenAI's result what refuting the complexity-theory conjecture would actually imply.",
+      "url": "https://techcrunch.com/2026/10/27/frontier-ai-labs-say-their-models-refuted-the-exponential-time-hypothesis-what-does-that-mean/",
+      "source": "techcrunch",
+      "source_url": "https://techcrunch.com/2026/10/27/frontier-ai-labs-say-their-models-refuted-the-exponential-time-hypothesis-what-does-that-mean/",
+      "category": "news",
+      "tags": [
+        "Reasoning",
+        "OpenAI",
+        "Deep Dive"
+      ],
+      "image": {
+        "type": "thumbnail",
+        "url": "https://techcrunch.com/wp-content/uploads/2026/04/Screenshot-2026-04-14-at-7.00.44-PM.png?resize=1200,783"
+      },
+      "meta": {
+        "author": "Tim Fernholz",
+        "reading_time": "5 minutes"
+      },
+      "published_at": "2026-10-27T17:08:08Z",
+      "hidden": false,
+      "rank": 26
+    },
+    {
+      "id": "tc-googles-genie-4-world-model-adds-audio-more-2026-10-28",
+      "title": "Google’s Genie 4 world model adds audio, more realistic worlds, and real-time steering",
+      "summary": "Genie 4 holds a consistent scene for up to two minutes, double Genie 3's limit, with better physics and more humanlike characters.",
+      "url": "https://techcrunch.com/2026/10/27/googles-genie-4-world-model-adds-audio-more-realistic-worlds-and-real-time-steering/",
+      "source": "techcrunch",
+      "source_url": "https://techcrunch.com/2026/10/27/googles-genie-4-world-model-adds-audio-more-realistic-worlds-and-real-time-steering/",
+      "category": "news",
+      "tags": [
+        "Model Release",
+        "Video",
+        "Google"
+      ],
+      "image": {
+        "type": "thumbnail",
+        "url": "https://techcrunch.com/wp-content/uploads/2026/10/Genie-4-blog-header.png?resize=1200,675"
+      },
+      "meta": {
+        "author": "Rebecca Bellan",
+        "reading_time": "4 minutes"
+      },
+      "published_at": "2026-10-27T16:30:57Z",
+      "hidden": false,
+      "rank": 29
+    },
+    {
+      "id": "tc-meta-ai-director-rohit-patel-leaves-to-take-on-2026-10-28",
+      "title": "Meta AI director Rohit Patel leaves to take on Microsoft Office and Google Workspace",
+      "summary": "After eight years on Meta's AI evaluations and reinforcement learning work, Patel is founding Ndoc, an office-suite startup.",
+      "url": "https://techcrunch.com/2026/10/27/meta-ai-director-rohit-patel-leaves-to-take-on-microsoft-office-and-google-workspace/",
+      "source": "techcrunch",
+      "source_url": "https://techcrunch.com/2026/10/27/meta-ai-director-rohit-patel-leaves-to-take-on-microsoft-office-and-google-workspace/",
+      "category": "news",
+      "tags": [
+        "Meta"
+      ],
+      "image": {
+        "type": "thumbnail",
+        "url": "https://techcrunch.com/wp-content/uploads/2026/10/rohit-5.jpg?resize=1200,800"
+      },
+      "meta": {
+        "author": "Rebecca Bellan",
+        "reading_time": "5 minutes"
+      },
+      "published_at": "2026-10-27T14:59:09Z",
+      "hidden": false,
+      "rank": 32
+    },
+    {
+      "id": "hn-genie-4-2026-10-28",
+      "title": "Genie 4",
+      "summary": "Google DeepMind's announcement post for its world simulation model, which adds audio and real-time steering and keeps scenes consistent for up to two minutes.",
+      "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+      "source": "hackernews",
+      "source_url": "https://news.ycombinator.com/item?id=50261319",
+      "category": "hn",
+      "tags": [
+        "Model Release",
+        "Video",
+        "Google"
+      ],
+      "image": {
+        "type": "none"
+      },
+      "signals": {
+        "points": 855,
+        "comments": 502
+      },
+      "meta": {
+        "author": "acossta"
+      },
+      "published_at": "2026-10-27T16:06:01Z",
+      "hidden": false,
+      "rank": 2
+    },
+    {
+      "id": "hn-ai-promised-less-work-i-ve-never-worked-more-2026-10-28",
+      "title": "AI promised less work. I've never worked more",
+      "summary": "A personal blog essay from a developer arguing that AI tools have raised their workload rather than reduced it.",
+      "url": "https://oioannou.com/blog/ai-promised-less-work/",
+      "source": "hackernews",
+      "source_url": "https://news.ycombinator.com/item?id=50257325",
+      "category": "hn",
+      "tags": [
+        "Code Gen"
+      ],
+      "image": {
+        "type": "none"
+      },
+      "signals": {
+        "points": 631,
+        "comments": 628
+      },
+      "meta": {
+        "author": "oorestisime"
+      },
+      "published_at": "2026-10-27T11:08:14Z",
+      "hidden": false,
+      "rank": 5
+    },
+    {
+      "id": "hn-anthropic-trained-claude-on-illegally-obtained-2026-10-28",
+      "title": "Anthropic trained Claude on illegally obtained Stanford professors' books",
+      "summary": "Stanford Daily report that pirated books by Stanford faculty were among the material used to train Claude.",
+      "url": "https://stanforddaily.com/2026/10/27/professors-books-pirated-to-train-claude/",
+      "source": "hackernews",
+      "source_url": "https://news.ycombinator.com/item?id=50260814",
+      "category": "hn",
+      "tags": [
+        "Anthropic",
+        "Legal",
+        "Dataset"
+      ],
+      "image": {
+        "type": "none"
+      },
+      "signals": {
+        "points": 513,
+        "comments": 273
+      },
+      "meta": {
+        "author": "car"
+      },
+      "published_at": "2026-10-27T15:28:26Z",
+      "hidden": false,
+      "rank": 8
+    },
+    {
+      "id": "hn-wikipedia-s-cleanup-of-ai-generated-content-2026-10-28",
+      "title": "Wikipedia's Cleanup of AI-Generated Content",
+      "summary": "IEEE Spectrum feature on the WikiProject editors who find and clean up AI-written text across Wikipedia.",
+      "url": "https://spectrum.ieee.org/wikipedia-wikiproject-ai-writing-cleanup",
+      "source": "hackernews",
+      "source_url": "https://news.ycombinator.com/item?id=50257326",
+      "category": "hn",
+      "tags": [
+        "LLM",
+        "Deep Dive"
+      ],
+      "image": {
+        "type": "none"
+      },
+      "signals": {
+        "points": 474,
+        "comments": 216
+      },
+      "meta": {
+        "author": "rbanffy"
+      },
+      "published_at": "2026-10-27T11:08:15Z",
+      "hidden": false,
+      "rank": 11
+    },
+    {
+      "id": "hn-the-mythical-man-month-in-the-age-of-ai-2026-10-28",
+      "title": "The Mythical Man-Month in the Age of AI",
+      "summary": "A blog essay revisiting Fred Brooks' book and whether its rules on team size and schedules still hold with AI coding tools.",
+      "url": "https://j11g.com/the-mythical-man-month-in-the-age-of-ai",
+      "source": "hackernews",
+      "source_url": "https://news.ycombinator.com/item?id=50255298",
+      "category": "hn",
+      "tags": [
+        "Code Gen"
+      ],
+      "image": {
+        "type": "none"
+      },
+      "signals": {
+        "points": 452,
+        "comments": 317
+      },
+      "meta": {
+        "author": "ilreb"
+      },
+      "published_at": "2026-10-27T06:25:37Z",
+      "hidden": false,
+      "rank": 15
+    },
+    {
+      "id": "hn-police-are-using-ai-to-pull-over-drivers-for-2026-10-28",
+      "title": "Police are using AI to pull over drivers for 'suspicious' behavior",
+      "summary": "Gizmodo report on police departments using AI systems to flag drivers as suspicious and initiate traffic stops.",
+      "url": "https://gizmodo.com/police-are-using-ai-to-pull-over-drivers-for-suspicious-behavior-2000831220",
+      "source": "hackernews",
+      "source_url": "https://news.ycombinator.com/item?id=50261819",
+      "category": "hn",
+      "tags": [
+        "Vision",
+        "Privacy",
+        "Policy"
+      ],
+      "image": {
+        "type": "none"
+      },
+      "signals": {
+        "points": 370,
+        "comments": 283
+      },
+      "meta": {
+        "author": "gumby"
+      },
+      "published_at": "2026-10-27T16:40:15Z",
+      "hidden": false,
+      "rank": 18
+    },
+    {
+      "id": "hn-survival-llm-ai-assistant-and-emergency-library-2026-10-28",
+      "title": "Survival LLM: AI assistant and emergency library that runs on your own computer",
+      "summary": "Brangus project page for an offline assistant bundled with an emergency reference library, running entirely on local hardware.",
+      "url": "https://www.brangus.io/survival-llm",
+      "source": "hackernews",
+      "source_url": "https://news.ycombinator.com/item?id=50264853",
+      "category": "hn",
+      "tags": [
+        "Local LLM"
+      ],
+      "image": {
+        "type": "none"
+      },
+      "signals": {
+        "points": 313,
+        "comments": 129
+      },
+      "meta": {
+        "author": "Luc"
+      },
+      "published_at": "2026-10-27T19:55:06Z",
+      "hidden": false,
+      "rank": 21
+    },
+    {
+      "id": "hn-amazon-is-gutting-its-ai-division-after-2026-10-28",
+      "title": "Amazon Is Gutting Its AI Division After Sustained Failure",
+      "summary": "Futurism report on Amazon cutting back its AI division, centred on the struggles of its Nova models.",
+      "url": "https://futurism.com/artificial-intelligence/amazon-ai-division-failure-nova",
+      "source": "hackernews",
+      "source_url": "https://news.ycombinator.com/item?id=50261589",
+      "category": "hn",
+      "tags": [
+        "LLM"
+      ],
+      "image": {
+        "type": "none"
+      },
+      "signals": {
+        "points": 311,
+        "comments": 237
+      },
+      "meta": {
+        "author": "dpflan"
+      },
+      "published_at": "2026-10-27T16:25:30Z",
+      "hidden": false,
+      "rank": 25
+    },
+    {
+      "id": "hn-early-progress-on-accelerating-drug-development-2026-10-28",
+      "title": "Early progress on accelerating drug development with Claude",
+      "summary": "Anthropic research post on early results from using Claude in drug development work.",
+      "url": "https://www.anthropic.com/research/early-progress-drug-development",
+      "source": "hackernews",
+      "source_url": "https://news.ycombinator.com/item?id=50265609",
+      "category": "hn",
+      "tags": [
+        "Anthropic",
+        "Agents"
+      ],
+      "image": {
+        "type": "none"
+      },
+      "signals": {
+        "points": 210,
+        "comments": 186
+      },
+      "meta": {
+        "author": "dataking"
+      },
+      "published_at": "2026-10-27T20:50:42Z",
+      "hidden": false,
+      "rank": 28
+    },
+    {
+      "id": "hn-there-are-now-5-inference-providers-for-2026-10-28",
+      "title": "There are now 5 inference providers for abliterated DeepSeek",
+      "summary": "An allmodels.io listing that tracks hosted endpoints serving DeepSeek variants with refusal behaviour removed via abliteration.",
+      "url": "https://allmodels.io/llm/abliterated",
+      "source": "hackernews",
+      "source_url": "https://news.ycombinator.com/item?id=50254836",
+      "category": "hn",
+      "tags": [
+        "Inference",
+        "Safety"
+      ],
+      "image": {
+        "type": "none"
+      },
+      "signals": {
+        "points": 94,
+        "comments": 119
+      },
+      "meta": {
+        "author": "moeadham"
+      },
+      "published_at": "2026-10-27T04:53:52Z",
+      "hidden": false,
+      "rank": 31
+    }
+  ]
+}

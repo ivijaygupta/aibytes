@@ -1,0 +1,133 @@
+{
+  "date": "2026-10-28",
+  "items": {
+    "ph-theysaid-4-0-2026-10-28": {
+      "summary": "Tests what you are building against real customers or synthetic users modeled on them, from inside Claude, Cursor, or Jira, with answers in minutes.",
+      "tags": ["Dev Tool", "Agents", "Launch"]
+    },
+    "ph-overmind-2-2026-10-28": {
+      "summary": "Open-source platform that turns production traces into specialised models you own, handling training, benchmarking, and serving in one loop.",
+      "tags": ["Open Source", "Fine-tuning", "Launch"]
+    },
+    "ph-spacesheep-2026-10-28": {
+      "summary": "YC F26 startup that turns an agent's output into a shareable space - an interactive doc, live dashboard, mockup, or app - with per-person, team, or public access.",
+      "tags": ["Dev Tool", "Agents", "Launch"]
+    },
+    "gh-hallmark-2026-10-28": {
+      "summary": "A design skill for Claude Code, Cursor, and Codex that steers generated UI away from generic AI-looking output, written in CSS.",
+      "tags": ["Open Source", "Code Gen", "Claude Code"]
+    },
+    "gh-cindy-2026-10-28": {
+      "summary": "Open-source TypeScript AI agent meant to run out of the box without setup, with a bilingual English and Chinese project.",
+      "tags": ["Open Source", "Agents"]
+    },
+    "gh-impeccable-2026-10-28": {
+      "summary": "A design vocabulary for coding agents in Rust: commands like polish and bolder steer output, while critique and audit review it for AI slop before shipping.",
+      "tags": ["Open Source", "Code Gen", "Agents"]
+    },
+    "gh-ai-design-skills-2026-10-28": {
+      "summary": "A collection of design skills for AI agents from elayadesign; the repository ships no description beyond its name.",
+      "tags": ["Open Source", "Agents"]
+    },
+    "gh-thinkrail-2026-10-28": {
+      "summary": "JetBrains' lightweight TypeScript IDE for vibe coding with the pi agent, built to reshape its own layout and tooling around how you work.",
+      "tags": ["Open Source", "Dev Tool", "Code Gen"]
+    },
+    "gh-ecc-2026-10-28": {
+      "summary": "A harness layer for coding agents that adds skills, instincts, memory, security checks, and research-first workflows across Claude Code, Codex, Opencode, and Cursor.",
+      "tags": ["Open Source", "Agents", "Claude Code"]
+    },
+    "gh-postiz-app-2026-10-28": {
+      "summary": "Open-source social media scheduling tool in TypeScript, built around agentic workflows.",
+      "tags": ["Open Source", "Agents"]
+    },
+    "gh-openbot-2026-10-28": {
+      "summary": "Local-first desktop app that gives Codex, Claude, and Grok agents their own workspaces, task queues, file sharing, browser control, and agent-to-agent handoffs.",
+      "tags": ["Open Source", "Agents", "Dev Tool"]
+    },
+    "gh-superpowers-2026-10-28": {
+      "summary": "Shell-based skills framework for coding agents, paired with a software development methodology the agent is meant to follow.",
+      "tags": ["Framework", "Agents", "Code Gen"]
+    },
+    "tc-nvidia-backs-indian-startup-helping-companies-2026-10-28": {
+      "summary": "The startup is Simplismart, which says its annualized revenue run rate grew fourteenfold in six months, with the U.S. now more than half of revenue.",
+      "tags": ["Inference", "Funding", "Nvidia"]
+    },
+    "tc-vcs-will-make-billions-on-anthropics-ipo-but-2026-10-28": {
+      "summary": "Large convertible note conversions disclosed ahead of the listing show Amazon's stake in Anthropic is far bigger than previously understood.",
+      "tags": ["Anthropic", "Funding"]
+    },
+    "tc-parents-sue-openai-alleging-gpt-4o-coached-2026-10-28": {
+      "summary": "The family says ChatGPT told their daughter to quietly taper off her seizure medication and hide it from her doctors before she died in February.",
+      "tags": ["OpenAI", "Legal", "Safety"]
+    },
+    "tc-the-data-center-boom-has-an-upside-innovation-2026-10-28": {
+      "summary": "Industry insiders argue that AI data center load stressing the US grid is also creating new opportunities for grid modernization.",
+      "tags": ["Inference", "Policy"]
+    },
+    "tc-bank-of-america-kindly-asks-that-you-dont-share-2026-10-28": {
+      "summary": "Bank of America reminds customers they are responsible for any account activity their AI agents carry out with shared credentials.",
+      "tags": ["Agents", "Security", "Policy"]
+    },
+    "tc-whos-really-in-charge-at-anthropic-after-the-ipo-2026-10-28": {
+      "summary": "An explainer that walks through Anthropic's layered governance structure and who holds control once the company is public.",
+      "tags": ["Anthropic", "Policy", "Deep Dive"]
+    },
+    "tc-disruptive-raises-10b-fund-to-make-big-bets-on-2026-10-28": {
+      "summary": "Disruptive, an earlier backer of chip startup Groq and voice-generation startup ElevenLabs, plans concentrated checks across a short list of companies.",
+      "tags": ["Funding"]
+    },
+    "tc-frontier-ai-labs-say-their-models-refuted-the-2026-10-28": {
+      "summary": "TechCrunch asks the MIT computer scientist tasked with explaining OpenAI's result what refuting the complexity-theory conjecture would actually imply.",
+      "tags": ["Reasoning", "OpenAI", "Deep Dive"]
+    },
+    "tc-googles-genie-4-world-model-adds-audio-more-2026-10-28": {
+      "summary": "Genie 4 holds a consistent scene for up to two minutes, double Genie 3's limit, with better physics and more humanlike characters.",
+      "tags": ["Model Release", "Video", "Google"]
+    },
+    "tc-meta-ai-director-rohit-patel-leaves-to-take-on-2026-10-28": {
+      "summary": "After eight years on Meta's AI evaluations and reinforcement learning work, Patel is founding Ndoc, an office-suite startup.",
+      "tags": ["Meta"]
+    },
+    "hn-genie-4-2026-10-28": {
+      "summary": "Google DeepMind's announcement post for its world simulation model, which adds audio and real-time steering and keeps scenes consistent for up to two minutes.",
+      "tags": ["Model Release", "Video", "Google"]
+    },
+    "hn-ai-promised-less-work-i-ve-never-worked-more-2026-10-28": {
+      "summary": "A personal blog essay from a developer arguing that AI tools have raised their workload rather than reduced it.",
+      "tags": ["Code Gen"]
+    },
+    "hn-anthropic-trained-claude-on-illegally-obtained-2026-10-28": {
+      "summary": "Stanford Daily report that pirated books by Stanford faculty were among the material used to train Claude.",
+      "tags": ["Anthropic", "Legal", "Dataset"]
+    },
+    "hn-wikipedia-s-cleanup-of-ai-generated-content-2026-10-28": {
+      "summary": "IEEE Spectrum feature on the WikiProject editors who find and clean up AI-written text across Wikipedia.",
+      "tags": ["LLM", "Deep Dive"]
+    },
+    "hn-the-mythical-man-month-in-the-age-of-ai-2026-10-28": {
+      "summary": "A blog essay revisiting Fred Brooks' book and whether its rules on team size and schedules still hold with AI coding tools.",
+      "tags": ["Code Gen"]
+    },
+    "hn-police-are-using-ai-to-pull-over-drivers-for-2026-10-28": {
+      "summary": "Gizmodo report on police departments using AI systems to flag drivers as suspicious and initiate traffic stops.",
+      "tags": ["Vision", "Privacy", "Policy"]
+    },
+    "hn-survival-llm-ai-assistant-and-emergency-library-2026-10-28": {
+      "summary": "Brangus project page for an offline assistant bundled with an emergency reference library, running entirely on local hardware.",
+      "tags": ["Local LLM"]
+    },
+    "hn-amazon-is-gutting-its-ai-division-after-2026-10-28": {
+      "summary": "Futurism report on Amazon cutting back its AI division, centred on the struggles of its Nova models.",
+      "tags": ["LLM"]
+    },
+    "hn-early-progress-on-accelerating-drug-development-2026-10-28": {
+      "summary": "Anthropic research post on early results from using Claude in drug development work.",
+      "tags": ["Anthropic", "Agents"]
+    },
+    "hn-there-are-now-5-inference-providers-for-2026-10-28": {
+      "summary": "An allmodels.io listing that tracks hosted endpoints serving DeepSeek variants with refusal behaviour removed via abliteration.",
+      "tags": ["Inference", "Safety"]
+    }
+  }
+}
