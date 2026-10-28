@@ -1,3 +1,7 @@
+Current visual specification: see `../../readme.md`, `../../styles.css` and `../../tokens/token.css`. `Card` and `ListRow` share `FeedItem.jsx`; preserve source/destination links, image fallbacks, signals and optional save actions. The legacy specification below is historical.
+
+Shared metadata helpers live in `signals.jsx` and are consumed by `FeedItem.jsx`. Existing helper imports from `Card.jsx` remain supported through re-exports; do not import `Card` into the helper module.
+
 Grid-view feed card — the core unit of an edition.
 
 ```jsx
