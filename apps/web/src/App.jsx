@@ -75,7 +75,6 @@ export function App() {
   const mobile = useMedia("(max-width: 760px)");
   const menuOpen = mobile && menuRequested;
   React.useEffect(() => { if (!mobile) setMenuOpen(false); }, [mobile]);
-  const [query, setQuery] = React.useState("");
   const closePanel = React.useCallback(() => setPanel(null), []);
   const sticky = React.useRef(null);
   const shell = React.useRef(null);
@@ -88,11 +87,18 @@ export function App() {
 
   useReturnFocus(panel !== null);
   useReturnFocus(menuOpen);
+  // The open drawer is modal: the page behind it neither scrolls nor takes
+  // focus or clicks. React 18 has no `inert` prop, so it is set directly.
   React.useEffect(() => {
     if (!menuOpen) return;
     const previous = document.body.style.overflow;
     document.body.style.overflow = "hidden";
-    return () => { document.body.style.overflow = previous; };
+    const behind = [document.getElementById("main"), shell.current && shell.current.querySelector(".app-skip")].filter(Boolean);
+    behind.forEach((el) => { el.inert = true; });
+    return () => {
+      document.body.style.overflow = previous;
+      behind.forEach((el) => { el.inert = false; });
+    };
   }, [menuOpen]);
 
   React.useEffect(() => {
@@ -145,12 +151,13 @@ export function App() {
   // reshuffles what it leaves. Both modes use it - Grouped only splits the
   // ranked list by category - so the two never disagree about what is best.
   const items = visible && rankedItems(edition.data.items)
-    .filter((item) => !item.hidden && matches(item, filters) && (!query || `${item.title} ${item.summary}`.toLowerCase().includes(query.toLowerCase())));
+    .filter((item) => !item.hidden && matches(item, filters));
   const older = ref && olderEdition(editions, ref.date);
   const prev = usePrevious(items && !items.length ? older : null);
   // Paging back or forward keeps the filters, as the edition bar does.
   const goTo = (date) => navigate(editionPath(date) + location.search);
   const setCategory = (key) => setFilters({ ...filters, category: key });
+  const setQuery = (query) => setFilters({ ...filters, query });
 
   return (
     <div className={"app-shell redesign" + (shown === "grid" ? " redesign-grid" : "") + (menuOpen ? " mobile-menu-open" : "")} ref={shell} data-theme={theme}>
@@ -163,7 +170,7 @@ export function App() {
         <section className="intro"><div className="edition-heading"><h1>{ref && ref.date === localDate() ? "Today" : "Edition"}</h1><span className="heading-separator">·</span><span id="editionDate">{ref ? new Date(ref.date + "T12:00:00").toLocaleDateString("en-US", { weekday: "long" }) : "aiBytes_"}</span></div><p>{visible ? `${visible.length} items` : "Daily AI briefing"}</p></section>
         <div className="workspace"><section className="feed">
           <div ref={sticky} className="toolbar-slot">
-            <RedesignToolbar query={query} onQuery={setQuery} view={view} onView={columns > 1 ? setView : undefined} mode={mode} onMode={setMode}
+            <RedesignToolbar query={filters.query} onQuery={setQuery} view={view} onView={columns > 1 ? setView : undefined} mode={mode} onMode={setMode}
               disabled={!filterable} filterCount={filters.tags.length + filters.sources.length} open={panel !== null} onFilters={() => onPanel("filters")}
               date={ref ? <Bar refAt={ref} editions={editions} compact search={location.search} navigate={navigate} /> : null} />
             {panel && <RedesignFilters groups={tagGroups} filters={filters} onChange={setFilters} sources={SOURCES} /> }
@@ -171,7 +178,7 @@ export function App() {
           {(filters.tags.length > 0 || filters.sources.length > 0) && <div className="active-filters">{[...filters.tags.map(value => ({key:'tags',value})),...filters.sources.map(value=>({key:'sources',value}))].map(({key,value})=><button key={key+value} aria-label={`Remove ${value} filter`} onClick={()=>setFilters({...filters,[key]:toggle(filters[key],value)})}>{value} ×</button>)}<button onClick={()=>setFilters({...filters,tags:[],sources:[]})}>Clear filters</button></div>}
           <div className="results-meta"><span>{items ? `${items.length} items` : ""}</span><span>{mode === "grouped" ? "GROUPED BY CATEGORY" : "RANKED"}</span></div>
           <div className="app-main" ref={setMainEl}>
-            {body({ route, index, ref, edition, view: shown, mode, items, filters, older, prev, goTo, query, clearQuery: () => setQuery(""), clearFilters: () => { setQuery(""); setFilters(NO_FILTERS); } })}
+            {body({ route, index, ref, edition, view: shown, mode, items, filters, older, prev, goTo, query: filters.query, clearQuery: () => setQuery(""), clearFilters: () => setFilters(NO_FILTERS) })}
           </div>
         </section></div>
       </main>
@@ -249,7 +256,7 @@ function body({ route, index, ref, edition, view, mode, items, filters, older, p
   // reversible, and readers never see them. Empty means a filter emptied it,
   // since editions are never published empty. Paging back is offered only once
   // the older edition is known to have some; otherwise clearing is the way out.
-  if (!items.length && query) return <div className="ldg-endcard" role="status">No items match “{query}”. <button onClick={clearQuery}>Clear search</button></div>;
+  if (!items.length && query.trim()) return <div className="ldg-endcard" role="status">No items match “{query}”. <button onClick={clearQuery}>Clear search</button></div>;
   if (!items.length) {
     const what = describeFilters(filters);
     if (older && !prev) return <EmptyState category={what} />;
