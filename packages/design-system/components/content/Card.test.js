@@ -21,7 +21,8 @@ test('cards preserve language, top label, tag treatment and tag limit',()=>{
   const html=render({topToday:true,tagStyle:'hash',maxTags:1});
   assert.match(html,/>TOP</);assert.match(html,/Python/);assert.match(html,/#First tag/);assert.doesNotMatch(html,/Second tag/);
   assert.match(render({tagStyle:'pills'}),/class="ldg-tagpill"/);
-  assert.doesNotMatch(render({maxTags:0}),/First tag/);
+  const bare=render({maxTags:0});
+  assert.doesNotMatch(bare,/First tag/);assert.doesNotMatch(bare,/story-tags/);assert.doesNotMatch(bare,/Python/);
 });
 test('each public signals placement renders the signal once in its intended area',()=>{
   for(const pos of ['logo','bottom','source','row']){

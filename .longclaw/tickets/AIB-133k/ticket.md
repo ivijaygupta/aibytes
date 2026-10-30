@@ -6,7 +6,7 @@ title: "Review PR #43 (approved app redesign) and sync Ledger to Claude Design"
 status: todo
 priority: none
 created_at: 2026-10-29T06:00:22.193Z
-updated_at: 2026-10-30T11:28:12.543Z
+updated_at: 2026-10-30T12:00:44.606Z
 ---
 
 Review https://github.com/sachinjain024/aibytes/pull/43 (branch codex/approved-ui-redesign) by running the app locally, record all feedback, then run design sync so the Claude Design components match the redesigned Ledger.
@@ -22,6 +22,8 @@ Review https://github.com/sachinjain024/aibytes/pull/43 (branch codex/approved-u
 - [ ] Check the footer links (X, Suggest a link, Advertise, Subscribe) are reachable on mobile now the Footer component is gone <!-- longclaw:item=ck_0e9b52f6 -->
 - [ ] Decide whether Ledger's Header, SideNav, Chip and Footer stay or are deprecated now the app no longer uses them <!-- longclaw:item=ck_8b5540f2 -->
 - [x] Restore the 300/360px card minimum from main, read from one --app-card-min <!-- longclaw:item=ck_5517d320 -->
+- [x] Merge the existing two-row app header into a single-row toolbar <!-- longclaw:item=ck_340a9fad -->
+- [x] Cards: pin the source and signals row to the bottom edge, and drop the tags <!-- longclaw:item=ck_d6953ce6 -->
 
 ## Activity
 
@@ -202,4 +204,83 @@ changes:
 ### claude-code updated this ticket
 
 Card minimum: on main, apps/web/src/app.css set --app-card-min to 300px, or 360px at >=900px (the rail layout), and one .app-grid rule read it. useGridColumns reads the same variable to hide the grid/list toggle at one column. PR #43 deleted app.css, dropped the minimum to 270px everywhere, and typed 270px straight into the .redesign .app-grid rule, so the grid and the hook had separate copies of the value. Fixed in styles.css: .redesign .app-main sets 300px, a (min-width:900px) block sets 360px, the phone 270px override is gone, and the grid reads var(--app-card-min) again. The hooks.js comment now points to styles.css instead of app.css. Checked from 390 to 1600px: cards never go below the minimum, no horizontal scroll, and the toggle shows exactly when there is more than one column. Web tests pass (58/58).
+<!-- /longclaw:event -->
+
+<!-- longclaw:event
+id: evt_f4ce73ac
+kind: update
+occurred_at: 2026-10-30T11:49:23.290Z
+actor:
+  type: agent
+  id: claude-code
+changes:
+  - field: checklist.ck_340a9fad.added
+    to: Merge the existing two-row app header into a single-row toolbar
+-->
+### claude-code updated this ticket
+
+Toolbar redesign (requested 2026-10-30), for the item 'Merge the existing two-row app header into a single-row toolbar':
+- Merge the app header's two rows into one.
+- Drop the 'Wednesday Edition' label.
+- It should feel like part of the main app content, not a separate header band.
+- Remove the top and bottom borders on the row that holds search, filters, ranked/grouped and the other controls.
+- Call it the toolbar, not the header.
+<!-- /longclaw:event -->
+
+<!-- longclaw:event
+id: evt_417368b5
+kind: update
+occurred_at: 2026-10-30T11:55:46.606Z
+actor:
+  type: agent
+  id: claude-code
+changes:
+  - field: checklist.ck_340a9fad.checked
+    from: "false"
+    to: "true"
+-->
+### claude-code updated this ticket
+
+Toolbar done:
+- The 'Edition · Wednesday' heading row is gone, so the toolbar (edition bar, search, Filters, Ranked/Grouped, layout toggle) is the first row of the content, 16px below the masthead. The page keeps a visually hidden h1, 'aiBytes_ edition, <full date>', for screen readers.
+- The toolbar's top and bottom borders are removed at every width. On phones the divider after the date is also gone, because search wraps to its own line there.
+- styles.css drops the now-dead .intro, .edition-heading, #editionDate and .heading-separator rules; shared selectors like '.intro,.workspace' keep '.workspace'.
+- This replaces the open item 'restore the date in the h1': the date now shows only in the edition bar.
+- Not changed: at 761-1099px the controls still wrap onto two lines, and the pinned toolbar on scroll (>1000px) still covers the masthead tagline. Both predate this change.
+Checked at 390, 900 and 1440px in light and dark. Web tests 58/58, build OK, test_design_system OK.
+<!-- /longclaw:event -->
+
+<!-- longclaw:event
+id: evt_843b4c36
+kind: update
+occurred_at: 2026-10-30T12:00:36.132Z
+actor:
+  type: agent
+  id: claude-code
+changes:
+  - field: checklist.ck_d6953ce6.added
+    to: "Cards: pin the source and signals row to the bottom edge, and drop the tags"
+-->
+### claude-code updated this ticket
+<!-- /longclaw:event -->
+
+<!-- longclaw:event
+id: evt_7b916858
+kind: update
+occurred_at: 2026-10-30T12:00:44.606Z
+actor:
+  type: agent
+  id: claude-code
+changes:
+  - field: checklist.ck_d6953ce6.checked
+    from: "false"
+    to: "true"
+-->
+### claude-code updated this ticket
+
+Cards (requested 2026-10-30): pin the source and signals row (e.g. 'GitHub +1.5k') to the bottom of every card so cards in a row line up, and drop the tags.
+- styles.css: .story.story--grid now uses align-content: stretch instead of start, so .story-content fills the card and the row's existing margin-top:auto takes it to the bottom edge. This is a Ledger change, so it applies to every Card.
+- Card / FeedItem: maxTags={0} now drops the whole tags row, language dot included. Card.d.ts, Card.prompt.md and Card.test.js are updated to match.
+- App: the app's cards pass maxTags={0}. The list view never showed tags, so it is unchanged.
+Checked at 390, 1050 and 1440px: all 32 cards have the source row 14px from the bottom edge and none has a tags row. Design-system tests 7/7, web tests 58/58, build OK, test_design_system OK.
 <!-- /longclaw:event -->

@@ -1509,7 +1509,8 @@ h1,footer .brand {
 
 .story.story--grid {
   display: grid;
-  align-content: start;
+  /* Stretch, so .story-content fills the card and the source row (margin-top:auto) sits on the bottom edge of every card in a row. */
+  align-content: stretch;
   position: relative;
   border: 1px solid var(--line);
   border-radius: 8px;

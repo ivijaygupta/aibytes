@@ -21,7 +21,7 @@ export function FeedItem({ item, grid = false, saved, onToggleSave, topToday = f
         <div className="story-top"><h3><a href={item.url} target="_blank" rel="noopener noreferrer">{item.title}</a></h3></div>
         <p className="summary">{item.summary}</p>
         {grid && signalsPos === 'row' && <div className="story-signals"><Signals signals={item.signals} /></div>}
-        {grid && (language || tags.length > 0) && <div className={'story-tags ' + tagsClass}>
+        {grid && maxTags > 0 && (language || tags.length > 0) && <div className={'story-tags ' + tagsClass}>
           {language && <LangDot language={language} />}
           {tags.map((tag, i) => <React.Fragment key={tag}>
             {tagStyle === 'dots' && (i > 0 || language) ? ' · ' : null}

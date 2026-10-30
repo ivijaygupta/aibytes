@@ -268,7 +268,7 @@ function body({ route, index, ref, edition, view, mode, items, filters, older, p
   }
   const render = (list) => (view === "list"
     ? <div className="app-rows">{list.map((item) => <ListRow key={item.id} item={item} />)}</div>
-    : <div className="app-grid">{list.map((item) => <Card key={item.id} item={item} signalsPos="source" />)}</div>);
+    : <div className="app-grid">{list.map((item) => <Card key={item.id} item={item} signalsPos="source" maxTags={0} />)}</div>);
   // The date (edition bar or hidden h1) is the h1 and card titles are h3, so
   // each mode supplies the h2s: one hidden count in Ranked, a visible heading
   // per category in Grouped. A category the filters empty has no section.

@@ -26,7 +26,7 @@ export interface CardProps {
   signalsPos?: "logo" | "bottom" | "source" | "row";
   /** Tag treatment: "dots" = mono ·-separated (default); "pills" = small bordered chips; "hash" = accent #tags. */
   tagStyle?: "dots" | "pills" | "hash";
-  /** Max tags shown (default 3). */
+  /** Max tags shown (default 3). 0 drops the whole tags row, language dot included. */
   maxTags?: number;
 }
 export declare function Card(props: CardProps): JSX.Element;
