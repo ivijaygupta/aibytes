@@ -279,23 +279,12 @@ fieldset label:has(input:disabled) {
   }
 }
 
-.intro p {
-  margin: 0;
-  color: var(--muted);
-  font-size: 14px;
-  display: none;
-}
-
 .results-meta>span:last-child {
   font-size: 12px;
   letter-spacing: .4px;
 }
 
 @media (min-width:1100px) {
-  .toolbar {
-    border-top: 1px solid var(--line);
-    border-bottom: 1px solid var(--line);
-  }
   .search {
     margin-left: 5px;
   }
@@ -315,10 +304,6 @@ fieldset label:has(input:disabled) {
   letter-spacing: -1px;
   white-space: nowrap;
   font-size: 25px;
-}
-
-.intro {
-  padding: 25px 0;
 }
 
 h1 {
@@ -567,7 +552,7 @@ h1 {
   .mobile-menu-open {
     overflow: hidden;
   }
-  .redesign .intro,.redesign .workspace {
+  .redesign .workspace {
     width: auto;
     margin-inline: 20px;
   }
@@ -592,7 +577,7 @@ main {
   padding: 0;
 }
 
-.intro,.workspace {
+.workspace {
   width: calc(100% - 80px);
   max-width: 1000px;
   margin-inline: auto;
@@ -621,9 +606,6 @@ footer {
 @media (min-width:1100px) and (max-width:1399px) {
   .category {
     padding-inline: 8px;
-  }
-  .toolbar {
-    border-top: 0;
   }
   .search {
     margin-left: 0;
@@ -721,7 +703,6 @@ h1,footer .brand {
   gap: 16px;
   height: 58px;
   padding: 10px 0;
-  border-block: 1px solid var(--line);
 }
 
 .toolbar>.date-wrap {
@@ -921,7 +902,7 @@ h1,footer .brand {
 }
 
 @media (min-width:761px) {
-  .intro,.workspace {
+  .workspace {
     width: calc(100% - 560px);
     max-width: 1000px;
     margin-inline: auto;
@@ -996,7 +977,7 @@ h1,footer .brand {
     top: var(--redesign-header);
     padding-top: 24px;
   }
-  .redesign .intro,.redesign .workspace {
+  .redesign .workspace {
     width: calc(100% - 340px);
     max-width: 1200px;
     margin-left: max(280px,calc(250px + (100vw - 250px - 1200px)/2));
@@ -1151,53 +1132,12 @@ h1,footer .brand {
   border-color: #cddcf3;
 }
 
-.heading-separator {
-  font-size: 18px;
-  color: var(--muted);
-}
-
-#editionDate {
-  font: 400 14px/1.5 Inter,system-ui,sans-serif;
-  color: var(--muted);
-  letter-spacing: 0;
-}
-
-.edition-heading {
-  display: flex;
-  align-items: baseline;
-  flex-wrap: wrap;
-  font-family: 'Bricolage Grotesque',system-ui,sans-serif;
-  font-size: 32px;
-  line-height: 1.2;
-  letter-spacing: -1.2px;
-  gap: 12px;
-}
-
-.edition-heading h1 {
-  margin: 0;
-  font: inherit;
-  font-weight: 500;
-}
-
-.edition-heading #editionDate {
-  font: inherit;
-  font-weight: 400;
-  color: var(--muted);
-  letter-spacing: inherit;
-}
-
-.edition-heading .heading-separator {
-  font: inherit;
-  font-weight: 400;
-  color: var(--muted);
-}
-
 @media (min-width:1100px) {
   .active-filters {
     clear: both;
     padding-top: 10px;
   }
-  .intro,.workspace {
+  .workspace {
     width: calc(100% - 340px);
     max-width: 1200px;
     margin-left: max(280px,calc(250px + (100vw - 250px - 1200px)/2));
@@ -1705,13 +1645,13 @@ html[data-theme=light] .calendar-days button:disabled {
   padding: 0;
 }
 
-.redesign .intro,.redesign .workspace {
+.redesign .workspace {
   padding-left: 0;
   padding-right: 0;
 }
 
 .redesign .workspace {
-  padding-top: 0;
+  padding-top: 16px;
 }
 
 .redesign .app-main {
@@ -1933,12 +1873,12 @@ html[data-theme=light] .calendar-days button:disabled {
 }
 
 @media (min-width:761px) and (max-width:1099px) {
-  .intro,.workspace {
+  .workspace {
     width: calc(100% - 300px);
     margin-left: 275px;
     margin-right: 25px;
   }
-  .redesign .intro,.redesign .workspace {
+  .redesign .workspace {
     width: calc(100% - 300px);
     margin-left: 275px;
     margin-right: 25px;
@@ -1978,7 +1918,7 @@ html[data-theme=light] .calendar-days button:disabled {
   .results-meta>span:last-child {
     display: none;
   }
-  .intro,.workspace {
+  .workspace {
     width: auto;
     max-width: none;
     margin-inline: 20px;
@@ -2012,6 +1952,11 @@ html[data-theme=light] .calendar-days button:disabled {
   .toolbar .search {
     flex-basis: 45%;
   }
+  /* Search wraps to its own line on phones, so the date has nothing to divide from. */
+  .toolbar>.date-wrap {
+    padding-right: 0;
+    border-right: 0;
+  }
   .story-content {
     display: flex;
     flex-direction: column;
@@ -2025,10 +1970,6 @@ html[data-theme=light] .calendar-days button:disabled {
   }
   .date-pop {
     width: min(326px,calc(100vw - 40px));
-  }
-  .edition-heading {
-    font-size: 27px;
-    gap: 10px;
   }
   .sidebar-links {
     flex-direction: row;

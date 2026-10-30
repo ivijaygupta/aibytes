@@ -13,7 +13,6 @@ import { useChoice, useDismiss, useGridColumns, useMedia, useReturnFocus, useThe
 import { shownView } from "./layout.js";
 import { groupedItems, rankedItems } from "./order.js";
 import { ORDER, VIEW } from "./prefs.js";
-import { localDate } from "./rail.js";
 import { editionPath, olderEdition, parseRoute, pickEdition } from "./route.js";
 
 const here = () => ({ pathname: window.location.pathname, search: window.location.search });
@@ -167,7 +166,9 @@ export function App() {
       <RedesignSidebar categories={categories} count={visible?.length} active={filters.category} open={menuOpen} onClose={() => setMenuOpen(false)}
         onCategory={key => { if (filterable) setCategory(key); setMenuOpen(false); }} />
       <main id="main" className="redesign-main" tabIndex={-1}>
-        <section className="intro"><div className="edition-heading"><h1>{ref && ref.date === localDate() ? "Today" : "Edition"}</h1><span className="heading-separator">·</span><span id="editionDate">{ref ? new Date(ref.date + "T12:00:00").toLocaleDateString("en-US", { weekday: "long" }) : "aiBytes_"}</span></div><p>{visible ? `${visible.length} items` : "Daily AI briefing"}</p></section>
+        {/* No visible heading: the toolbar is the first row of the content, and its
+            edition bar already shows the date. Screen readers still get an h1. */}
+        <h1 className="app-sr">{ref ? `aiBytes_ edition, ${new Date(ref.date + "T12:00:00").toLocaleDateString("en-US", { weekday: "long", month: "long", day: "numeric", year: "numeric" })}` : "aiBytes_"}</h1>
         <div className="workspace"><section className="feed">
           <div ref={sticky} className="toolbar-slot">
             <RedesignToolbar query={filters.query} onQuery={setQuery} view={view} onView={columns > 1 ? setView : undefined} mode={mode} onMode={setMode}
