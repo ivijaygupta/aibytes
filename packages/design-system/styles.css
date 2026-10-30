@@ -1871,6 +1871,27 @@ html[data-theme=light] .calendar-days button:disabled {
     width: 100%;
     max-width: none;
   }
+  /* List rows: the source on the title line with the menu beside it, and its counts right under it on the summary line. */
+  .story:not(.story--grid) .story-content .metadata{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-items: end;
+    align-items: center;
+    row-gap: 0;
+  }
+  .story:not(.story--grid) .story-content .metadata .discussion{
+    grid-column: 1;
+    grid-row: 1;
+  }
+  .story:not(.story--grid) .story-content .metadata .ldg-signals{
+    grid-column: 1;
+    grid-row: 2;
+    line-height: 1.5;
+  }
+  .story:not(.story--grid) .story-content .metadata .item-actions{
+    grid-column: 2;
+    grid-row: 1;
+  }
 }
 
 @media (min-width:761px) and (max-width:1099px) {

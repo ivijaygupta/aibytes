@@ -6,7 +6,7 @@ title: "Review PR #43 (approved app redesign) and sync Ledger to Claude Design"
 status: todo
 priority: none
 created_at: 2026-10-29T06:00:22.193Z
-updated_at: 2026-10-30T12:00:44.606Z
+updated_at: 2026-10-30T12:15:37.845Z
 ---
 
 Review https://github.com/sachinjain024/aibytes/pull/43 (branch codex/approved-ui-redesign) by running the app locally, record all feedback, then run design sync so the Claude Design components match the redesigned Ledger.
@@ -24,6 +24,7 @@ Review https://github.com/sachinjain024/aibytes/pull/43 (branch codex/approved-u
 - [x] Restore the 300/360px card minimum from main, read from one --app-card-min <!-- longclaw:item=ck_5517d320 -->
 - [x] Merge the existing two-row app header into a single-row toolbar <!-- longclaw:item=ck_340a9fad -->
 - [x] Cards: pin the source and signals row to the bottom edge, and drop the tags <!-- longclaw:item=ck_d6953ce6 -->
+- [x] List view: put the source on one row and its counts (upvotes, stars, comments) on the row below <!-- longclaw:item=ck_cc3b6718 -->
 
 ## Activity
 
@@ -283,4 +284,39 @@ Cards (requested 2026-10-30): pin the source and signals row (e.g. 'GitHub +1.5k
 - Card / FeedItem: maxTags={0} now drops the whole tags row, language dot included. Card.d.ts, Card.prompt.md and Card.test.js are updated to match.
 - App: the app's cards pass maxTags={0}. The list view never showed tags, so it is unchanged.
 Checked at 390, 1050 and 1440px: all 32 cards have the source row 14px from the bottom edge and none has a tags row. Design-system tests 7/7, web tests 58/58, build OK, test_design_system OK.
+<!-- /longclaw:event -->
+
+<!-- longclaw:event
+id: evt_6c00fc95
+kind: update
+occurred_at: 2026-10-30T12:15:28.727Z
+actor:
+  type: agent
+  id: claude-code
+changes:
+  - field: checklist.ck_cc3b6718.added
+    to: "List view: put the source on one row and its counts (upvotes, stars, comments) on the row below"
+-->
+### claude-code updated this ticket
+<!-- /longclaw:event -->
+
+<!-- longclaw:event
+id: evt_9e28b4a9
+kind: update
+occurred_at: 2026-10-30T12:15:37.845Z
+actor:
+  type: agent
+  id: claude-code
+changes:
+  - field: checklist.ck_cc3b6718.checked
+    from: "false"
+    to: "true"
+-->
+### claude-code updated this ticket
+
+List view (requested 2026-10-30): the source and its counts were one line, e.g. 'Hacker News ▲631 628'. Every row already has a title line and a summary line, so the source now sits on the title line with the ⋮ menu beside it, and its counts sit right-aligned under it on the summary line.
+- styles.css only: in the last (min-width:761px) block, .story:not(.story--grid) .story-content .metadata is a two-column grid: source at row 1, counts (.ldg-signals) at row 2, menu at column 2 row 1. Cards and phones are untouched; phones always show cards.
+- Row height is unchanged (71px for one-line titles), and the block is narrower, so titles get more room.
+- Already there before this change, now easier to see: the title link's hidden hover arrow (.story h3 a::after, an inline 19px box) wraps onto a second line when a title only just fits, which leaves a gap under the title (e.g. 'Anthropic trained Claude…' at 1050px). Not fixed.
+Checked at 1050 and 1440px. Design-system tests 7/7, web tests 58/58, build OK, test_design_system OK.
 <!-- /longclaw:event -->
