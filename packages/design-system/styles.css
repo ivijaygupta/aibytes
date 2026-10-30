@@ -1721,7 +1721,15 @@ html[data-theme=light] .calendar-days button:disabled {
   padding: 0;
   margin: 0;
   gap: 0;
-  --app-card-min: 270px;
+  --app-card-min: 300px;
+}
+
+/* The card minimum lives only in --app-card-min: the grid below reads it, and so
+   does useGridColumns (hooks.js), which hides the grid/list toggle at one column. */
+@media (min-width:900px) {
+  .redesign .app-main {
+    --app-card-min: 360px;
+  }
 }
 
 .redesign .app-sec {
@@ -2045,9 +2053,6 @@ html[data-theme=light] .calendar-days button:disabled {
     flex-wrap: wrap;
     gap: 12px;
   }
-  .redesign .app-main {
-    --app-card-min: 270px;
-  }
   .redesign .story {
     grid-template-columns: 34px minmax(0,1fr);
   }
@@ -2098,7 +2103,7 @@ html[data-theme=light] .calendar-days button:disabled {
 
 .redesign .app-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill,minmax(min(270px,100%),1fr));
+  grid-template-columns: repeat(auto-fill,minmax(min(var(--app-card-min),100%),1fr));
   gap: var(--grid-gap);
 }
 

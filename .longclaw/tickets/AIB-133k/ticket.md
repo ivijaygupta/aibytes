@@ -6,7 +6,7 @@ title: "Review PR #43 (approved app redesign) and sync Ledger to Claude Design"
 status: todo
 priority: none
 created_at: 2026-10-29T06:00:22.193Z
-updated_at: 2026-10-29T08:12:29.235Z
+updated_at: 2026-10-30T11:28:12.543Z
 ---
 
 Review https://github.com/sachinjain024/aibytes/pull/43 (branch codex/approved-ui-redesign) by running the app locally, record all feedback, then run design sync so the Claude Design components match the redesigned Ledger.
@@ -21,6 +21,7 @@ Review https://github.com/sachinjain024/aibytes/pull/43 (branch codex/approved-u
 - [ ] Reformat Redesign.jsx to match the repo's style (no minified one-liners, comments like App.jsx) <!-- longclaw:item=ck_21540e55 -->
 - [ ] Check the footer links (X, Suggest a link, Advertise, Subscribe) are reachable on mobile now the Footer component is gone <!-- longclaw:item=ck_0e9b52f6 -->
 - [ ] Decide whether Ledger's Header, SideNav, Chip and Footer stay or are deprecated now the app no longer uses them <!-- longclaw:item=ck_8b5540f2 -->
+- [x] Restore the 300/360px card minimum from main, read from one --app-card-min <!-- longclaw:item=ck_5517d320 -->
 
 ## Activity
 
@@ -170,4 +171,35 @@ changes:
     to: "true"
 -->
 ### claude-code updated this ticket
+<!-- /longclaw:event -->
+
+<!-- longclaw:event
+id: evt_c09aff6e
+kind: update
+occurred_at: 2026-10-30T11:27:55.847Z
+actor:
+  type: agent
+  id: claude-code
+changes:
+  - field: checklist.ck_5517d320.added
+    to: Restore the 300/360px card minimum from main, read from one --app-card-min
+-->
+### claude-code updated this ticket
+<!-- /longclaw:event -->
+
+<!-- longclaw:event
+id: evt_93364f52
+kind: update
+occurred_at: 2026-10-30T11:28:12.543Z
+actor:
+  type: agent
+  id: claude-code
+changes:
+  - field: checklist.ck_5517d320.checked
+    from: "false"
+    to: "true"
+-->
+### claude-code updated this ticket
+
+Card minimum: on main, apps/web/src/app.css set --app-card-min to 300px, or 360px at >=900px (the rail layout), and one .app-grid rule read it. useGridColumns reads the same variable to hide the grid/list toggle at one column. PR #43 deleted app.css, dropped the minimum to 270px everywhere, and typed 270px straight into the .redesign .app-grid rule, so the grid and the hook had separate copies of the value. Fixed in styles.css: .redesign .app-main sets 300px, a (min-width:900px) block sets 360px, the phone 270px override is gone, and the grid reads var(--app-card-min) again. The hooks.js comment now points to styles.css instead of app.css. Checked from 390 to 1600px: cards never go below the minimum, no horizontal scroll, and the toggle shows exactly when there is more than one column. Web tests pass (58/58).
 <!-- /longclaw:event -->
