@@ -171,13 +171,12 @@ export function App() {
         <h1 className="app-sr">{ref ? `aiBytes_ edition, ${new Date(ref.date + "T12:00:00").toLocaleDateString("en-US", { weekday: "long", month: "long", day: "numeric", year: "numeric" })}` : "aiBytes_"}</h1>
         <div className="workspace"><section className="feed">
           <div ref={sticky} className="toolbar-slot">
-            <RedesignToolbar query={filters.query} onQuery={setQuery} view={view} onView={columns > 1 ? setView : undefined} mode={mode} onMode={setMode}
+            <RedesignToolbar count={items ? `${items.length} items` : null} query={filters.query} onQuery={setQuery} view={view} onView={columns > 1 ? setView : undefined} mode={mode} onMode={setMode}
               disabled={!filterable} filterCount={filters.tags.length + filters.sources.length} open={panel !== null} onFilters={() => onPanel("filters")}
               date={ref ? <Bar refAt={ref} editions={editions} compact search={location.search} navigate={navigate} /> : null} />
             {panel && <RedesignFilters groups={tagGroups} filters={filters} onChange={setFilters} sources={SOURCES} /> }
           </div>
           {(filters.tags.length > 0 || filters.sources.length > 0) && <div className="active-filters">{[...filters.tags.map(value => ({key:'tags',value})),...filters.sources.map(value=>({key:'sources',value}))].map(({key,value})=><button key={key+value} aria-label={`Remove ${value} filter`} onClick={()=>setFilters({...filters,[key]:toggle(filters[key],value)})}>{value} ×</button>)}<button onClick={()=>setFilters({...filters,tags:[],sources:[]})}>Clear filters</button></div>}
-          <div className="results-meta"><span>{items ? `${items.length} items` : ""}</span><span>{mode === "grouped" ? "GROUPED BY CATEGORY" : "RANKED"}</span></div>
           <div className="app-main" ref={setMainEl}>
             {body({ route, index, ref, edition, view: shown, mode, items, filters, older, prev, goTo, query: filters.query, clearQuery: () => setQuery(""), clearFilters: () => setFilters(NO_FILTERS) })}
           </div>
@@ -206,8 +205,8 @@ function usePrevious(ref) {
   return prev && prev.date === date ? prev : null;
 }
 
-// The edition bar for `refAt`. index.json is newest first, so the previous
-// (older) edition is the next entry and the newer one the entry before.
+// The edition bar for `refAt`, without arrows: it sits at the end of the
+// toolbar and the calendar is the way between editions.
 function Bar({ refAt, editions, compact, search, navigate }) {
   const [open, setOpen] = React.useState(false);
   const close = React.useCallback(() => setOpen(false), []);
@@ -216,8 +215,6 @@ function Bar({ refAt, editions, compact, search, navigate }) {
   useReturnFocus(open);
 
   const at = editions.findIndex((ref) => ref.date === refAt.date);
-  const older = olderEdition(editions, refAt.date);
-  const newer = editions[at - 1];
   const go = (date) => {
     setOpen(false);
     // Filters apply within whichever edition is open, so they travel with it.
@@ -230,8 +227,7 @@ function Bar({ refAt, editions, compact, search, navigate }) {
         dateLabel={compact ? midDate(refAt.date) : longDate(refAt.date)}
         itemCount={refAt.total}
         updatedAgo={at === 0 ? ago(refAt.generated_at) : undefined}
-        prevLabel={older && shortDate(older.date)} onPrev={() => older && go(older.date)}
-        nextLabel={newer && shortDate(newer.date)} onNext={() => newer && go(newer.date)}
+        arrows={false}
         onDateClick={() => setOpen((o) => !o)} calendarOpen={open}
         editions={editions.map((ref) => ({ date: ref.date, label: midDate(ref.date), count: ref.total }))}
         currentDate={refAt.date} onSelectEdition={go} />

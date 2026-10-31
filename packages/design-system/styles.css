@@ -279,20 +279,12 @@ fieldset label:has(input:disabled) {
   }
 }
 
-.results-meta>span:last-child {
-  font-size: 12px;
-  letter-spacing: .4px;
-}
-
 @media (min-width:1100px) {
   .search {
     margin-left: 5px;
   }
   .active-filters:empty {
     padding-top: 0;
-  }
-  .results-meta {
-    clear: both;
   }
   .active-filters:not(:empty) {
     padding-top: 10px;
@@ -352,15 +344,6 @@ h1 {
   min-width: 0;
   padding: 8px 0;
   font-size: 14px;
-}
-
-.results-meta {
-  display: flex;
-  justify-content: space-between;
-  gap: 12px;
-  font-size: 12px;
-  padding: 14px 0 12px;
-  color: var(--muted);
 }
 
 .story {
@@ -457,10 +440,6 @@ h1 {
   }
   .summary {
     font-size: 14px;
-  }
-  .results-meta {
-    flex-wrap: wrap;
-    padding-top: 12px;
   }
   .brand-note {
     display: none;
@@ -705,17 +684,37 @@ h1,footer .brand {
   padding: 10px 0;
 }
 
-.toolbar>.date-wrap {
-  flex-shrink: 0;
-  padding-right: 16px;
-  border-right: 1px solid var(--line);
-}
-
 .toolbar .search {
   margin: 0;
   min-width: 90px;
+  /* Basis 0: search takes the room that is left, so the row wraps only once
+     even its minimum no longer fits. */
   flex: 1;
-  flex-basis: auto;
+  flex-basis: 0;
+}
+
+/* The filtered item count opens the toolbar; the edition date closes it. */
+
+.toolbar-count{
+  flex-shrink: 0;
+  color: var(--muted);
+  font-family: var(--font-mono);
+  font-size: 12px;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.toolbar>.date-wrap{
+  flex-shrink: 0;
+  margin-left: auto;
+}
+
+/* At the right edge, the calendar hangs from the date's right side instead of centring under it. */
+
+.toolbar>.date-wrap .ldg-cal{
+  left: auto;
+  right: 0;
+  transform: none;
 }
 
 .feed-modes button {
@@ -739,9 +738,6 @@ h1,footer .brand {
   .toolbar {
     height: auto;
     flex-wrap: wrap;
-  }
-  .toolbar>.date-wrap {
-    padding-right: 12px;
   }
   .toolbar .search {
     flex: 1;
@@ -1908,9 +1904,7 @@ html[data-theme=light] .calendar-days button:disabled {
   .redesign .toolbar {
     flex-wrap: wrap;
     gap: 10px;
-  }
-  .redesign .toolbar .search {
-    flex-basis: 40%;
+    height: auto;
   }
 }
 
@@ -1936,9 +1930,6 @@ html[data-theme=light] .calendar-days button:disabled {
   }
   .search {
     flex-basis: 65%;
-  }
-  .results-meta>span:last-child {
-    display: none;
   }
   .workspace {
     width: auto;
@@ -1973,11 +1964,6 @@ html[data-theme=light] .calendar-days button:disabled {
   }
   .toolbar .search {
     flex-basis: 45%;
-  }
-  /* Search wraps to its own line on phones, so the date has nothing to divide from. */
-  .toolbar>.date-wrap {
-    padding-right: 0;
-    border-right: 0;
   }
   .story-content {
     display: flex;
