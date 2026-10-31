@@ -441,9 +441,6 @@ h1 {
   .summary {
     font-size: 14px;
   }
-  .brand-note {
-    display: none;
-  }
   .toolbar .search kbd {
     display: none;
   }
@@ -616,13 +613,6 @@ body {
   width: 20px;
   color: var(--blue);
   margin-right: 3px;
-}
-
-.brand-note {
-  color: var(--muted);
-  border-left: 1px solid var(--line);
-  font-size: 12px;
-  padding-left: 20px;
 }
 
 .masthead nav {

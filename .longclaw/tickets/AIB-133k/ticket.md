@@ -6,7 +6,7 @@ title: "Review PR #43 (approved app redesign) and sync Ledger to Claude Design"
 status: todo
 priority: none
 created_at: 2026-10-29T06:00:22.193Z
-updated_at: 2026-10-30T12:15:37.845Z
+updated_at: 2026-10-31T07:05:12.304Z
 ---
 
 Review https://github.com/sachinjain024/aibytes/pull/43 (branch codex/approved-ui-redesign) by running the app locally, record all feedback, then run design sync so the Claude Design components match the redesigned Ledger.
@@ -25,6 +25,8 @@ Review https://github.com/sachinjain024/aibytes/pull/43 (branch codex/approved-u
 - [x] Merge the existing two-row app header into a single-row toolbar <!-- longclaw:item=ck_340a9fad -->
 - [x] Cards: pin the source and signals row to the bottom edge, and drop the tags <!-- longclaw:item=ck_d6953ce6 -->
 - [x] List view: put the source on one row and its counts (upvotes, stars, comments) on the row below <!-- longclaw:item=ck_cc3b6718 -->
+- [x] Toolbar: drop the date arrows, move the date to the right end, open with the item count, and remove the 32 items / RANKED row <!-- longclaw:item=ck_33718da4 -->
+- [x] Masthead: remove the tagline 'today’s AI, in one byte' <!-- longclaw:item=ck_6952c756 -->
 
 ## Activity
 
@@ -319,4 +321,71 @@ List view (requested 2026-10-30): the source and its counts were one line, e.g. 
 - Row height is unchanged (71px for one-line titles), and the block is narrower, so titles get more room.
 - Already there before this change, now easier to see: the title link's hidden hover arrow (.story h3 a::after, an inline 19px box) wraps onto a second line when a title only just fits, which leaves a gap under the title (e.g. 'Anthropic trained Claude…' at 1050px). Not fixed.
 Checked at 1050 and 1440px. Design-system tests 7/7, web tests 58/58, build OK, test_design_system OK.
+<!-- /longclaw:event -->
+
+<!-- longclaw:event
+id: evt_1c8f3c27
+kind: update
+occurred_at: 2026-10-31T06:36:35.948Z
+actor:
+  type: agent
+  id: claude-code
+changes:
+  - field: checklist.ck_33718da4.added
+    to: "Toolbar: drop the date arrows, move the date to the right end, open with the item count, and remove the 32 items / RANKED row"
+-->
+### claude-code updated this ticket
+<!-- /longclaw:event -->
+
+<!-- longclaw:event
+id: evt_daaf6c8d
+kind: update
+occurred_at: 2026-10-31T06:36:35.984Z
+actor:
+  type: agent
+  id: claude-code
+changes:
+  - field: checklist.ck_33718da4.checked
+    from: "false"
+    to: "true"
+-->
+### claude-code updated this ticket
+
+Toolbar (requested 2026-10-30): the order is now item count, search, Filters, Ranked/Grouped, list/grid, then the date picker at the right end. The row below it ('32 items … RANKED') is gone, which frees one row.
+- EditionBar (Ledger) has a new prop, arrows (default true). arrows={false} drops the previous and next buttons, so the calendar is the only way between editions. The .d.ts and .prompt.md are updated, and the UI kit still shows the arrows.
+- App: the Bar wrapper passes arrows={false} and no longer works out the older and newer labels. The filtered count ('32 items') goes to RedesignToolbar as count, and the results-meta row is removed.
+- styles.css: the .results-meta rules and the date divider are removed. New .toolbar-count is mono with tabular numerals. The date gets margin-left:auto, and the calendar opens from the date's right edge so it stays on screen. Search has flex-basis 0, so the row wraps only when search's 90px minimum no longer fits; it now stays on one row from about 1000px up. Between 761 and 1099px the toolbar's height is auto, so a wrapped row no longer spills under the cards.
+- Already there before this change, now more visible: the pinned toolbar (>1000px, scrolled) overlaps the masthead tagline, and '32 items' now sits right against it.
+Checked at 390, 761, 900, 1050, 1100 and 1440px, with the calendar open and in the pinned state. Design-system tests 7/7, web tests 58/58, build OK, test_design_system OK.
+<!-- /longclaw:event -->
+
+<!-- longclaw:event
+id: evt_82dbfea7
+kind: update
+occurred_at: 2026-10-31T07:05:12.274Z
+actor:
+  type: agent
+  id: claude-code
+changes:
+  - field: checklist.ck_6952c756.added
+    to: "Masthead: remove the tagline 'today’s AI, in one byte'"
+-->
+### claude-code updated this ticket
+<!-- /longclaw:event -->
+
+<!-- longclaw:event
+id: evt_9262523b
+kind: update
+occurred_at: 2026-10-31T07:05:12.304Z
+actor:
+  type: agent
+  id: claude-code
+changes:
+  - field: checklist.ck_6952c756.checked
+    from: "false"
+    to: "true"
+-->
+### claude-code updated this ticket
+
+Masthead tagline removed (requested 2026-10-31). Its span leaves RedesignHeader, and the .brand-note rules (including the divider beside the logo and the phone hide rule) leave styles.css. This also fixes the pinned toolbar overlapping the tagline on scroll. Ledger's Header component and the UI kit keep their tagline prop, unchanged. Web tests 58/58, build OK, test_design_system OK.
 <!-- /longclaw:event -->
