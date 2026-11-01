@@ -6,7 +6,7 @@ title: "Review PR #43 (approved app redesign) and sync Ledger to Claude Design"
 status: todo
 priority: none
 created_at: 2026-10-29T06:00:22.193Z
-updated_at: 2026-11-01T00:39:52.886Z
+updated_at: 2026-11-01T12:25:50.547Z
 ---
 
 Review https://github.com/sachinjain024/aibytes/pull/43 (branch codex/approved-ui-redesign) by running the app locally, record all feedback, then run design sync so the Claude Design components match the redesigned Ledger.
@@ -19,7 +19,7 @@ Review https://github.com/sachinjain024/aibytes/pull/43 (branch codex/approved-u
 - [x] Restore the edition date in the page h1 (it is now 'Edition'/'Today' with the date in a span) <!-- longclaw:item=ck_6537a72a -->
 - [x] Replace the JS toolbar docking (scroll/resize listeners, magic 1000/52/40px) with CSS position: sticky <!-- longclaw:item=ck_1dc6183d -->
 - [ ] Reformat Redesign.jsx to match the repo's style (no minified one-liners, comments like App.jsx) <!-- longclaw:item=ck_21540e55 -->
-- [ ] Check the footer links (X, Suggest a link, Advertise, Subscribe) are reachable on mobile now the Footer component is gone <!-- longclaw:item=ck_0e9b52f6 -->
+- [x] Check the footer links (X, Suggest a link, Advertise, Subscribe) are reachable on mobile now the Footer component is gone <!-- longclaw:item=ck_0e9b52f6 -->
 - [ ] Decide whether Ledger's Header, SideNav, Chip and Footer stay or are deprecated now the app no longer uses them <!-- longclaw:item=ck_8b5540f2 -->
 - [x] Restore the 300/360px card minimum from main, read from one --app-card-min <!-- longclaw:item=ck_5517d320 -->
 - [x] Merge the existing two-row app header into a single-row toolbar <!-- longclaw:item=ck_340a9fad -->
@@ -431,4 +431,21 @@ changes:
 ### claude-code updated this ticket
 
 Decided 2026-11-01: no visible date h1. The page keeps the visually hidden h1 ('aiBytes_ edition, <full date>'), and the date shows only in the toolbar's date picker. The 'restore the date in the h1' item is closed as won't-do. Reformatting is now two items: Redesign.jsx (existing) and CalendarPopover.jsx (new).
+<!-- /longclaw:event -->
+
+<!-- longclaw:event
+id: evt_78b8c15d
+kind: update
+occurred_at: 2026-11-01T12:25:50.547Z
+actor:
+  type: agent
+  id: claude-code
+changes:
+  - field: checklist.ck_0e9b52f6.checked
+    from: "false"
+    to: "true"
+-->
+### claude-code updated this ticket
+
+Footer links checked on mobile (390x844 and 320x568, touch emulation, real taps in the drawer): X opens x.com/sachinjain024 in a new tab; Suggest a link and Advertise are mailto links that open in a new tab; Subscribe goes to newsletter.aibytes.io/subscribe; Chrome Extension (soon) is plain text, as intended. All of them fit on screen without scrolling the drawer, even at 320x568, and nothing covers them. GitHub is not in the drawer, but the masthead icon stays visible on phones. One nit: the X / Suggest / Advertise rows are 20px tall, under the 24px WCAG 2.2 minimum tap-target size (2.5.8). They pass because they have more than 24px of spacing between them, but the 44px comfort size would need more padding.
 <!-- /longclaw:event -->
