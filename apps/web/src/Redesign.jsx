@@ -16,24 +16,8 @@ export function RedesignSidebar({ categories, count, active, onCategory, open, o
 }
 export function RedesignToolbar({ count, query, onQuery, date, mode, onMode, view, onView, filterCount, open, onFilters, disabled }) {
  const input=React.useRef(null);
- const toolbar=React.useRef(null);
- const [dock,setDock]=React.useState(null);
- React.useLayoutEffect(()=>{
-  const slot=toolbar.current?.parentElement;
-  if(!slot)return;
-  const measure=()=>{
-   const r=slot.getBoundingClientRect();
-   const next=window.innerWidth>1000 && r.top<52 ? {left:r.left,width:r.width-40} : null;
-   setDock(old => old?.left === next?.left && old?.width === next?.width ? old : next);
-  };
-  let frame = null;
-  const schedule = () => { if(frame === null) frame = requestAnimationFrame(() => { frame = null; measure(); }); };
-  const observer=new ResizeObserver(schedule);observer.observe(slot);
-  window.addEventListener('scroll',schedule,{passive:true});window.addEventListener('resize',schedule);measure();
-  return()=>{observer.disconnect();window.removeEventListener('scroll',schedule);window.removeEventListener('resize',schedule);if(frame !== null)cancelAnimationFrame(frame);};
- },[]);
  React.useEffect(()=>{const key=e=>{if(e.key==='/'&&!e.metaKey&&!e.ctrlKey&&!['INPUT','TEXTAREA','SELECT'].includes(e.target.tagName)){e.preventDefault();input.current?.focus();}};document.addEventListener('keydown',key);return()=>document.removeEventListener('keydown',key);},[]);
- return <div ref={toolbar} className={"toolbar"+(dock?" toolbar--docked":"")} style={dock?{left:dock.left,width:dock.width}:undefined}>{count && <span className="toolbar-count">{count}</span>}<label className="search"><span><Icon name="search"/></span><input ref={input} type="search" disabled={disabled} value={query} onChange={e=>onQuery(e.target.value)} placeholder="Search this edition…" aria-label="Search this edition"/><kbd>/</kbd></label><button className="control" disabled={disabled} aria-expanded={open} onClick={onFilters}><Icon name="filters"/>Filters {filterCount || ''}</button><div className="feed-modes" role="group" aria-label="Feed order">{['ranked','grouped'].map(m=><button key={m} aria-pressed={mode===m} onClick={()=>onMode(m)}>{m==='ranked'?'Ranked':'Grouped'}</button>)}</div>{onView && <div className="view-toggle" role="group" aria-label="Layout">{['list','grid'].map(v=><button key={v} aria-label={`${v==='list'?'List':'Grid'} view`} aria-pressed={view===v} onClick={()=>onView(v)}><Icon name={v}/></button>)}</div>}{date && <div className="date-wrap">{date}</div>}</div>;
+ return <div className="toolbar">{count && <span className="toolbar-count">{count}</span>}<label className="search"><span><Icon name="search"/></span><input ref={input} type="search" disabled={disabled} value={query} onChange={e=>onQuery(e.target.value)} placeholder="Search this edition…" aria-label="Search this edition"/><kbd>/</kbd></label><button className="control" disabled={disabled} aria-expanded={open} onClick={onFilters}><Icon name="filters"/>Filters {filterCount || ''}</button><div className="feed-modes" role="group" aria-label="Feed order">{['ranked','grouped'].map(m=><button key={m} aria-pressed={mode===m} onClick={()=>onMode(m)}>{m==='ranked'?'Ranked':'Grouped'}</button>)}</div>{onView && <div className="view-toggle" role="group" aria-label="Layout">{['list','grid'].map(v=><button key={v} aria-label={`${v==='list'?'List':'Grid'} view`} aria-pressed={view===v} onClick={()=>onView(v)}><Icon name={v}/></button>)}</div>}{date && <div className="date-wrap">{date}</div>}</div>;
 }
 export function RedesignFilters({ groups, filters, onChange, sources }) {
  const [query,setQuery]=React.useState('');

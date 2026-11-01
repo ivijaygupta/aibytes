@@ -2109,25 +2109,12 @@ html[data-theme=light] .calendar-days button:disabled {
 }
 
 @media (min-width:1001px) {
+  /* The toolbar sticks under the masthead at the column's own width; the filter panel hangs from it (position:absolute; top:100%). */
   .redesign .toolbar-slot {
-    min-height: 58px;
-  }
-  .redesign .toolbar--docked {
-    position: fixed;
-    top: 0;
-    height: 52px;
-    z-index: 45;
-    border: 0;
+    position: sticky;
+    top: var(--redesign-header);
+    z-index: 30;
     background: var(--paper);
-    padding-block: 5px;
-  }
-  .toolbar--docked+.redesign-filters {
-    position: fixed;
-    top: 65px;
-    right: 60px;
-  }
-  .redesign .toolbar--docked .search {
-    min-width: 80px;
   }
 }
 

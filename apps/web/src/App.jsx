@@ -225,7 +225,6 @@ function Bar({ refAt, editions, compact, search, navigate }) {
     <div ref={wrap}>
       <EditionBar asH1={false} compact={compact}
         dateLabel={compact ? midDate(refAt.date) : longDate(refAt.date)}
-        itemCount={refAt.total}
         updatedAgo={at === 0 ? ago(refAt.generated_at) : undefined}
         arrows={false}
         onDateClick={() => setOpen((o) => !o)} calendarOpen={open}
