@@ -6,7 +6,7 @@ title: "Review PR #43 (approved app redesign) and sync Ledger to Claude Design"
 status: todo
 priority: none
 created_at: 2026-10-29T06:00:22.193Z
-updated_at: 2026-10-31T07:05:12.304Z
+updated_at: 2026-11-01T00:39:52.886Z
 ---
 
 Review https://github.com/sachinjain024/aibytes/pull/43 (branch codex/approved-ui-redesign) by running the app locally, record all feedback, then run design sync so the Claude Design components match the redesigned Ledger.
@@ -16,8 +16,8 @@ Review https://github.com/sachinjain024/aibytes/pull/43 (branch codex/approved-u
 - [x] Take the PR and run the app locally <!-- longclaw:item=ck_1dbcb61c -->
 - [x] Note down all the feedback <!-- longclaw:item=ck_bad51434 -->
 - [ ] Run design sync to update Claude components <!-- longclaw:item=ck_8cae352f -->
-- [ ] Restore the edition date in the page h1 (it is now 'Edition'/'Today' with the date in a span) <!-- longclaw:item=ck_6537a72a -->
-- [ ] Replace the JS toolbar docking (scroll/resize listeners, magic 1000/52/40px) with CSS position: sticky <!-- longclaw:item=ck_1dc6183d -->
+- [x] Restore the edition date in the page h1 (it is now 'Edition'/'Today' with the date in a span) <!-- longclaw:item=ck_6537a72a -->
+- [x] Replace the JS toolbar docking (scroll/resize listeners, magic 1000/52/40px) with CSS position: sticky <!-- longclaw:item=ck_1dc6183d -->
 - [ ] Reformat Redesign.jsx to match the repo's style (no minified one-liners, comments like App.jsx) <!-- longclaw:item=ck_21540e55 -->
 - [ ] Check the footer links (X, Suggest a link, Advertise, Subscribe) are reachable on mobile now the Footer component is gone <!-- longclaw:item=ck_0e9b52f6 -->
 - [ ] Decide whether Ledger's Header, SideNav, Chip and Footer stay or are deprecated now the app no longer uses them <!-- longclaw:item=ck_8b5540f2 -->
@@ -27,6 +27,7 @@ Review https://github.com/sachinjain024/aibytes/pull/43 (branch codex/approved-u
 - [x] List view: put the source on one row and its counts (upvotes, stars, comments) on the row below <!-- longclaw:item=ck_cc3b6718 -->
 - [x] Toolbar: drop the date arrows, move the date to the right end, open with the item count, and remove the 32 items / RANKED row <!-- longclaw:item=ck_33718da4 -->
 - [x] Masthead: remove the tagline 'today’s AI, in one byte' <!-- longclaw:item=ck_6952c756 -->
+- [ ] Reformat CalendarPopover.jsx to match App.jsx (multi-line JSX, one statement per line) <!-- longclaw:item=ck_ddc43aa2 -->
 
 ## Activity
 
@@ -388,4 +389,46 @@ changes:
 ### claude-code updated this ticket
 
 Masthead tagline removed (requested 2026-10-31). Its span leaves RedesignHeader, and the .brand-note rules (including the divider beside the logo and the phone hide rule) leave styles.css. This also fixes the pinned toolbar overlapping the tagline on scroll. Ledger's Header component and the UI kit keep their tagline prop, unchanged. Web tests 58/58, build OK, test_design_system OK.
+<!-- /longclaw:event -->
+
+<!-- longclaw:event
+id: evt_119604f8
+kind: update
+occurred_at: 2026-10-31T08:06:58.530Z
+actor:
+  type: agent
+  id: claude-code
+changes:
+  - field: checklist.ck_1dc6183d.checked
+    from: "false"
+    to: "true"
+-->
+### claude-code updated this ticket
+
+PR #43 review (Grok agent, 2026-10-31), what was addressed:
+- Required, done: the JS toolbar dock is gone, along with the scroll and resize listeners, the ResizeObserver, the 1000/52/40 thresholds and the inline left/width. Above 1000px, .redesign .toolbar-slot is now position:sticky at top:var(--redesign-header), z-index 30 (under the masthead's 40), on the paper background. It stays under the masthead at the column's exact width, and the filter panel hangs from it with its existing position:absolute; top:100%. Checked at 1050 and 1440px after scrolling: masthead 0-52, toolbar 52-110, same left/right as the feed, and the panel's right edge matches the toolbar's.
+- Regression test: tests/test_design_system.py ToolbarTests checks that the slot is sticky at --redesign-header, that it sits under the masthead's z-index, that the masthead height equals --redesign-header, and that nothing docks it from JS.
+- Optional, done: the edition bar no longer gets itemCount, so the font-size:0 '· 32 items' is out of the date button's accessible name. The count is visible in the toolbar now.
+- Optional, left for a decision: the hidden h1 instead of a visible date h1 came from the toolbar request. The rule file .claude/rules/design-system.md still states the pre-redesign non-negotiables (one accent, no shadows or gradients); whether to rewrite it is a design call.
+- Nit, open: reformatting Redesign.jsx and CalendarPopover.jsx (item 'reformat Redesign.jsx').
+Ran: web 58/58, design-system 15/15, Python suite OK (5 skipped live), build OK, git diff --check clean.
+<!-- /longclaw:event -->
+
+<!-- longclaw:event
+id: evt_82c2542e
+kind: update
+occurred_at: 2026-11-01T00:39:52.886Z
+actor:
+  type: agent
+  id: claude-code
+changes:
+  - field: checklist.ck_6537a72a.checked
+    from: "false"
+    to: "true"
+  - field: checklist.ck_ddc43aa2.added
+    to: Reformat CalendarPopover.jsx to match App.jsx (multi-line JSX, one statement per line)
+-->
+### claude-code updated this ticket
+
+Decided 2026-11-01: no visible date h1. The page keeps the visually hidden h1 ('aiBytes_ edition, <full date>'), and the date shows only in the toolbar's date picker. The 'restore the date in the h1' item is closed as won't-do. Reformatting is now two items: Redesign.jsx (existing) and CalendarPopover.jsx (new).
 <!-- /longclaw:event -->
